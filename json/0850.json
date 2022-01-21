@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 850,
+		"galar_dex": 159
+	},
+	"name": {
+		"en": "Sizzlipede",
+		"jp": "ヤクデ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Radiator Pokémon",
+		"type_id": [13, 5],
+		"type": ["fire", "bug"],
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": "White Smoke",
+			"hidden_ability": "Flame Body"
+		}
+	}
+}

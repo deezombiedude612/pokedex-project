@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 113,
+		"galar_isle_of_armor": 7
+	},
+	"name": {
+		"en": "Chansey",
+		"jp": "ラッキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Egg Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": "Serene Grace",
+			"hidden_ability": "Healer"
+		}
+	}
+}

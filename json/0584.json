@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 584,
+		"galar_dex": 74
+	},
+	"name": {
+		"en": "Vanilluxe",
+		"jp": "バイバニラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Snowstorm Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Ice Body",
+			"ability_2": "Snow Warning",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

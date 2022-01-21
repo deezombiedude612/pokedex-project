@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 864,
+		"galar_dex": 237
+	},
+	"name": {
+		"en": "Cursola",
+		"jp": "サニゴーン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Coral Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Weak Armor",
+			"ability_2": false,
+			"hidden_ability": "Perish Body"
+		}
+	}
+}

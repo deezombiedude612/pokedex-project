@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 181
+	},
+	"name": {
+		"en": "Ampharos",
+		"jp": "デンリュウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Light Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Static",
+			"ability_2": false,
+			"hidden_ability": "Plus"
+		}
+	},
+	"mega": {
+		"desc": "Light Pokémon",
+		"type_id": [7, 0],
+		"type": ["electric", "dragon"],
+		"ability": "Mold Breaker",
+		"mega_stone": "Ampharosite"
+	}
+}

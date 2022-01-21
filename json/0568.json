@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 568,
+		"galar_dex": 157
+	},
+	"name": {
+		"en": "Trubbish",
+		"jp": "ヤブクロン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Trash Bag Pokémon",
+		"type_id": [4, -1],
+		"type": ["poison"],
+		"abilities": {
+			"ability_1": "Stench",
+			"ability_2": "Sticky Hold",
+			"hidden_ability": "Aftermath"
+		}
+	}
+}

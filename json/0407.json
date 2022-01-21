@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 407,
+		"galar_dex": 61
+	},
+	"name": {
+		"en": "Roserade",
+		"jp": "ロズレイド"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bouquet Pokémon",
+		"type_id": [9, 4],
+		"type": ["grass", "poison"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": "Poison Point",
+			"hidden_ability": "Technician"
+		}
+	}
+}

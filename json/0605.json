@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 605,
+		"galar_dex": 277
+	},
+	"name": {
+		"en": "Elgyem",
+		"jp": "リグレー"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Cerebral Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Telepathy",
+			"ability_2": "Synchronize",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 286
+	},
+	"name": {
+		"en": "Breloom",
+		"jp": "キノガッサ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mushroom Pokémon",
+		"type_id": [9, 14],
+		"type": ["grass", "fighting"],
+		"abilities": {
+			"ability_1": "Effect Spore",
+			"ability_2": "Poison Heal",
+			"hidden_ability": "Technician"
+		}
+	}
+}

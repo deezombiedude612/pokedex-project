@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 666
+	},
+	"name": {
+		"en": "Vivillon",
+		"jp": "ビビヨン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scale Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"abilities": {
+			"ability_1": "Shield Dust",
+			"ability_2": "Compound Eyes",
+			"hidden_ability": "Friend Guard"
+		}
+	}
+}

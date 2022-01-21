@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 598,
+		"galar_dex": 190
+	},
+	"name": {
+		"en": "Ferrothorn",
+		"jp": "ナットレイ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Thorn Pod Pokémon",
+		"type_id": [9, 15],
+		"type": ["grass", "steel"],
+		"abilities": {
+			"ability_1": "Iron Barbs",
+			"ability_2": false,
+			"hidden_ability": "Anticipation"
+		}
+	}
+}

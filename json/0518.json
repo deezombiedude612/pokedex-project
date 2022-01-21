@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 518,
+		"galar_dex": 91
+	},
+	"name": {
+		"en": "Musharna",
+		"jp": "ムシャーナ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Drowsing Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Forewarn",
+			"ability_2": "Synchronize",
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

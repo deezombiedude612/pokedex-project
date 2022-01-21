@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 822,
+		"galar_dex": 22
+	},
+	"name": {
+		"en": "Corvisquire",
+		"jp": "アオガラス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Raven Pokémon",
+		"type_id": [3, -1],
+		"type": ["flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Unnerve",
+			"hidden_ability": "Big Pecks"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 121,
+		"galar_isle_of_armor": 99
+	},
+	"name": {
+		"en": "Starmie",
+		"jp": "スターミー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mysterious Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Illuminate",
+			"ability_2": "Natural Cure",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

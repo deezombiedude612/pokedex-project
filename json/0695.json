@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 695,
+		"galar_dex": 319
+	},
+	"name": {
+		"en": "Heliolisk",
+		"jp": "エレザード"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Generator Pokémon",
+		"type_id": [7, 12],
+		"type": ["electric", "normal"],
+		"abilities": {
+			"ability_1": "Dry Skin",
+			"ability_2": "Sand Veil",
+			"hidden_ability": "Solar Power"
+		}
+	}
+}

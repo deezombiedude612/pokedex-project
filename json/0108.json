@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 108,
+		"galar_isle_of_armor": 54
+	},
+	"name": {
+		"en": "Lickitung",
+		"jp": "ベロリンガ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Licking Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": "Oblivious",
+			"hidden_ability": "Cloud Nine"
+		}
+	}
+}

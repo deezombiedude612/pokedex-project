@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 637,
+		"galar_isle_of_armor": 187
+	},
+	"name": {
+		"en": "Volcarona",
+		"jp": "ウルがオス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sun Pokémon",
+		"type_id": [5, 13],
+		"type": ["bug", "fire"],
+		"abilities": {
+			"ability_1": "Flame Body",
+			"ability_2": false,
+			"hidden_ability": "Swarm"
+		}
+	}
+}

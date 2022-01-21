@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 446,
+		"galar_dex": 260
+	},
+	"name": {
+		"en": "Munchlax",
+		"jp": "ゴンベ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Big Eater Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Thick Fat",
+			"hidden_ability": "Gluttony"
+		}
+	}
+}

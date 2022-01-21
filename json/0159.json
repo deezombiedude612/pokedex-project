@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 159
+	},
+	"name": {
+		"en": "Croconaw",
+		"jp": "アリゲイツ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Big Jaw Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 403,
+		"galar_isle_of_armor": 25
+	},
+	"name": {
+		"en": "Shinx",
+		"jp": "コリンク"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Flash Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Rivalry",
+			"ability_2": "Intimidate",
+			"hidden_ability": "Guts"
+		}
+	}
+}

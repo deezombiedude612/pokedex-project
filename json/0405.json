@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 405,
+		"galar_isle_of_armor": 27
+	},
+	"name": {
+		"en": "Luxray",
+		"jp": "レントラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Gleam Eyes Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Rivalry",
+			"ability_2": "Intimidate",
+			"hidden_ability": "Guts"
+		}
+	}
+}

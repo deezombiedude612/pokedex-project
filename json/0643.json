@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 643
+	},
+	"name": {
+		"en": "Reshiram",
+		"jp": "レシラム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Vast White Pokémon",
+		"type_id": [0, 13],
+		"type": ["dragon", "fire"],
+		"abilities": {
+			"ability_1": "Turboblaze",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 511
+	},
+	"name": {
+		"en": "Pansage",
+		"jp": "ヤナップ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Grass Monkey Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Gluttony",
+			"ability_2": false,
+			"hidden_ability": "Overgrow"
+		}
+	}
+}

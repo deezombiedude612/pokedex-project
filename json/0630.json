@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 630,
+		"galar_dex": 284,
+		"galar_isle_of_armor": 182
+	},
+	"name": {
+		"en": "Mandibuzz",
+		"jp": "バルジーナ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bone Vulture Pokémon",
+		"type_id": [10, 3],
+		"type": ["dark", "flying"],
+		"abilities": {
+			"ability_1": "Big Pecks",
+			"ability_2": "Overcoat",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

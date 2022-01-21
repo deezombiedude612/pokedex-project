@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 415,
+		"galar_dex": 116,
+		"galar_isle_of_armor": 203
+	},
+	"name": {
+		"en": "Combee",
+		"jp": "ミツハニー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Bee Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"abilities": {
+			"ability_1": "Honey Gather",
+			"ability_2": false,
+			"hidden_ability": "Hustle"
+		}
+	}
+}

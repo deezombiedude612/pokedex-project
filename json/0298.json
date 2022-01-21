@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 298,
+		"galar_isle_of_armor": 139
+	},
+	"name": {
+		"en": "Azurill",
+		"jp": "ルリリ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Polka Dot Pokémon",
+		"type_id": [12, 17],
+		"type": ["normal", "fairy"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Huge Power",
+			"hidden_ability": "Sap Sipper"
+		}
+	}
+}

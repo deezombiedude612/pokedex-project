@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 257
+	},
+	"name": {
+		"en": "Blaziken",
+		"jp": "バシャーモ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Blaze Pokémon",
+		"type_id": [13, 14],
+		"type": ["fire", "fighting"],
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Speed Boost"
+		}
+	},
+	"mega": {
+		"desc": "Blaze Pokémon",
+		"type_id": [13, 14],
+		"type": ["fire", "fighting"],
+		"ability": "Speed Boost",
+		"mega_stone": "Blazikenite"
+	}
+}

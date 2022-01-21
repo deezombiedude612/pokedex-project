@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 10,
+		"galar_dex": 13
+	},
+	"name": {
+		"en": "Caterpie",
+		"jp": "キャタピラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Worm Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Shield Dust",
+			"ability_2": false,
+			"hidden_ability": "Run Away"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 278,
+		"galar_dex": 62,
+		"galar_isle_of_armor": 48
+	},
+	"name": {
+		"en": "Wingull",
+		"jp": "キャモメ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Seagull Pokémon",
+		"type_id": [6, 3],
+		"type": ["water", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Hydration",
+			"hidden_ability": "Rain Dish"
+		}
+	}
+}

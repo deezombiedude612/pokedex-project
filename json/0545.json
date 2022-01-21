@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 545,
+		"galar_isle_of_armor": 76
+	},
+	"name": {
+		"en": "Scolipede",
+		"jp": "ペンドラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Megapede Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"abilities": {
+			"ability_1": "Poison Point",
+			"ability_2": "Swarm",
+			"hidden_ability": "Speed Boost"
+		}
+	}
+}

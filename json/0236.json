@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 236,
+		"galar_dex": 107
+	},
+	"name": {
+		"en": "Tyrogue",
+		"jp": "バルキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scuffle Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Guts",
+			"ability_2": "Steadfast",
+			"hidden_ability": "Vital Spirit"
+		}
+	}
+}

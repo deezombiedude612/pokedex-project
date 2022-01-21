@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 255
+	},
+	"name": {
+		"en": "Torchic",
+		"jp": "アチャモ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Chick Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Speed Boost"
+		}
+	}
+}

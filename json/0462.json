@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 462,
+		"galar_isle_of_armor": 107
+	},
+	"name": {
+		"en": "Magnezone",
+		"jp": "ジバコイル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [7, 15],
+		"type": ["electric", "steel"],
+		"abilities": {
+			"ability_1": "Magnet Pull",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

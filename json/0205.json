@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 205
+	},
+	"name": {
+		"en": "Forretress",
+		"jp": "フォレトス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bagworm Pokémon",
+		"type_id": [5, 15],
+		"type": ["bug", "steel"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": false,
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

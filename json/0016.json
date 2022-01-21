@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 16
+	},
+	"name": {
+		"en": "Pidgey",
+		"jp": "ポッポ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Bird Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Tangled Feet",
+			"hidden_ability": "Big Pecks"
+		}
+	}
+}

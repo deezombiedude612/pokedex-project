@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 48
+	},
+	"name": {
+		"en": "Venonat",
+		"jp": "コンパン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Insect Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"abilities": {
+			"ability_1": "Compound Eyes",
+			"ability_2": "Tinted Lens",
+			"hidden_ability": "Run Away"
+		}
+	}
+}

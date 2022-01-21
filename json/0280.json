@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 280,
+		"galar_dex": 120,
+		"galar_isle_of_armor": 34
+	},
+	"name": {
+		"en": "Raltz",
+		"jp": "ラルトス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Feeling Pokémon",
+		"type_id": [16, 17],
+		"type": ["psychic", "fairy"],
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": "Trace",
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

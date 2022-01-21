@@ -1,0 +1,38 @@
+{
+	"id": {
+		"national": 80,
+		"galar_isle_of_armor": 2
+	},
+	"name": {
+		"en": "Slowbro",
+		"jp": "ヤドラン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hermit Crab Pokémon",
+		"type_id": [6, 16],
+		"type": ["water", "psychic"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Regenerator"
+		}
+	},
+	"mega": {
+		"desc": "Hermit Crab Pokémon",
+		"type_id": [6, 16],
+		"type": ["water", "psychic"],
+		"ability": "Shell Armor",
+		"mega_stone": "Slowbronite"
+	},
+	"galar_variant": {
+		"desc": "Hermit Crab Pokémon",
+		"type_id": [4, 16],
+		"type": ["poison", "psychic"],
+		"abilities": {
+			"ability_1": "Quick Draw",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

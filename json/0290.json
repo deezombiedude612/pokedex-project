@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 290,
+		"galar_dex": 104
+	},
+	"name": {
+		"en": "Nincada",
+		"jp": "ツチニン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Trainee Pokémon",
+		"type_id": [5, 2],
+		"type": ["bug", "ground"],
+		"abilities": {
+			"ability_1": "Compound Eyes",
+			"ability_2": false,
+			"hidden_ability": "Run Away"
+		}
+	}
+}

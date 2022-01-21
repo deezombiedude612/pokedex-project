@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 82,
+		"galar_isle_of_armor": 106
+	},
+	"name": {
+		"en": "Magneton",
+		"jp": "レアコイル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Magnet Pokémon",
+		"type_id": [7, 15],
+		"type": ["electric", "steel"],
+		"abilities": {
+			"ability_1": "Magnet Pull",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

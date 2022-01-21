@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 44,
+		"galar_dex": 56
+	},
+	"name": {
+		"en": "Gloom",
+		"jp": "クサイハナ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Weed Pokémon",
+		"type_id": [9, 4],
+		"type": ["grass", "poison"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": false,
+			"hidden_ability": "Stench"
+		}
+	}
+}

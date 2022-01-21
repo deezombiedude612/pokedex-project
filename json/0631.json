@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 631,
+		"galar_dex": 317
+	},
+	"name": {
+		"en": "Heatmor",
+		"jp": "クイタラン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Anteater Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Gluttony",
+			"ability_2": "Flash Fire",
+			"hidden_ability": "White Smoke"
+		}
+	}
+}

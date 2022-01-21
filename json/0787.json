@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 787
+	},
+	"name": {
+		"en": "Tapu Bulu",
+		"jp": "カプ・ブルル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Land Spirit Pokémon",
+		"type_id": [9, 17],
+		"type": ["grass", "fairy"],
+		"exclusive_z": {
+			"excl_z_move": "Guardian of Alola",
+			"excl_z_move_type_id": 17,
+			"excl_z_move_type": "fairy",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Tapunium Z",
+			"excl_z_required_move": "Nature's Madness"
+		},
+		"abilities": {
+			"ability_1": "Grassy Surge",
+			"ability_2": false,
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

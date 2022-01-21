@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 22
+	},
+	"name": {
+		"en": "Fearow",
+		"jp": "オニドリル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Beak Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": false,
+			"hidden_ability": "Sniper"
+		}
+	}
+}

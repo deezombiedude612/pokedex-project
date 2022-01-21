@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 357
+	},
+	"name": {
+		"en": "Tropius",
+		"jp": "トロピウス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fruit Pokémon",
+		"type_id": [9, 3],
+		"type": ["grass", "flying"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Solar Power",
+			"hidden_ability": "Harvest"
+		}
+	}
+}

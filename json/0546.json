@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 546,
+		"galar_dex": 262
+	},
+	"name": {
+		"en": "Cottonee",
+		"jp": "モンメン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cotton Puff Pokémon",
+		"type_id": [9, 17],
+		"type": ["grass", "fairy"],
+		"abilities": {
+			"ability_1": "Prankster",
+			"ability_2": "Infiltrator",
+			"hidden_ability": "Chlorophyll"
+		}
+	}
+}

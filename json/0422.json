@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 422,
+		"galar_dex": 230
+	},
+	"name": {
+		"en": "Shellos",
+		"jp": "カラナクシ"
+	},
+	"baby": true,
+	"west_sea": {
+		"desc": "Sea Slug Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Sticky Hold",
+			"ability_2": "Storm Drain",
+			"hidden_ability": "Sand Force"
+		}
+	},
+	"east_sea": {
+		"desc": "Sea Slug Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Sticky Hold",
+			"ability_2": "Storm Drain",
+			"hidden_ability": "Sand Force"
+		}
+	}
+}

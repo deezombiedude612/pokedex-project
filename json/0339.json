@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 339,
+		"galar_dex": 228,
+		"galar_isle_of_armor": 137
+	},
+	"name": {
+		"en": "Barboach",
+		"jp": "ドジョッチ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Whiskers Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Anticipation",
+			"hidden_ability": "Hydration"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 885,
+		"galar_dex": 395
+	},
+	"name": {
+		"en": "Dreepy",
+		"jp": "ドラメシヤ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lingering Pokémon",
+		"type_id": [0, 1],
+		"type": ["dragon", "ghost"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": "Infiltrator",
+			"hidden_ability": "Cursed Body"
+		}
+	}
+}

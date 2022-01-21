@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 303,
+		"galar_dex": 295
+	},
+	"name": {
+		"en": "Mawile",
+		"jp": "クチート"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Deceiver Pokémon",
+		"type_id": [15, 17],
+		"type": ["steel", "fairy"],
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Intimidate",
+			"hidden_ability": "Sheer Force"
+		}
+	},
+	"mega": {
+		"desc": "Deceiver Pokémon",
+		"type_id": [15, 17],
+		"type": ["steel", "fairy"],
+		"ability": "Huge Power",
+		"mega_stone": "Mawilite"
+	}
+}

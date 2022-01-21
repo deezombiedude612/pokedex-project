@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 617,
+		"galar_dex": 276,
+		"galar_isle_of_armor": 65
+	},
+	"name": {
+		"en": "Accelgor",
+		"jp": "アギルダー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Shell Out Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Hydration",
+			"ability_2": "Sticky Hold",
+			"hidden_ability": "Unburden"
+		}
+	}
+}

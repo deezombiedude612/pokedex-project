@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 398
+	},
+	"name": {
+		"en": "Staraptor",
+		"jp": "ムクホーク"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Predator Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": false,
+			"hidden_ability": "Reckless"
+		}
+	}
+}

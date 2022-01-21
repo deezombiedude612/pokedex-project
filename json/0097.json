@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 97
+	},
+	"name": {
+		"en": "Hypno",
+		"jp": "スリーパー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hypnosis Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Insomnia",
+			"ability_2": "Forewarn",
+			"hidden_ability": "Inner Focus"
+		}
+	}
+}

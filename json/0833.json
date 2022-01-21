@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 833,
+		"galar_dex": 42,
+		"galar_isle_of_armor": 56
+	},
+	"name": {
+		"en": "Chewtle",
+		"jp": "カムカメ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Snapping Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Strong Jaw",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Swift Swim"
+		}
+	}
+}

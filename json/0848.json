@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 848,
+		"galar_dex": 310
+	},
+	"name": {
+		"en": "Toxel",
+		"jp": "エレズン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Baby Pokémon",
+		"type_id": [7, 4],
+		"type": ["electric", "poison"],
+		"abilities": {
+			"ability_1": "Rattled",
+			"ability_2": "Static",
+			"hidden_ability": "Klutz"
+		}
+	}
+}

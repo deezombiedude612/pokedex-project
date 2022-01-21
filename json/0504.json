@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 504
+	},
+	"name": {
+		"en": "Patrat",
+		"jp": "ミネズミ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scout Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

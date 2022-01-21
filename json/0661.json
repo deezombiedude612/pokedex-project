@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 661,
+		"galar_isle_of_armor": 22
+	},
+	"name": {
+		"en": "Fletchling",
+		"jp": "ヤヤコマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Robin Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Big Pecks",
+			"ability_2": false,
+			"hidden_ability": "Gale Wings"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 265
+	},
+	"name": {
+		"en": "Wurmple",
+		"jp": "ケムッソ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Worm Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Shield Dust",
+			"ability_2": false,
+			"hidden_ability": "Run Away"
+		}
+	}
+}

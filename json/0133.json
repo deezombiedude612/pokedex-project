@@ -1,0 +1,34 @@
+{
+	"id": {
+		"national": 133,
+		"galar_dex": 196
+	},
+	"name": {
+		"en": "Eevee",
+		"jp": "イーブイ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Evolution Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"exclusive_z": {
+			"excl_z_move": "Extreme Evoboost",
+			"excl_z_move_type_id": 12,
+			"excl_z_move_type": "normal",
+			"excl_z_move_category": "status",
+			"excl_z_crystal": "Eevium Z",
+			"excl_z_required_move": "Last Resort"
+		},
+		"g_max": {
+			"g_max_move": "G-Max Cuddle",
+			"g_max_type_id": 12,
+			"g_max_type": "normal"
+		},
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Adaptability",
+			"hidden_ability": "Anticipation"
+		}
+	}
+}

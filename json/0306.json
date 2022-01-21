@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 306
+	},
+	"name": {
+		"en": "Aggron",
+		"jp": "ボスゴドラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iron Armor Pokémon",
+		"type_id": [15, 8],
+		"type": ["steel", "rock"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Rock Head",
+			"hidden_ability": "Heavy Metal"
+		}
+	},
+	"mega": {
+		"desc": "Iron Armor Pokémon",
+		"type_id": [15, 8],
+		"type": ["steel", "rock"],
+		"ability": "Filter",
+		"mega_stone": "Aggronite"
+	}
+}

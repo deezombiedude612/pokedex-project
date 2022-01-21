@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 860,
+		"galar_dex": 239
+	},
+	"name": {
+		"en": "Morgrem",
+		"jp": "ギモー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Devious Pokémon",
+		"type_id": [10, 17],
+		"type": ["dark", "fairy"],
+		"abilities": {
+			"ability_1": "Prankster",
+			"ability_2": "Frisk",
+			"hidden_ability": "Pickpocket"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 668
+	},
+	"name": {
+		"en": "Pyroar",
+		"jp": "カエンジシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Royal Pokémon",
+		"type_id": [13, 12],
+		"type": ["fire", "normal"],
+		"abilities": {
+			"ability_1": "Rivalry",
+			"ability_2": "Unnerve",
+			"hidden_ability": "Moxie"
+		}
+	}
+}

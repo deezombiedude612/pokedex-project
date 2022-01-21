@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 453,
+		"galar_dex": 222,
+		"galar_isle_of_armor": 82
+	},
+	"name": {
+		"en": "Croagunk",
+		"jp": "グレッグル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Toxic Mouth Pokémon",
+		"type_id": [4, 14],
+		"type": ["poison", "fighting"],
+		"abilities": {
+			"ability_1": "Anticipation",
+			"ability_2": "Dry Skin",
+			"hidden_ability": "Poison Touch"
+		}
+	}
+}

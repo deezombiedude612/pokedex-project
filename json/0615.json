@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 615
+	},
+	"name": {
+		"en": "Cryogonal",
+		"jp": "フリージオ"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Crystallizing Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

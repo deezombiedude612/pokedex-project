@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 293,
+		"galar_isle_of_armor": 148
+	},
+	"name": {
+		"en": "Whismur",
+		"jp": "ゴニョニョ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Whisper Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Soundproof",
+			"ability_2": false,
+			"hidden_ability": "Rattled"
+		}
+	}
+}

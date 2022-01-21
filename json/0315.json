@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 315,
+		"galar_dex": 60
+	},
+	"name": {
+		"en": "Roselia",
+		"jp": "ロゼリア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Thorn Pokémon",
+		"type_id": [9, 4],
+		"type": ["grass", "poison"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": "Poison Point",
+			"hidden_ability": "Leaf Guard"
+		}
+	}
+}

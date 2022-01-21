@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 310,
+		"galar_dex": 67
+	},
+	"name": {
+		"en": "Manectric",
+		"jp": "ライボルト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Discharge Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Static",
+			"ability_2": "Lightning Rod",
+			"hidden_ability": "Minus"
+		}
+	},
+	"mega": {
+		"desc": "Discharge Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"ability": "Intimidate",
+		"mega_stone": "Manectite"
+	}
+}

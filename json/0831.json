@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 831,
+		"galar_dex": 34
+	},
+	"name": {
+		"en": "Wooloo",
+		"jp": "ウールー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sheep Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Fluffy",
+			"ability_2": "Run Away",
+			"hidden_ability": "Bulletproof"
+		}
+	}
+}

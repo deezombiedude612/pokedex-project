@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 876,
+		"galar_dex": 337
+	},
+	"name": {
+		"en": "Indeedee",
+		"jp": "イエッサン"
+	},
+	"baby": false,
+	"default_f": {
+		"desc": "Emotion Pokémon",
+		"type_id": [16, 12],
+		"type": ["psychic", "normal"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": "Synchronize",
+			"hidden_ability": "Psychic Surge"
+		}
+	},
+	"default_m": {
+		"desc": "Emotion Pokémon",
+		"type_id": [16, 12],
+		"type": ["psychic", "normal"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": "Synchronize",
+			"hidden_ability": "Psychic Surge"
+		}
+	}
+}

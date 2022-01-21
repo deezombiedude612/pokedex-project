@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 784,
+		"galar_dex": 394,
+		"galar_isle_of_armor": 167
+	},
+	"name": {
+		"en": "Kommo-o",
+		"jp": "ジャラランガ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scaly Pokémon",
+		"type_id": [0, 14],
+		"type": ["dragon", "fighting"],
+		"exclusive_z": {
+			"excl_z_move": "Clangorous Soulblaze",
+			"excl_z_move_type_id": 0,
+			"excl_z_move_type": "dragon",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Kommonium Z",
+			"excl_z_required_move": "Clanging Scales",
+			"excl_z_power": 185
+		},
+		"abilities": {
+			"ability_1": "Bulletproof",
+			"ability_2": "Soundproof",
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

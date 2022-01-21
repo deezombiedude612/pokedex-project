@@ -1,0 +1,30 @@
+{
+	"id": {
+		"national": 144
+	},
+	"name": {
+		"en": "Articuno",
+		"jp": "フリーザー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Freeze Pokémon",
+		"type_id": [11, 3],
+		"type": ["ice", "flying"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Snow Cloak"
+		}
+	},
+	"galar_variant": {
+		"desc": "Cruel Pokémon",
+		"type_id": [16, 3],
+		"type": ["psychic", "flying"],
+		"abilities": {
+			"ability_1": "Competitive",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

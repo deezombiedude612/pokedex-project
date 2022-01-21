@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 735
+	},
+	"name": {
+		"en": "Gumshoos",
+		"jp": "デカグース"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Stakeout Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Stakeout",
+			"ability_2": "Strong Jaw",
+			"hidden_ability": "Adaptability"
+		}
+	}
+}

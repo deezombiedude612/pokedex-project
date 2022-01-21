@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 835,
+		"galar_dex": 46
+	},
+	"name": {
+		"en": "Yamper",
+		"jp": "ワンパチ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Puppy Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Ball Fetch",
+			"ability_2": false,
+			"hidden_ability": "Rattled"
+		}
+	}
+}

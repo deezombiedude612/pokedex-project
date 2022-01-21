@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 763,
+		"galar_dex": 54
+	},
+	"name": {
+		"en": "Tsareena",
+		"jp": "アマジョ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fruit Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Leaf Guard",
+			"ability_2": "Queenly Majesty",
+			"hidden_ability": "Sweet Veil"
+		}
+	}
+}

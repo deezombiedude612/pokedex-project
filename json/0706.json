@@ -1,0 +1,32 @@
+{
+	"id": {
+		"national": 706,
+		"galar_dex": 391,
+		"galar_isle_of_armor": 62
+	},
+	"name": {
+		"en": "Goodra",
+		"jp": "ヌメルゴン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dragon Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Sap Sipper",
+			"ability_2": "Hydration",
+			"hidden_ability": "Gooey"
+		}
+	},
+	"hisui_variant": {
+		"desc": "Dragon Pokémon",
+		"type_id": [0, 15],
+		"type": ["dragon", "steel"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

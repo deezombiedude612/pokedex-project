@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 632,
+		"galar_dex": 316
+	},
+	"name": {
+		"en": "Durant",
+		"jp": "アイアント"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iron Ant Pokémon",
+		"type_id": [5, 15],
+		"type": ["bug", "steel"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Hustle",
+			"hidden_ability": "Truant"
+		}
+	}
+}

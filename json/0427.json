@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 427,
+		"galar_isle_of_armor": 4
+	},
+	"name": {
+		"en": "Buneary",
+		"jp": "ミミロル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rabbit Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Klutz",
+			"hidden_ability": "Limber"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 575,
+		"galar_dex": 268
+	},
+	"name": {
+		"en": "Gothorita",
+		"jp": "ゴチミル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Manipulate Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Frisk",
+			"ability_2": "Competitive",
+			"hidden_ability": "Shadow Tag"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 667
+	},
+	"name": {
+		"en": "Litleo",
+		"jp": "シシコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lion Cub Pokémon",
+		"type_id": [13, 12],
+		"type": ["fire", "normal"],
+		"abilities": {
+			"ability_1": "Rivalry",
+			"ability_2": "Unnerve",
+			"hidden_ability": "Moxie"
+		}
+	}
+}

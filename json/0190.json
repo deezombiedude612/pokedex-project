@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 190
+	},
+	"name": {
+		"en": "Aipom",
+		"jp": "エイパム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Long Tail Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Pickup",
+			"hidden_ability": "Skill Link"
+		}
+	}
+}

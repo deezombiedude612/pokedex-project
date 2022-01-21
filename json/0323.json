@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 323
+	},
+	"name": {
+		"en": "Camerupt",
+		"jp": "バクーダ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Eruption Pokémon",
+		"type_id": [13, 2],
+		"type": ["fire", "ground"],
+		"abilities": {
+			"ability_1": "Magma Armor",
+			"ability_2": "Solid Rock",
+			"hidden_ability": "Anger Point"
+		}
+	},
+	"mega": {
+		"desc": "Eruption Pokémon",
+		"type_id": [13, 2],
+		"type": ["fire", "ground"],
+		"ability": "Sheer Force",
+		"mega_stone": "Cameruptite"
+	}
+}

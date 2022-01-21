@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 458,
+		"galar_dex": 354,
+		"galar_isle_of_armor": 46
+	},
+	"name": {
+		"en": "Mantyke",
+		"jp": "タマンタ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Kite Pokémon",
+		"type_id": [6, 3],
+		"type": ["water", "flying"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Water Absorb",
+			"hidden_ability": "Water Veil"
+		}
+	}
+}

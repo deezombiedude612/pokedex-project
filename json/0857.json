@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 857,
+		"galar_dex": 242
+	},
+	"name": {
+		"en": "Hattrem",
+		"jp": "テブリム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Serene Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Healer",
+			"ability_2": "Anticipation",
+			"hidden_ability": "Magic Bounce"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 263,
+		"galar_dex": 31
+	},
+	"name": {
+		"en": "Zigzagoon",
+		"jp": "ジグザグマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Racoon Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Quick Feet"
+		}
+	},
+	"galar_variant": {
+		"desc": "Tiny Racoon Pokémon",
+		"type_id": [10, 12],
+		"type": ["dark", "normal"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Quick Feet"
+		}
+	}
+}

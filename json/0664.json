@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 664
+	},
+	"name": {
+		"en": "Scatterbug",
+		"jp": "コフキムシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scatterdust Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Shield Dust",
+			"ability_2": "Compound Eyes",
+			"hidden_ability": "Friend Guard"
+		}
+	}
+}

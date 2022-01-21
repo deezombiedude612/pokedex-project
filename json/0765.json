@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 765,
+		"galar_dex": 342,
+		"galar_isle_of_armor": 89
+	},
+	"name": {
+		"en": "Oranguru",
+		"jp": "ヤレユータン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sage Pokémon",
+		"type_id": [12, 16],
+		"type": ["normal", "psychic"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": "Telepathy",
+			"hidden_ability": "Symbiosis"
+		}
+	}
+}

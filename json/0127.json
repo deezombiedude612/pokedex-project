@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 127,
+		"galar_isle_of_armor": 120
+	},
+	"name": {
+		"en": "Pinsir",
+		"jp": "カイロス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Stag Beetle Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Mold Breaker",
+			"hidden_ability": "Moxie"
+		}
+	},
+	"mega": {
+		"desc": "Stag Beetle Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"ability": "Aerilate",
+		"mega_stone": "Pinsirite"
+	}
+}

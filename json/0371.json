@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 371
+	},
+	"name": {
+		"en": "Bagon",
+		"jp": "タツベイ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rock Head Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": false,
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

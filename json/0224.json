@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 224,
+		"galar_dex": 149,
+		"galar_isle_of_armor": 45
+	},
+	"name": {
+		"en": "Octillery",
+		"jp": "オクタン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Jet Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Suction Cups",
+			"ability_2": "Sniper",
+			"hidden_ability": "Moody"
+		}
+	}
+}

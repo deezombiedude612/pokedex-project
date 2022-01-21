@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 368
+	},
+	"name": {
+		"en": "Gorebyss",
+		"jp": "サクラビス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "South Sea Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": false,
+			"hidden_ability": "Hydration"
+		}
+	}
+}

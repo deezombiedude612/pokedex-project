@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 557,
+		"galar_dex": 86,
+		"galar_isle_of_armor": 122
+	},
+	"name": {
+		"en": "Dwebble",
+		"jp": "イシズマイ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rock Inn Pokémon",
+		"type_id": [5, 8],
+		"type": ["bug", "rock"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

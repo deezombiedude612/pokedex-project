@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 318,
+		"galar_isle_of_armor": 111
+	},
+	"name": {
+		"en": "Carvanha",
+		"jp": "キバニア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Savage Pokémon",
+		"type_id": [6, 10],
+		"type": ["water", "dark"],
+		"abilities": {
+			"ability_1": "Rough Skin",
+			"ability_2": false,
+			"hidden_ability": "Speed Boost"
+		}
+	}
+}

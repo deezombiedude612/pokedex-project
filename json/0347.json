@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 347
+	},
+	"name": {
+		"en": "Anorith",
+		"jp": "アノプス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Old Shrimp Pokémon",
+		"type_id": [8, 5],
+		"type": ["rock", "bug"],
+		"abilities": {
+			"ability_1": "Battle Armor",
+			"ability_2": false,
+			"hidden_ability": "Swift Swim"
+		}
+	}
+}

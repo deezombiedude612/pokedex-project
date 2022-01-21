@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 61,
+		"galar_isle_of_armor": 143
+	},
+	"name": {
+		"en": "Poliwhirl",
+		"jp": "ニョロゾ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tadpole Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": "Damp",
+			"hidden_ability": "Swift Swim"
+		}
+	}
+}

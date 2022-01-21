@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 657
+	},
+	"name": {
+		"en": "Frogadier",
+		"jp": "ゲコガシラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bubble Frog Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Protean"
+		}
+	}
+}

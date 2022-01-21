@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 825,
+		"galar_dex": 11,
+		"galar_isle_of_armor": 15
+	},
+	"name": {
+		"en": "Dottler",
+		"jp": "レドームシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Radome Pokémon",
+		"type_id": [5, 16],
+		"type": ["bug", "psychic"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Compound Eyes",
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 639
+	},
+	"name": {
+		"en": "Terrakion",
+		"jp": "テラキオン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cavern Pokémon",
+		"type_id": [8, 14],
+		"type": ["rock", "fighting"],
+		"abilities": {
+			"ability_1": "Justified",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

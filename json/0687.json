@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 687,
+		"galar_dex": 291,
+		"galar_isle_of_armor": 109
+	},
+	"name": {
+		"en": "Malamar",
+		"jp": "カラマネロ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Overturning Pokémon",
+		"type_id": [10, 16],
+		"type": ["dark", "psychic"],
+		"abilities": {
+			"ability_1": "Contrary",
+			"ability_2": "Suction Cups",
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

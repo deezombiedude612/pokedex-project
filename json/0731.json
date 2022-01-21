@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 731
+	},
+	"name": {
+		"en": "Pikipek",
+		"jp": "ツツケラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Woodpecker Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Skill Link",
+			"hidden_ability": "Pickup"
+		}
+	}
+}

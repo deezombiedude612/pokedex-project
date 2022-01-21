@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 442
+	},
+	"name": {
+		"en": "Spiritomb",
+		"jp": "ミカルゲ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Forbidden Pokémon",
+		"type_id": [1, 10],
+		"type": ["ghost", "dark"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

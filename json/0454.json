@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 454,
+		"galar_dex": 223,
+		"galar_isle_of_armor": 83
+	},
+	"name": {
+		"en": "Toxicroak",
+		"jp": "ドクロッグ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Toxic Mouth Pokémon",
+		"type_id": [4, 14],
+		"type": ["poison", "fighting"],
+		"abilities": {
+			"ability_1": "Anticipation",
+			"ability_2": "Dry Skin",
+			"hidden_ability": "Poison Touch"
+		}
+	}
+}

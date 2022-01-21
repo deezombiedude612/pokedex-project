@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 448,
+		"galar_dex": 299
+	},
+	"name": {
+		"en": "Lucario",
+		"jp": "ルカリオ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Aura Pokémon",
+		"type_id": [14, 15],
+		"type": ["fighting", "steel"],
+		"abilities": {
+			"ability_1": "Steadfast",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Justified"
+		}
+	},
+	"mega": {
+		"desc": "Aura Pokémon",
+		"type_id": [14, 15],
+		"type": ["fighting", "steel"],
+		"ability": "Adaptability",
+		"mega_stone": "Lucarionite"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 445
+	},
+	"name": {
+		"en": "Garchomp",
+		"jp": "ガブリアス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mach Pokémon",
+		"type_id": [0, 2],
+		"type": ["dragon", "ground"],
+		"abilities": {
+			"ability_1": "Sand Veil",
+			"ability_2": false,
+			"hidden_ability": "Rough Skin"
+		}
+	},
+	"mega": {
+		"desc": "Mach Pokémon",
+		"type_id": [0, 2],
+		"type": ["dragon", "ground"],
+		"ability": "Sand Force",
+		"mega_stone": "Garchompite"
+	}
+}

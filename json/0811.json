@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 811,
+		"galar_dex": 2
+	},
+	"name": {
+		"en": "Thwackey",
+		"jp": "バチンキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Beat Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Grassy Surge"
+		}
+	}
+}

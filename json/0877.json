@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 877,
+		"galar_dex": 344,
+		"galar_isle_of_armor": 104
+	},
+	"name": {
+		"en": "Morpeko",
+		"jp": "モルペコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Two-Sided Pokémon",
+		"type_id": [7, 10],
+		"type": ["electric", "dark"],
+		"abilities": {
+			"ability_1": "Hunger Switch",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

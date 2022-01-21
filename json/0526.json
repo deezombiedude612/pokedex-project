@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 526,
+		"galar_dex": 170,
+		"galar_isle_of_armor": 156
+	},
+	"name": {
+		"en": "Gigalith",
+		"jp": "ギガイアス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Compressed Pokémon",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Sand Stream",
+			"hidden_ability": "Sand Force"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 715,
+		"galar_dex": 177
+	},
+	"name": {
+		"en": "Noivern",
+		"jp": "オンバーン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sound Wave Pokémon",
+		"type_id": [3, 0],
+		"type": ["flying", "dragon"],
+		"abilities": {
+			"ability_1": "Frisk",
+			"ability_2": "Infiltrator",
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

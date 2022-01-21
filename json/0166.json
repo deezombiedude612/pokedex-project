@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 166
+	},
+	"name": {
+		"en": "Ledian",
+		"jp": "レディアン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Five Star Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Early Bird",
+			"hidden_ability": "Iron Fist"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 882,
+		"galar_dex": 376
+	},
+	"name": {
+		"en": "Dracovish",
+		"jp": "ウオノラゴン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fossil Pokémon",
+		"type_id": [6, 0],
+		"type": ["water", "dragon"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": "Strong Jaw",
+			"hidden_ability": "Sand Rush"
+		}
+	}
+}

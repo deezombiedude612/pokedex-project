@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 68,
+		"galar_dex": 140
+	},
+	"name": {
+		"en": "Machamp",
+		"jp": "カイリキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Superpower Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"g_max": {
+			"g_max_move": "G-Max Chi Strike",
+			"g_max_type_id": 14,
+			"g_max_type": "fighting"
+		},
+		"abilities": {
+			"ability_1": "Guts",
+			"ability_2": "No Guard",
+			"hidden_ability": "Steadfast"
+		}
+	}
+}

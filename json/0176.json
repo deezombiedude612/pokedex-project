@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 176,
+		"galar_dex": 258
+	},
+	"name": {
+		"en": "Togetic",
+		"jp": "トゲチック"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Happiness Pokémon",
+		"type_id": [17, 3],
+		"type": ["fairy", "flying"],
+		"abilities": {
+			"ability_1": "Hustle",
+			"ability_2": "Serene Grace",
+			"hidden_ability": "Super Luck"
+		}
+	}
+}

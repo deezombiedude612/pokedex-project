@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 722
+	},
+	"name": {
+		"en": "Rowlet",
+		"jp": "モクロー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Grass Quill Pokémon",
+		"type_id": [9, 3],
+		"type": ["grass", "flying"],
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Long Reach"
+		}
+	}
+}

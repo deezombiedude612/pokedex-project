@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 124
+	},
+	"name": {
+		"en": "Jynx",
+		"jp": "ルージュラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Human Shape Pokémon",
+		"type_id": [11, 16],
+		"type": ["ice", "psychic"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Forewarn",
+			"hidden_ability": "Dry Skin"
+		}
+	}
+}

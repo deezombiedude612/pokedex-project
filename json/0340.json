@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 340,
+		"galar_dex": 229,
+		"galar_isle_of_armor": 138
+	},
+	"name": {
+		"en": "Whiscash",
+		"jp": "ナマズン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Whiskers Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Anticipation",
+			"hidden_ability": "Hydration"
+		}
+	}
+}

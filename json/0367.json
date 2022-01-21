@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 367
+	},
+	"name": {
+		"en": "Huntail",
+		"jp": "ハンテール"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Deep Sea Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": false,
+			"hidden_ability": "Water Veil"
+		}
+	}
+}

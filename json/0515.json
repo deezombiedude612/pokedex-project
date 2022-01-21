@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 515
+	},
+	"name": {
+		"en": "Panpour",
+		"jp": "ヒヤップ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Spray Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Gluttony",
+			"ability_2": false,
+			"hidden_ability": "Torrent"
+		}
+	}
+}

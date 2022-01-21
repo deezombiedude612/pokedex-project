@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 665
+	},
+	"name": {
+		"en": "Spewpa",
+		"jp": "コフーライ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scatterdust Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": false,
+			"hidden_ability": "Friend Guard"
+		}
+	}
+}

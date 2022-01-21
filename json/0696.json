@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 696
+	},
+	"name": {
+		"en": "Tyrunt",
+		"jp": "チゴラス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Royal Heir Pokémon",
+		"type_id": [8, 0],
+		"type": ["rock", "dragon"],
+		"abilities": {
+			"ability_1": "Strong Jaw",
+			"ability_2": false,
+			"hidden_ability": "Sturdy"
+		}
+	}
+}

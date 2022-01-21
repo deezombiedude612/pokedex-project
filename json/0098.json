@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 98,
+		"galar_dex": 98,
+		"galar_isle_of_armor": 38
+	},
+	"name": {
+		"en": "Krabby",
+		"jp": "クラブ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "River Crab Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

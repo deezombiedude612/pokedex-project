@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 659,
+		"galar_dex": 48
+	},
+	"name": {
+		"en": "Bunnelby",
+		"jp": "ホルビー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Digging Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Cheek Pouch",
+			"hidden_ability": "Huge Power"
+		}
+	}
+}

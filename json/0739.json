@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 739
+	},
+	"name": {
+		"en": "Crabrawler",
+		"jp": "マケンカニ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Boxing Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Iron Fist",
+			"hidden_ability": "Anger Point"
+		}
+	}
+}

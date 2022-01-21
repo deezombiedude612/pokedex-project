@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 897
+	},
+	"name": {
+		"en": "Spectrier",
+		"jp": "レイスポス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Swift Horse Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Grim Neigh",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 583,
+		"galar_dex": 73
+	},
+	"name": {
+		"en": "Vanillish",
+		"jp": "バニリッチ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Icy Snow Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Ice Body",
+			"ability_2": "Snow Cloak",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

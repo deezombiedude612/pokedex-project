@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 393
+	},
+	"name": {
+		"en": "Piplup",
+		"jp": "ポッチャマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Penguin Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Defiant"
+		}
+	}
+}

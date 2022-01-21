@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 110,
+		"galar_dex": 251
+	},
+	"name": {
+		"en": "Weezing",
+		"jp": "マタドガース"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Poison Gas Pokémon",
+		"type_id": [4, -1],
+		"type": ["poison"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": "Neutralizing Gas",
+			"hidden_ability": "Stench"
+		}
+	},
+	"galar_variant": {
+		"desc": "Poison Gas Pokémon",
+		"type_id": [4, 17],
+		"type": ["poison", "fairy"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": "Neutralizing Gas",
+			"hidden_ability": "Misty Surge"
+		}
+	}
+}

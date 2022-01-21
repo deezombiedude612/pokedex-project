@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 627,
+		"galar_dex": 281,
+		"galar_isle_of_armor": 179
+	},
+	"name": {
+		"en": "Rufflet",
+		"jp": "ワシボン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Eaglet Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Sheer Force",
+			"hidden_ability": "Hustle"
+		}
+	}
+}

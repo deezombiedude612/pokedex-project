@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 279,
+		"galar_dex": 63,
+		"galar_isle_of_armor": 49
+	},
+	"name": {
+		"en": "Pelipper",
+		"jp": "ぺリッパー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Water Bird Pokémon",
+		"type_id": [6, 3],
+		"type": ["water", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Drizzle",
+			"hidden_ability": "Rain Dish"
+		}
+	}
+}

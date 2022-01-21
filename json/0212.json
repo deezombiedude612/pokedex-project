@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 212,
+		"galar_isle_of_armor": 119
+	},
+	"name": {
+		"en": "Scizor",
+		"jp": "ハッサム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Pincer Pokémon",
+		"type_id": [5, 15],
+		"type": ["bug", "steel"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Technician",
+			"hidden_ability": "Light Metal"
+		}
+	},
+	"mega": {
+		"desc": "Pincer Pokémon",
+		"type_id": [5, 15],
+		"type": ["bug", "steel"],
+		"ability": "Technician",
+		"mega_stone": "Scizorite"
+	}
+}

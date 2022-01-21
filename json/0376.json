@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 376
+	},
+	"name": {
+		"en": "Metagross",
+		"jp": "メタグロス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iron Leg Pokémon",
+		"type_id": [15, 16],
+		"type": ["steel", "psychic"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": false,
+			"hidden_ability": "Light Metal"
+		}
+	},
+	"mega": {
+		"desc": "Iron Leg Pokémon",
+		"type_id": [15, 16],
+		"type": ["steel", "psychic"],
+		"ability": "Tough Claws",
+		"mega_stone": "Metagrossite"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 237,
+		"galar_dex": 110
+	},
+	"name": {
+		"en": "Hitmontop",
+		"jp": "カポエラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Handstand Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Technician",
+			"hidden_ability": "Steadfast"
+		}
+	}
+}

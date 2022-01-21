@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 689,
+		"galar_dex": 235
+	},
+	"name": {
+		"en": "Barbaracle",
+		"jp": "ガメノデス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Collective Pokémon",
+		"type_id": [8, 6],
+		"type": ["rock", "water"],
+		"abilities": {
+			"ability_1": "Tough Claws",
+			"ability_2": "Sniper",
+			"hidden_ability": "Pickpocket"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 592,
+		"galar_dex": 305,
+		"galar_isle_of_armor": 192
+	},
+	"name": {
+		"en": "Frillish",
+		"jp": "プルリル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Floating Pokémon",
+		"type_id": [6, 1],
+		"type": ["water", "ghost"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": "Cursed Body",
+			"hidden_ability": "Damp"
+		}
+	}
+}

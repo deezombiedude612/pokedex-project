@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 686,
+		"galar_dex": 290,
+		"galar_isle_of_armor": 108
+	},
+	"name": {
+		"en": "Inkay",
+		"jp": "マーイーカ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Revolving Pokémon",
+		"type_id": [10, 16],
+		"type": ["dark", "psychic"],
+		"abilities": {
+			"ability_1": "Contrary",
+			"ability_2": "Suction Cups",
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

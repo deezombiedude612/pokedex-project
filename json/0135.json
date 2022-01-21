@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 135,
+		"galar_dex": 198
+	},
+	"name": {
+		"en": "Jolteon",
+		"jp": "サンダース"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lightning Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Volt Absorb",
+			"ability_2": false,
+			"hidden_ability": "Quick Feet"
+		}
+	}
+}

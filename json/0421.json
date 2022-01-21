@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 421,
+		"galar_dex": 129
+	},
+	"name": {
+		"en": "Cherrim",
+		"jp": "チェリム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Blossom Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Flower Gift",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

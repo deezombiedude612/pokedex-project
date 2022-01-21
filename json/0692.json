@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 692,
+		"galar_isle_of_armor": 196
+	},
+	"name": {
+		"en": "Clauncher",
+		"jp": "ウデッポウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Water Gun Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Mega Launcher",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

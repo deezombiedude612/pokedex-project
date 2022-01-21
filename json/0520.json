@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 520,
+		"galar_dex": 27
+	},
+	"name": {
+		"en": "Tranquil",
+		"jp": "ハトーボー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Wild Pigeon Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Big Pecks",
+			"ability_2": "Super Luck",
+			"hidden_ability": "Rivalry"
+		}
+	}
+}

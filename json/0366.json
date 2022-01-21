@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 366
+	},
+	"name": {
+		"en": "Clamperl",
+		"jp": "パールル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bivalve Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Shell Armor",
+			"ability_2": false,
+			"hidden_ability": "Rattled"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 214,
+		"galar_isle_of_armor": 121
+	},
+	"name": {
+		"en": "Heracross",
+		"jp": "ヘラクロス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Single Horn Pokémon",
+		"type_id": [5, 14],
+		"type": ["bug", "fighting"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Guts",
+			"hidden_ability": "Moxie"
+		}
+	},
+	"mega": {
+		"desc": "Single Horn Pokémon",
+		"type_id": [5, 14],
+		"type": ["bug", "fighting"],
+		"ability": "Skill Link",
+		"mega_stone": "Heracronite"
+	}
+}

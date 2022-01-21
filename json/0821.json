@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 821,
+		"galar_dex": 21
+	},
+	"name": {
+		"en": "Rookidee",
+		"jp": "ココガラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Bird Pokémon",
+		"type_id": [3, -1],
+		"type": ["flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Unnerve",
+			"hidden_ability": "Big Pecks"
+		}
+	}
+}

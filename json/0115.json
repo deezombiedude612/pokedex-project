@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 115,
+		"galar_isle_of_armor": 172
+	},
+	"name": {
+		"en": "Kangaskhan",
+		"jp": "ガルーラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Parent Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Early Bird",
+			"ability_2": "Scrappy",
+			"hidden_ability": "Inner Focus"
+		}
+	},
+	"mega": {
+		"desc": "Parent Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"ability": "Parental Bond",
+		"mega_stone": "Kangaskhanite"
+	}
+}

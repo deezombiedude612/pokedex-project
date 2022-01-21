@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 510,
+		"galar_dex": 45
+	},
+	"name": {
+		"en": "Liepard",
+		"jp": "レパルダス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cruel Pokémon",
+		"type_id": [10, -1],
+		"type": ["dark"],
+		"abilities": {
+			"ability_1": "Limber",
+			"ability_2": "Unburden",
+			"hidden_ability": "Prankster"
+		}
+	}
+}

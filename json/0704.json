@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 704,
+		"galar_dex": 389,
+		"galar_isle_of_armor": 60
+	},
+	"name": {
+		"en": "Goomy",
+		"jp": "ヌメラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Soft Tissue Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Sap Sipper",
+			"ability_2": "Hydration",
+			"hidden_ability": "Gooey"
+		}
+	}
+}

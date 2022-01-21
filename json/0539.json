@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 539,
+		"galar_dex": 249
+	},
+	"name": {
+		"en": "Sawk",
+		"jp": "ダゲキ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Karate Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Mold Breaker"
+		}
+	}
+}

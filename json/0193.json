@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 193
+	},
+	"name": {
+		"en": "Yanma",
+		"jp": "ヤニャンマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Clear Wing Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"abilities": {
+			"ability_1": "Speed Boost",
+			"ability_2": "Compound Eyes",
+			"hidden_ability": "Frisk"
+		}
+	}
+}

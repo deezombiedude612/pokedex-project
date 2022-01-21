@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 207
+	},
+	"name": {
+		"en": "Gligar",
+		"jp": "グライガー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fly Scorpion Pokémon",
+		"type_id": [2, 3],
+		"type": ["ground", "flying"],
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Sand Veil",
+			"hidden_ability": "Immunity"
+		}
+	}
+}

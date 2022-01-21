@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 404,
+		"galar_isle_of_armor": 26
+	},
+	"name": {
+		"en": "Luxio",
+		"jp": "ルクシオ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Spark Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Rivalry",
+			"ability_2": "Intimidate",
+			"hidden_ability": "Guts"
+		}
+	}
+}

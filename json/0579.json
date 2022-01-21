@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 579,
+		"galar_dex": 272
+	},
+	"name": {
+		"en": "Reuniclus",
+		"jp": "ランクルス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Multiplying Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Overcoat",
+			"ability_2": "Magic Guard",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"id": {
+		"national": 641
+	},
+	"name": {
+		"en": "Tornadus",
+		"jp": "トルネロス"
+	},
+	"baby": false,
+	"incarnate_forme": {
+		"desc": "Cyclone Pokémon",
+		"type_id": [3, -1],
+		"type": ["flying"],
+		"abilities": {
+			"ability_1": "Prankster",
+			"ability_2": false,
+			"hidden_ability": "Defiant"
+		}
+	},
+	"therian_forme": {
+		"desc": "Cyclone Pokémon",
+		"type_id": [3, -1],
+		"type": ["flying"],
+		"abilities": {
+			"ability_1": "Regenerator",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

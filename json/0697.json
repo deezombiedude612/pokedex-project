@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 697
+	},
+	"name": {
+		"en": "Tyrantrum",
+		"jp": "ガチゴラス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Despot Pokémon",
+		"type_id": [8, 0],
+		"type": ["rock", "dragon"],
+		"abilities": {
+			"ability_1": "Strong Jaw",
+			"ability_2": false,
+			"hidden_ability": "Rock Head"
+		}
+	}
+}

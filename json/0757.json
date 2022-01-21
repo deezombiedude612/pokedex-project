@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 757,
+		"galar_dex": 244,
+		"galar_isle_of_armor": 159
+	},
+	"name": {
+		"en": "Salandit",
+		"jp": "ヤトウモリ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Toxic Lizard Pokémon",
+		"type_id": [4, 13],
+		"type": ["poison", "fire"],
+		"abilities": {
+			"ability_1": "Corrosion",
+			"ability_2": false,
+			"hidden_ability": "Oblivious"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 73,
+		"galar_isle_of_armor": 41
+	},
+	"name": {
+		"en": "Tentacruel",
+		"jp": "ドククラゲ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Jellyfish Pokémon",
+		"type_id": [6, 4],
+		"type": ["water", "poison"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": "Liquid Ooze",
+			"hidden_ability": "Rain Dish"
+		}
+	}
+}

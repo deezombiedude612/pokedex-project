@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 782,
+		"galar_dex": 392,
+		"galar_isle_of_armor": 165
+	},
+	"name": {
+		"en": "Jangmo-o",
+		"jp": "ジャラコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scaly Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Bulletproof",
+			"ability_2": "Soundproof",
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

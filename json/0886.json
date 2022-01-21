@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 886,
+		"galar_dex": 396
+	},
+	"name": {
+		"en": "Drakloak",
+		"jp": "ドロンチ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Caretaker Pokémon",
+		"type_id": [0, 1],
+		"type": ["dragon", "ghost"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": "Infiltrator",
+			"hidden_ability": "Cursed Body"
+		}
+	}
+}

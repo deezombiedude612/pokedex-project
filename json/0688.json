@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 688,
+		"galar_dex": 234
+	},
+	"name": {
+		"en": "Binacle",
+		"jp": "カメテテ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Two-Handed Pokémon",
+		"type_id": [8, 6],
+		"type": ["rock", "water"],
+		"abilities": {
+			"ability_1": "Tough Claws",
+			"ability_2": "Sniper",
+			"hidden_ability": "Pickpocket"
+		}
+	}
+}

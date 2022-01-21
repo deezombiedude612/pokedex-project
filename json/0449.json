@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 449,
+		"galar_dex": 314
+	},
+	"name": {
+		"en": "Hippopotas",
+		"jp": "ヒポポタス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hippo Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"abilities": {
+			"ability_1": "Sand Stream",
+			"ability_2": false,
+			"hidden_ability": "Sand Force"
+		}
+	}
+}

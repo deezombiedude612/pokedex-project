@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 373
+	},
+	"name": {
+		"en": "Salamence",
+		"jp": "ボーマンダ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dragon Pokémon",
+		"type_id": [0, 3],
+		"type": ["dragon", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": false,
+			"hidden_ability": "Moxie"
+		}
+	},
+	"mega": {
+		"desc": "Dragon Pokémon",
+		"type_id": [0, 3],
+		"type": ["dragon", "flying"],
+		"ability": "Aerilate",
+		"mega_stone": "Salamencite"
+	}
+}

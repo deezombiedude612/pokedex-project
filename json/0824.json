@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 824,
+		"galar_dex": 10,
+		"galar_isle_of_armor": 14
+	},
+	"name": {
+		"en": "Blipbug",
+		"jp": "サッチムシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Larva Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Compound Eyes",
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 614,
+		"galar_dex": 280
+	},
+	"name": {
+		"en": "Beartic",
+		"jp": "ツンベアー"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Freezing Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Snow Cloak",
+			"ability_2": "Slush Rush",
+			"hidden_ability": "Swift Swim"
+		}
+	}
+}

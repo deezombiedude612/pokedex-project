@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 222,
+		"galar_dex": 236
+	},
+	"name": {
+		"en": "Corsola",
+		"jp": "サニーゴ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Coral Pokémon",
+		"type_id": [6, 8],
+		"type": ["water", "rock"],
+		"abilities": {
+			"ability_1": "Hustle",
+			"ability_2": "Natural Cure",
+			"hidden_ability": "Regenerator"
+		}
+	},
+	"galar_variant": {
+		"desc": "Coral Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Weak Armor",
+			"ability_2": false,
+			"hidden_ability": "Cursed Body"
+		}
+	}
+}

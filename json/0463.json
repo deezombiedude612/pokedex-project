@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 463,
+		"galar_isle_of_armor": 55
+	},
+	"name": {
+		"en": "Lickilicky",
+		"jp": "べろベルト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Licking Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": "Oblivious",
+			"hidden_ability": "Cloud Nine"
+		}
+	}
+}

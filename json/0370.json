@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 370
+	},
+	"name": {
+		"en": "Luvdisc",
+		"jp": "ラブカス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rendezvous Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": false,
+			"hidden_ability": "Hydration"
+		}
+	}
+}

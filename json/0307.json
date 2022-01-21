@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 307
+	},
+	"name": {
+		"en": "Meditite",
+		"jp": "アサナン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Meditate Pokémon",
+		"type_id": [14, 16],
+		"type": ["fighting", "psychic"],
+		"abilities": {
+			"ability_1": "Pure Power",
+			"ability_2": false,
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

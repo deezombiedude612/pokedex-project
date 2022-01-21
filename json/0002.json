@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 2,
+		"galar_isle_of_armor": 69
+	},
+	"name": {
+		"en": "Ivysaur",
+		"jp": "フシギソウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Seed Pokémon",
+		"type_id": [9, 4],
+		"type": ["grass", "poison"],
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Chlorophyll"
+		}
+	}
+}

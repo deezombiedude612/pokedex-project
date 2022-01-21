@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 621,
+		"galar_isle_of_armor": 63
+	},
+	"name": {
+		"en": "Druddigon",
+		"jp": "クリムガン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cave Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Rough Skin",
+			"ability_2": "Sheer Force",
+			"hidden_ability": "Mold Breaker"
+		}
+	}
+}

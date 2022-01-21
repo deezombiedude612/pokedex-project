@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 881,
+		"galar_dex": 375
+	},
+	"name": {
+		"en": "Arctozolt",
+		"jp": "パッチルドン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fossil Pokémon",
+		"type_id": [7, 11],
+		"type": ["electric", "ice"],
+		"abilities": {
+			"ability_1": "Volt Absorb",
+			"ability_2": "Static",
+			"hidden_ability": "Slush Rush"
+		}
+	}
+}

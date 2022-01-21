@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 377
+	},
+	"name": {
+		"en": "Regirock",
+		"jp": "レジロック"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rock Peak Pokémon",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": false,
+			"hidden_ability": "Sturdy"
+		}
+	}
+}

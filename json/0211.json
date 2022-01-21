@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 211,
+		"galar_dex": 304
+	},
+	"name": {
+		"en": "Qwilfish",
+		"jp": "バリーセン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Balloon Pokémon",
+		"type_id": [6, 4],
+		"type": ["water", "poison"],
+		"abilities": {
+			"ability_1": "Poison Point",
+			"ability_2": "Swift Swim",
+			"hidden_ability": "Intimidate"
+		}
+	},
+	"hisui_variant": {
+		"desc": "Balloon Pokémon",
+		"type_id": [10, 4],
+		"type": ["dark", "poison"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

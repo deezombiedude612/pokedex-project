@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 589,
+		"galar_dex": 274,
+		"galar_isle_of_armor": 67
+	},
+	"name": {
+		"en": "Escavalier",
+		"jp": "シュバルゴ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cavalry Pokémon",
+		"type_id": [5, 15],
+		"type": ["bug", "steel"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

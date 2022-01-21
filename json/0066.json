@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 66,
+		"galar_dex": 138
+	},
+	"name": {
+		"en": "Machop",
+		"jp": "ワンリキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Superpower Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Guts",
+			"ability_2": "No Guard",
+			"hidden_ability": "Steadfast"
+		}
+	}
+}

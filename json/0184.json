@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 184,
+		"galar_isle_of_armor": 141
+	},
+	"name": {
+		"en": "Azumarill",
+		"jp": "マリルリ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Aqua Rabbit Pokémon",
+		"type_id": [6, 17],
+		"type": ["water", "fairy"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Huge Power",
+			"hidden_ability": "Sap Sipper"
+		}
+	}
+}

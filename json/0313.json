@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 313
+	},
+	"name": {
+		"en": "Volbeat",
+		"jp": "バルビート"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Firefly Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Illuminate",
+			"ability_2": "Swarm",
+			"hidden_ability": "Prankster"
+		}
+	}
+}

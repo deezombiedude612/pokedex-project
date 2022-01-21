@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 283
+	},
+	"name": {
+		"en": "Surskit",
+		"jp": "アメタマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Pond Skater Pokémon",
+		"type_id": [5, 6],
+		"type": ["bug", "water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": false,
+			"hidden_ability": "Rain Dish"
+		}
+	}
+}

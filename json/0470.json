@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 470,
+		"galar_dex": 202
+	},
+	"name": {
+		"en": "Leafeon",
+		"jp": "リーフィア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Verdant Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Leaf Guard",
+			"ability_2": false,
+			"hidden_ability": "Chlorophyll"
+		}
+	}
+}

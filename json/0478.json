@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 478,
+		"galar_dex": 81
+	},
+	"name": {
+		"en": "Froslass",
+		"jp": "ユキメノコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Snow Land Pokémon",
+		"type_id": [11, 1],
+		"type": ["ice", "ghost"],
+		"abilities": {
+			"ability_1": "Snow Cloak",
+			"ability_2": false,
+			"hidden_ability": "Cursed Body"
+		}
+	}
+}

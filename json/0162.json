@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 162
+	},
+	"name": {
+		"en": "Furret",
+		"jp": "オオタチ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Long Body Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Frisk"
+		}
+	}
+}

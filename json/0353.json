@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 353
+	},
+	"name": {
+		"en": "Shuppet",
+		"jp": "カゲボウズ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Puppet Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Insomnia",
+			"ability_2": "Frisk",
+			"hidden_ability": "Cursed Body"
+		}
+	}
+}

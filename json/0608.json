@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 608,
+		"galar_dex": 288
+	},
+	"name": {
+		"en": "Lampent",
+		"jp": "ランプラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lamp Pokémon",
+		"type_id": [1, 13],
+		"type": ["ghost", "fire"],
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": "Flame Body",
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

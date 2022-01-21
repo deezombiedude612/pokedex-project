@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 163,
+		"galar_dex": 19
+	},
+	"name": {
+		"en": "Hoothoot",
+		"jp": "ホーホー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Owl Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Insomnia",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Tinted Lens"
+		}
+	}
+}

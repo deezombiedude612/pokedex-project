@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 79,
+		"galar_isle_of_armor": 1
+	},
+	"name": {
+		"en": "Slowpoke",
+		"jp": "ヤドン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dopey Pokémon",
+		"type_id": [6, 16],
+		"type": ["water", "psychic"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Regenerator"
+		}
+	},
+	"galar_variant": {
+		"desc": "Dopey Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Gluttony",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

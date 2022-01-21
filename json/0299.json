@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 299
+	},
+	"name": {
+		"en": "Nosepass",
+		"jp": "ノズパス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Compass Pokémon",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Magnet Pull",
+			"hidden_ability": "Sand Force"
+		}
+	}
+}

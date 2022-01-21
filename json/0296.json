@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 296
+	},
+	"name": {
+		"en": "Makuhita",
+		"jp": "マクノシタ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Guts Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Guts",
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

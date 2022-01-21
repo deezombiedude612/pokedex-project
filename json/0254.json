@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 254
+	},
+	"name": {
+		"en": "Sceptile",
+		"jp": "ジュカイン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Forest Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Unburden"
+		}
+	},
+	"mega": {
+		"desc": "Forest Pokémon",
+		"type_id": [9, 0],
+		"type": ["grass", "dragon"],
+		"ability": "",
+		"mega_stone": "Sceptilite"
+	}
+}

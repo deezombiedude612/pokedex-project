@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 355,
+		"galar_dex": 135
+	},
+	"name": {
+		"en": "Duskull",
+		"jp": "ヨマラウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Requiem Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": false,
+			"hidden_ability": "Frisk"
+		}
+	}
+}

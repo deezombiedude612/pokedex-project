@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 441
+	},
+	"name": {
+		"en": "Chatot",
+		"jp": "ぺラップ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Music Note Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Tangled Feet",
+			"hidden_ability": "Big Pecks"
+		}
+	}
+}

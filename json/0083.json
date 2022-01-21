@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 83,
+		"galar_dex": 218
+	},
+	"name": {
+		"en": "Farfetch'd",
+		"jp": "カモネギ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Wild Duck Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Defiant"
+		}
+	},
+	"galar_variant": {
+		"desc": "Wild Duck Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Steadfast",
+			"ability_2": false,
+			"hidden_ability": "Scrappy"
+		}
+	}
+}

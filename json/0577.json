@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 577,
+		"galar_dex": 270
+	},
+	"name": {
+		"en": "Solosis",
+		"jp": "ユニラン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cell Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Overcoat",
+			"ability_2": "Magic Guard",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

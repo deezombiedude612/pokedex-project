@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 683,
+		"galar_dex": 213
+	},
+	"name": {
+		"en": "Aromatisse",
+		"jp": "フレフワン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fragrance Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Healer",
+			"ability_2": false,
+			"hidden_ability": "Aroma Veil"
+		}
+	}
+}

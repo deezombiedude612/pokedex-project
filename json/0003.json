@@ -1,0 +1,33 @@
+{
+	"id": {
+		"national": 3,
+		"galar_isle_of_armor": 70
+	},
+	"name": {
+		"en": "Venusaur",
+		"jp": "フシギバナ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Seed Pokémon",
+		"type_id": [9, 4],
+		"type": ["grass", "poison"],
+		"g_max": {
+			"g_max_move": "G-Max Vine Lash",
+			"g_max_type_id": 9,
+			"g_max_type": "grass"
+		},
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Chlorophyll"
+		}
+	},
+	"mega": {
+		"desc": "Seed Pokémon",
+		"type_id": [9, 4],
+		"type": ["grass", "poison"],
+		"ability": "Thick Fat",
+		"mega_stone": "Venusaurite"
+	}
+}

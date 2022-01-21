@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 327
+	},
+	"name": {
+		"en": "Spinda",
+		"jp": "パッチール"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Spot Panda Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": "Tangled Feet",
+			"hidden_ability": "Contrary"
+		}
+	}
+}

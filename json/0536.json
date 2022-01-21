@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 536,
+		"galar_dex": 133
+	},
+	"name": {
+		"en": "Palipitoad",
+		"jp": "ガマガル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Vibration Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Hydration",
+			"hidden_ability": "Water Absorb"
+		}
+	}
+}

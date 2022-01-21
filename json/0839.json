@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 839,
+		"galar_dex": 163
+	},
+	"name": {
+		"en": "Coalossal",
+		"jp": "セキタンザン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Coal Pokémon",
+		"type_id": [8, 13],
+		"type": ["rock", "fire"],
+		"g_max": {
+			"g_max_move": "G-Max Volcalith",
+			"g_max_type_id": 8,
+			"g_max_type": "rock"
+		},
+		"abilities": {
+			"ability_1": "Steam Engine",
+			"ability_2": "Flame Body",
+			"hidden_ability": "Flash Fire"
+		}
+	}
+}

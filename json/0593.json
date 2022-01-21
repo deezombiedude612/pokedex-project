@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 593,
+		"galar_dex": 306,
+		"galar_isle_of_armor": 193
+	},
+	"name": {
+		"en": "Jellicent",
+		"jp": "ブルンゲル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Floating Pokémon",
+		"type_id": [6, 1],
+		"type": ["water", "ghost"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": "Cursed Body",
+			"hidden_ability": "Damp"
+		}
+	}
+}

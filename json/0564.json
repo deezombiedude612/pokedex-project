@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 564
+	},
+	"name": {
+		"en": "Tirtouga",
+		"jp": "プロトーガ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Prototurtle Pokémon",
+		"type_id": [6, 8],
+		"type": ["water", "rock"],
+		"abilities": {
+			"ability_1": "Solid Rock",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Swift Swim"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 333
+	},
+	"name": {
+		"en": "Swablu",
+		"jp": "チルット"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cotton Bird Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": false,
+			"hidden_ability": "Cloud Nine"
+		}
+	}
+}

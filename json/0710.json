@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 710,
+		"galar_dex": 191
+	},
+	"name": {
+		"en": "Pumpkaboo",
+		"jp": "バケッチャ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Pumpkin Pokémon",
+		"type_id": [1, 9],
+		"type": ["ghost", "grass"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Frisk",
+			"hidden_ability": "Insomnia"
+		}
+	}
+}

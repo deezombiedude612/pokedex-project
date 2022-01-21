@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 505
+	},
+	"name": {
+		"en": "Watchog",
+		"jp": "ミルホッグ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lookout Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Illuminate",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 231
+	},
+	"name": {
+		"en": "Phanpy",
+		"jp": "ゴマゾウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Long Nose Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": false,
+			"hidden_ability": "Sand Veil"
+		}
+	}
+}

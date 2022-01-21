@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 703
+	},
+	"name": {
+		"en": "Carbink",
+		"jp": "メレシー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Jewel Pokémon",
+		"type_id": [8, 17],
+		"type": ["rock", "fairy"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": false,
+			"hidden_ability": "Sturdy"
+		}
+	}
+}

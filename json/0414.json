@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 414
+	},
+	"name": {
+		"en": "Mothim",
+		"jp": "ガーメイル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Moth Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": false,
+			"hidden_ability": "Tinted Lens"
+		}
+	}
+}

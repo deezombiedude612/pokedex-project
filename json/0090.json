@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 90,
+		"galar_dex": 150,
+		"galar_isle_of_armor": 131
+	},
+	"name": {
+		"en": "Shellder",
+		"jp": "シェルダー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bivalve Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Shell Armor",
+			"ability_2": "Skill Link",
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

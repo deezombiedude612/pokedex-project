@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 651
+	},
+	"name": {
+		"en": "Quilladin",
+		"jp": "ハリボーグ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Spiny Armor Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Bulletproof"
+		}
+	}
+}

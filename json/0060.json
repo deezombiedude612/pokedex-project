@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 60,
+		"galar_isle_of_armor": 142
+	},
+	"name": {
+		"en": "Poliwag",
+		"jp": "ニョロモ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tadpole Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": "Damp",
+			"hidden_ability": "Swift Swim"
+		}
+	}
+}

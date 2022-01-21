@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 194,
+		"galar_dex": 100,
+		"galar_isle_of_armor": 58
+	},
+	"name": {
+		"en": "Wooper",
+		"jp": "ウパー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Water Fish Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Damp",
+			"ability_2": "Water Absorb",
+			"hidden_ability": "Unaware"
+		}
+	}
+}

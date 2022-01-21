@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 378
+	},
+	"name": {
+		"en": "Regice",
+		"jp": "レジアイス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iceberg Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": false,
+			"hidden_ability": "Ice Body"
+		}
+	}
+}

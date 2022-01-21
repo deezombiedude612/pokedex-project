@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 424
+	},
+	"name": {
+		"en": "Ambipom",
+		"jp": "エテボース"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Long Tail Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Technician",
+			"ability_2": "Pickup",
+			"hidden_ability": "Skill Link"
+		}
+	}
+}

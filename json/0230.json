@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 230,
+		"galar_isle_of_armor": 200
+	},
+	"name": {
+		"en": "Kingdra",
+		"jp": "キングドラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dragon Pokémon",
+		"type_id": [6, 0],
+		"type": ["water", "dragon"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Sniper",
+			"hidden_ability": "Damp"
+		}
+	}
+}

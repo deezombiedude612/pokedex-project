@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 140
+	},
+	"name": {
+		"en": "Kabuto",
+		"jp": "カブト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Shellfish Pokémon",
+		"type_id": [8, 6],
+		"type": ["rock", "water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Battle Armor",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

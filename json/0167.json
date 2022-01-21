@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 167
+	},
+	"name": {
+		"en": "Spinarak",
+		"jp": "イトマル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "String Spit Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Insomnia",
+			"hidden_ability": "Sniper"
+		}
+	}
+}

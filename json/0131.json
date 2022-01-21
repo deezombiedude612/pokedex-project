@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 131,
+		"galar_dex": 361
+	},
+	"name": {
+		"en": "Lapras",
+		"jp": "ラプラス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Transport Pokémon",
+		"type_id": [6, 11],
+		"type": ["water", "ice"],
+		"g_max": {
+			"g_max_move": "G-Max Resonance",
+			"g_max_type_id": 11,
+			"g_max_type": "ice"
+		},
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Hydration"
+		}
+	}
+}

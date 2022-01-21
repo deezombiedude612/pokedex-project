@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 21
+	},
+	"name": {
+		"en": "Spearow",
+		"jp": "オニスズメ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Bird Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": false,
+			"hidden_ability": "Sniper"
+		}
+	}
+}

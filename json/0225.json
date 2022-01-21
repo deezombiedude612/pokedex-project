@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 225,
+		"galar_dex": 78
+	},
+	"name": {
+		"en": "Delibird",
+		"jp": "デリバード"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Delivery Pokémon",
+		"type_id": [11, 3],
+		"type": ["ice", "flying"],
+		"abilities": {
+			"ability_1": "Vital Spirit",
+			"ability_2": "Hustle",
+			"hidden_ability": "Insomnia"
+		}
+	}
+}

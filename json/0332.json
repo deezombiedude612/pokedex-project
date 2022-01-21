@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 332
+	},
+	"name": {
+		"en": "Cacturne",
+		"jp": "ノクタス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scarecrow Pokémon",
+		"type_id": [9, 10],
+		"type": ["grass", "dark"],
+		"abilities": {
+			"ability_1": "Sand Veil",
+			"ability_2": false,
+			"hidden_ability": "Water Absorb"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 120,
+		"galar_isle_of_armor": 98
+	},
+	"name": {
+		"en": "Staryu",
+		"jp": "ヒトデマン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Star Shape Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Illuminate",
+			"ability_2": "Natural Cure",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

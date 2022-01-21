@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 884,
+		"galar_dex": 371
+	},
+	"name": {
+		"en": "Duraludon",
+		"jp": "ジュラルドン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Alloy Pokémon",
+		"type_id": [15, 0],
+		"type": ["steel", "dragon"],
+		"g_max": {
+			"g_max_move": "G-Max Depletion",
+			"g_max_type_id": 0,
+			"g_max_type": "dragon"
+		},
+		"abilities": {
+			"ability_1": "Light Metal",
+			"ability_2": "Heavy Metal",
+			"hidden_ability": "Stalwart"
+		}
+	}
+}

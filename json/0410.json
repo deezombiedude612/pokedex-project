@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 410
+	},
+	"name": {
+		"en": "Shieldon",
+		"jp": "タテトプス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Shield Pokémon",
+		"type_id": [8, 15],
+		"type": ["rock", "steel"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": false,
+			"hidden_ability": "Soundproof"
+		}
+	}
+}

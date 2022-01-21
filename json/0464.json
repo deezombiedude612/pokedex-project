@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 464,
+		"galar_dex": 266,
+		"galar_isle_of_armor": 185
+	},
+	"name": {
+		"en": "Rhyperior",
+		"jp": "ドサイドン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Drill Pokémon",
+		"type_id": [2, 8],
+		"type": ["ground", "rock"],
+		"abilities": {
+			"ability_1": "Lightning Rod",
+			"ability_2": "Solid Rock",
+			"hidden_ability": "Reckless"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 700,
+		"galar_dex": 204
+	},
+	"name": {
+		"en": "Sylveon",
+		"jp": "ニンフィア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Intertwining Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": false,
+			"hidden_ability": "Pixilate"
+		}
+	}
+}

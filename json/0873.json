@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 873,
+		"galar_dex": 350
+	},
+	"name": {
+		"en": "Frosmoth",
+		"jp": "モスノウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Frosmoth Pokémon",
+		"type_id": [11, 5],
+		"type": ["ice", "bug"],
+		"abilities": {
+			"ability_1": "Shield Dust",
+			"ability_2": false,
+			"hidden_ability": "Ice Scales"
+		}
+	}
+}

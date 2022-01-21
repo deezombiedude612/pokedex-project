@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 847,
+		"galar_dex": 181,
+		"galar_isle_of_armor": 97
+	},
+	"name": {
+		"en": "Barraskewda",
+		"jp": "カマスジュー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Skewer Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": false,
+			"hidden_ability": "Propeller Tail"
+		}
+	}
+}

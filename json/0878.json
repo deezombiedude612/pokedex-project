@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 878,
+		"galar_dex": 302
+	},
+	"name": {
+		"en": "Cufant",
+		"jp": "ゾウドウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Copperderm Pokémon",
+		"type_id": [15, -1],
+		"type": ["steel"],
+		"abilities": {
+			"ability_1": "Sheer Force",
+			"ability_2": false,
+			"hidden_ability": "Heavy Metal"
+		}
+	}
+}

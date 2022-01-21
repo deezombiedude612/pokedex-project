@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 759,
+		"galar_dex": 94
+	},
+	"name": {
+		"en": "Stufful",
+		"jp": "ヌイコグマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Flailing Pokémon",
+		"type_id": [12, 14],
+		"type": ["normal", "fighting"],
+		"abilities": {
+			"ability_1": "Fluffy",
+			"ability_2": "Klutz",
+			"hidden_ability": "Cute Charm"
+		}
+	}
+}

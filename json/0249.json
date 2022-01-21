@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 249
+	},
+	"name": {
+		"en": "Lugia",
+		"jp": "ルギア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Diving Pokémon",
+		"type_id": [16, 3],
+		"type": ["psychic", "flying"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Multiscale"
+		}
+	}
+}

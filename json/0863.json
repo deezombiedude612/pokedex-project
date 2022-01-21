@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 863,
+		"galar_dex": 183
+	},
+	"name": {
+		"en": "Perrserker",
+		"jp": "ニャイキング"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Viking Pokémon",
+		"type_id": [15, -1],
+		"type": ["steel"],
+		"abilities": {
+			"ability_1": "Battle Armor",
+			"ability_2": "Tough Claws",
+			"hidden_ability": "Steely Spirit"
+		}
+	}
+}

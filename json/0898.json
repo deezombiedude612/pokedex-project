@@ -1,0 +1,40 @@
+{
+	"id": {
+		"national": 898
+	},
+	"name": {
+		"en": "Calyrex",
+		"jp": "バドレックス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "King Pokémon",
+		"type_id": [16, 9],
+		"type": ["psychic", "grass"],
+		"abilities": {
+			"ability_1": "Unnerve",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"ice_rider": {
+		"desc": "High King Pokémon",
+		"type_id": [16, 11],
+		"type": ["psychic", "ice"],
+		"abilities": {
+			"ability_1": "As One",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"shadow_rider": {
+		"desc": "High King Pokémon",
+		"type_id": [16, 1],
+		"type": ["psychic", "ghost"],
+		"abilities": {
+			"ability_1": "As One",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

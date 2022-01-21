@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 129,
+		"galar_dex": 144,
+		"galar_isle_of_armor": 42
+	},
+	"name": {
+		"en": "Magikarp",
+		"jp": "コイキング"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fish Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": false,
+			"hidden_ability": "Rattled"
+		}
+	}
+}

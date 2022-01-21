@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 72,
+		"galar_isle_of_armor": 40
+	},
+	"name": {
+		"en": "Tentacool",
+		"jp": "メノクラゲ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Jellyfish Pokémon",
+		"type_id": [6, 4],
+		"type": ["water", "poison"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": "Liquid Ooze",
+			"hidden_ability": "Rain Dish"
+		}
+	}
+}

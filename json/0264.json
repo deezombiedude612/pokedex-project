@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 264,
+		"galar_dex": 32
+	},
+	"name": {
+		"en": "Linoone",
+		"jp": "マッスグマ"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Rushing Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Quick Feet"
+		}
+	},
+	"galar_variant": {
+		"desc": "Rushing Pokémon",
+		"type_id": [10, 12],
+		"type": ["dark", "normal"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Quick Feet"
+		}
+	}
+}

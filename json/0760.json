@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 760,
+		"galar_dex": 95
+	},
+	"name": {
+		"en": "Bewear",
+		"jp": "キテルグマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Strong Arm Pokémon",
+		"type_id": [12, 14],
+		"type": ["normal", "fighting"],
+		"abilities": {
+			"ability_1": "Fluffy",
+			"ability_2": "Klutz",
+			"hidden_ability": "Unnerve"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 629,
+		"galar_dex": 283,
+		"galar_isle_of_armor": 181
+	},
+	"name": {
+		"en": "Vullaby",
+		"jp": "バルチャイ"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Diapered Pokémon",
+		"type_id": [10, 3],
+		"type": ["dark", "flying"],
+		"abilities": {
+			"ability_1": "Big Pecks",
+			"ability_2": "Overcoat",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

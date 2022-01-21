@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 573,
+		"galar_dex": 51
+	},
+	"name": {
+		"en": "Cinccino",
+		"jp": "チラチーノ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scarf Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": "Technician",
+			"hidden_ability": "Skill Link"
+		}
+	}
+}

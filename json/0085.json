@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 85
+	},
+	"name": {
+		"en": "Dodrio",
+		"jp": "ドードリオ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Triple Bird Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Early Bird",
+			"hidden_ability": "Tangled Feet"
+		}
+	}
+}

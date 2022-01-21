@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 572,
+		"galar_dex": 50
+	},
+	"name": {
+		"en": "Minccino",
+		"jp": "チラーミィ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Chinchilla Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": "Technician",
+			"hidden_ability": "Skill Link"
+		}
+	}
+}

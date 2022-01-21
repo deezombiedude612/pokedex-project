@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 365
+	},
+	"name": {
+		"en": "Walrein",
+		"jp": "トドゼルガ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ice Break Pokémon",
+		"type_id": [11, 6],
+		"type": ["ice", "water"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Ice Body",
+			"hidden_ability": "Oblivious"
+		}
+	}
+}

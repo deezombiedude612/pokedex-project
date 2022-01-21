@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 369
+	},
+	"name": {
+		"en": "Relicanth",
+		"jp": "ジーランス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Longevity Pokémon",
+		"type_id": [6, 8],
+		"type": ["water", "rock"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Rock Head",
+			"hidden_ability": "Sturdy"
+		}
+	}
+}

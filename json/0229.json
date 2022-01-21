@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 229
+	},
+	"name": {
+		"en": "Houndoom",
+		"jp": "ヘルガー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dark Pokémon",
+		"type_id": [10, 13],
+		"type": ["dark", "fire"],
+		"abilities": {
+			"ability_1": "Early Bird",
+			"ability_2": "Flash Fire",
+			"hidden_ability": "Unnerve"
+		}
+	},
+	"mega": {
+		"desc": "Dark Pokémon",
+		"type_id": [10, 13],
+		"type": ["dark", "fire"],
+		"ability": "Solar Power",
+		"mega_stone": "Houndoominite"
+	}
+}

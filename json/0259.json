@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 259
+	},
+	"name": {
+		"en": "Marshtomp",
+		"jp": "ヌマクロー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mud Fish Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Damp"
+		}
+	}
+}

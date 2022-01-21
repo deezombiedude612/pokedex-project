@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 289
+	},
+	"name": {
+		"en": "Slaking",
+		"jp": "ケッキング"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lazy Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Truant",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

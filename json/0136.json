@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 136,
+		"galar_dex": 199
+	},
+	"name": {
+		"en": "Flareon",
+		"jp": "ブースター"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Flame Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": false,
+			"hidden_ability": "Guts"
+		}
+	}
+}

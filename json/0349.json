@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 349,
+		"galar_dex": 152
+	},
+	"name": {
+		"en": "Feebas",
+		"jp": "ヒンバス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fish Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Oblivious",
+			"hidden_ability": "Adaptability"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 856,
+		"galar_dex": 241
+	},
+	"name": {
+		"en": "Hatenna",
+		"jp": "ミブリム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Calm Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Healer",
+			"ability_2": "Anticipation",
+			"hidden_ability": "Magic Bounce"
+		}
+	}
+}

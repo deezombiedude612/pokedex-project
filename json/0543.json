@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 543,
+		"galar_isle_of_armor": 74
+	},
+	"name": {
+		"en": "Venipede",
+		"jp": "フシデ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Centipede Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"abilities": {
+			"ability_1": "Poison Point",
+			"ability_2": "Swarm",
+			"hidden_ability": "Speed Boost"
+		}
+	}
+}

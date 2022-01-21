@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 336
+	},
+	"name": {
+		"en": "Seviper",
+		"jp": "ハブネーク"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fang Snake Pokémon",
+		"type_id": [4, -1],
+		"type": ["poison"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": false,
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

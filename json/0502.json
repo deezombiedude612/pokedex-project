@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 502
+	},
+	"name": {
+		"en": "Dewott",
+		"jp": "フタチマル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Discipline Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Shell Armor"
+		}
+	}
+}

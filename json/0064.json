@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 64,
+		"galar_isle_of_armor": 32
+	},
+	"name": {
+		"en": "Kadabra",
+		"jp": "ユンゲラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Psi Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Magic Guard"
+		}
+	}
+}

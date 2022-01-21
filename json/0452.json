@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 452,
+		"galar_dex": 286,
+		"galar_isle_of_armor": 51
+	},
+	"name": {
+		"en": "Drapion",
+		"jp": "ドラピオン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ogre Scorpion Pokémon",
+		"type_id": [4, 10],
+		"type": ["poison", "dark"],
+		"abilities": {
+			"ability_1": "Battle Armor",
+			"ability_2": "Sniper",
+			"hidden_ability": "Keen Eye"
+		}
+	}
+}

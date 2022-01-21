@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 562,
+		"galar_dex": 327
+	},
+	"name": {
+		"en": "Yamask",
+		"jp": "デスマス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Spirit Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Mummy",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"galar_variant": {
+		"desc": "Spirit Pokémon",
+		"type_id": [2, 1],
+		"type": ["ground", "ghost"],
+		"abilities": {
+			"ability_1": "Wandering Spirit",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

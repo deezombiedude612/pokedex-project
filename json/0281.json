@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 281,
+		"galar_dex": 121,
+		"galar_isle_of_armor": 35
+	},
+	"name": {
+		"en": "Kirlia",
+		"jp": "キルリア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Emotion Pokémon",
+		"type_id": [16, 17],
+		"type": ["psychic", "fairy"],
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": "Trace",
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

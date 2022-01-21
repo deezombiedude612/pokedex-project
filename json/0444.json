@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 444
+	},
+	"name": {
+		"en": "Gabite",
+		"jp": "がバイト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cave Pokémon",
+		"type_id": [0, 2],
+		"type": ["dragon", "ground"],
+		"abilities": {
+			"ability_1": "Sand Veil",
+			"ability_2": false,
+			"hidden_ability": "Rough Skin"
+		}
+	}
+}

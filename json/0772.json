@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 772,
+		"galar_dex": 381
+	},
+	"name": {
+		"en": "Type: Null",
+		"jp": "タイプ：ヌル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Synthetic Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Battle Armor",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

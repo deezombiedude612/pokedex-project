@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 533,
+		"galar_dex": 172
+	},
+	"name": {
+		"en": "Gurdurr",
+		"jp": "ドテッコツ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Muscular Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Guts",
+			"ability_2": "Sheer Force",
+			"hidden_ability": "Iron Fist"
+		}
+	}
+}

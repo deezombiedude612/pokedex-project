@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 87
+	},
+	"name": {
+		"en": "Dewgong",
+		"jp": "ジュゴン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sea Lion Pokémon",
+		"type_id": [6, 11],
+		"type": ["water", "ice"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Hydration",
+			"hidden_ability": "Ice Body"
+		}
+	}
+}

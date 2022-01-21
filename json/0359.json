@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 359
+	},
+	"name": {
+		"en": "Absol",
+		"jp": "アブソル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Disaster Pokémon",
+		"type_id": [10, -1],
+		"type": ["dark"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": "Super Luck",
+			"hidden_ability": "Justified"
+		}
+	},
+	"mega": {
+		"desc": "Disaster Pokémon",
+		"type_id": [10, -1],
+		"type": ["dark"],
+		"ability": "Magic Bounce",
+		"mega_stone": "Absolite"
+	}
+}

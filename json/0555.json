@@ -1,0 +1,51 @@
+{
+	"id": {
+		"national": 555,
+		"galar_dex": 368
+	},
+	"name": {
+		"en": "Darmanitan",
+		"jp": "ヒヒダルマ"
+	},
+	"baby": false,
+	"galar_standard_mode": {
+		"desc": "Zen Charm Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Gorilla Tactics",
+			"ability_2": false,
+			"hidden_ability": "Zen Mode"
+		}
+	},
+	"standard_mode": {
+		"desc": "Blazing Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Sheer Force",
+			"ability_2": false,
+			"hidden_ability": "Zen Mode"
+		}
+	},
+	"zen_mode": {
+		"desc": "Blazing Pokémon",
+		"type_id": [13, 16],
+		"type": ["fire", "psychic"],
+		"abilities": {
+			"ability_1": "Zen Mode",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"galar_zen_mode": {
+		"desc": "Blazing Pokémon",
+		"type_id": [11, 13],
+		"type": ["ice", "fire"],
+		"abilities": {
+			"ability_1": "Gorilla Tactics",
+			"ability_2": false,
+			"hidden_ability": "Zen Mode"
+		}
+	}
+}

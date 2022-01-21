@@ -1,0 +1,30 @@
+{
+	"id": {
+		"national": 647
+	},
+	"name": {
+		"en": "Keldeo",
+		"jp": "ケルディオ"
+	},
+	"baby": false,
+	"ordinary_form": {
+		"desc": "Colt Pokémon",
+		"type_id": [6, 14],
+		"type": ["water", "fighting"],
+		"abilities": {
+			"ability_1": "Justified",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"resolute_form": {
+		"desc": "Colt Pokémon",
+		"type_id": [6, 14],
+		"type": ["water", "fighting"],
+		"abilities": {
+			"ability_1": "Justified",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

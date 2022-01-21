@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 12,
+		"galar_dex": 15
+	},
+	"name": {
+		"en": "Butterfree",
+		"jp": "バタフリー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Butterfly Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"g_max": {
+			"g_max_move": "G-Max Befuddle",
+			"g_max_type_id": 5,
+			"g_max_type": "bug"
+		},
+		"abilities": {
+			"ability_1": "Compound Eyes",
+			"ability_2": false,
+			"hidden_ability": "Tinted Lens"
+		}
+	}
+}

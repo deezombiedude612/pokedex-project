@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 86
+	},
+	"name": {
+		"en": "Seel",
+		"jp": "パウワウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sea Lion Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Hydration",
+			"hidden_ability": "Ice Body"
+		}
+	}
+}

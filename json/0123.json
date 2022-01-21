@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 123,
+		"galar_isle_of_armor": 118
+	},
+	"name": {
+		"en": "Scyther",
+		"jp": "ストライク"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mantis Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Technician",
+			"hidden_ability": "Steadfast"
+		}
+	}
+}

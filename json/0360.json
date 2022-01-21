@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 360,
+		"galar_dex": 216
+	},
+	"name": {
+		"en": "Wynaut",
+		"jp": "ソーナノ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bright Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Shadow Tag",
+			"ability_2": false,
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

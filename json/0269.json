@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 269
+	},
+	"name": {
+		"en": "Dustox",
+		"jp": "ドクケイル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Poison Moth Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"abilities": {
+			"ability_1": "Shield Dust",
+			"ability_2": false,
+			"hidden_ability": "Compound Eyes"
+		}
+	}
+}

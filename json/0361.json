@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 361,
+		"galar_dex": 79
+	},
+	"name": {
+		"en": "Snorunt",
+		"jp": "ユキワラシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Snow Hat Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": "Ice Body",
+			"hidden_ability": "Moody"
+		}
+	}
+}

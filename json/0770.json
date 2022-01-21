@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 770,
+		"galar_isle_of_armor": 134
+	},
+	"name": {
+		"en": "Palossand",
+		"jp": "シロデスナ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sand Castle Pokémon",
+		"type_id": [1, 2],
+		"type": ["ghost", "ground"],
+		"abilities": {
+			"ability_1": "Water Compaction",
+			"ability_2": false,
+			"hidden_ability": "Sand Veil"
+		}
+	}
+}

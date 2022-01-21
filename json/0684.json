@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 684,
+		"galar_dex": 210
+	},
+	"name": {
+		"en": "Swirlix",
+		"jp": "ペロッパフ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cotton Candy Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Sweet Veil",
+			"ability_2": false,
+			"hidden_ability": "Unburden"
+		}
+	}
+}

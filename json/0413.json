@@ -1,0 +1,40 @@
+{
+	"id": {
+		"national": 413
+	},
+	"name": {
+		"en": "Wormadam",
+		"jp": "ミノマダム"
+	},
+	"baby": false,
+	"plant_cloak": {
+		"desc": "Bagworm Pokémon",
+		"type_id": [5, 9],
+		"type": ["bug", "grass"],
+		"abilities": {
+			"ability_1": "Anticipation",
+			"ability_2": false,
+			"hidden_ability": "Overcoat"
+		}
+	},
+	"sandy_cloak": {
+		"desc": "Bagworm Pokémon",
+		"type_id": [5, 2],
+		"type": ["bug", "ground"],
+		"abilities": {
+			"ability_1": "Anticipation",
+			"ability_2": false,
+			"hidden_ability": "Overcoat"
+		}
+	},
+	"trash_cloak": {
+		"desc": "Bagworm Pokémon",
+		"type_id": [5, 15],
+		"type": ["bug", "steel"],
+		"abilities": {
+			"ability_1": "Anticipation",
+			"ability_2": false,
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

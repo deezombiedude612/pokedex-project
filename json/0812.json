@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 812,
+		"galar_dex": 3
+	},
+	"name": {
+		"en": "Rillaboom",
+		"jp": "ゴリアンダー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Drummer Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"g_max": {
+			"g_max_move": "G-Max Drum Solo",
+			"g_max_type_id": 9,
+			"g_max_type": "grass"
+		},
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Grassy Surge"
+		}
+	}
+}

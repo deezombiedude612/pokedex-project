@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 506,
+		"galar_isle_of_armor": 113
+	},
+	"name": {
+		"en": "Lillipup",
+		"jp": "ヨーテリー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Puppy Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Vital Spirit",
+			"ability_2": "Pickup",
+			"hidden_ability": "Run Away"
+		}
+	}
+}

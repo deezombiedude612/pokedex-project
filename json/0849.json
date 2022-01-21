@@ -1,0 +1,41 @@
+{
+	"id": {
+		"national": 849,
+		"galar_dex": 311
+	},
+	"name": {
+		"en": "Toxtricity",
+		"jp": "ストリンダー"
+	},
+	"baby": false,
+	"amped_form": {
+		"desc": "Punk Pokémon",
+		"type_id": [7, 4],
+		"type": ["electric", "poison"],
+		"g_max": {
+			"g_max_move": "G-Max Stun Shock",
+			"g_max_type_id": 7,
+			"g_max_type": "electric"
+		},
+		"abilities": {
+			"ability_1": "Punk Rock",
+			"ability_2": "Plus",
+			"hidden_ability": "Technician"
+		}
+	},
+	"low_key_form": {
+		"desc": "Punk Pokémon",
+		"type_id": [7, 4],
+		"type": ["electric", "poison"],
+		"g_max": {
+			"g_max_move": "G-Max Stun Shock",
+			"g_max_type_id": 7,
+			"g_max_type": "electric"
+		},
+		"abilities": {
+			"ability_1": "Punk Rock",
+			"ability_2": "Minus",
+			"hidden_ability": "Technician"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 672
+	},
+	"name": {
+		"en": "Skiddo",
+		"jp": "メェークル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mount Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Sap Sipper",
+			"ability_2": false,
+			"hidden_ability": "Grass Pelt"
+		}
+	}
+}

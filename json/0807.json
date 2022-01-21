@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 807
+	},
+	"name": {
+		"en": "Zeraora",
+		"jp": "ゼラオラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Thunderclap Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Volt Absorb",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

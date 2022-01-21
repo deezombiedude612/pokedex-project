@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 548,
+		"galar_isle_of_armor": 201
+	},
+	"name": {
+		"en": "Petilil",
+		"jp": "チュリネ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bulb Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Leaf Guard"
+		}
+	}
+}

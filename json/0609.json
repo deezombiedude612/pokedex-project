@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 609,
+		"galar_dex": 289
+	},
+	"name": {
+		"en": "Chandelure",
+		"jp": "シャンデラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Luring Pokémon",
+		"type_id": [1, 13],
+		"type": ["ghost", "fire"],
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": "Flame Body",
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

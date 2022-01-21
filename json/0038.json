@@ -1,0 +1,32 @@
+{
+	"id": {
+		"national": 38,
+		"galar_dex": 69,
+		"galar_isle_of_armor": 11
+	},
+	"name": {
+		"en": "Ninetales",
+		"jp": "キュウコン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fox Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": false,
+			"hidden_ability": "Drought"
+		}
+	},
+	"alola_variant": {
+		"desc": "Fox Pokémon",
+		"type_id": [11, 17],
+		"type": ["ice", "fairy"],
+		"abilities": {
+			"ability_1": "Snow Cloak",
+			"ability_2": false,
+			"hidden_ability": "Snow Warning"
+		}
+	}
+}

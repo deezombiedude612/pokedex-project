@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 15
+	},
+	"name": {
+		"en": "Beedrill",
+		"jp": "スピアー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Poison Bee Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": false,
+			"hidden_ability": "Sniper"
+		}
+	},
+	"mega": {
+		"desc": "Poison Bee Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"ability": "Adaptability",
+		"mega_stone": "Beedrillite"
+	}
+}

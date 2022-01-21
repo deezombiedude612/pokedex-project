@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 709,
+		"galar_dex": 339
+	},
+	"name": {
+		"en": "Trevenant",
+		"jp": "オーロット"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Elder Tree Pokémon",
+		"type_id": [1, 9],
+		"type": ["ghost", "grass"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": "Frisk",
+			"hidden_ability": "Harvest"
+		}
+	}
+}

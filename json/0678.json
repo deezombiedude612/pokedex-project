@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 678,
+		"galar_dex": 209
+	},
+	"name": {
+		"en": "Meowstic",
+		"jp": "ニャオニクス"
+	},
+	"baby": false,
+	"default_f": {
+		"desc": "Constraint Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Infiltrator",
+			"hidden_ability": "Competitive"
+		}
+	},
+	"default_m": {
+		"desc": "Constraint Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Infiltrator",
+			"hidden_ability": "Prankster"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 168
+	},
+	"name": {
+		"en": "Ariados",
+		"jp": "アリアドス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Long Leg Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Insomnia",
+			"hidden_ability": "Sniper"
+		}
+	}
+}

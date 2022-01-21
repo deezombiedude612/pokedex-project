@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 221,
+		"galar_dex": 76
+	},
+	"name": {
+		"en": "Piloswine",
+		"jp": "イノムー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Swine Pokémon",
+		"type_id": [11, 2],
+		"type": ["ice", "ground"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Snow Cloak",
+			"hidden_ability": "Thick Fat"
+		}
+	}
+}

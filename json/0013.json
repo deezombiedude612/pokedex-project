@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 13
+	},
+	"name": {
+		"en": "Weedle",
+		"jp": "ビードル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hairy Bug Pokémon",
+		"type_id": [5, 4],
+		"type": ["bug", "poison"],
+		"abilities": {
+			"ability_1": "Shield Dust",
+			"ability_2": false,
+			"hidden_ability": "Run Away"
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"id": {
+		"national": 351
+	},
+	"name": {
+		"en": "Castform",
+		"jp": "ポワルン"
+	},
+	"baby": true,
+	"normal_form": {
+		"desc": "Weather Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Forecast",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"sunny_form": {
+		"desc": "Weather Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Forecast",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"rainy_form": {
+		"desc": "Weather Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Forecast",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"snowy_form": {
+		"desc": "Weather Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Forecast",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 63,
+		"galar_isle_of_armor": 31
+	},
+	"name": {
+		"en": "Abra",
+		"jp": "ケーシィ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Psi Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Magic Guard"
+		}
+	}
+}

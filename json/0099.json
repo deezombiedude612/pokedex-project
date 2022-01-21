@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 99,
+		"galar_dex": 99,
+		"galar_isle_of_armor": 39
+	},
+	"name": {
+		"en": "Kingler",
+		"jp": "キングラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Pincer Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"g_max": {
+			"g_max_move": "G-Max Foam Burst",
+			"g_max_type_id": 6,
+			"g_max_type": "water"
+		},
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

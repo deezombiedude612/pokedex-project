@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 512
+	},
+	"name": {
+		"en": "Simisage",
+		"jp": "ヤナッキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Thorn Monkey Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Gluttony",
+			"ability_2": false,
+			"hidden_ability": "Overgrow"
+		}
+	}
+}

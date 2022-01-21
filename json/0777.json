@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 777,
+		"galar_dex": 348
+	},
+	"name": {
+		"en": "Togedemaru",
+		"jp": "トゲデマル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Roly-Poly Pokémon",
+		"type_id": [7, 15],
+		"type": ["electric", "steel"],
+		"abilities": {
+			"ability_1": "Iron Barbs",
+			"ability_2": "Lightning Rod",
+			"hidden_ability": "Sturdy"
+		}
+	}
+}

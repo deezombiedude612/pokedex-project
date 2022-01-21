@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 161
+	},
+	"name": {
+		"en": "Sentret",
+		"jp": "オタチ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scout Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Frisk"
+		}
+	}
+}

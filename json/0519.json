@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 519,
+		"galar_dex": 26
+	},
+	"name": {
+		"en": "Pidove",
+		"jp": "マメパト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Pigeon Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Big Pecks",
+			"ability_2": "Super Luck",
+			"hidden_ability": "Rivalry"
+		}
+	}
+}

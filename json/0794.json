@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 794
+	},
+	"name": {
+		"en": "Buzzwole",
+		"jp": "マッシブーン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Swollen Pokémon",
+		"type_id": [5, 14],
+		"type": ["bug", "fighting"],
+		"abilities": {
+			"ability_1": "Beast Boost",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 854,
+		"galar_dex": 336
+	},
+	"name": {
+		"en": "Sinistea",
+		"jp": "ヤバチャ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Black Tea Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Weak Armor",
+			"ability_2": false,
+			"hidden_ability": "Cursed Body"
+		}
+	}
+}

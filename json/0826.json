@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 826,
+		"galar_dex": 12,
+		"galar_isle_of_armor": 16
+	},
+	"name": {
+		"en": "Orbeetle",
+		"jp": "イオルブ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Seven Spot Pokémon",
+		"type_id": [5, 16],
+		"type": ["bug", "psychic"],
+		"g_max": {
+			"g_max_move": "G-Max Gravitas",
+			"g_max_type_id": 16,
+			"g_max_type": "psychic"
+		},
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Frisk",
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

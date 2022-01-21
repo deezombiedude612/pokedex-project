@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 750,
+		"galar_dex": 85
+	},
+	"name": {
+		"en": "Mudsdale",
+		"jp": "バンバドロ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Draft Horse Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": "Stamina",
+			"hidden_ability": "Inner Focus"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 618,
+		"galar_dex": 226
+	},
+	"name": {
+		"en": "Stunfisk",
+		"jp": "マッギョ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Trap Pokémon",
+		"type_id": [2, 7],
+		"type": ["ground", "electric"],
+		"abilities": {
+			"ability_1": "Static",
+			"ability_2": "Limber",
+			"hidden_ability": "Sand Veil"
+		}
+	},
+	"galar_variant": {
+		"desc": "Trap Pokémon",
+		"type_id": [2, 15],
+		"type": ["ground", "steel"],
+		"abilities": {
+			"ability_1": "Mimicry",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

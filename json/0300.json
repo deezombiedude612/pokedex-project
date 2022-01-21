@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 300
+	},
+	"name": {
+		"en": "Skitty",
+		"jp": "エネコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Kitten Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": "Normalize",
+			"hidden_ability": "Wonder Skin"
+		}
+	}
+}

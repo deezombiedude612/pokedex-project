@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 516
+	},
+	"name": {
+		"en": "Simipour",
+		"jp": "ヒヤッキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Geyser Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Gluttony",
+			"ability_2": false,
+			"hidden_ability": "Torrent"
+		}
+	}
+}

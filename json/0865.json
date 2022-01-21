@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 865,
+		"galar_dex": 219
+	},
+	"name": {
+		"en": "Sirfetch'd",
+		"jp": "ネギガナイト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Wild Duck Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Steadfast",
+			"ability_2": false,
+			"hidden_ability": "Scrappy"
+		}
+	}
+}

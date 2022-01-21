@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 78,
+		"galar_dex": 334
+	},
+	"name": {
+		"en": "Rapidash",
+		"jp": "ギャロップ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fire Horse Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Flash Fire",
+			"hidden_ability": "Flame Body"
+		}
+	},
+	"galar_variant": {
+		"desc": "Unique Horn Pokémon",
+		"type_id": [16, 17],
+		"type": ["psychic", "fairy"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Pastel Veil",
+			"hidden_ability": "Anticipation"
+		}
+	}
+}

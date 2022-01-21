@@ -1,0 +1,29 @@
+{
+	"id": {
+		"national": 151
+	},
+	"name": {
+		"en": "Mew",
+		"jp": "ミュウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "New Species Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"exclusive_z": {
+			"excl_z_move": "Genesis Supernova",
+			"excl_z_move_type_id": 16,
+			"excl_z_move_type": "psychic",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Mewnium Z",
+			"excl_z_required_move": "Psychic",
+			"excl_z_power": 185
+		},
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

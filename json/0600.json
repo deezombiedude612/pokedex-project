@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 600,
+		"galar_dex": 114
+	},
+	"name": {
+		"en": "Klang",
+		"jp": "ギギアル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Gear Pokémon",
+		"type_id": [15, -1],
+		"type": ["steel"],
+		"abilities": {
+			"ability_1": "Plus",
+			"ability_2": "Minus",
+			"hidden_ability": "Clear Body"
+		}
+	}
+}

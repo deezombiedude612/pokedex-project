@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 560,
+		"galar_dex": 225,
+		"galar_isle_of_armor": 162
+	},
+	"name": {
+		"en": "Scrafty",
+		"jp": "ズルズキン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hoodlum Pokémon",
+		"type_id": [10, 14],
+		"type": ["dark", "fighting"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": "Moxie",
+			"hidden_ability": "Intimidate"
+		}
+	}
+}

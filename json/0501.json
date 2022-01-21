@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 501
+	},
+	"name": {
+		"en": "Oshawott",
+		"jp": "ミジュマル"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Sea Otter Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Shell Armor"
+		}
+	}
+}

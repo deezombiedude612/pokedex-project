@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 528,
+		"galar_dex": 175,
+		"galar_isle_of_armor": 152
+	},
+	"name": {
+		"en": "Swoobat",
+		"jp": "ココロモリ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Courting Pokémon",
+		"type_id": [16, 3],
+		"type": ["psychic", "flying"],
+		"abilities": {
+			"ability_1": "Unaware",
+			"ability_2": "Klutz",
+			"hidden_ability": "Simple"
+		}
+	}
+}

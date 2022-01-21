@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 260
+	},
+	"name": {
+		"en": "Swampert",
+		"jp": "ラグラージ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mud Fish Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Damp"
+		}
+	},
+	"mega": {
+		"desc": "Mud Fish Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"ability": "Swift Swim",
+		"mega_stone": "Swampertite"
+	}
+}

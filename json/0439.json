@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 439,
+		"galar_dex": 364
+	},
+	"name": {
+		"en": "Mime Jr.",
+		"jp": "マネネ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mime Pokémon",
+		"type_id": [16, 17],
+		"type": ["psychic", "fairy"],
+		"abilities": {
+			"ability_1": "Soundproof",
+			"ability_2": "Filter",
+			"hidden_ability": "Technician"
+		}
+	}
+}

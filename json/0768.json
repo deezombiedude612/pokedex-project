@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 768,
+		"galar_dex": 233,
+		"galar_isle_of_armor": 125
+	},
+	"name": {
+		"en": "Golisopod",
+		"jp": "グソクムシャ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hard Scale Pokémon",
+		"type_id": [5, 6],
+		"type": ["bug", "water"],
+		"abilities": {
+			"ability_1": "Emergency Exit",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

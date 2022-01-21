@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 126
+	},
+	"name": {
+		"en": "Magmar",
+		"jp": "ブーバー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Spitfire Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Flame Body",
+			"ability_2": false,
+			"hidden_ability": "Vital Spirit"
+		}
+	}
+}

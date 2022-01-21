@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 209
+	},
+	"name": {
+		"en": "Snubbull",
+		"jp": "ブルー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fairy Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Run Away",
+			"hidden_ability": "Rattled"
+		}
+	}
+}

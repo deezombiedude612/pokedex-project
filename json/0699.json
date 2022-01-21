@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 699
+	},
+	"name": {
+		"en": "Aurorus",
+		"jp": "アマルルガ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tundra Pokémon",
+		"type_id": [8, 11],
+		"type": ["rock", "ice"],
+		"abilities": {
+			"ability_1": "Refrigerate",
+			"ability_2": false,
+			"hidden_ability": "Snow Warning"
+		}
+	}
+}

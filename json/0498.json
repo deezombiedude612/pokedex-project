@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 498
+	},
+	"name": {
+		"en": "Tepig",
+		"jp": "ポカブ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fire Pig Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Thick Fat"
+		}
+	}
+}

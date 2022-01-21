@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 752,
+		"galar_dex": 215
+	},
+	"name": {
+		"en": "Araquanid",
+		"jp": "オニシズクモ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Water Bubble Pokémon",
+		"type_id": [6, 5],
+		"type": ["water", "bug"],
+		"abilities": {
+			"ability_1": "Water Bubble",
+			"ability_2": false,
+			"hidden_ability": "Water Absorb"
+		}
+	}
+}

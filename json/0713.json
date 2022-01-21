@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 713,
+		"galar_dex": 359
+	},
+	"name": {
+		"en": "Avalugg",
+		"jp": "クレベース"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iceberg Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": "Ice Body",
+			"hidden_ability": "Sturdy"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 626,
+		"galar_isle_of_armor": 53
+	},
+	"name": {
+		"en": "Bouffalant",
+		"jp": "バッフロン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bash Buffalo Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Reckless",
+			"ability_2": "Sap Sipper",
+			"hidden_ability": "Soundproof"
+		}
+	}
+}

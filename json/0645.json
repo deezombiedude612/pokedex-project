@@ -1,0 +1,30 @@
+{
+	"id": {
+		"national": 645
+	},
+	"name": {
+		"en": "Landorus",
+		"jp": "ランドロス"
+	},
+	"baby": false,
+	"incarnate_forme": {
+		"desc": "Abundance Pokémon",
+		"type_id": [2, 3],
+		"type": ["ground", "flying"],
+		"abilities": {
+			"ability_1": "Sand Force",
+			"ability_2": false,
+			"hidden_ability": "Sheer Force"
+		}
+	},
+	"therian_forme": {
+		"desc": "Abundance Pokémon",
+		"type_id": [2, 3],
+		"type": ["ground", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 467
+	},
+	"name": {
+		"en": "Magmotar",
+		"jp": "ブーバーン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Blast Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Flame Body",
+			"ability_2": false,
+			"hidden_ability": "Vital Spirit"
+		}
+	}
+}

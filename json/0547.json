@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 547,
+		"galar_dex": 263
+	},
+	"name": {
+		"en": "Whimsicott",
+		"jp": "エルフーン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Windveiled Pokémon",
+		"type_id": [9, 17],
+		"type": ["grass", "fairy"],
+		"abilities": {
+			"ability_1": "Prankster",
+			"ability_2": "Infiltrator",
+			"hidden_ability": "Chlorophyll"
+		}
+	}
+}

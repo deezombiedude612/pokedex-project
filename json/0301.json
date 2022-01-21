@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 301
+	},
+	"name": {
+		"en": "Delcatty",
+		"jp": "エネコロロ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Prim Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": "Normalize",
+			"hidden_ability": "Wonder Skin"
+		}
+	}
+}

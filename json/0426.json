@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 426,
+		"galar_dex": 125,
+		"galar_isle_of_armor": 136
+	},
+	"name": {
+		"en": "Drifblim",
+		"jp": "フワライド"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Blimp Pokémon",
+		"type_id": [1, 3],
+		"type": ["ghost", "flying"],
+		"abilities": {
+			"ability_1": "Aftermath",
+			"ability_2": "Unburden",
+			"hidden_ability": "Flare Boost"
+		}
+	}
+}

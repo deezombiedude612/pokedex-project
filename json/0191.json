@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 191
+	},
+	"name": {
+		"en": "Sunkern",
+		"jp": "ヒマナッツ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Seed Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Solar Power",
+			"hidden_ability": "Early Bird"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 227,
+		"galar_isle_of_armor": 153
+	},
+	"name": {
+		"en": "Skarmory",
+		"jp": "エアームド"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Armor Bird Pokémon",
+		"type_id": [15, 3],
+		"type": ["steel", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

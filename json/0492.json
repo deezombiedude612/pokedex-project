@@ -1,0 +1,30 @@
+{
+	"id": {
+		"national": 492
+	},
+	"name": {
+		"en": "Shaymin",
+		"jp": "シェイミ"
+	},
+	"baby": false,
+	"land_forme": {
+		"desc": "Gratitude Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"sky_forme": {
+		"desc": "Gratitude Pokémon",
+		"type_id": [9, 3],
+		"type": ["grass", "flying"],
+		"abilities": {
+			"ability_1": "Serene Grace",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

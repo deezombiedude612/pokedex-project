@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 187
+	},
+	"name": {
+		"en": "Hoppip",
+		"jp": "ハネッコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cottonweed Pokémon",
+		"type_id": [9, 3],
+		"type": ["grass", "flying"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Leaf Guard",
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

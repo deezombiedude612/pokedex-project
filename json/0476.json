@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 476
+	},
+	"name": {
+		"en": "Probopass",
+		"jp": "ダイノーズ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Compass Pokémon",
+		"type_id": [8, 15],
+		"type": ["rock", "steel"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Magnet Pull",
+			"hidden_ability": "Sand Force"
+		}
+	}
+}

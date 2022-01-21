@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 4,
+		"galar_dex": 378
+	},
+	"name": {
+		"en": "Charmander",
+		"jp": "ヒトカゲ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lizard Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Solar Power"
+		}
+	}
+}

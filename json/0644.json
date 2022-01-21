@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 644
+	},
+	"name": {
+		"en": "Zekrom",
+		"jp": "ゼクロム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Deep Black Pokémon",
+		"type_id": [0, 7],
+		"type": ["dragon", "electric"],
+		"abilities": {
+			"ability_1": "Teravolt",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

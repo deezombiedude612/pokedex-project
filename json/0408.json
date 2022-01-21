@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 408
+	},
+	"name": {
+		"en": "Cranidos",
+		"jp": "ズガイドス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Head Butt Pokémon",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"abilities": {
+			"ability_1": "Mold Breaker",
+			"ability_2": false,
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

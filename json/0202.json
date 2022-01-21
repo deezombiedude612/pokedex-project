@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 202,
+		"galar_dex": 217
+	},
+	"name": {
+		"en": "Wobuffet",
+		"jp": "ソーナンス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Patient Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Shadow Tag",
+			"ability_2": false,
+			"hidden_ability": "Telepathy"
+		}
+	}
+}

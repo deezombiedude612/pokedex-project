@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 109,
+		"galar_dex": 250
+	},
+	"name": {
+		"en": "Koffing",
+		"jp": "ドガース"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Poison Gas Pokémon",
+		"type_id": [4, -1],
+		"type": ["poison"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": "Neutralizing Gas",
+			"hidden_ability": "Stench"
+		}
+	}
+}

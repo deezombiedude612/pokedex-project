@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 354
+	},
+	"name": {
+		"en": "Banette",
+		"jp": "ジュペッタ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Marionette Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Insomnia",
+			"ability_2": "Frisk",
+			"hidden_ability": "Cursed Body"
+		}
+	},
+	"mega": {
+		"desc": "Marionette Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"ability": "Prankster",
+		"mega_stone": "Banettite"
+	}
+}

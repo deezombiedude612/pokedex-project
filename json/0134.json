@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 134,
+		"galar_dex": 197
+	},
+	"name": {
+		"en": "Vaporeon",
+		"jp": "シャワーズ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bubble Jet Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": false,
+			"hidden_ability": "Hydration"
+		}
+	}
+}

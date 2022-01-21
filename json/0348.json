@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 348
+	},
+	"name": {
+		"en": "Armaldo",
+		"jp": "アーマルド"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Plate Pokémon",
+		"type_id": [8, 5],
+		"type": ["rock", "bug"],
+		"abilities": {
+			"ability_1": "Battle Armor",
+			"ability_2": false,
+			"hidden_ability": "Swift Swim"
+		}
+	}
+}

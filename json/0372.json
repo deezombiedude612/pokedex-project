@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 372
+	},
+	"name": {
+		"en": "Shelgon",
+		"jp": "コモルー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Endurance Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": false,
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

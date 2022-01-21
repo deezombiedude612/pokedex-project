@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 883,
+		"galar_dex": 377
+	},
+	"name": {
+		"en": "Arctovish",
+		"jp": "ウオチルドン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fossil Pokémon",
+		"type_id": [6, 11],
+		"type": ["water", "ice"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": "Ice Body",
+			"hidden_ability": "Slush Rush"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 755,
+		"galar_dex": 340
+	},
+	"name": {
+		"en": "Morelull",
+		"jp": "ネマシュ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Illuminating Pokémon",
+		"type_id": [9, 17],
+		"type": ["grass", "fairy"],
+		"abilities": {
+			"ability_1": "Illuminate",
+			"ability_2": "Effect Spore",
+			"hidden_ability": "Rain Dish"
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"id": {
+		"national": 483
+	},
+	"name": {
+		"en": "Dialga",
+		"jp": "ディアルガ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Temporal Pokémon",
+		"type_id": [15, 0],
+		"type": ["steel", "dragon"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Telepathy"
+		}
+	},
+	"lord_forme": {
+		"desc": "Temporal Pokémon",
+		"type_id": [15, 0],
+		"type": ["steel", "dragon"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

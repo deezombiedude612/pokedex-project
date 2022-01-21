@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 740
+	},
+	"name": {
+		"en": "Crabominable",
+		"jp": "ケケンカニ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Wooly Crab Pokémon",
+		"type_id": [14, 11],
+		"type": ["fighting", "ice"],
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Iron Fist",
+			"hidden_ability": "Anger Point"
+		}
+	}
+}

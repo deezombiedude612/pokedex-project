@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 620,
+		"galar_isle_of_armor": 164
+	},
+	"name": {
+		"en": "Mienshao",
+		"jp": "コジョンド"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Martial Arts Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": "Regenerator",
+			"hidden_ability": "Reckless"
+		}
+	}
+}

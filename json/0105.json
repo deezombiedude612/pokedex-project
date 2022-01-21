@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 105,
+		"galar_isle_of_armor": 171
+	},
+	"name": {
+		"en": "Marowak",
+		"jp": "ガラガラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bone Keeper Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": "Lightning Rod",
+			"hidden_ability": "Battle Armor"
+		}
+	},
+	"alola_variant": {
+		"desc": "Bone Keeper Pokémon",
+		"type_id": [13, 1],
+		"type": ["fire", "ghost"],
+		"abilities": {
+			"ability_1": "Cursed Body",
+			"ability_2": "Lightning Rod",
+			"hidden_ability": "Rock Head"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 379
+	},
+	"name": {
+		"en": "Registeel",
+		"jp": "レジスチル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iron Pokémon",
+		"type_id": [15, -1],
+		"type": ["steel"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": false,
+			"hidden_ability": "Light Metal"
+		}
+	}
+}

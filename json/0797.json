@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 797
+	},
+	"name": {
+		"en": "Celesteela",
+		"jp": "テッカグヤ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Launch Pokémon",
+		"type_id": [15, 3],
+		"type": ["steel", "flying"],
+		"abilities": {
+			"ability_1": "Beast Boost",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

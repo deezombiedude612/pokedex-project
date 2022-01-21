@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 538,
+		"galar_dex": 248
+	},
+	"name": {
+		"en": "Throh",
+		"jp": "ナゲキ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Judo Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Guts",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Mold Breaker"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 95,
+		"galar_dex": 178
+	},
+	"name": {
+		"en": "Onix",
+		"jp": "イワーク"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rock Snake Pokémon",
+		"type_id": [8, 2],
+		"type": ["rock", "ground"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

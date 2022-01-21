@@ -1,0 +1,34 @@
+{
+	"id": {
+		"national": 150
+	},
+	"name": {
+		"en": "Mewtwo",
+		"jp": "ミュウツー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Genetic Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Unnerve"
+		}
+	},
+	"mega_x": {
+		"desc": "Genetic Pokémon",
+		"type_id": [16, 14],
+		"type": ["psychic", "fighting"],
+		"ability": "Steadfast",
+		"mega_stone": "Mewtwonite X"
+	},
+	"mega_y": {
+		"desc": "Genetic Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"ability": "Insomnia",
+		"mega_stone": "Mewtwonite Y"
+	}
+}

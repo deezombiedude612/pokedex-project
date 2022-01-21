@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 246,
+		"galar_dex": 383
+	},
+	"name": {
+		"en": "Larvitar",
+		"jp": "ヨーギラス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rock Skin Pokémon",
+		"type_id": [8, 2],
+		"type": ["rock", "ground"],
+		"abilities": {
+			"ability_1": "Guts",
+			"ability_2": false,
+			"hidden_ability": "Sand Veil"
+		}
+	}
+}

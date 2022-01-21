@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 417
+	},
+	"name": {
+		"en": "Pachirisu",
+		"jp": "パチリス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "EleSquirrel Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Pickup",
+			"hidden_ability": "Volt Absorb"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 128,
+		"galar_isle_of_armor": 116
+	},
+	"name": {
+		"en": "Tauros",
+		"jp": "ケンタロス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Wild Bull Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Anger Point",
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

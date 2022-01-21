@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 570,
+		"galar_isle_of_armor": 87
+	},
+	"name": {
+		"en": "Zorua",
+		"jp": "ゾロア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tricky Fox Pokémon",
+		"type_id": [10, -1],
+		"type": ["dark"],
+		"abilities": {
+			"ability_1": "Illusion",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"hisui_variant": {
+		"desc": "Tricky Fox Pokémon",
+		"type_id": [12, 1],
+		"type": ["normal", "ghost"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 815,
+		"galar_dex": 6
+	},
+	"name": {
+		"en": "Cinderace",
+		"jp": "エースバーン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Striker Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"g_max": {
+			"g_max_move": "G-Max Fireball",
+			"g_max_type_id": 13,
+			"g_max_type": "fire"
+		},
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Libero"
+		}
+	}
+}

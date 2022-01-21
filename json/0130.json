@@ -1,0 +1,29 @@
+{
+	"id": {
+		"national": 130,
+		"galar_dex": 145,
+		"galar_isle_of_armor": 43
+	},
+	"name": {
+		"en": "Gyarados",
+		"jp": "ギャラドス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Atrocious Pokémon",
+		"type_id": [6, 3],
+		"type": ["water", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": false,
+			"hidden_ability": "Moxie"
+		}
+	},
+	"mega": {
+		"desc": "Atrocious Pokémon",
+		"type_id": [6, 10],
+		"type": ["water", "dark"],
+		"ability": "Mold Breaker",
+		"mega_stone": "Gyaradosite"
+	}
+}

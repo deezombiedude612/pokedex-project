@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 660,
+		"galar_dex": 49
+	},
+	"name": {
+		"en": "Diggersby",
+		"jp": "ホルード"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Digging Pokémon",
+		"type_id": [12, 2],
+		"type": ["normal", "ground"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Cheek Pouch",
+			"hidden_ability": "Huge Power"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 345
+	},
+	"name": {
+		"en": "Lileep",
+		"jp": "リリーラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sea Lily Pokémon",
+		"type_id": [8, 9],
+		"type": ["rock", "grass"],
+		"abilities": {
+			"ability_1": "Suction Cups",
+			"ability_2": false,
+			"hidden_ability": "Storm Drain"
+		}
+	}
+}

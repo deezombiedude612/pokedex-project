@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 893,
+		"galar_isle_of_armor": 211
+	},
+	"name": {
+		"en": "Zarude",
+		"jp": "ザルード"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rogue Monkey Pokémon",
+		"type_id": [10, 9],
+		"type": ["dark", "grass"],
+		"abilities": {
+			"ability_1": "Leaf Guard",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

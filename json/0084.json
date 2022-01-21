@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 84
+	},
+	"name": {
+		"en": "Doduo",
+		"jp": "ドードー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Twin Bird Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Early Bird",
+			"hidden_ability": "Tangled Feet"
+		}
+	}
+}

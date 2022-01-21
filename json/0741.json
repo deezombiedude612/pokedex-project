@@ -1,0 +1,50 @@
+{
+	"id": {
+		"national": 741
+	},
+	"name": {
+		"en": "Oricorio",
+		"jp": "オドリドリ"
+	},
+	"baby": false,
+	"baile_style": {
+		"desc": "Dancing Pokémon",
+		"type_id": [13, 3],
+		"type": ["fire", "flying"],
+		"abilities": {
+			"ability_1": "Dancer",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"pompom_style": {
+		"desc": "Dancing Pokémon",
+		"type_id": [7, 3],
+		"type": ["electric", "flying"],
+		"abilities": {
+			"ability_1": "Dancer",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"pa'u_style": {
+		"desc": "Dancing Pokémon",
+		"type_id": [16, 3],
+		"type": ["psychic", "flying"],
+		"abilities": {
+			"ability_1": "Dancer",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"sensu_style": {
+		"desc": "Dancing Pokémon",
+		"type_id": [1, 3],
+		"type": ["ghost", "flying"],
+		"abilities": {
+			"ability_1": "Dancer",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

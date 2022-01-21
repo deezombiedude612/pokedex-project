@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 287
+	},
+	"name": {
+		"en": "Slakoth",
+		"jp": "ナマケロ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Slacker Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Truant",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

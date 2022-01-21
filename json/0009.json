@@ -1,0 +1,33 @@
+{
+	"id": {
+		"national": 9,
+		"galar_isle_of_armor": 73
+	},
+	"name": {
+		"en": "Blastoise",
+		"jp": "カメックス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Shellfish Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"g_max": {
+			"g_max_move": "G-Max Cannonade",
+			"g_max_type_id": 6,
+			"g_max_type": "water"
+		},
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"mega": {
+		"desc": "Shellfish Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"ability": "Mega Launcher",
+		"mega_stone": "Blastoisinite"
+	}
+}

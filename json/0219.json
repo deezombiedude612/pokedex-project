@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 219
+	},
+	"name": {
+		"en": "Magcargo",
+		"jp": "マグカルゴ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lava Pokémon",
+		"type_id": [13, 8],
+		"type": ["fire", "rock"],
+		"abilities": {
+			"ability_1": "Magma Armor",
+			"ability_2": "Flame Body",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

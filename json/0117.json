@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 117,
+		"galar_isle_of_armor": 199
+	},
+	"name": {
+		"en": "Seadra",
+		"jp": "シードラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dragon Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Poison Point",
+			"ability_2": "Sniper",
+			"hidden_ability": "Damp"
+		}
+	}
+}

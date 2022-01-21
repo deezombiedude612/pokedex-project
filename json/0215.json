@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 215,
+		"galar_dex": 292
+	},
+	"name": {
+		"en": "Sneasel",
+		"jp": "ニューラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sharp Claw Pokémon",
+		"type_id": [10, 11],
+		"type": ["dark", "ice"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Pickpocket"
+		}
+	}
+}

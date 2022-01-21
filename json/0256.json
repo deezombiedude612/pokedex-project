@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 256
+	},
+	"name": {
+		"en": "Combusken",
+		"jp": "ワカシャモ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Young Fowl Pokémon",
+		"type_id": [13, 14],
+		"type": ["fire", "fighting"],
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Speed Boost"
+		}
+	}
+}

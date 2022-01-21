@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 465,
+		"galar_isle_of_armor": 81
+	},
+	"name": {
+		"en": "Tangrowth",
+		"jp": "モジャンボ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Vine Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Leaf Guard",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

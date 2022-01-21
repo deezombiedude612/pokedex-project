@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 859,
+		"galar_dex": 238
+	},
+	"name": {
+		"en": "Impidimp",
+		"jp": "ベロバー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Wily Pokémon",
+		"type_id": [10, 17],
+		"type": ["dark", "fairy"],
+		"abilities": {
+			"ability_1": "Prankster",
+			"ability_2": "Frisk",
+			"hidden_ability": "Pickpocket"
+		}
+	}
+}

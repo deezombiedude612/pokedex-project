@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 65,
+		"galar_isle_of_armor": 33
+	},
+	"name": {
+		"en": "Alakazam",
+		"jp": "フーディン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Psi Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Magic Guard"
+		}
+	},
+	"mega": {
+		"desc": "Psi Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"ability": "Trace",
+		"mega_stone": "Alakazamite"
+	}
+}

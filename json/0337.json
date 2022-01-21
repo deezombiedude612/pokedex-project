@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 337,
+		"galar_dex": 362
+	},
+	"name": {
+		"en": "Lunatone",
+		"jp": "ルナトーン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Meteorite Pokémon",
+		"type_id": [8, 16],
+		"type": ["rock", "psychic"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

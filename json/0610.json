@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 610,
+		"galar_dex": 324
+	},
+	"name": {
+		"en": "Axew",
+		"jp": "キバゴ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tusk Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Rivalry",
+			"ability_2": "Mold Breaker",
+			"hidden_ability": "Unnerve"
+		}
+	}
+}

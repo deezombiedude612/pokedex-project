@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 662,
+		"galar_isle_of_armor": 23
+	},
+	"name": {
+		"en": "Fletchinder",
+		"jp": "ヒノヤコマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ember Pokémon",
+		"type_id": [13, 3],
+		"type": ["fire", "flying"],
+		"abilities": {
+			"ability_1": "Flame Body",
+			"ability_2": false,
+			"hidden_ability": "Gale Wings"
+		}
+	}
+}

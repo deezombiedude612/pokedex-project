@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 116,
+		"galar_isle_of_armor": 198
+	},
+	"name": {
+		"en": "Horsea",
+		"jp": "タッツー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dragon Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Sniper",
+			"hidden_ability": "Damp"
+		}
+	}
+}

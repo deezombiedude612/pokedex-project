@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 39,
+		"galar_isle_of_armor": 12
+	},
+	"name": {
+		"en": "Jigglypuff",
+		"jp": "プリン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Balloon Pokémon",
+		"type_id": [12, 17],
+		"type": ["normal", "fairy"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": "Competitive",
+			"hidden_ability": "Friend Guard"
+		}
+	}
+}

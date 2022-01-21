@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 671
+	},
+	"name": {
+		"en": "Florges",
+		"jp": "フラージェス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Garden Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Flower Veil",
+			"ability_2": false,
+			"hidden_ability": "Symbiosis"
+		}
+	}
+}

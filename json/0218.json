@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 218
+	},
+	"name": {
+		"en": "Slugma",
+		"jp": "マグマッグ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lava Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Magma Armor",
+			"ability_2": "Flame Body",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

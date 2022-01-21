@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 437,
+		"galar_dex": 119
+	},
+	"name": {
+		"en": "Bronzong",
+		"jp": "ドータンクン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bronze Bell Pokémon",
+		"type_id": [15, 16],
+		"type": ["steel", "psychic"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": "Heatproof",
+			"hidden_ability": "Heavy Metal"
+		}
+	}
+}

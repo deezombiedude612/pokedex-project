@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 836,
+		"galar_dex": 47
+	},
+	"name": {
+		"en": "Boltund",
+		"jp": "パルスワン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dog Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Strong Jaw",
+			"ability_2": false,
+			"hidden_ability": "Competitive"
+		}
+	}
+}

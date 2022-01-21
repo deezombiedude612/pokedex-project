@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 326
+	},
+	"name": {
+		"en": "Grumpig",
+		"jp": "ブーピッグ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Manipulate Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Gluttony"
+		}
+	}
+}

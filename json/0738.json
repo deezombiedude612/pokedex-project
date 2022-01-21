@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 738,
+		"galar_dex": 18
+	},
+	"name": {
+		"en": "Vikavolt",
+		"jp": "クワガノン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Stag Beetle Pokémon",
+		"type_id": [5, 7],
+		"type": ["bug", "electric"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

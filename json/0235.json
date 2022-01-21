@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 235
+	},
+	"name": {
+		"en": "Smeargle",
+		"jp": "ドーブル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Painter Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": "Technician",
+			"hidden_ability": "Moody"
+		}
+	}
+}

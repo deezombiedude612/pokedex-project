@@ -1,0 +1,68 @@
+{
+	"id": {
+		"national": 745,
+		"galar_isle_of_armor": 158
+	},
+	"name": {
+		"en": "Lycanroc",
+		"jp": "ルガルガン"
+	},
+	"baby": false,
+	"midday_form": {
+		"desc": "Wolf Pokémon",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"exclusive_z": {
+			"excl_z_move": "Splintered Stormshards",
+			"excl_z_move_type_id": 8,
+			"excl_z_move_type": "rock",
+			"excl_z_move_category": "physical",
+			"excl_z_crystal": "Lycanium Z",
+			"excl_z_required_move": "Stone Edge",
+			"excl_z_power": 190
+		},
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Sand Rush",
+			"hidden_ability": "Steadfast"
+		}
+	},
+	"midnight_form": {
+		"desc": "Wolf Pokémon",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"exclusive_z": {
+			"excl_z_move": "Splintered Stormshards",
+			"excl_z_move_type_id": 8,
+			"excl_z_move_type": "rock",
+			"excl_z_move_category": "physical",
+			"excl_z_crystal": "Lycanium Z",
+			"excl_z_required_move": "Stone Edge",
+			"excl_z_power": 190
+		},
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Vital Spirit",
+			"hidden_ability": "No Guard"
+		}
+	},
+	"dusk_form": {
+		"desc": "Wolf Pokémon",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"exclusive_z": {
+			"excl_z_move": "Splintered Stormshards",
+			"excl_z_move_type_id": 8,
+			"excl_z_move_type": "rock",
+			"excl_z_move_category": "physical",
+			"excl_z_crystal": "Lycanium Z",
+			"excl_z_required_move": "Stone Edge",
+			"excl_z_power": 190
+		},
+		"abilities": {
+			"ability_1": "Tough Claws",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

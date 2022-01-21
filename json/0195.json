@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 195,
+		"galar_dex": 101,
+		"galar_isle_of_armor": 59
+	},
+	"name": {
+		"en": "Quagsire",
+		"jp": "ヌオー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Water Fish Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Damp",
+			"ability_2": "Water Absorb",
+			"hidden_ability": "Unaware"
+		}
+	}
+}

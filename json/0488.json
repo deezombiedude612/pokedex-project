@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 488
+	},
+	"name": {
+		"en": "Cresselia",
+		"jp": "クレセリア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Lunar Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 514
+	},
+	"name": {
+		"en": "Simisear",
+		"jp": "バオッキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ember Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Gluttony",
+			"ability_2": false,
+			"hidden_ability": "Blaze"
+		}
+	}
+}

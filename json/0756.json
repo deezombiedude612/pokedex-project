@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 756,
+		"galar_dex": 341
+	},
+	"name": {
+		"en": "Shiinotic",
+		"jp": "マシェード"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Illuminating Pokémon",
+		"type_id": [9, 17],
+		"type": ["grass", "fairy"],
+		"abilities": {
+			"ability_1": "Illuminate",
+			"ability_2": "Effect Spore",
+			"hidden_ability": "Rain Dish"
+		}
+	}
+}

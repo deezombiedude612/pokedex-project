@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 200
+	},
+	"name": {
+		"en": "Misdreavus",
+		"jp": "ムウマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Screech Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

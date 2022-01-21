@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 397
+	},
+	"name": {
+		"en": "Staravia",
+		"jp": "ムクバード"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Starling Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": false,
+			"hidden_ability": "Reckless"
+		}
+	}
+}

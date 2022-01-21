@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 364
+	},
+	"name": {
+		"en": "Sealeo",
+		"jp": "トドグラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ball Roll Pokémon",
+		"type_id": [11, 6],
+		"type": ["ice", "water"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Ice Body",
+			"hidden_ability": "Oblivious"
+		}
+	}
+}

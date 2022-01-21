@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 733
+	},
+	"name": {
+		"en": "Toucannon",
+		"jp": "ドデカバシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cannon Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Skill Link",
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

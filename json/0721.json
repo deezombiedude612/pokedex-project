@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 721
+	},
+	"name": {
+		"en": "Volcanion",
+		"jp": "ボルケニオン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Steam Pokémon",
+		"type_id": [13, 6],
+		"type": ["fire", "water"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"id": {
+		"national": 730
+	},
+	"name": {
+		"en": "Primarina",
+		"jp": "アシレーヌ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Soloist Pokémon",
+		"type_id": [6, 17],
+		"type": ["water", "fairy"],
+		"exclusive_z": {
+			"excl_z_move": "Oceanic Operetta",
+			"excl_z_move_type_id": 6,
+			"excl_z_move_type": "water",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Primarium Z",
+			"excl_z_required_move": "Sparkling Aria",
+			"excl_z_power": 195
+		},
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Liquid Voice"
+		}
+	}
+}

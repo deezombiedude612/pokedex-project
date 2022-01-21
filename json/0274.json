@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 274,
+		"galar_dex": 40
+	},
+	"name": {
+		"en": "Nuzleaf",
+		"jp": "コノハナ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Willy Pokémon",
+		"type_id": [9, 10],
+		"type": ["grass", "dark"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Early Bird",
+			"hidden_ability": "Pickpocket"
+		}
+	}
+}

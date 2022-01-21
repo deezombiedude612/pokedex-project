@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 732
+	},
+	"name": {
+		"en": "Trumbeak",
+		"jp": "ケララッパ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bugle Beak Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Skill Link",
+			"hidden_ability": "Pickup"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 588,
+		"galar_dex": 273,
+		"galar_isle_of_armor": 66
+	},
+	"name": {
+		"en": "Karrablast",
+		"jp": "カブルモ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Clamping Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Shed Skin",
+			"hidden_ability": "No Guard"
+		}
+	}
+}

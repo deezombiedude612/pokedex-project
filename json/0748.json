@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 748,
+		"galar_dex": 308,
+		"galar_isle_of_armor": 128
+	},
+	"name": {
+		"en": "Toxapex",
+		"jp": "ドヒドイデ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Brutal Star Pokémon",
+		"type_id": [4, 6],
+		"type": ["poison", "water"],
+		"abilities": {
+			"ability_1": "Merciless",
+			"ability_2": "Limber",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 551,
+		"galar_isle_of_armor": 176
+	},
+	"name": {
+		"en": "Sandile",
+		"jp": "メグロコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Desert Croc Pokémon",
+		"type_id": [2, 10],
+		"type": ["ground", "dark"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Moxie",
+			"hidden_ability": "Anger Point"
+		}
+	}
+}

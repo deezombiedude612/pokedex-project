@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 468,
+		"galar_dex": 259
+	},
+	"name": {
+		"en": "Togekiss",
+		"jp": "トゲキッス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Jubilee Pokémon",
+		"type_id": [17, 3],
+		"type": ["fairy", "flying"],
+		"abilities": {
+			"ability_1": "Hustle",
+			"ability_2": "Serene Grace",
+			"hidden_ability": "Super Luck"
+		}
+	}
+}

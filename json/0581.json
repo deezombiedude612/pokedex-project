@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 581
+	},
+	"name": {
+		"en": "Swanna",
+		"jp": "スワンナ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "White Bird Pokémon",
+		"type_id": [6, 3],
+		"type": ["water", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Big Pecks",
+			"hidden_ability": "Hydration"
+		}
+	}
+}

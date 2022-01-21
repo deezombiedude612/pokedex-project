@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 238
+	},
+	"name": {
+		"en": "Smoochum",
+		"jp": "ムチュール"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Kiss Pokémon",
+		"type_id": [11, 16],
+		"type": ["ice", "psychic"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Forewarn",
+			"hidden_ability": "Hydration"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 54,
+		"galar_isle_of_armor": 146
+	},
+	"name": {
+		"en": "Psyduck",
+		"jp": "コダック"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Duck Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Damp",
+			"ability_2": "Cloud Nine",
+			"hidden_ability": "Swift Swim"
+		}
+	}
+}

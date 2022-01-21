@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 654
+	},
+	"name": {
+		"en": "Braixen",
+		"jp": "テールナー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fox Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Magician",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

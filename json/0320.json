@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 320,
+		"galar_dex": 356,
+		"galar_isle_of_armor": 190
+	},
+	"name": {
+		"en": "Wailmer",
+		"jp": "ホエルコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ball Whale Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Water Veil",
+			"ability_2": "Oblivious",
+			"hidden_ability": "Pressure"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 24
+	},
+	"name": {
+		"en": "Arbok",
+		"jp": "アーボック"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cobra Pokémon",
+		"type_id": [4, -1],
+		"type": ["poison"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Shed Skin",
+			"hidden_ability": "Unnerve"
+		}
+	}
+}

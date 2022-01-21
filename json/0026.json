@@ -1,0 +1,41 @@
+{
+	"id": {
+		"national": 26,
+		"galar_dex": 195,
+		"galar_isle_of_armor": 86
+	},
+	"name": {
+		"en": "Raichu",
+		"jp": "ライチュウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mouse Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Static",
+			"ability_2": false,
+			"hidden_ability": "Lightning Rod"
+		}
+	},
+	"alola_variant": {
+		"desc": "Mouse Pokémon",
+		"type_id": [7, 16],
+		"type": ["electric", "psychic"],
+		"exclusive_z": {
+			"excl_z_move": "Stoked Sparksurfer",
+			"excl_z_move_type_id": 7,
+			"excl_z_move_type": "electric",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Alolaraichium Z",
+			"excl_z_required_move": "Thunderbolt",
+			"excl_z_power": 175
+		},
+		"abilities": {
+			"ability_1": "Surge Surfer",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

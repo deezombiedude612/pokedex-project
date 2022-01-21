@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 472
+	},
+	"name": {
+		"en": "Gliscor",
+		"jp": "グライオン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fang Scorpion Pokémon",
+		"type_id": [2, 3],
+		"type": ["ground", "flying"],
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Sand Veil",
+			"hidden_ability": "Poison Heal"
+		}
+	}
+}

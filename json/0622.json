@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 622,
+		"galar_dex": 88
+	},
+	"name": {
+		"en": "Golett",
+		"jp": "ゴビット"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Automaton Pokémon",
+		"type_id": [2, 1],
+		"type": ["ground", "ghost"],
+		"abilities": {
+			"ability_1": "Iron Fist",
+			"ability_2": "Klutz",
+			"hidden_ability": "No Guard"
+		}
+	}
+}

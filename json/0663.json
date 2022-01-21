@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 663,
+		"galar_isle_of_armor": 24
+	},
+	"name": {
+		"en": "Talonflame",
+		"jp": "ファイアロー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Scorching Pokémon",
+		"type_id": [13, 3],
+		"type": ["fire", "flying"],
+		"abilities": {
+			"ability_1": "Flame Body",
+			"ability_2": false,
+			"hidden_ability": "Gale Wings"
+		}
+	}
+}

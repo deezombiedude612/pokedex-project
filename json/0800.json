@@ -1,0 +1,77 @@
+{
+	"id": {
+		"national": 800
+	},
+	"name": {
+		"en": "Necrozma",
+		"jp": "ネクロズマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Prism Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Prism Armor",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"dusk_mane_necrozma": {
+		"desc": "Prism Pokémon",
+		"type_id": [8, 15],
+		"type": ["rock", "steel"],
+		"exclusive_z": {
+			"excl_z_move": "Searing Sunraze Smash",
+			"excl_z_move_type_id": 12,
+			"excl_z_move_type": "normal",
+			"excl_z_move_category": "physical",
+			"excl_z_crystal": "Snorlium Z",
+			"excl_z_required_move": "Giga Impact",
+			"excl_z_power": 210
+		},
+		"abilities": {
+			"ability_1": "Prism Armor",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"dawn_wings_necrozma": {
+		"desc": "Prism Pokémon",
+		"type_id": [8, 1],
+		"type": ["rock", "ghost"],
+		"exclusive_z": {
+			"excl_z_move": "Menacing Moonraze Maelstrom",
+			"excl_z_move_type_id": 1,
+			"excl_z_move_type": "ghost",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Lunalium Z",
+			"excl_z_required_move": "Moongeist Beam",
+			"excl_z_power": 200
+		},
+		"abilities": {
+			"ability_1": "Prism Armor",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"ultra_necrozma": {
+		"desc": "Prism Pokémon",
+		"type_id": [8, 0],
+		"type": ["rock", "dragon"],
+		"exclusive_z": {
+			"excl_z_move": "Light That Burns the Sky",
+			"excl_z_move_type_id": 16,
+			"excl_z_move_type": "psychic",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Ultranecrozium Z",
+			"excl_z_required_move": "Photon Geyser",
+			"excl_z_power": 200
+		},
+		"abilities": {
+			"ability_1": "Neuroforce",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

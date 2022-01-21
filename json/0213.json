@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 213,
+		"galar_dex": 227
+	},
+	"name": {
+		"en": "Shuckle",
+		"jp": "ツボツボ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mold Pokémon",
+		"type_id": [5, 8],
+		"type": ["bug", "rock"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Contrary"
+		}
+	}
+}

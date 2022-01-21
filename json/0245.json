@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 245
+	},
+	"name": {
+		"en": "Suicune",
+		"jp": "スイクン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Aurora Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Inner Focus"
+		}
+	}
+}

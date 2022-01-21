@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 843,
+		"galar_dex": 312,
+		"galar_isle_of_armor": 174
+	},
+	"name": {
+		"en": "Silicobra",
+		"jp": "スナヘビ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sand Snake Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"abilities": {
+			"ability_1": "Sand Spit",
+			"ability_2": "Shed Skin",
+			"hidden_ability": "Sand Veil"
+		}
+	}
+}

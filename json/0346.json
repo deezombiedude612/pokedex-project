@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 346
+	},
+	"name": {
+		"en": "Cradily",
+		"jp": "ユレイドル"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Barnacle Pokémon",
+		"type_id": [8, 9],
+		"type": ["rock", "grass"],
+		"abilities": {
+			"ability_1": "Suction Cups",
+			"ability_2": false,
+			"hidden_ability": "Storm Drain"
+		}
+	}
+}

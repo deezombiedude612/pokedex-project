@@ -1,0 +1,40 @@
+{
+	"id": {
+		"national": 6,
+		"galar_dex": 380
+	},
+	"name": {
+		"en": "Charizard",
+		"jp": "リザードン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Flame Pokémon",
+		"type_id": [13, 3],
+		"type": ["fire", "flying"],
+		"g_max": {
+			"g_max_move": "G-Max Wildfire",
+			"g_max_type_id": 13,
+			"g_max_type": "fire"
+		},
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Solar Power"
+		}
+	},
+	"mega_x": {
+		"desc": "Flame Pokémon",
+		"type_id": [13, 0],
+		"type": ["fire", "dragon"],
+		"ability": "Tough Claws",
+		"mega_stone": "Charizardite X"
+	},
+	"mega_y": {
+		"desc": "Flame Pokémon",
+		"type_id": [13, 3],
+		"type": ["fire", "flying"],
+		"ability": "Drought",
+		"mega_stone": "Charizardite Y"
+	}
+}

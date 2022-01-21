@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 164,
+		"galar_dex": 20
+	},
+	"name": {
+		"en": "Noctowl",
+		"jp": "ヨルノズク"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Owl Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Insomnia",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Tinted Lens"
+		}
+	}
+}

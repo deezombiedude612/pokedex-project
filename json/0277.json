@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 277
+	},
+	"name": {
+		"en": "Swellow",
+		"jp": "オオスバメ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Swallow Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Guts",
+			"ability_2": false,
+			"hidden_ability": "Scrappy"
+		}
+	}
+}

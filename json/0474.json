@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 474,
+		"galar_isle_of_armor": 210
+	},
+	"name": {
+		"en": "Porygon-z",
+		"jp": "ポリゴンZ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Blade Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Adaptability",
+			"ability_2": "Download",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 489
+	},
+	"name": {
+		"en": "Phione",
+		"jp": "フィオネ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sea Drifter Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Hydration",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

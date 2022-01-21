@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 29
+	},
+	"name": {
+		"en": "Nidoran ♀",
+		"jp": "ニドラン♀"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Poison Pin Pokémon",
+		"type_id": [4, -1],
+		"type": ["poison"],
+		"abilities": {
+			"ability_1": "Poison Point",
+			"ability_2": "Rivalry",
+			"hidden_ability": "Hustle"
+		}
+	}
+}

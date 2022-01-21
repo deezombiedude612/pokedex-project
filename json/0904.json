@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 904
+	},
+	"name": {
+		"en": "Overqwil",
+		"jp": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [10, 4],
+		"type": ["dark", "poison"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

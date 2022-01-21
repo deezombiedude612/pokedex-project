@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 47
+	},
+	"name": {
+		"en": "Parasect",
+		"jp": "パラセクト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mushroom Pokémon",
+		"type_id": [5, 9],
+		"type": ["bug", "grass"],
+		"abilities": {
+			"ability_1": "Effect Spore",
+			"ability_2": "Dry Skin",
+			"hidden_ability": "Damp"
+		}
+	}
+}

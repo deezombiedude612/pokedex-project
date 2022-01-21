@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 142
+	},
+	"name": {
+		"en": "Aerodactyl",
+		"jp": "プテラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fossil Pokémon",
+		"type_id": [8, 3],
+		"type": ["rock", "flying"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": "Pressure",
+			"hidden_ability": "Unnerve"
+		}
+	},
+	"mega": {
+		"desc": "Fossil Pokémon",
+		"type_id": [8, 3],
+		"type": ["rock", "flying"],
+		"ability": "Tough Claws",
+		"mega_stone": "Aerodactylite"
+	}
+}

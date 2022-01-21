@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 625,
+		"galar_dex": 247,
+		"galar_isle_of_armor": 30
+	},
+	"name": {
+		"en": "Bisharp",
+		"jp": "キリキザン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sword Blade Pokémon",
+		"type_id": [10, 15],
+		"type": ["dark", "steel"],
+		"abilities": {
+			"ability_1": "Defiant",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Pressure"
+		}
+	}
+}

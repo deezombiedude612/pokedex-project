@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 712,
+		"galar_dex": 358
+	},
+	"name": {
+		"en": "Bergmite",
+		"jp": "カチコール"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ice Chunk Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": "Ice Body",
+			"hidden_ability": "Sturdy"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 152
+	},
+	"name": {
+		"en": "Chikorita",
+		"jp": "チコリータ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Leaf Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Leaf Guard"
+		}
+	}
+}

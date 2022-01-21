@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 363
+	},
+	"name": {
+		"en": "Spheal",
+		"jp": "タマザラシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Clap Pokémon",
+		"type_id": [11, 6],
+		"type": ["ice", "water"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Ice Body",
+			"hidden_ability": "Oblivious"
+		}
+	}
+}

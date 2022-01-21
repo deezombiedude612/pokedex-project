@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 170,
+		"galar_dex": 220,
+		"galar_isle_of_armor": 188
+	},
+	"name": {
+		"en": "Chinchou",
+		"jp": "チョンチー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Angler Pokémon",
+		"type_id": [6, 7],
+		"type": ["water", "electric"],
+		"abilities": {
+			"ability_1": "Volt Absorb",
+			"ability_2": "Illuminate",
+			"hidden_ability": "Water Absorb"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 285
+	},
+	"name": {
+		"en": "Shroomish",
+		"jp": "キノココ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mushroom Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Effect Spore",
+			"ability_2": "Poison Heal",
+			"hidden_ability": "Quick Feet"
+		}
+	}
+}

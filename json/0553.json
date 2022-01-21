@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 553,
+		"galar_isle_of_armor": 178
+	},
+	"name": {
+		"en": "Krookodile",
+		"jp": "ワルビアル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Intimidation Pokémon",
+		"type_id": [2, 10],
+		"type": ["ground", "dark"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Moxie",
+			"hidden_ability": "Anger Point"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 71
+	},
+	"name": {
+		"en": "Victreebell",
+		"jp": "ウツボット"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Flycatcher Pokémon",
+		"type_id": [9, 4],
+		"type": ["grass", "poison"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": false,
+			"hidden_ability": "Gluttony"
+		}
+	}
+}

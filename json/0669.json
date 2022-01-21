@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 669
+	},
+	"name": {
+		"en": "FlabÉbÉ",
+		"jp": "フラべべ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Single Bloom Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Flower Veil",
+			"ability_2": false,
+			"hidden_ability": "Symbiosis"
+		}
+	}
+}

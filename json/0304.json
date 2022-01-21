@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 304
+	},
+	"name": {
+		"en": "Aron",
+		"jp": "ココドラ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iron Armor Pokémon",
+		"type_id": [15, 8],
+		"type": ["steel", "rock"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Rock Head",
+			"hidden_ability": "Heavy Metal"
+		}
+	}
+}

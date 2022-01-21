@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 406,
+		"galar_dex": 59
+	},
+	"name": {
+		"en": "Budew",
+		"jp": "スボミー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bud Pokémon",
+		"type_id": [9, 4],
+		"type": ["grass", "poison"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": "Poison Point",
+			"hidden_ability": "Leaf Guard"
+		}
+	}
+}

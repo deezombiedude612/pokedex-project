@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 677,
+		"galar_dex": 208
+	},
+	"name": {
+		"en": "Espurr",
+		"jp": "ニャスパー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Restraint Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Infiltrator",
+			"hidden_ability": "Own Tempo"
+		}
+	}
+}

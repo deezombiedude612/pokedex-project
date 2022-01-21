@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 402
+	},
+	"name": {
+		"en": "Kricketune",
+		"jp": "コロトック"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cricket Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": false,
+			"hidden_ability": "Technician"
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 208,
+		"galar_dex": 179
+	},
+	"name": {
+		"en": "Steelix",
+		"jp": "ハガネール"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iron Snake Pokémon",
+		"type_id": [15, 2],
+		"type": ["steel", "ground"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Sheer Force"
+		}
+	},
+	"mega": {
+		"desc": "Iron Snake Pokémon",
+		"type_id": [15, 2],
+		"type": ["steel", "ground"],
+		"ability": "Sand Force",
+		"mega_stone": "Steelixite"
+	}
+}

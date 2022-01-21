@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 334
+	},
+	"name": {
+		"en": "Altaria",
+		"jp": "チルタリス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Humming Pokémon",
+		"type_id": [0, 3],
+		"type": ["dragon", "flying"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": false,
+			"hidden_ability": "Cloud Nine"
+		}
+	},
+	"mega": {
+		"desc": "Humming Pokémon",
+		"type_id": [0, 17],
+		"type": ["dragon", "fairy"],
+		"ability": "Pixilate",
+		"mega_stone": "Altarianite"
+	}
+}

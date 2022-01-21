@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 118,
+		"galar_dex": 146,
+		"galar_isle_of_armor": 94
+	},
+	"name": {
+		"en": "Goldeen",
+		"jp": "トサキント"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Goldfish Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Water Veil",
+			"hidden_ability": "Lightning Rod"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"id": {
+		"national": 727
+	},
+	"name": {
+		"en": "Incineroar",
+		"jp": "ガオガエン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Heel Pokémon",
+		"type_id": [13, 10],
+		"type": ["fire", "dark"],
+		"exclusive_z": {
+			"excl_z_move": "Malicious Moonsault",
+			"excl_z_move_type_id": 10,
+			"excl_z_move_type": "dark",
+			"excl_z_move_category": "physical",
+			"excl_z_crystal": "Incinium Z",
+			"excl_z_required_move": "Darkest Lariat",
+			"excl_z_power": 180
+		},
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Intimidate"
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"id": {
+		"national": 642
+	},
+	"name": {
+		"en": "Thundurus",
+		"jp": "ボルトロス"
+	},
+	"baby": false,
+	"incarnate_forme": {
+		"desc": "Bolt Strike Pokémon",
+		"type_id": [7, 3],
+		"type": ["electric", "flying"],
+		"abilities": {
+			"ability_1": "Prankster",
+			"ability_2": false,
+			"hidden_ability": "Defiant"
+		}
+	},
+	"therian_forme": {
+		"desc": "Bolt Strike Pokémon",
+		"type_id": [7, 3],
+		"type": ["electric", "flying"],
+		"abilities": {
+			"ability_1": "Volt Absorb",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

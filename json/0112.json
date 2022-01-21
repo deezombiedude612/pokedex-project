@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 112,
+		"galar_dex": 265,
+		"galar_isle_of_armor": 184
+	},
+	"name": {
+		"en": "Rhydon",
+		"jp": "サイド"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Drill Pokémon",
+		"type_id": [2, 8],
+		"type": ["ground", "rock"],
+		"abilities": {
+			"ability_1": "Lightning Rod",
+			"ability_2": "Rock Head",
+			"hidden_ability": "Reckless"
+		}
+	}
+}

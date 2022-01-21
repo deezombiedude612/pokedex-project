@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 173,
+		"galar_dex": 254
+	},
+	"name": {
+		"en": "Cleffa",
+		"jp": "ピィ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Star Shape Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": "Magic Guard",
+			"hidden_ability": "Friend Guard"
+		}
+	}
+}

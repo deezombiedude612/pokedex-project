@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 226,
+		"galar_dex": 355,
+		"galar_isle_of_armor": 47
+	},
+	"name": {
+		"en": "Mantine",
+		"jp": "マンタイン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Kite Pokémon",
+		"type_id": [6, 3],
+		"type": ["water", "flying"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Water Absorb",
+			"hidden_ability": "Water Veil"
+		}
+	}
+}

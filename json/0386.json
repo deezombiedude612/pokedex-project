@@ -1,0 +1,50 @@
+{
+	"id": {
+		"national": 386
+	},
+	"name": {
+		"en": "Deoxys",
+		"jp": "デオキシス"
+	},
+	"baby": false,
+	"normal_forme": {
+		"desc": "DNA Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"attack_forme": {
+		"desc": "DNA Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"defense_forme": {
+		"desc": "DNA Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"speed_forme": {
+		"desc": "DNA Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

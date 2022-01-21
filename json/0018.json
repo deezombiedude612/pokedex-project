@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 18
+	},
+	"name": {
+		"en": "Pidgeot",
+		"jp": "ピジョット"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bird Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Tangled Feet",
+			"hidden_ability": "Big Pecks"
+		}
+	},
+	"mega": {
+		"desc": "Bird Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"ability": "No Guard",
+		"mega_stone": "Pidgeotite"
+	}
+}

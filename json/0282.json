@@ -1,0 +1,29 @@
+{
+	"id": {
+		"national": 282,
+		"galar_dex": 122,
+		"galar_isle_of_armor": 36
+	},
+	"name": {
+		"en": "Gardevoir",
+		"jp": "サーナイト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Embrace Pokémon",
+		"type_id": [16, 17],
+		"type": ["psychic", "fairy"],
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": "Trace",
+			"hidden_ability": "Telepathy"
+		}
+	},
+	"mega": {
+		"desc": "Embrace Pokémon",
+		"type_id": [16, 17],
+		"type": ["psychic", "fairy"],
+		"ability": "Pixilate",
+		"mega_stone": "Gardevoirite"
+	}
+}

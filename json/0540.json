@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 540
+	},
+	"name": {
+		"en": "Sewaddle",
+		"jp": "クルミル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sewing Pokémon",
+		"type_id": [5, 9],
+		"type": ["bug", "grass"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Chlorophyll",
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

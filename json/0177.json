@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 177,
+		"galar_dex": 92
+	},
+	"name": {
+		"en": "Natu",
+		"jp": "ネイティ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Bird Pokémon",
+		"type_id": [16, 3],
+		"type": ["psychic", "flying"],
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": "Early Bird",
+			"hidden_ability": "Magic Bounce"
+		}
+	}
+}

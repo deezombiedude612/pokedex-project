@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 456
+	},
+	"name": {
+		"en": "Finneon",
+		"jp": "ケイコウオ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Wing Fish Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Storm Drain",
+			"hidden_ability": "Water Veil"
+		}
+	}
+}

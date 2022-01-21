@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 107,
+		"galar_dex": 109
+	},
+	"name": {
+		"en": "Hitmonchan",
+		"jp": "エビワラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Punching Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Keen Eye",
+			"ability_2": "Iron Fist",
+			"hidden_ability": "Inner Focus"
+		}
+	}
+}

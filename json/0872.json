@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 872,
+		"galar_dex": 349
+	},
+	"name": {
+		"en": "Snom",
+		"jp": "ユキハミ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Worm Pokémon",
+		"type_id": [11, 5],
+		"type": ["ice", "bug"],
+		"abilities": {
+			"ability_1": "Shield Dust",
+			"ability_2": false,
+			"hidden_ability": "Ice Scales"
+		}
+	}
+}

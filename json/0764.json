@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 764,
+		"galar_isle_of_armor": 79
+	},
+	"name": {
+		"en": "Comfey",
+		"jp": "キュワワー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Posy Picker Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Flower Veil",
+			"ability_2": "Triage",
+			"hidden_ability": "Natural Cure"
+		}
+	}
+}

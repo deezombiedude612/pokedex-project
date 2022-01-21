@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 616,
+		"galar_dex": 275,
+		"galar_isle_of_armor": 64
+	},
+	"name": {
+		"en": "Shelmet",
+		"jp": "チョボマキ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Snail Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Hydration",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

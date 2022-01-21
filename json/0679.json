@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 679,
+		"galar_dex": 330
+	},
+	"name": {
+		"en": "Honedge",
+		"jp": "ヒトツキ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sword Pokémon",
+		"type_id": [15, 1],
+		"type": ["steel", "ghost"],
+		"abilities": {
+			"ability_1": "No Guard",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

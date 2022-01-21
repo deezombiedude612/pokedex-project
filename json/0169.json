@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 169
+	},
+	"name": {
+		"en": "Crobat",
+		"jp": "クロバット"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bat Pokémon",
+		"type_id": [4, 3],
+		"type": ["poison", "flying"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": false,
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

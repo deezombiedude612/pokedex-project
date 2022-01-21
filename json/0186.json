@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 186,
+		"galar_isle_of_armor": 145
+	},
+	"name": {
+		"en": "Politoed",
+		"jp": "ニョロトノ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Frog Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Water Absorb",
+			"ability_2": "Damp",
+			"hidden_ability": "Drizzle"
+		}
+	}
+}

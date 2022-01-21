@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 594
+	},
+	"name": {
+		"en": "Alomomola",
+		"jp": "ママンボウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Caring Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Healer",
+			"ability_2": "Hydration",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

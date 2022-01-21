@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 624,
+		"galar_dex": 246,
+		"galar_isle_of_armor": 29
+	},
+	"name": {
+		"en": "Pawniard",
+		"jp": "コマタナ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sharp Blade Pokémon",
+		"type_id": [10, 15],
+		"type": ["dark", "steel"],
+		"abilities": {
+			"ability_1": "Defiant",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Pressure"
+		}
+	}
+}

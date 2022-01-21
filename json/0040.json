@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 40,
+		"galar_isle_of_armor": 13
+	},
+	"name": {
+		"en": "Wigglypuff",
+		"jp": "プクリン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Balloon Pokémon",
+		"type_id": [12, 17],
+		"type": ["normal", "fairy"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": "Competitive",
+			"hidden_ability": "Frisk"
+		}
+	}
+}

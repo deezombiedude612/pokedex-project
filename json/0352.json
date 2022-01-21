@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 352
+	},
+	"name": {
+		"en": "Kecleon",
+		"jp": "カクレオン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Color Swap Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Color Change",
+			"ability_2": false,
+			"hidden_ability": "Protean"
+		}
+	}
+}

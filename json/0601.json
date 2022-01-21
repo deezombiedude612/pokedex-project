@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 601,
+		"galar_dex": 115
+	},
+	"name": {
+		"en": "Klinklang",
+		"jp": "ギギギアル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Gear Pokémon",
+		"type_id": [15, -1],
+		"type": ["steel"],
+		"abilities": {
+			"ability_1": "Plus",
+			"ability_2": "Minus",
+			"hidden_ability": "Clear Body"
+		}
+	}
+}

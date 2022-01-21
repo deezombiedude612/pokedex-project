@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 554,
+		"galar_dex": 367
+	},
+	"name": {
+		"en": "Darumaka",
+		"jp": "ダルマッカ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Zen Charm Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Hustle",
+			"ability_2": false,
+			"hidden_ability": "Inner Focus"
+		}
+	},
+	"galar_variant": {
+		"desc": "Zen Charm Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Hustle",
+			"ability_2": false,
+			"hidden_ability": "Inner Focus"
+		}
+	}
+}

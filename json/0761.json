@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 761,
+		"galar_dex": 52
+	},
+	"name": {
+		"en": "Bounsweet",
+		"jp": "アマカジ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fruit Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Leaf Guard",
+			"ability_2": "Oblivious",
+			"hidden_ability": "Sweet Veil"
+		}
+	}
+}

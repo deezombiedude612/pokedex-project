@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 809
+	},
+	"name": {
+		"en": "Melmetal",
+		"jp": "メルメタル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hex Nut Pokémon",
+		"type_id": [15, -1],
+		"type": ["steel"],
+		"g_max": {
+			"g_max_move": "G-Max Meltdown",
+			"g_max_type_id": 15,
+			"g_max_type": "steel"
+		},
+		"abilities": {
+			"ability_1": "Iron Fist",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

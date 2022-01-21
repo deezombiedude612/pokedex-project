@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 531
+	},
+	"name": {
+		"en": "Audino",
+		"jp": "タブンネ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hearing Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Healer",
+			"ability_2": "Regenerator",
+			"hidden_ability": "Klutz"
+		}
+	},
+	"mega": {
+		"desc": "Hearing Pokémon",
+		"type_id": [12, 17],
+		"type": ["normal", "fairy"],
+		"ability": "Healer",
+		"mega_stone": "Audinite"
+	}
+}

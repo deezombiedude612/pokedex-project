@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 243
+	},
+	"name": {
+		"en": "Raikou",
+		"jp": "ライコウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Thunder Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Inner Focus"
+		}
+	}
+}

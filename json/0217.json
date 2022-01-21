@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 217
+	},
+	"name": {
+		"en": "Ursaring",
+		"jp": "リングマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hibernator Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Guts",
+			"ability_2": "Quick Feet",
+			"hidden_ability": "Unnerve"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 335
+	},
+	"name": {
+		"en": "Zangoose",
+		"jp": "ザングース"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cat Ferret Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Immunity",
+			"ability_2": false,
+			"hidden_ability": "Toxic Boost"
+		}
+	}
+}

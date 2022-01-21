@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 400
+	},
+	"name": {
+		"en": "Bibarel",
+		"jp": "ビーダル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Beaver Pokémon",
+		"type_id": [12, 6],
+		"type": ["normal", "water"],
+		"abilities": {
+			"ability_1": "Simple",
+			"ability_2": "Unaware",
+			"hidden_ability": "Moody"
+		}
+	}
+}

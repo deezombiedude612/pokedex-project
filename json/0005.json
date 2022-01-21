@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 5,
+		"galar_dex": 379
+	},
+	"name": {
+		"en": "Charmeleon",
+		"jp": "リザード"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Flame Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Solar Power"
+		}
+	}
+}

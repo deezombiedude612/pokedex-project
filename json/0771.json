@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 771,
+		"galar_dex": 156
+	},
+	"name": {
+		"en": "Pyukumuku",
+		"jp": "ナマコブシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sea Cucumber Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Innards Out",
+			"ability_2": false,
+			"hidden_ability": "Unaware"
+		}
+	}
+}

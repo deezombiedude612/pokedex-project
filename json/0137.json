@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 137,
+		"galar_isle_of_armor": 208
+	},
+	"name": {
+		"en": "Porygon",
+		"jp": "ポリゴン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Virtual Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Trace",
+			"ability_2": "Download",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

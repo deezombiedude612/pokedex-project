@@ -1,0 +1,29 @@
+{
+	"id": {
+		"national": 475,
+		"galar_dex": 123,
+		"galar_isle_of_armor": 37
+	},
+	"name": {
+		"en": "Gallade",
+		"jp": "エルレイド"
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [16, 14],
+		"type": ["psychic", "fighting"],
+		"abilities": {
+			"ability_1": "Steadfast",
+			"ability_2": false,
+			"hidden_ability": "Justified"
+		}
+	},
+	"mega": {
+		"desc": "",
+		"type_id": [16, 14],
+		"type": ["psychic", "fighting"],
+		"ability": "Inner Focus",
+		"mega_stone": "Galladite"
+	}
+}

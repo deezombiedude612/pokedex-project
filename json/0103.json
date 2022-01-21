@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 103,
+		"galar_isle_of_armor": 206
+	},
+	"name": {
+		"en": "Exeggutor",
+		"jp": "ナッシー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Coconut Pokémon",
+		"type_id": [9, 16],
+		"type": ["grass", "psychic"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": false,
+			"hidden_ability": "Harvest"
+		}
+	},
+	"alola_variant": {
+		"desc": "Coconut Pokémon",
+		"type_id": [9, 0],
+		"type": ["grass", "dragon"],
+		"abilities": {
+			"ability_1": "Frisk",
+			"ability_2": false,
+			"hidden_ability": "Harvest"
+		}
+	}
+}

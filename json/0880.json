@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 880,
+		"galar_dex": 374
+	},
+	"name": {
+		"en": "Dracozolt",
+		"jp": "パッチラゴン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fossil Pokémon",
+		"type_id": [7, 0],
+		"type": ["electric", "dragon"],
+		"abilities": {
+			"ability_1": "Volt Absorb",
+			"ability_2": "Hustle",
+			"hidden_ability": "Sand Rush"
+		}
+	}
+}

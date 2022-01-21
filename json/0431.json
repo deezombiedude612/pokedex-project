@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 431
+	},
+	"name": {
+		"en": "Glameow",
+		"jp": "ニャルマー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Catty Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Limber",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Keen Eye"
+		}
+	}
+}

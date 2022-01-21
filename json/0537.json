@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 537,
+		"galar_dex": 134
+	},
+	"name": {
+		"en": "Seismitoad",
+		"jp": "ガマゲロゲ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Vibration Pokémon",
+		"type_id": [6, 2],
+		"type": ["water", "ground"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Poison Touch",
+			"hidden_ability": "Water Absorb"
+		}
+	}
+}

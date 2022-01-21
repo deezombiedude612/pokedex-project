@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 895
+	},
+	"name": {
+		"en": "Regidrago",
+		"jp": "レジドラゴ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dragon Orb Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Dragon's Maw",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

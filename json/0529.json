@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 529,
+		"galar_dex": 166
+	},
+	"name": {
+		"en": "Drilbur",
+		"jp": "モグリュー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mole Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"abilities": {
+			"ability_1": "Sand Rush",
+			"ability_2": "Sand Force",
+			"hidden_ability": "Mold Breaker"
+		}
+	}
+}

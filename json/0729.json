@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 729
+	},
+	"name": {
+		"en": "Brionne",
+		"jp": "オシャマリ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Pop Star Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Liquid Voice"
+		}
+	}
+}

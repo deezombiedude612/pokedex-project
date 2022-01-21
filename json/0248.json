@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 248,
+		"galar_dex": 385
+	},
+	"name": {
+		"en": "Tyranitar",
+		"jp": "バンギラス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Armor Pokémon",
+		"type_id": [8, 10],
+		"type": ["rock", "dark"],
+		"abilities": {
+			"ability_1": "Sand Stream",
+			"ability_2": false,
+			"hidden_ability": "Unnerve"
+		}
+	},
+	"mega": {
+		"desc": "Armor Pokémon",
+		"type_id": [8, 10],
+		"type": ["rock", "dark"],
+		"ability": "Sand Stream",
+		"mega_stone": "Tyranitarite"
+	}
+}

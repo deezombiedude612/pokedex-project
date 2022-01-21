@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 325
+	},
+	"name": {
+		"en": "Spoink",
+		"jp": "バネブー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Bounce Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Gluttony"
+		}
+	}
+}

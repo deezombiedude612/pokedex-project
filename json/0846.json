@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 846,
+		"galar_dex": 180,
+		"galar_isle_of_armor": 96
+	},
+	"name": {
+		"en": "Arrokuda",
+		"jp": "サシカマス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rush Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": false,
+			"hidden_ability": "Propeller Tail"
+		}
+	}
+}

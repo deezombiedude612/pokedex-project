@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 640
+	},
+	"name": {
+		"en": "Virizion",
+		"jp": "ビリジオン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Grassland Pokémon",
+		"type_id": [9, 14],
+		"type": ["grass", "fighting"],
+		"abilities": {
+			"ability_1": "Justified",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

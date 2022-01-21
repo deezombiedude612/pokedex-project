@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 851,
+		"galar_dex": 160
+	},
+	"name": {
+		"en": "Centiskorch",
+		"jp": "マルヤクデ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Radiator Pokémon",
+		"type_id": [13, 5],
+		"type": ["fire", "bug"],
+		"g_max": {
+			"g_max_move": "G-Max Centiferno",
+			"g_max_type_id": 13,
+			"g_max_type": "fire"
+		},
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": "White Smoke",
+			"hidden_ability": "Flame Body"
+		}
+	}
+}

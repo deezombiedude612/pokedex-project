@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 844,
+		"galar_dex": 313,
+		"galar_isle_of_armor": 175
+	},
+	"name": {
+		"en": "Sandaconda",
+		"jp": "サダイジャ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sand Snake Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"g_max": {
+			"g_max_move": "G-Max Sandblast",
+			"g_max_type_id": 2,
+			"g_max_type": "ground"
+		},
+		"abilities": {
+			"ability_1": "Sand Spit",
+			"ability_2": "Shed Skin",
+			"hidden_ability": "Sand Veil"
+		}
+	}
+}

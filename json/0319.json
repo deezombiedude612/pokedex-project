@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 319,
+		"galar_isle_of_armor": 112
+	},
+	"name": {
+		"en": "Sharpedo",
+		"jp": "サメハダー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Brutal Pokémon",
+		"type_id": [6, 10],
+		"type": ["water", "dark"],
+		"abilities": {
+			"ability_1": "Rough Skin",
+			"ability_2": false,
+			"hidden_ability": "Speed Boost"
+		}
+	},
+	"mega": {
+		"desc": "Brutal Pokémon",
+		"type_id": [6, 10],
+		"type": ["water", "dark"],
+		"ability": "Strong Jaw",
+		"mega_stone": "Sharpedonite"
+	}
+}

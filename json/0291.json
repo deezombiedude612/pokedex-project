@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 291,
+		"galar_dex": 105
+	},
+	"name": {
+		"en": "Ninjask",
+		"jp": "テッカニン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ninja Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"abilities": {
+			"ability_1": "Speed Boost",
+			"ability_2": false,
+			"hidden_ability": "Infiltrator"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 171,
+		"galar_dex": 221,
+		"galar_isle_of_armor": 189
+	},
+	"name": {
+		"en": "Lanturn",
+		"jp": "ランターン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Light Pokémon",
+		"type_id": [6, 7],
+		"type": ["water", "electric"],
+		"abilities": {
+			"ability_1": "Volt Absorb",
+			"ability_2": "Illuminate",
+			"hidden_ability": "Water Absorb"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 747,
+		"galar_dex": 307,
+		"galar_isle_of_armor": 127
+	},
+	"name": {
+		"en": "Mareanie",
+		"jp": "ヒドイデ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Brutal Star Pokémon",
+		"type_id": [4, 6],
+		"type": ["poison", "water"],
+		"abilities": {
+			"ability_1": "Merciless",
+			"ability_2": "Limber",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

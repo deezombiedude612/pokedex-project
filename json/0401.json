@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 401
+	},
+	"name": {
+		"en": "Kricketot",
+		"jp": "コロボーシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cricket Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": false,
+			"hidden_ability": "Run Away"
+		}
+	}
+}

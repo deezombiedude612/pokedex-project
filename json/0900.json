@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 900
+	},
+	"name": {
+		"en": "Kleavor",
+		"jp": "バサギリ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [5, 8],
+		"type": ["bug", "rock"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

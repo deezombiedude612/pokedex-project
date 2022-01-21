@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 521,
+		"galar_dex": 28
+	},
+	"name": {
+		"en": "Unfezant",
+		"jp": "ケンホロウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Proud Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Big Pecks",
+			"ability_2": "Super Luck",
+			"hidden_ability": "Rivalry"
+		}
+	}
+}

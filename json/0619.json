@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 619,
+		"galar_isle_of_armor": 163
+	},
+	"name": {
+		"en": "Mienfoo",
+		"jp": "コジョフー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Martial Arts Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": "Regenerator",
+			"hidden_ability": "Reckless"
+		}
+	}
+}

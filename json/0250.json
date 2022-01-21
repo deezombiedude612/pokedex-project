@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 250
+	},
+	"name": {
+		"en": "Ho-oh",
+		"jp": "ホウオウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rainbow Pokémon",
+		"type_id": [13, 3],
+		"type": ["fire", "flying"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

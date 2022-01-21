@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 342,
+		"galar_dex": 103,
+		"galar_isle_of_armor": 92
+	},
+	"name": {
+		"en": "Crawdunt",
+		"jp": "シザリガー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rogue Pokémon",
+		"type_id": [6, 10],
+		"type": ["water", "dark"],
+		"abilities": {
+			"ability_1": "Hyper Cutter",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Adaptability"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 138
+	},
+	"name": {
+		"en": "Omanyte",
+		"jp": "オマナイト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Spiral Pokémon",
+		"type_id": [8, 6],
+		"type": ["rock", "water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

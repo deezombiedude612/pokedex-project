@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 197,
+		"galar_dex": 201
+	},
+	"name": {
+		"en": "Umbreon",
+		"jp": "ブラッキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Moonlight Pokémon",
+		"type_id": [10, -1],
+		"type": ["dark"],
+		"abilities": {
+			"ability_1": "Synchronize",
+			"ability_2": false,
+			"hidden_ability": "Inner Focus"
+		}
+	}
+}

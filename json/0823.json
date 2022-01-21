@@ -1,0 +1,26 @@
+{
+	"id": {
+		"national": 823,
+		"galar_dex": 23
+	},
+	"name": {
+		"en": "Corviknight",
+		"jp": "アーマーガア"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Raven Pokémon",
+		"type_id": [3, 15],
+		"type": ["flying", "steel"],
+		"g_max": {
+			"g_max_move": "G-Max Wind Rage",
+			"g_max_type_id": 3,
+			"g_max_type": "flying"
+		},
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": "Unnerve",
+			"hidden_ability": "Mirror Armor"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 734
+	},
+	"name": {
+		"en": "Yungoos",
+		"jp": "ヤングース"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Loitering Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Stakeout",
+			"ability_2": "Strong Jaw",
+			"hidden_ability": "Adaptability"
+		}
+	}
+}

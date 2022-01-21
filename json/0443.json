@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 443
+	},
+	"name": {
+		"en": "Gible",
+		"jp": "フカマル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Land Shark Pokémon",
+		"type_id": [0, 2],
+		"type": ["dragon", "ground"],
+		"abilities": {
+			"ability_1": "Sand Veil",
+			"ability_2": false,
+			"hidden_ability": "Rough Skin"
+		}
+	}
+}

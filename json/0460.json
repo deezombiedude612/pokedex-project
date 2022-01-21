@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 460,
+		"galar_dex": 97
+	},
+	"name": {
+		"en": "Abomasnow",
+		"jp": "ユキノオー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Frost Tree Pokémon",
+		"type_id": [9, 11],
+		"type": ["grass", "ice"],
+		"abilities": {
+			"ability_1": "Snow Warning",
+			"ability_2": false,
+			"hidden_ability": "Soundproof"
+		}
+	},
+	"mega": {
+		"desc": "Frost Tree Pokémon",
+		"type_id": [9, 11],
+		"type": ["grass", "ice"],
+		"ability": "Snow Warning",
+		"mega_stone": "Abomasnite"
+	}
+}

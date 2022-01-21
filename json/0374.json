@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 374
+	},
+	"name": {
+		"en": "Beldum",
+		"jp": "ダンバル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Iron Ball Pokémon",
+		"type_id": [15, 16],
+		"type": ["steel", "psychic"],
+		"abilities": {
+			"ability_1": "Clear Body",
+			"ability_2": false,
+			"hidden_ability": "Light Metal"
+		}
+	}
+}

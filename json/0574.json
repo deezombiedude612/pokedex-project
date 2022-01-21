@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 574,
+		"galar_dex": 267
+	},
+	"name": {
+		"en": "Gothita",
+		"jp": "ゴチム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fixation Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Frisk",
+			"ability_2": "Competitive",
+			"hidden_ability": "Shadow Tag"
+		}
+	}
+}

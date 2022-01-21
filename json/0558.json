@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 558,
+		"galar_dex": 87,
+		"galar_isle_of_armor": 123
+	},
+	"name": {
+		"en": "Crustle",
+		"jp": "イワパレス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Stone Home Pokémon",
+		"type_id": [5, 8],
+		"type": ["bug", "rock"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Weak Armor"
+		}
+	}
+}

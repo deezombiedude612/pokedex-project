@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 769,
+		"galar_isle_of_armor": 133
+	},
+	"name": {
+		"en": "Sandygast",
+		"jp": "スナバァ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sand Heap Pokémon",
+		"type_id": [1, 2],
+		"type": ["ghost", "ground"],
+		"abilities": {
+			"ability_1": "Water Compaction",
+			"ability_2": false,
+			"hidden_ability": "Sand Veil"
+		}
+	}
+}

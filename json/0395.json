@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 395
+	},
+	"name": {
+		"en": "Empoleon",
+		"jp": "エンペルト"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Emperor Pokémon",
+		"type_id": [6, 15],
+		"type": ["water", "steel"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Defiant"
+		}
+	}
+}

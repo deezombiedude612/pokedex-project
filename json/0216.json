@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 216
+	},
+	"name": {
+		"en": "Teddiursa",
+		"jp": "ヒメグマ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Little Bear Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Quick Feet",
+			"hidden_ability": "Honey Gather"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 242,
+		"galar_isle_of_armor": 8
+	},
+	"name": {
+		"en": "Blissey",
+		"jp": "ハピナス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Happiness Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": "Serene Grace",
+			"hidden_ability": "Healer"
+		}
+	}
+}

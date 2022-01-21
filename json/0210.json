@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 210
+	},
+	"name": {
+		"en": "Granbull",
+		"jp": "グランブル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fairy Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Quick Feet",
+			"hidden_ability": "Rattled"
+		}
+	}
+}

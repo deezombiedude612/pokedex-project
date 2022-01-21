@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 324,
+		"galar_dex": 300,
+		"galar_isle_of_armor": 173
+	},
+	"name": {
+		"en": "Torkoal",
+		"jp": "コータス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Coal Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "White Smoke",
+			"ability_2": "Drought",
+			"hidden_ability": "Shell Armor"
+		}
+	}
+}

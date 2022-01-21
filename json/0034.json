@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 34
+	},
+	"name": {
+		"en": "Nidoking",
+		"jp": "ニドクイン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Drill Pokémon",
+		"type_id": [4, 2],
+		"type": ["poison", "ground"],
+		"abilities": {
+			"ability_1": "Poison Point",
+			"ability_2": "Rivalry",
+			"hidden_ability": "Sheer Force"
+		}
+	}
+}

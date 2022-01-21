@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 220,
+		"galar_dex": 75
+	},
+	"name": {
+		"en": "Swinub",
+		"jp": "ウリムー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Pig Pokémon",
+		"type_id": [11, 2],
+		"type": ["ice", "ground"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Snow Cloak",
+			"hidden_ability": "Thick Fat"
+		}
+	}
+}

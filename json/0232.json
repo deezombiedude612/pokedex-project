@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 232
+	},
+	"name": {
+		"en": "Donphan",
+		"jp": "ドンファン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Armor Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": false,
+			"hidden_ability": "Sand Veil"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 682,
+		"galar_dex": 212
+	},
+	"name": {
+		"en": "Spritzee",
+		"jp": "シュシュプ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Perfume Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Healer",
+			"ability_2": false,
+			"hidden_ability": "Aroma Veil"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 399
+	},
+	"name": {
+		"en": "Bidoof",
+		"jp": "ビッパ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Plump Mouse Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Simple",
+			"ability_2": "Unaware",
+			"hidden_ability": "Moody"
+		}
+	}
+}

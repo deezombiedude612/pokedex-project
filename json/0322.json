@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 322
+	},
+	"name": {
+		"en": "Numel",
+		"jp": "ドンメル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Numb Pokémon",
+		"type_id": [13, 2],
+		"type": ["fire", "ground"],
+		"abilities": {
+			"ability_1": "Oblivious",
+			"ability_2": "Simple",
+			"hidden_ability": "Own Tempo"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 119,
+		"galar_dex": 147,
+		"galar_isle_of_armor": 95
+	},
+	"name": {
+		"en": "Seaking",
+		"jp": "アズマオウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Goldfish Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Water Veil",
+			"hidden_ability": "Lightning Rod"
+		}
+	}
+}

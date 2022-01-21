@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 716
+	},
+	"name": {
+		"en": "Xerneas",
+		"jp": "ゼルネアス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Life Pokémon",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Fairy Aura",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

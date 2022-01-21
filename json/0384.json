@@ -1,0 +1,27 @@
+{
+	"id": {
+		"national": 384
+	},
+	"name": {
+		"en": "Rayquaza",
+		"jp": "レックウザ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sky High Pokémon",
+		"type_id": [0, 3],
+		"type": ["dragon", "flying"],
+		"abilities": {
+			"ability_1": "Air Lock",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"mega": {
+		"desc": "Sky High Pokémon",
+		"type_id": [0, 3],
+		"type": ["dragon", "flying"],
+		"ability": "Delta Stream",
+		"mega_stone": "n/a"
+	}
+}

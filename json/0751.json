@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 751,
+		"galar_dex": 214
+	},
+	"name": {
+		"en": "Dewpider",
+		"jp": "シズクモ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Water Bubble Pokémon",
+		"type_id": [6, 5],
+		"type": ["water", "bug"],
+		"abilities": {
+			"ability_1": "Water Bubble",
+			"ability_2": false,
+			"hidden_ability": "Water Absorb"
+		}
+	}
+}

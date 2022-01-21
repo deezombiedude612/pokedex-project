@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 525,
+		"galar_dex": 169,
+		"galar_isle_of_armor": 155
+	},
+	"name": {
+		"en": "Boldore",
+		"jp": "ガントル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Ore Pokémon",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": "Weak Armor",
+			"hidden_ability": "Sand Force"
+		}
+	}
+}

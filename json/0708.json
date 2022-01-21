@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 708,
+		"galar_dex": 338
+	},
+	"name": {
+		"en": "Phantump",
+		"jp": "ボクレー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Stump Pokémon",
+		"type_id": [1, 9],
+		"type": ["ghost", "grass"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": "Frisk",
+			"hidden_ability": "Harvest"
+		}
+	}
+}

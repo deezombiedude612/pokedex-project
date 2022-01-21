@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 106,
+		"galar_dex": 108
+	},
+	"name": {
+		"en": "Hitmonlee",
+		"jp": "サワムラー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Kicking Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Limber",
+			"ability_2": "Reckless",
+			"hidden_ability": "Unburden"
+		}
+	}
+}

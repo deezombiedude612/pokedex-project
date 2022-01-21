@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 272,
+		"galar_dex": 38
+	},
+	"name": {
+		"en": "Ludicolo",
+		"jp": "ルンパッパ"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Carefree Pokémon",
+		"type_id": [6, 9],
+		"type": ["water", "grass"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Rain Dish",
+			"hidden_ability": "Own Tempo"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 389
+	},
+	"name": {
+		"en": "Torterra",
+		"jp": "ドダイトス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Continent Pokémon",
+		"type_id": [9, 2],
+		"type": ["grass", "ground"],
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Shell Armor"
+		}
+	}
+}

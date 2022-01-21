@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 840,
+		"galar_dex": 205,
+		"galar_isle_of_armor": 19
+	},
+	"name": {
+		"en": "Applin",
+		"jp": "カジッチュ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Apple Core Pokémon",
+		"type_id": [9, 0],
+		"type": ["grass", "dragon"],
+		"abilities": {
+			"ability_1": "Ripen",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Bulletproof"
+		}
+	}
+}

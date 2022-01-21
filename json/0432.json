@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 432
+	},
+	"name": {
+		"en": "Purugly",
+		"jp": "ブニャット"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiger Cat Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Defiant"
+		}
+	}
+}

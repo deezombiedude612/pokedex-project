@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 702,
+		"galar_isle_of_armor": 103
+	},
+	"name": {
+		"en": "Dedenne",
+		"jp": "デデンネ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Antenna Pokémon",
+		"type_id": [7, 17],
+		"type": ["electric", "fairy"],
+		"abilities": {
+			"ability_1": "Cheek Pouch",
+			"ability_2": "Pickup",
+			"hidden_ability": "Plus"
+		}
+	}
+}

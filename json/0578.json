@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 578,
+		"galar_dex": 271
+	},
+	"name": {
+		"en": "Duosion",
+		"jp": "ダブラン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Mitosis Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Overcoat",
+			"ability_2": "Magic Guard",
+			"hidden_ability": "Regenerator"
+		}
+	}
+}

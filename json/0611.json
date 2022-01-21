@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 611,
+		"galar_dex": 325
+	},
+	"name": {
+		"en": "Fraxure",
+		"jp": "オノンド"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Axe Jaw Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Rivalry",
+			"ability_2": "Mold Breaker",
+			"hidden_ability": "Unnerve"
+		}
+	}
+}

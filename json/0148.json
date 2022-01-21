@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 148
+	},
+	"name": {
+		"en": "Dragonair",
+		"jp": "ハクリュウ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Dragon Pokémon",
+		"type_id": [0, -1],
+		"type": ["dragon"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": false,
+			"hidden_ability": "Marvel Scale"
+		}
+	}
+}

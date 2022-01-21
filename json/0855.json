@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 855
+	},
+	"name": {
+		"en": "Polteageist",
+		"jp": "ポットデス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Black Tea Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Weak Armor",
+			"ability_2": false,
+			"hidden_ability": "Cursed Body"
+		}
+	}
+}

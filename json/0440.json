@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 440,
+		"galar_isle_of_armor": 6
+	},
+	"name": {
+		"en": "Happiny",
+		"jp": "ピンプク"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Playhouse Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Natural Cure",
+			"ability_2": "Serene Grace",
+			"hidden_ability": "Friend Guard"
+		}
+	}
+}

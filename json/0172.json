@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 172,
+		"galar_dex": 193,
+		"galar_isle_of_armor": 84
+	},
+	"name": {
+		"en": "Pichu",
+		"jp": "ピチュー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Tiny Mouse Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Static",
+			"ability_2": false,
+			"hidden_ability": "Lightning Rod"
+		}
+	}
+}

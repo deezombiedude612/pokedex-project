@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 425,
+		"galar_dex": 124,
+		"galar_isle_of_armor": 135
+	},
+	"name": {
+		"en": "Drifloon",
+		"jp": "フワンテ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Balloon Pokémon",
+		"type_id": [1, 3],
+		"type": ["ghost", "flying"],
+		"abilities": {
+			"ability_1": "Aftermath",
+			"ability_2": "Unburden",
+			"hidden_ability": "Flare Boost"
+		}
+	}
+}

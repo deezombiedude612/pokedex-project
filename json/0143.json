@@ -1,0 +1,35 @@
+{
+	"id": {
+		"national": 143,
+		"galar_dex": 261
+	},
+	"name": {
+		"en": "Snorlax",
+		"jp": "カビゴン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sleeping Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"exclusive_z": {
+			"excl_z_move": "Pulverizing Pancake",
+			"excl_z_move_type_id": 12,
+			"excl_z_move_type": "normal",
+			"excl_z_move_category": "physical",
+			"excl_z_crystal": "Snorlium Z",
+			"excl_z_required_move": "Giga Impact",
+			"excl_z_power": 210
+		},
+		"g_max": {
+			"g_max_move": "G-Max Replenish",
+			"g_max_type_id": 12,
+			"g_max_type": "normal"
+		},
+		"abilities": {
+			"ability_1": "Immunity",
+			"ability_2": "Thick Fat",
+			"hidden_ability": "Gluttony"
+		}
+	}
+}

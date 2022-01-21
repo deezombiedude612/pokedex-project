@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 780,
+		"galar_dex": 346
+	},
+	"name": {
+		"en": "Drampa",
+		"jp": "ジジーロン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Placid Pokémon",
+		"type_id": [12, 0],
+		"type": ["normal", "dragon"],
+		"abilities": {
+			"ability_1": "Berserk",
+			"ability_2": "Sap Sipper",
+			"hidden_ability": "Cloud Nine"
+		}
+	}
+}

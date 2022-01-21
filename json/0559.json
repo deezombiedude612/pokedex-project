@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 559,
+		"galar_dex": 224,
+		"galar_isle_of_armor": 161
+	},
+	"name": {
+		"en": "Scraggy",
+		"jp": "ズルッグ"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Shredding Pokémon",
+		"type_id": [10, 14],
+		"type": ["dark", "fighting"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": "Moxie",
+			"hidden_ability": "Intimidate"
+		}
+	}
+}

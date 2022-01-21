@@ -1,0 +1,40 @@
+{
+	"id": {
+		"national": 412
+	},
+	"name": {
+		"en": "Burmy",
+		"jp": "ミノムッチ"
+	},
+	"baby": false,
+	"plant_cloak": {
+		"desc": "Bagworm Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": false,
+			"hidden_ability": "Overcoat"
+		}
+	},
+	"sandy_cloak": {
+		"desc": "Bagworm Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": false,
+			"hidden_ability": "Overcoat"
+		}
+	},
+	"trash_cloak": {
+		"desc": "Bagworm Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Shed Skin",
+			"ability_2": false,
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 77,
+		"galar_dex": 333
+	},
+	"name": {
+		"en": "Ponyta",
+		"jp": "ポニータ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fire Horse Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Flash Fire",
+			"hidden_ability": "Flame Body"
+		}
+	},
+	"galar_variant": {
+		"desc": "Unique Horn Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Pastel Veil",
+			"hidden_ability": "Anticipation"
+		}
+	}
+}

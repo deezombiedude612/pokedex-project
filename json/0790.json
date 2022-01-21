@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 790
+	},
+	"name": {
+		"en": "Cosmoem",
+		"jp": "コスモウム"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Protostar Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Sturdy",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

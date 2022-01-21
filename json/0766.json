@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 766,
+		"galar_dex": 343,
+		"galar_isle_of_armor": 90
+	},
+	"name": {
+		"en": "Passimian",
+		"jp": "ナゲツケサル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Teamwork Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Receiver",
+			"ability_2": false,
+			"hidden_ability": "Defiant"
+		}
+	}
+}

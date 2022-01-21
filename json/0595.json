@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 595,
+		"galar_dex": 64
+	},
+	"name": {
+		"en": "Joltik",
+		"jp": "バチュル"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Attaching Pokémon",
+		"type_id": [5, 7],
+		"type": ["bug", "electric"],
+		"abilities": {
+			"ability_1": "Compound Eyes",
+			"ability_2": "Unnerve",
+			"hidden_ability": "Swarm"
+		}
+	}
+}

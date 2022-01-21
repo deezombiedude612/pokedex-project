@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 241,
+		"galar_isle_of_armor": 117
+	},
+	"name": {
+		"en": "Miltank",
+		"jp": "ミルタンク"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Milk Cow Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Scrappy",
+			"hidden_ability": "Sap Sipper"
+		}
+	}
+}

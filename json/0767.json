@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 767,
+		"galar_dex": 232,
+		"galar_isle_of_armor": 124
+	},
+	"name": {
+		"en": "Wimpod",
+		"jp": "コソクムシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Turn Tail Pokémon",
+		"type_id": [5, 6],
+		"type": ["bug", "water"],
+		"abilities": {
+			"ability_1": "Wimp Out",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

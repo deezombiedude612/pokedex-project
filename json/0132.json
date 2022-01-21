@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 132,
+		"galar_dex": 373,
+		"galar_isle_of_armor": 207
+	},
+	"name": {
+		"en": "Ditto",
+		"jp": "メタモン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Transform Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Limber",
+			"ability_2": false,
+			"hidden_ability": "Imposter"
+		}
+	}
+}

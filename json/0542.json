@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 542
+	},
+	"name": {
+		"en": "Leavanny",
+		"jp": "ハハコモリ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Nurturing Pokémon",
+		"type_id": [5, 9],
+		"type": ["bug", "grass"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": "Chlorophyll",
+			"hidden_ability": "Overcoat"
+		}
+	}
+}

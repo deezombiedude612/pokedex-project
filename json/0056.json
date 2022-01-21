@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 56
+	},
+	"name": {
+		"en": "Mankey",
+		"jp": "マンキー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Pig Monkey Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Vital Spirit",
+			"ability_2": "Anger Point",
+			"hidden_ability": "Defiant"
+		}
+	}
+}

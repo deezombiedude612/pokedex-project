@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 416,
+		"galar_dex": 117,
+		"galar_isle_of_armor": 204
+	},
+	"name": {
+		"en": "Vespiquen",
+		"jp": "ビークイン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Beehive Pokémon",
+		"type_id": [5, 3],
+		"type": ["bug", "flying"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Unnerve"
+		}
+	}
+}

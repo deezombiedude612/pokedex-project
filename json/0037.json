@@ -1,0 +1,31 @@
+{
+	"id": {
+		"national": 37,
+		"galar_dex": 68
+	},
+	"name": {
+		"en": "Vulpix",
+		"jp": "ロコン"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fox Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": false,
+			"hidden_ability": "Drought"
+		}
+	},
+	"alola_variant": {
+		"desc": "Fox Pokémon",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Snow Cloak",
+			"ability_2": false,
+			"hidden_ability": "Snow Warning"
+		}
+	}
+}

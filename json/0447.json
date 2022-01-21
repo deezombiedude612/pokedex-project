@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 447,
+		"galar_dex": 298
+	},
+	"name": {
+		"en": "Riolu",
+		"jp": "リオル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Emanation Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Steadfast",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Prankster"
+		}
+	}
+}

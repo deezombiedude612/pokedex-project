@@ -1,0 +1,28 @@
+{
+	"id": {
+		"national": 428,
+		"galar_isle_of_armor": 5
+	},
+	"name": {
+		"en": "Lopuny",
+		"jp": "ミミロップ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Rabbit Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Cute Charm",
+			"ability_2": "Klutz",
+			"hidden_ability": "Limber"
+		}
+	},
+	"mega": {
+		"desc": "Rabbit Pokémon",
+		"type_id": [12, 14],
+		"type": ["normal", "fighting"],
+		"ability": "Scrappy",
+		"mega_stone": "Lopunnite"
+	}
+}

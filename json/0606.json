@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 606,
+		"galar_dex": 278
+	},
+	"name": {
+		"en": "Beheeyem",
+		"jp": "オーベム"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Cerebral Pokémon",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Telepathy",
+			"ability_2": "Synchronize",
+			"hidden_ability": "Analytic"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 728
+	},
+	"name": {
+		"en": "Popplio",
+		"jp": "アシマリ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Sea Lion Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": "Liquid Voice"
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 155
+	},
+	"name": {
+		"en": "Cyndaquil",
+		"jp": "ヒノアラシ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fire Mouse Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": "Flash Fire"
+		}
+	}
+}

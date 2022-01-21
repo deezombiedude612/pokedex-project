@@ -1,0 +1,20 @@
+{
+	"id": {
+		"national": 203
+	},
+	"name": {
+		"en": "Girafarig",
+		"jp": "キリンリキ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Long Neck Pokémon",
+		"type_id": [12, 16],
+		"type": ["normal", "psychic"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": "Early Bird",
+			"hidden_ability": "Sap Sipper"
+		}
+	}
+}

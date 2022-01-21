@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 270,
+		"galar_dex": 36
+	},
+	"name": {
+		"en": "Lotad",
+		"jp": "ハスボー"
+	},
+	"baby": true,
+	"default": {
+		"desc": "Water Weed Pokémon",
+		"type_id": [6, 9],
+		"type": ["water", "grass"],
+		"abilities": {
+			"ability_1": "Swift Swim",
+			"ability_2": "Rain Dish",
+			"hidden_ability": "Own Tempo"
+		}
+	}
+}

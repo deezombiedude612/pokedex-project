@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 762,
+		"galar_dex": 53
+	},
+	"name": {
+		"en": "Steenee",
+		"jp": "アママイコ"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Fruit Pokémon",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Leaf Guard",
+			"ability_2": "Oblivious",
+			"hidden_ability": "Sweet Veil"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"id": {
+		"national": 724
+	},
+	"name": {
+		"en": "Decidueye",
+		"jp": "ジュナイパー"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Arrow Quill Pokémon",
+		"type_id": [9, 1],
+		"type": ["grass", "ghost"],
+		"exclusive_z": {
+			"excl_z_move": "Sinister Arrow Raid",
+			"excl_z_move_type_id": 1,
+			"excl_z_move_type": "ghost",
+			"excl_z_move_category": "physical",
+			"excl_z_crystal": "Decidium Z",
+			"excl_z_required_move": "Spirit Shackle",
+			"excl_z_power": 180
+		},
+		"abilities": {
+			"ability_1": "Overgrow",
+			"ability_2": false,
+			"hidden_ability": "Long Reach"
+		}
+	},
+	"hisui_variant": {
+		"desc": "Arrow Quill Pokémon",
+		"type_id": [9, 14],
+		"type": ["grass", "fighting"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

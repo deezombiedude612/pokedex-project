@@ -1,0 +1,22 @@
+{
+	"id": {
+		"national": 819,
+		"galar_dex": 24,
+		"galar_isle_of_armor": 9
+	},
+	"name": {
+		"en": "Skwovet",
+		"jp": "ホシガリス"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Cheeky Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Cheek Pouch",
+			"ability_2": false,
+			"hidden_ability": "Gluttony"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"id": {
+		"national": 183,
+		"galar_isle_of_armor": 140
+	},
+	"name": {
+		"en": "Marill",
+		"jp": "マリル"
+	},
+	"baby": false,
+	"default": {
+		"desc": "Aqua Mouse Pokémon",
+		"type_id": [6, 17],
+		"type": ["water", "fairy"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Huge Power",
+			"hidden_ability": "Sap Sipper"
+		}
+	}
+}
