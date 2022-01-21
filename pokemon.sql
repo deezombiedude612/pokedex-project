@@ -4601,7 +4601,8 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 652) WHERE `pokedex_ref` IN (898) AND INSTR(`type_name`, 'rider') > 0;				# High King
 
 # insert exclusive Z-moves
-UPDATE `type_bundle` SET `excl_z_ref` = 1 WHERE `pokedex_ref` = 25 AND INSTR(`type_name`, 'cap');						# 10,000,000 Volt Thunderbolt (Cap Pikachu)
+# UPDATE `type_bundle` SET `excl_z_ref` = 1 WHERE `pokedex_ref` = 25 AND INSTR(`type_name`, 'cap');						# 10,000,000 Volt Thunderbolt (Cap Pikachu)
+UPDATE `type_bundle` SET `excl_z_ref` = 1 WHERE `pokedex_ref` = 25 AND INSTR(`type_name`, 'cap') AND NOT INSTR(`type_name`, 'world');			# 10,000,000 Volt Thunderbolt (Cap Pikachu)
 UPDATE `type_bundle` SET `excl_z_ref` = 2 WHERE `pokedex_ref` = 25 AND `type_name` = 'default';							# Catastropika (Pikachu - regular only)
 UPDATE `type_bundle` SET `excl_z_ref` = 3 WHERE `pokedex_ref` = 784 AND `type_name` = 'default';						# Clangorous Soulblaze (Kommo-o)
 UPDATE `type_bundle` SET `excl_z_ref` = 4 WHERE `pokedex_ref` = 133 AND `type_name` = 'default';						# Extreme Evoboost(Eevee)
@@ -4834,6 +4835,7 @@ UPDATE `type_bundle` SET `ability1` = 9 WHERE
 (`pokedex_ref` = 25 AND `type_name` = 'kalos_cap') OR			# Pikachu (Kalos Cap)
 (`pokedex_ref` = 25 AND `type_name` = 'alola_cap') OR			# Pikachu (Alola Cap)
 (`pokedex_ref` = 25 AND `type_name` = 'partner_cap') OR			# Pikachu (Partner Cap)
+(`pokedex_ref` = 25 AND `type_name` = 'world_cap') OR			# Pikachu (World Cap)
 (`pokedex_ref` = 26 AND `type_name` = 'default') OR				# Raichu
 (`pokedex_ref` = 125 AND `type_name` = 'default') OR			# Electabuzz
 (`pokedex_ref` = 172 AND `type_name` = 'default') OR			# Pichu
