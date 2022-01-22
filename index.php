@@ -63,12 +63,8 @@ for ($count = 1; $count <= $num_distinct_entries; ++$count) {
 
 	if ($query) {
 		if ($query->num_rows > 0) {
-			while ($row = $query->fetch_assoc()) {
-				// print_r($row);
-				// echo "<br><br>";
-
+			while ($row = $query->fetch_assoc())
 				$id_entry .= ",\n\t\t\"" . $row['dex_name'] . "\": " . $row['dex_id'];
-			}
 		}
 
 		$query->close();
