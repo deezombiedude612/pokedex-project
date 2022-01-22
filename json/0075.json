@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 75,
-		"kanto_lgpe": 75
+		"kanto_lgpe": 75,
+		"sinnoh_bdsp": 32
 	},
 	"name": {
 		"en": "Graveler",

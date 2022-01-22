@@ -3,7 +3,8 @@
 		"national": 35,
 		"kanto_lgpe": 35,
 		"galar_swsh": 255,
-		"galar_crown_tundra": 44
+		"galar_crown_tundra": 44,
+		"sinnoh_bdsp": 100
 	},
 	"name": {
 		"en": "Clefairy",

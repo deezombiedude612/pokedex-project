@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 420,
-		"galar_swsh": 128
+		"galar_swsh": 128,
+		"sinnoh_bdsp": 58
 	},
 	"name": {
 		"en": "Cherubi",

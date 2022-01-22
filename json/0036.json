@@ -3,7 +3,8 @@
 		"national": 36,
 		"kanto_lgpe": 36,
 		"galar_swsh": 256,
-		"galar_crown_tundra": 45
+		"galar_crown_tundra": 45,
+		"sinnoh_bdsp": 101
 	},
 	"name": {
 		"en": "Clefable",
