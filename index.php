@@ -3,7 +3,7 @@
 static $connection = null;
 
 function connectDb() {
-	require "pw.php";
+	require "pw.php";		// separate file that should only contain $password variable
 
 	/* mySQL Database Connection */
 	$db_user = "root";
