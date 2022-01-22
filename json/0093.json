@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 93,
-		"galar_dex": 142
+		"kanto_lgpe": 93,
+		"galar_swsh": 142
 	},
 	"name": {
 		"en": "Haunter",

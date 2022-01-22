@@ -1,7 +1,7 @@
 {
 	"id": {
 		"national": 705,
-		"galar_dex": 390,
+		"galar_swsh": 390,
 		"galar_isle_of_armor": 61
 	},
 	"name": {
@@ -24,9 +24,9 @@
 		"type_id": [0, 15],
 		"type": ["dragon", "steel"],
 		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false
+			"ability_1": "Sap Sipper",
+			"ability_2": "Overcoat",
+			"hidden_ability": "Gooey"
 		}
 	}
 }

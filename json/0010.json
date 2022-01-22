@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 10,
-		"galar_dex": 13
+		"kanto_lgpe": 10,
+		"galar_swsh": 13
 	},
 	"name": {
 		"en": "Caterpie",

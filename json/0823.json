@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 823,
-		"galar_dex": 23
+		"galar_swsh": 23,
+		"galar_crown_tundra": 165
 	},
 	"name": {
 		"en": "Corviknight",

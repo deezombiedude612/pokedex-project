@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 350,
-		"galar_dex": 153
+		"galar_swsh": 153,
+		"galar_crown_tundra": 189
 	},
 	"name": {
 		"en": "Milotic",

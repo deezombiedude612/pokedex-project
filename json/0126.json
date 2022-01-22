@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 126
+		"national": 126,
+		"kanto_lgpe": 126,
+		"galar_crown_tundra": 19
 	},
 	"name": {
 		"en": "Magmar",

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 839,
-		"galar_dex": 163
+		"galar_swsh": 163,
+		"galar_crown_tundra": 178
 	},
 	"name": {
 		"en": "Coalossal",

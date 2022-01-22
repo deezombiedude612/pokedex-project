@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 700,
-		"galar_dex": 204
+		"galar_swsh": 204,
+		"galar_crown_tundra": 82
 	},
 	"name": {
 		"en": "Sylveon",

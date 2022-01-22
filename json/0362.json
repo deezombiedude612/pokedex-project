@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 362,
-		"galar_dex": 80
+		"galar_swsh": 80,
+		"galar_crown_tundra": 26
 	},
 	"name": {
 		"en": "Glalie",

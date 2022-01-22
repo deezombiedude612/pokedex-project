@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 574,
-		"galar_dex": 267
+		"galar_swsh": 267,
+		"galar_crown_tundra": 51
 	},
 	"name": {
 		"en": "Gothita",

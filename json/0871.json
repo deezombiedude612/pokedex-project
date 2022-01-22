@@ -1,8 +1,9 @@
 {
 	"id": {
 		"national": 871,
-		"galar_dex": 353,
-		"galar_isle_of_armor": 126
+		"galar_swsh": 353,
+		"galar_isle_of_armor": 126,
+		"galar_crown_tundra": 158
 	},
 	"name": {
 		"en": "Pincurchin",

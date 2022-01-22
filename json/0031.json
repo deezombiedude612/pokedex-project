@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 31
+		"national": 31,
+		"kanto_lgpe": 31,
+		"galar_crown_tundra": 67
 	},
 	"name": {
 		"en": "Nidoqueen",

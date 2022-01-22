@@ -1,8 +1,10 @@
 {
 	"id": {
 		"national": 129,
-		"galar_dex": 144,
-		"galar_isle_of_armor": 42
+		"kanto_lgpe": 129,
+		"galar_swsh": 144,
+		"galar_isle_of_armor": 42,
+		"galar_crown_tundra": 62
 	},
 	"name": {
 		"en": "Magikarp",

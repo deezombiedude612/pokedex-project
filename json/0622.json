@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 622,
-		"galar_dex": 88
+		"galar_swsh": 88,
+		"galar_crown_tundra": 153
 	},
 	"name": {
 		"en": "Golett",

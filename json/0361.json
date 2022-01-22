@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 361,
-		"galar_dex": 79
+		"galar_swsh": 79,
+		"galar_crown_tundra": 25
 	},
 	"name": {
 		"en": "Snorunt",

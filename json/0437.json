@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 437,
-		"galar_dex": 119
+		"galar_swsh": 119,
+		"galar_crown_tundra": 88
 	},
 	"name": {
 		"en": "Bronzong",

@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 147
+		"national": 147,
+		"kanto_lgpe": 147,
+		"galar_crown_tundra": 194
 	},
 	"name": {
 		"en": "Dratini",

@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 134,
-		"galar_dex": 197
+		"kanto_lgpe": 134,
+		"galar_swsh": 197,
+		"galar_crown_tundra": 75
 	},
 	"name": {
 		"en": "Vaporeon",

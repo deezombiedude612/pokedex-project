@@ -12,9 +12,9 @@
 		"type_id": [6, 1],
 		"type": ["water", "ghost"],
 		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false
+			"ability_1": "Rattled",
+			"ability_2": "Adaptability",
+			"hidden_ability": "Mold Breaker"
 		}
 	}
 }

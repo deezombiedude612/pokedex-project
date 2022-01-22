@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 150
+		"national": 150,
+		"kanto_lgpe": 150
 	},
 	"name": {
 		"en": "Mewtwo",

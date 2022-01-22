@@ -1,8 +1,9 @@
 {
 	"id": {
 		"national": 617,
-		"galar_dex": 276,
-		"galar_isle_of_armor": 65
+		"galar_swsh": 276,
+		"galar_isle_of_armor": 65,
+		"galar_crown_tundra": 98
 	},
 	"name": {
 		"en": "Accelgor",

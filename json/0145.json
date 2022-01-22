@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 145
+		"national": 145,
+		"kanto_lgpe": 145,
+		"galar_crown_tundra": 203
 	},
 	"name": {
 		"en": "Zapdos",

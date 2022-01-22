@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 12,
-		"galar_dex": 15
+		"kanto_lgpe": 12,
+		"galar_swsh": 15
 	},
 	"name": {
 		"en": "Butterfree",

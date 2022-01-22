@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 141
+		"national": 141,
+		"kanto_lgpe": 141,
+		"galar_crown_tundra": 126
 	},
 	"name": {
 		"en": "Kabutops",

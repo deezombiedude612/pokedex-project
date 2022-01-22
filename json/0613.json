@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 613,
-		"galar_dex": 279
+		"galar_swsh": 279,
+		"galar_crown_tundra": 121
 	},
 	"name": {
 		"en": "Cubchoo",

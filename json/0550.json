@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 550,
-		"galar_dex": 154
+		"galar_swsh": 154,
+		"galar_crown_tundra": 64
 	},
 	"name": {
 		"en": "Basculin",

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 473,
-		"galar_dex": 77
+		"galar_swsh": 77,
+		"galar_crown_tundra": 9
 	},
 	"name": {
 		"en": "Mamoswine",

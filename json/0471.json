@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 471,
-		"galar_dex": 203
+		"galar_swsh": 203,
+		"galar_crown_tundra": 7,
+		"galar_crown_tundra": 80
 	},
 	"name": {
 		"en": "Glaceon",

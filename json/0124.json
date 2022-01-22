@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 124
+		"national": 124,
+		"kanto_lgpe": 124,
+		"galar_crown_tundra": 14
 	},
 	"name": {
 		"en": "Jynx",

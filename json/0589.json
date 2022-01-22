@@ -1,8 +1,9 @@
 {
 	"id": {
 		"national": 589,
-		"galar_dex": 274,
-		"galar_isle_of_armor": 67
+		"galar_swsh": 274,
+		"galar_isle_of_armor": 67,
+		"galar_crown_tundra": 96
 	},
 	"name": {
 		"en": "Escavalier",

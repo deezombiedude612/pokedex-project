@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 20
+		"national": 20,
+		"kanto_lgpe": 20
 	},
 	"name": {
 		"en": "Raticate",

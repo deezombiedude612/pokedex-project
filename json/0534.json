@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 534,
-		"galar_dex": 173
+		"galar_swsh": 173,
+		"galar_crown_tundra": 59
 	},
 	"name": {
 		"en": "Conkeldurr",

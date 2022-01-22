@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 125
+		"national": 125,
+		"kanto_lgpe": 125,
+		"galar_crown_tundra": 16
 	},
 	"name": {
 		"en": "Electabuzz",

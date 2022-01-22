@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 831,
-		"galar_dex": 34
+		"galar_swsh": 34,
+		"galar_crown_tundra": 3
 	},
 	"name": {
 		"en": "Wooloo",

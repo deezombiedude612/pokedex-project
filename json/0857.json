@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 857,
-		"galar_dex": 242
+		"galar_swsh": 242,
+		"galar_crown_tundra": 41
 	},
 	"name": {
 		"en": "Hattrem",

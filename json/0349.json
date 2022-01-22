@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 349,
-		"galar_dex": 152
+		"galar_swsh": 152,
+		"galar_crown_tundra": 188
 	},
 	"name": {
 		"en": "Feebas",

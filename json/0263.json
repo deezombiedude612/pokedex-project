@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 263,
-		"galar_dex": 31
+		"galar_swsh": 31,
+		"galar_crown_tundra": 71
 	},
 	"name": {
 		"en": "Zigzagoon",

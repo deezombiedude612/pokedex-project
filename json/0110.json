@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 110,
-		"galar_dex": 251
+		"kanto_lgpe": 110,
+		"galar_swsh": 251
 	},
 	"name": {
 		"en": "Weezing",

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 830,
-		"galar_dex": 127
+		"galar_swsh": 127,
+		"galar_crown_tundra": 167
 	},
 	"name": {
 		"en": "Eldegoss",

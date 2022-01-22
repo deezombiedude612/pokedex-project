@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 598,
-		"galar_dex": 190
+		"galar_swsh": 190,
+		"galar_crown_tundra": 181
 	},
 	"name": {
 		"en": "Ferrothorn",

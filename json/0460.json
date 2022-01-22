@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 460,
-		"galar_dex": 97
+		"galar_swsh": 97,
+		"galar_crown_tundra": 28,
+		"galar_crown_tundra": 32
 	},
 	"name": {
 		"en": "Abomasnow",

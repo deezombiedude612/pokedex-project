@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 225,
-		"galar_dex": 78
+		"galar_swsh": 78,
+		"galar_crown_tundra": 120
 	},
 	"name": {
 		"en": "Delibird",

@@ -1,8 +1,9 @@
 {
 	"id": {
 		"national": 616,
-		"galar_dex": 275,
-		"galar_isle_of_armor": 64
+		"galar_swsh": 275,
+		"galar_isle_of_armor": 64,
+		"galar_crown_tundra": 97
 	},
 	"name": {
 		"en": "Shelmet",

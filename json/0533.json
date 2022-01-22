@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 533,
-		"galar_dex": 172
+		"galar_swsh": 172,
+		"galar_crown_tundra": 58
 	},
 	"name": {
 		"en": "Gurdurr",

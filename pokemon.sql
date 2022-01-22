@@ -35,9 +35,6 @@ INSERT INTO `types`(`id`, `name`, `jp_name`) VALUES
 DROP TABLE IF EXISTS `pokemon_list`;
 CREATE TABLE `pokemon_list` (
 	`id`						INT NOT NULL AUTO_INCREMENT,
-    `galar_dex`					INT NULL,
-    `galar_isle_of_armor`		INT NULL,
-    `galar_crown_tundra`		INT NULL,
     `name`						VARCHAR(50) NOT NULL,
     `jp_name`					VARCHAR(15) NOT NULL,
     
@@ -986,620 +983,1005 @@ INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
 # Upcoming
 ;
 
-# Galar dex number
-UPDATE `pokemon_list` SET `galar_dex` = 1 WHERE `id` = 810;
-UPDATE `pokemon_list` SET `galar_dex` = 2 WHERE `id` = 811;
-UPDATE `pokemon_list` SET `galar_dex` = 3 WHERE `id` = 812;
-UPDATE `pokemon_list` SET `galar_dex` = 4 WHERE `id` = 813;
-UPDATE `pokemon_list` SET `galar_dex` = 5 WHERE `id` = 814;
-UPDATE `pokemon_list` SET `galar_dex` = 6 WHERE `id` = 815;
-UPDATE `pokemon_list` SET `galar_dex` = 7 WHERE `id` = 816;
-UPDATE `pokemon_list` SET `galar_dex` = 8 WHERE `id` = 817;
-UPDATE `pokemon_list` SET `galar_dex` = 9 WHERE `id` = 818;
-UPDATE `pokemon_list` SET `galar_dex` = 10 WHERE `id` = 824;
-UPDATE `pokemon_list` SET `galar_dex` = 11 WHERE `id` = 825;
-UPDATE `pokemon_list` SET `galar_dex` = 12 WHERE `id` = 826;
-UPDATE `pokemon_list` SET `galar_dex` = 13 WHERE `id` = 10;
-UPDATE `pokemon_list` SET `galar_dex` = 14 WHERE `id` = 11;
-UPDATE `pokemon_list` SET `galar_dex` = 15 WHERE `id` = 12;
-UPDATE `pokemon_list` SET `galar_dex` = 16 WHERE `id` = 736;
-UPDATE `pokemon_list` SET `galar_dex` = 17 WHERE `id` = 737;
-UPDATE `pokemon_list` SET `galar_dex` = 18 WHERE `id` = 738;
-UPDATE `pokemon_list` SET `galar_dex` = 19 WHERE `id` = 163;
-UPDATE `pokemon_list` SET `galar_dex` = 20 WHERE `id` = 164;
-UPDATE `pokemon_list` SET `galar_dex` = 21 WHERE `id` = 821;
-UPDATE `pokemon_list` SET `galar_dex` = 22 WHERE `id` = 822;
-UPDATE `pokemon_list` SET `galar_dex` = 23 WHERE `id` = 823;
-UPDATE `pokemon_list` SET `galar_dex` = 24 WHERE `id` = 819;
-UPDATE `pokemon_list` SET `galar_dex` = 25 WHERE `id` = 820;
-UPDATE `pokemon_list` SET `galar_dex` = 26 WHERE `id` = 519;
-UPDATE `pokemon_list` SET `galar_dex` = 27 WHERE `id` = 520;
-UPDATE `pokemon_list` SET `galar_dex` = 28 WHERE `id` = 521;
-UPDATE `pokemon_list` SET `galar_dex` = 29 WHERE `id` = 827;
-UPDATE `pokemon_list` SET `galar_dex` = 30 WHERE `id` = 828;
-UPDATE `pokemon_list` SET `galar_dex` = 31 WHERE `id` = 263;
-UPDATE `pokemon_list` SET `galar_dex` = 32 WHERE `id` = 264;
-UPDATE `pokemon_list` SET `galar_dex` = 33 WHERE `id` = 862;
-UPDATE `pokemon_list` SET `galar_dex` = 34 WHERE `id` = 831;
-UPDATE `pokemon_list` SET `galar_dex` = 35 WHERE `id` = 832;
-UPDATE `pokemon_list` SET `galar_dex` = 36 WHERE `id` = 270;
-UPDATE `pokemon_list` SET `galar_dex` = 37 WHERE `id` = 271;
-UPDATE `pokemon_list` SET `galar_dex` = 38 WHERE `id` = 272;
-UPDATE `pokemon_list` SET `galar_dex` = 39 WHERE `id` = 273;
-UPDATE `pokemon_list` SET `galar_dex` = 40 WHERE `id` = 274;
-UPDATE `pokemon_list` SET `galar_dex` = 41 WHERE `id` = 275;
-UPDATE `pokemon_list` SET `galar_dex` = 42 WHERE `id` = 833;
-UPDATE `pokemon_list` SET `galar_dex` = 43 WHERE `id` = 834;
-UPDATE `pokemon_list` SET `galar_dex` = 44 WHERE `id` = 509;
-UPDATE `pokemon_list` SET `galar_dex` = 45 WHERE `id` = 510;
-UPDATE `pokemon_list` SET `galar_dex` = 46 WHERE `id` = 835;
-UPDATE `pokemon_list` SET `galar_dex` = 47 WHERE `id` = 836;
-UPDATE `pokemon_list` SET `galar_dex` = 48 WHERE `id` = 659;
-UPDATE `pokemon_list` SET `galar_dex` = 49 WHERE `id` = 660;
-UPDATE `pokemon_list` SET `galar_dex` = 50 WHERE `id` = 572;
-UPDATE `pokemon_list` SET `galar_dex` = 51 WHERE `id` = 573;
-UPDATE `pokemon_list` SET `galar_dex` = 52 WHERE `id` = 761;
-UPDATE `pokemon_list` SET `galar_dex` = 53 WHERE `id` = 762;
-UPDATE `pokemon_list` SET `galar_dex` = 54 WHERE `id` = 763;
-UPDATE `pokemon_list` SET `galar_dex` = 55 WHERE `id` = 43;
-UPDATE `pokemon_list` SET `galar_dex` = 56 WHERE `id` = 44;
-UPDATE `pokemon_list` SET `galar_dex` = 57 WHERE `id` = 45;
-UPDATE `pokemon_list` SET `galar_dex` = 58 WHERE `id` = 182;
-UPDATE `pokemon_list` SET `galar_dex` = 59 WHERE `id` = 406;
-UPDATE `pokemon_list` SET `galar_dex` = 60 WHERE `id` = 315;
-UPDATE `pokemon_list` SET `galar_dex` = 61 WHERE `id` = 407;
-UPDATE `pokemon_list` SET `galar_dex` = 62 WHERE `id` = 278;
-UPDATE `pokemon_list` SET `galar_dex` = 63 WHERE `id` = 279;
-UPDATE `pokemon_list` SET `galar_dex` = 64 WHERE `id` = 595;
-UPDATE `pokemon_list` SET `galar_dex` = 65 WHERE `id` = 596;
-UPDATE `pokemon_list` SET `galar_dex` = 66 WHERE `id` = 309;
-UPDATE `pokemon_list` SET `galar_dex` = 67 WHERE `id` = 310;
-UPDATE `pokemon_list` SET `galar_dex` = 68 WHERE `id` = 37;
-UPDATE `pokemon_list` SET `galar_dex` = 69 WHERE `id` = 38;
-UPDATE `pokemon_list` SET `galar_dex` = 70 WHERE `id` = 58;
-UPDATE `pokemon_list` SET `galar_dex` = 71 WHERE `id` = 59;
-UPDATE `pokemon_list` SET `galar_dex` = 72 WHERE `id` = 582;
-UPDATE `pokemon_list` SET `galar_dex` = 73 WHERE `id` = 583;
-UPDATE `pokemon_list` SET `galar_dex` = 74 WHERE `id` = 584;
-UPDATE `pokemon_list` SET `galar_dex` = 75 WHERE `id` = 220;
-UPDATE `pokemon_list` SET `galar_dex` = 76 WHERE `id` = 221;
-UPDATE `pokemon_list` SET `galar_dex` = 77 WHERE `id` = 473;
-UPDATE `pokemon_list` SET `galar_dex` = 78 WHERE `id` = 225;
-UPDATE `pokemon_list` SET `galar_dex` = 79 WHERE `id` = 361;
-UPDATE `pokemon_list` SET `galar_dex` = 80 WHERE `id` = 362;
-UPDATE `pokemon_list` SET `galar_dex` = 81 WHERE `id` = 478;
-UPDATE `pokemon_list` SET `galar_dex` = 82 WHERE `id` = 343;
-UPDATE `pokemon_list` SET `galar_dex` = 83 WHERE `id` = 344;
-UPDATE `pokemon_list` SET `galar_dex` = 84 WHERE `id` = 749;
-UPDATE `pokemon_list` SET `galar_dex` = 85 WHERE `id` = 750;
-UPDATE `pokemon_list` SET `galar_dex` = 86 WHERE `id` = 557;
-UPDATE `pokemon_list` SET `galar_dex` = 87 WHERE `id` = 558;
-UPDATE `pokemon_list` SET `galar_dex` = 88 WHERE `id` = 622;
-UPDATE `pokemon_list` SET `galar_dex` = 89 WHERE `id` = 623;
-UPDATE `pokemon_list` SET `galar_dex` = 90 WHERE `id` = 517;
-UPDATE `pokemon_list` SET `galar_dex` = 91 WHERE `id` = 518;
-UPDATE `pokemon_list` SET `galar_dex` = 92 WHERE `id` = 177;
-UPDATE `pokemon_list` SET `galar_dex` = 93 WHERE `id` = 178;
-UPDATE `pokemon_list` SET `galar_dex` = 94 WHERE `id` = 759;
-UPDATE `pokemon_list` SET `galar_dex` = 95 WHERE `id` = 760;
-UPDATE `pokemon_list` SET `galar_dex` = 96 WHERE `id` = 459;
-UPDATE `pokemon_list` SET `galar_dex` = 97 WHERE `id` = 460;
-UPDATE `pokemon_list` SET `galar_dex` = 98 WHERE `id` = 98;
-UPDATE `pokemon_list` SET `galar_dex` = 99 WHERE `id` = 99;
-UPDATE `pokemon_list` SET `galar_dex` = 100 WHERE `id` = 194;
-UPDATE `pokemon_list` SET `galar_dex` = 101 WHERE `id` = 195;
-UPDATE `pokemon_list` SET `galar_dex` = 102 WHERE `id` = 341;
-UPDATE `pokemon_list` SET `galar_dex` = 103 WHERE `id` = 342;
-UPDATE `pokemon_list` SET `galar_dex` = 104 WHERE `id` = 290;
-UPDATE `pokemon_list` SET `galar_dex` = 105 WHERE `id` = 291;
-UPDATE `pokemon_list` SET `galar_dex` = 106 WHERE `id` = 292;
-UPDATE `pokemon_list` SET `galar_dex` = 107 WHERE `id` = 236;
-UPDATE `pokemon_list` SET `galar_dex` = 108 WHERE `id` = 106;
-UPDATE `pokemon_list` SET `galar_dex` = 109 WHERE `id` = 107;
-UPDATE `pokemon_list` SET `galar_dex` = 110 WHERE `id` = 237;
-UPDATE `pokemon_list` SET `galar_dex` = 111 WHERE `id` = 674;
-UPDATE `pokemon_list` SET `galar_dex` = 112 WHERE `id` = 675;
-UPDATE `pokemon_list` SET `galar_dex` = 113 WHERE `id` = 599;
-UPDATE `pokemon_list` SET `galar_dex` = 114 WHERE `id` = 600;
-UPDATE `pokemon_list` SET `galar_dex` = 115 WHERE `id` = 601;
-UPDATE `pokemon_list` SET `galar_dex` = 116 WHERE `id` = 415;
-UPDATE `pokemon_list` SET `galar_dex` = 117 WHERE `id` = 416;
-UPDATE `pokemon_list` SET `galar_dex` = 118 WHERE `id` = 436;
-UPDATE `pokemon_list` SET `galar_dex` = 119 WHERE `id` = 437;
-UPDATE `pokemon_list` SET `galar_dex` = 120 WHERE `id` = 280;
-UPDATE `pokemon_list` SET `galar_dex` = 121 WHERE `id` = 281;
-UPDATE `pokemon_list` SET `galar_dex` = 122 WHERE `id` = 282;
-UPDATE `pokemon_list` SET `galar_dex` = 123 WHERE `id` = 475;
-UPDATE `pokemon_list` SET `galar_dex` = 124 WHERE `id` = 425;
-UPDATE `pokemon_list` SET `galar_dex` = 125 WHERE `id` = 426;
-UPDATE `pokemon_list` SET `galar_dex` = 126 WHERE `id` = 829;
-UPDATE `pokemon_list` SET `galar_dex` = 127 WHERE `id` = 830;
-UPDATE `pokemon_list` SET `galar_dex` = 128 WHERE `id` = 420;
-UPDATE `pokemon_list` SET `galar_dex` = 129 WHERE `id` = 421;
-UPDATE `pokemon_list` SET `galar_dex` = 130 WHERE `id` = 434;
-UPDATE `pokemon_list` SET `galar_dex` = 131 WHERE `id` = 435;
-UPDATE `pokemon_list` SET `galar_dex` = 132 WHERE `id` = 535;
-UPDATE `pokemon_list` SET `galar_dex` = 133 WHERE `id` = 536;
-UPDATE `pokemon_list` SET `galar_dex` = 134 WHERE `id` = 537;
-UPDATE `pokemon_list` SET `galar_dex` = 135 WHERE `id` = 355;
-UPDATE `pokemon_list` SET `galar_dex` = 136 WHERE `id` = 356;
-UPDATE `pokemon_list` SET `galar_dex` = 137 WHERE `id` = 477;
-UPDATE `pokemon_list` SET `galar_dex` = 138 WHERE `id` = 66;
-UPDATE `pokemon_list` SET `galar_dex` = 139 WHERE `id` = 67;
-UPDATE `pokemon_list` SET `galar_dex` = 140 WHERE `id` = 68;
-UPDATE `pokemon_list` SET `galar_dex` = 141 WHERE `id` = 92;
-UPDATE `pokemon_list` SET `galar_dex` = 142 WHERE `id` = 93;
-UPDATE `pokemon_list` SET `galar_dex` = 143 WHERE `id` = 94;
-UPDATE `pokemon_list` SET `galar_dex` = 144 WHERE `id` = 129;
-UPDATE `pokemon_list` SET `galar_dex` = 145 WHERE `id` = 130;
-UPDATE `pokemon_list` SET `galar_dex` = 146 WHERE `id` = 118;
-UPDATE `pokemon_list` SET `galar_dex` = 147 WHERE `id` = 119;
-UPDATE `pokemon_list` SET `galar_dex` = 148 WHERE `id` = 223;
-UPDATE `pokemon_list` SET `galar_dex` = 149 WHERE `id` = 224;
-UPDATE `pokemon_list` SET `galar_dex` = 150 WHERE `id` = 90;
-UPDATE `pokemon_list` SET `galar_dex` = 151 WHERE `id` = 91;
-UPDATE `pokemon_list` SET `galar_dex` = 152 WHERE `id` = 349;
-UPDATE `pokemon_list` SET `galar_dex` = 153 WHERE `id` = 350;
-UPDATE `pokemon_list` SET `galar_dex` = 154 WHERE `id` = 550;
-UPDATE `pokemon_list` SET `galar_dex` = 155 WHERE `id` = 746;
-UPDATE `pokemon_list` SET `galar_dex` = 156 WHERE `id` = 771;
-UPDATE `pokemon_list` SET `galar_dex` = 157 WHERE `id` = 568;
-UPDATE `pokemon_list` SET `galar_dex` = 158 WHERE `id` = 569;
-UPDATE `pokemon_list` SET `galar_dex` = 159 WHERE `id` = 850;
-UPDATE `pokemon_list` SET `galar_dex` = 160 WHERE `id` = 851;
-UPDATE `pokemon_list` SET `galar_dex` = 161 WHERE `id` = 837;
-UPDATE `pokemon_list` SET `galar_dex` = 162 WHERE `id` = 838;
-UPDATE `pokemon_list` SET `galar_dex` = 163 WHERE `id` = 839;
-UPDATE `pokemon_list` SET `galar_dex` = 164 WHERE `id` = 50;
-UPDATE `pokemon_list` SET `galar_dex` = 165 WHERE `id` = 51;
-UPDATE `pokemon_list` SET `galar_dex` = 166 WHERE `id` = 529;
-UPDATE `pokemon_list` SET `galar_dex` = 167 WHERE `id` = 530;
-UPDATE `pokemon_list` SET `galar_dex` = 168 WHERE `id` = 524;
-UPDATE `pokemon_list` SET `galar_dex` = 169 WHERE `id` = 525;
-UPDATE `pokemon_list` SET `galar_dex` = 170 WHERE `id` = 526;
-UPDATE `pokemon_list` SET `galar_dex` = 171 WHERE `id` = 532;
-UPDATE `pokemon_list` SET `galar_dex` = 172 WHERE `id` = 533;
-UPDATE `pokemon_list` SET `galar_dex` = 173 WHERE `id` = 534;
-UPDATE `pokemon_list` SET `galar_dex` = 174 WHERE `id` = 527;
-UPDATE `pokemon_list` SET `galar_dex` = 175 WHERE `id` = 528;
-UPDATE `pokemon_list` SET `galar_dex` = 176 WHERE `id` = 714;
-UPDATE `pokemon_list` SET `galar_dex` = 177 WHERE `id` = 715;
-UPDATE `pokemon_list` SET `galar_dex` = 178 WHERE `id` = 95;
-UPDATE `pokemon_list` SET `galar_dex` = 179 WHERE `id` = 208;
-UPDATE `pokemon_list` SET `galar_dex` = 180 WHERE `id` = 846;
-UPDATE `pokemon_list` SET `galar_dex` = 181 WHERE `id` = 847;
-UPDATE `pokemon_list` SET `galar_dex` = 182 WHERE `id` = 52;
-UPDATE `pokemon_list` SET `galar_dex` = 183 WHERE `id` = 863;
-UPDATE `pokemon_list` SET `galar_dex` = 184 WHERE `id` = 53;
-UPDATE `pokemon_list` SET `galar_dex` = 185 WHERE `id` = 868;
-UPDATE `pokemon_list` SET `galar_dex` = 186 WHERE `id` = 869;
-UPDATE `pokemon_list` SET `galar_dex` = 187 WHERE `id` = 742;
-UPDATE `pokemon_list` SET `galar_dex` = 188 WHERE `id` = 743;
-UPDATE `pokemon_list` SET `galar_dex` = 189 WHERE `id` = 597;
-UPDATE `pokemon_list` SET `galar_dex` = 190 WHERE `id` = 598;
-UPDATE `pokemon_list` SET `galar_dex` = 191 WHERE `id` = 710;
-UPDATE `pokemon_list` SET `galar_dex` = 192 WHERE `id` = 711;
-UPDATE `pokemon_list` SET `galar_dex` = 193 WHERE `id` = 172;
-UPDATE `pokemon_list` SET `galar_dex` = 194 WHERE `id` = 25;
-UPDATE `pokemon_list` SET `galar_dex` = 195 WHERE `id` = 26;
-UPDATE `pokemon_list` SET `galar_dex` = 196 WHERE `id` = 133;
-UPDATE `pokemon_list` SET `galar_dex` = 197 WHERE `id` = 134;
-UPDATE `pokemon_list` SET `galar_dex` = 198 WHERE `id` = 135;
-UPDATE `pokemon_list` SET `galar_dex` = 199 WHERE `id` = 136;
-UPDATE `pokemon_list` SET `galar_dex` = 200 WHERE `id` = 196;
-UPDATE `pokemon_list` SET `galar_dex` = 201 WHERE `id` = 197;
-UPDATE `pokemon_list` SET `galar_dex` = 202 WHERE `id` = 470;
-UPDATE `pokemon_list` SET `galar_dex` = 203 WHERE `id` = 471;
-UPDATE `pokemon_list` SET `galar_dex` = 204 WHERE `id` = 700;
-UPDATE `pokemon_list` SET `galar_dex` = 205 WHERE `id` = 840;
-UPDATE `pokemon_list` SET `galar_dex` = 206 WHERE `id` = 841;
-UPDATE `pokemon_list` SET `galar_dex` = 207 WHERE `id` = 842;
-UPDATE `pokemon_list` SET `galar_dex` = 208 WHERE `id` = 677;
-UPDATE `pokemon_list` SET `galar_dex` = 209 WHERE `id` = 678;
-UPDATE `pokemon_list` SET `galar_dex` = 210 WHERE `id` = 684;
-UPDATE `pokemon_list` SET `galar_dex` = 211 WHERE `id` = 685;
-UPDATE `pokemon_list` SET `galar_dex` = 212 WHERE `id` = 682;
-UPDATE `pokemon_list` SET `galar_dex` = 213 WHERE `id` = 683;
-UPDATE `pokemon_list` SET `galar_dex` = 214 WHERE `id` = 751;
-UPDATE `pokemon_list` SET `galar_dex` = 215 WHERE `id` = 752;
-UPDATE `pokemon_list` SET `galar_dex` = 216 WHERE `id` = 360;
-UPDATE `pokemon_list` SET `galar_dex` = 217 WHERE `id` = 202;
-UPDATE `pokemon_list` SET `galar_dex` = 218 WHERE `id` = 83;
-UPDATE `pokemon_list` SET `galar_dex` = 219 WHERE `id` = 865;
-UPDATE `pokemon_list` SET `galar_dex` = 220 WHERE `id` = 170;
-UPDATE `pokemon_list` SET `galar_dex` = 221 WHERE `id` = 171;
-UPDATE `pokemon_list` SET `galar_dex` = 222 WHERE `id` = 453;
-UPDATE `pokemon_list` SET `galar_dex` = 223 WHERE `id` = 454;
-UPDATE `pokemon_list` SET `galar_dex` = 224 WHERE `id` = 559;
-UPDATE `pokemon_list` SET `galar_dex` = 225 WHERE `id` = 560;
-UPDATE `pokemon_list` SET `galar_dex` = 226 WHERE `id` = 618;
-UPDATE `pokemon_list` SET `galar_dex` = 227 WHERE `id` = 213;
-UPDATE `pokemon_list` SET `galar_dex` = 228 WHERE `id` = 339;
-UPDATE `pokemon_list` SET `galar_dex` = 229 WHERE `id` = 340;
-UPDATE `pokemon_list` SET `galar_dex` = 230 WHERE `id` = 422;
-UPDATE `pokemon_list` SET `galar_dex` = 231 WHERE `id` = 423;
-UPDATE `pokemon_list` SET `galar_dex` = 232 WHERE `id` = 767;
-UPDATE `pokemon_list` SET `galar_dex` = 233 WHERE `id` = 768;
-UPDATE `pokemon_list` SET `galar_dex` = 234 WHERE `id` = 688;
-UPDATE `pokemon_list` SET `galar_dex` = 235 WHERE `id` = 689;
-UPDATE `pokemon_list` SET `galar_dex` = 236 WHERE `id` = 222;
-UPDATE `pokemon_list` SET `galar_dex` = 237 WHERE `id` = 864;
-UPDATE `pokemon_list` SET `galar_dex` = 238 WHERE `id` = 859;
-UPDATE `pokemon_list` SET `galar_dex` = 239 WHERE `id` = 860;
-UPDATE `pokemon_list` SET `galar_dex` = 240 WHERE `id` = 861;
-UPDATE `pokemon_list` SET `galar_dex` = 241 WHERE `id` = 856;
-UPDATE `pokemon_list` SET `galar_dex` = 242 WHERE `id` = 857;
-UPDATE `pokemon_list` SET `galar_dex` = 243 WHERE `id` = 858;
-UPDATE `pokemon_list` SET `galar_dex` = 244 WHERE `id` = 757;
-UPDATE `pokemon_list` SET `galar_dex` = 245 WHERE `id` = 758;
-UPDATE `pokemon_list` SET `galar_dex` = 246 WHERE `id` = 624;
-UPDATE `pokemon_list` SET `galar_dex` = 247 WHERE `id` = 625;
-UPDATE `pokemon_list` SET `galar_dex` = 248 WHERE `id` = 538;
-UPDATE `pokemon_list` SET `galar_dex` = 249 WHERE `id` = 539;
-UPDATE `pokemon_list` SET `galar_dex` = 250 WHERE `id` = 109;
-UPDATE `pokemon_list` SET `galar_dex` = 251 WHERE `id` = 110;
-UPDATE `pokemon_list` SET `galar_dex` = 252 WHERE `id` = 438;
-UPDATE `pokemon_list` SET `galar_dex` = 253 WHERE `id` = 185;
-UPDATE `pokemon_list` SET `galar_dex` = 254 WHERE `id` = 173;
-UPDATE `pokemon_list` SET `galar_dex` = 255 WHERE `id` = 35;
-UPDATE `pokemon_list` SET `galar_dex` = 256 WHERE `id` = 36;
-UPDATE `pokemon_list` SET `galar_dex` = 257 WHERE `id` = 175;
-UPDATE `pokemon_list` SET `galar_dex` = 258 WHERE `id` = 176;
-UPDATE `pokemon_list` SET `galar_dex` = 259 WHERE `id` = 468;
-UPDATE `pokemon_list` SET `galar_dex` = 260 WHERE `id` = 446;
-UPDATE `pokemon_list` SET `galar_dex` = 261 WHERE `id` = 143;
-UPDATE `pokemon_list` SET `galar_dex` = 262 WHERE `id` = 546;
-UPDATE `pokemon_list` SET `galar_dex` = 263 WHERE `id` = 547;
-UPDATE `pokemon_list` SET `galar_dex` = 264 WHERE `id` = 111;
-UPDATE `pokemon_list` SET `galar_dex` = 265 WHERE `id` = 112;
-UPDATE `pokemon_list` SET `galar_dex` = 266 WHERE `id` = 464;
-UPDATE `pokemon_list` SET `galar_dex` = 267 WHERE `id` = 574;
-UPDATE `pokemon_list` SET `galar_dex` = 268 WHERE `id` = 575;
-UPDATE `pokemon_list` SET `galar_dex` = 269 WHERE `id` = 576;
-UPDATE `pokemon_list` SET `galar_dex` = 270 WHERE `id` = 577;
-UPDATE `pokemon_list` SET `galar_dex` = 271 WHERE `id` = 578;
-UPDATE `pokemon_list` SET `galar_dex` = 272 WHERE `id` = 579;
-UPDATE `pokemon_list` SET `galar_dex` = 273 WHERE `id` = 588;
-UPDATE `pokemon_list` SET `galar_dex` = 274 WHERE `id` = 589;
-UPDATE `pokemon_list` SET `galar_dex` = 275 WHERE `id` = 616;
-UPDATE `pokemon_list` SET `galar_dex` = 276 WHERE `id` = 617;
-UPDATE `pokemon_list` SET `galar_dex` = 277 WHERE `id` = 605;
-UPDATE `pokemon_list` SET `galar_dex` = 278 WHERE `id` = 606;
-UPDATE `pokemon_list` SET `galar_dex` = 279 WHERE `id` = 613;
-UPDATE `pokemon_list` SET `galar_dex` = 280 WHERE `id` = 614;
-UPDATE `pokemon_list` SET `galar_dex` = 281 WHERE `id` = 627;
-UPDATE `pokemon_list` SET `galar_dex` = 282 WHERE `id` = 628;
-UPDATE `pokemon_list` SET `galar_dex` = 283 WHERE `id` = 629;
-UPDATE `pokemon_list` SET `galar_dex` = 284 WHERE `id` = 630;
-UPDATE `pokemon_list` SET `galar_dex` = 285 WHERE `id` = 451;
-UPDATE `pokemon_list` SET `galar_dex` = 286 WHERE `id` = 452;
-UPDATE `pokemon_list` SET `galar_dex` = 287 WHERE `id` = 607;
-UPDATE `pokemon_list` SET `galar_dex` = 288 WHERE `id` = 608;
-UPDATE `pokemon_list` SET `galar_dex` = 289 WHERE `id` = 609;
-UPDATE `pokemon_list` SET `galar_dex` = 290 WHERE `id` = 686;
-UPDATE `pokemon_list` SET `galar_dex` = 291 WHERE `id` = 687;
-UPDATE `pokemon_list` SET `galar_dex` = 292 WHERE `id` = 215;
-UPDATE `pokemon_list` SET `galar_dex` = 293 WHERE `id` = 461;
-UPDATE `pokemon_list` SET `galar_dex` = 294 WHERE `id` = 302;
-UPDATE `pokemon_list` SET `galar_dex` = 295 WHERE `id` = 303;
-UPDATE `pokemon_list` SET `galar_dex` = 296 WHERE `id` = 556;
-UPDATE `pokemon_list` SET `galar_dex` = 297 WHERE `id` = 561;
-UPDATE `pokemon_list` SET `galar_dex` = 298 WHERE `id` = 447;
-UPDATE `pokemon_list` SET `galar_dex` = 299 WHERE `id` = 448;
-UPDATE `pokemon_list` SET `galar_dex` = 300 WHERE `id` = 324;
-UPDATE `pokemon_list` SET `galar_dex` = 301 WHERE `id` = 778;
-UPDATE `pokemon_list` SET `galar_dex` = 302 WHERE `id` = 878;
-UPDATE `pokemon_list` SET `galar_dex` = 303 WHERE `id` = 879;
-UPDATE `pokemon_list` SET `galar_dex` = 304 WHERE `id` = 211;
-UPDATE `pokemon_list` SET `galar_dex` = 305 WHERE `id` = 592;
-UPDATE `pokemon_list` SET `galar_dex` = 306 WHERE `id` = 593;
-UPDATE `pokemon_list` SET `galar_dex` = 307 WHERE `id` = 747;
-UPDATE `pokemon_list` SET `galar_dex` = 308 WHERE `id` = 748;
-UPDATE `pokemon_list` SET `galar_dex` = 309 WHERE `id` = 845;
-UPDATE `pokemon_list` SET `galar_dex` = 310 WHERE `id` = 848;
-UPDATE `pokemon_list` SET `galar_dex` = 311 WHERE `id` = 849;
-UPDATE `pokemon_list` SET `galar_dex` = 312 WHERE `id` = 843;
-UPDATE `pokemon_list` SET `galar_dex` = 313 WHERE `id` = 844;
-UPDATE `pokemon_list` SET `galar_dex` = 314 WHERE `id` = 449;
-UPDATE `pokemon_list` SET `galar_dex` = 315 WHERE `id` = 450;
-UPDATE `pokemon_list` SET `galar_dex` = 316 WHERE `id` = 632;
-UPDATE `pokemon_list` SET `galar_dex` = 317 WHERE `id` = 631;
-UPDATE `pokemon_list` SET `galar_dex` = 318 WHERE `id` = 694;
-UPDATE `pokemon_list` SET `galar_dex` = 319 WHERE `id` = 695;
-UPDATE `pokemon_list` SET `galar_dex` = 320 WHERE `id` = 701;
-UPDATE `pokemon_list` SET `galar_dex` = 321 WHERE `id` = 328;
-UPDATE `pokemon_list` SET `galar_dex` = 322 WHERE `id` = 329;
-UPDATE `pokemon_list` SET `galar_dex` = 323 WHERE `id` = 330;
-UPDATE `pokemon_list` SET `galar_dex` = 324 WHERE `id` = 610;
-UPDATE `pokemon_list` SET `galar_dex` = 325 WHERE `id` = 611;
-UPDATE `pokemon_list` SET `galar_dex` = 326 WHERE `id` = 612;
-UPDATE `pokemon_list` SET `galar_dex` = 327 WHERE `id` = 562;
-UPDATE `pokemon_list` SET `galar_dex` = 328 WHERE `id` = 867;
-UPDATE `pokemon_list` SET `galar_dex` = 329 WHERE `id` = 563;
-UPDATE `pokemon_list` SET `galar_dex` = 330 WHERE `id` = 679;
-UPDATE `pokemon_list` SET `galar_dex` = 331 WHERE `id` = 680;
-UPDATE `pokemon_list` SET `galar_dex` = 332 WHERE `id` = 681;
-UPDATE `pokemon_list` SET `galar_dex` = 333 WHERE `id` = 77;
-UPDATE `pokemon_list` SET `galar_dex` = 334 WHERE `id` = 78;
-UPDATE `pokemon_list` SET `galar_dex` = 335 WHERE `id` = 853;
-UPDATE `pokemon_list` SET `galar_dex` = 336 WHERE `id` = 854;
-UPDATE `pokemon_list` SET `galar_dex` = 337 WHERE `id` = 876;
-UPDATE `pokemon_list` SET `galar_dex` = 338 WHERE `id` = 708;
-UPDATE `pokemon_list` SET `galar_dex` = 339 WHERE `id` = 709;
-UPDATE `pokemon_list` SET `galar_dex` = 340 WHERE `id` = 755;
-UPDATE `pokemon_list` SET `galar_dex` = 341 WHERE `id` = 756;
-UPDATE `pokemon_list` SET `galar_dex` = 342 WHERE `id` = 765;
-UPDATE `pokemon_list` SET `galar_dex` = 343 WHERE `id` = 766;
-UPDATE `pokemon_list` SET `galar_dex` = 344 WHERE `id` = 877;
-UPDATE `pokemon_list` SET `galar_dex` = 345 WHERE `id` = 870;
-UPDATE `pokemon_list` SET `galar_dex` = 346 WHERE `id` = 780;
-UPDATE `pokemon_list` SET `galar_dex` = 347 WHERE `id` = 776;
-UPDATE `pokemon_list` SET `galar_dex` = 348 WHERE `id` = 777;
-UPDATE `pokemon_list` SET `galar_dex` = 349 WHERE `id` = 872;
-UPDATE `pokemon_list` SET `galar_dex` = 350 WHERE `id` = 873;
-UPDATE `pokemon_list` SET `galar_dex` = 351 WHERE `id` = 852;
-UPDATE `pokemon_list` SET `galar_dex` = 352 WHERE `id` = 853;
-UPDATE `pokemon_list` SET `galar_dex` = 353 WHERE `id` = 871;
-UPDATE `pokemon_list` SET `galar_dex` = 354 WHERE `id` = 458;
-UPDATE `pokemon_list` SET `galar_dex` = 355 WHERE `id` = 226;
-UPDATE `pokemon_list` SET `galar_dex` = 356 WHERE `id` = 320;
-UPDATE `pokemon_list` SET `galar_dex` = 357 WHERE `id` = 321;
-UPDATE `pokemon_list` SET `galar_dex` = 358 WHERE `id` = 712;
-UPDATE `pokemon_list` SET `galar_dex` = 359 WHERE `id` = 713;
-UPDATE `pokemon_list` SET `galar_dex` = 360 WHERE `id` = 781;
-UPDATE `pokemon_list` SET `galar_dex` = 361 WHERE `id` = 131;
-UPDATE `pokemon_list` SET `galar_dex` = 362 WHERE `id` = 337;
-UPDATE `pokemon_list` SET `galar_dex` = 363 WHERE `id` = 338;
-UPDATE `pokemon_list` SET `galar_dex` = 364 WHERE `id` = 439;
-UPDATE `pokemon_list` SET `galar_dex` = 365 WHERE `id` = 122;
-UPDATE `pokemon_list` SET `galar_dex` = 366 WHERE `id` = 866;
-UPDATE `pokemon_list` SET `galar_dex` = 367 WHERE `id` = 554;
-UPDATE `pokemon_list` SET `galar_dex` = 368 WHERE `id` = 555;
-UPDATE `pokemon_list` SET `galar_dex` = 369 WHERE `id` = 874;
-UPDATE `pokemon_list` SET `galar_dex` = 370 WHERE `id` = 875;
-UPDATE `pokemon_list` SET `galar_dex` = 371 WHERE `id` = 884;
-UPDATE `pokemon_list` SET `galar_dex` = 372 WHERE `id` = 479;
-UPDATE `pokemon_list` SET `galar_dex` = 373 WHERE `id` = 132;
-UPDATE `pokemon_list` SET `galar_dex` = 374 WHERE `id` = 880;
-UPDATE `pokemon_list` SET `galar_dex` = 375 WHERE `id` = 881;
-UPDATE `pokemon_list` SET `galar_dex` = 376 WHERE `id` = 882;
-UPDATE `pokemon_list` SET `galar_dex` = 377 WHERE `id` = 883;
-UPDATE `pokemon_list` SET `galar_dex` = 378 WHERE `id` = 4;
-UPDATE `pokemon_list` SET `galar_dex` = 379 WHERE `id` = 5;
-UPDATE `pokemon_list` SET `galar_dex` = 380 WHERE `id` = 6;
-UPDATE `pokemon_list` SET `galar_dex` = 381 WHERE `id` = 772;
-UPDATE `pokemon_list` SET `galar_dex` = 382 WHERE `id` = 773;
-UPDATE `pokemon_list` SET `galar_dex` = 383 WHERE `id` = 246;
-UPDATE `pokemon_list` SET `galar_dex` = 384 WHERE `id` = 247;
-UPDATE `pokemon_list` SET `galar_dex` = 385 WHERE `id` = 248;
-UPDATE `pokemon_list` SET `galar_dex` = 386 WHERE `id` = 633;
-UPDATE `pokemon_list` SET `galar_dex` = 387 WHERE `id` = 634;
-UPDATE `pokemon_list` SET `galar_dex` = 388 WHERE `id` = 635;
-UPDATE `pokemon_list` SET `galar_dex` = 389 WHERE `id` = 704;
-UPDATE `pokemon_list` SET `galar_dex` = 390 WHERE `id` = 705;
-UPDATE `pokemon_list` SET `galar_dex` = 391 WHERE `id` = 706;
-UPDATE `pokemon_list` SET `galar_dex` = 392 WHERE `id` = 782;
-UPDATE `pokemon_list` SET `galar_dex` = 393 WHERE `id` = 783;
-UPDATE `pokemon_list` SET `galar_dex` = 394 WHERE `id` = 784;
-UPDATE `pokemon_list` SET `galar_dex` = 395 WHERE `id` = 885;
-UPDATE `pokemon_list` SET `galar_dex` = 396 WHERE `id` = 886;
-UPDATE `pokemon_list` SET `galar_dex` = 397 WHERE `id` = 887;
-UPDATE `pokemon_list` SET `galar_dex` = 398 WHERE `id` = 888;
-UPDATE `pokemon_list` SET `galar_dex` = 399 WHERE `id` = 889;
-UPDATE `pokemon_list` SET `galar_dex` = 400 WHERE `id` = 890;
+# Regional Dex Numbers
+DROP TABLE IF EXISTS `regional_dex`;
+CREATE TABLE `regional_dex` (
+	`dex_name`		VARCHAR(40) NOT NULL,
+    `dex_id`		INT NOT NULL,
+    `national_id`	INT NOT NULL,
+    
+    FOREIGN KEY(`national_id`) REFERENCES `pokemon_list`(`id`)
+);
 
-# Galar Isle of Armor Dex Number
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 1 WHERE `id` = 79;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 2 WHERE `id` = 80;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 3 WHERE `id` = 199;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 4 WHERE `id` = 427;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 5 WHERE `id` = 428;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 6 WHERE `id` = 440;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 7 WHERE `id` = 113;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 8 WHERE `id` = 242;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 9 WHERE `id` = 819;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 10 WHERE `id` = 820;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 11 WHERE `id` = 38;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 12 WHERE `id` = 39;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 13 WHERE `id` = 40;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 14 WHERE `id` = 824;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 15 WHERE `id` = 825;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 16 WHERE `id` = 826;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 17 WHERE `id` = 753;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 18 WHERE `id` = 754;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 19 WHERE `id` = 840;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 20 WHERE `id` = 841;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 21 WHERE `id` = 842;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 22 WHERE `id` = 661;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 23 WHERE `id` = 662;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 24 WHERE `id` = 663;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 25 WHERE `id` = 403;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 26 WHERE `id` = 404;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 27 WHERE `id` = 405;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 28 WHERE `id` = 707;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 29 WHERE `id` = 624;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 30 WHERE `id` = 625;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 31 WHERE `id` = 63;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 32 WHERE `id` = 64;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 33 WHERE `id` = 65;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 34 WHERE `id` = 280;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 35 WHERE `id` = 281;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 36 WHERE `id` = 282;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 37 WHERE `id` = 475;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 38 WHERE `id` = 98;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 39 WHERE `id` = 99;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 40 WHERE `id` = 72;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 41 WHERE `id` = 73;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 42 WHERE `id` = 129;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 43 WHERE `id` = 130;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 44 WHERE `id` = 223;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 45 WHERE `id` = 224;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 46 WHERE `id` = 458;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 47 WHERE `id` = 226;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 48 WHERE `id` = 278;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 49 WHERE `id` = 279;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 50 WHERE `id` = 451;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 51 WHERE `id` = 452;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 52 WHERE `id` = 206;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 53 WHERE `id` = 626;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 54 WHERE `id` = 108;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 55 WHERE `id` = 463;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 56 WHERE `id` = 833;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 57 WHERE `id` = 834;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 58 WHERE `id` = 194;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 59 WHERE `id` = 195;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 60 WHERE `id` = 704;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 61 WHERE `id` = 705;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 62 WHERE `id` = 706;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 63 WHERE `id` = 621;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 64 WHERE `id` = 616;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 65 WHERE `id` = 617;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 66 WHERE `id` = 588;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 67 WHERE `id` = 589;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 68 WHERE `id` = 1;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 69 WHERE `id` = 2;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 70 WHERE `id` = 3;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 71 WHERE `id` = 7;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 72 WHERE `id` = 8;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 73 WHERE `id` = 9;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 74 WHERE `id` = 543;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 75 WHERE `id` = 544;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 76 WHERE `id` = 545;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 77 WHERE `id` = 590;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 78 WHERE `id` = 591;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 79 WHERE `id` = 764;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 80 WHERE `id` = 114;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 81 WHERE `id` = 465;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 82 WHERE `id` = 453;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 83 WHERE `id` = 454;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 84 WHERE `id` = 172;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 85 WHERE `id` = 25;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 86 WHERE `id` = 26;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 87 WHERE `id` = 570;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 88 WHERE `id` = 571;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 89 WHERE `id` = 765;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 90 WHERE `id` = 766;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 91 WHERE `id` = 341;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 92 WHERE `id` = 342;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 93 WHERE `id` = 845;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 94 WHERE `id` = 118;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 95 WHERE `id` = 119;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 96 WHERE `id` = 846;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 97 WHERE `id` = 847;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 98 WHERE `id` = 120;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 99 WHERE `id` = 121;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 100 WHERE `id` = 891;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 101 WHERE `id` = 892;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 102 WHERE `id` = 587;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 103 WHERE `id` = 702;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 104 WHERE `id` = 877;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 105 WHERE `id` = 81;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 106 WHERE `id` = 82;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 107 WHERE `id` = 462;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 108 WHERE `id` = 686;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 109 WHERE `id` = 687;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 110 WHERE `id` = 746;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 111 WHERE `id` = 318;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 112 WHERE `id` = 319;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 113 WHERE `id` = 506;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 114 WHERE `id` = 507;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 115 WHERE `id` = 508;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 116 WHERE `id` = 128;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 117 WHERE `id` = 241;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 118 WHERE `id` = 123;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 119 WHERE `id` = 212;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 120 WHERE `id` = 127;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 121 WHERE `id` = 214;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 122 WHERE `id` = 557;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 123 WHERE `id` = 558;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 124 WHERE `id` = 767;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 125 WHERE `id` = 768;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 126 WHERE `id` = 871;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 127 WHERE `id` = 747;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 128 WHERE `id` = 748;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 129 WHERE `id` = 852;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 130 WHERE `id` = 853;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 131 WHERE `id` = 90;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 132 WHERE `id` = 91;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 133 WHERE `id` = 769;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 134 WHERE `id` = 770;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 135 WHERE `id` = 425;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 136 WHERE `id` = 426;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 137 WHERE `id` = 339;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 138 WHERE `id` = 340;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 139 WHERE `id` = 298;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 140 WHERE `id` = 183;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 141 WHERE `id` = 184;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 142 WHERE `id` = 60;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 143 WHERE `id` = 61;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 144 WHERE `id` = 62;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 145 WHERE `id` = 186;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 146 WHERE `id` = 54;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 147 WHERE `id` = 55;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 148 WHERE `id` = 293;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 149 WHERE `id` = 294;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 150 WHERE `id` = 295;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 151 WHERE `id` = 527;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 152 WHERE `id` = 528;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 153 WHERE `id` = 227;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 154 WHERE `id` = 524;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 155 WHERE `id` = 525;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 156 WHERE `id` = 526;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 157 WHERE `id` = 744;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 158 WHERE `id` = 745;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 159 WHERE `id` = 757;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 160 WHERE `id` = 758;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 161 WHERE `id` = 559;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 162 WHERE `id` = 560;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 163 WHERE `id` = 619;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 164 WHERE `id` = 620;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 165 WHERE `id` = 782;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 166 WHERE `id` = 783;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 167 WHERE `id` = 784;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 168 WHERE `id` = 27;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 169 WHERE `id` = 28;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 170 WHERE `id` = 104;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 171 WHERE `id` = 105;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 172 WHERE `id` = 115;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 173 WHERE `id` = 324;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 174 WHERE `id` = 843;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 175 WHERE `id` = 844;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 176 WHERE `id` = 551;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 177 WHERE `id` = 552;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 178 WHERE `id` = 553;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 179 WHERE `id` = 627;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 180 WHERE `id` = 628;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 181 WHERE `id` = 629;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 182 WHERE `id` = 630;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 183 WHERE `id` = 111;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 184 WHERE `id` = 112;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 185 WHERE `id` = 464;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 186 WHERE `id` = 636;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 187 WHERE `id` = 637;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 188 WHERE `id` = 170;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 189 WHERE `id` = 171;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 190 WHERE `id` = 320;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 191 WHERE `id` = 321;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 192 WHERE `id` = 592;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 193 WHERE `id` = 593;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 194 WHERE `id` = 690;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 195 WHERE `id` = 691;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 196 WHERE `id` = 692;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 197 WHERE `id` = 693;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 198 WHERE `id` = 116;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 199 WHERE `id` = 117;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 200 WHERE `id` = 230;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 201 WHERE `id` = 548;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 202 WHERE `id` = 549;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 203 WHERE `id` = 415;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 204 WHERE `id` = 416;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 205 WHERE `id` = 102;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 206 WHERE `id` = 103;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 207 WHERE `id` = 132;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 208 WHERE `id` = 137;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 209 WHERE `id` = 233;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 210 WHERE `id` = 474;
-UPDATE `pokemon_list` SET `galar_isle_of_armor` = 211 WHERE `id` = 893;
+# Kanto Dex Number (Let's Go! Pikachu & Eevee)
+INSERT INTO `regional_dex` VALUES 
+('kanto_lgpe', 1, 1),
+('kanto_lgpe', 2, 2),
+('kanto_lgpe', 3, 3),
+('kanto_lgpe', 4, 4),
+('kanto_lgpe', 5, 5),
+('kanto_lgpe', 6, 6),
+('kanto_lgpe', 7, 7),
+('kanto_lgpe', 8, 8),
+('kanto_lgpe', 9, 9),
+('kanto_lgpe', 10, 10),
+('kanto_lgpe', 11, 11),
+('kanto_lgpe', 12, 12),
+('kanto_lgpe', 13, 13),
+('kanto_lgpe', 14, 14),
+('kanto_lgpe', 15, 15),
+('kanto_lgpe', 16, 16),
+('kanto_lgpe', 17, 17),
+('kanto_lgpe', 18, 18),
+('kanto_lgpe', 19, 19),
+('kanto_lgpe', 20, 20),
+('kanto_lgpe', 21, 21),
+('kanto_lgpe', 22, 22),
+('kanto_lgpe', 23, 23),
+('kanto_lgpe', 24, 24),
+('kanto_lgpe', 25, 25),
+('kanto_lgpe', 26, 26),
+('kanto_lgpe', 27, 27),
+('kanto_lgpe', 28, 28),
+('kanto_lgpe', 29, 29),
+('kanto_lgpe', 30, 30),
+('kanto_lgpe', 31, 31),
+('kanto_lgpe', 32, 32),
+('kanto_lgpe', 33, 33),
+('kanto_lgpe', 34, 34),
+('kanto_lgpe', 35, 35),
+('kanto_lgpe', 36, 36),
+('kanto_lgpe', 37, 37),
+('kanto_lgpe', 38, 38),
+('kanto_lgpe', 39, 39),
+('kanto_lgpe', 40, 40),
+('kanto_lgpe', 41, 41),
+('kanto_lgpe', 42, 42),
+('kanto_lgpe', 43, 43),
+('kanto_lgpe', 44, 44),
+('kanto_lgpe', 45, 45),
+('kanto_lgpe', 46, 46),
+('kanto_lgpe', 47, 47),
+('kanto_lgpe', 48, 48),
+('kanto_lgpe', 49, 49),
+('kanto_lgpe', 50, 50),
+('kanto_lgpe', 51, 51),
+('kanto_lgpe', 52, 52),
+('kanto_lgpe', 53, 53),
+('kanto_lgpe', 54, 54),
+('kanto_lgpe', 55, 55),
+('kanto_lgpe', 56, 56),
+('kanto_lgpe', 57, 57),
+('kanto_lgpe', 58, 58),
+('kanto_lgpe', 59, 59),
+('kanto_lgpe', 60, 60),
+('kanto_lgpe', 61, 61),
+('kanto_lgpe', 62, 62),
+('kanto_lgpe', 63, 63),
+('kanto_lgpe', 64, 64),
+('kanto_lgpe', 65, 65),
+('kanto_lgpe', 66, 66),
+('kanto_lgpe', 67, 67),
+('kanto_lgpe', 68, 68),
+('kanto_lgpe', 69, 69),
+('kanto_lgpe', 70, 70),
+('kanto_lgpe', 71, 71),
+('kanto_lgpe', 72, 72),
+('kanto_lgpe', 73, 73),
+('kanto_lgpe', 74, 74),
+('kanto_lgpe', 75, 75),
+('kanto_lgpe', 76, 76),
+('kanto_lgpe', 77, 77),
+('kanto_lgpe', 78, 78),
+('kanto_lgpe', 79, 79),
+('kanto_lgpe', 80, 80),
+('kanto_lgpe', 81, 81),
+('kanto_lgpe', 82, 82),
+('kanto_lgpe', 83, 83),
+('kanto_lgpe', 84, 84),
+('kanto_lgpe', 85, 85),
+('kanto_lgpe', 86, 86),
+('kanto_lgpe', 87, 87),
+('kanto_lgpe', 88, 88),
+('kanto_lgpe', 89, 89),
+('kanto_lgpe', 90, 90),
+('kanto_lgpe', 91, 91),
+('kanto_lgpe', 92, 92),
+('kanto_lgpe', 93, 93),
+('kanto_lgpe', 94, 94),
+('kanto_lgpe', 95, 95),
+('kanto_lgpe', 96, 96),
+('kanto_lgpe', 97, 97),
+('kanto_lgpe', 98, 98),
+('kanto_lgpe', 99, 99),
+('kanto_lgpe', 100, 100),
+('kanto_lgpe', 101, 101),
+('kanto_lgpe', 102, 102),
+('kanto_lgpe', 103, 103),
+('kanto_lgpe', 104, 104),
+('kanto_lgpe', 105, 105),
+('kanto_lgpe', 106, 106),
+('kanto_lgpe', 107, 107),
+('kanto_lgpe', 108, 108),
+('kanto_lgpe', 109, 109),
+('kanto_lgpe', 110, 110),
+('kanto_lgpe', 111, 111),
+('kanto_lgpe', 112, 112),
+('kanto_lgpe', 113, 113),
+('kanto_lgpe', 114, 114),
+('kanto_lgpe', 115, 115),
+('kanto_lgpe', 116, 116),
+('kanto_lgpe', 117, 117),
+('kanto_lgpe', 118, 118),
+('kanto_lgpe', 119, 119),
+('kanto_lgpe', 120, 120),
+('kanto_lgpe', 121, 121),
+('kanto_lgpe', 122, 122),
+('kanto_lgpe', 123, 123),
+('kanto_lgpe', 124, 124),
+('kanto_lgpe', 125, 125),
+('kanto_lgpe', 126, 126),
+('kanto_lgpe', 127, 127),
+('kanto_lgpe', 128, 128),
+('kanto_lgpe', 129, 129),
+('kanto_lgpe', 130, 130),
+('kanto_lgpe', 131, 131),
+('kanto_lgpe', 132, 132),
+('kanto_lgpe', 133, 133),
+('kanto_lgpe', 134, 134),
+('kanto_lgpe', 135, 135),
+('kanto_lgpe', 136, 136),
+('kanto_lgpe', 137, 137),
+('kanto_lgpe', 138, 138),
+('kanto_lgpe', 139, 139),
+('kanto_lgpe', 140, 140),
+('kanto_lgpe', 141, 141),
+('kanto_lgpe', 142, 142),
+('kanto_lgpe', 143, 143),
+('kanto_lgpe', 144, 144),
+('kanto_lgpe', 145, 145),
+('kanto_lgpe', 146, 146),
+('kanto_lgpe', 147, 147),
+('kanto_lgpe', 148, 148),
+('kanto_lgpe', 149, 149),
+('kanto_lgpe', 150, 150),
+('kanto_lgpe', 151, 151),
+('kanto_lgpe', 152, 808),
+('kanto_lgpe', 153, 809)
+;
+
+# Galar Dex Number (Sword and Shield)
+INSERT INTO `regional_dex` VALUES 
+('galar_swsh', 1, 810),
+('galar_swsh', 2, 811),
+('galar_swsh', 3, 812),
+('galar_swsh', 4, 813),
+('galar_swsh', 5, 814),
+('galar_swsh', 6, 815),
+('galar_swsh', 7, 816),
+('galar_swsh', 8, 817),
+('galar_swsh', 9, 818),
+('galar_swsh', 10, 824),
+('galar_swsh', 11, 825),
+('galar_swsh', 12, 826),
+('galar_swsh', 13, 10),
+('galar_swsh', 14, 11),
+('galar_swsh', 15, 12),
+('galar_swsh', 16, 736),
+('galar_swsh', 17, 737),
+('galar_swsh', 18, 738),
+('galar_swsh', 19, 163),
+('galar_swsh', 20, 164),
+('galar_swsh', 21, 821),
+('galar_swsh', 22, 822),
+('galar_swsh', 23, 823),
+('galar_swsh', 24, 819),
+('galar_swsh', 25, 820),
+('galar_swsh', 26, 519),
+('galar_swsh', 27, 520),
+('galar_swsh', 28, 521),
+('galar_swsh', 29, 827),
+('galar_swsh', 30, 828),
+('galar_swsh', 31, 263),
+('galar_swsh', 32, 264),
+('galar_swsh', 33, 862),
+('galar_swsh', 34, 831),
+('galar_swsh', 35, 832),
+('galar_swsh', 36, 270),
+('galar_swsh', 37, 271),
+('galar_swsh', 38, 272),
+('galar_swsh', 39, 273),
+('galar_swsh', 40, 274),
+('galar_swsh', 41, 275),
+('galar_swsh', 42, 833),
+('galar_swsh', 43, 834),
+('galar_swsh', 44, 509),
+('galar_swsh', 45, 510),
+('galar_swsh', 46, 835),
+('galar_swsh', 47, 836),
+('galar_swsh', 48, 659),
+('galar_swsh', 49, 660),
+('galar_swsh', 50, 572),
+('galar_swsh', 51, 573),
+('galar_swsh', 52, 761),
+('galar_swsh', 53, 762),
+('galar_swsh', 54, 763),
+('galar_swsh', 55, 43),
+('galar_swsh', 56, 44),
+('galar_swsh', 57, 45),
+('galar_swsh', 58, 182),
+('galar_swsh', 59, 406),
+('galar_swsh', 60, 315),
+('galar_swsh', 61, 407),
+('galar_swsh', 62, 278),
+('galar_swsh', 63, 279),
+('galar_swsh', 64, 595),
+('galar_swsh', 65, 596),
+('galar_swsh', 66, 309),
+('galar_swsh', 67, 310),
+('galar_swsh', 68, 37),
+('galar_swsh', 69, 38),
+('galar_swsh', 70, 58),
+('galar_swsh', 71, 59),
+('galar_swsh', 72, 582),
+('galar_swsh', 73, 583),
+('galar_swsh', 74, 584),
+('galar_swsh', 75, 220),
+('galar_swsh', 76, 221),
+('galar_swsh', 77, 473),
+('galar_swsh', 78, 225),
+('galar_swsh', 79, 361),
+('galar_swsh', 80, 362),
+('galar_swsh', 81, 478),
+('galar_swsh', 82, 343),
+('galar_swsh', 83, 344),
+('galar_swsh', 84, 749),
+('galar_swsh', 85, 750),
+('galar_swsh', 86, 557),
+('galar_swsh', 87, 558),
+('galar_swsh', 88, 622),
+('galar_swsh', 89, 623),
+('galar_swsh', 90, 517),
+('galar_swsh', 91, 518),
+('galar_swsh', 92, 177),
+('galar_swsh', 93, 178),
+('galar_swsh', 94, 759),
+('galar_swsh', 95, 760),
+('galar_swsh', 96, 459),
+('galar_swsh', 97, 460),
+('galar_swsh', 98, 98),
+('galar_swsh', 99, 99),
+('galar_swsh', 100, 194),
+('galar_swsh', 101, 195),
+('galar_swsh', 102, 341),
+('galar_swsh', 103, 342),
+('galar_swsh', 104, 290),
+('galar_swsh', 105, 291),
+('galar_swsh', 106, 292),
+('galar_swsh', 107, 236),
+('galar_swsh', 108, 106),
+('galar_swsh', 109, 107),
+('galar_swsh', 110, 237),
+('galar_swsh', 111, 674),
+('galar_swsh', 112, 675),
+('galar_swsh', 113, 599),
+('galar_swsh', 114, 600),
+('galar_swsh', 115, 601),
+('galar_swsh', 116, 415),
+('galar_swsh', 117, 416),
+('galar_swsh', 118, 436),
+('galar_swsh', 119, 437),
+('galar_swsh', 120, 280),
+('galar_swsh', 121, 281),
+('galar_swsh', 122, 282),
+('galar_swsh', 123, 475),
+('galar_swsh', 124, 425),
+('galar_swsh', 125, 426),
+('galar_swsh', 126, 829),
+('galar_swsh', 127, 830),
+('galar_swsh', 128, 420),
+('galar_swsh', 129, 421),
+('galar_swsh', 130, 434),
+('galar_swsh', 131, 435),
+('galar_swsh', 132, 535),
+('galar_swsh', 133, 536),
+('galar_swsh', 134, 537),
+('galar_swsh', 135, 355),
+('galar_swsh', 136, 356),
+('galar_swsh', 137, 477),
+('galar_swsh', 138, 66),
+('galar_swsh', 139, 67),
+('galar_swsh', 140, 68),
+('galar_swsh', 141, 92),
+('galar_swsh', 142, 93),
+('galar_swsh', 143, 94),
+('galar_swsh', 144, 129),
+('galar_swsh', 145, 130),
+('galar_swsh', 146, 118),
+('galar_swsh', 147, 119),
+('galar_swsh', 148, 223),
+('galar_swsh', 149, 224),
+('galar_swsh', 150, 90),
+('galar_swsh', 151, 91),
+('galar_swsh', 152, 349),
+('galar_swsh', 153, 350),
+('galar_swsh', 154, 550),
+('galar_swsh', 155, 746),
+('galar_swsh', 156, 771),
+('galar_swsh', 157, 568),
+('galar_swsh', 158, 569),
+('galar_swsh', 159, 850),
+('galar_swsh', 160, 851),
+('galar_swsh', 161, 837),
+('galar_swsh', 162, 838),
+('galar_swsh', 163, 839),
+('galar_swsh', 164, 50),
+('galar_swsh', 165, 51),
+('galar_swsh', 166, 529),
+('galar_swsh', 167, 530),
+('galar_swsh', 168, 524),
+('galar_swsh', 169, 525),
+('galar_swsh', 170, 526),
+('galar_swsh', 171, 532),
+('galar_swsh', 172, 533),
+('galar_swsh', 173, 534),
+('galar_swsh', 174, 527),
+('galar_swsh', 175, 528),
+('galar_swsh', 176, 714),
+('galar_swsh', 177, 715),
+('galar_swsh', 178, 95),
+('galar_swsh', 179, 208),
+('galar_swsh', 180, 846),
+('galar_swsh', 181, 847),
+('galar_swsh', 182, 52),
+('galar_swsh', 183, 863),
+('galar_swsh', 184, 53),
+('galar_swsh', 185, 868),
+('galar_swsh', 186, 869),
+('galar_swsh', 187, 742),
+('galar_swsh', 188, 743),
+('galar_swsh', 189, 597),
+('galar_swsh', 190, 598),
+('galar_swsh', 191, 710),
+('galar_swsh', 192, 711),
+('galar_swsh', 193, 172),
+('galar_swsh', 194, 25),
+('galar_swsh', 195, 26),
+('galar_swsh', 196, 133),
+('galar_swsh', 197, 134),
+('galar_swsh', 198, 135),
+('galar_swsh', 199, 136),
+('galar_swsh', 200, 196),
+('galar_swsh', 201, 197),
+('galar_swsh', 202, 470),
+('galar_swsh', 203, 471),
+('galar_swsh', 204, 700),
+('galar_swsh', 205, 840),
+('galar_swsh', 206, 841),
+('galar_swsh', 207, 842),
+('galar_swsh', 208, 677),
+('galar_swsh', 209, 678),
+('galar_swsh', 210, 684),
+('galar_swsh', 211, 685),
+('galar_swsh', 212, 682),
+('galar_swsh', 213, 683),
+('galar_swsh', 214, 751),
+('galar_swsh', 215, 752),
+('galar_swsh', 216, 360),
+('galar_swsh', 217, 202),
+('galar_swsh', 218, 83),
+('galar_swsh', 219, 865),
+('galar_swsh', 220, 170),
+('galar_swsh', 221, 171),
+('galar_swsh', 222, 453),
+('galar_swsh', 223, 454),
+('galar_swsh', 224, 559),
+('galar_swsh', 225, 560),
+('galar_swsh', 226, 618),
+('galar_swsh', 227, 213),
+('galar_swsh', 228, 339),
+('galar_swsh', 229, 340),
+('galar_swsh', 230, 422),
+('galar_swsh', 231, 423),
+('galar_swsh', 232, 767),
+('galar_swsh', 233, 768),
+('galar_swsh', 234, 688),
+('galar_swsh', 235, 689),
+('galar_swsh', 236, 222),
+('galar_swsh', 237, 864),
+('galar_swsh', 238, 859),
+('galar_swsh', 239, 860),
+('galar_swsh', 240, 861),
+('galar_swsh', 241, 856),
+('galar_swsh', 242, 857),
+('galar_swsh', 243, 858),
+('galar_swsh', 244, 757),
+('galar_swsh', 245, 758),
+('galar_swsh', 246, 624),
+('galar_swsh', 247, 625),
+('galar_swsh', 248, 538),
+('galar_swsh', 249, 539),
+('galar_swsh', 250, 109),
+('galar_swsh', 251, 110),
+('galar_swsh', 252, 438),
+('galar_swsh', 253, 185),
+('galar_swsh', 254, 173),
+('galar_swsh', 255, 35),
+('galar_swsh', 256, 36),
+('galar_swsh', 257, 175),
+('galar_swsh', 258, 176),
+('galar_swsh', 259, 468),
+('galar_swsh', 260, 446),
+('galar_swsh', 261, 143),
+('galar_swsh', 262, 546),
+('galar_swsh', 263, 547),
+('galar_swsh', 264, 111),
+('galar_swsh', 265, 112),
+('galar_swsh', 266, 464),
+('galar_swsh', 267, 574),
+('galar_swsh', 268, 575),
+('galar_swsh', 269, 576),
+('galar_swsh', 270, 577),
+('galar_swsh', 271, 578),
+('galar_swsh', 272, 579),
+('galar_swsh', 273, 588),
+('galar_swsh', 274, 589),
+('galar_swsh', 275, 616),
+('galar_swsh', 276, 617),
+('galar_swsh', 277, 605),
+('galar_swsh', 278, 606),
+('galar_swsh', 279, 613),
+('galar_swsh', 280, 614),
+('galar_swsh', 281, 627),
+('galar_swsh', 282, 628),
+('galar_swsh', 283, 629),
+('galar_swsh', 284, 630),
+('galar_swsh', 285, 451),
+('galar_swsh', 286, 452),
+('galar_swsh', 287, 607),
+('galar_swsh', 288, 608),
+('galar_swsh', 289, 609),
+('galar_swsh', 290, 686),
+('galar_swsh', 291, 687),
+('galar_swsh', 292, 215),
+('galar_swsh', 293, 461),
+('galar_swsh', 294, 302),
+('galar_swsh', 295, 303),
+('galar_swsh', 296, 556),
+('galar_swsh', 297, 561),
+('galar_swsh', 298, 447),
+('galar_swsh', 299, 448),
+('galar_swsh', 300, 324),
+('galar_swsh', 301, 778),
+('galar_swsh', 302, 878),
+('galar_swsh', 303, 879),
+('galar_swsh', 304, 211),
+('galar_swsh', 305, 592),
+('galar_swsh', 306, 593),
+('galar_swsh', 307, 747),
+('galar_swsh', 308, 748),
+('galar_swsh', 309, 845),
+('galar_swsh', 310, 848),
+('galar_swsh', 311, 849),
+('galar_swsh', 312, 843),
+('galar_swsh', 313, 844),
+('galar_swsh', 314, 449),
+('galar_swsh', 315, 450),
+('galar_swsh', 316, 632),
+('galar_swsh', 317, 631),
+('galar_swsh', 318, 694),
+('galar_swsh', 319, 695),
+('galar_swsh', 320, 701),
+('galar_swsh', 321, 328),
+('galar_swsh', 322, 329),
+('galar_swsh', 323, 330),
+('galar_swsh', 324, 610),
+('galar_swsh', 325, 611),
+('galar_swsh', 326, 612),
+('galar_swsh', 327, 562),
+('galar_swsh', 328, 867),
+('galar_swsh', 329, 563),
+('galar_swsh', 330, 679),
+('galar_swsh', 331, 680),
+('galar_swsh', 332, 681),
+('galar_swsh', 333, 77),
+('galar_swsh', 334, 78),
+('galar_swsh', 335, 854),
+('galar_swsh', 336, 855),
+('galar_swsh', 337, 876),
+('galar_swsh', 338, 708),
+('galar_swsh', 339, 709),
+('galar_swsh', 340, 755),
+('galar_swsh', 341, 756),
+('galar_swsh', 342, 765),
+('galar_swsh', 343, 766),
+('galar_swsh', 344, 877),
+('galar_swsh', 345, 870),
+('galar_swsh', 346, 780),
+('galar_swsh', 347, 776),
+('galar_swsh', 348, 777),
+('galar_swsh', 349, 872),
+('galar_swsh', 350, 873),
+('galar_swsh', 351, 852),
+('galar_swsh', 352, 853),
+('galar_swsh', 353, 871),
+('galar_swsh', 354, 458),
+('galar_swsh', 355, 226),
+('galar_swsh', 356, 320),
+('galar_swsh', 357, 321),
+('galar_swsh', 358, 712),
+('galar_swsh', 359, 713),
+('galar_swsh', 360, 781),
+('galar_swsh', 361, 131),
+('galar_swsh', 362, 337),
+('galar_swsh', 363, 338),
+('galar_swsh', 364, 439),
+('galar_swsh', 365, 122),
+('galar_swsh', 366, 866),
+('galar_swsh', 367, 554),
+('galar_swsh', 368, 555),
+('galar_swsh', 369, 874),
+('galar_swsh', 370, 875),
+('galar_swsh', 371, 884),
+('galar_swsh', 372, 479),
+('galar_swsh', 373, 132),
+('galar_swsh', 374, 880),
+('galar_swsh', 375, 881),
+('galar_swsh', 376, 882),
+('galar_swsh', 377, 883),
+('galar_swsh', 378, 4),
+('galar_swsh', 379, 5),
+('galar_swsh', 380, 6),
+('galar_swsh', 381, 772),
+('galar_swsh', 382, 773),
+('galar_swsh', 383, 246),
+('galar_swsh', 384, 247),
+('galar_swsh', 385, 248),
+('galar_swsh', 386, 633),
+('galar_swsh', 387, 634),
+('galar_swsh', 388, 635),
+('galar_swsh', 389, 704),
+('galar_swsh', 390, 705),
+('galar_swsh', 391, 706),
+('galar_swsh', 392, 782),
+('galar_swsh', 393, 783),
+('galar_swsh', 394, 784),
+('galar_swsh', 395, 885),
+('galar_swsh', 396, 886),
+('galar_swsh', 397, 887),
+('galar_swsh', 398, 888),
+('galar_swsh', 399, 889),
+('galar_swsh', 400, 890)
+;
+
+# Galar Isle of Armor Dex Number (Sword and Shield)
+INSERT INTO `regional_dex` VALUES 
+('galar_isle_of_armor', 1, 79),
+('galar_isle_of_armor', 2, 80),
+('galar_isle_of_armor', 3, 199),
+('galar_isle_of_armor', 4, 427),
+('galar_isle_of_armor', 5, 428),
+('galar_isle_of_armor', 6, 440),
+('galar_isle_of_armor', 7, 113),
+('galar_isle_of_armor', 8, 242),
+('galar_isle_of_armor', 9, 819),
+('galar_isle_of_armor', 10, 820),
+('galar_isle_of_armor', 11, 174),
+('galar_isle_of_armor', 12, 39),
+('galar_isle_of_armor', 13, 40),
+('galar_isle_of_armor', 14, 824),
+('galar_isle_of_armor', 15, 825),
+('galar_isle_of_armor', 16, 826),
+('galar_isle_of_armor', 17, 753),
+('galar_isle_of_armor', 18, 754),
+('galar_isle_of_armor', 19, 840),
+('galar_isle_of_armor', 20, 841),
+('galar_isle_of_armor', 21, 842),
+('galar_isle_of_armor', 22, 661),
+('galar_isle_of_armor', 23, 662),
+('galar_isle_of_armor', 24, 663),
+('galar_isle_of_armor', 25, 403),
+('galar_isle_of_armor', 26, 404),
+('galar_isle_of_armor', 27, 405),
+('galar_isle_of_armor', 28, 707),
+('galar_isle_of_armor', 29, 624),
+('galar_isle_of_armor', 30, 625),
+('galar_isle_of_armor', 31, 63),
+('galar_isle_of_armor', 32, 64),
+('galar_isle_of_armor', 33, 65),
+('galar_isle_of_armor', 34, 280),
+('galar_isle_of_armor', 35, 281),
+('galar_isle_of_armor', 36, 282),
+('galar_isle_of_armor', 37, 475),
+('galar_isle_of_armor', 38, 98),
+('galar_isle_of_armor', 39, 99),
+('galar_isle_of_armor', 40, 72),
+('galar_isle_of_armor', 41, 73),
+('galar_isle_of_armor', 42, 129),
+('galar_isle_of_armor', 43, 130),
+('galar_isle_of_armor', 44, 223),
+('galar_isle_of_armor', 45, 224),
+('galar_isle_of_armor', 46, 458),
+('galar_isle_of_armor', 47, 226),
+('galar_isle_of_armor', 48, 278),
+('galar_isle_of_armor', 49, 279),
+('galar_isle_of_armor', 50, 451),
+('galar_isle_of_armor', 51, 452),
+('galar_isle_of_armor', 52, 206),
+('galar_isle_of_armor', 53, 626),
+('galar_isle_of_armor', 54, 108),
+('galar_isle_of_armor', 55, 463),
+('galar_isle_of_armor', 56, 833),
+('galar_isle_of_armor', 57, 834),
+('galar_isle_of_armor', 58, 194),
+('galar_isle_of_armor', 59, 195),
+('galar_isle_of_armor', 60, 704),
+('galar_isle_of_armor', 61, 705),
+('galar_isle_of_armor', 62, 706),
+('galar_isle_of_armor', 63, 621),
+('galar_isle_of_armor', 64, 616),
+('galar_isle_of_armor', 65, 617),
+('galar_isle_of_armor', 66, 588),
+('galar_isle_of_armor', 67, 589),
+('galar_isle_of_armor', 68, 1),
+('galar_isle_of_armor', 69, 2),
+('galar_isle_of_armor', 70, 3),
+('galar_isle_of_armor', 71, 7),
+('galar_isle_of_armor', 72, 8),
+('galar_isle_of_armor', 73, 9),
+('galar_isle_of_armor', 74, 543),
+('galar_isle_of_armor', 75, 544),
+('galar_isle_of_armor', 76, 545),
+('galar_isle_of_armor', 77, 590),
+('galar_isle_of_armor', 78, 591),
+('galar_isle_of_armor', 79, 764),
+('galar_isle_of_armor', 80, 114),
+('galar_isle_of_armor', 81, 465),
+('galar_isle_of_armor', 82, 453),
+('galar_isle_of_armor', 83, 454),
+('galar_isle_of_armor', 84, 172),
+('galar_isle_of_armor', 85, 25),
+('galar_isle_of_armor', 86, 26),
+('galar_isle_of_armor', 87, 570),
+('galar_isle_of_armor', 88, 571),
+('galar_isle_of_armor', 89, 765),
+('galar_isle_of_armor', 90, 766),
+('galar_isle_of_armor', 91, 341),
+('galar_isle_of_armor', 92, 342),
+('galar_isle_of_armor', 93, 845),
+('galar_isle_of_armor', 94, 118),
+('galar_isle_of_armor', 95, 119),
+('galar_isle_of_armor', 96, 846),
+('galar_isle_of_armor', 97, 847),
+('galar_isle_of_armor', 98, 120),
+('galar_isle_of_armor', 99, 121),
+('galar_isle_of_armor', 100, 891),
+('galar_isle_of_armor', 101, 892),
+('galar_isle_of_armor', 102, 587),
+('galar_isle_of_armor', 103, 702),
+('galar_isle_of_armor', 104, 877),
+('galar_isle_of_armor', 105, 81),
+('galar_isle_of_armor', 106, 82),
+('galar_isle_of_armor', 107, 462),
+('galar_isle_of_armor', 108, 686),
+('galar_isle_of_armor', 109, 687),
+('galar_isle_of_armor', 110, 746),
+('galar_isle_of_armor', 111, 318),
+('galar_isle_of_armor', 112, 319),
+('galar_isle_of_armor', 113, 506),
+('galar_isle_of_armor', 114, 507),
+('galar_isle_of_armor', 115, 508),
+('galar_isle_of_armor', 116, 128),
+('galar_isle_of_armor', 117, 241),
+('galar_isle_of_armor', 118, 123),
+('galar_isle_of_armor', 119, 212),
+('galar_isle_of_armor', 120, 127),
+('galar_isle_of_armor', 121, 214),
+('galar_isle_of_armor', 122, 557),
+('galar_isle_of_armor', 123, 558),
+('galar_isle_of_armor', 124, 767),
+('galar_isle_of_armor', 125, 768),
+('galar_isle_of_armor', 126, 871),
+('galar_isle_of_armor', 127, 747),
+('galar_isle_of_armor', 128, 748),
+('galar_isle_of_armor', 129, 852),
+('galar_isle_of_armor', 130, 853),
+('galar_isle_of_armor', 131, 90),
+('galar_isle_of_armor', 132, 91),
+('galar_isle_of_armor', 133, 769),
+('galar_isle_of_armor', 134, 770),
+('galar_isle_of_armor', 135, 425),
+('galar_isle_of_armor', 136, 426),
+('galar_isle_of_armor', 137, 339),
+('galar_isle_of_armor', 138, 340),
+('galar_isle_of_armor', 139, 298),
+('galar_isle_of_armor', 140, 183),
+('galar_isle_of_armor', 141, 184),
+('galar_isle_of_armor', 142, 60),
+('galar_isle_of_armor', 143, 61),
+('galar_isle_of_armor', 144, 62),
+('galar_isle_of_armor', 145, 186),
+('galar_isle_of_armor', 146, 54),
+('galar_isle_of_armor', 147, 55),
+('galar_isle_of_armor', 148, 293),
+('galar_isle_of_armor', 149, 294),
+('galar_isle_of_armor', 150, 295),
+('galar_isle_of_armor', 151, 527),
+('galar_isle_of_armor', 152, 528),
+('galar_isle_of_armor', 153, 227),
+('galar_isle_of_armor', 154, 524),
+('galar_isle_of_armor', 155, 525),
+('galar_isle_of_armor', 156, 526),
+('galar_isle_of_armor', 157, 744),
+('galar_isle_of_armor', 158, 745),
+('galar_isle_of_armor', 159, 757),
+('galar_isle_of_armor', 160, 758),
+('galar_isle_of_armor', 161, 559),
+('galar_isle_of_armor', 162, 560),
+('galar_isle_of_armor', 163, 619),
+('galar_isle_of_armor', 164, 620),
+('galar_isle_of_armor', 165, 782),
+('galar_isle_of_armor', 166, 783),
+('galar_isle_of_armor', 167, 784),
+('galar_isle_of_armor', 168, 27),
+('galar_isle_of_armor', 169, 28),
+('galar_isle_of_armor', 170, 104),
+('galar_isle_of_armor', 171, 105),
+('galar_isle_of_armor', 172, 115),
+('galar_isle_of_armor', 173, 324),
+('galar_isle_of_armor', 174, 843),
+('galar_isle_of_armor', 175, 844),
+('galar_isle_of_armor', 176, 551),
+('galar_isle_of_armor', 177, 552),
+('galar_isle_of_armor', 178, 553),
+('galar_isle_of_armor', 179, 627),
+('galar_isle_of_armor', 180, 628),
+('galar_isle_of_armor', 181, 629),
+('galar_isle_of_armor', 182, 630),
+('galar_isle_of_armor', 183, 111),
+('galar_isle_of_armor', 184, 112),
+('galar_isle_of_armor', 185, 464),
+('galar_isle_of_armor', 186, 636),
+('galar_isle_of_armor', 187, 637),
+('galar_isle_of_armor', 188, 170),
+('galar_isle_of_armor', 189, 171),
+('galar_isle_of_armor', 190, 320),
+('galar_isle_of_armor', 191, 321),
+('galar_isle_of_armor', 192, 592),
+('galar_isle_of_armor', 193, 593),
+('galar_isle_of_armor', 194, 690),
+('galar_isle_of_armor', 195, 691),
+('galar_isle_of_armor', 196, 692),
+('galar_isle_of_armor', 197, 693),
+('galar_isle_of_armor', 198, 116),
+('galar_isle_of_armor', 199, 117),
+('galar_isle_of_armor', 200, 230),
+('galar_isle_of_armor', 201, 548),
+('galar_isle_of_armor', 202, 549),
+('galar_isle_of_armor', 203, 415),
+('galar_isle_of_armor', 204, 416),
+('galar_isle_of_armor', 205, 102),
+('galar_isle_of_armor', 206, 103),
+('galar_isle_of_armor', 207, 132),
+('galar_isle_of_armor', 208, 137),
+('galar_isle_of_armor', 209, 233),
+('galar_isle_of_armor', 210, 474),
+('galar_isle_of_armor', 211, 893)
+;
+
+# Galar Crown Tundra Dex Number (Sword and Shield)
+INSERT INTO `regional_dex` VALUES 
+('galar_crown_tundra', 1, 872),
+('galar_crown_tundra', 2, 873),
+('galar_crown_tundra', 3, 831),
+('galar_crown_tundra', 4, 832),
+('galar_crown_tundra', 5, 819),
+('galar_crown_tundra', 6, 820),
+('galar_crown_tundra', 7, 471),
+('galar_crown_tundra', 8, 472),
+('galar_crown_tundra', 9, 473),
+('galar_crown_tundra', 10, 439),
+('galar_crown_tundra', 11, 122),
+('galar_crown_tundra', 12, 866),
+('galar_crown_tundra', 13, 238),
+('galar_crown_tundra', 14, 124),
+('galar_crown_tundra', 15, 239),
+('galar_crown_tundra', 16, 125),
+('galar_crown_tundra', 17, 466),
+('galar_crown_tundra', 18, 240),
+('galar_crown_tundra', 19, 126),
+('galar_crown_tundra', 20, 467),
+('galar_crown_tundra', 21, 531),
+('galar_crown_tundra', 22, 582),
+('galar_crown_tundra', 23, 583),
+('galar_crown_tundra', 24, 584),
+('galar_crown_tundra', 25, 361),
+('galar_crown_tundra', 26, 362),
+('galar_crown_tundra', 27, 478),
+('galar_crown_tundra', 28, 460),
+('galar_crown_tundra', 29, 461),
+('galar_crown_tundra', 30, 615),
+('galar_crown_tundra', 31, 459),
+('galar_crown_tundra', 32, 460),
+('galar_crown_tundra', 33, 708),
+('galar_crown_tundra', 34, 709),
+('galar_crown_tundra', 35, 333),
+('galar_crown_tundra', 36, 334),
+('galar_crown_tundra', 37, 859),
+('galar_crown_tundra', 38, 860),
+('galar_crown_tundra', 39, 861),
+('galar_crown_tundra', 40, 856),
+('galar_crown_tundra', 41, 857),
+('galar_crown_tundra', 42, 858),
+('galar_crown_tundra', 43, 173),
+('galar_crown_tundra', 44, 35),
+('galar_crown_tundra', 45, 36),
+('galar_crown_tundra', 46, 778),
+('galar_crown_tundra', 47, 442),
+('galar_crown_tundra', 48, 607),
+('galar_crown_tundra', 49, 608),
+('galar_crown_tundra', 50, 609),
+('galar_crown_tundra', 51, 574),
+('galar_crown_tundra', 52, 575),
+('galar_crown_tundra', 53, 576),
+('galar_crown_tundra', 54, 577),
+('galar_crown_tundra', 55, 578),
+('galar_crown_tundra', 56, 579),
+('galar_crown_tundra', 57, 532),
+('galar_crown_tundra', 58, 533),
+('galar_crown_tundra', 59, 534),
+('galar_crown_tundra', 60, 339),
+('galar_crown_tundra', 61, 340),
+('galar_crown_tundra', 62, 129),
+('galar_crown_tundra', 63, 130),
+('galar_crown_tundra', 64, 550),
+('galar_crown_tundra', 65, 29),
+('galar_crown_tundra', 66, 30),
+('galar_crown_tundra', 67, 31),
+('galar_crown_tundra', 68, 32),
+('galar_crown_tundra', 69, 33),
+('galar_crown_tundra', 70, 34),
+('galar_crown_tundra', 71, 263),
+('galar_crown_tundra', 72, 264),
+('galar_crown_tundra', 73, 862),
+('galar_crown_tundra', 74, 133),
+('galar_crown_tundra', 75, 134),
+('galar_crown_tundra', 76, 135),
+('galar_crown_tundra', 77, 136),
+('galar_crown_tundra', 78, 197),
+('galar_crown_tundra', 79, 196),
+('galar_crown_tundra', 80, 471),
+('galar_crown_tundra', 81, 470),
+('galar_crown_tundra', 82, 700),
+('galar_crown_tundra', 83, 696),
+('galar_crown_tundra', 84, 697),
+('galar_crown_tundra', 85, 698),
+('galar_crown_tundra', 86, 699),
+('galar_crown_tundra', 87, 436),
+('galar_crown_tundra', 88, 437),
+('galar_crown_tundra', 89, 874),
+('galar_crown_tundra', 90, 875),
+('galar_crown_tundra', 91, 751),
+('galar_crown_tundra', 92, 752),
+('galar_crown_tundra', 93, 595),
+('galar_crown_tundra', 94, 596),
+('galar_crown_tundra', 95, 588),
+('galar_crown_tundra', 96, 589),
+('galar_crown_tundra', 97, 616),
+('galar_crown_tundra', 98, 617),
+('galar_crown_tundra', 99, 850),
+('galar_crown_tundra', 100, 851),
+('galar_crown_tundra', 101, 632),
+('galar_crown_tundra', 102, 631),
+('galar_crown_tundra', 103, 554),
+('galar_crown_tundra', 104, 555),
+('galar_crown_tundra', 105, 77),
+('galar_crown_tundra', 106, 78),
+('galar_crown_tundra', 107, 359),
+('galar_crown_tundra', 108, 878),
+('galar_crown_tundra', 109, 879),
+('galar_crown_tundra', 110, 885),
+('galar_crown_tundra', 111, 886),
+('galar_crown_tundra', 112, 887),
+('galar_crown_tundra', 113, 371),
+('galar_crown_tundra', 114, 372),
+('galar_crown_tundra', 115, 373),
+('galar_crown_tundra', 116, 443),
+('galar_crown_tundra', 117, 444),
+('galar_crown_tundra', 118, 445),
+('galar_crown_tundra', 119, 621),
+('galar_crown_tundra', 120, 225),
+('galar_crown_tundra', 121, 613),
+('galar_crown_tundra', 122, 614),
+('galar_crown_tundra', 123, 138),
+('galar_crown_tundra', 124, 139),
+('galar_crown_tundra', 125, 140),
+('galar_crown_tundra', 126, 141),
+('galar_crown_tundra', 127, 142),
+('galar_crown_tundra', 128, 703),
+('galar_crown_tundra', 129, 374),
+('galar_crown_tundra', 130, 375),
+('galar_crown_tundra', 131, 376),
+('galar_crown_tundra', 132, 854),
+('galar_crown_tundra', 133, 855),
+('galar_crown_tundra', 134, 447),
+('galar_crown_tundra', 135, 448),
+('galar_crown_tundra', 136, 633),
+('galar_crown_tundra', 137, 634),
+('galar_crown_tundra', 138, 635),
+('galar_crown_tundra', 139, 246),
+('galar_crown_tundra', 140, 247),
+('galar_crown_tundra', 141, 248),
+('galar_crown_tundra', 142, 712),
+('galar_crown_tundra', 143, 713),
+('galar_crown_tundra', 144, 41),
+('galar_crown_tundra', 145, 42),
+('galar_crown_tundra', 146, 169),
+('galar_crown_tundra', 147, 564),
+('galar_crown_tundra', 148, 565),
+('galar_crown_tundra', 149, 566),
+('galar_crown_tundra', 150, 567),
+('galar_crown_tundra', 151, 343),
+('galar_crown_tundra', 152, 344),
+('galar_crown_tundra', 153, 622),
+('galar_crown_tundra', 154, 623),
+('galar_crown_tundra', 155, 835),
+('galar_crown_tundra', 156, 836),
+('galar_crown_tundra', 157, 877),
+('galar_crown_tundra', 158, 871),
+('galar_crown_tundra', 159, 363),
+('galar_crown_tundra', 160, 364),
+('galar_crown_tundra', 161, 365),
+('galar_crown_tundra', 162, 781),
+('galar_crown_tundra', 163, 821),
+('galar_crown_tundra', 164, 822),
+('galar_crown_tundra', 165, 823),
+('galar_crown_tundra', 166, 829),
+('galar_crown_tundra', 167, 830),
+('galar_crown_tundra', 168, 546),
+('galar_crown_tundra', 169, 547),
+('galar_crown_tundra', 170, 213),
+('galar_crown_tundra', 171, 876),
+('galar_crown_tundra', 172, 446),
+('galar_crown_tundra', 173, 143),
+('galar_crown_tundra', 174, 302),
+('galar_crown_tundra', 175, 303),
+('galar_crown_tundra', 176, 837),
+('galar_crown_tundra', 177, 838),
+('galar_crown_tundra', 178, 839),
+('galar_crown_tundra', 179, 596),
+('galar_crown_tundra', 180, 597),
+('galar_crown_tundra', 181, 598),
+('galar_crown_tundra', 182, 714),
+('galar_crown_tundra', 183, 715),
+('galar_crown_tundra', 184, 345),
+('galar_crown_tundra', 185, 346),
+('galar_crown_tundra', 186, 347),
+('galar_crown_tundra', 187, 348),
+('galar_crown_tundra', 188, 349),
+('galar_crown_tundra', 189, 350),
+('galar_crown_tundra', 190, 131),
+('galar_crown_tundra', 191, 304),
+('galar_crown_tundra', 192, 305),
+('galar_crown_tundra', 193, 306),
+('galar_crown_tundra', 194, 147),
+('galar_crown_tundra', 195, 148),
+('galar_crown_tundra', 196, 149),
+('galar_crown_tundra', 197, 377),
+('galar_crown_tundra', 198, 378),
+('galar_crown_tundra', 199, 379),
+('galar_crown_tundra', 200, 894),
+('galar_crown_tundra', 201, 895),
+('galar_crown_tundra', 202, 144),
+('galar_crown_tundra', 203, 145),
+('galar_crown_tundra', 204, 146),
+('galar_crown_tundra', 205, 638),
+('galar_crown_tundra', 206, 639),
+('galar_crown_tundra', 207, 640),
+('galar_crown_tundra', 208, 896),
+('galar_crown_tundra', 209, 897),
+('galar_crown_tundra', 210, 898)
+;
 
 DROP TABLE IF EXISTS `pokemon_desc`;
 CREATE TABLE `pokemon_desc` (
@@ -1609,6 +1991,7 @@ CREATE TABLE `pokemon_desc` (
     
     PRIMARY KEY(`id`)
 );
+
 # Introduced in KANTO
 INSERT INTO `pokemon_desc`(`desc`) VALUES 
 ('Seed Pokémon'),
@@ -2288,7 +2671,11 @@ INSERT INTO `pokemon_desc`(`desc`) VALUES
 ('Wild Horse Pokémon'),				# Glastrier
 ('Swift Horse Pokémon'),			# Spectrier
 ('King Pokémon'),					# Calyrex
-('High King Pokémon'),				# Calyrex (Ice Rider & Shadow Rider)
+('High King Pokémon')				# Calyrex (Ice Rider & Shadow Rider)
+;
+
+# Introduced in HISUI
+INSERT INTO `pokemon_desc`(`desc`) VALUES 
 ('')		# keep this for future pending entries
 ;
 
@@ -4744,13 +5131,14 @@ UPDATE `type_bundle` SET `ability2` = 5 WHERE
 (`pokedex_ref` = 564 AND `type_name` = 'default') OR		# Tirtouga
 (`pokedex_ref` = 565 AND `type_name` = 'default');			# Carracosta
 UPDATE `type_bundle` SET `hidden_ability` = 5 WHERE 
-(`pokedex_ref` = 369 AND `type_name` = 'default') OR	# Relicanth
-(`pokedex_ref` = 377 AND `type_name` = 'default') OR	# Regirock
-(`pokedex_ref` = 696 AND `type_name` = 'default') OR	# Tyrunt
-(`pokedex_ref` = 703 AND `type_name` = 'default') OR	# Carbink
-(`pokedex_ref` = 712 AND `type_name` = 'default') OR	# Bergmite
-(`pokedex_ref` = 713 AND `type_name` = 'default') OR	# Avalugg
-(`pokedex_ref` = 777 AND `type_name` = 'default');		# Togedemaru
+(`pokedex_ref` = 369 AND `type_name` = 'default') OR		# Relicanth
+(`pokedex_ref` = 377 AND `type_name` = 'default') OR		# Regirock
+(`pokedex_ref` = 696 AND `type_name` = 'default') OR		# Tyrunt
+(`pokedex_ref` = 703 AND `type_name` = 'default') OR		# Carbink
+(`pokedex_ref` = 712 AND `type_name` = 'default') OR		# Bergmite
+(`pokedex_ref` = 713 AND `type_name` = 'default') OR		# Avalugg
+(`pokedex_ref` = 713 AND `type_name` = 'hisui_variant') OR	# Avalugg (Hisui)
+(`pokedex_ref` = 777 AND `type_name` = 'default');			# Togedemaru
 
 # Damp
 UPDATE `type_bundle` SET `ability1` = 6 WHERE
@@ -4848,10 +5236,12 @@ UPDATE `type_bundle` SET `ability1` = 9 WHERE
 (`pokedex_ref` = 587 AND `type_name` = 'default') OR			# Emolga
 (`pokedex_ref` = 618 AND `type_name` = 'default');				# Stunfisk
 UPDATE `type_bundle` SET `ability2` = 9 WHERE
-(`pokedex_ref` = 100 AND `type_name` = 'default') OR	# Voltorb
-(`pokedex_ref` = 101 AND `type_name` = 'default') OR	# Electrode
-(`pokedex_ref` = 848 AND `type_name` = 'default') OR	# Toxel
-(`pokedex_ref` = 881 AND `type_name` = 'default');		# Arctozolt
+(`pokedex_ref` = 100 AND `type_name` = 'default') OR			# Voltorb
+(`pokedex_ref` = 100 AND `type_name` = 'hisui_variant') OR		# Voltorb (Hisui)
+(`pokedex_ref` = 101 AND `type_name` = 'default') OR			# Electrode
+(`pokedex_ref` = 101 AND `type_name` = 'hisui_variant') OR		# Electrode (Hisui)
+(`pokedex_ref` = 848 AND `type_name` = 'default') OR			# Toxel
+(`pokedex_ref` = 881 AND `type_name` = 'default');				# Arctozolt
 UPDATE `type_bundle` SET `hidden_ability` = 9 WHERE
 (`pokedex_ref` = 145 AND `type_name` = 'default');		# Zapdos
 
@@ -4986,30 +5376,33 @@ UPDATE `type_bundle` SET `hidden_ability` = 17 WHERE
 
 # Flash Fire
 UPDATE `type_bundle` SET `ability1` = 18 WHERE
-(`pokedex_ref` = 37 AND `type_name` = 'default') OR		# Vulpix
-(`pokedex_ref` = 38 AND `type_name` = 'default') OR		# Ninetales
-(`pokedex_ref` = 136 AND `type_name` = 'default') OR	# Flareon
-(`pokedex_ref` = 485 AND `type_name` = 'default') OR	# Heatran
-(`pokedex_ref` = 607 AND `type_name` = 'default') OR	# Litwick
-(`pokedex_ref` = 608 AND `type_name` = 'default') OR	# Lampent
-(`pokedex_ref` = 609 AND `type_name` = 'default') OR	# Chandelure
-(`pokedex_ref` = 850 AND `type_name` = 'default') OR	# Sizzlipede
-(`pokedex_ref` = 851 AND `type_name` = 'default');	    # Centiskorch
+(`pokedex_ref` = 37 AND `type_name` = 'default') OR				# Vulpix
+(`pokedex_ref` = 38 AND `type_name` = 'default') OR				# Ninetales
+(`pokedex_ref` = 136 AND `type_name` = 'default') OR			# Flareon
+(`pokedex_ref` = 485 AND `type_name` = 'default') OR			# Heatran
+(`pokedex_ref` = 607 AND `type_name` = 'default') OR			# Litwick
+(`pokedex_ref` = 608 AND `type_name` = 'default') OR			# Lampent
+(`pokedex_ref` = 609 AND `type_name` = 'default') OR			# Chandelure
+(`pokedex_ref` = 850 AND `type_name` = 'default') OR			# Sizzlipede
+(`pokedex_ref` = 851 AND `type_name` = 'default');	    		# Centiskorch
 UPDATE `type_bundle` SET `ability2` = 18 WHERE
-(`pokedex_ref` = 58 AND `type_name` = 'default') OR		# Growlithe
-(`pokedex_ref` = 59 AND `type_name` = 'default') OR		# Arcanine
-(`pokedex_ref` = 77 AND `type_name` = 'default') OR		# Ponyta
-(`pokedex_ref` = 78 AND `type_name` = 'default') OR		# Rapidash
-(`pokedex_ref` = 228 AND `type_name` = 'default') OR	# Houndour
-(`pokedex_ref` = 229 AND `type_name` = 'default') OR	# Houndoom
-(`pokedex_ref` = 631 AND `type_name` = 'default');		# Heatmor
+(`pokedex_ref` = 58 AND `type_name` = 'default') OR				# Growlithe
+(`pokedex_ref` = 59 AND `type_name` = 'default') OR				# Arcanine
+(`pokedex_ref` = 77 AND `type_name` = 'default') OR				# Ponyta
+(`pokedex_ref` = 78 AND `type_name` = 'default') OR				# Rapidash
+(`pokedex_ref` = 228 AND `type_name` = 'default') OR			# Houndour
+(`pokedex_ref` = 229 AND `type_name` = 'default') OR			# Houndoom
+(`pokedex_ref` = 631 AND `type_name` = 'default');				# Heatmor
 UPDATE `type_bundle` SET `hidden_ability` = 18 WHERE
-(`pokedex_ref` = 155 AND `type_name` = 'default') OR	# Cyndaquil
-(`pokedex_ref` = 156 AND `type_name` = 'default') OR	# Quilava
-(`pokedex_ref` = 157 AND `type_name` = 'default') OR	# Typhlosion
-(`pokedex_ref` = 837 AND `type_name` = 'default') OR	# Rolycoly
-(`pokedex_ref` = 838 AND `type_name` = 'default') OR	# Carkol
-(`pokedex_ref` = 839 AND `type_name` = 'default');		# Coalossal
+(`pokedex_ref` = 58 AND `type_name` = 'hisui_variant') OR		# Growlithe (Hisui)
+(`pokedex_ref` = 59 AND `type_name` = 'hisui_variant') OR		# Arcanine (Hisui)
+(`pokedex_ref` = 155 AND `type_name` = 'default') OR			# Cyndaquil
+(`pokedex_ref` = 156 AND `type_name` = 'default') OR			# Quilava
+(`pokedex_ref` = 157 AND `type_name` = 'default') OR			# Typhlosion
+(`pokedex_ref` = 157 AND `type_name` = 'hisui_variant') OR		# Typhlosion (Hisui)
+(`pokedex_ref` = 837 AND `type_name` = 'default') OR			# Rolycoly
+(`pokedex_ref` = 838 AND `type_name` = 'default') OR			# Carkol
+(`pokedex_ref` = 839 AND `type_name` = 'default');				# Coalossal
 
 # Shield Dust
 UPDATE `type_bundle` SET `ability1` = 19 WHERE
@@ -5068,43 +5461,48 @@ UPDATE `type_bundle` SET `ability2` = 21 WHERE
 
 # Intimidate
 UPDATE `type_bundle` SET `ability1` = 22 WHERE
-(`pokedex_ref` = 23 AND `type_name` = 'default') OR		# Ekans
-(`pokedex_ref` = 24 AND `type_name` = 'default') OR		# Arbok
-(`pokedex_ref` = 58 AND `type_name` = 'default') OR		# Growlithe
-(`pokedex_ref` = 59 AND `type_name` = 'default') OR		# Arcanine
-(`pokedex_ref` = 128 AND `type_name` = 'default') OR	# Tauros
-(`pokedex_ref` = 130 AND `type_name` = 'default') OR	# Gyarados
-(`pokedex_ref` = 209 AND `type_name` = 'default') OR	# Snubbull
-(`pokedex_ref` = 210 AND `type_name` = 'default') OR	# Granbull
-(`pokedex_ref` = 234 AND `type_name` = 'default') OR	# Stantler
-(`pokedex_ref` = 237 AND `type_name` = 'default') OR	# Hitmontop
-(`pokedex_ref` = 262 AND `type_name` = 'default') OR	# Mightyena
-(`pokedex_ref` = 284 AND `type_name` = 'default') OR	# Masquerain
-(`pokedex_ref` = 310 AND `type_name` = 'mega') OR		# MEGA Manectric
-(`pokedex_ref` = 373 AND `type_name` = 'default') OR	# Salamence
-(`pokedex_ref` = 397 AND `type_name` = 'default') OR	# Staravia
-(`pokedex_ref` = 398 AND `type_name` = 'default') OR	# Staraptor
-(`pokedex_ref` = 507 AND `type_name` = 'default') OR	# Herdier
-(`pokedex_ref` = 508 AND `type_name` = 'default') OR	# Stoutland
-(`pokedex_ref` = 551 AND `type_name` = 'default') OR	# Sandile
-(`pokedex_ref` = 552 AND `type_name` = 'default') OR	# Krokorok
-(`pokedex_ref` = 553 AND `type_name` = 'default') OR	# Krookodile
+(`pokedex_ref` = 23 AND `type_name` = 'default') OR			# Ekans
+(`pokedex_ref` = 24 AND `type_name` = 'default') OR			# Arbok
+(`pokedex_ref` = 58 AND `type_name` = 'default') OR			# Growlithe
+(`pokedex_ref` = 58 AND `type_name` = 'hisui_variant') OR	# Growlithe (Hisui)
+(`pokedex_ref` = 59 AND `type_name` = 'default') OR			# Arcanine
+(`pokedex_ref` = 59 AND `type_name` = 'hisui_variant') OR	# Arcanine (Hisui)
+(`pokedex_ref` = 128 AND `type_name` = 'default') OR		# Tauros
+(`pokedex_ref` = 130 AND `type_name` = 'default') OR		# Gyarados
+(`pokedex_ref` = 209 AND `type_name` = 'default') OR		# Snubbull
+(`pokedex_ref` = 210 AND `type_name` = 'default') OR		# Granbull
+(`pokedex_ref` = 234 AND `type_name` = 'default') OR		# Stantler
+(`pokedex_ref` = 237 AND `type_name` = 'default') OR		# Hitmontop
+(`pokedex_ref` = 262 AND `type_name` = 'default') OR		# Mightyena
+(`pokedex_ref` = 284 AND `type_name` = 'default') OR		# Masquerain
+(`pokedex_ref` = 310 AND `type_name` = 'mega') OR			# MEGA Manectric
+(`pokedex_ref` = 373 AND `type_name` = 'default') OR		# Salamence
+(`pokedex_ref` = 397 AND `type_name` = 'default') OR		# Staravia
+(`pokedex_ref` = 398 AND `type_name` = 'default') OR		# Staraptor
+(`pokedex_ref` = 507 AND `type_name` = 'default') OR		# Herdier
+(`pokedex_ref` = 508 AND `type_name` = 'default') OR		# Stoutland
+(`pokedex_ref` = 551 AND `type_name` = 'default') OR		# Sandile
+(`pokedex_ref` = 552 AND `type_name` = 'default') OR		# Krokorok
+(`pokedex_ref` = 553 AND `type_name` = 'default') OR		# Krookodile
 (`pokedex_ref` = 645 AND `type_name` = 'therian_forme') OR	# Landorus (Therian Forme)
-(`pokedex_ref` = 725 AND `type_name` = 'default') OR	# Litten
-(`pokedex_ref` = 726 AND `type_name` = 'default') OR	# Torracat
-(`pokedex_ref` = 727 AND `type_name` = 'default');	    # Incineroar
+(`pokedex_ref` = 725 AND `type_name` = 'default') OR		# Litten
+(`pokedex_ref` = 726 AND `type_name` = 'default') OR		# Torracat
+(`pokedex_ref` = 727 AND `type_name` = 'default') OR    	# Incineroar
+(`pokedex_ref` = 899 AND `type_name` = 'default');	    	# Wyrdeer
 UPDATE `type_bundle` SET `ability2` = 22 WHERE
-(`pokedex_ref` = 303 AND `type_name` = 'default') OR	# Mawile
-(`pokedex_ref` = 403 AND `type_name` = 'default') OR	# Shinx
-(`pokedex_ref` = 404 AND `type_name` = 'default') OR	# Luxio
-(`pokedex_ref` = 405 AND `type_name` = 'default');		# Luxray
+(`pokedex_ref` = 303 AND `type_name` = 'default') OR		# Mawile
+(`pokedex_ref` = 403 AND `type_name` = 'default') OR		# Shinx
+(`pokedex_ref` = 404 AND `type_name` = 'default') OR		# Luxio
+(`pokedex_ref` = 405 AND `type_name` = 'default');			# Luxray
 UPDATE `type_bundle` SET `hidden_ability` = 22 WHERE
-(`pokedex_ref` = 211 AND `type_name` = 'default') OR	# Qwilfish
-(`pokedex_ref` = 559 AND `type_name` = 'default') OR	# Scraggy
-(`pokedex_ref` = 560 AND `type_name` = 'default') OR	# Scrafty
-(`pokedex_ref` = 725 AND `type_name` = 'default') OR	# Litten
-(`pokedex_ref` = 726 AND `type_name` = 'default') OR	# Torracat
-(`pokedex_ref` = 727 AND `type_name` = 'default');		# Incineroar
+(`pokedex_ref` = 211 AND `type_name` = 'default') OR		# Qwilfish
+(`pokedex_ref` = 211 AND `type_name` = 'hisui_variant') OR	# Qwilfish (Hisui)
+(`pokedex_ref` = 559 AND `type_name` = 'default') OR		# Scraggy
+(`pokedex_ref` = 560 AND `type_name` = 'default') OR		# Scrafty
+(`pokedex_ref` = 725 AND `type_name` = 'default') OR		# Litten
+(`pokedex_ref` = 726 AND `type_name` = 'default') OR		# Torracat
+(`pokedex_ref` = 727 AND `type_name` = 'default') OR		# Incineroar
+(`pokedex_ref` = 904 AND `type_name` = 'default');			# Overqwil
 
 # Shadow Tag
 UPDATE `type_bundle` SET `ability1` = 23 WHERE
@@ -5303,38 +5701,40 @@ UPDATE `type_bundle` SET `hidden_ability` = 32 WHERE
 
 # Swift Swim
 UPDATE `type_bundle` SET `ability1` = 33 WHERE
-(`pokedex_ref` = 116 AND `type_name` = 'default') OR	# Horsea
-(`pokedex_ref` = 118 AND `type_name` = 'default') OR	# Goldeen
-(`pokedex_ref` = 119 AND `type_name` = 'default') OR	# Seaking
-(`pokedex_ref` = 129 AND `type_name` = 'default') OR	# Swift Swim
-(`pokedex_ref` = 138 AND `type_name` = 'default') OR	# Omanyte
-(`pokedex_ref` = 139 AND `type_name` = 'default') OR	# Omastar
-(`pokedex_ref` = 140 AND `type_name` = 'default') OR	# Kabuto
-(`pokedex_ref` = 141 AND `type_name` = 'default') OR	# Kabutops
-(`pokedex_ref` = 226 AND `type_name` = 'default') OR	# Mantine
-(`pokedex_ref` = 230 AND `type_name` = 'default') OR	# Kingdra
-(`pokedex_ref` = 260 AND `type_name` = 'mega') OR		# MEGA Swampert
-(`pokedex_ref` = 270 AND `type_name` = 'default') OR	# Lotad
-(`pokedex_ref` = 271 AND `type_name` = 'default') OR	# Lombre
-(`pokedex_ref` = 272 AND `type_name` = 'default') OR	# Ludicolo
-(`pokedex_ref` = 283 AND `type_name` = 'default') OR	# Surskit
-(`pokedex_ref` = 349 AND `type_name` = 'default') OR	# Feebas
-(`pokedex_ref` = 367 AND `type_name` = 'default') OR	# Huntail
-(`pokedex_ref` = 368 AND `type_name` = 'default') OR	# Gorebyss
-(`pokedex_ref` = 369 AND `type_name` = 'default') OR	# Relicanth
-(`pokedex_ref` = 370 AND `type_name` = 'default') OR	# Luvdisc
-(`pokedex_ref` = 418 AND `type_name` = 'default') OR	# Buizel
-(`pokedex_ref` = 419 AND `type_name` = 'default') OR	# Floatzel
-(`pokedex_ref` = 456 AND `type_name` = 'default') OR	# Finneon
-(`pokedex_ref` = 457 AND `type_name` = 'default') OR	# Lumineon
-(`pokedex_ref` = 458 AND `type_name` = 'default') OR	# Mantyke
-(`pokedex_ref` = 535 AND `type_name` = 'default') OR	# Tympole
-(`pokedex_ref` = 536 AND `type_name` = 'default') OR	# Palpitoad
-(`pokedex_ref` = 537 AND `type_name` = 'default') OR	# Seismitoad
-(`pokedex_ref` = 846 AND `type_name` = 'default') OR	# Arrokuda
-(`pokedex_ref` = 847 AND `type_name` = 'default');		# Barraskewda
+(`pokedex_ref` = 116 AND `type_name` = 'default') OR			# Horsea
+(`pokedex_ref` = 118 AND `type_name` = 'default') OR			# Goldeen
+(`pokedex_ref` = 119 AND `type_name` = 'default') OR			# Seaking
+(`pokedex_ref` = 129 AND `type_name` = 'default') OR			# Swift Swim
+(`pokedex_ref` = 138 AND `type_name` = 'default') OR			# Omanyte
+(`pokedex_ref` = 139 AND `type_name` = 'default') OR			# Omastar
+(`pokedex_ref` = 140 AND `type_name` = 'default') OR			# Kabuto
+(`pokedex_ref` = 141 AND `type_name` = 'default') OR			# Kabutops
+(`pokedex_ref` = 226 AND `type_name` = 'default') OR			# Mantine
+(`pokedex_ref` = 230 AND `type_name` = 'default') OR			# Kingdra
+(`pokedex_ref` = 260 AND `type_name` = 'mega') OR				# MEGA Swampert
+(`pokedex_ref` = 270 AND `type_name` = 'default') OR			# Lotad
+(`pokedex_ref` = 271 AND `type_name` = 'default') OR			# Lombre
+(`pokedex_ref` = 272 AND `type_name` = 'default') OR			# Ludicolo
+(`pokedex_ref` = 283 AND `type_name` = 'default') OR			# Surskit
+(`pokedex_ref` = 349 AND `type_name` = 'default') OR			# Feebas
+(`pokedex_ref` = 367 AND `type_name` = 'default') OR			# Huntail
+(`pokedex_ref` = 368 AND `type_name` = 'default') OR			# Gorebyss
+(`pokedex_ref` = 369 AND `type_name` = 'default') OR			# Relicanth
+(`pokedex_ref` = 370 AND `type_name` = 'default') OR			# Luvdisc
+(`pokedex_ref` = 418 AND `type_name` = 'default') OR			# Buizel
+(`pokedex_ref` = 419 AND `type_name` = 'default') OR			# Floatzel
+(`pokedex_ref` = 456 AND `type_name` = 'default') OR			# Finneon
+(`pokedex_ref` = 457 AND `type_name` = 'default') OR			# Lumineon
+(`pokedex_ref` = 458 AND `type_name` = 'default') OR			# Mantyke
+(`pokedex_ref` = 535 AND `type_name` = 'default') OR			# Tympole
+(`pokedex_ref` = 536 AND `type_name` = 'default') OR			# Palpitoad
+(`pokedex_ref` = 537 AND `type_name` = 'default') OR			# Seismitoad
+(`pokedex_ref` = 846 AND `type_name` = 'default') OR			# Arrokuda
+(`pokedex_ref` = 847 AND `type_name` = 'default');				# Barraskewda
 UPDATE `type_bundle` SET `ability2` = 33 WHERE
-(`pokedex_ref` = 211 AND `type_name` = 'default');		# Qwilfish
+(`pokedex_ref` = 211 AND `type_name` = 'default') OR			# Qwilfish
+(`pokedex_ref` = 211 AND `type_name` = 'hisui_variant') OR		# Qwilfish (Hisui)
+(`pokedex_ref` = 904 AND `type_name` = 'default');				# Overqwil
 UPDATE `type_bundle` SET `hidden_ability` = 33 WHERE
 (`pokedex_ref` = 54 AND `type_name` = 'default') OR		# Psyduck
 (`pokedex_ref` = 55 AND `type_name` = 'default') OR		# Golduck
@@ -5374,6 +5774,7 @@ UPDATE `type_bundle` SET `ability1` = 34 WHERE
 (`pokedex_ref` = 465 AND `type_name` = 'default') OR		# Tangrowth
 (`pokedex_ref` = 548 AND `type_name` = 'default') OR		# Petilil
 (`pokedex_ref` = 549 AND `type_name` = 'default') OR		# Lilligant
+(`pokedex_ref` = 549 AND `type_name` = 'hisui_variant') OR	# Lilligant (Hisui)
 (`pokedex_ref` = 585 AND `type_name` = 'spring_form') OR	# Deerling (Spring Form)
 (`pokedex_ref` = 585 AND `type_name` = 'summer_form') OR	# Deerling (Summer Form)
 (`pokedex_ref` = 585 AND `type_name` = 'autumn_form') OR	# Deerling (Autumn Form)
@@ -5430,23 +5831,25 @@ UPDATE `type_bundle` SET `hidden_ability` = 37 WHERE
 
 # Poison Point
 UPDATE `type_bundle` SET `ability1` = 38 WHERE
-(`pokedex_ref` = 29 AND `type_name` = 'default') OR		# Nidoran ♀
-(`pokedex_ref` = 30 AND `type_name` = 'default') OR		# Nidorina
-(`pokedex_ref` = 31 AND `type_name` = 'default') OR		# Nidoqueen
-(`pokedex_ref` = 32 AND `type_name` = 'default') OR		# Nidoran ♂
-(`pokedex_ref` = 33 AND `type_name` = 'default') OR		# Nidorino
-(`pokedex_ref` = 34 AND `type_name` = 'default') OR		# Nidoking
-(`pokedex_ref` = 117 AND `type_name` = 'default') OR	# Seadra
-(`pokedex_ref` = 211 AND `type_name` = 'default') OR	# Qwilfish
-(`pokedex_ref` = 543 AND `type_name` = 'default') OR	# Venipede
-(`pokedex_ref` = 544 AND `type_name` = 'default') OR	# Whirlipede
-(`pokedex_ref` = 545 AND `type_name` = 'default') OR	# Scolipede
-(`pokedex_ref` = 690 AND `type_name` = 'default') OR	# Skrelp
-(`pokedex_ref` = 691 AND `type_name` = 'default');		# Dragalge
+(`pokedex_ref` = 29 AND `type_name` = 'default') OR			# Nidoran ♀
+(`pokedex_ref` = 30 AND `type_name` = 'default') OR			# Nidorina
+(`pokedex_ref` = 31 AND `type_name` = 'default') OR			# Nidoqueen
+(`pokedex_ref` = 32 AND `type_name` = 'default') OR			# Nidoran ♂
+(`pokedex_ref` = 33 AND `type_name` = 'default') OR			# Nidorino
+(`pokedex_ref` = 34 AND `type_name` = 'default') OR			# Nidoking
+(`pokedex_ref` = 117 AND `type_name` = 'default') OR		# Seadra
+(`pokedex_ref` = 211 AND `type_name` = 'default') OR		# Qwilfish
+(`pokedex_ref` = 211 AND `type_name` = 'hisui_variant') OR	# Qwilfish (Hisui)
+(`pokedex_ref` = 543 AND `type_name` = 'default') OR		# Venipede
+(`pokedex_ref` = 544 AND `type_name` = 'default') OR		# Whirlipede
+(`pokedex_ref` = 545 AND `type_name` = 'default') OR		# Scolipede
+(`pokedex_ref` = 690 AND `type_name` = 'default') OR		# Skrelp
+(`pokedex_ref` = 691 AND `type_name` = 'default') OR		# Dragalge
+(`pokedex_ref` = 904 AND `type_name` = 'default');			# Overqwil
 UPDATE `type_bundle` SET `ability2` = 38 WHERE
-(`pokedex_ref` = 315 AND `type_name` = 'default') OR	# Roselia
-(`pokedex_ref` = 406 AND `type_name` = 'default') OR	# Budew
-(`pokedex_ref` = 407 AND `type_name` = 'default');		# Roserade
+(`pokedex_ref` = 315 AND `type_name` = 'default') OR		# Roselia
+(`pokedex_ref` = 406 AND `type_name` = 'default') OR		# Budew
+(`pokedex_ref` = 407 AND `type_name` = 'default');			# Roserade
 
 # Inner Focus
 UPDATE `type_bundle` SET `ability1` = 39 WHERE
@@ -5526,23 +5929,25 @@ UPDATE `type_bundle` SET `ability2` = 42 WHERE
 
 # Soundproof
 UPDATE `type_bundle` SET `ability1` = 43 WHERE
-(`pokedex_ref` = 100 AND `type_name` = 'default') OR	# Voltorb
-(`pokedex_ref` = 101 AND `type_name` = 'default') OR	# Electrode
-(`pokedex_ref` = 122 AND `type_name` = 'default') OR	# Mr Mime
-(`pokedex_ref` = 293 AND `type_name` = 'default') OR	# Whismur
-(`pokedex_ref` = 294 AND `type_name` = 'default') OR	# Loudred
-(`pokedex_ref` = 295 AND `type_name` = 'default') OR	# Exploud
-(`pokedex_ref` = 439 AND `type_name` = 'default');		# Mime Jr
+(`pokedex_ref` = 100 AND `type_name` = 'default') OR		# Voltorb
+(`pokedex_ref` = 100 AND `type_name` = 'hisui_variant') OR	# Voltorb (Hisui)
+(`pokedex_ref` = 101 AND `type_name` = 'default') OR		# Electrode
+(`pokedex_ref` = 101 AND `type_name` = 'hisui_variant') OR	# Voltorb (Hisui)
+(`pokedex_ref` = 122 AND `type_name` = 'default') OR		# Mr Mime
+(`pokedex_ref` = 293 AND `type_name` = 'default') OR		# Whismur
+(`pokedex_ref` = 294 AND `type_name` = 'default') OR		# Loudred
+(`pokedex_ref` = 295 AND `type_name` = 'default') OR		# Exploud
+(`pokedex_ref` = 439 AND `type_name` = 'default');			# Mime Jr
 UPDATE `type_bundle` SET `ability2` = 43 WHERE
-(`pokedex_ref` = 782 AND `type_name` = 'default') OR	# Jangmo-o
-(`pokedex_ref` = 783 AND `type_name` = 'default') OR	# Hakomo-o
-(`pokedex_ref` = 784 AND `type_name` = 'default');		# Kommo-o
+(`pokedex_ref` = 782 AND `type_name` = 'default') OR		# Jangmo-o
+(`pokedex_ref` = 783 AND `type_name` = 'default') OR		# Hakomo-o
+(`pokedex_ref` = 784 AND `type_name` = 'default');			# Kommo-o
 UPDATE `type_bundle` SET `hidden_ability` = 43 WHERE
-(`pokedex_ref` = 410 AND `type_name` = 'default') OR	# Shieldon
-(`pokedex_ref` = 411 AND `type_name` = 'default') OR	# Bastiodon
-(`pokedex_ref` = 459 AND `type_name` = 'default') OR	# Snover
-(`pokedex_ref` = 460 AND `type_name` = 'default') OR	# Abomasnow
-(`pokedex_ref` = 626 AND `type_name` = 'default');		# Bouffalant
+(`pokedex_ref` = 410 AND `type_name` = 'default') OR		# Shieldon
+(`pokedex_ref` = 411 AND `type_name` = 'default') OR		# Bastiodon
+(`pokedex_ref` = 459 AND `type_name` = 'default') OR		# Snover
+(`pokedex_ref` = 460 AND `type_name` = 'default') OR		# Abomasnow
+(`pokedex_ref` = 626 AND `type_name` = 'default');			# Bouffalant
 
 # Rain Dish
 UPDATE `type_bundle` SET `ability2` = 44 WHERE
@@ -5592,11 +5997,14 @@ UPDATE `type_bundle` SET `ability1` = 46 WHERE
 (`pokedex_ref` = 461 AND `type_name` = 'default') OR		# Weavile
 (`pokedex_ref` = 477 AND `type_name` = 'default') OR		# Dusknoir
 (`pokedex_ref` = 483 AND `type_name` = 'default') OR		# Dialga
+(`pokedex_ref` = 483 AND `type_name` = 'lord_forme') OR		# Dialga (Lord Forme)
 (`pokedex_ref` = 484 AND `type_name` = 'default') OR		# Palkia
+(`pokedex_ref` = 484 AND `type_name` = 'lord_forme') OR		# Palkia (Lord Forme)
 (`pokedex_ref` = 487 AND `type_name` = 'altered_forme') OR	# Giratina (Altered Forme)
 (`pokedex_ref` = 646 AND `type_name` = 'default') OR		# Kyurem
 (`pokedex_ref` = 823 AND `type_name` = 'default') OR		# Corviknight
-(`pokedex_ref` = 890 AND `type_name` = 'default');			# Eternatus
+(`pokedex_ref` = 890 AND `type_name` = 'default') OR		# Eternatus
+(`pokedex_ref` = 903 AND `type_name` = 'default');			# Sneasler
 UPDATE `type_bundle` SET `ability2` = 46 WHERE
 (`pokedex_ref` = 142 AND `type_name` = 'default');		# Aerodactyl
 UPDATE `type_bundle` SET `hidden_ability` = 46 WHERE
@@ -5733,6 +6141,7 @@ UPDATE `type_bundle` SET `ability1` = 51 WHERE
 (`pokedex_ref` = 581 AND `type_name` = 'default') OR		# Swanna
 (`pokedex_ref` = 627 AND `type_name` = 'default') OR		# Rufflet
 (`pokedex_ref` = 628 AND `type_name` = 'default') OR		# Braviary
+(`pokedex_ref` = 628 AND `type_name` = 'hisui_variant') OR	# Braviary (Hisui)
 (`pokedex_ref` = 677 AND `type_name` = 'default') OR		# Espurr
 (`pokedex_ref` = 678 AND `type_name` = 'default_f') OR		# Meowstic (F)
 (`pokedex_ref` = 678 AND `type_name` = 'default_m') OR		# Meowstic (M)
@@ -5821,6 +6230,7 @@ UPDATE `type_bundle` SET `ability2` = 55 WHERE
 (`pokedex_ref` = 19 AND `type_name` = 'alola_variant') OR	# Rattata (Alola)
 (`pokedex_ref` = 20 AND `type_name` = 'alola_variant') OR	# Raticate (Alola)
 (`pokedex_ref` = 225 AND `type_name` = 'default') OR		# Delibird
+(`pokedex_ref` = 549 AND `type_name` = 'hisui_variant') OR	# Lilligant (Hisui)
 (`pokedex_ref` = 632 AND `type_name` = 'default') OR		# Durant
 (`pokedex_ref` = 880 AND `type_name` = 'default');			# Dracozolt
 UPDATE `type_bundle` SET `hidden_ability` = 55 WHERE
@@ -5936,7 +6346,8 @@ UPDATE `type_bundle` SET `ability1` = 62 WHERE
 (`pokedex_ref` = 532 AND `type_name` = 'default') OR	# Timburr
 (`pokedex_ref` = 533 AND `type_name` = 'default') OR	# Gurdurr
 (`pokedex_ref` = 534 AND `type_name` = 'default') OR	# Conkeldurr
-(`pokedex_ref` = 538 AND `type_name` = 'default');		# Throh
+(`pokedex_ref` = 538 AND `type_name` = 'default') OR	# Throh
+(`pokedex_ref` = 901 AND `type_name` = 'default');		# Ursaluna
 UPDATE `type_bundle` SET `ability2` = 62 WHERE
 (`pokedex_ref` = 19 AND `type_name` = 'default') OR		# Rattata
 (`pokedex_ref` = 20 AND `type_name` = 'default') OR		# Raticate
@@ -5967,93 +6378,96 @@ UPDATE `type_bundle` SET `ability2` = 64 WHERE
 
 # Overgrow
 UPDATE `type_bundle` SET `ability1` = 65 WHERE
-(`pokedex_ref` = 1 AND `type_name` = 'default') OR		# Bulbasaur
-(`pokedex_ref` = 2 AND `type_name` = 'default') OR		# Ivysaur
-(`pokedex_ref` = 3 AND `type_name` = 'default') OR		# Venusaur
-(`pokedex_ref` = 152 AND `type_name` = 'default') OR	# Chikorita
-(`pokedex_ref` = 153 AND `type_name` = 'default') OR	# Bayleef
-(`pokedex_ref` = 154 AND `type_name` = 'default') OR	# Meganium
-(`pokedex_ref` = 252 AND `type_name` = 'default') OR	# Treecko
-(`pokedex_ref` = 253 AND `type_name` = 'default') OR	# Grovyle
-(`pokedex_ref` = 254 AND `type_name` = 'default') OR	# Sceptile
-(`pokedex_ref` = 387 AND `type_name` = 'default') OR	# Turtwig
-(`pokedex_ref` = 388 AND `type_name` = 'default') OR	# Grotle
-(`pokedex_ref` = 389 AND `type_name` = 'default') OR	# Torterra
-(`pokedex_ref` = 495 AND `type_name` = 'default') OR	# Snivy
-(`pokedex_ref` = 496 AND `type_name` = 'default') OR	# Servine
-(`pokedex_ref` = 497 AND `type_name` = 'default') OR	# Serperior
-(`pokedex_ref` = 650 AND `type_name` = 'default') OR	# Chespin
-(`pokedex_ref` = 651 AND `type_name` = 'default') OR	# Quilladin
-(`pokedex_ref` = 652 AND `type_name` = 'default') OR	# Chesnaught
-(`pokedex_ref` = 722 AND `type_name` = 'default') OR	# Rowlet
-(`pokedex_ref` = 723 AND `type_name` = 'default') OR	# Dartrix
-(`pokedex_ref` = 724 AND `type_name` = 'default') OR	# Decidueye
-(`pokedex_ref` = 810 AND `type_name` = 'default') OR	# Grookey
-(`pokedex_ref` = 811 AND `type_name` = 'default') OR	# Thwackey
-(`pokedex_ref` = 812 AND `type_name` = 'default');		# Rillaboom
+(`pokedex_ref` = 1 AND `type_name` = 'default') OR			# Bulbasaur
+(`pokedex_ref` = 2 AND `type_name` = 'default') OR			# Ivysaur
+(`pokedex_ref` = 3 AND `type_name` = 'default') OR			# Venusaur
+(`pokedex_ref` = 152 AND `type_name` = 'default') OR		# Chikorita
+(`pokedex_ref` = 153 AND `type_name` = 'default') OR		# Bayleef
+(`pokedex_ref` = 154 AND `type_name` = 'default') OR		# Meganium
+(`pokedex_ref` = 252 AND `type_name` = 'default') OR		# Treecko
+(`pokedex_ref` = 253 AND `type_name` = 'default') OR		# Grovyle
+(`pokedex_ref` = 254 AND `type_name` = 'default') OR		# Sceptile
+(`pokedex_ref` = 387 AND `type_name` = 'default') OR		# Turtwig
+(`pokedex_ref` = 388 AND `type_name` = 'default') OR		# Grotle
+(`pokedex_ref` = 389 AND `type_name` = 'default') OR		# Torterra
+(`pokedex_ref` = 495 AND `type_name` = 'default') OR		# Snivy
+(`pokedex_ref` = 496 AND `type_name` = 'default') OR		# Servine
+(`pokedex_ref` = 497 AND `type_name` = 'default') OR		# Serperior
+(`pokedex_ref` = 650 AND `type_name` = 'default') OR		# Chespin
+(`pokedex_ref` = 651 AND `type_name` = 'default') OR		# Quilladin
+(`pokedex_ref` = 652 AND `type_name` = 'default') OR		# Chesnaught
+(`pokedex_ref` = 722 AND `type_name` = 'default') OR		# Rowlet
+(`pokedex_ref` = 723 AND `type_name` = 'default') OR		# Dartrix
+(`pokedex_ref` = 724 AND `type_name` = 'default') OR		# Decidueye
+(`pokedex_ref` = 724 AND `type_name` = 'hisui_variant') OR	# Decidueye (Hisui)
+(`pokedex_ref` = 810 AND `type_name` = 'default') OR		# Grookey
+(`pokedex_ref` = 811 AND `type_name` = 'default') OR		# Thwackey
+(`pokedex_ref` = 812 AND `type_name` = 'default');			# Rillaboom
 UPDATE `type_bundle` SET `hidden_ability` = 65 WHERE
-(`pokedex_ref` = 511 AND `type_name` = 'default') OR	# Pansage
-(`pokedex_ref` = 512 AND `type_name` = 'default');		# Simisage
+(`pokedex_ref` = 511 AND `type_name` = 'default') OR		# Pansage
+(`pokedex_ref` = 512 AND `type_name` = 'default');			# Simisage
 
 # Blaze
 UPDATE `type_bundle` SET `ability1` = 66 WHERE
-(`pokedex_ref` = 4 AND `type_name` = 'default') OR		# Charmander
-(`pokedex_ref` = 5 AND `type_name` = 'default') OR		# Charmeleon
-(`pokedex_ref` = 6 AND `type_name` = 'default') OR		# Charizard
-(`pokedex_ref` = 155 AND `type_name` = 'default') OR	# Cyndaquill
-(`pokedex_ref` = 156 AND `type_name` = 'default') OR	# Quilava
-(`pokedex_ref` = 157 AND `type_name` = 'default') OR	# Typhlosion
-(`pokedex_ref` = 255 AND `type_name` = 'default') OR	# Torchic
-(`pokedex_ref` = 256 AND `type_name` = 'default') OR	# Combusken
-(`pokedex_ref` = 257 AND `type_name` = 'default') OR	# Blaziken
-(`pokedex_ref` = 390 AND `type_name` = 'default') OR	# Chimchar
-(`pokedex_ref` = 391 AND `type_name` = 'default') OR	# Monferno
-(`pokedex_ref` = 392 AND `type_name` = 'default') OR	# Infernape
-(`pokedex_ref` = 498 AND `type_name` = 'default') OR	# Tepig
-(`pokedex_ref` = 499 AND `type_name` = 'default') OR	# Pignite
-(`pokedex_ref` = 500 AND `type_name` = 'default') OR	# Emboar
-(`pokedex_ref` = 653 AND `type_name` = 'default') OR	# Fennekin
-(`pokedex_ref` = 654 AND `type_name` = 'default') OR	# Braixen
-(`pokedex_ref` = 655 AND `type_name` = 'default') OR	# Delphox
-(`pokedex_ref` = 725 AND `type_name` = 'default') OR	# Litten
-(`pokedex_ref` = 726 AND `type_name` = 'default') OR	# Torracat
-(`pokedex_ref` = 727 AND `type_name` = 'default') OR	# Incineroar
-(`pokedex_ref` = 813 AND `type_name` = 'default') OR	# Scorbunny
-(`pokedex_ref` = 814 AND `type_name` = 'default') OR	# Raboot
-(`pokedex_ref` = 815 AND `type_name` = 'default');		# Cinderace
+(`pokedex_ref` = 4 AND `type_name` = 'default') OR			# Charmander
+(`pokedex_ref` = 5 AND `type_name` = 'default') OR			# Charmeleon
+(`pokedex_ref` = 6 AND `type_name` = 'default') OR			# Charizard
+(`pokedex_ref` = 155 AND `type_name` = 'default') OR		# Cyndaquill
+(`pokedex_ref` = 156 AND `type_name` = 'default') OR		# Quilava
+(`pokedex_ref` = 157 AND `type_name` = 'default') OR		# Typhlosion
+(`pokedex_ref` = 157 AND `type_name` = 'hisui_variant') OR	# Typhlosion (Hisui)
+(`pokedex_ref` = 255 AND `type_name` = 'default') OR		# Torchic
+(`pokedex_ref` = 256 AND `type_name` = 'default') OR		# Combusken
+(`pokedex_ref` = 257 AND `type_name` = 'default') OR		# Blaziken
+(`pokedex_ref` = 390 AND `type_name` = 'default') OR		# Chimchar
+(`pokedex_ref` = 391 AND `type_name` = 'default') OR		# Monferno
+(`pokedex_ref` = 392 AND `type_name` = 'default') OR		# Infernape
+(`pokedex_ref` = 498 AND `type_name` = 'default') OR		# Tepig
+(`pokedex_ref` = 499 AND `type_name` = 'default') OR		# Pignite
+(`pokedex_ref` = 500 AND `type_name` = 'default') OR		# Emboar
+(`pokedex_ref` = 653 AND `type_name` = 'default') OR		# Fennekin
+(`pokedex_ref` = 654 AND `type_name` = 'default') OR		# Braixen
+(`pokedex_ref` = 655 AND `type_name` = 'default') OR		# Delphox
+(`pokedex_ref` = 725 AND `type_name` = 'default') OR		# Litten
+(`pokedex_ref` = 726 AND `type_name` = 'default') OR		# Torracat
+(`pokedex_ref` = 727 AND `type_name` = 'default') OR		# Incineroar
+(`pokedex_ref` = 813 AND `type_name` = 'default') OR		# Scorbunny
+(`pokedex_ref` = 814 AND `type_name` = 'default') OR		# Raboot
+(`pokedex_ref` = 815 AND `type_name` = 'default');			# Cinderace
 UPDATE `type_bundle` SET `hidden_ability` = 66 WHERE
-(`pokedex_ref` = 513 AND `type_name` = 'default') OR	# Pansear
-(`pokedex_ref` = 514 AND `type_name` = 'default');		# Simisear
+(`pokedex_ref` = 513 AND `type_name` = 'default') OR		# Pansear
+(`pokedex_ref` = 514 AND `type_name` = 'default');			# Simisear
 
 # Torrent
 UPDATE `type_bundle` SET `ability1` = 67 WHERE
-(`pokedex_ref` = 7 AND `type_name` = 'default') OR		# Squirtle
-(`pokedex_ref` = 8 AND `type_name` = 'default') OR		# Wartotle
-(`pokedex_ref` = 9 AND `type_name` = 'default') OR		# Blastoise
-(`pokedex_ref` = 158 AND `type_name` = 'default') OR	# Totodile
-(`pokedex_ref` = 159 AND `type_name` = 'default') OR	# Croconaw
-(`pokedex_ref` = 160 AND `type_name` = 'default') OR	# Feraligatr
-(`pokedex_ref` = 258 AND `type_name` = 'default') OR	# Mudkip
-(`pokedex_ref` = 259 AND `type_name` = 'default') OR	# Marshtomp
-(`pokedex_ref` = 260 AND `type_name` = 'default') OR	# Swampert
-(`pokedex_ref` = 393 AND `type_name` = 'default') OR	# Piplup
-(`pokedex_ref` = 394 AND `type_name` = 'default') OR	# Prinplup
-(`pokedex_ref` = 395 AND `type_name` = 'default') OR	# Empoleon
-(`pokedex_ref` = 501 AND `type_name` = 'default') OR	# Oshawott
-(`pokedex_ref` = 502 AND `type_name` = 'default') OR	# Dewott
-(`pokedex_ref` = 503 AND `type_name` = 'default') OR	# Samurott
-(`pokedex_ref` = 656 AND `type_name` = 'default') OR	# Froakie
-(`pokedex_ref` = 657 AND `type_name` = 'default') OR	# Frogadier
-(`pokedex_ref` = 658 AND `type_name` = 'default') OR	# Greninja
-(`pokedex_ref` = 728 AND `type_name` = 'default') OR	# Popplio
-(`pokedex_ref` = 729 AND `type_name` = 'default') OR	# Brionne
-(`pokedex_ref` = 730 AND `type_name` = 'default') OR	# Primarina
-(`pokedex_ref` = 816 AND `type_name` = 'default') OR	# Sobble
-(`pokedex_ref` = 817 AND `type_name` = 'default') OR	# Drizzile
-(`pokedex_ref` = 818 AND `type_name` = 'default');		# Inteleon
+(`pokedex_ref` = 7 AND `type_name` = 'default') OR			# Squirtle
+(`pokedex_ref` = 8 AND `type_name` = 'default') OR			# Wartotle
+(`pokedex_ref` = 9 AND `type_name` = 'default') OR			# Blastoise
+(`pokedex_ref` = 158 AND `type_name` = 'default') OR		# Totodile
+(`pokedex_ref` = 159 AND `type_name` = 'default') OR		# Croconaw
+(`pokedex_ref` = 160 AND `type_name` = 'default') OR		# Feraligatr
+(`pokedex_ref` = 258 AND `type_name` = 'default') OR		# Mudkip
+(`pokedex_ref` = 259 AND `type_name` = 'default') OR		# Marshtomp
+(`pokedex_ref` = 260 AND `type_name` = 'default') OR		# Swampert
+(`pokedex_ref` = 393 AND `type_name` = 'default') OR		# Piplup
+(`pokedex_ref` = 394 AND `type_name` = 'default') OR		# Prinplup
+(`pokedex_ref` = 395 AND `type_name` = 'default') OR		# Empoleon
+(`pokedex_ref` = 501 AND `type_name` = 'default') OR		# Oshawott
+(`pokedex_ref` = 502 AND `type_name` = 'default') OR		# Dewott
+(`pokedex_ref` = 503 AND `type_name` = 'default') OR		# Samurott
+(`pokedex_ref` = 503 AND `type_name` = 'hisui_variant') OR	# Samurott (Hisui)
+(`pokedex_ref` = 656 AND `type_name` = 'default') OR		# Froakie
+(`pokedex_ref` = 657 AND `type_name` = 'default') OR		# Frogadier
+(`pokedex_ref` = 658 AND `type_name` = 'default') OR		# Greninja
+(`pokedex_ref` = 728 AND `type_name` = 'default') OR		# Popplio
+(`pokedex_ref` = 729 AND `type_name` = 'default') OR		# Brionne
+(`pokedex_ref` = 730 AND `type_name` = 'default') OR		# Primarina
+(`pokedex_ref` = 816 AND `type_name` = 'default') OR		# Sobble
+(`pokedex_ref` = 817 AND `type_name` = 'default') OR		# Drizzile
+(`pokedex_ref` = 818 AND `type_name` = 'default');			# Inteleon
 UPDATE `type_bundle` SET `hidden_ability` = 67 WHERE
-(`pokedex_ref` = 515 AND `type_name` = 'default') OR	# Panpour
-(`pokedex_ref` = 516 AND `type_name` = 'default');		# Simipour
+(`pokedex_ref` = 515 AND `type_name` = 'default') OR		# Panpour
+(`pokedex_ref` = 516 AND `type_name` = 'default');			# Simipour
 
 # Swarm
 UPDATE `type_bundle` SET `ability1` = 68 WHERE
@@ -6076,7 +6490,8 @@ UPDATE `type_bundle` SET `ability1` = 68 WHERE
 (`pokedex_ref` = 736 AND `type_name` = 'default') OR	# Grubbin
 (`pokedex_ref` = 824 AND `type_name` = 'default') OR	# Blipbug
 (`pokedex_ref` = 825 AND `type_name` = 'default') OR	# Dottler
-(`pokedex_ref` = 826 AND `type_name` = 'default');		# Orbeetle
+(`pokedex_ref` = 826 AND `type_name` = 'default') OR	# Orbeetle
+(`pokedex_ref` = 900 AND `type_name` = 'default');		# Kleavor
 UPDATE `type_bundle` SET `ability2` = 68 WHERE
 (`pokedex_ref` = 313 AND `type_name` = 'default') OR	# Volbeat
 (`pokedex_ref` = 543 AND `type_name` = 'default') OR	# Venipede
@@ -6167,33 +6582,34 @@ UPDATE `type_bundle` SET `ability1` = 74 WHERE
 
 # Shell Armor
 UPDATE `type_bundle` SET `ability1` = 75 WHERE
-(`pokedex_ref` = 80 AND `type_name` = 'mega') OR		# MEGA Slowbro
-(`pokedex_ref` = 90 AND `type_name` = 'default') OR		# Shellder
-(`pokedex_ref` = 91 AND `type_name` = 'default') OR		# Cloyster
-(`pokedex_ref` = 366 AND `type_name` = 'default') OR	# Clamperl
-(`pokedex_ref` = 776 AND `type_name` = 'default');		# Turtonator
+(`pokedex_ref` = 80 AND `type_name` = 'mega') OR			# MEGA Slowbro
+(`pokedex_ref` = 90 AND `type_name` = 'default') OR			# Shellder
+(`pokedex_ref` = 91 AND `type_name` = 'default') OR			# Cloyster
+(`pokedex_ref` = 366 AND `type_name` = 'default') OR		# Clamperl
+(`pokedex_ref` = 776 AND `type_name` = 'default');			# Turtonator
 UPDATE `type_bundle` SET `ability2` = 75 WHERE
-(`pokedex_ref` = 98 AND `type_name` = 'default') OR		# Krabby
-(`pokedex_ref` = 99 AND `type_name` = 'default') OR		# Kingler
-(`pokedex_ref` = 131 AND `type_name` = 'default') OR	# Lapras
-(`pokedex_ref` = 138 AND `type_name` = 'default') OR	# Omanyte
-(`pokedex_ref` = 139 AND `type_name` = 'default') OR	# Omastar
-(`pokedex_ref` = 341 AND `type_name` = 'default') OR	# Corphish
-(`pokedex_ref` = 342 AND `type_name` = 'default') OR	# Crawdunt
-(`pokedex_ref` = 557 AND `type_name` = 'default') OR	# Dwebble
-(`pokedex_ref` = 558 AND `type_name` = 'default') OR	# Crustle
-(`pokedex_ref` = 589 AND `type_name` = 'default') OR	# Escavalier
-(`pokedex_ref` = 616 AND `type_name` = 'default') OR	# Shelmet
-(`pokedex_ref` = 833 AND `type_name` = 'default') OR	# Chewtle
-(`pokedex_ref` = 834 AND `type_name` = 'default');		# Drednaw
+(`pokedex_ref` = 98 AND `type_name` = 'default') OR			# Krabby
+(`pokedex_ref` = 99 AND `type_name` = 'default') OR			# Kingler
+(`pokedex_ref` = 131 AND `type_name` = 'default') OR		# Lapras
+(`pokedex_ref` = 138 AND `type_name` = 'default') OR		# Omanyte
+(`pokedex_ref` = 139 AND `type_name` = 'default') OR		# Omastar
+(`pokedex_ref` = 341 AND `type_name` = 'default') OR		# Corphish
+(`pokedex_ref` = 342 AND `type_name` = 'default') OR		# Crawdunt
+(`pokedex_ref` = 557 AND `type_name` = 'default') OR		# Dwebble
+(`pokedex_ref` = 558 AND `type_name` = 'default') OR		# Crustle
+(`pokedex_ref` = 589 AND `type_name` = 'default') OR		# Escavalier
+(`pokedex_ref` = 616 AND `type_name` = 'default') OR		# Shelmet
+(`pokedex_ref` = 833 AND `type_name` = 'default') OR		# Chewtle
+(`pokedex_ref` = 834 AND `type_name` = 'default');			# Drednaw
 UPDATE `type_bundle` SET `hidden_ability` = 75 WHERE
-(`pokedex_ref` = 324 AND `type_name` = 'default') OR	# Torkoal
-(`pokedex_ref` = 387 AND `type_name` = 'default') OR	# Turtwig
-(`pokedex_ref` = 388 AND `type_name` = 'default') OR	# Grotle
-(`pokedex_ref` = 389 AND `type_name` = 'default') OR	# Torterra
-(`pokedex_ref` = 501 AND `type_name` = 'default') OR	# Oshawott
-(`pokedex_ref` = 502 AND `type_name` = 'default') OR	# Dewott
-(`pokedex_ref` = 503 AND `type_name` = 'default');		# Samurott
+(`pokedex_ref` = 324 AND `type_name` = 'default') OR		# Torkoal
+(`pokedex_ref` = 387 AND `type_name` = 'default') OR		# Turtwig
+(`pokedex_ref` = 388 AND `type_name` = 'default') OR		# Grotle
+(`pokedex_ref` = 389 AND `type_name` = 'default') OR		# Torterra
+(`pokedex_ref` = 501 AND `type_name` = 'default') OR		# Oshawott
+(`pokedex_ref` = 502 AND `type_name` = 'default') OR		# Dewott
+(`pokedex_ref` = 503 AND `type_name` = 'default') OR		# Samurott
+(`pokedex_ref` = 503 AND `type_name` = 'hisui_variant');	# Samurott (Hisui)
 
 # Air Lock
 UPDATE `type_bundle` SET `ability1` = 76 WHERE
@@ -6262,7 +6678,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 80 WHERE
 (`pokedex_ref` = 123 AND `type_name` = 'default') OR		# Scyther
 (`pokedex_ref` = 237 AND `type_name` = 'default') OR		# Hitmontop
 (`pokedex_ref` = 744 AND `type_name` = 'default') OR		# Rockruff
-(`pokedex_ref` = 745 AND `type_name` = 'midday_form');		# Lycanroc (Midday Form)
+(`pokedex_ref` = 745 AND `type_name` = 'midday_form') OR	# Lycanroc (Midday Form)
+(`pokedex_ref` = 900 AND `type_name` = 'default');			# Kleavor
 
 # Snow Cloak
 UPDATE `type_bundle` SET `ability1` = 81 WHERE
@@ -6422,7 +6839,9 @@ UPDATE `type_bundle` SET `ability1` = 91 WHERE
 UPDATE `type_bundle` SET `ability2` = 91 WHERE
 (`pokedex_ref` = 133 AND `type_name` = 'default') OR			# Eevee
 (`pokedex_ref` = 550 AND `type_name` = 'red-striped_form') OR	# Basculin (Red-Striped Form)
-(`pokedex_ref` = 550 AND `type_name` = 'blue-striped_form');	# Basculin (Blue-Striped Form)
+(`pokedex_ref` = 550 AND `type_name` = 'blue-striped_form') OR	# Basculin (Red-Striped Form)
+(`pokedex_ref` = 550 AND `type_name` = 'white-striped_form') OR	# Basculin (White-Striped Form)
+(`pokedex_ref` = 902 AND `type_name` = 'default');				# Basculeigon
 UPDATE `type_bundle` SET `hidden_ability` = 91 WHERE
 (`pokedex_ref` = 341 AND `type_name` = 'default') OR	# Corphish
 (`pokedex_ref` = 342 AND `type_name` = 'default') OR	# Crawdunt
@@ -6592,29 +7011,30 @@ UPDATE `type_bundle` SET `hidden_ability` = 101 WHERE
 
 # Leaf Guard
 UPDATE `type_bundle` SET `ability1` = 102 WHERE
-(`pokedex_ref` = 470 AND `type_name` = 'default') OR	# Leafeon
-(`pokedex_ref` = 541 AND `type_name` = 'default') OR	# Swadloon
-(`pokedex_ref` = 753 AND `type_name` = 'default') OR	# Fomantis
-(`pokedex_ref` = 754 AND `type_name` = 'default') OR	# Lurantis
-(`pokedex_ref` = 761 AND `type_name` = 'default') OR	# Bounsweet
-(`pokedex_ref` = 762 AND `type_name` = 'default') OR	# Steenee
-(`pokedex_ref` = 763 AND `type_name` = 'default') OR	# Tsareena
-(`pokedex_ref` = 893 AND `type_name` = 'default');		# Zarude
+(`pokedex_ref` = 470 AND `type_name` = 'default') OR		# Leafeon
+(`pokedex_ref` = 541 AND `type_name` = 'default') OR		# Swadloon
+(`pokedex_ref` = 753 AND `type_name` = 'default') OR		# Fomantis
+(`pokedex_ref` = 754 AND `type_name` = 'default') OR		# Lurantis
+(`pokedex_ref` = 761 AND `type_name` = 'default') OR		# Bounsweet
+(`pokedex_ref` = 762 AND `type_name` = 'default') OR		# Steenee
+(`pokedex_ref` = 763 AND `type_name` = 'default') OR		# Tsareena
+(`pokedex_ref` = 893 AND `type_name` = 'default');			# Zarude
 
 UPDATE `type_bundle` SET `ability2` = 102 WHERE
-(`pokedex_ref` = 114 AND `type_name` = 'default') OR	# Tangela
-(`pokedex_ref` = 187 AND `type_name` = 'default') OR	# Hoppip
-(`pokedex_ref` = 188 AND `type_name` = 'default') OR	# Skiploom
-(`pokedex_ref` = 189 AND `type_name` = 'default') OR	# Jumpluff
-(`pokedex_ref` = 465 AND `type_name` = 'default');		# Tangrowth
+(`pokedex_ref` = 114 AND `type_name` = 'default') OR		# Tangela
+(`pokedex_ref` = 187 AND `type_name` = 'default') OR		# Hoppip
+(`pokedex_ref` = 188 AND `type_name` = 'default') OR		# Skiploom
+(`pokedex_ref` = 189 AND `type_name` = 'default') OR		# Jumpluff
+(`pokedex_ref` = 465 AND `type_name` = 'default');			# Tangrowth
 UPDATE `type_bundle` SET `hidden_ability` = 102 WHERE
-(`pokedex_ref` = 152 AND `type_name` = 'default') OR	# Chikorita
-(`pokedex_ref` = 153 AND `type_name` = 'default') OR	# Bayleef
-(`pokedex_ref` = 154 AND `type_name` = 'default') OR	# Meganium
-(`pokedex_ref` = 315 AND `type_name` = 'default') OR	# Roselia
-(`pokedex_ref` = 406 AND `type_name` = 'default') OR	# Budew
-(`pokedex_ref` = 548 AND `type_name` = 'default') OR	# Petilil
-(`pokedex_ref` = 549 AND `type_name` = 'default');		# Lilligant 
+(`pokedex_ref` = 152 AND `type_name` = 'default') OR		# Chikorita
+(`pokedex_ref` = 153 AND `type_name` = 'default') OR		# Bayleef
+(`pokedex_ref` = 154 AND `type_name` = 'default') OR		# Meganium
+(`pokedex_ref` = 315 AND `type_name` = 'default') OR		# Roselia
+(`pokedex_ref` = 406 AND `type_name` = 'default') OR		# Budew
+(`pokedex_ref` = 548 AND `type_name` = 'default') OR		# Petilil
+(`pokedex_ref` = 549 AND `type_name` = 'default') OR		# Lilligant 
+(`pokedex_ref` = 549 AND `type_name` = 'hisui_variant');	# Lilligant (Hisui)
 
 # Klutz
 UPDATE `type_bundle` SET `ability2` = 103 WHERE
@@ -6650,8 +7070,10 @@ UPDATE `type_bundle` SET `hidden_ability` = 104 WHERE
 (`pokedex_ref` = 539 AND `type_name` = 'default') OR			# Sawk
 (`pokedex_ref` = 550 AND `type_name` = 'red-striped_form') OR	# Basculin (Red-Striped Form)
 (`pokedex_ref` = 550 AND `type_name` = 'blue-striped_form') OR	# Basculin (Blue-Striped Form)
+(`pokedex_ref` = 550 AND `type_name` = 'white-striped_form') OR	# Basculin (White-Striped Form)
 (`pokedex_ref` = 621 AND `type_name` = 'default') OR			# Druddigon
-(`pokedex_ref` = 701 AND `type_name` = 'default');				# Hawlucha
+(`pokedex_ref` = 701 AND `type_name` = 'default') OR			# Hawlucha
+(`pokedex_ref` = 902 AND `type_name` = 'default');				# Basculeigon
 
 # Super Luck
 UPDATE `type_bundle` SET `ability2` = 105 WHERE
@@ -6668,16 +7090,18 @@ UPDATE `type_bundle` SET `hidden_ability` = 105 WHERE
 
 # Aftermath
 UPDATE `type_bundle` SET `ability1` = 106 WHERE
-(`pokedex_ref` = 425 AND `type_name` = 'default') OR	# Drifloon
-(`pokedex_ref` = 426 AND `type_name` = 'default');		# Drifblim
+(`pokedex_ref` = 425 AND `type_name` = 'default') OR		# Drifloon
+(`pokedex_ref` = 426 AND `type_name` = 'default');			# Drifblim
 UPDATE `type_bundle` SET `ability2` = 106 WHERE
-(`pokedex_ref` = 434 AND `type_name` = 'default') OR	# Stunky
-(`pokedex_ref` = 435 AND `type_name` = 'default');		# Skunktank
+(`pokedex_ref` = 434 AND `type_name` = 'default') OR		# Stunky
+(`pokedex_ref` = 435 AND `type_name` = 'default');			# Skunktank
 UPDATE `type_bundle` SET `hidden_ability` = 106 WHERE
-(`pokedex_ref` = 100 AND `type_name` = 'default') OR	# Voltorb
-(`pokedex_ref` = 101 AND `type_name` = 'default') OR	# Electrode
-(`pokedex_ref` = 568 AND `type_name` = 'default') OR	# Trubbish
-(`pokedex_ref` = 569 AND `type_name` = 'default');		# Garbodor
+(`pokedex_ref` = 100 AND `type_name` = 'default') OR		# Voltorb
+(`pokedex_ref` = 100 AND `type_name` = 'hisui_variant') OR	# Voltorb (Hisui)
+(`pokedex_ref` = 101 AND `type_name` = 'default') OR		# Electrode
+(`pokedex_ref` = 101 AND `type_name` = 'hisui_variant') OR	# Electrode (Hisui)
+(`pokedex_ref` = 568 AND `type_name` = 'default') OR		# Trubbish
+(`pokedex_ref` = 569 AND `type_name` = 'default');			# Garbodor
 
 # Anticipation
 UPDATE `type_bundle` SET `ability1` = 107 WHERE
@@ -6779,18 +7203,19 @@ UPDATE `type_bundle` SET `hidden_ability` = 114 WHERE
 
 # Ice Body
 UPDATE `type_bundle` SET `ability1` = 115 WHERE
-(`pokedex_ref` = 582 AND `type_name` = 'default') OR	# Vanillite
-(`pokedex_ref` = 583 AND `type_name` = 'default') OR	# Vanillish
-(`pokedex_ref` = 584 AND `type_name` = 'default');		# Vanilluxe
+(`pokedex_ref` = 582 AND `type_name` = 'default') OR		# Vanillite
+(`pokedex_ref` = 583 AND `type_name` = 'default') OR		# Vanillish
+(`pokedex_ref` = 584 AND `type_name` = 'default');			# Vanilluxe
 UPDATE `type_bundle` SET `ability2` = 115 WHERE
-(`pokedex_ref` = 361 AND `type_name` = 'default') OR	# Snorunt
-(`pokedex_ref` = 362 AND `type_name` = 'default') OR	# Glalie
-(`pokedex_ref` = 363 AND `type_name` = 'default') OR	# Spheal
-(`pokedex_ref` = 364 AND `type_name` = 'default') OR	# Sealeo
-(`pokedex_ref` = 365 AND `type_name` = 'default') OR	# Walrein
-(`pokedex_ref` = 712 AND `type_name` = 'default') OR	# Bergmite
-(`pokedex_ref` = 713 AND `type_name` = 'default') OR	# Avalugg
-(`pokedex_ref` = 883 AND `type_name` = 'default');		# Arctovish
+(`pokedex_ref` = 361 AND `type_name` = 'default') OR		# Snorunt
+(`pokedex_ref` = 362 AND `type_name` = 'default') OR		# Glalie
+(`pokedex_ref` = 363 AND `type_name` = 'default') OR		# Spheal
+(`pokedex_ref` = 364 AND `type_name` = 'default') OR		# Sealeo
+(`pokedex_ref` = 365 AND `type_name` = 'default') OR		# Walrein
+(`pokedex_ref` = 712 AND `type_name` = 'default') OR		# Bergmite
+(`pokedex_ref` = 713 AND `type_name` = 'default') OR		# Avalugg
+(`pokedex_ref` = 713 AND `type_name` = 'hisui_variant') OR	# Avalugg (Hisui)
+(`pokedex_ref` = 883 AND `type_name` = 'default');			# Arctovish
 UPDATE `type_bundle` SET `hidden_ability` = 115 WHERE
 (`pokedex_ref` = 86 AND `type_name` = 'default') OR			# Seel
 (`pokedex_ref` = 87 AND `type_name` = 'default') OR			# Dewgong
@@ -6847,7 +7272,8 @@ UPDATE `type_bundle` SET `ability2` = 119 WHERE
 (`pokedex_ref` = 826 AND `type_name` = 'default') OR	# Orbeetle
 (`pokedex_ref` = 859 AND `type_name` = 'default') OR	# Impidimp
 (`pokedex_ref` = 860 AND `type_name` = 'default') OR	# Morgrem
-(`pokedex_ref` = 861 AND `type_name` = 'default');		# Grimmsnarl
+(`pokedex_ref` = 861 AND `type_name` = 'default') OR	# Grimmsnarl
+(`pokedex_ref` = 899 AND `type_name` = 'default');		# Wyrdeer
 UPDATE `type_bundle` SET `hidden_ability` = 119 WHERE
 (`pokedex_ref` = 40 AND `type_name` = 'default') OR		# Wigglytuff
 (`pokedex_ref` = 161 AND `type_name` = 'default') OR	# Sentret
@@ -6903,17 +7329,19 @@ UPDATE `type_bundle` SET `hidden_ability` = 124 WHERE
 
 # Sheer Force
 UPDATE `type_bundle` SET `ability1` = 125 WHERE
-(`pokedex_ref` = 323 AND `type_name` = 'mega') OR			# MEGA Camerupt
-(`pokedex_ref` = 555 AND `type_name` = 'standard_mode') OR	# Darmanitan
-(`pokedex_ref` = 878 AND `type_name` = 'default') OR		# Cufant
-(`pokedex_ref` = 879 AND `type_name` = 'default');			# Copperajah
+(`pokedex_ref` = 323 AND `type_name` = 'mega') OR				# MEGA Camerupt
+(`pokedex_ref` = 555 AND `type_name` = 'standard_mode') OR		# Darmanitan
+(`pokedex_ref` = 878 AND `type_name` = 'default') OR			# Cufant
+(`pokedex_ref` = 879 AND `type_name` = 'default');				# Copperajah
 UPDATE `type_bundle` SET `ability2` = 125 WHERE
-(`pokedex_ref` = 532 AND `type_name` = 'default') OR	# Timburr
-(`pokedex_ref` = 533 AND `type_name` = 'default') OR	# Gurdurr
-(`pokedex_ref` = 534 AND `type_name` = 'default') OR	# Conkeldurr
-(`pokedex_ref` = 621 AND `type_name` = 'default') OR	# Druddigon
-(`pokedex_ref` = 627 AND `type_name` = 'default') OR	# Rufflet
-(`pokedex_ref` = 628 AND `type_name` = 'default');		# Braviary
+(`pokedex_ref` = 532 AND `type_name` = 'default') OR			# Timburr
+(`pokedex_ref` = 533 AND `type_name` = 'default') OR			# Gurdurr
+(`pokedex_ref` = 534 AND `type_name` = 'default') OR			# Conkeldurr
+(`pokedex_ref` = 621 AND `type_name` = 'default') OR			# Druddigon
+(`pokedex_ref` = 627 AND `type_name` = 'default') OR			# Rufflet
+(`pokedex_ref` = 628 AND `type_name` = 'default') OR			# Braviary
+(`pokedex_ref` = 628 AND `type_name` = 'hisui_variant') OR		# Braviary (Hisui)
+(`pokedex_ref` = 900 AND `type_name` = 'default');				# Kleavor
 UPDATE `type_bundle` SET `hidden_ability` = 125 WHERE
 (`pokedex_ref` = 31 AND `type_name` = 'default') OR				# Nidoqueen
 (`pokedex_ref` = 34 AND `type_name` = 'default') OR				# Nidoking
@@ -6936,16 +7364,17 @@ UPDATE `type_bundle` SET `hidden_ability` = 125 WHERE
 
 # Contrary
 UPDATE `type_bundle` SET `ability1` = 126 WHERE
-(`pokedex_ref` = 686 AND `type_name` = 'default') OR	# Inkay
-(`pokedex_ref` = 687 AND `type_name` = 'default');		# Malamar
+(`pokedex_ref` = 686 AND `type_name` = 'default') OR			# Inkay
+(`pokedex_ref` = 687 AND `type_name` = 'default');				# Malamar
 UPDATE `type_bundle` SET `hidden_ability` = 126 WHERE
-(`pokedex_ref` = 213 AND `type_name` = 'default') OR	# Shuckle
-(`pokedex_ref` = 327 AND `type_name` = 'default') OR	# Spinda
-(`pokedex_ref` = 495 AND `type_name` = 'default') OR	# Snivy
-(`pokedex_ref` = 496 AND `type_name` = 'default') OR	# Servine
-(`pokedex_ref` = 497 AND `type_name` = 'default') OR	# Serperior
-(`pokedex_ref` = 753 AND `type_name` = 'default') OR	# Fomantis
-(`pokedex_ref` = 754 AND `type_name` = 'default');		# Lurantis
+(`pokedex_ref` = 213 AND `type_name` = 'default') OR			# Shuckle
+(`pokedex_ref` = 327 AND `type_name` = 'default') OR			# Spinda
+(`pokedex_ref` = 495 AND `type_name` = 'default') OR			# Snivy
+(`pokedex_ref` = 496 AND `type_name` = 'default') OR			# Servine
+(`pokedex_ref` = 497 AND `type_name` = 'default') OR			# Serperior
+(`pokedex_ref` = 753 AND `type_name` = 'default') OR			# Fomantis
+(`pokedex_ref` = 754 AND `type_name` = 'default') OR			# Lurantis
+(`pokedex_ref` = 905 AND `type_name` = 'incarnate_forme');		# Enamorus (Incarnate Forme)
 
 # Unnerve
 UPDATE `type_bundle` SET `ability1` = 127 WHERE
@@ -6975,7 +7404,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 127 WHERE
 (`pokedex_ref` = 610 AND `type_name` = 'default') OR			# Axew
 (`pokedex_ref` = 611 AND `type_name` = 'default') OR			# Fraxure
 (`pokedex_ref` = 612 AND `type_name` = 'default') OR			# Haxorus
-(`pokedex_ref` = 760 AND `type_name` = 'default');				# Bewear
+(`pokedex_ref` = 760 AND `type_name` = 'default') OR			# Bewear
+(`pokedex_ref` = 901 AND `type_name` = 'default');				# Ursaluna
 
 # Defiant
 UPDATE `type_bundle` SET `ability1` = 128 WHERE
@@ -6991,6 +7421,7 @@ UPDATE `type_bundle` SET `hidden_ability` = 128 WHERE
 (`pokedex_ref` = 395 AND `type_name` = 'default') OR			# Empoleon
 (`pokedex_ref` = 432 AND `type_name` = 'default') OR			# Purugly
 (`pokedex_ref` = 628 AND `type_name` = 'default') OR			# Braviary
+(`pokedex_ref` = 628 AND `type_name` = 'hisui_variant') OR		# Braviary (Hisui)
 (`pokedex_ref` = 641 AND `type_name` = 'incarnate_forme') OR	# Tornadus (Incarnate Forme)
 (`pokedex_ref` = 642 AND `type_name` = 'incarnate_forme') OR	# Thundrus (Incarnate Forme)
 (`pokedex_ref` = 766 AND `type_name` = 'default') OR			# Passimian
@@ -7133,7 +7564,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 140 WHERE
 (`pokedex_ref` = 307 AND `type_name` = 'default') OR		# Meditite
 (`pokedex_ref` = 308 AND `type_name` = 'default') OR		# Medicham
 (`pokedex_ref` = 483 AND `type_name` = 'default') OR		# Dialga
+(`pokedex_ref` = 483 AND `type_name` = 'lord_forme') OR		# Dialga (Lord Forme)
 (`pokedex_ref` = 484 AND `type_name` = 'default') OR		# Palkia
+(`pokedex_ref` = 484 AND `type_name` = 'lord_forme') OR		# Palkia (Lord Forme)
 (`pokedex_ref` = 487 AND `type_name` = 'altered_forme') OR	# Giratina (Altered Forme)
 (`pokedex_ref` = 517 AND `type_name` = 'default') OR		# Munna
 (`pokedex_ref` = 518 AND `type_name` = 'default') OR		# Musharna
@@ -7159,12 +7592,15 @@ UPDATE `type_bundle` SET `hidden_ability` = 141 WHERE
 
 # Overcoat
 UPDATE `type_bundle` SET `ability1` = 142 WHERE
-(`pokedex_ref` = 577 AND `type_name` = 'default') OR	# Solosis
-(`pokedex_ref` = 578 AND `type_name` = 'default') OR	# Duosion
-(`pokedex_ref` = 579 AND `type_name` = 'default');		# Reuniclus
+(`pokedex_ref` = 577 AND `type_name` = 'default') OR		# Solosis
+(`pokedex_ref` = 578 AND `type_name` = 'default') OR		# Duosion
+(`pokedex_ref` = 579 AND `type_name` = 'default') OR		# Reuniclus
+(`pokedex_ref` = 905 AND `type_name` = 'therian_forme');	# Enamorus
 UPDATE `type_bundle` SET `ability2` = 142 WHERE
-(`pokedex_ref` = 629 AND `type_name` = 'default') OR	# Vullaby
-(`pokedex_ref` = 630 AND `type_name` = 'default');		# Mandibuzz
+(`pokedex_ref` = 629 AND `type_name` = 'default') OR		# Vullaby
+(`pokedex_ref` = 630 AND `type_name` = 'default') OR		# Mandibuzz
+(`pokedex_ref` = 705 AND `type_name` = 'hisui_variant') OR	# Sliggoo (Hisui)
+(`pokedex_ref` = 706 AND `type_name` = 'hisui_variant');	# Goodra (Hisui)
 UPDATE `type_bundle` SET `hidden_ability` = 142 WHERE
 (`pokedex_ref` = 90 AND `type_name` = 'default') OR			# Shellder
 (`pokedex_ref` = 91 AND `type_name` = 'default') OR			# Cloyster
@@ -7198,7 +7634,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 143 WHERE
 (`pokedex_ref` = 88 AND `type_name` = 'default') OR		# Grimer
 (`pokedex_ref` = 89 AND `type_name` = 'default') OR		# Muk
 (`pokedex_ref` = 453 AND `type_name` = 'default') OR	# Croagunk
-(`pokedex_ref` = 454 AND `type_name` = 'default');		# Toxicroak
+(`pokedex_ref` = 454 AND `type_name` = 'default') OR	# Toxicroak
+(`pokedex_ref` = 903 AND `type_name` = 'default');		# Sneasler
 
 # Regenerator
 UPDATE `type_bundle` SET `ability1` = 144 WHERE
@@ -7287,8 +7724,10 @@ UPDATE `type_bundle` SET `hidden_ability` = 148 WHERE
 
 # Illusion
 UPDATE `type_bundle` SET `ability1` = 149 WHERE
-(`pokedex_ref` = 570 AND `type_name` = 'default') OR	# Zorua
-(`pokedex_ref` = 571 AND `type_name` = 'default');		# Zoroark
+(`pokedex_ref` = 570 AND `type_name` = 'default') OR		# Zorua
+(`pokedex_ref` = 570 AND `type_name` = 'hisui_variant') OR	# Zorua (Hisui)
+(`pokedex_ref` = 571 AND `type_name` = 'default') OR		# Zoroark
+(`pokedex_ref` = 571 AND `type_name` = 'hisui_variant');	# Zoroark (Hisui)
 
 # Imposter
 UPDATE `type_bundle` SET `hidden_ability` = 150 WHERE
@@ -7351,16 +7790,21 @@ UPDATE `type_bundle` SET `ability1` = 154 WHERE
 (`pokedex_ref` = 640 AND `type_name` = 'default') OR			# Virizion
 (`pokedex_ref` = 647 AND `type_name` = 'ordinary_form') OR		# Keldeo (Ordinary Form)
 (`pokedex_ref` = 647 AND `type_name` = 'resolute_form');		# Keldeo (Resolute Form)
+UPDATE `type_bundle` SET `ability2` = 154 WHERE
+(`pokedex_ref` = 58 AND `type_name` = 'hisui_variant') OR		# Growlithe (Hisui)
+(`pokedex_ref` = 59 AND `type_name` = 'hisui_variant');			# Arcanine (Hisui)
 UPDATE `type_bundle` SET `hidden_ability` = 154 WHERE
-(`pokedex_ref` = 58 AND `type_name` = 'default') OR		# Growlithe
-(`pokedex_ref` = 59 AND `type_name` = 'default') OR		# Arcanine
-(`pokedex_ref` = 359 AND `type_name` = 'default') OR	# Absol
-(`pokedex_ref` = 448 AND `type_name` = 'default') OR	# Lucario
-(`pokedex_ref` = 475 AND `type_name` = 'default');		# Gallade
+(`pokedex_ref` = 58 AND `type_name` = 'default') OR				# Growlithe
+(`pokedex_ref` = 59 AND `type_name` = 'default') OR				# Arcanine
+(`pokedex_ref` = 359 AND `type_name` = 'default') OR			# Absol
+(`pokedex_ref` = 448 AND `type_name` = 'default') OR			# Lucario
+(`pokedex_ref` = 475 AND `type_name` = 'default');				# Gallade
 
 # Rattled
 UPDATE `type_bundle` SET `ability1` = 155 WHERE
-(`pokedex_ref` = 848 AND `type_name` = 'default');		# Toxel
+(`pokedex_ref` = 550 AND `type_name` = 'white-striped_form') OR	# Basculin (White-Striped Form)
+(`pokedex_ref` = 848 AND `type_name` = 'default') OR			# Toxel
+(`pokedex_ref` = 902 AND `type_name` = 'default');				# Basculeigon
 UPDATE `type_bundle` SET `hidden_ability` = 155 WHERE
 (`pokedex_ref` = 52 AND `type_name` = 'alola_variant') OR	# Meowth (Alola)
 (`pokedex_ref` = 53 AND `type_name` = 'alola_variant') OR	# Persian (Alola)
@@ -7392,11 +7836,13 @@ UPDATE `type_bundle` SET `hidden_ability` = 156 WHERE
 
 # Sap Sipper
 UPDATE `type_bundle` SET `ability1` = 157 WHERE
-(`pokedex_ref` = 672 AND `type_name` = 'default') OR	# Skiddo
-(`pokedex_ref` = 673 AND `type_name` = 'default') OR	# Gogoat
-(`pokedex_ref` = 704 AND `type_name` = 'default') OR	# Goomy
-(`pokedex_ref` = 705 AND `type_name` = 'default') OR	# Sliggoo
-(`pokedex_ref` = 706 AND `type_name` = 'default');		# Goodra
+(`pokedex_ref` = 672 AND `type_name` = 'default') OR		# Skiddo
+(`pokedex_ref` = 673 AND `type_name` = 'default') OR		# Gogoat
+(`pokedex_ref` = 704 AND `type_name` = 'default') OR		# Goomy
+(`pokedex_ref` = 705 AND `type_name` = 'default') OR		# Sliggoo
+(`pokedex_ref` = 705 AND `type_name` = 'hisui_variant') OR	# Sliggoo (Hisui)
+(`pokedex_ref` = 706 AND `type_name` = 'default') OR		# Goodra
+(`pokedex_ref` = 706 AND `type_name` = 'hisui_variant');	# Goodra (Hisui)
 UPDATE `type_bundle` SET `ability2` = 157 WHERE
 (`pokedex_ref` = 585 AND `type_name` = 'spring_form') OR	# Deerling (Spring Form)
 (`pokedex_ref` = 585 AND `type_name` = 'summer_form') OR	# Deerling (Summer Form)
@@ -7416,7 +7862,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 157 WHERE
 (`pokedex_ref` = 241 AND `type_name` = 'default') OR	# Miltank
 (`pokedex_ref` = 298 AND `type_name` = 'default') OR	# Azurill
 (`pokedex_ref` = 522 AND `type_name` = 'default') OR	# Blitzle
-(`pokedex_ref` = 523 AND `type_name` = 'default');		# Zebstrika
+(`pokedex_ref` = 523 AND `type_name` = 'default') OR	# Zebstrika
+(`pokedex_ref` = 899 AND `type_name` = 'default');		# Wyrdeer
 
 # Prankster
 UPDATE `type_bundle` SET `ability1` = 158 WHERE
@@ -7542,6 +7989,8 @@ UPDATE `type_bundle` SET `ability1` = 171 WHERE
 (`pokedex_ref` = 782 AND `type_name` = 'default') OR	# Jangmo-o
 (`pokedex_ref` = 783 AND `type_name` = 'default') OR	# Hakomo-o
 (`pokedex_ref` = 784 AND `type_name` = 'default');		# Kommo-o
+UPDATE `type_bundle` SET `ability2` = 171 WHERE
+(`pokedex_ref` = 901 AND `type_name` = 'default');		# Ursaluna
 UPDATE `type_bundle` SET `hidden_ability` = 171 WHERE
 (`pokedex_ref` = 650 AND `type_name` = 'default') OR	# Chespin
 (`pokedex_ref` = 651 AND `type_name` = 'default') OR	# Quilladin
@@ -7567,17 +8016,18 @@ UPDATE `type_bundle` SET `hidden_ability` = 172 WHERE
 
 # Strong Jaw
 UPDATE `type_bundle` SET `ability1` = 173 WHERE
-(`pokedex_ref` = 319 AND `type_name` = 'mega') OR		# MEGA Sharpedo
-(`pokedex_ref` = 696 AND `type_name` = 'default') OR	# Tyrunt
-(`pokedex_ref` = 697 AND `type_name` = 'default') OR	# Tyrantrum
-(`pokedex_ref` = 833 AND `type_name` = 'default') OR	# Chewtle
-(`pokedex_ref` = 834 AND `type_name` = 'default') OR	# Drednaw
-(`pokedex_ref` = 836 AND `type_name` = 'default');		# Boltund
+(`pokedex_ref` = 319 AND `type_name` = 'mega') OR			# MEGA Sharpedo
+(`pokedex_ref` = 696 AND `type_name` = 'default') OR		# Tyrunt
+(`pokedex_ref` = 697 AND `type_name` = 'default') OR		# Tyrantrum
+(`pokedex_ref` = 713 AND `type_name` = 'hisui_variant') OR	# Avalugg (Hisui)
+(`pokedex_ref` = 833 AND `type_name` = 'default') OR		# Chewtle
+(`pokedex_ref` = 834 AND `type_name` = 'default') OR		# Drednaw
+(`pokedex_ref` = 836 AND `type_name` = 'default');			# Boltund
 UPDATE `type_bundle` SET `ability2` = 173 WHERE
-(`pokedex_ref` = 734 AND `type_name` = 'default') OR	# Yungoos
-(`pokedex_ref` = 735 AND `type_name` = 'default') OR	# Gumshoos
-(`pokedex_ref` = 779 AND `type_name` = 'default') OR	# Bruxish
-(`pokedex_ref` = 882 AND `type_name` = 'default');		# Dracovish
+(`pokedex_ref` = 734 AND `type_name` = 'default') OR		# Yungoos
+(`pokedex_ref` = 735 AND `type_name` = 'default') OR		# Gumshoos
+(`pokedex_ref` = 779 AND `type_name` = 'default') OR		# Bruxish
+(`pokedex_ref` = 882 AND `type_name` = 'default');			# Dracovish
 
 # Refrigerate
 UPDATE `type_bundle` SET `ability1` = 174 WHERE
@@ -7648,9 +8098,11 @@ UPDATE `type_bundle` SET `hidden_ability` = 182 WHERE
 
 # Gooey
 UPDATE `type_bundle` SET `hidden_ability` = 183 WHERE
-(`pokedex_ref` = 704 AND `type_name` = 'default') OR	# Goomy
-(`pokedex_ref` = 705 AND `type_name` = 'default') OR	# Sliggoo
-(`pokedex_ref` = 706 AND `type_name` = 'default');		# Goodra
+(`pokedex_ref` = 704 AND `type_name` = 'default') OR		# Goomy
+(`pokedex_ref` = 705 AND `type_name` = 'default') OR		# Sliggoo
+(`pokedex_ref` = 705 AND `type_name` = 'hisui_variant') OR	# Sliggoo
+(`pokedex_ref` = 706 AND `type_name` = 'default') OR		# Goodra
+(`pokedex_ref` = 706 AND `type_name` = 'hisui_variant');	# Goodra
 
 # Aerilate
 UPDATE `type_bundle` SET `ability1` = 184 WHERE
@@ -7747,9 +8199,10 @@ UPDATE `type_bundle` SET `hidden_ability` = 202 WHERE
 
 # Long Reach
 UPDATE `type_bundle` SET `hidden_ability` = 203 WHERE
-(`pokedex_ref` = 722 AND `type_name` = 'default') OR	# Rowlet
-(`pokedex_ref` = 723 AND `type_name` = 'default') OR	# Dartrix
-(`pokedex_ref` = 724 AND `type_name` = 'default');		# Decidueye
+(`pokedex_ref` = 722 AND `type_name` = 'default') OR		# Rowlet
+(`pokedex_ref` = 723 AND `type_name` = 'default') OR		# Dartrix
+(`pokedex_ref` = 724 AND `type_name` = 'default') OR		# Decidueye
+(`pokedex_ref` = 724 AND `type_name` = 'hisui_variant');	# Decidueye (Hisui)
 
 # Liquid Voice
 UPDATE `type_bundle` SET `hidden_ability` = 204 WHERE
@@ -8062,16 +8515,6 @@ UPDATE `type_bundle` SET `ability1` = 265 WHERE
 UPDATE `type_bundle` SET `ability1` = 266 WHERE
 (`pokedex_ref` = 898 AND INSTR(`type_name`, 'rider') > 0);		# Calyrex (Ice Rider and Snow Rider)
 
-# Regional Dex Numbers
-DROP TABLE IF EXISTS `regional_dex`;
-CREATE TABLE `regional_dex` (
-	`dex_name`		VARCHAR(40) NOT NULL,
-    `dex_id`		INT NOT NULL,
-    `national_id`	INT NOT NULL,
-    
-    FOREIGN KEY(`national_id`) REFERENCES `pokemon_list`(`id`)
-);
-
 DELIMITER //
 
 DROP PROCEDURE IF EXISTS `show_pkmn_rev` //
@@ -8098,23 +8541,25 @@ CREATE PROCEDURE `show_pkmn`(`keyword` VARCHAR(50))
 BEGIN
 	IF `keyword` = '' THEN
 		SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, 
-        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power` FROM `pokemon_list` pl
+        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* FROM `pokemon_list` pl
 		JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
         JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
         LEFT JOIN `excl_z` z ON z.id = tb.`excl_z_ref`
         LEFT JOIN `ability` a1 ON a1.`id` = tb.`ability1`
         LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
         LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
+        LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
 		ORDER BY pl.`id` ASC;
     ELSE
 		SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, 
-        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power` FROM `pokemon_list` pl
+        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* FROM `pokemon_list` pl
         JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
         JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
         LEFT JOIN `excl_z` z ON z.id = pl.`id`
         LEFT JOIN `ability` a1 ON a1.`id` = tb.`ability1`
         LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
         LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
+		LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
 		WHERE INSTR(`type_name`, `keyword`) > 0
 		ORDER BY pl.`id` ASC;
     END IF;
@@ -8124,11 +8569,50 @@ DROP PROCEDURE IF EXISTS `show_one` //
 
 CREATE PROCEDURE `show_one`(`dex_id` INT)
 BEGIN	
-	SELECT pl.*, COUNT(tb.`pokedex_ref`) AS `type_count` FROM `pokémon_list` pl
+	# SELECT pl.*, COUNT(tb.`pokedex_ref`) AS `type_count` FROM `pokemon_list` pl
+	# JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
+	# WHERE (INSTR(`type_name`, 'default') > 0 OR INSTR(`type_name`, 'form'))
+    # AND pl.`id` = `dex_id`
+	# ORDER BY `id` ASC;
+    SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, 
+	z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* FROM `pokemon_list` pl
 	JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
-	WHERE (INSTR(`type_name`, 'default') > 0 OR INSTR(`type_name`, 'form'))
-    AND `id` = `dex_id`
-	ORDER BY `id` ASC;
+	JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
+	LEFT JOIN `excl_z` z ON z.id = tb.`excl_z_ref`
+	LEFT JOIN `ability` a1 ON a1.`id` = tb.`ability1`
+	LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
+	LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
+	LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
+    WHERE pl.`id` = `dex_id`
+	ORDER BY pl.`id` ASC;
+END //
+
+DROP PROCEDURE IF EXISTS `show_one_limit` //
+
+CREATE PROCEDURE `show_one_limit`(`dex_id` INT)
+BEGIN
+    SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, 
+	z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* FROM `pokemon_list` pl
+	JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
+	JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
+	LEFT JOIN `excl_z` z ON z.id = tb.`excl_z_ref`
+	LEFT JOIN `ability` a1 ON a1.`id` = tb.`ability1`
+	LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
+	LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
+	LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
+    WHERE pl.`id` = `dex_id`
+	ORDER BY pl.`id` ASC
+    LIMIT 1;
+END //
+
+DROP PROCEDURE IF EXISTS `get_dex_numbers` //
+
+CREATE PROCEDURE `get_dex_numbers`(`dex_id` INT)
+BEGIN
+	SELECT DISTINCT rd.`dex_name`, rd.`national_id`, rd.`dex_id`, pl.`name`
+    FROM `pokemon_list` pl
+	LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
+    WHERE rd.`national_id` = `dex_id`;
 END //
 
 DROP PROCEDURE IF EXISTS `count_distinct_entries` //
@@ -8172,7 +8656,7 @@ CALL `show_pkmn`('');
 # CALL `show_pkmn_rev`('galar_variant');
 # CALL `show_pkmn`('form');
 
-# CALL `show_one`(351);
+-- CALL `show_one`(351);
 -- SELECT `ability_name` FROM `ability` WHERE `id` = 114;
 -- CALL `count_abilities`(229);
 -- CALL `select_abilities`(174);

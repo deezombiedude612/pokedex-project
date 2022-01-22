@@ -12,9 +12,9 @@
 		"type_id": [10, 4],
 		"type": ["dark", "poison"],
 		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false
+			"ability_1": "Poison Point",
+			"ability_2": "Swift Swim",
+			"hidden_ability": "Intimidate"
 		}
 	}
 }

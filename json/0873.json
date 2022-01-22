@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 873,
-		"galar_dex": 350
+		"galar_swsh": 350,
+		"galar_crown_tundra": 2
 	},
 	"name": {
 		"en": "Frosmoth",

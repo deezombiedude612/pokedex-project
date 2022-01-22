@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 146
+		"national": 146,
+		"kanto_lgpe": 146,
+		"galar_crown_tundra": 204
 	},
 	"name": {
 		"en": "Moltres",

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 851,
-		"galar_dex": 160
+		"galar_swsh": 160,
+		"galar_crown_tundra": 100
 	},
 	"name": {
 		"en": "Centiskorch",

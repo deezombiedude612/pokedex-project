@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 44,
-		"galar_dex": 56
+		"kanto_lgpe": 44,
+		"galar_swsh": 56
 	},
 	"name": {
 		"en": "Gloom",

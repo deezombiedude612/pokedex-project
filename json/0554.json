@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 554,
-		"galar_dex": 367
+		"galar_swsh": 367,
+		"galar_crown_tundra": 103
 	},
 	"name": {
 		"en": "Darumaka",

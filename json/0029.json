@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 29
+		"national": 29,
+		"kanto_lgpe": 29,
+		"galar_crown_tundra": 65
 	},
 	"name": {
 		"en": "Nidoran ♀",

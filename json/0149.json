@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 149
+		"national": 149,
+		"kanto_lgpe": 149,
+		"galar_crown_tundra": 196
 	},
 	"name": {
 		"en": "Dragonite",

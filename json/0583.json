@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 583,
-		"galar_dex": 73
+		"galar_swsh": 73,
+		"galar_crown_tundra": 23
 	},
 	"name": {
 		"en": "Vanillish",

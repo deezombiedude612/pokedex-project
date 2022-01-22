@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 45,
-		"galar_dex": 57
+		"kanto_lgpe": 45,
+		"galar_swsh": 57
 	},
 	"name": {
 		"en": "Vileplume",

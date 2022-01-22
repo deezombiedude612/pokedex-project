@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 633,
-		"galar_dex": 386
+		"galar_swsh": 386,
+		"galar_crown_tundra": 136
 	},
 	"name": {
 		"en": "Deino",

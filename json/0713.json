@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 713,
-		"galar_dex": 359
+		"galar_swsh": 359,
+		"galar_crown_tundra": 143
 	},
 	"name": {
 		"en": "Avalugg",

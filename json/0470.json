@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 470,
-		"galar_dex": 202
+		"galar_swsh": 202,
+		"galar_crown_tundra": 81
 	},
 	"name": {
 		"en": "Leafeon",

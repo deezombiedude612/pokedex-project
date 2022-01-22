@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 532,
-		"galar_dex": 171
+		"galar_swsh": 171,
+		"galar_crown_tundra": 57
 	},
 	"name": {
 		"en": "Timburr",

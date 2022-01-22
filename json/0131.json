@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 131,
-		"galar_dex": 361
+		"kanto_lgpe": 131,
+		"galar_swsh": 361,
+		"galar_crown_tundra": 190
 	},
 	"name": {
 		"en": "Lapras",

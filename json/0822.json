@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 822,
-		"galar_dex": 22
+		"galar_swsh": 22,
+		"galar_crown_tundra": 164
 	},
 	"name": {
 		"en": "Corvisquire",

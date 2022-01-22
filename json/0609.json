@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 609,
-		"galar_dex": 289
+		"galar_swsh": 289,
+		"galar_crown_tundra": 50
 	},
 	"name": {
 		"en": "Chandelure",

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 887,
-		"galar_dex": 397
+		"galar_swsh": 397,
+		"galar_crown_tundra": 112
 	},
 	"name": {
 		"en": "Dragapult",

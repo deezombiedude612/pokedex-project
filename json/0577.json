@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 577,
-		"galar_dex": 270
+		"galar_swsh": 270,
+		"galar_crown_tundra": 54
 	},
 	"name": {
 		"en": "Solosis",

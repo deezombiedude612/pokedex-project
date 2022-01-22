@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 77,
-		"galar_dex": 333
+		"kanto_lgpe": 77,
+		"galar_swsh": 333,
+		"galar_crown_tundra": 105
 	},
 	"name": {
 		"en": "Ponyta",

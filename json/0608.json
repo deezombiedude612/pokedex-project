@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 608,
-		"galar_dex": 288
+		"galar_swsh": 288,
+		"galar_crown_tundra": 49
 	},
 	"name": {
 		"en": "Lampent",

@@ -1,8 +1,10 @@
 {
 	"id": {
 		"national": 130,
-		"galar_dex": 145,
-		"galar_isle_of_armor": 43
+		"kanto_lgpe": 130,
+		"galar_swsh": 145,
+		"galar_isle_of_armor": 43,
+		"galar_crown_tundra": 63
 	},
 	"name": {
 		"en": "Gyarados",

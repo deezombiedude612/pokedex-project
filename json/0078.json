@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 78,
-		"galar_dex": 334
+		"kanto_lgpe": 78,
+		"galar_swsh": 334,
+		"galar_crown_tundra": 106
 	},
 	"name": {
 		"en": "Rapidash",

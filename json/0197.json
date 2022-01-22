@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 197,
-		"galar_dex": 201
+		"galar_swsh": 201,
+		"galar_crown_tundra": 78
 	},
 	"name": {
 		"en": "Umbreon",

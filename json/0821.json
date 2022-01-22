@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 821,
-		"galar_dex": 21
+		"galar_swsh": 21,
+		"galar_crown_tundra": 163
 	},
 	"name": {
 		"en": "Rookidee",

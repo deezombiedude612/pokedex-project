@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 138
+		"national": 138,
+		"kanto_lgpe": 138,
+		"galar_crown_tundra": 123
 	},
 	"name": {
 		"en": "Omanyte",

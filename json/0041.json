@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 41
+		"national": 41,
+		"kanto_lgpe": 41,
+		"galar_crown_tundra": 144
 	},
 	"name": {
 		"en": "Zubat",

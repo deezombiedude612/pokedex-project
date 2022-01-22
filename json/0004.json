@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 4,
-		"galar_dex": 378
+		"kanto_lgpe": 4,
+		"galar_swsh": 378
 	},
 	"name": {
 		"en": "Charmander",

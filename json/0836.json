@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 836,
-		"galar_dex": 47
+		"galar_swsh": 47,
+		"galar_crown_tundra": 156
 	},
 	"name": {
 		"en": "Boltund",

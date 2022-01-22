@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 855
+		"national": 855,
+		"galar_swsh": 336,
+		"galar_crown_tundra": 133
 	},
 	"name": {
 		"en": "Polteageist",

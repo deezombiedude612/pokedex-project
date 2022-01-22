@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 862,
-		"galar_dex": 33
+		"galar_swsh": 33,
+		"galar_crown_tundra": 73
 	},
 	"name": {
 		"en": "Obstagoon",

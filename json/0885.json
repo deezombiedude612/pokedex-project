@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 885,
-		"galar_dex": 395
+		"galar_swsh": 395,
+		"galar_crown_tundra": 110
 	},
 	"name": {
 		"en": "Dreepy",

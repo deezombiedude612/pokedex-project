@@ -1,8 +1,9 @@
 {
 	"id": {
 		"national": 820,
-		"galar_dex": 25,
-		"galar_isle_of_armor": 10
+		"galar_swsh": 25,
+		"galar_isle_of_armor": 10,
+		"galar_crown_tundra": 6
 	},
 	"name": {
 		"en": "Greedent",

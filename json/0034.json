@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 34
+		"national": 34,
+		"kanto_lgpe": 34,
+		"galar_crown_tundra": 70
 	},
 	"name": {
 		"en": "Nidoking",

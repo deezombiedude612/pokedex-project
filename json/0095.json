@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 95,
-		"galar_dex": 178
+		"kanto_lgpe": 95,
+		"galar_swsh": 178
 	},
 	"name": {
 		"en": "Onix",

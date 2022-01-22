@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 213,
-		"galar_dex": 227
+		"galar_swsh": 227,
+		"galar_crown_tundra": 170
 	},
 	"name": {
 		"en": "Shuckle",

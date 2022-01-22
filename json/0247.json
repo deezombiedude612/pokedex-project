@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 247,
-		"galar_dex": 384
+		"galar_swsh": 384,
+		"galar_crown_tundra": 140
 	},
 	"name": {
 		"en": "Pupitar",

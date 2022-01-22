@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 16
+		"national": 16,
+		"kanto_lgpe": 16
 	},
 	"name": {
 		"en": "Pidgey",

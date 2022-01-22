@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 68,
-		"galar_dex": 140
+		"kanto_lgpe": 68,
+		"galar_swsh": 140
 	},
 	"name": {
 		"en": "Machamp",

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 856,
-		"galar_dex": 241
+		"galar_swsh": 241,
+		"galar_crown_tundra": 40
 	},
 	"name": {
 		"en": "Hatenna",

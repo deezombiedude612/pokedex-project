@@ -1,8 +1,9 @@
 {
 	"id": {
 		"national": 819,
-		"galar_dex": 24,
-		"galar_isle_of_armor": 9
+		"galar_swsh": 24,
+		"galar_isle_of_armor": 9,
+		"galar_crown_tundra": 5
 	},
 	"name": {
 		"en": "Skwovet",

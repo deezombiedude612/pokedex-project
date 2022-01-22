@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 196,
-		"galar_dex": 200
+		"galar_swsh": 200,
+		"galar_crown_tundra": 79
 	},
 	"name": {
 		"en": "Espeon",

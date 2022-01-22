@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 448,
-		"galar_dex": 299
+		"galar_swsh": 299,
+		"galar_crown_tundra": 135
 	},
 	"name": {
 		"en": "Lucario",

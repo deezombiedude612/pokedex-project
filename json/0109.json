@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 109,
-		"galar_dex": 250
+		"kanto_lgpe": 109,
+		"galar_swsh": 250
 	},
 	"name": {
 		"en": "Koffing",

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 246,
-		"galar_dex": 383
+		"galar_swsh": 383,
+		"galar_crown_tundra": 139
 	},
 	"name": {
 		"en": "Larvitar",

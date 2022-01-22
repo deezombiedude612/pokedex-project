@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 712,
-		"galar_dex": 358
+		"galar_swsh": 358,
+		"galar_crown_tundra": 142
 	},
 	"name": {
 		"en": "Bergmite",

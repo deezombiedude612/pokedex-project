@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 58,
-		"galar_dex": 70
+		"kanto_lgpe": 58,
+		"galar_swsh": 70
 	},
 	"name": {
 		"en": "Growlithe",
@@ -23,9 +24,9 @@
 		"type_id": [13, 8],
 		"type": ["fire", "rock"],
 		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false
+			"ability_1": "Intimidate",
+			"ability_2": "Justified",
+			"hidden_ability": "Flash Fire"
 		}
 	}
 }

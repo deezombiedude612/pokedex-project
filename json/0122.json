@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 122,
-		"galar_dex": 365
+		"kanto_lgpe": 122,
+		"galar_swsh": 365,
+		"galar_crown_tundra": 11
 	},
 	"name": {
 		"en": "Mr. Mime",

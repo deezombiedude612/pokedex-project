@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 878,
-		"galar_dex": 302
+		"galar_swsh": 302,
+		"galar_crown_tundra": 108
 	},
 	"name": {
 		"en": "Cufant",

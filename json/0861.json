@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 861,
-		"galar_dex": 240
+		"galar_swsh": 240,
+		"galar_crown_tundra": 39
 	},
 	"name": {
 		"en": "Grimmsnarl",

@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 143,
-		"galar_dex": 261
+		"kanto_lgpe": 143,
+		"galar_swsh": 261,
+		"galar_crown_tundra": 173
 	},
 	"name": {
 		"en": "Snorlax",

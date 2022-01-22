@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 751,
-		"galar_dex": 214
+		"galar_swsh": 214,
+		"galar_crown_tundra": 91
 	},
 	"name": {
 		"en": "Dewpider",

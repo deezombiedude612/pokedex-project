@@ -12,9 +12,9 @@
 		"type_id": [12, 2],
 		"type": ["normal", "ground"],
 		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false
+			"ability_1": "Guts",
+			"ability_2": "Bulletproof",
+			"hidden_ability": "Unnerve"
 		}
 	}
 }

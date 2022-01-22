@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 100
+		"national": 100,
+		"kanto_lgpe": 100
 	},
 	"name": {
 		"en": "Voltorb",
@@ -22,9 +23,9 @@
 		"type_id": [7, 9],
 		"type": ["electric", "grass"],
 		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false
+			"ability_1": "Soundproof",
+			"ability_2": "Static",
+			"hidden_ability": "Aftermath"
 		}
 	}
 }

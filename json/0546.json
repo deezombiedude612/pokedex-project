@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 546,
-		"galar_dex": 262
+		"galar_swsh": 262,
+		"galar_crown_tundra": 168
 	},
 	"name": {
 		"en": "Cottonee",

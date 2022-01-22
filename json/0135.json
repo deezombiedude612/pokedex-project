@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 135,
-		"galar_dex": 198
+		"kanto_lgpe": 135,
+		"galar_swsh": 198,
+		"galar_crown_tundra": 76
 	},
 	"name": {
 		"en": "Jolteon",

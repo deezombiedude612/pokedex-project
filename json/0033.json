@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 33
+		"national": 33,
+		"kanto_lgpe": 33,
+		"galar_crown_tundra": 69
 	},
 	"name": {
 		"en": "Nidorino",

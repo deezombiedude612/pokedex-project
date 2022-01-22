@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 136,
-		"galar_dex": 199
+		"kanto_lgpe": 136,
+		"galar_swsh": 199,
+		"galar_crown_tundra": 77
 	},
 	"name": {
 		"en": "Flareon",

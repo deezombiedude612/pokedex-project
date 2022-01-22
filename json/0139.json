@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 139
+		"national": 139,
+		"kanto_lgpe": 139,
+		"galar_crown_tundra": 124
 	},
 	"name": {
 		"en": "Omastar",
