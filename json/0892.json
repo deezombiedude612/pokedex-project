@@ -8,21 +8,6 @@
 		"jp": "ウーラオス"
 	},
 	"baby": false,
-	"single_strike_style": {
-		"desc": "Wushu Pokémon",
-		"type_id": [14, 10],
-		"type": ["fighting", "dark"],
-		"g_max": {
-			"g_max_move": "G-Max One Blow",
-			"g_max_type_id": 10,
-			"g_max_type": "dark"
-		},
-		"abilities": {
-			"ability_1": "Unseen Fist",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
 	"rapid_strike_style": {
 		"desc": "Wushu Pokémon",
 		"type_id": [14, 6],
@@ -31,6 +16,21 @@
 			"g_max_move": "G-Max Rapid Flow",
 			"g_max_type_id": 6,
 			"g_max_type": "water"
+		},
+		"abilities": {
+			"ability_1": "Unseen Fist",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"single_strike_style": {
+		"desc": "Wushu Pokémon",
+		"type_id": [14, 10],
+		"type": ["fighting", "dark"],
+		"g_max": {
+			"g_max_move": "G-Max One Blow",
+			"g_max_type_id": 10,
+			"g_max_type": "dark"
 		},
 		"abilities": {
 			"ability_1": "Unseen Fist",

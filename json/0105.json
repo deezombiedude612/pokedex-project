@@ -9,16 +9,6 @@
 		"jp": "ガラガラ"
 	},
 	"baby": false,
-	"default": {
-		"desc": "Bone Keeper Pokémon",
-		"type_id": [2, -1],
-		"type": ["ground"],
-		"abilities": {
-			"ability_1": "Rock Head",
-			"ability_2": "Lightning Rod",
-			"hidden_ability": "Battle Armor"
-		}
-	},
 	"alola_variant": {
 		"desc": "Bone Keeper Pokémon",
 		"type_id": [13, 1],
@@ -27,6 +17,16 @@
 			"ability_1": "Cursed Body",
 			"ability_2": "Lightning Rod",
 			"hidden_ability": "Rock Head"
+		}
+	},
+	"default": {
+		"desc": "Bone Keeper Pokémon",
+		"type_id": [2, -1],
+		"type": ["ground"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": "Lightning Rod",
+			"hidden_ability": "Battle Armor"
 		}
 	}
 }

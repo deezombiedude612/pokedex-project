@@ -2,14 +2,15 @@
 	"id": {
 		"national": 422,
 		"galar_swsh": 230,
-		"sinnoh_bdsp": 60
+		"sinnoh_bdsp": 60,
+		"hisui_legarc": 82
 	},
 	"name": {
 		"en": "Shellos",
 		"jp": "カラナクシ"
 	},
 	"baby": true,
-	"west_sea": {
+	"east_sea": {
 		"desc": "Sea Slug Pokémon",
 		"type_id": [6, 2],
 		"type": ["water", "ground"],
@@ -19,7 +20,7 @@
 			"hidden_ability": "Sand Force"
 		}
 	},
-	"east_sea": {
+	"west_sea": {
 		"desc": "Sea Slug Pokémon",
 		"type_id": [6, 2],
 		"type": ["water", "ground"],

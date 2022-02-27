@@ -1,14 +1,15 @@
 {
 	"id": {
-		"national": 904
+		"national": 904,
+		"hisui_legarc": 85
 	},
 	"name": {
 		"en": "Overqwil",
-		"jp": ""
+		"jp": "ハリーマン"
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Pin Cluster Pokémon",
 		"type_id": [10, 4],
 		"type": ["dark", "poison"],
 		"abilities": {

@@ -9,16 +9,6 @@
 		"jp": "ペルシアン"
 	},
 	"baby": false,
-	"default": {
-		"desc": "Classy Cat Pokémon",
-		"type_id": [12, -1],
-		"type": ["normal"],
-		"abilities": {
-			"ability_1": "Limber",
-			"ability_2": "Technician",
-			"hidden_ability": "Unnerve"
-		}
-	},
 	"alola_variant": {
 		"desc": "Classy Cat Pokémon",
 		"type_id": [10, -1],
@@ -27,6 +17,16 @@
 			"ability_1": "Fur Coat",
 			"ability_2": "Technician",
 			"hidden_ability": "Rattled"
+		}
+	},
+	"default": {
+		"desc": "Classy Cat Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Limber",
+			"ability_2": "Technician",
+			"hidden_ability": "Unnerve"
 		}
 	}
 }

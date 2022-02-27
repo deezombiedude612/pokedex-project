@@ -34,9 +34,9 @@ INSERT INTO `types`(`id`, `name`, `jp_name`) VALUES
 
 DROP TABLE IF EXISTS `pokemon_list`;
 CREATE TABLE `pokemon_list` (
-	`id`						INT NOT NULL AUTO_INCREMENT,
-    `name`						VARCHAR(50) NOT NULL,
-    `jp_name`					VARCHAR(15) NOT NULL,
+	`id`		INT NOT NULL AUTO_INCREMENT,
+    `name`		VARCHAR(50) NOT NULL,
+    `jp_name`	VARCHAR(15) NOT NULL,
     
     PRIMARY KEY(`id`)
 );
@@ -975,12 +975,24 @@ INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
 INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES 
 ('WYRDEER', 'アヤシシ'),
 ('KLEAVOR', 'バサギリ'),
-('URSALUNA', ''),
+('URSALUNA', 'ガチグマ'),
 ('BASCULEIGON', 'イダイトウ'),
-('SNEASLER', ''),
-('OVERQWIL', ''),
-('ENAMORUS', '')
+('SNEASLER', 'オオニューラ'),
+('OVERQWIL', 'ハリーマン'),
+('ENAMORUS', 'ラブトロス')
+;
+
+INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
 # Upcoming
+('SPRIGATITO', 'ニャオハ'),
+('SPRIGATITO Evo 1', ''),
+('SPRIGATITO Evo 2', ''),
+('FUECOCO', 'ホゲータ'),
+('FUECOCO Evo 1', ''),
+('FUECOCO Evo 2', ''),
+('QUAXLY', 'クワッス'),
+('QUAXLY Evo 1', ''),
+('QUAXLY Evo 2', '')
 ;
 
 # Regional Dex Numbers
@@ -1983,7 +1995,7 @@ INSERT INTO `regional_dex` VALUES
 ('galar_crown_tundra', 210, 898)
 ;
 
-# Kanto Dex Number (Let's Go! Pikachu & Eevee)
+# Sinnoh Dex Number (Brilliant Diamond and Shining Pearl)
 INSERT INTO `regional_dex` VALUES 
 ('sinnoh_bdsp', 1, 387),
 ('sinnoh_bdsp', 2, 388),
@@ -2136,6 +2148,252 @@ INSERT INTO `regional_dex` VALUES
 ('sinnoh_bdsp', 149, 483),
 ('sinnoh_bdsp', 150, 484),
 ('sinnoh_bdsp', 151, 490)
+;
+
+# Hisui Dex Number (Legends Arceus)
+INSERT INTO `regional_dex` VALUES 
+('hisui_legarc', 1, 722),
+('hisui_legarc', 2, 723),
+('hisui_legarc', 3, 724),
+('hisui_legarc', 4, 155),
+('hisui_legarc', 5, 156),
+('hisui_legarc', 6, 157),
+('hisui_legarc', 7, 501),
+('hisui_legarc', 8, 502),
+('hisui_legarc', 9, 503),
+('hisui_legarc', 10, 399),
+('hisui_legarc', 11, 400),
+('hisui_legarc', 12, 396),
+('hisui_legarc', 13, 397),
+('hisui_legarc', 14, 398),
+('hisui_legarc', 15, 403),
+('hisui_legarc', 16, 404),
+('hisui_legarc', 17, 405),
+('hisui_legarc', 18, 265),
+('hisui_legarc', 19, 266),
+('hisui_legarc', 20, 267),
+('hisui_legarc', 21, 268),
+('hisui_legarc', 22, 269),
+('hisui_legarc', 23, 77),
+('hisui_legarc', 24, 78),
+('hisui_legarc', 25, 133),
+('hisui_legarc', 26, 134),
+('hisui_legarc', 27, 135),
+('hisui_legarc', 28, 136),
+('hisui_legarc', 29, 196),
+('hisui_legarc', 30, 197),
+('hisui_legarc', 31, 470),
+('hisui_legarc', 32, 471),
+('hisui_legarc', 33, 700),
+('hisui_legarc', 34, 41),
+('hisui_legarc', 35, 42),
+('hisui_legarc', 36, 169),
+('hisui_legarc', 37, 425),
+('hisui_legarc', 38, 426),
+('hisui_legarc', 39, 401),
+('hisui_legarc', 40, 402),
+('hisui_legarc', 41, 418),
+('hisui_legarc', 42, 419),
+('hisui_legarc', 43, 412),
+('hisui_legarc', 44, 413),
+('hisui_legarc', 45, 414),
+('hisui_legarc', 46, 74),
+('hisui_legarc', 47, 75),
+('hisui_legarc', 48, 76),
+('hisui_legarc', 49, 234),
+('hisui_legarc', 50, 899),
+('hisui_legarc', 51, 446),
+('hisui_legarc', 52, 143),
+('hisui_legarc', 53, 46),
+('hisui_legarc', 54, 47),
+('hisui_legarc', 55, 172),
+('hisui_legarc', 56, 25),
+('hisui_legarc', 57, 26),
+('hisui_legarc', 58, 63),
+('hisui_legarc', 59, 64),
+('hisui_legarc', 60, 65),
+('hisui_legarc', 61, 390),
+('hisui_legarc', 62, 391),
+('hisui_legarc', 63, 392),
+('hisui_legarc', 64, 427),
+('hisui_legarc', 65, 428),
+('hisui_legarc', 66, 420),
+('hisui_legarc', 67, 421),
+('hisui_legarc', 68, 54),
+('hisui_legarc', 69, 55),
+('hisui_legarc', 70, 415),
+('hisui_legarc', 71, 416),
+('hisui_legarc', 72, 123),
+('hisui_legarc', 73, 900),
+('hisui_legarc', 74, 212),
+('hisui_legarc', 75, 214),
+('hisui_legarc', 76, 439),
+('hisui_legarc', 77, 122),
+('hisui_legarc', 78, 190),
+('hisui_legarc', 79, 424),
+('hisui_legarc', 80, 129),
+('hisui_legarc', 81, 130),
+('hisui_legarc', 82, 422),
+('hisui_legarc', 83, 423),
+('hisui_legarc', 84, 211),
+('hisui_legarc', 85, 904),
+('hisui_legarc', 86, 440),
+('hisui_legarc', 87, 113),
+('hisui_legarc', 88, 242),
+('hisui_legarc', 89, 406),
+('hisui_legarc', 90, 315),
+('hisui_legarc', 91, 407),
+('hisui_legarc', 92, 455),
+('hisui_legarc', 93, 548),
+('hisui_legarc', 94, 549),
+('hisui_legarc', 95, 114),
+('hisui_legarc', 96, 115),
+('hisui_legarc', 97, 339),
+('hisui_legarc', 98, 340),
+('hisui_legarc', 99, 453),
+('hisui_legarc', 100, 454),
+('hisui_legarc', 101, 280),
+('hisui_legarc', 102, 281),
+('hisui_legarc', 103, 282),
+('hisui_legarc', 104, 475),
+('hisui_legarc', 105, 193),
+('hisui_legarc', 106, 469),
+('hisui_legarc', 107, 449),
+('hisui_legarc', 108, 450),
+('hisui_legarc', 109, 417),
+('hisui_legarc', 110, 434),
+('hisui_legarc', 111, 435),
+('hisui_legarc', 112, 216),
+('hisui_legarc', 113, 217),
+('hisui_legarc', 114, 901),
+('hisui_legarc', 115, 704),
+('hisui_legarc', 116, 705),
+('hisui_legarc', 117, 706),
+('hisui_legarc', 118, 95),
+('hisui_legarc', 119, 208),
+('hisui_legarc', 120, 111),
+('hisui_legarc', 121, 112),
+('hisui_legarc', 122, 464),
+('hisui_legarc', 123, 438),
+('hisui_legarc', 124, 185),
+('hisui_legarc', 125, 108),
+('hisui_legarc', 126, 463),
+('hisui_legarc', 127, 175),
+('hisui_legarc', 128, 176),
+('hisui_legarc', 129, 468),
+('hisui_legarc', 130, 387),
+('hisui_legarc', 131, 388),
+('hisui_legarc', 132, 389),
+('hisui_legarc', 133, 137),
+('hisui_legarc', 134, 233),
+('hisui_legarc', 135, 474),
+('hisui_legarc', 136, 93),
+('hisui_legarc', 137, 94),
+('hisui_legarc', 138, 95),
+('hisui_legarc', 139, 442),
+('hisui_legarc', 140, 198),
+('hisui_legarc', 141, 430),
+('hisui_legarc', 142, 201),
+('hisui_legarc', 143, 363),
+('hisui_legarc', 144, 364),
+('hisui_legarc', 145, 365),
+('hisui_legarc', 146, 223),
+('hisui_legarc', 147, 224),
+('hisui_legarc', 148, 451),
+('hisui_legarc', 149, 452),
+('hisui_legarc', 150, 58),
+('hisui_legarc', 151, 59),
+('hisui_legarc', 152, 431),
+('hisui_legarc', 153, 432),
+('hisui_legarc', 154, 66),
+('hisui_legarc', 155, 67),
+('hisui_legarc', 156, 68),
+('hisui_legarc', 157, 441),
+('hisui_legarc', 158, 355),
+('hisui_legarc', 159, 356),
+('hisui_legarc', 160, 477),
+('hisui_legarc', 161, 393),
+('hisui_legarc', 162, 394),
+('hisui_legarc', 163, 395),
+('hisui_legarc', 164, 458),
+('hisui_legarc', 165, 226),
+('hisui_legarc', 166, 550),
+('hisui_legarc', 167, 902),
+('hisui_legarc', 168, 37),
+('hisui_legarc', 169, 38),
+('hisui_legarc', 170, 72),
+('hisui_legarc', 171, 73),
+('hisui_legarc', 172, 456),
+('hisui_legarc', 173, 457),
+('hisui_legarc', 174, 240),
+('hisui_legarc', 175, 126),
+('hisui_legarc', 176, 467),
+('hisui_legarc', 177, 81),
+('hisui_legarc', 178, 82),
+('hisui_legarc', 179, 83),
+('hisui_legarc', 180, 436),
+('hisui_legarc', 181, 437),
+('hisui_legarc', 182, 239),
+('hisui_legarc', 183, 125),
+('hisui_legarc', 184, 466),
+('hisui_legarc', 185, 207),
+('hisui_legarc', 186, 472),
+('hisui_legarc', 187, 443),
+('hisui_legarc', 188, 444),
+('hisui_legarc', 189, 445),
+('hisui_legarc', 190, 299),
+('hisui_legarc', 191, 476),
+('hisui_legarc', 192, 100),
+('hisui_legarc', 193, 101),
+('hisui_legarc', 194, 479),
+('hisui_legarc', 195, 433),
+('hisui_legarc', 196, 358),
+('hisui_legarc', 197, 200),
+('hisui_legarc', 198, 429),
+('hisui_legarc', 199, 173),
+('hisui_legarc', 200, 35),
+('hisui_legarc', 201, 36),
+('hisui_legarc', 202, 215),
+('hisui_legarc', 203, 903),
+('hisui_legarc', 204, 461),
+('hisui_legarc', 205, 361),
+('hisui_legarc', 206, 362),
+('hisui_legarc', 207, 478),
+('hisui_legarc', 208, 408),
+('hisui_legarc', 209, 409),
+('hisui_legarc', 210, 410),
+('hisui_legarc', 211, 411),
+('hisui_legarc', 212, 220),
+('hisui_legarc', 213, 221),
+('hisui_legarc', 214, 473),
+('hisui_legarc', 215, 712),
+('hisui_legarc', 216, 713),
+('hisui_legarc', 217, 459),
+('hisui_legarc', 218, 460),
+('hisui_legarc', 219, 570),
+('hisui_legarc', 220, 571),
+('hisui_legarc', 221, 627),
+('hisui_legarc', 222, 628),
+('hisui_legarc', 223, 447),
+('hisui_legarc', 224, 448),
+('hisui_legarc', 225, 480),
+('hisui_legarc', 226, 481),
+('hisui_legarc', 227, 482),
+('hisui_legarc', 228, 485),
+('hisui_legarc', 229, 486),
+('hisui_legarc', 230, 488),
+('hisui_legarc', 231, 641),
+('hisui_legarc', 232, 642),
+('hisui_legarc', 233, 645),
+('hisui_legarc', 234, 905),
+('hisui_legarc', 235, 483),
+('hisui_legarc', 236, 484),
+('hisui_legarc', 237, 487),
+('hisui_legarc', 238, 493),
+('hisui_legarc', 239, 489),
+('hisui_legarc', 240, 490),
+('hisui_legarc', 241, 492),
+('hisui_legarc', 242, 491)
 ;
 
 DROP TABLE IF EXISTS `pokemon_desc`;
@@ -2831,6 +3089,26 @@ INSERT INTO `pokemon_desc`(`desc`) VALUES
 
 # Introduced in HISUI
 INSERT INTO `pokemon_desc`(`desc`) VALUES 
+('Sphere Pokémon'),				# Hisuian Voltorb & Electrode
+('Ghost Flame Pokémon'),		# Hisuian Typhlosion
+('Spinning Pokémon'),			# Hisuian Lilligant
+('Spiteful Fox Pokémon'),		# Hisuian Zorua
+('Baneful Fox Pokémon'),		# Hisuian Zoroark
+('Battle Cry Pokémon'),			# Hisuian Braviary
+('Shell Bunker Pokémon'),		# Hisuian Goodra
+('Axe Pokémon'),				# Kleavor
+('Peat Pokémon'),				# Ursaluna
+('Big Fish Pokémon'),			# Basculeigon
+('Free Climb Pokémon'),			# Sneasler
+('Pin Cluster Pokémon'),		# Overqwil
+('Love-Hate Pokémon')			# Enamorus
+;
+
+# Introduced in GEN 9
+INSERT INTO `pokemon_desc`(`desc`) VALUES 
+('Grass Cat'),			# Sprigatito
+('Fire Croc Cat'),		# Fuecoco
+('Duckling'),			# Quaxly
 ('')		# keep this for future pending entries
 ;
 
@@ -3140,11 +3418,11 @@ DROP TABLE IF EXISTS `excl_z`;
 CREATE TABLE `excl_z` (
 	`id`				INT NOT NULL AUTO_INCREMENT,
 	`excl_z_move`		VARCHAR(100) NULL,
-    `excl_z_move_type`	INT(2) NULL,
+    `excl_z_move_type`	INT NULL,
     `excl_z_move_cat`	VARCHAR(15) NULL,		# Category: "physical"/"special"/"status"
     `excl_z_crystal`	VARCHAR(30) NULL,
     `excl_z_req_move`	VARCHAR(30) NULL,
-    `excl_z_power`		INT(3) NULL,
+    `excl_z_power`		INT NULL,
     
     PRIMARY KEY(`id`),
     FOREIGN KEY(`excl_z_move_type`) REFERENCES `types`(`id`)
@@ -3175,16 +3453,18 @@ CREATE TABLE `type_bundle` (
 	`type_name`			VARCHAR(50) NOT NULL DEFAULT 'default',
 	`jp_type_desc`		VARCHAR(200) NULL,
 	`type_desc`			VARCHAR(200) NOT NULL DEFAULT '',
-    `type1`				INT(2) NOT NULL,
-    `type2`				INT(2) NULL,
+    `type1`				INT NOT NULL,
+    `type2`				INT NULL,
     `mega_stone`		VARCHAR(50) NULL,
     `excl_z_ref`		INT NULL,
 	`g_max_move`		VARCHAR(100) NULL,
-	`g_max_type`		INT(2) NULL,
-    `pokedex_ref`		INT(4) NOT NULL,
+	`g_max_type`		INT NULL,
+    `pokedex_ref`		INT NOT NULL,
     `ability1`			INT NULL,
     `ability2`			INT NULL,
     `hidden_ability`	INT NULL,
+    
+    UNIQUE KEY (`type_name`, `pokedex_ref`),
     
     FOREIGN KEY(`type_desc`) REFERENCES `pokemon_desc`(`desc`),
     FOREIGN KEY(`type1`) REFERENCES `types`(`id`),
@@ -4305,7 +4585,7 @@ INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`) VALUES
 (900, 5, 8),		# #900 KLEAVOR
 (901, 12, 2),		# #901 URSALUNA
 (902, 6, 1),		# #902 BASCULEIGON
-(903, 4, 14),		# #903 SNEASLER 
+(903, 14, 4),		# #903 SNEASLER 
 (904, 10, 4)		# #904 OVERQWIL
 # #905 ENAMORUS to be entered separately
 ;
@@ -4313,6 +4593,13 @@ INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`) VALUES
 # #905 ENAMORUS
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (905, 17, 3, 'incarnate_forme', 'けしんフォルム');
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (905, 17, 3, 'therian_forme', 'れいじゅうフォルム');
+
+# GEN 9 regulars
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`) VALUES
+(906, 9, NULL),		# #906 SPRIGATITO
+(909, 13, NULL),	# #909 FUECOCO
+(912, 6, NULL)		# #912 QUAXLY
+;
 
 # megas
 INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`, `mega_stone`) VALUES
@@ -4412,6 +4699,9 @@ INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`) VALUES
 ('galar_variant', 2, 15, 618)					# Stunfisk
 ;
 
+UPDATE `type_bundle` SET `jp_type_desc` = "ガラルノーマルモード" WHERE `pokedex_ref` IN (555) AND `type_name` = 'galar_standard_mode';
+UPDATE `type_bundle` SET `jp_type_desc` = "ガラルダルマモード" WHERE `pokedex_ref` IN (555) AND `type_name` = 'galar_zen_mode';
+
 # hisui_variant
 INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`) VALUES
 ('hisui_variant', 13, 8, 58),					# Growlithe
@@ -4420,20 +4710,18 @@ INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`) VALUES
 ('hisui_variant', 7, 9, 101),					# Electrode
 ('hisui_variant', 13, 1, 157),					# Typhlosion
 ('hisui_variant', 10, 4, 211),					# Qwilfish
+('hisui_variant', 14, 4, 215),					# Sneasel
 # ('hisui_variant', 10, 4, 412),					# Burmy
 ('hisui_variant', 6, 10, 503),					# Samurott
 ('hisui_variant', 9, 14, 549),					# Lilligant
 ('hisui_variant', 12, 1, 570),					# Zorua
 ('hisui_variant', 12, 1, 571),					# Zoroark
 ('hisui_variant', 16, 3, 628),					# Braviary
-('hisui_variant', 0, 15, 705),					# Sliggoo
-('hisui_variant', 0, 15, 706),					# Goodra
+('hisui_variant', 15, 0, 705),					# Sliggoo
+('hisui_variant', 15, 0, 706),					# Goodra
+('hisui_variant', 11, 8, 713),					# Avalugg
 ('hisui_variant', 9, 14, 724)					# Decidueye
 ;
-
-
-UPDATE `type_bundle` SET `jp_type_desc` = "ガラルノーマルモード" WHERE `pokedex_ref` IN (555) AND `type_name` = 'galar_standard_mode';
-UPDATE `type_bundle` SET `jp_type_desc` = "ガラルダルマモード" WHERE `pokedex_ref` IN (555) AND `type_name` = 'galar_zen_mode';
 
 # KANTO PKMN descriptions
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 1) WHERE `pokedex_ref` IN (1, 2, 3, 191);				# Seed
@@ -4594,7 +4882,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 147) WHERE `pokedex_ref` IN (228, 229);					# Dark
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 148) WHERE `pokedex_ref` IN (231);						# Long Nose
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 149) WHERE `pokedex_ref` IN (232, 248);					# Armor
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 150) WHERE `pokedex_ref` IN (234);						# Big Horn
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 150) WHERE `pokedex_ref` IN (234, 899);					# Big Horn
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 151) WHERE `pokedex_ref` IN (235);						# Painter
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 152) WHERE `pokedex_ref` IN (236);						# Scuffle
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 153) WHERE `pokedex_ref` IN (237);						# Handstand
@@ -5141,6 +5429,26 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 
 # #898 CALYREX Descriptions
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 652) WHERE `pokedex_ref` IN (898) AND INSTR(`type_name`, 'rider') > 0;				# High King
+
+# HISUI PKMN descriptions
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 101) WHERE `pokedex_ref` IN (58) AND INSTR(`type_name`, 'hisui') > 0;			# Scout
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 653) WHERE `pokedex_ref` IN (100, 101) AND INSTR(`type_name`, 'hisui') > 0;		# Sphere
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 654) WHERE `pokedex_ref` IN (157) AND INSTR(`type_name`, 'hisui') > 0;			# Ghost Flame
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 655) WHERE `pokedex_ref` IN (549) AND INSTR(`type_name`, 'hisui') > 0;			# Spinning
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 656) WHERE `pokedex_ref` IN (570) AND INSTR(`type_name`, 'hisui') > 0;			# Spiteful
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 657) WHERE `pokedex_ref` IN (571) AND INSTR(`type_name`, 'hisui') > 0;			# Baneful
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 658) WHERE `pokedex_ref` IN (628) AND INSTR(`type_name`, 'hisui') > 0;			# Battle Cry
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 448) WHERE `pokedex_ref` IN (705) AND INSTR(`type_name`, 'hisui') > 0;			# Snail
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 659) WHERE `pokedex_ref` IN (706) AND INSTR(`type_name`, 'hisui') > 0;			# Shell Bunker
+
+# HISUI PKMN descriptions
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 660) WHERE `pokedex_ref` IN (900);						# Axe
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 661) WHERE `pokedex_ref` IN (901);						# Peat
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 662) WHERE `pokedex_ref` IN (902);						# Big Fish
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 663) WHERE `pokedex_ref` IN (903);						# Free Climb
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 664) WHERE `pokedex_ref` IN (904);						# Pin Cluster
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 665) WHERE `pokedex_ref` IN (905);						# Love-Hate
+
 
 # insert exclusive Z-moves
 # UPDATE `type_bundle` SET `excl_z_ref` = 1 WHERE `pokedex_ref` = 25 AND INSTR(`type_name`, 'cap');						# 10,000,000 Volt Thunderbolt (Cap Pikachu)
@@ -6008,20 +6316,21 @@ UPDATE `type_bundle` SET `ability2` = 38 WHERE
 
 # Inner Focus
 UPDATE `type_bundle` SET `ability1` = 39 WHERE
-(`pokedex_ref` = 41 AND `type_name` = 'default') OR		# Zubat
-(`pokedex_ref` = 42 AND `type_name` = 'default') OR		# Golbat
-(`pokedex_ref` = 149 AND `type_name` = 'default') OR	# Dragonite
-(`pokedex_ref` = 169 AND `type_name` = 'default') OR	# Crobat
-(`pokedex_ref` = 203 AND `type_name` = 'default') OR	# Girafarig
-(`pokedex_ref` = 215 AND `type_name` = 'default') OR	# Sneasel
-(`pokedex_ref` = 361 AND `type_name` = 'default') OR	# Snorunt
-(`pokedex_ref` = 362 AND `type_name` = 'default') OR	# Glalie
-(`pokedex_ref` = 475 AND `type_name` = 'mega') OR		# MEGA Gallade
-(`pokedex_ref` = 619 AND `type_name` = 'default') OR	# Mienfoo
-(`pokedex_ref` = 620 AND `type_name` = 'default') OR	# Mienshao
-(`pokedex_ref` = 765 AND `type_name` = 'default') OR	# Oranguru
-(`pokedex_ref` = 876 AND `type_name` = 'default_m') OR	# Indeedee (M)
-(`pokedex_ref` = 891 AND `type_name` = 'default');		# Kubfu
+(`pokedex_ref` = 41 AND `type_name` = 'default') OR			# Zubat
+(`pokedex_ref` = 42 AND `type_name` = 'default') OR			# Golbat
+(`pokedex_ref` = 149 AND `type_name` = 'default') OR		# Dragonite
+(`pokedex_ref` = 169 AND `type_name` = 'default') OR		# Crobat
+(`pokedex_ref` = 203 AND `type_name` = 'default') OR		# Girafarig
+(`pokedex_ref` = 215 AND `type_name` = 'default') OR		# Sneasel
+(`pokedex_ref` = 215 AND `type_name` = 'hisui_variant') OR	# Sneasel (Hisui)
+(`pokedex_ref` = 361 AND `type_name` = 'default') OR		# Snorunt
+(`pokedex_ref` = 362 AND `type_name` = 'default') OR		# Glalie
+(`pokedex_ref` = 475 AND `type_name` = 'mega') OR			# MEGA Gallade
+(`pokedex_ref` = 619 AND `type_name` = 'default') OR		# Mienfoo
+(`pokedex_ref` = 620 AND `type_name` = 'default') OR		# Mienshao
+(`pokedex_ref` = 765 AND `type_name` = 'default') OR		# Oranguru
+(`pokedex_ref` = 876 AND `type_name` = 'default_m') OR		# Indeedee (M)
+(`pokedex_ref` = 891 AND `type_name` = 'default');			# Kubfu
 UPDATE `type_bundle` SET `ability2` = 39 WHERE
 (`pokedex_ref` = 63 AND `type_name` = 'default') OR		# Abra
 (`pokedex_ref` = 64 AND `type_name` = 'default') OR		# Kadabra
@@ -6309,13 +6618,14 @@ UPDATE `type_bundle` SET `ability1` = 51 WHERE
 (`pokedex_ref` = 821 AND `type_name` = 'default') OR		# Rookidee
 (`pokedex_ref` = 822 AND `type_name` = 'default');			# Corvisquire
 UPDATE `type_bundle` SET `ability2` = 51 WHERE
-(`pokedex_ref` = 161 AND `type_name` = 'default') OR	# Sentret
-(`pokedex_ref` = 162 AND `type_name` = 'default') OR	# Furret
-(`pokedex_ref` = 163 AND `type_name` = 'default') OR	# Hoothoot
-(`pokedex_ref` = 164 AND `type_name` = 'default') OR	# Noctowl
-(`pokedex_ref` = 215 AND `type_name` = 'default') OR	# Sneasel
-(`pokedex_ref` = 504 AND `type_name` = 'default') OR	# Patrat
-(`pokedex_ref` = 505 AND `type_name` = 'default');		# Watchog
+(`pokedex_ref` = 161 AND `type_name` = 'default') OR		# Sentret
+(`pokedex_ref` = 162 AND `type_name` = 'default') OR		# Furret
+(`pokedex_ref` = 163 AND `type_name` = 'default') OR		# Hoothoot
+(`pokedex_ref` = 164 AND `type_name` = 'default') OR		# Noctowl
+(`pokedex_ref` = 215 AND `type_name` = 'default') OR		# Sneasel
+(`pokedex_ref` = 215 AND `type_name` = 'hisui_variant') OR	# Sneasel (Hisui)
+(`pokedex_ref` = 504 AND `type_name` = 'default') OR		# Patrat
+(`pokedex_ref` = 505 AND `type_name` = 'default');			# Watchog
 UPDATE `type_bundle` SET `hidden_ability` = 51 WHERE
 (`pokedex_ref` = 431 AND `type_name` = 'default') OR	# Glameow
 (`pokedex_ref` = 434 AND `type_name` = 'default') OR	# Stunky
@@ -6557,7 +6867,10 @@ UPDATE `type_bundle` SET `ability1` = 65 WHERE
 (`pokedex_ref` = 724 AND `type_name` = 'hisui_variant') OR	# Decidueye (Hisui)
 (`pokedex_ref` = 810 AND `type_name` = 'default') OR		# Grookey
 (`pokedex_ref` = 811 AND `type_name` = 'default') OR		# Thwackey
-(`pokedex_ref` = 812 AND `type_name` = 'default');			# Rillaboom
+(`pokedex_ref` = 812 AND `type_name` = 'default') OR		# Rillaboom
+(`pokedex_ref` = 906 AND `type_name` = 'default') OR		# Sprigatito
+(`pokedex_ref` = 907 AND `type_name` = 'default') OR		# Sprigatito Evo 1
+(`pokedex_ref` = 908 AND `type_name` = 'default');			# Sprigatito Evo 2
 UPDATE `type_bundle` SET `hidden_ability` = 65 WHERE
 (`pokedex_ref` = 511 AND `type_name` = 'default') OR		# Pansage
 (`pokedex_ref` = 512 AND `type_name` = 'default');			# Simisage
@@ -6588,7 +6901,10 @@ UPDATE `type_bundle` SET `ability1` = 66 WHERE
 (`pokedex_ref` = 727 AND `type_name` = 'default') OR		# Incineroar
 (`pokedex_ref` = 813 AND `type_name` = 'default') OR		# Scorbunny
 (`pokedex_ref` = 814 AND `type_name` = 'default') OR		# Raboot
-(`pokedex_ref` = 815 AND `type_name` = 'default');			# Cinderace
+(`pokedex_ref` = 815 AND `type_name` = 'default') OR		# Cinderace
+(`pokedex_ref` = 909 AND `type_name` = 'default') OR		# Fuecoco
+(`pokedex_ref` = 910 AND `type_name` = 'default') OR		# Fuecoco Evo 1
+(`pokedex_ref` = 911 AND `type_name` = 'default');			# Fuecoco Evo 2
 UPDATE `type_bundle` SET `hidden_ability` = 66 WHERE
 (`pokedex_ref` = 513 AND `type_name` = 'default') OR		# Pansear
 (`pokedex_ref` = 514 AND `type_name` = 'default');			# Simisear
@@ -6619,7 +6935,10 @@ UPDATE `type_bundle` SET `ability1` = 67 WHERE
 (`pokedex_ref` = 730 AND `type_name` = 'default') OR		# Primarina
 (`pokedex_ref` = 816 AND `type_name` = 'default') OR		# Sobble
 (`pokedex_ref` = 817 AND `type_name` = 'default') OR		# Drizzile
-(`pokedex_ref` = 818 AND `type_name` = 'default');			# Inteleon
+(`pokedex_ref` = 818 AND `type_name` = 'default') OR		# Inteleon
+(`pokedex_ref` = 912 AND `type_name` = 'default') OR		# Quaxly
+(`pokedex_ref` = 913 AND `type_name` = 'default') OR		# Quaxly Evo 1
+(`pokedex_ref` = 914 AND `type_name` = 'default');			# Quaxly Evo 2
 UPDATE `type_bundle` SET `hidden_ability` = 67 WHERE
 (`pokedex_ref` = 515 AND `type_name` = 'default') OR		# Panpour
 (`pokedex_ref` = 516 AND `type_name` = 'default');			# Simipour
@@ -7608,14 +7927,15 @@ UPDATE `type_bundle` SET `hidden_ability` = 130 WHERE
 
 # Healer
 UPDATE `type_bundle` SET `ability1` = 131 WHERE
-(`pokedex_ref` = 531 AND `type_name` = 'default') OR	# Audino
-(`pokedex_ref` = 531 AND `type_name` = 'mega') OR		# MEGA Audino
-(`pokedex_ref` = 594 AND `type_name` = 'default') OR	# Alomomola
-(`pokedex_ref` = 682 AND `type_name` = 'default') OR	# Spritzee
-(`pokedex_ref` = 683 AND `type_name` = 'default') OR	# Aromatisse
-(`pokedex_ref` = 856 AND `type_name` = 'default') OR	# Hatenna
-(`pokedex_ref` = 857 AND `type_name` = 'default') OR	# Hattrem
-(`pokedex_ref` = 858 AND `type_name` = 'default');		# Hatterene
+(`pokedex_ref` = 531 AND `type_name` = 'default') OR			# Audino
+(`pokedex_ref` = 531 AND `type_name` = 'mega') OR				# MEGA Audino
+(`pokedex_ref` = 594 AND `type_name` = 'default') OR			# Alomomola
+(`pokedex_ref` = 682 AND `type_name` = 'default') OR			# Spritzee
+(`pokedex_ref` = 683 AND `type_name` = 'default') OR			# Aromatisse
+(`pokedex_ref` = 856 AND `type_name` = 'default') OR			# Hatenna
+(`pokedex_ref` = 857 AND `type_name` = 'default') OR			# Hattrem
+(`pokedex_ref` = 858 AND `type_name` = 'default') OR			# Hatterene
+(`pokedex_ref` = 905 AND `type_name` = 'incarnate_forme');		# Enamorus
 UPDATE `type_bundle` SET `hidden_ability` = 131 WHERE
 (`pokedex_ref` = 113 AND `type_name` = 'default') OR	# Chansey
 (`pokedex_ref` = 182 AND `type_name` = 'default') OR	# Bellossom
@@ -7786,11 +8106,12 @@ UPDATE `type_bundle` SET `ability2` = 143 WHERE
 (`pokedex_ref` = 690 AND `type_name` = 'default') OR	# Skrelp
 (`pokedex_ref` = 691 AND `type_name` = 'default');		# Dragalge
 UPDATE `type_bundle` SET `hidden_ability` = 143 WHERE
-(`pokedex_ref` = 88 AND `type_name` = 'default') OR		# Grimer
-(`pokedex_ref` = 89 AND `type_name` = 'default') OR		# Muk
-(`pokedex_ref` = 453 AND `type_name` = 'default') OR	# Croagunk
-(`pokedex_ref` = 454 AND `type_name` = 'default') OR	# Toxicroak
-(`pokedex_ref` = 903 AND `type_name` = 'default');		# Sneasler
+(`pokedex_ref` = 88 AND `type_name` = 'default') OR			# Grimer
+(`pokedex_ref` = 89 AND `type_name` = 'default') OR			# Muk
+(`pokedex_ref` = 215 AND `type_name` = 'hisui_variant') OR	# Sneasel (Hisui)
+(`pokedex_ref` = 453 AND `type_name` = 'default') OR		# Croagunk
+(`pokedex_ref` = 454 AND `type_name` = 'default') OR		# Toxicroak
+(`pokedex_ref` = 903 AND `type_name` = 'default');			# Sneasler
 
 # Regenerator
 UPDATE `type_bundle` SET `ability1` = 144 WHERE
@@ -8670,6 +8991,40 @@ UPDATE `type_bundle` SET `ability1` = 265 WHERE
 UPDATE `type_bundle` SET `ability1` = 266 WHERE
 (`pokedex_ref` = 898 AND INSTR(`type_name`, 'rider') > 0);		# Calyrex (Ice Rider and Snow Rider)
 
+DROP TABLE IF EXISTS `base_stats`;
+CREATE TABLE `base_stats` (
+	`pokedex_ref`	INT NOT NULL,
+	`type_name`		VARCHAR(50) NOT NULL,
+	`hp`			INT NOT NULL,
+    `atk`			INT NOT NULL,
+    `def`			INT NOT NULL,
+    `spa`			INT NOT NULL,
+    `spd`			INT NOT NULL,
+    `spe`			INT NOT NULL,
+    
+    FOREIGN KEY (`type_name`, `pokedex_ref`) REFERENCES `type_bundle` (`type_name`, `pokedex_ref`)
+);
+
+# Base Stats: Hisui Variants
+INSERT INTO `base_stats` VALUES
+(58, 'hisui_variant', 60, 75, 45, 65, 50, 55),
+(59, 'hisui_variant', 95, 115, 80, 95, 80, 90),
+(100, 'hisui_variant', 40, 30, 50, 55, 55, 100),
+(101, 'hisui_variant', 60, 50, 70, 80, 80, 150),
+(157, 'hisui_variant', 73, 84, 78, 119, 85, 95),
+(211, 'hisui_variant', 65, 95, 85, 55, 55, 85),
+(215, 'hisui_variant', 55, 95, 55, 35, 75, 115),
+(503, 'hisui_variant', 90, 108, 80, 100, 65, 85),
+(549, 'hisui_variant', 70, 105, 75, 50, 75, 105),
+(570, 'hisui_variant', 35, 60, 40, 85, 40, 70),
+(571, 'hisui_variant', 55, 100, 60, 125, 60, 110),
+(628, 'hisui_variant', 110, 83, 70, 112, 70, 65),
+(706, 'hisui_variant', 58, 75, 83, 83, 113, 40),
+(706, 'hisui_variant', 80, 100, 100, 110, 150, 60),
+(713, 'hisui_variant', 95, 127, 184, 34, 36, 38),
+(724, 'hisui_variant', 88, 112, 80, 95, 95, 60)
+;
+
 DELIMITER //
 
 DROP PROCEDURE IF EXISTS `show_pkmn_rev` //
@@ -8696,7 +9051,8 @@ CREATE PROCEDURE `show_pkmn`(`keyword` VARCHAR(50))
 BEGIN
 	IF `keyword` = '' THEN
 		SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, 
-        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* FROM `pokemon_list` pl
+        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.*
+        FROM `pokemon_list` pl
 		JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
         JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
         LEFT JOIN `excl_z` z ON z.id = tb.`excl_z_ref`
@@ -8707,7 +9063,8 @@ BEGIN
 		ORDER BY pl.`id` ASC;
     ELSE
 		SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, 
-        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* FROM `pokemon_list` pl
+        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* 
+        FROM `pokemon_list` pl
         JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
         JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
         LEFT JOIN `excl_z` z ON z.id = pl.`id`

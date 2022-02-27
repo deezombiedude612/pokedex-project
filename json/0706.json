@@ -2,7 +2,8 @@
 	"id": {
 		"national": 706,
 		"galar_swsh": 391,
-		"galar_isle_of_armor": 62
+		"galar_isle_of_armor": 62,
+		"hisui_legarc": 117
 	},
 	"name": {
 		"en": "Goodra",
@@ -20,9 +21,9 @@
 		}
 	},
 	"hisui_variant": {
-		"desc": "Dragon Pokémon",
-		"type_id": [0, 15],
-		"type": ["dragon", "steel"],
+		"desc": "Shell Bunker Pokémon",
+		"type_id": [15, 0],
+		"type": ["steel", "dragon"],
 		"abilities": {
 			"ability_1": "Sap Sipper",
 			"ability_2": "Overcoat",

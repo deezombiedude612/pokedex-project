@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 549,
-		"galar_isle_of_armor": 202
+		"galar_isle_of_armor": 202,
+		"hisui_legarc": 94
 	},
 	"name": {
 		"en": "Lilligant",
@@ -19,7 +20,7 @@
 		}
 	},
 	"hisui_variant": {
-		"desc": "Flowering Pokémon",
+		"desc": "Spinning Pokémon",
 		"type_id": [9, 14],
 		"type": ["grass", "fighting"],
 		"abilities": {

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 100,
-		"kanto_lgpe": 100
+		"kanto_lgpe": 100,
+		"hisui_legarc": 192
 	},
 	"name": {
 		"en": "Voltorb",
@@ -19,7 +20,7 @@
 		}
 	},
 	"hisui_variant": {
-		"desc": "Ball Pokémon",
+		"desc": "Sphere Pokémon",
 		"type_id": [7, 9],
 		"type": ["electric", "grass"],
 		"abilities": {

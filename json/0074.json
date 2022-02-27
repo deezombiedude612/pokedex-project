@@ -2,23 +2,14 @@
 	"id": {
 		"national": 74,
 		"kanto_lgpe": 74,
-		"sinnoh_bdsp": 31
+		"sinnoh_bdsp": 31,
+		"hisui_legarc": 46
 	},
 	"name": {
 		"en": "Geodude",
 		"jp": "イシツブテ"
 	},
 	"baby": false,
-	"default": {
-		"desc": "Rock Pokémon",
-		"type_id": [8, 2],
-		"type": ["rock", "ground"],
-		"abilities": {
-			"ability_1": "Rock Head",
-			"ability_2": "Sturdy",
-			"hidden_ability": "Sand Veil"
-		}
-	},
 	"alola_variant": {
 		"desc": "Rock Pokémon",
 		"type_id": [8, 7],
@@ -27,6 +18,16 @@
 			"ability_1": "Magnet Pull",
 			"ability_2": "Sturdy",
 			"hidden_ability": "Galvanize"
+		}
+	},
+	"default": {
+		"desc": "Rock Pokémon",
+		"type_id": [8, 2],
+		"type": ["rock", "ground"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Sand Veil"
 		}
 	}
 }

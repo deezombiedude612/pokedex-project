@@ -4,13 +4,43 @@
 		"kanto_lgpe": 25,
 		"galar_swsh": 194,
 		"galar_isle_of_armor": 85,
-		"sinnoh_bdsp": 104
+		"sinnoh_bdsp": 104,
+		"hisui_legarc": 56
 	},
 	"name": {
 		"en": "Pikachu",
 		"jp": "ピカチュウ"
 	},
 	"baby": false,
+	"alola_cap": {
+		"desc": "Mouse Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"exclusive_z": {
+			"excl_z_move": "10,000,000 Volt Thunderbolt",
+			"excl_z_move_type_id": 7,
+			"excl_z_move_type": "electric",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Pikashunium Z",
+			"excl_z_required_move": "Thunderbolt",
+			"excl_z_power": 195
+		},
+		"abilities": {
+			"ability_1": "Static",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"cosplay_pikachu": {
+		"desc": "Mouse Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Lightning Rod",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
 	"default": {
 		"desc": "Mouse Pokémon",
 		"type_id": [7, -1],
@@ -35,12 +65,40 @@
 			"hidden_ability": "Lightning Rod"
 		}
 	},
-	"cosplay_pikachu": {
+	"hoenn_cap": {
 		"desc": "Mouse Pokémon",
 		"type_id": [7, -1],
 		"type": ["electric"],
+		"exclusive_z": {
+			"excl_z_move": "10,000,000 Volt Thunderbolt",
+			"excl_z_move_type_id": 7,
+			"excl_z_move_type": "electric",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Pikashunium Z",
+			"excl_z_required_move": "Thunderbolt",
+			"excl_z_power": 195
+		},
 		"abilities": {
-			"ability_1": "Lightning Rod",
+			"ability_1": "Static",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"kalos_cap": {
+		"desc": "Mouse Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"exclusive_z": {
+			"excl_z_move": "10,000,000 Volt Thunderbolt",
+			"excl_z_move_type_id": 7,
+			"excl_z_move_type": "electric",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Pikashunium Z",
+			"excl_z_required_move": "Thunderbolt",
+			"excl_z_power": 195
+		},
+		"abilities": {
+			"ability_1": "Static",
 			"ability_2": false,
 			"hidden_ability": false
 		}
@@ -64,7 +122,7 @@
 			"hidden_ability": false
 		}
 	},
-	"hoenn_cap": {
+	"partner_cap": {
 		"desc": "Mouse Pokémon",
 		"type_id": [7, -1],
 		"type": ["electric"],
@@ -103,63 +161,6 @@
 		}
 	},
 	"unova_cap": {
-		"desc": "Mouse Pokémon",
-		"type_id": [7, -1],
-		"type": ["electric"],
-		"exclusive_z": {
-			"excl_z_move": "10,000,000 Volt Thunderbolt",
-			"excl_z_move_type_id": 7,
-			"excl_z_move_type": "electric",
-			"excl_z_move_category": "special",
-			"excl_z_crystal": "Pikashunium Z",
-			"excl_z_required_move": "Thunderbolt",
-			"excl_z_power": 195
-		},
-		"abilities": {
-			"ability_1": "Static",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
-	"kalos_cap": {
-		"desc": "Mouse Pokémon",
-		"type_id": [7, -1],
-		"type": ["electric"],
-		"exclusive_z": {
-			"excl_z_move": "10,000,000 Volt Thunderbolt",
-			"excl_z_move_type_id": 7,
-			"excl_z_move_type": "electric",
-			"excl_z_move_category": "special",
-			"excl_z_crystal": "Pikashunium Z",
-			"excl_z_required_move": "Thunderbolt",
-			"excl_z_power": 195
-		},
-		"abilities": {
-			"ability_1": "Static",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
-	"alola_cap": {
-		"desc": "Mouse Pokémon",
-		"type_id": [7, -1],
-		"type": ["electric"],
-		"exclusive_z": {
-			"excl_z_move": "10,000,000 Volt Thunderbolt",
-			"excl_z_move_type_id": 7,
-			"excl_z_move_type": "electric",
-			"excl_z_move_category": "special",
-			"excl_z_crystal": "Pikashunium Z",
-			"excl_z_required_move": "Thunderbolt",
-			"excl_z_power": 195
-		},
-		"abilities": {
-			"ability_1": "Static",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
-	"partner_cap": {
 		"desc": "Mouse Pokémon",
 		"type_id": [7, -1],
 		"type": ["electric"],

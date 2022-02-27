@@ -17,20 +17,20 @@
 			"hidden_ability": false
 		}
 	},
-	"pompom_style": {
+	"pa'u_style": {
 		"desc": "Dancing Pokémon",
-		"type_id": [7, 3],
-		"type": ["electric", "flying"],
+		"type_id": [16, 3],
+		"type": ["psychic", "flying"],
 		"abilities": {
 			"ability_1": "Dancer",
 			"ability_2": false,
 			"hidden_ability": false
 		}
 	},
-	"pa'u_style": {
+	"pompom_style": {
 		"desc": "Dancing Pokémon",
-		"type_id": [16, 3],
-		"type": ["psychic", "flying"],
+		"type_id": [7, 3],
+		"type": ["electric", "flying"],
 		"abilities": {
 			"ability_1": "Dancer",
 			"ability_2": false,

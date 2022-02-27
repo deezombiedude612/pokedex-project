@@ -1,22 +1,20 @@
 {
 	"id": {
-		"national": 388,
-		"sinnoh_bdsp": 2,
-		"hisui_legarc": 131
+		"national": 906
 	},
 	"name": {
-		"en": "Grotle",
-		"jp": "ハヤシガメ"
+		"en": "Sprigatito",
+		"jp": "ニャオハ"
 	},
 	"baby": false,
 	"default": {
-		"desc": "Grove Pokémon",
+		"desc": "",
 		"type_id": [9, -1],
 		"type": ["grass"],
 		"abilities": {
 			"ability_1": "Overgrow",
 			"ability_2": false,
-			"hidden_ability": "Shell Armor"
+			"hidden_ability": false
 		}
 	}
 }

@@ -9,6 +9,16 @@
 		"jp": "ニャース"
 	},
 	"baby": false,
+	"alola_variant": {
+		"desc": "Scratch Cat Pokémon",
+		"type_id": [10, -1],
+		"type": ["dark"],
+		"abilities": {
+			"ability_1": "Pickup",
+			"ability_2": "Technician",
+			"hidden_ability": "Rattled"
+		}
+	},
 	"default": {
 		"desc": "Scratch Cat Pokémon",
 		"type_id": [12, -1],
@@ -22,16 +32,6 @@
 			"ability_1": "Pickup",
 			"ability_2": "Technician",
 			"hidden_ability": "Unnerve"
-		}
-	},
-	"alola_variant": {
-		"desc": "Scratch Cat Pokémon",
-		"type_id": [10, -1],
-		"type": ["dark"],
-		"abilities": {
-			"ability_1": "Pickup",
-			"ability_2": "Technician",
-			"hidden_ability": "Rattled"
 		}
 	},
 	"galar_variant": {

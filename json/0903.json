@@ -1,16 +1,17 @@
 {
 	"id": {
-		"national": 903
+		"national": 903,
+		"hisui_legarc": 203
 	},
 	"name": {
 		"en": "Sneasler",
-		"jp": ""
+		"jp": "オオニューラ"
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
-		"type_id": [4, 14],
-		"type": ["poison", "fighting"],
+		"desc": "Free Climb Pokémon",
+		"type_id": [14, 4],
+		"type": ["fighting", "poison"],
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,

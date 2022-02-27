@@ -2,23 +2,14 @@
 	"id": {
 		"national": 38,
 		"kanto_lgpe": 38,
-		"galar_swsh": 69
+		"galar_swsh": 69,
+		"hisui_legarc": 169
 	},
 	"name": {
 		"en": "Ninetales",
 		"jp": "キュウコン"
 	},
 	"baby": false,
-	"default": {
-		"desc": "Fox Pokémon",
-		"type_id": [13, -1],
-		"type": ["fire"],
-		"abilities": {
-			"ability_1": "Flash Fire",
-			"ability_2": false,
-			"hidden_ability": "Drought"
-		}
-	},
 	"alola_variant": {
 		"desc": "Fox Pokémon",
 		"type_id": [11, 17],
@@ -27,6 +18,16 @@
 			"ability_1": "Snow Cloak",
 			"ability_2": false,
 			"hidden_ability": "Snow Warning"
+		}
+	},
+	"default": {
+		"desc": "Fox Pokémon",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": false,
+			"hidden_ability": "Drought"
 		}
 	}
 }

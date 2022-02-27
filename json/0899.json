@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 899
+		"national": 899,
+		"hisui_legarc": 50
 	},
 	"name": {
 		"en": "Wyrdeer",
@@ -8,7 +9,7 @@
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Big Horn Pokémon",
 		"type_id": [12, 16],
 		"type": ["normal", "psychic"],
 		"abilities": {

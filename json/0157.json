@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 157
+		"national": 157,
+		"hisui_legarc": 6
 	},
 	"name": {
 		"en": "Typhlosion",
@@ -18,7 +19,7 @@
 		}
 	},
 	"hisui_variant": {
-		"desc": "Volcano Pokémon",
+		"desc": "Ghost Flame Pokémon",
 		"type_id": [13, 1],
 		"type": ["fire", "ghost"],
 		"abilities": {

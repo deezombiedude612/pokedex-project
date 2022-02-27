@@ -1,27 +1,28 @@
 {
 	"id": {
 		"national": 101,
-		"kanto_lgpe": 101
+		"kanto_lgpe": 101,
+		"hisui_legarc": 193
 	},
 	"name": {
 		"en": "Electrode",
 		"jp": "マルマイン"
 	},
 	"baby": false,
-	"default": {
-		"desc": "Ball Pokémon",
-		"type_id": [7, -1],
-		"type": ["electric"],
+	"hisui_variant": {
+		"desc": "Sphere Pokémon",
+		"type_id": [7, 9],
+		"type": ["electric", "grass"],
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Static",
 			"hidden_ability": "Aftermath"
 		}
 	},
-	"hisui_variant": {
+	"default": {
 		"desc": "Ball Pokémon",
-		"type_id": [7, 9],
-		"type": ["electric", "grass"],
+		"type_id": [7, -1],
+		"type": ["electric"],
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Static",

@@ -19,13 +19,6 @@
 			"hidden_ability": "Regenerator"
 		}
 	},
-	"mega": {
-		"desc": "Hermit Crab Pokémon",
-		"type_id": [6, 16],
-		"type": ["water", "psychic"],
-		"ability": "Shell Armor",
-		"mega_stone": "Slowbronite"
-	},
 	"galar_variant": {
 		"desc": "Hermit Crab Pokémon",
 		"type_id": [4, 16],
@@ -35,5 +28,12 @@
 			"ability_2": "Own Tempo",
 			"hidden_ability": "Regenerator"
 		}
+	},
+	"mega": {
+		"desc": "Hermit Crab Pokémon",
+		"type_id": [6, 16],
+		"type": ["water", "psychic"],
+		"ability": "Shell Armor",
+		"mega_stone": "Slowbronite"
 	}
 }

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 902
+		"national": 902,
+		"hisui_legarc": 167
 	},
 	"name": {
 		"en": "Basculeigon",
@@ -8,7 +9,7 @@
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Big Fish Pokémon",
 		"type_id": [6, 1],
 		"type": ["water", "ghost"],
 		"abilities": {

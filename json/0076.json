@@ -2,23 +2,14 @@
 	"id": {
 		"national": 76,
 		"kanto_lgpe": 76,
-		"sinnoh_bdsp": 33
+		"sinnoh_bdsp": 33,
+		"hisui_legarc": 48
 	},
 	"name": {
 		"en": "Golem",
 		"jp": "ゴローニャ"
 	},
 	"baby": false,
-	"default": {
-		"desc": "Megaton Pokémon",
-		"type_id": [8, 2],
-		"type": ["rock", "ground"],
-		"abilities": {
-			"ability_1": "Rock Head",
-			"ability_2": "Sturdy",
-			"hidden_ability": "Sand Veil"
-		}
-	},
 	"alola_variant": {
 		"desc": "Megaton Pokémon",
 		"type_id": [8, 7],
@@ -27,6 +18,16 @@
 			"ability_1": "Magnet Pull",
 			"ability_2": "Sturdy",
 			"hidden_ability": "Galvanize"
+		}
+	},
+	"default": {
+		"desc": "Megaton Pokémon",
+		"type_id": [8, 2],
+		"type": ["rock", "ground"],
+		"abilities": {
+			"ability_1": "Rock Head",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Sand Veil"
 		}
 	}
 }

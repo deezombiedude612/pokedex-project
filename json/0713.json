@@ -2,7 +2,8 @@
 	"id": {
 		"national": 713,
 		"galar_swsh": 359,
-		"galar_crown_tundra": 143
+		"galar_crown_tundra": 143,
+		"hisui_legarc": 216
 	},
 	"name": {
 		"en": "Avalugg",
@@ -15,6 +16,16 @@
 		"type": ["ice"],
 		"abilities": {
 			"ability_1": "Own Tempo",
+			"ability_2": "Ice Body",
+			"hidden_ability": "Sturdy"
+		}
+	},
+	"hisui_variant": {
+		"desc": "Iceberg Pokémon",
+		"type_id": [11, 8],
+		"type": ["ice", "rock"],
+		"abilities": {
+			"ability_1": "Strong Jaw",
 			"ability_2": "Ice Body",
 			"hidden_ability": "Sturdy"
 		}

@@ -1,22 +1,20 @@
 {
 	"id": {
-		"national": 390,
-		"sinnoh_bdsp": 4,
-		"hisui_legarc": 61
+		"national": 909
 	},
 	"name": {
-		"en": "Chimchar",
-		"jp": "ヒコザル"
+		"en": "Fuecoco",
+		"jp": "ホゲータ"
 	},
 	"baby": false,
 	"default": {
-		"desc": "Chimp Pokémon",
+		"desc": "",
 		"type_id": [13, -1],
 		"type": ["fire"],
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Iron Fist"
+			"hidden_ability": false
 		}
 	}
 }

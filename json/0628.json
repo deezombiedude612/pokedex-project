@@ -2,7 +2,8 @@
 	"id": {
 		"national": 628,
 		"galar_swsh": 282,
-		"galar_isle_of_armor": 180
+		"galar_isle_of_armor": 180,
+		"hisui_legarc": 222
 	},
 	"name": {
 		"en": "Braviary",
@@ -20,7 +21,7 @@
 		}
 	},
 	"hisui_variant": {
-		"desc": "Valiant Pokémon",
+		"desc": "Battle Cry Pokémon",
 		"type_id": [16, 3],
 		"type": ["psychic", "flying"],
 		"abilities": {

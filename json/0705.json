@@ -2,13 +2,24 @@
 	"id": {
 		"national": 705,
 		"galar_swsh": 390,
-		"galar_isle_of_armor": 61
+		"galar_isle_of_armor": 61,
+		"hisui_legarc": 116
 	},
 	"name": {
 		"en": "Sliggoo",
 		"jp": "ヌメイル"
 	},
 	"baby": false,
+	"hisui_variant": {
+		"desc": "Snail Pokémon",
+		"type_id": [15, 0],
+		"type": ["steel", "dragon"],
+		"abilities": {
+			"ability_1": "Sap Sipper",
+			"ability_2": "Overcoat",
+			"hidden_ability": "Gooey"
+		}
+	},
 	"default": {
 		"desc": "Soft Tissue Pokémon",
 		"type_id": [0, -1],
@@ -16,16 +27,6 @@
 		"abilities": {
 			"ability_1": "Sap Sipper",
 			"ability_2": "Hydration",
-			"hidden_ability": "Gooey"
-		}
-	},
-	"hisui_variant": {
-		"desc": "Soft Tissue Pokémon",
-		"type_id": [0, 15],
-		"type": ["dragon", "steel"],
-		"abilities": {
-			"ability_1": "Sap Sipper",
-			"ability_2": "Overcoat",
 			"hidden_ability": "Gooey"
 		}
 	}

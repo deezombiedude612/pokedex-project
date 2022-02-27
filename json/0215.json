@@ -2,7 +2,8 @@
 	"id": {
 		"national": 215,
 		"galar_swsh": 292,
-		"sinnoh_bdsp": 144
+		"sinnoh_bdsp": 144,
+		"hisui_legarc": 202
 	},
 	"name": {
 		"en": "Sneasel",
@@ -17,6 +18,16 @@
 			"ability_1": "Inner Focus",
 			"ability_2": "Keen Eye",
 			"hidden_ability": "Pickpocket"
+		}
+	},
+	"hisui_variant": {
+		"desc": "Sharp Claw Pokémon",
+		"type_id": [14, 4],
+		"type": ["fighting", "poison"],
+		"abilities": {
+			"ability_1": "Inner Focus",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Poison Touch"
 		}
 	}
 }

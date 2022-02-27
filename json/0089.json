@@ -8,16 +8,6 @@
 		"jp": "ベトベト"
 	},
 	"baby": false,
-	"default": {
-		"desc": "Sludge Pokémon",
-		"type_id": [4, -1],
-		"type": ["poison"],
-		"abilities": {
-			"ability_1": "Stench",
-			"ability_2": "Sticky Hold",
-			"hidden_ability": "Poison Touch"
-		}
-	},
 	"alola_variant": {
 		"desc": "Sludge Pokémon",
 		"type_id": [4, 10],
@@ -26,6 +16,16 @@
 			"ability_1": "Poison Touch",
 			"ability_2": "Gluttony",
 			"hidden_ability": "Power of Alchemy"
+		}
+	},
+	"default": {
+		"desc": "Sludge Pokémon",
+		"type_id": [4, -1],
+		"type": ["poison"],
+		"abilities": {
+			"ability_1": "Stench",
+			"ability_2": "Sticky Hold",
+			"hidden_ability": "Poison Touch"
 		}
 	}
 }

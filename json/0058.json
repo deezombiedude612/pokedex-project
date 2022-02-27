@@ -2,7 +2,8 @@
 	"id": {
 		"national": 58,
 		"kanto_lgpe": 58,
-		"galar_swsh": 70
+		"galar_swsh": 70,
+		"hisui_legarc": 150
 	},
 	"name": {
 		"en": "Growlithe",
@@ -20,7 +21,7 @@
 		}
 	},
 	"hisui_variant": {
-		"desc": "Puppy Pokémon",
+		"desc": "Scout Pokémon",
 		"type_id": [13, 8],
 		"type": ["fire", "rock"],
 		"abilities": {

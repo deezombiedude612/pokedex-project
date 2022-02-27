@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 479,
-		"galar_swsh": 372
+		"galar_swsh": 372,
+		"hisui_legarc": 194
 	},
 	"name": {
 		"en": "Rotom",
@@ -18,20 +19,10 @@
 			"hidden_ability": false
 		}
 	},
-	"heat_rotom": {
+	"fan_rotom": {
 		"desc": "Plasma Pokémon",
-		"type_id": [7, 13],
-		"type": ["electric", "fire"],
-		"abilities": {
-			"ability_1": "Levitate",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
-	"wash_rotom": {
-		"desc": "Plasma Pokémon",
-		"type_id": [7, 6],
-		"type": ["electric", "water"],
+		"type_id": [7, 3],
+		"type": ["electric", "flying"],
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
@@ -48,10 +39,10 @@
 			"hidden_ability": false
 		}
 	},
-	"fan_rotom": {
+	"heat_rotom": {
 		"desc": "Plasma Pokémon",
-		"type_id": [7, 3],
-		"type": ["electric", "flying"],
+		"type_id": [7, 13],
+		"type": ["electric", "fire"],
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
@@ -62,6 +53,16 @@
 		"desc": "Plasma Pokémon",
 		"type_id": [7, 9],
 		"type": ["electric", "grass"],
+		"abilities": {
+			"ability_1": "Levitate",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"wash_rotom": {
+		"desc": "Plasma Pokémon",
+		"type_id": [7, 6],
+		"type": ["electric", "water"],
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,

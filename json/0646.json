@@ -7,6 +7,16 @@
 		"jp": "キュレム"
 	},
 	"baby": false,
+	"black_kyurem": {
+		"desc": "Boundary Pokémon",
+		"type_id": [0, 11],
+		"type": ["dragon", "ice"],
+		"abilities": {
+			"ability_1": "Teravolt",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
 	"default": {
 		"desc": "Boundary Pokémon",
 		"type_id": [0, 11],
@@ -23,16 +33,6 @@
 		"type": ["dragon", "ice"],
 		"abilities": {
 			"ability_1": "Turboblaze",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
-	"black_kyurem": {
-		"desc": "Boundary Pokémon",
-		"type_id": [0, 11],
-		"type": ["dragon", "ice"],
-		"abilities": {
-			"ability_1": "Teravolt",
 			"ability_2": false,
 			"hidden_ability": false
 		}

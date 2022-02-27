@@ -8,20 +8,20 @@
 		"jp": "ザマゼンタ"
 	},
 	"baby": false,
-	"hero_of_many_battles": {
+	"crowned_shield": {
 		"desc": "Warrior Pokémon",
-		"type_id": [14, -1],
-		"type": ["fighting"],
+		"type_id": [14, 15],
+		"type": ["fighting", "steel"],
 		"abilities": {
 			"ability_1": "Dauntless Shield",
 			"ability_2": false,
 			"hidden_ability": false
 		}
 	},
-	"crowned_shield": {
+	"hero_of_many_battles": {
 		"desc": "Warrior Pokémon",
-		"type_id": [14, 15],
-		"type": ["fighting", "steel"],
+		"type_id": [14, -1],
+		"type": ["fighting"],
 		"abilities": {
 			"ability_1": "Dauntless Shield",
 			"ability_2": false,

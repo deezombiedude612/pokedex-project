@@ -1,27 +1,6 @@
 <?php
 
-static $connection = null;
-
-function connectDb() {
-	require "pw.php";		// separate file that should only contain $password variable
-
-	/* mySQL Database Connection */
-	$db_user = "root";
-	$db_pw = $password;
-	$db_name = "pokemon";
-
-	static $connection;
-	if ($connection === null) {
-		$connection = new mysqli("localhost", $db_user, $db_pw, $db_name);
-		if ($connection->error) die($connection->connect_error);
-	}
-
-	return $connection;
-}
-
-function disconnectDb() {
-	if ($connection !== null) $connection->close();
-}
+require_once "dbConnect.php";
 
 // Obtain all dex types
 $dex_types = [];
@@ -205,6 +184,7 @@ if ($num_distinct_entries > 0) {
 				}
 			}
 
+			fwrite($pokedex_file, "\n}");	// close last file
 			fclose($pokedex_file);
 			// echo "Finished pokédex entry #" . $json_index . ".<br><br>";
 
@@ -212,3 +192,5 @@ if ($num_distinct_entries > 0) {
 		}
 	}
 }
+
+disconnectDb(connectDb());

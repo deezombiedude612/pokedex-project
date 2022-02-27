@@ -2,29 +2,30 @@
 	"id": {
 		"national": 550,
 		"galar_swsh": 154,
-		"galar_crown_tundra": 64
+		"galar_crown_tundra": 64,
+		"hisui_legarc": 166
 	},
 	"name": {
 		"en": "Basculin",
 		"jp": "バスラオ"
 	},
 	"baby": false,
-	"red-striped_form": {
-		"desc": "Hostile Pokémon",
-		"type_id": [6, -1],
-		"type": ["water"],
-		"abilities": {
-			"ability_1": "Reckless",
-			"ability_2": "Adaptability",
-			"hidden_ability": "Mold Breaker"
-		}
-	},
 	"blue-striped_form": {
 		"desc": "Hostile Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {
 			"ability_1": "Rock Head",
+			"ability_2": "Adaptability",
+			"hidden_ability": "Mold Breaker"
+		}
+	},
+	"red-striped_form": {
+		"desc": "Hostile Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Reckless",
 			"ability_2": "Adaptability",
 			"hidden_ability": "Mold Breaker"
 		}

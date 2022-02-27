@@ -2,14 +2,15 @@
 	"id": {
 		"national": 423,
 		"galar_swsh": 231,
-		"sinnoh_bdsp": 61
+		"sinnoh_bdsp": 61,
+		"hisui_legarc": 83
 	},
 	"name": {
 		"en": "Gastrodon",
 		"jp": "トリトドン"
 	},
 	"baby": true,
-	"west_sea": {
+	"east_sea": {
 		"desc": "Sea Slug Pokémon",
 		"type_id": [6, 2],
 		"type": ["water", "ground"],
@@ -19,7 +20,7 @@
 			"hidden_ability": "Sand Force"
 		}
 	},
-	"east_sea": {
+	"west_sea": {
 		"desc": "Sea Slug Pokémon",
 		"type_id": [6, 2],
 		"type": ["water", "ground"],

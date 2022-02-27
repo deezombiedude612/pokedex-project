@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 900
+		"national": 900,
+		"hisui_legarc": 73
 	},
 	"name": {
 		"en": "Kleavor",
@@ -8,7 +9,7 @@
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Axe Pokémon",
 		"type_id": [5, 8],
 		"type": ["bug", "rock"],
 		"abilities": {

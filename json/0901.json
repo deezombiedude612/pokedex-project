@@ -1,14 +1,15 @@
 {
 	"id": {
-		"national": 901
+		"national": 901,
+		"hisui_legarc": 114
 	},
 	"name": {
 		"en": "Ursaluna",
-		"jp": ""
+		"jp": "ガチグマ"
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Peat Pokémon",
 		"type_id": [12, 2],
 		"type": ["normal", "ground"],
 		"abilities": {

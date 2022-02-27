@@ -1,24 +1,25 @@
 {
 	"id": {
-		"national": 905
+		"national": 905,
+		"hisui_legarc": 234
 	},
 	"name": {
 		"en": "Enamorus",
-		"jp": ""
+		"jp": "ラブトロス"
 	},
 	"baby": false,
 	"incarnate_forme": {
-		"desc": "",
+		"desc": "Love-Hate Pokémon",
 		"type_id": [17, 3],
 		"type": ["fairy", "flying"],
 		"abilities": {
-			"ability_1": "",
+			"ability_1": "Healer",
 			"ability_2": false,
 			"hidden_ability": "Contrary"
 		}
 	},
 	"therian_forme": {
-		"desc": "",
+		"desc": "Love-Hate Pokémon",
 		"type_id": [17, 3],
 		"type": ["fairy", "flying"],
 		"abilities": {
@@ -27,3 +28,4 @@
 			"hidden_ability": false
 		}
 	}
+}
