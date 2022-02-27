@@ -982,6 +982,7 @@ INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
 ('ENAMORUS', 'ラブトロス')
 ;
 
+# ?? (0906 - ????)
 INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
 # Upcoming
 ('SPRIGATITO', 'ニャオハ'),
@@ -2395,6 +2396,11 @@ INSERT INTO `regional_dex` VALUES
 ('hisui_legarc', 241, 492),
 ('hisui_legarc', 242, 491)
 ;
+
+# ?? Dex Number (Scarlet and Violet)
+# INSERT INTO `regional_dex` VALUES 
+# ('spain_sv', 1, 906)
+# ;
 
 DROP TABLE IF EXISTS `pokemon_desc`;
 CREATE TABLE `pokemon_desc` (
@@ -9060,7 +9066,7 @@ BEGIN
         LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
         LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
         LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
-		ORDER BY pl.`id` ASC;
+		ORDER BY pl.`id` ASC, FIELD(`type_name`, "default") DESC;
     ELSE
 		SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, 
         z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* 
@@ -9073,7 +9079,7 @@ BEGIN
         LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
 		LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
 		WHERE INSTR(`type_name`, `keyword`) > 0
-		ORDER BY pl.`id` ASC;
+		ORDER BY pl.`id` ASC, FIELD(`type_name`, "default") DESC;
     END IF;
 END //
 

@@ -8,16 +8,6 @@
 		"jp": "ラッタ"
 	},
 	"baby": false,
-	"alola_variant": {
-		"desc": "Mouse Pokémon",
-		"type_id": [10, 12],
-		"type": ["dark", "normal"],
-		"abilities": {
-			"ability_1": "Gluttony",
-			"ability_2": "Hustle",
-			"hidden_ability": "Thick Fat"
-		}
-	},
 	"default": {
 		"desc": "Mouse Pokémon",
 		"type_id": [12, -1],
@@ -26,6 +16,16 @@
 			"ability_1": "Run Away",
 			"ability_2": "Guts",
 			"hidden_ability": "Hustle"
+		}
+	},
+	"alola_variant": {
+		"desc": "Mouse Pokémon",
+		"type_id": [10, 12],
+		"type": ["dark", "normal"],
+		"abilities": {
+			"ability_1": "Gluttony",
+			"ability_2": "Hustle",
+			"hidden_ability": "Thick Fat"
 		}
 	}
 }

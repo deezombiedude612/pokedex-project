@@ -10,16 +10,6 @@
 		"jp": "イシツブテ"
 	},
 	"baby": false,
-	"alola_variant": {
-		"desc": "Rock Pokémon",
-		"type_id": [8, 7],
-		"type": ["rock", "electric"],
-		"abilities": {
-			"ability_1": "Magnet Pull",
-			"ability_2": "Sturdy",
-			"hidden_ability": "Galvanize"
-		}
-	},
 	"default": {
 		"desc": "Rock Pokémon",
 		"type_id": [8, 2],
@@ -28,6 +18,16 @@
 			"ability_1": "Rock Head",
 			"ability_2": "Sturdy",
 			"hidden_ability": "Sand Veil"
+		}
+	},
+	"alola_variant": {
+		"desc": "Rock Pokémon",
+		"type_id": [8, 7],
+		"type": ["rock", "electric"],
+		"abilities": {
+			"ability_1": "Magnet Pull",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Galvanize"
 		}
 	}
 }

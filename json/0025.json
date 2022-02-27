@@ -12,6 +12,30 @@
 		"jp": "ピカチュウ"
 	},
 	"baby": false,
+	"default": {
+		"desc": "Mouse Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"exclusive_z": {
+			"excl_z_move": "Catastropika",
+			"excl_z_move_type_id": 7,
+			"excl_z_move_type": "electric",
+			"excl_z_move_category": "physical",
+			"excl_z_crystal": "Pikanium Z",
+			"excl_z_required_move": "Volt Tackle",
+			"excl_z_power": 210
+		},
+		"g_max": {
+			"g_max_move": "G-Max Volt Crash",
+			"g_max_type_id": 7,
+			"g_max_type": "electric"
+		},
+		"abilities": {
+			"ability_1": "Static",
+			"ability_2": false,
+			"hidden_ability": "Lightning Rod"
+		}
+	},
 	"alola_cap": {
 		"desc": "Mouse Pokémon",
 		"type_id": [7, -1],
@@ -39,30 +63,6 @@
 			"ability_1": "Lightning Rod",
 			"ability_2": false,
 			"hidden_ability": false
-		}
-	},
-	"default": {
-		"desc": "Mouse Pokémon",
-		"type_id": [7, -1],
-		"type": ["electric"],
-		"exclusive_z": {
-			"excl_z_move": "Catastropika",
-			"excl_z_move_type_id": 7,
-			"excl_z_move_type": "electric",
-			"excl_z_move_category": "physical",
-			"excl_z_crystal": "Pikanium Z",
-			"excl_z_required_move": "Volt Tackle",
-			"excl_z_power": 210
-		},
-		"g_max": {
-			"g_max_move": "G-Max Volt Crash",
-			"g_max_type_id": 7,
-			"g_max_type": "electric"
-		},
-		"abilities": {
-			"ability_1": "Static",
-			"ability_2": false,
-			"hidden_ability": "Lightning Rod"
 		}
 	},
 	"hoenn_cap": {

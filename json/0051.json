@@ -9,16 +9,6 @@
 		"jp": "ダグトリオ"
 	},
 	"baby": false,
-	"alola_variant": {
-		"desc": "Mole Pokémon",
-		"type_id": [2, 15],
-		"type": ["ground", "steel"],
-		"abilities": {
-			"ability_1": "Sand Veil",
-			"ability_2": "Tangling Hair",
-			"hidden_ability": "Sand Force"
-		}
-	},
 	"default": {
 		"desc": "Mole Pokémon",
 		"type_id": [2, -1],
@@ -26,6 +16,16 @@
 		"abilities": {
 			"ability_1": "Sand Veil",
 			"ability_2": "Arena Trap",
+			"hidden_ability": "Sand Force"
+		}
+	},
+	"alola_variant": {
+		"desc": "Mole Pokémon",
+		"type_id": [2, 15],
+		"type": ["ground", "steel"],
+		"abilities": {
+			"ability_1": "Sand Veil",
+			"ability_2": "Tangling Hair",
 			"hidden_ability": "Sand Force"
 		}
 	}

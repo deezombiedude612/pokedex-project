@@ -7,16 +7,6 @@
 		"jp": "ゲッコウガ"
 	},
 	"baby": false,
-	"ash_greninja": {
-		"desc": "Ninja Pokémon",
-		"type_id": [6, 10],
-		"type": ["water", "dark"],
-		"abilities": {
-			"ability_1": "Battle Bond",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
 	"default": {
 		"desc": "Ninja Pokémon",
 		"type_id": [6, 10],
@@ -25,6 +15,16 @@
 			"ability_1": "Torrent",
 			"ability_2": false,
 			"hidden_ability": "Protean"
+		}
+	},
+	"ash_greninja": {
+		"desc": "Ninja Pokémon",
+		"type_id": [6, 10],
+		"type": ["water", "dark"],
+		"abilities": {
+			"ability_1": "Battle Bond",
+			"ability_2": false,
+			"hidden_ability": false
 		}
 	}
 }

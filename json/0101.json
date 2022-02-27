@@ -9,20 +9,20 @@
 		"jp": "マルマイン"
 	},
 	"baby": false,
-	"hisui_variant": {
-		"desc": "Sphere Pokémon",
-		"type_id": [7, 9],
-		"type": ["electric", "grass"],
+	"default": {
+		"desc": "Ball Pokémon",
+		"type_id": [7, -1],
+		"type": ["electric"],
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Static",
 			"hidden_ability": "Aftermath"
 		}
 	},
-	"default": {
-		"desc": "Ball Pokémon",
-		"type_id": [7, -1],
-		"type": ["electric"],
+	"hisui_variant": {
+		"desc": "Sphere Pokémon",
+		"type_id": [7, 9],
+		"type": ["electric", "grass"],
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Static",

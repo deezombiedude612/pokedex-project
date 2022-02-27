@@ -9,20 +9,20 @@
 		"jp": "ゾロアーク"
 	},
 	"baby": false,
-	"hisui_variant": {
-		"desc": "Baneful Fox Pokémon",
-		"type_id": [12, 1],
-		"type": ["normal", "ghost"],
+	"default": {
+		"desc": "Illusion Fox Pokémon",
+		"type_id": [10, -1],
+		"type": ["dark"],
 		"abilities": {
 			"ability_1": "Illusion",
 			"ability_2": false,
 			"hidden_ability": false
 		}
 	},
-	"default": {
-		"desc": "Illusion Fox Pokémon",
-		"type_id": [10, -1],
-		"type": ["dark"],
+	"hisui_variant": {
+		"desc": "Baneful Fox Pokémon",
+		"type_id": [12, 1],
+		"type": ["normal", "ghost"],
 		"abilities": {
 			"ability_1": "Illusion",
 			"ability_2": false,
