@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 259
+		"national": 259,
+		"hoenn_oras": 8
 	},
 	"name": {
 		"en": "Marshtomp",

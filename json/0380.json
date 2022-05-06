@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 380
+		"national": 380,
+		"hoenn_oras": 205
 	},
 	"name": {
 		"en": "Latias",

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 255
+		"national": 255,
+		"hoenn_oras": 4
 	},
 	"name": {
 		"en": "Torchic",

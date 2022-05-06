@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 316
+		"national": 316,
+		"hoenn_oras": 100
 	},
 	"name": {
 		"en": "Gulpin",

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 252
+		"national": 252,
+		"hoenn_oras": 1
 	},
 	"name": {
 		"en": "Treecko",

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 335
+		"national": 335,
+		"hoenn_oras": 128
 	},
 	"name": {
 		"en": "Zangoose",

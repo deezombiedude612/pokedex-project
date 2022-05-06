@@ -8,20 +8,20 @@
 		"jp": "ザシアン"
 	},
 	"baby": false,
-	"crowned_sword": {
+	"hero_of_many_battles": {
 		"desc": "Warrior Pokémon",
-		"type_id": [17, 15],
-		"type": ["fairy", "steel"],
+		"type_id": [17, -1],
+		"type": ["fairy"],
 		"abilities": {
 			"ability_1": "Intrepid Sword",
 			"ability_2": false,
 			"hidden_ability": false
 		}
 	},
-	"hero_of_many_battles": {
+	"crowned_sword": {
 		"desc": "Warrior Pokémon",
-		"type_id": [17, -1],
-		"type": ["fairy"],
+		"type_id": [17, 15],
+		"type": ["fairy", "steel"],
 		"abilities": {
 			"ability_1": "Intrepid Sword",
 			"ability_2": false,

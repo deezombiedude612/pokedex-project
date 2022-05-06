@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 325
+		"national": 325,
+		"hoenn_oras": 115
 	},
 	"name": {
 		"en": "Spoink",

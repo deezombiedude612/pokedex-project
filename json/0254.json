@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 254
+		"national": 254,
+		"hoenn_oras": 3
 	},
 	"name": {
 		"en": "Sceptile",

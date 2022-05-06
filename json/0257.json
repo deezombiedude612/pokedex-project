@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 257
+		"national": 257,
+		"hoenn_oras": 6
 	},
 	"name": {
 		"en": "Blaziken",

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 300
+		"national": 300,
+		"hoenn_oras": 63
 	},
 	"name": {
 		"en": "Skitty",

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 301
+		"national": 301,
+		"hoenn_oras": 64
 	},
 	"name": {
 		"en": "Delcatty",

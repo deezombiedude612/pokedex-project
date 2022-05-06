@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 260
+		"national": 260,
+		"hoenn_oras": 9
 	},
 	"name": {
 		"en": "Swampert",

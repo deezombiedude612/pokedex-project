@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 262
+		"national": 262,
+		"hoenn_oras": 11
 	},
 	"name": {
 		"en": "Mightyena",
