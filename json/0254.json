@@ -21,7 +21,7 @@
 		"desc": "Forest Pokémon",
 		"type_id": [9, 0],
 		"type": ["grass", "dragon"],
-		"ability": "",
+		"ability": "Lightning Rod",
 		"mega_stone": "Sceptilite"
 	}
 }
