@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Remoraid",
-		"jp": "テッポウオ"
+		"jp": "テッポウオ",
+		"chs": "铁炮鱼",
+		"cht": "鐵炮魚"
 	},
 	"baby": false,
 	"default": {

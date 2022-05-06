@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tyrantrum",
-		"jp": "ガチゴラス"
+		"jp": "ガチゴラス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

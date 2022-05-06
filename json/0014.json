@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Kakuna",
-		"jp": "コクーン"
+		"jp": "コクーン",
+		"chs": "铁壳蛹",
+		"cht": "鐵殼蛹"
 	},
 	"baby": false,
 	"default": {

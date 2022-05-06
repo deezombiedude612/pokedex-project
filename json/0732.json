@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Trumbeak",
-		"jp": "ケララッパ"
+		"jp": "ケララッパ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

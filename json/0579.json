@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Reuniclus",
-		"jp": "ランクルス"
+		"jp": "ランクルス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

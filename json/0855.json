@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Polteageist",
-		"jp": "ポットデス"
+		"jp": "ポットデス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

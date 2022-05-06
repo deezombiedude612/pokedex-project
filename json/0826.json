@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Orbeetle",
-		"jp": "イオルブ"
+		"jp": "イオルブ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

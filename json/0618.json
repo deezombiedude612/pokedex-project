@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Stunfisk",
-		"jp": "マッギョ"
+		"jp": "マッギョ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Volcarona",
-		"jp": "ウルがオス"
+		"jp": "ウルがオス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

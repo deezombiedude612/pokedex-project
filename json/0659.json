@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Bunnelby",
-		"jp": "ホルビー"
+		"jp": "ホルビー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

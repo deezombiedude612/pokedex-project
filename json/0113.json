@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Chansey",
-		"jp": "ラッキー"
+		"jp": "ラッキー",
+		"chs": "吉利蛋",
+		"cht": "吉利蛋"
 	},
 	"baby": false,
 	"default": {

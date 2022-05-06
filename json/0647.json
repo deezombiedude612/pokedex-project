@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Keldeo",
-		"jp": "ケルディオ"
+		"jp": "ケルディオ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"ordinary_form": {

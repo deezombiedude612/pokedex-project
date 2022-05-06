@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Roselia",
-		"jp": "ロゼリア"
+		"jp": "ロゼリア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

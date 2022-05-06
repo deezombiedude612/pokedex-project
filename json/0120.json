@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Staryu",
-		"jp": "ヒトデマン"
+		"jp": "ヒトデマン",
+		"chs": "海星星",
+		"cht": "海星星"
 	},
 	"baby": false,
 	"default": {

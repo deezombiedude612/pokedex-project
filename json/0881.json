@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Arctozolt",
-		"jp": "パッチルドン"
+		"jp": "パッチルドン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

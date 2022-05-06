@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Flygon",
-		"jp": "フライゴン"
+		"jp": "フライゴン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

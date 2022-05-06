@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Nihilego",
-		"jp": "ウツロイド"
+		"jp": "ウツロイド",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

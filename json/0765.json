@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Oranguru",
-		"jp": "ヤレユータン"
+		"jp": "ヤレユータン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

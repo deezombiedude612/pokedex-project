@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Crabrawler",
-		"jp": "マケンカニ"
+		"jp": "マケンカニ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Araquanid",
-		"jp": "オニシズクモ"
+		"jp": "オニシズクモ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

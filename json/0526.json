@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Gigalith",
-		"jp": "ギガイアス"
+		"jp": "ギガイアス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

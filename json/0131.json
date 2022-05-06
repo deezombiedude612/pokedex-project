@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Lapras",
-		"jp": "ラプラス"
+		"jp": "ラプラス",
+		"chs": "拉普拉斯",
+		"cht": "拉普拉斯"
 	},
 	"baby": false,
 	"default": {

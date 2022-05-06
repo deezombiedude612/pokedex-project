@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Druddigon",
-		"jp": "クリムガン"
+		"jp": "クリムガン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

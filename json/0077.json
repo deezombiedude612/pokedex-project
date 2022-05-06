@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Ponyta",
-		"jp": "ポニータ"
+		"jp": "ポニータ",
+		"chs": "小火马",
+		"cht": "小火馬"
 	},
 	"baby": false,
 	"default": {

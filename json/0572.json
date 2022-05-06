@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Minccino",
-		"jp": "チラーミィ"
+		"jp": "チラーミィ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

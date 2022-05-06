@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Lampent",
-		"jp": "ランプラー"
+		"jp": "ランプラー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

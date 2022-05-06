@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Mismagius",
-		"jp": "ムウマージ"
+		"jp": "ムウマージ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

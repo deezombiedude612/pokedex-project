@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Shelmet",
-		"jp": "チョボマキ"
+		"jp": "チョボマキ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

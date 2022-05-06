@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tympole",
-		"jp": "オタマロ"
+		"jp": "オタマロ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Emolga",
-		"jp": "エモンガ"
+		"jp": "エモンガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Delcatty",
-		"jp": "エネコロロ"
+		"jp": "エネコロロ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

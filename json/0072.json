@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Tentacool",
-		"jp": "メノクラゲ"
+		"jp": "メノクラゲ",
+		"chs": "玛瑙水母",
+		"cht": "瑪瑙水母"
 	},
 	"baby": false,
 	"default": {

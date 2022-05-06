@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cinderace",
-		"jp": "エースバーン"
+		"jp": "エースバーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

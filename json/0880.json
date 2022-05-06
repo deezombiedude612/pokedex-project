@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Dracozolt",
-		"jp": "パッチラゴン"
+		"jp": "パッチラゴン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

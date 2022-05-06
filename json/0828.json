@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Thievul",
-		"jp": "フォクスライ"
+		"jp": "フォクスライ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

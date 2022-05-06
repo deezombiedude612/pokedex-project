@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Fomantis",
-		"jp": "カリキリ"
+		"jp": "カリキリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

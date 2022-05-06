@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mew",
-		"jp": "ミュウ"
+		"jp": "ミュウ",
+		"chs": "梦幻",
+		"cht": "夢幻"
 	},
 	"baby": false,
 	"default": {

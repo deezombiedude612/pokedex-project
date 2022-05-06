@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Maractus",
-		"jp": "マラカッチ"
+		"jp": "マラカッチ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Sunflora",
-		"jp": "キマワリ"
+		"jp": "キマワリ",
+		"chs": "向日花怪",
+		"cht": "向日花怪"
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Hippowdon",
-		"jp": "カバルドン"
+		"jp": "カバルドン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

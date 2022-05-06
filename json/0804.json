@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Naganadel",
-		"jp": "アーゴヨン"
+		"jp": "アーゴヨン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

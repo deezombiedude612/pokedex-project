@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Bounsweet",
-		"jp": "アマカジ"
+		"jp": "アマカジ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

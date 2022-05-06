@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Geodude",
-		"jp": "イシツブテ"
+		"jp": "イシツブテ",
+		"chs": "小拳石",
+		"cht": "小拳石"
 	},
 	"baby": false,
 	"default": {

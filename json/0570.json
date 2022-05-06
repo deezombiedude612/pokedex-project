@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Zorua",
-		"jp": "ゾロア"
+		"jp": "ゾロア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

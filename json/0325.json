@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Spoink",
-		"jp": "バネブー"
+		"jp": "バネブー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

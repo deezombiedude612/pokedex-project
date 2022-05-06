@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Zygarde",
-		"jp": "ジガルデ"
+		"jp": "ジガルデ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"zygarde_10percent_forme": {

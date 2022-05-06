@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Kingdra",
-		"jp": "キングドラ"
+		"jp": "キングドラ",
+		"chs": "刺龙王",
+		"cht": "刺龍王"
 	},
 	"baby": false,
 	"default": {

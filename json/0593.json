@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Jellicent",
-		"jp": "ブルンゲル"
+		"jp": "ブルンゲル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

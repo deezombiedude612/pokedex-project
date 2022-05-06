@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Applin",
-		"jp": "カジッチュ"
+		"jp": "カジッチュ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

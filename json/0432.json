@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Purugly",
-		"jp": "ブニャット"
+		"jp": "ブニャット",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

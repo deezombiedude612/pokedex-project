@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Copperajah",
-		"jp": "ダイオウドウ"
+		"jp": "ダイオウドウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Masquerain",
-		"jp": "アメモース"
+		"jp": "アメモース",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

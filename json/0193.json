@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Yanma",
-		"jp": "ヤニャンマ"
+		"jp": "ヤニャンマ",
+		"chs": "蜻蜻蜓",
+		"cht": "蜻蜻蜓"
 	},
 	"baby": false,
 	"default": {

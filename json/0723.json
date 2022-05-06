@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Dartrix",
-		"jp": "フクスロー"
+		"jp": "フクスロー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Honchkrow",
-		"jp": "ドンカラス"
+		"jp": "ドンカラス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

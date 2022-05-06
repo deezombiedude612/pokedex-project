@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Vivillon",
-		"jp": "ビビヨン"
+		"jp": "ビビヨン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

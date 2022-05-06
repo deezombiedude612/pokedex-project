@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Azelf",
-		"jp": "アグノム"
+		"jp": "アグノム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

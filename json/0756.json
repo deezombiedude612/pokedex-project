@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Shiinotic",
-		"jp": "マシェード"
+		"jp": "マシェード",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

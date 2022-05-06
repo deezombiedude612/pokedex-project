@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Spinarak",
-		"jp": "イトマル"
+		"jp": "イトマル",
+		"chs": "圆丝蛛",
+		"cht": "圓絲蛛"
 	},
 	"baby": false,
 	"default": {

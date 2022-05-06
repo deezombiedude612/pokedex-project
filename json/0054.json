@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Psyduck",
-		"jp": "コダック"
+		"jp": "コダック",
+		"chs": "可达鸭",
+		"cht": "可達鴨"
 	},
 	"baby": false,
 	"default": {

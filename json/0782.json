@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Jangmo-o",
-		"jp": "ジャラコ"
+		"jp": "ジャラコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

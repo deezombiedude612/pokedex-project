@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Gourgeist",
-		"jp": "パンプジン"
+		"jp": "パンプジン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

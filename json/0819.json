@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Skwovet",
-		"jp": "ホシガリス"
+		"jp": "ホシガリス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

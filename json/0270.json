@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Lotad",
-		"jp": "ハスボー"
+		"jp": "ハスボー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

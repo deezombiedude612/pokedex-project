@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Sirfetch'd",
-		"jp": "ネギガナイト"
+		"jp": "ネギガナイト",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

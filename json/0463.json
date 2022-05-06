@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Lickilicky",
-		"jp": "べろベルト"
+		"jp": "べろベルト",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

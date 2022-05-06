@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Aron",
-		"jp": "ココドラ"
+		"jp": "ココドラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

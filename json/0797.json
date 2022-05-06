@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Celesteela",
-		"jp": "テッカグヤ"
+		"jp": "テッカグヤ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

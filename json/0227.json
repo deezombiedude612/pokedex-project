@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Skarmory",
-		"jp": "エアームド"
+		"jp": "エアームド",
+		"chs": "盔甲鸟",
+		"cht": "盔甲鳥"
 	},
 	"baby": false,
 	"default": {

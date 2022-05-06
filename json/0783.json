@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Hakamo-o",
-		"jp": "ジャランゴ"
+		"jp": "ジャランゴ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Ducklett",
-		"jp": "コアルヒー"
+		"jp": "コアルヒー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

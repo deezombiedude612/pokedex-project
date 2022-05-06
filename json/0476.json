@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Probopass",
-		"jp": "ダイノーズ"
+		"jp": "ダイノーズ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

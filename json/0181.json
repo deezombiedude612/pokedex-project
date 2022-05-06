@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Ampharos",
-		"jp": "デンリュウ"
+		"jp": "デンリュウ",
+		"chs": "电龙",
+		"cht": "電龍"
 	},
 	"baby": false,
 	"default": {

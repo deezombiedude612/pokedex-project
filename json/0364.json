@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Sealeo",
-		"jp": "トドグラー"
+		"jp": "トドグラー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

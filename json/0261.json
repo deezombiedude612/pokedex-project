@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Poochyena",
-		"jp": "ポチエナ"
+		"jp": "ポチエナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

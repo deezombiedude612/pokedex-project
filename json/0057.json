@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Primeape",
-		"jp": "オコリザル"
+		"jp": "オコリザル",
+		"chs": "火暴猴",
+		"cht": "火爆猴"
 	},
 	"baby": false,
 	"default": {

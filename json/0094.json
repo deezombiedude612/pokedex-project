@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Gengar",
-		"jp": "ゲンガー"
+		"jp": "ゲンガー",
+		"chs": "耿鬼",
+		"cht": "耿鬼"
 	},
 	"baby": false,
 	"default": {

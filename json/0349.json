@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Feebas",
-		"jp": "ヒンバス"
+		"jp": "ヒンバス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

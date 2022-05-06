@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Blastoise",
-		"jp": "カメックス"
+		"jp": "カメックス",
+		"chs": "水箭龟",
+		"cht": "水箭龜"
 	},
 	"baby": false,
 	"default": {

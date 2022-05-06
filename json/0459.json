@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Snover",
-		"jp": "ユキカブリ"
+		"jp": "ユキカブリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

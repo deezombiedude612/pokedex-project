@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Stantler",
-		"jp": "オドシシ"
+		"jp": "オドシシ",
+		"chs": "惊角鹿",
+		"cht": "驚角鹿"
 	},
 	"baby": false,
 	"default": {

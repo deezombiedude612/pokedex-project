@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Pidgeotto",
-		"jp": "ピジョン"
+		"jp": "ピジョン",
+		"chs": "比比鸟",
+		"cht": "比比鳥"
 	},
 	"baby": false,
 	"default": {

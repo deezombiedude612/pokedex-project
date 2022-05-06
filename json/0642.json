@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Thundurus",
-		"jp": "ボルトロス"
+		"jp": "ボルトロス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"incarnate_forme": {

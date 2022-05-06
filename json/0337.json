@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Lunatone",
-		"jp": "ルナトーン"
+		"jp": "ルナトーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

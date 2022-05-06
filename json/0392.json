@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Infernape",
-		"jp": "ゴウカザル"
+		"jp": "ゴウカザル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

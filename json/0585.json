@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Deerling",
-		"jp": "シキジカ"
+		"jp": "シキジカ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"autumn_form": {

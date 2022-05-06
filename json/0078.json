@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Rapidash",
-		"jp": "ギャロップ"
+		"jp": "ギャロップ",
+		"chs": "烈焰马",
+		"cht": "烈焰馬"
 	},
 	"baby": false,
 	"default": {

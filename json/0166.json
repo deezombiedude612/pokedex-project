@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Ledian",
-		"jp": "レディアン"
+		"jp": "レディアン",
+		"chs": "安瓢虫",
+		"cht": "安瓢蟲"
 	},
 	"baby": false,
 	"default": {

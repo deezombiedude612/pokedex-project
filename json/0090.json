@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Shellder",
-		"jp": "シェルダー"
+		"jp": "シェルダー",
+		"chs": "大舌贝",
+		"cht": "大舌貝"
 	},
 	"baby": false,
 	"default": {

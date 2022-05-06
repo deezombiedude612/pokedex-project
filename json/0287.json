@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Slakoth",
-		"jp": "ナマケロ"
+		"jp": "ナマケロ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

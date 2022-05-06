@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Growlithe",
-		"jp": "ガーディ"
+		"jp": "ガーディ",
+		"chs": "卡蒂狗",
+		"cht": "卡蒂狗"
 	},
 	"baby": false,
 	"default": {

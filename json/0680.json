@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Doublade",
-		"jp": "ニダンギル"
+		"jp": "ニダンギル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

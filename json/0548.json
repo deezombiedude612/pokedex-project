@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Petilil",
-		"jp": "チュリネ"
+		"jp": "チュリネ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

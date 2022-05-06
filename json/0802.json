@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Marshadow",
-		"jp": "マーシャドー"
+		"jp": "マーシャドー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

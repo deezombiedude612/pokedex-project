@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Raticate",
-		"jp": "ラッタ"
+		"jp": "ラッタ",
+		"chs": "拉达",
+		"cht": "拉達"
 	},
 	"baby": false,
 	"default": {

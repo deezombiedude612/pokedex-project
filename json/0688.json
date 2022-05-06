@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Binacle",
-		"jp": "カメテテ"
+		"jp": "カメテテ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

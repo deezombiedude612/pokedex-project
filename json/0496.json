@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Servine",
-		"jp": "ジャノビー"
+		"jp": "ジャノビー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

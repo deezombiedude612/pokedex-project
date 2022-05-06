@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Magneton",
-		"jp": "レアコイル"
+		"jp": "レアコイル",
+		"chs": "三合一磁怪",
+		"cht": "三合一磁怪"
 	},
 	"baby": false,
 	"default": {

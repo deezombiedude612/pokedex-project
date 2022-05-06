@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Brionne",
-		"jp": "オシャマリ"
+		"jp": "オシャマリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

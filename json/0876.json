@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Indeedee",
-		"jp": "イエッサン"
+		"jp": "イエッサン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default_f": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Darkrai",
-		"jp": "ダークライ"
+		"jp": "ダークライ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

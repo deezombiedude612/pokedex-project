@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dottler",
-		"jp": "レドームシ"
+		"jp": "レドームシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

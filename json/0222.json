@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Corsola",
-		"jp": "サニーゴ"
+		"jp": "サニーゴ",
+		"chs": "太阳珊瑚",
+		"cht": "太陽珊瑚"
 	},
 	"baby": false,
 	"default": {

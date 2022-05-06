@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Golurk",
-		"jp": "ゴルーグ"
+		"jp": "ゴルーグ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

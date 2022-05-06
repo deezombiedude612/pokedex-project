@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dewpider",
-		"jp": "シズクモ"
+		"jp": "シズクモ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

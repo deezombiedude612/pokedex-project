@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Archen",
-		"jp": "アーケン"
+		"jp": "アーケン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

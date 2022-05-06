@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Shinx",
-		"jp": "コリンク"
+		"jp": "コリンク",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

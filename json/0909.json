@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Fuecoco",
-		"jp": "ホゲータ"
+		"jp": "ホゲータ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

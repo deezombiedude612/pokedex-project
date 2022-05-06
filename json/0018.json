@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Pidgeot",
-		"jp": "ピジョット"
+		"jp": "ピジョット",
+		"chs": "大比鸟",
+		"cht": "大比鳥"
 	},
 	"baby": false,
 	"default": {

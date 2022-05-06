@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Grookey",
-		"jp": "サルノリ"
+		"jp": "サルノリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

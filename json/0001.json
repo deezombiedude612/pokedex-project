@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Bulbasaur",
-		"jp": "フシギダネ"
+		"jp": "フシギダネ",
+		"chs": "妙蛙种子",
+		"cht": "妙蛙種子"
 	},
 	"baby": false,
 	"default": {

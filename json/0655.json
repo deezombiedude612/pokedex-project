@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Delphox",
-		"jp": "マフォクシー"
+		"jp": "マフォクシー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Bibarel",
-		"jp": "ビーダル"
+		"jp": "ビーダル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

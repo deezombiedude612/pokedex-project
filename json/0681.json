@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Aegislash",
-		"jp": "ギルガルド"
+		"jp": "ギルガルド",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

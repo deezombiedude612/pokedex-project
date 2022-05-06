@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Porygon",
-		"jp": "ポリゴン"
+		"jp": "ポリゴン",
+		"chs": "多边兽",
+		"cht": "多邊獸"
 	},
 	"baby": false,
 	"default": {

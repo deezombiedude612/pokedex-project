@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Blissey",
-		"jp": "ハピナス"
+		"jp": "ハピナス",
+		"chs": "幸福蛋",
+		"cht": "幸福蛋"
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Farfetch'd",
-		"jp": "カモネギ"
+		"jp": "カモネギ",
+		"chs": "大葱鸭",
+		"cht": "大蔥鴨"
 	},
 	"baby": false,
 	"default": {

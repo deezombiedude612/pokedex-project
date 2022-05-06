@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Axew",
-		"jp": "キバゴ"
+		"jp": "キバゴ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

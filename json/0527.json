@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Woobat",
-		"jp": "コロモリ"
+		"jp": "コロモリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Herdier",
-		"jp": "ハーデリア"
+		"jp": "ハーデリア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

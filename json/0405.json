@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Luxray",
-		"jp": "レントラー"
+		"jp": "レントラー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

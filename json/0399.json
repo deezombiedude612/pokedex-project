@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Bidoof",
-		"jp": "ビッパ"
+		"jp": "ビッパ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

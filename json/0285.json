@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Shroomish",
-		"jp": "キノココ"
+		"jp": "キノココ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

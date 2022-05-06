@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Sneasel",
-		"jp": "ニューラ"
+		"jp": "ニューラ",
+		"chs": "狃拉",
+		"cht": "狃拉"
 	},
 	"baby": false,
 	"default": {

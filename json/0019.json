@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Rattata",
-		"jp": "コラッタ"
+		"jp": "コラッタ",
+		"chs": "小拉达",
+		"cht": "小拉達"
 	},
 	"baby": false,
 	"default": {

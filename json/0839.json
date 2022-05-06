@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Coalossal",
-		"jp": "セキタンザン"
+		"jp": "セキタンザン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

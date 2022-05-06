@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Muk",
-		"jp": "ベトベト"
+		"jp": "ベトベト",
+		"chs": "臭臭泥",
+		"cht": "臭臭泥"
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Finneon",
-		"jp": "ケイコウオ"
+		"jp": "ケイコウオ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

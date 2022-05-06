@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Qwilfish",
-		"jp": "バリーセン"
+		"jp": "バリーセン",
+		"chs": "千针鱼",
+		"cht": "千針魚"
 	},
 	"baby": false,
 	"default": {

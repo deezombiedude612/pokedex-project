@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Duskull",
-		"jp": "ヨマラウ"
+		"jp": "ヨマラウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

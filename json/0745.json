@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Lycanroc",
-		"jp": "ルガルガン"
+		"jp": "ルガルガン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"dusk_form": {

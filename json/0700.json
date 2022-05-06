@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Sylveon",
-		"jp": "ニンフィア"
+		"jp": "ニンフィア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Feraligatr",
-		"jp": "オーダイル"
+		"jp": "オーダイル",
+		"chs": "大力鳄",
+		"cht": "大力鱷"
 	},
 	"baby": false,
 	"default": {

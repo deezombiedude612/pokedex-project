@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Vanillite",
-		"jp": "バニプッチ"
+		"jp": "バニプッチ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

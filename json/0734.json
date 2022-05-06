@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Yungoos",
-		"jp": "ヤングース"
+		"jp": "ヤングース",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

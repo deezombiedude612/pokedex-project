@@ -7,25 +7,27 @@
 	},
 	"name": {
 		"en": "Basculin",
-		"jp": "バスラオ"
+		"jp": "バスラオ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
-	"red-striped_form": {
-		"desc": "Hostile Pokémon",
-		"type_id": [6, -1],
-		"type": ["water"],
-		"abilities": {
-			"ability_1": "Reckless",
-			"ability_2": "Adaptability",
-			"hidden_ability": "Mold Breaker"
-		}
-	},
 	"blue-striped_form": {
 		"desc": "Hostile Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {
 			"ability_1": "Rock Head",
+			"ability_2": "Adaptability",
+			"hidden_ability": "Mold Breaker"
+		}
+	},
+	"red-striped_form": {
+		"desc": "Hostile Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Reckless",
 			"ability_2": "Adaptability",
 			"hidden_ability": "Mold Breaker"
 		}

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Meganium",
-		"jp": "メガニウム"
+		"jp": "メガニウム",
+		"chs": "大竺葵",
+		"cht": "大竺葵"
 	},
 	"baby": false,
 	"default": {

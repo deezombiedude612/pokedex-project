@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Dedenne",
-		"jp": "デデンネ"
+		"jp": "デデンネ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Crustle",
-		"jp": "イワパレス"
+		"jp": "イワパレス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

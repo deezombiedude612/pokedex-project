@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Gible",
-		"jp": "フカマル"
+		"jp": "フカマル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

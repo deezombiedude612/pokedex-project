@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Beheeyem",
-		"jp": "オーベム"
+		"jp": "オーベム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

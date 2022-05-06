@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Reshiram",
-		"jp": "レシラム"
+		"jp": "レシラム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

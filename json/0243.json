@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Raikou",
-		"jp": "ライコウ"
+		"jp": "ライコウ",
+		"chs": "雷公",
+		"cht": "雷公"
 	},
 	"baby": false,
 	"default": {

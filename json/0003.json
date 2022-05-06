@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Venusaur",
-		"jp": "フシギバナ"
+		"jp": "フシギバナ",
+		"chs": "妙蛙花",
+		"cht": "妙蛙花"
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Arbok",
-		"jp": "アーボック"
+		"jp": "アーボック",
+		"chs": "阿柏怪",
+		"cht": "阿柏怪"
 	},
 	"baby": false,
 	"default": {

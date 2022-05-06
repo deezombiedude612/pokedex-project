@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Scrafty",
-		"jp": "ズルズキン"
+		"jp": "ズルズキン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

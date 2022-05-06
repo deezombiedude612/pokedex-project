@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Pansear",
-		"jp": "バオップ"
+		"jp": "バオップ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

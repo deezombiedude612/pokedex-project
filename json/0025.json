@@ -10,7 +10,9 @@
 	},
 	"name": {
 		"en": "Pikachu",
-		"jp": "ピカチュウ"
+		"jp": "ピカチュウ",
+		"chs": "皮卡丘",
+		"cht": "皮卡丘"
 	},
 	"baby": false,
 	"default": {

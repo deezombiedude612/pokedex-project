@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Fennekin",
-		"jp": "フォッコ"
+		"jp": "フォッコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

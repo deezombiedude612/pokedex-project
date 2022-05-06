@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Snubbull",
-		"jp": "ブルー"
+		"jp": "ブルー",
+		"chs": "布鲁",
+		"cht": "布魯"
 	},
 	"baby": false,
 	"default": {

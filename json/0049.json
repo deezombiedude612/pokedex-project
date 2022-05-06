@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Venomoth",
-		"jp": "モルフォン"
+		"jp": "モルフォン",
+		"chs": "摩鲁蛾",
+		"cht": "摩魯蛾"
 	},
 	"baby": false,
 	"default": {

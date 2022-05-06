@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Aipom",
-		"jp": "エイパム"
+		"jp": "エイパム",
+		"chs": "长尾怪手",
+		"cht": "長尾怪手"
 	},
 	"baby": false,
 	"default": {

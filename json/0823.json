@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Corviknight",
-		"jp": "アーマーガア"
+		"jp": "アーマーガア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Staravia",
-		"jp": "ムクバード"
+		"jp": "ムクバード",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

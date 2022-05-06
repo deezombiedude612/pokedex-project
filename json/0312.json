@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Minun",
-		"jp": "マイナン"
+		"jp": "マイナン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

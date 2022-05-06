@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dhelmise",
-		"jp": "ダダリン"
+		"jp": "ダダリン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Jolteon",
-		"jp": "サンダース"
+		"jp": "サンダース",
+		"chs": "雷伊布",
+		"cht": "雷伊布"
 	},
 	"baby": false,
 	"default": {

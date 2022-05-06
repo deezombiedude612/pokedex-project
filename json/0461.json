@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Weavile",
-		"jp": "マニューラ"
+		"jp": "マニューラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Pheromosa",
-		"jp": "フェローチェ"
+		"jp": "フェローチェ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

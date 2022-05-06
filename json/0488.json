@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cresselia",
-		"jp": "クレセリア"
+		"jp": "クレセリア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

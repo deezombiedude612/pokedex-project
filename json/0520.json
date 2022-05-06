@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tranquil",
-		"jp": "ハトーボー"
+		"jp": "ハトーボー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Litten",
-		"jp": "ニャビー"
+		"jp": "ニャビー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

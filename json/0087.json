@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Dewgong",
-		"jp": "ジュゴン"
+		"jp": "ジュゴン",
+		"chs": "白海狮",
+		"cht": "白海獅"
 	},
 	"baby": false,
 	"default": {

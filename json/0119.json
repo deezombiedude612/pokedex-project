@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Seaking",
-		"jp": "アズマオウ"
+		"jp": "アズマオウ",
+		"chs": "金鱼王",
+		"cht": "金魚王"
 	},
 	"baby": false,
 	"default": {

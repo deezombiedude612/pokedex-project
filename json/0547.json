@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Whimsicott",
-		"jp": "エルフーン"
+		"jp": "エルフーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

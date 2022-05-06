@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Furfrou",
-		"jp": "トリミアン"
+		"jp": "トリミアン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

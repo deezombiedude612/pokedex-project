@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Wynaut",
-		"jp": "ソーナノ"
+		"jp": "ソーナノ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

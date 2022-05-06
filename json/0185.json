@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Sudowoodo",
-		"jp": "ウソッキー"
+		"jp": "ウソッキー",
+		"chs": "树才怪",
+		"cht": "樹才怪"
 	},
 	"baby": false,
 	"default": {

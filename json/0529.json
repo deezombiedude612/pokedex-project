@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Drilbur",
-		"jp": "モグリュー"
+		"jp": "モグリュー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

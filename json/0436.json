@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Bronzor",
-		"jp": "ドーミラー"
+		"jp": "ドーミラー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

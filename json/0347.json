@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Anorith",
-		"jp": "アノプス"
+		"jp": "アノプス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

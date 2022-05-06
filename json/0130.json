@@ -11,7 +11,9 @@
 	},
 	"name": {
 		"en": "Gyarados",
-		"jp": "ギャラドス"
+		"jp": "ギャラドス",
+		"chs": "暴鲤龙",
+		"cht": "暴鯉龍"
 	},
 	"baby": false,
 	"default": {

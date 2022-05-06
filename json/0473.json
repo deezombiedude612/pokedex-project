@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Mamoswine",
-		"jp": "マンムー"
+		"jp": "マンムー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

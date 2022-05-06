@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Perrserker",
-		"jp": "ニャイキング"
+		"jp": "ニャイキング",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

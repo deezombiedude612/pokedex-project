@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Paras",
-		"jp": "パラス"
+		"jp": "パラス",
+		"chs": "派拉斯",
+		"cht": "派拉斯"
 	},
 	"baby": false,
 	"default": {

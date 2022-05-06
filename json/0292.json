@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Shedinja",
-		"jp": "ヌケニン"
+		"jp": "ヌケニン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

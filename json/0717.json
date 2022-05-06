@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Yveltal",
-		"jp": "イベルタル"
+		"jp": "イベルタル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

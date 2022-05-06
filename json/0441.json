@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Chatot",
-		"jp": "ぺラップ"
+		"jp": "ぺラップ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

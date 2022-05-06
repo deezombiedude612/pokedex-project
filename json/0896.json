@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Glastrier",
-		"jp": "ブリザポス"
+		"jp": "ブリザポス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

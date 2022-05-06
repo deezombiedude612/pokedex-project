@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Necrozma",
-		"jp": "ネクロズマ"
+		"jp": "ネクロズマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Hoothoot",
-		"jp": "ホーホー"
+		"jp": "ホーホー",
+		"chs": "咕咕",
+		"cht": "咕咕"
 	},
 	"baby": false,
 	"default": {

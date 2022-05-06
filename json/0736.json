@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Grubbin",
-		"jp": "アゴジムシ"
+		"jp": "アゴジムシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

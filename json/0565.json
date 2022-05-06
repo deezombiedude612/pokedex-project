@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Carracosta",
-		"jp": "アバゴーラ"
+		"jp": "アバゴーラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

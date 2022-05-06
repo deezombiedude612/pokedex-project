@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Scizor",
-		"jp": "ハッサム"
+		"jp": "ハッサム",
+		"chs": "巨钳螳螂",
+		"cht": "巨鉗螳螂"
 	},
 	"baby": false,
 	"default": {

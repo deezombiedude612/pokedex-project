@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Abomasnow",
-		"jp": "ユキノオー"
+		"jp": "ユキノオー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

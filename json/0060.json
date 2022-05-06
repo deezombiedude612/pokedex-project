@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Poliwag",
-		"jp": "ニョロモ"
+		"jp": "ニョロモ",
+		"chs": "蚊香蝌蚪",
+		"cht": "蚊香蝌蚪"
 	},
 	"baby": false,
 	"default": {

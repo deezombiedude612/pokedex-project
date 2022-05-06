@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Munna",
-		"jp": "ムンナ"
+		"jp": "ムンナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Combusken",
-		"jp": "ワカシャモ"
+		"jp": "ワカシャモ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

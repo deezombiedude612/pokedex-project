@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Beartic",
-		"jp": "ツンベアー"
+		"jp": "ツンベアー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

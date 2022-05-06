@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Misdreavus",
-		"jp": "ムウマ"
+		"jp": "ムウマ",
+		"chs": "梦妖",
+		"cht": "夢妖"
 	},
 	"baby": false,
 	"default": {

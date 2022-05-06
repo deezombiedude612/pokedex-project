@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Buizel",
-		"jp": "ブイゼル"
+		"jp": "ブイゼル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

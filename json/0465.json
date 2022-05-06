@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tangrowth",
-		"jp": "モジャンボ"
+		"jp": "モジャンボ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

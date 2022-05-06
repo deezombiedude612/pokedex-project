@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Litleo",
-		"jp": "シシコ"
+		"jp": "シシコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

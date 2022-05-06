@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Beedrill",
-		"jp": "スピアー"
+		"jp": "スピアー",
+		"chs": "大针蜂",
+		"cht": "大針蜂"
 	},
 	"baby": false,
 	"default": {

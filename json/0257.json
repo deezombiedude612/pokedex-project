@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Blaziken",
-		"jp": "バシャーモ"
+		"jp": "バシャーモ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

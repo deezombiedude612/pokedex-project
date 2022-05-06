@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Eldegoss",
-		"jp": "ワタシラガ"
+		"jp": "ワタシラガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

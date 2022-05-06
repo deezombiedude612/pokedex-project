@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Burmy",
-		"jp": "ミノムッチ"
+		"jp": "ミノムッチ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"plant_cloak": {

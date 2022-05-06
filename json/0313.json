@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Volbeat",
-		"jp": "バルビート"
+		"jp": "バルビート",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

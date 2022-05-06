@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Gothita",
-		"jp": "ゴチム"
+		"jp": "ゴチム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

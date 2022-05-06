@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Budew",
-		"jp": "スボミー"
+		"jp": "スボミー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

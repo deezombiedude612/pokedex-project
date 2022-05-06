@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Vullaby",
-		"jp": "バルチャイ"
+		"jp": "バルチャイ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

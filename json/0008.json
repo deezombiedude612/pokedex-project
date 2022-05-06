@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Wartotle",
-		"jp": "カメール"
+		"jp": "カメール",
+		"chs": "卡咪龟",
+		"cht": "卡咪龜"
 	},
 	"baby": false,
 	"default": {

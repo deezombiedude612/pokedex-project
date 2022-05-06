@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Alcremie",
-		"jp": "マホイップ"
+		"jp": "マホイップ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

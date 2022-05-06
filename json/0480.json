@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Uxie",
-		"jp": "ユクシー"
+		"jp": "ユクシー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

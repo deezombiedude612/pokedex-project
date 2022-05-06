@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Timburr",
-		"jp": "ドッコラー"
+		"jp": "ドッコラー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Giratina",
-		"jp": "ギラティナ"
+		"jp": "ギラティナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"altered_forme": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Frillish",
-		"jp": "プルリル"
+		"jp": "プルリル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

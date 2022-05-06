@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Clefairy",
-		"jp": "ピッピ"
+		"jp": "ピッピ",
+		"chs": "皮皮",
+		"cht": "皮皮"
 	},
 	"baby": false,
 	"default": {

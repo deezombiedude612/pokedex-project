@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Salamence",
-		"jp": "ボーマンダ"
+		"jp": "ボーマンダ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

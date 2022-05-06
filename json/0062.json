@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Poliwrath",
-		"jp": "ニョロボン"
+		"jp": "ニョロボン",
+		"chs": "蚊香泳士",
+		"cht": "蚊香泳士"
 	},
 	"baby": false,
 	"default": {

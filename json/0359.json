@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Absol",
-		"jp": "アブソル"
+		"jp": "アブソル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

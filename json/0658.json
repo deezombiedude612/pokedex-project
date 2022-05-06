@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Greninja",
-		"jp": "ゲッコウガ"
+		"jp": "ゲッコウガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

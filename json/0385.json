@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Jirachi",
-		"jp": "ジラーチ"
+		"jp": "ジラーチ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

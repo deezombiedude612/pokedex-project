@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Ursaluna",
-		"jp": "ガチグマ"
+		"jp": "ガチグマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

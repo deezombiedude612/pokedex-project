@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Electabuzz",
-		"jp": "エレブー"
+		"jp": "エレブー",
+		"chs": "电击兽",
+		"cht": "電擊獸"
 	},
 	"baby": false,
 	"default": {

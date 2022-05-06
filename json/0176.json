@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Togetic",
-		"jp": "トゲチック"
+		"jp": "トゲチック",
+		"chs": "波克基古",
+		"cht": "波克基古"
 	},
 	"baby": false,
 	"default": {

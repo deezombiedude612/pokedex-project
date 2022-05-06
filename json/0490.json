@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Manaphy",
-		"jp": "マナフィ"
+		"jp": "マナフィ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

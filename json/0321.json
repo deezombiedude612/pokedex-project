@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Wailord",
-		"jp": "ホエルオー"
+		"jp": "ホエルオー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

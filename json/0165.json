@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Ledyba",
-		"jp": "レディバ"
+		"jp": "レディバ",
+		"chs": "芭瓢虫",
+		"cht": "芭瓢蟲"
 	},
 	"baby": false,
 	"default": {

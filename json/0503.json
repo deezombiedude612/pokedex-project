@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Samurott",
-		"jp": "ダイケンキ"
+		"jp": "ダイケンキ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

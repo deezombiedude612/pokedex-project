@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Espeon",
-		"jp": "エーフィ"
+		"jp": "エーフィ",
+		"chs": "太阳伊布",
+		"cht": "太陽伊布"
 	},
 	"baby": false,
 	"default": {

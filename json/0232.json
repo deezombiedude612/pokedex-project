@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Donphan",
-		"jp": "ドンファン"
+		"jp": "ドンファン",
+		"chs": "顿甲",
+		"cht": "頓甲"
 	},
 	"baby": false,
 	"default": {

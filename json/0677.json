@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Espurr",
-		"jp": "ニャスパー"
+		"jp": "ニャスパー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

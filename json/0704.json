@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Goomy",
-		"jp": "ヌメラ"
+		"jp": "ヌメラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

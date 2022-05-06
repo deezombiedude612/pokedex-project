@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Milcery",
-		"jp": "マホミル"
+		"jp": "マホミル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

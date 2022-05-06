@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Altaria",
-		"jp": "チルタリス"
+		"jp": "チルタリス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

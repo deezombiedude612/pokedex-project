@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Krabby",
-		"jp": "クラブ"
+		"jp": "クラブ",
+		"chs": "大钳蟹",
+		"cht": "大鉗蟹"
 	},
 	"baby": false,
 	"default": {

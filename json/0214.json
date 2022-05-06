@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Heracross",
-		"jp": "ヘラクロス"
+		"jp": "ヘラクロス",
+		"chs": "赫拉克罗斯",
+		"cht": "赫拉克羅斯"
 	},
 	"baby": false,
 	"default": {

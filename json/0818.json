@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Inteleon",
-		"jp": "インてレオン"
+		"jp": "インてレオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

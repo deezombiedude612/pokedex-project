@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Flaaffy",
-		"jp": "モココ"
+		"jp": "モココ",
+		"chs": "茸茸羊",
+		"cht": "茸茸羊"
 	},
 	"baby": false,
 	"default": {

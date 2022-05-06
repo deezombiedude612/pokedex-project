@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Unown",
-		"jp": "アンオーン"
+		"jp": "アンオーン",
+		"chs": "未知图腾",
+		"cht": "未知圖騰"
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Pidove",
-		"jp": "マメパト"
+		"jp": "マメパト",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

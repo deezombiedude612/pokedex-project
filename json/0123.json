@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Scyther",
-		"jp": "ストライク"
+		"jp": "ストライク",
+		"chs": "飞天螳螂",
+		"cht": "飛天螳螂"
 	},
 	"baby": false,
 	"default": {

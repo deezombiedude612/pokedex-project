@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Togedemaru",
-		"jp": "トゲデマル"
+		"jp": "トゲデマル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

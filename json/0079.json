@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Slowpoke",
-		"jp": "ヤドン"
+		"jp": "ヤドン",
+		"chs": "呆呆兽",
+		"cht": "呆呆獸"
 	},
 	"baby": false,
 	"default": {

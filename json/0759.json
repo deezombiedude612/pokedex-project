@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Stufful",
-		"jp": "ヌイコグマ"
+		"jp": "ヌイコグマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

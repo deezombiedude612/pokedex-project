@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Shellos",
-		"jp": "カラナクシ"
+		"jp": "カラナクシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"east_sea": {

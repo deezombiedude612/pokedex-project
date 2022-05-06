@@ -10,7 +10,9 @@
 	},
 	"name": {
 		"en": "Raichu",
-		"jp": "ライチュウ"
+		"jp": "ライチュウ",
+		"chs": "雷丘",
+		"cht": "雷丘"
 	},
 	"baby": false,
 	"default": {

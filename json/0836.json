@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Boltund",
-		"jp": "パルスワン"
+		"jp": "パルスワン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

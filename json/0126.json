@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Magmar",
-		"jp": "ブーバー"
+		"jp": "ブーバー",
+		"chs": "鸭嘴火兽",
+		"cht": "鴨嘴火獸"
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Totodile",
-		"jp": "ワニノコ"
+		"jp": "ワニノコ",
+		"chs": "小锯鳄",
+		"cht": "小鋸鱷"
 	},
 	"baby": false,
 	"default": {

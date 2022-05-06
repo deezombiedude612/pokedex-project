@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Tapu Koko",
-		"jp": "カプ・コケコ"
+		"jp": "カプ・コケコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

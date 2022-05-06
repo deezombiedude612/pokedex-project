@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Kabutops",
-		"jp": "カブトプス"
+		"jp": "カブトプス",
+		"chs": "镰刀盔",
+		"cht": "鐮刀盔"
 	},
 	"baby": false,
 	"default": {

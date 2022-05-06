@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Carbink",
-		"jp": "メレシー"
+		"jp": "メレシー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Tepig",
-		"jp": "ポカブ"
+		"jp": "ポカブ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

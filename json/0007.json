@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Squirtle",
-		"jp": "ゼニガメ"
+		"jp": "ゼニガメ",
+		"chs": "杰尼龟",
+		"cht": "傑尼龜"
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Bellossom",
-		"jp": "キレイハナ"
+		"jp": "キレイハナ",
+		"chs": "美丽花",
+		"cht": "美麗花"
 	},
 	"baby": false,
 	"default": {

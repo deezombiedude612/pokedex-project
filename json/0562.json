@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Yamask",
-		"jp": "デスマス"
+		"jp": "デスマス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

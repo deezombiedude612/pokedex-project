@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Jumpluff",
-		"jp": "ワタッコ"
+		"jp": "ワタッコ",
+		"chs": "毽子棉",
+		"cht": "毽子棉"
 	},
 	"baby": false,
 	"default": {

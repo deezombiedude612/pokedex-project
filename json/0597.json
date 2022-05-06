@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Ferroseed",
-		"jp": "テッシード"
+		"jp": "テッシード",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

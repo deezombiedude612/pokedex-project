@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Dracovish",
-		"jp": "ウオノラゴン"
+		"jp": "ウオノラゴン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

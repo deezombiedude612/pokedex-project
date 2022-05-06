@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dwebble",
-		"jp": "イシズマイ"
+		"jp": "イシズマイ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

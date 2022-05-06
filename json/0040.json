@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Wigglypuff",
-		"jp": "プクリン"
+		"jp": "プクリン",
+		"chs": "胖可丁",
+		"cht": "胖可丁"
 	},
 	"baby": false,
 	"default": {

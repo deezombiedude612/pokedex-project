@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Skiploom",
-		"jp": "ポポッコ"
+		"jp": "ポポッコ",
+		"chs": "毽子花",
+		"cht": "毽子花"
 	},
 	"baby": false,
 	"default": {

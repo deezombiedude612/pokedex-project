@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Sobble",
-		"jp": "メッソン"
+		"jp": "メッソン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Nincada",
-		"jp": "ツチニン"
+		"jp": "ツチニン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

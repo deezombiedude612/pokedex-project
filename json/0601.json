@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Klinklang",
-		"jp": "ギギギアル"
+		"jp": "ギギギアル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

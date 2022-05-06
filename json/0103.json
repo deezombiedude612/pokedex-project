@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Exeggutor",
-		"jp": "ナッシー"
+		"jp": "ナッシー",
+		"chs": "椰蛋树",
+		"cht": "椰蛋樹"
 	},
 	"baby": false,
 	"default": {

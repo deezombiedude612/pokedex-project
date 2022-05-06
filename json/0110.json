@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Weezing",
-		"jp": "マタドガース"
+		"jp": "マタドガース",
+		"chs": "双弹瓦斯",
+		"cht": "雙彈瓦斯"
 	},
 	"baby": false,
 	"default": {

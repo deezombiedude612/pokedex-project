@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Gloom",
-		"jp": "クサイハナ"
+		"jp": "クサイハナ",
+		"chs": "臭臭花",
+		"cht": "臭臭花"
 	},
 	"baby": false,
 	"default": {

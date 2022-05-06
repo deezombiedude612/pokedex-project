@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Regieleki",
-		"jp": "レジエレキ"
+		"jp": "レジエレキ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Florges",
-		"jp": "フラージェス"
+		"jp": "フラージェス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

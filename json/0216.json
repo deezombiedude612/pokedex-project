@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Teddiursa",
-		"jp": "ヒメグマ"
+		"jp": "ヒメグマ",
+		"chs": "熊宝宝",
+		"cht": "熊寶寶"
 	},
 	"baby": false,
 	"default": {

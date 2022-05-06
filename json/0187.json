@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Hoppip",
-		"jp": "ハネッコ"
+		"jp": "ハネッコ",
+		"chs": "毽子草",
+		"cht": "毽子草"
 	},
 	"baby": false,
 	"default": {

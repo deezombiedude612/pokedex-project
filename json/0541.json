@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Swadloon",
-		"jp": "クルマユ"
+		"jp": "クルマユ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

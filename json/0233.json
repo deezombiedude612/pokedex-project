@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Porygon2",
-		"jp": "ポリゴン２"
+		"jp": "ポリゴン２",
+		"chs": "多边兽２型",
+		"cht": "多邊獸Ⅱ"
 	},
 	"baby": false,
 	"default": {

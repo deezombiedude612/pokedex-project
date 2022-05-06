@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Pineco",
-		"jp": "クヌギダマ"
+		"jp": "クヌギダマ",
+		"chs": "榛果球",
+		"cht": "榛果球"
 	},
 	"baby": false,
 	"default": {

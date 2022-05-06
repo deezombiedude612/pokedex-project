@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Meowstic",
-		"jp": "ニャオニクス"
+		"jp": "ニャオニクス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default_f": {

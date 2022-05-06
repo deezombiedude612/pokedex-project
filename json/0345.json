@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Lileep",
-		"jp": "リリーラ"
+		"jp": "リリーラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

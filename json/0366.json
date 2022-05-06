@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Clamperl",
-		"jp": "パールル"
+		"jp": "パールル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

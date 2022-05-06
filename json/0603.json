@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Eelektrik",
-		"jp": "シビビール"
+		"jp": "シビビール",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Cranidos",
-		"jp": "ズガイドス"
+		"jp": "ズガイドス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

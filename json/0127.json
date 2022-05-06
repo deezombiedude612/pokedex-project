@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Pinsir",
-		"jp": "カイロス"
+		"jp": "カイロス",
+		"chs": "凯罗斯",
+		"cht": "凱羅斯"
 	},
 	"baby": false,
 	"default": {

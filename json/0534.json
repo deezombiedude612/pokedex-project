@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Conkeldurr",
-		"jp": "ローブシン"
+		"jp": "ローブシン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

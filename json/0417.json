@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Pachirisu",
-		"jp": "パチリス"
+		"jp": "パチリス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

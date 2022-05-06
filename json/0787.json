@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Tapu Bulu",
-		"jp": "カプ・ブルル"
+		"jp": "カプ・ブルル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

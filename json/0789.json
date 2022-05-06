@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Cosmog",
-		"jp": "コスモッグ"
+		"jp": "コスモッグ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

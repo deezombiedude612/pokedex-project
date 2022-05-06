@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Joltik",
-		"jp": "バチュル"
+		"jp": "バチュル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

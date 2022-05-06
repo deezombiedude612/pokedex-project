@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Articuno",
-		"jp": "フリーザー"
+		"jp": "フリーザー",
+		"chs": "急冻鸟",
+		"cht": "急凍鳥"
 	},
 	"baby": false,
 	"default": {

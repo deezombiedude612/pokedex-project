@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Zangoose",
-		"jp": "ザングース"
+		"jp": "ザングース",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Serperior",
-		"jp": "ジャローダ"
+		"jp": "ジャローダ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

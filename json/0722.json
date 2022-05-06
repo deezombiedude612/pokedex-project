@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Rowlet",
-		"jp": "モクロー"
+		"jp": "モクロー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

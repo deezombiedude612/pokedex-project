@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Aromatisse",
-		"jp": "フレフワン"
+		"jp": "フレフワン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

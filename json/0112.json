@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Rhydon",
-		"jp": "サイド"
+		"jp": "サイド",
+		"chs": "钻角犀兽",
+		"cht": "鑽角犀獸"
 	},
 	"baby": false,
 	"default": {

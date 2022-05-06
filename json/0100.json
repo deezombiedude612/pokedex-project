@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Voltorb",
-		"jp": "ビリリダマ"
+		"jp": "ビリリダマ",
+		"chs": "霹雳电球",
+		"cht": "霹靂電球"
 	},
 	"baby": false,
 	"default": {

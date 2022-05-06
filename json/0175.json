@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Togepi",
-		"jp": "トゲピー"
+		"jp": "トゲピー",
+		"chs": "波克比",
+		"cht": "波克比"
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Regigigas",
-		"jp": "レジギガス"
+		"jp": "レジギガス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

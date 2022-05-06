@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Staraptor",
-		"jp": "ムクホーク"
+		"jp": "ムクホーク",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

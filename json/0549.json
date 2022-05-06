@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Lilligant",
-		"jp": "ドレディア"
+		"jp": "ドレディア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

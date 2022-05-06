@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Clauncher",
-		"jp": "ウデッポウ"
+		"jp": "ウデッポウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

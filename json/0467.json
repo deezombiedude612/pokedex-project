@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Magmotar",
-		"jp": "ブーバーン"
+		"jp": "ブーバーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

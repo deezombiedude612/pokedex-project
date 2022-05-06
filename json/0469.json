@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Yanmega",
-		"jp": "メガヤンマ"
+		"jp": "メガヤンマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

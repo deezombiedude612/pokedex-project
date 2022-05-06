@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Sigilyph",
-		"jp": "シンボラー"
+		"jp": "シンボラー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

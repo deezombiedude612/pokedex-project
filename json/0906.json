@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Sprigatito",
-		"jp": "ニャオハ"
+		"jp": "ニャオハ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

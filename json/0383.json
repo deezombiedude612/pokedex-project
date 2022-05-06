@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Groudon",
-		"jp": "グラードン"
+		"jp": "グラードン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

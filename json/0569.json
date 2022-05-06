@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Garbodor",
-		"jp": "ダストダス"
+		"jp": "ダストダス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

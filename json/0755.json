@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Morelull",
-		"jp": "ネマシュ"
+		"jp": "ネマシュ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Klang",
-		"jp": "ギギアル"
+		"jp": "ギギアル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

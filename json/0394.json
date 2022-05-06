@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Prinplup",
-		"jp": "ポッタイシ"
+		"jp": "ポッタイシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

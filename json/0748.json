@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Toxapex",
-		"jp": "ドヒドイデ"
+		"jp": "ドヒドイデ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Venonat",
-		"jp": "コンパン"
+		"jp": "コンパン",
+		"chs": "毛球",
+		"cht": "毛球"
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Nidoking",
-		"jp": "ニドクイン"
+		"jp": "ニドクイン",
+		"chs": "尼多王",
+		"cht": "尼多王"
 	},
 	"baby": false,
 	"default": {

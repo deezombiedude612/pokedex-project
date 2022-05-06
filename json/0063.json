@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Abra",
-		"jp": "ケーシィ"
+		"jp": "ケーシィ",
+		"chs": "凯西",
+		"cht": "凱西"
 	},
 	"baby": false,
 	"default": {

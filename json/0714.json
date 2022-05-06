@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Noibat",
-		"jp": "オンバット"
+		"jp": "オンバット",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

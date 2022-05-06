@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Larvitar",
-		"jp": "ヨーギラス"
+		"jp": "ヨーギラス",
+		"chs": "幼基拉斯",
+		"cht": "幼基拉斯"
 	},
 	"baby": false,
 	"default": {

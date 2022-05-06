@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Whirlipede",
-		"jp": "ホイーガ"
+		"jp": "ホイーガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Litwick",
-		"jp": "ヒトモシ"
+		"jp": "ヒトモシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

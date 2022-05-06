@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Phanpy",
-		"jp": "ゴマゾウ"
+		"jp": "ゴマゾウ",
+		"chs": "小小象",
+		"cht": "小小象"
 	},
 	"baby": false,
 	"default": {

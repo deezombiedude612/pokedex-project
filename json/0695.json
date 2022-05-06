@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Heliolisk",
-		"jp": "エレザード"
+		"jp": "エレザード",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Bouffalant",
-		"jp": "バッフロン"
+		"jp": "バッフロン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Delibird",
-		"jp": "デリバード"
+		"jp": "デリバード",
+		"chs": "信使鸟",
+		"cht": "信使鳥"
 	},
 	"baby": false,
 	"default": {

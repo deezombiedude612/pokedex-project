@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mankey",
-		"jp": "マンキー"
+		"jp": "マンキー",
+		"chs": "猴怪",
+		"cht": "猴怪"
 	},
 	"baby": false,
 	"default": {

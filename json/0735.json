@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Gumshoos",
-		"jp": "デカグース"
+		"jp": "デカグース",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

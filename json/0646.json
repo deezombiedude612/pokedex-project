@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Kyurem",
-		"jp": "キュレム"
+		"jp": "キュレム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

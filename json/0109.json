@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Koffing",
-		"jp": "ドガース"
+		"jp": "ドガース",
+		"chs": "瓦斯弹",
+		"cht": "瓦斯彈"
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Sceptile",
-		"jp": "ジュカイン"
+		"jp": "ジュカイン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

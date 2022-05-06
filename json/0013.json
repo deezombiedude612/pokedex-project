@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Weedle",
-		"jp": "ビードル"
+		"jp": "ビードル",
+		"chs": "独角虫",
+		"cht": "獨角蟲"
 	},
 	"baby": false,
 	"default": {

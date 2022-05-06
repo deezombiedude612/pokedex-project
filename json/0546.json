@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Cottonee",
-		"jp": "モンメン"
+		"jp": "モンメン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

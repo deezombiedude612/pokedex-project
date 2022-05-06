@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Starly",
-		"jp": "ムックル"
+		"jp": "ムックル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Eelektross",
-		"jp": "シビルドン"
+		"jp": "シビルドン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

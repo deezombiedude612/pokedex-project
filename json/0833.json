@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Chewtle",
-		"jp": "カムカメ"
+		"jp": "カムカメ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

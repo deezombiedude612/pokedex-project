@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Buzzwole",
-		"jp": "マッシブーン"
+		"jp": "マッシブーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

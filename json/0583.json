@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Vanillish",
-		"jp": "バニリッチ"
+		"jp": "バニリッチ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

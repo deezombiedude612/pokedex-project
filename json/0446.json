@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Munchlax",
-		"jp": "ゴンベ"
+		"jp": "ゴンベ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

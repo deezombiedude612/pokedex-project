@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Chimchar",
-		"jp": "ヒコザル"
+		"jp": "ヒコザル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

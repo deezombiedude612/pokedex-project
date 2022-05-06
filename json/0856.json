@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Hatenna",
-		"jp": "ミブリム"
+		"jp": "ミブリム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Empoleon",
-		"jp": "エンペルト"
+		"jp": "エンペルト",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

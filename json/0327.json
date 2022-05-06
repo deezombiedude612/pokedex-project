@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Spinda",
-		"jp": "パッチール"
+		"jp": "パッチール",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

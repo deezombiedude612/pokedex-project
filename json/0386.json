@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Deoxys",
-		"jp": "デオキシス"
+		"jp": "デオキシス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"attack_forme": {

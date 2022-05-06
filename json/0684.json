@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Swirlix",
-		"jp": "ペロッパフ"
+		"jp": "ペロッパフ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Mandibuzz",
-		"jp": "バルジーナ"
+		"jp": "バルジーナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

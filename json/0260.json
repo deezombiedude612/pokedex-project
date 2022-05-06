@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Swampert",
-		"jp": "ラグラージ"
+		"jp": "ラグラージ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

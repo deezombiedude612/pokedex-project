@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tornadus",
-		"jp": "トルネロス"
+		"jp": "トルネロス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"incarnate_forme": {

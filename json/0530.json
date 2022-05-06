@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Excadrill",
-		"jp": "ドリュウズ"
+		"jp": "ドリュウズ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

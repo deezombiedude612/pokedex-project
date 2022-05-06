@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Ferrothorn",
-		"jp": "ナットレイ"
+		"jp": "ナットレイ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Simipour",
-		"jp": "ヒヤッキー"
+		"jp": "ヒヤッキー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

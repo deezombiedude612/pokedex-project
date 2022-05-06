@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Grimer",
-		"jp": "ベトベター"
+		"jp": "ベトベター",
+		"chs": "臭泥",
+		"cht": "臭泥"
 	},
 	"baby": false,
 	"default": {

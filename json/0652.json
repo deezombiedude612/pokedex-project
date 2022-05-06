@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Chesnaught",
-		"jp": "ブリガロン"
+		"jp": "ブリガロン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

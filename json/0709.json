@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Trevenant",
-		"jp": "オーロット"
+		"jp": "オーロット",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

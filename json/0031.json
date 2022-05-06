@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Nidoqueen",
-		"jp": "ニドクイン"
+		"jp": "ニドクイン",
+		"chs": "尼多后",
+		"cht": "尼多后"
 	},
 	"baby": false,
 	"default": {

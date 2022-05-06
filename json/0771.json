@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Pyukumuku",
-		"jp": "ナマコブシ"
+		"jp": "ナマコブシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

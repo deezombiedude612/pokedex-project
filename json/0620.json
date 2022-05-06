@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mienshao",
-		"jp": "コジョンド"
+		"jp": "コジョンド",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

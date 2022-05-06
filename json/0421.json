@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Cherrim",
-		"jp": "チェリム"
+		"jp": "チェリム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

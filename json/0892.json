@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Urshifu",
-		"jp": "ウーラオス"
+		"jp": "ウーラオス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"rapid_strike_style": {

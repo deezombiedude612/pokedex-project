@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Raltz",
-		"jp": "ラルトス"
+		"jp": "ラルトス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

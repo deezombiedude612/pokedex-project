@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Barraskewda",
-		"jp": "カマスジュー"
+		"jp": "カマスジュー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Milotic",
-		"jp": "ミロカロス"
+		"jp": "ミロカロス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

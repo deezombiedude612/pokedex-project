@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Larvesta",
-		"jp": "メラルバ"
+		"jp": "メラルバ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

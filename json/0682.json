@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Spritzee",
-		"jp": "シュシュプ"
+		"jp": "シュシュプ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

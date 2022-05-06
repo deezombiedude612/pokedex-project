@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Moltres",
-		"jp": "ファイヤー"
+		"jp": "ファイヤー",
+		"chs": "火焰鸟",
+		"cht": "火焰鳥"
 	},
 	"baby": false,
 	"default": {

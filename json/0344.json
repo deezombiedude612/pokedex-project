@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Claydol",
-		"jp": "ネンドール"
+		"jp": "ネンドール",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

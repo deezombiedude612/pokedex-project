@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Spewpa",
-		"jp": "コフーライ"
+		"jp": "コフーライ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

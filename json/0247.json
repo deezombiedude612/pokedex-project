@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Pupitar",
-		"jp": "サナギラス"
+		"jp": "サナギラス",
+		"chs": "沙基拉斯",
+		"cht": "沙基拉斯"
 	},
 	"baby": false,
 	"default": {

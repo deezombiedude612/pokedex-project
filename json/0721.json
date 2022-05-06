@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Volcanion",
-		"jp": "ボルケニオン"
+		"jp": "ボルケニオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

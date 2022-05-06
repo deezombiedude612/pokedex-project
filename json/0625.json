@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Bisharp",
-		"jp": "キリキザン"
+		"jp": "キリキザン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

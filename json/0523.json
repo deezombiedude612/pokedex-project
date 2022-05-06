@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Zebstrika",
-		"jp": "ゼブライカ"
+		"jp": "ゼブライカ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Barbaracle",
-		"jp": "ガメノデス"
+		"jp": "ガメノデス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

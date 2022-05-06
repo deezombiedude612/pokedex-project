@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Gardevoir",
-		"jp": "サーナイト"
+		"jp": "サーナイト",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

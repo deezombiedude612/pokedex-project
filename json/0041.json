@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Zubat",
-		"jp": "ズバット"
+		"jp": "ズバット",
+		"chs": "超音蝠",
+		"cht": "超音蝠"
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Horsea",
-		"jp": "タッツー"
+		"jp": "タッツー",
+		"chs": "墨海马",
+		"cht": "墨海馬"
 	},
 	"baby": false,
 	"default": {

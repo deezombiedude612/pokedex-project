@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Golbat",
-		"jp": "ゴルバット"
+		"jp": "ゴルバット",
+		"chs": "大嘴蝠",
+		"cht": "大嘴蝠"
 	},
 	"baby": false,
 	"default": {

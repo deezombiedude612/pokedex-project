@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Murkrow",
-		"jp": "ヤミカラス"
+		"jp": "ヤミカラス",
+		"chs": "黑暗鸦",
+		"cht": "黑暗鴉"
 	},
 	"baby": false,
 	"default": {

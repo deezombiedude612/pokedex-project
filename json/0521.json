@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Unfezant",
-		"jp": "ケンホロウ"
+		"jp": "ケンホロウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

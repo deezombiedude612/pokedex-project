@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Sizzlipede",
-		"jp": "ヤクデ"
+		"jp": "ヤクデ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

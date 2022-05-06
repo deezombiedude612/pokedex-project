@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Electrike",
-		"jp": "ラクライ"
+		"jp": "ラクライ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

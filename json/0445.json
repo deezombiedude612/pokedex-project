@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Garchomp",
-		"jp": "ガブリアス"
+		"jp": "ガブリアス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

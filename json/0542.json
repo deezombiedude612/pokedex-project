@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Leavanny",
-		"jp": "ハハコモリ"
+		"jp": "ハハコモリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

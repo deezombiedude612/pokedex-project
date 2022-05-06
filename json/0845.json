@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Cramorant",
-		"jp": "ウッウ"
+		"jp": "ウッウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Slurpuff",
-		"jp": "ペロリーム"
+		"jp": "ペロリーム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

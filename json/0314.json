@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Illumise",
-		"jp": "イルミーゼ"
+		"jp": "イルミーゼ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

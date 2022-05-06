@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Ivysaur",
-		"jp": "フシギソウ"
+		"jp": "フシギソウ",
+		"chs": "妙蛙草",
+		"cht": "妙蛙草"
 	},
 	"baby": false,
 	"default": {

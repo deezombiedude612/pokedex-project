@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Leafeon",
-		"jp": "リーフィア"
+		"jp": "リーフィア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

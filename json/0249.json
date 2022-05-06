@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Lugia",
-		"jp": "ルギア"
+		"jp": "ルギア",
+		"chs": "洛奇亚",
+		"cht": "洛奇亞"
 	},
 	"baby": false,
 	"default": {

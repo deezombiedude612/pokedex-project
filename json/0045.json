@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Vileplume",
-		"jp": "ラフレシア"
+		"jp": "ラフレシア",
+		"chs": "霸王花",
+		"cht": "霸王花"
 	},
 	"baby": false,
 	"default": {

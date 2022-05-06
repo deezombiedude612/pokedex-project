@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Solrock",
-		"jp": "ソルロック"
+		"jp": "ソルロック",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

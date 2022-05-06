@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Genesect",
-		"jp": "ゲノセクト"
+		"jp": "ゲノセクト",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

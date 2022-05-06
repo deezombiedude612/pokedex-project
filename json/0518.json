@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Musharna",
-		"jp": "ムシャーナ"
+		"jp": "ムシャーナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

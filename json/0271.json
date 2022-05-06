@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Lombre",
-		"jp": "ハスブレロ"
+		"jp": "ハスブレロ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

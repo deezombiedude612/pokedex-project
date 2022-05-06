@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Regice",
-		"jp": "レジアイス"
+		"jp": "レジアイス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

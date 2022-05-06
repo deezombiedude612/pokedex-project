@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Hitmontop",
-		"jp": "カポエラー"
+		"jp": "カポエラー",
+		"chs": "战舞郎",
+		"cht": "戰舞郎"
 	},
 	"baby": false,
 	"default": {

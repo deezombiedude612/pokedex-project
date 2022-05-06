@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Metang",
-		"jp": "メタング"
+		"jp": "メタング",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

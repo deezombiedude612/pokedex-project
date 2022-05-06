@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cacnea",
-		"jp": "サボネア"
+		"jp": "サボネア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

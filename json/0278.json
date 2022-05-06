@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Wingull",
-		"jp": "キャモメ"
+		"jp": "キャモメ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

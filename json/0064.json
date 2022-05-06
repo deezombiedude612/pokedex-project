@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Kadabra",
-		"jp": "ユンゲラー"
+		"jp": "ユンゲラー",
+		"chs": "勇基拉",
+		"cht": "勇基拉"
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Blitzle",
-		"jp": "シママ"
+		"jp": "シママ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

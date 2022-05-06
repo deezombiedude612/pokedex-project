@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Amoonguss",
-		"jp": "モロバレル"
+		"jp": "モロバレル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Machoke",
-		"jp": "ゴーリキー"
+		"jp": "ゴーリキー",
+		"chs": "豪力",
+		"cht": "豪力"
 	},
 	"baby": false,
 	"default": {

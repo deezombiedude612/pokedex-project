@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Clobbopus",
-		"jp": "タタッコ"
+		"jp": "タタッコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

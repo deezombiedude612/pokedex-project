@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Hattrem",
-		"jp": "テブリム"
+		"jp": "テブリム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

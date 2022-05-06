@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Kangaskhan",
-		"jp": "ガルーラ"
+		"jp": "ガルーラ",
+		"chs": "袋兽",
+		"cht": "袋獸"
 	},
 	"baby": false,
 	"default": {

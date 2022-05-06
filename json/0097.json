@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Hypno",
-		"jp": "スリーパー"
+		"jp": "スリーパー",
+		"chs": "引梦貘人",
+		"cht": "引夢貘人"
 	},
 	"baby": false,
 	"default": {

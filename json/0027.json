@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Sandshrew",
-		"jp": "サンド"
+		"jp": "サンド",
+		"chs": "穿山鼠",
+		"cht": "穿山鼠"
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Lillipup",
-		"jp": "ヨーテリー"
+		"jp": "ヨーテリー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

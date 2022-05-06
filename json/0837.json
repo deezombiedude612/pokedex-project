@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Rolycoly",
-		"jp": "タンドン"
+		"jp": "タンドン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

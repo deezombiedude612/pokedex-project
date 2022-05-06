@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Elgyem",
-		"jp": "リグレー"
+		"jp": "リグレー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Machop",
-		"jp": "ワンリキー"
+		"jp": "ワンリキー",
+		"chs": "腕力",
+		"cht": "腕力"
 	},
 	"baby": false,
 	"default": {

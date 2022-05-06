@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Lucario",
-		"jp": "ルカリオ"
+		"jp": "ルカリオ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

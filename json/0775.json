@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Komala",
-		"jp": "ネッコアラ"
+		"jp": "ネッコアラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

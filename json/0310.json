@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Manectric",
-		"jp": "ライボルト"
+		"jp": "ライボルト",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

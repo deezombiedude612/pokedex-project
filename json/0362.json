@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Glalie",
-		"jp": "オニゴーリ"
+		"jp": "オニゴーリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Stonjourner",
-		"jp": "イシヘンジン"
+		"jp": "イシヘンジン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

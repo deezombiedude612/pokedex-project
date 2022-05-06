@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Luxio",
-		"jp": "ルクシオ"
+		"jp": "ルクシオ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

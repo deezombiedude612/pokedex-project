@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Machamp",
-		"jp": "カイリキー"
+		"jp": "カイリキー",
+		"chs": "怪力",
+		"cht": "怪力"
 	},
 	"baby": false,
 	"default": {

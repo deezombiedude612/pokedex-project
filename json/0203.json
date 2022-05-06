@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Girafarig",
-		"jp": "キリンリキ"
+		"jp": "キリンリキ",
+		"chs": "麒麟奇",
+		"cht": "麒麟奇"
 	},
 	"baby": false,
 	"default": {

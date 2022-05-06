@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Swanna",
-		"jp": "スワンナ"
+		"jp": "スワンナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

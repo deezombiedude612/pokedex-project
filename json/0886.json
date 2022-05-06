@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Drakloak",
-		"jp": "ドロンチ"
+		"jp": "ドロンチ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Liepard",
-		"jp": "レパルダス"
+		"jp": "レパルダス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Cleffa",
-		"jp": "ピィ"
+		"jp": "ピィ",
+		"chs": "皮宝宝",
+		"cht": "皮寶寶"
 	},
 	"baby": false,
 	"default": {

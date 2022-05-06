@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Silicobra",
-		"jp": "スナヘビ"
+		"jp": "スナヘビ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

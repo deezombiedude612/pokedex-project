@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Stakataka",
-		"jp": "ツンデツンデ"
+		"jp": "ツンデツンデ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

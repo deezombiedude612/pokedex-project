@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Palkia",
-		"jp": "パルキア"
+		"jp": "パルキア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

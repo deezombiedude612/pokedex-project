@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Pignite",
-		"jp": "チャオブー"
+		"jp": "チャオブー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

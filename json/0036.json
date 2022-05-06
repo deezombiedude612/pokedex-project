@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Clefable",
-		"jp": "ピクシー"
+		"jp": "ピクシー",
+		"chs": "皮可西",
+		"cht": "皮可西"
 	},
 	"baby": false,
 	"default": {

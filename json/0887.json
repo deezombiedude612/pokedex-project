@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dragapult",
-		"jp": "ドラパルト"
+		"jp": "ドラパルト",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

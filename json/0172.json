@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Pichu",
-		"jp": "ピチュー"
+		"jp": "ピチュー",
+		"chs": "皮丘",
+		"cht": "皮丘"
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Beautifly",
-		"jp": "アゲハント"
+		"jp": "アゲハント",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

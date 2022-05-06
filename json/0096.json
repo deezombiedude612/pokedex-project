@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Drowzee",
-		"jp": "スリープ"
+		"jp": "スリープ",
+		"chs": "催眠貘",
+		"cht": "催眠貘"
 	},
 	"baby": false,
 	"default": {

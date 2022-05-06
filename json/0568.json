@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Trubbish",
-		"jp": "ヤブクロン"
+		"jp": "ヤブクロン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

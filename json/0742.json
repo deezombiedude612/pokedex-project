@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cutiefly",
-		"jp": "アブリー"
+		"jp": "アブリー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

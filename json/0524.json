@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Roggenrola",
-		"jp": "ダンゴロ"
+		"jp": "ダンゴロ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

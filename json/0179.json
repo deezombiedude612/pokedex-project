@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Mareep",
-		"jp": "メリープ"
+		"jp": "メリープ",
+		"chs": "咩利羊",
+		"cht": "咩利羊"
 	},
 	"baby": false,
 	"default": {

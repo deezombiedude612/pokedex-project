@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dragonite",
-		"jp": "カイリュー"
+		"jp": "カイリュー",
+		"chs": "快龙",
+		"cht": "快龍"
 	},
 	"baby": false,
 	"default": {

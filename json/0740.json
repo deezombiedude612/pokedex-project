@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Crabominable",
-		"jp": "ケケンカニ"
+		"jp": "ケケンカニ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

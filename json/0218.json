@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Slugma",
-		"jp": "マグマッグ"
+		"jp": "マグマッグ",
+		"chs": "熔岩虫",
+		"cht": "熔岩蟲"
 	},
 	"baby": false,
 	"default": {

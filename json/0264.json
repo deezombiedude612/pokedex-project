@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Linoone",
-		"jp": "マッスグマ"
+		"jp": "マッスグマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

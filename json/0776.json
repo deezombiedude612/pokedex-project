@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Turtonator",
-		"jp": "バクがメス"
+		"jp": "バクがメス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

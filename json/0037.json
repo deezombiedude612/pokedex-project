@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Vulpix",
-		"jp": "ロコン"
+		"jp": "ロコン",
+		"chs": "六尾",
+		"cht": "六尾"
 	},
 	"baby": false,
 	"default": {

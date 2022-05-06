@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Mesprit",
-		"jp": "エムリット"
+		"jp": "エムリット",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

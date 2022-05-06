@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Cradily",
-		"jp": "ユレイドル"
+		"jp": "ユレイドル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

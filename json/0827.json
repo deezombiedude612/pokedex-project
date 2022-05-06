@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Nickit",
-		"jp": "クスネ"
+		"jp": "クスネ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

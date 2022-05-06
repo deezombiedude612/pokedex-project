@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Porygon-z",
-		"jp": "ポリゴンZ"
+		"jp": "ポリゴンZ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

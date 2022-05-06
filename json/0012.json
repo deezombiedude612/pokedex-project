@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Butterfree",
-		"jp": "バタフリー"
+		"jp": "バタフリー",
+		"chs": "巴大蝶",
+		"cht": "巴大蝶"
 	},
 	"baby": false,
 	"default": {

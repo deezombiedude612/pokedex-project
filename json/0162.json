@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Furret",
-		"jp": "オオタチ"
+		"jp": "オオタチ",
+		"chs": "大尾立",
+		"cht": "大尾立"
 	},
 	"baby": false,
 	"default": {

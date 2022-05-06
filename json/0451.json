@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Skorupi",
-		"jp": "スコルピ"
+		"jp": "スコルピ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

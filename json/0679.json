@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Honedge",
-		"jp": "ヒトツキ"
+		"jp": "ヒトツキ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

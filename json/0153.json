@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Bayleef",
-		"jp": "ベイリーフ"
+		"jp": "ベイリーフ",
+		"chs": "月桂叶",
+		"cht": "月桂葉"
 	},
 	"baby": false,
 	"default": {

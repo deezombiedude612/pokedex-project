@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Greedent",
-		"jp": "ヨクバリス"
+		"jp": "ヨクバリス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

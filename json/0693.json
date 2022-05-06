@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Clawitzer",
-		"jp": "ブロスター"
+		"jp": "ブロスター",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

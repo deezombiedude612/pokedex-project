@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Klefki",
-		"jp": "クレッフィ"
+		"jp": "クレッフィ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

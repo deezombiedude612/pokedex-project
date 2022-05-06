@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Sinistea",
-		"jp": "ヤバチャ"
+		"jp": "ヤバチャ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

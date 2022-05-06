@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Ribombee",
-		"jp": "アブリボン"
+		"jp": "アブリボン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

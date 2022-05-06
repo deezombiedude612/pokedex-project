@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Tapu Lele",
-		"jp": "カプ・テテフ"
+		"jp": "カプ・テテフ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

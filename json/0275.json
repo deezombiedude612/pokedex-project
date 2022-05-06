@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Shiftry",
-		"jp": "ダーテング"
+		"jp": "ダーテング",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

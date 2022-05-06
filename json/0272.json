@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Ludicolo",
-		"jp": "ルンパッパ"
+		"jp": "ルンパッパ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

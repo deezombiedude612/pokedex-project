@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Dunsparce",
-		"jp": "ノコッチ"
+		"jp": "ノコッチ",
+		"chs": "土龙弟弟",
+		"cht": "土龍弟弟"
 	},
 	"baby": false,
 	"default": {

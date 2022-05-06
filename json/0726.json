@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Torracat",
-		"jp": "ニャヒート"
+		"jp": "ニャヒート",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

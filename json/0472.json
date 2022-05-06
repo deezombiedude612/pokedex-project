@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Gliscor",
-		"jp": "グライオン"
+		"jp": "グライオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

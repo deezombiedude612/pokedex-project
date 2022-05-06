@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Kabuto",
-		"jp": "カブト"
+		"jp": "カブト",
+		"chs": "化石盔",
+		"cht": "化石盔"
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Watchog",
-		"jp": "ミルホッグ"
+		"jp": "ミルホッグ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

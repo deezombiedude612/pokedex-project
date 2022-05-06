@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Breloom",
-		"jp": "キノガッサ"
+		"jp": "キノガッサ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

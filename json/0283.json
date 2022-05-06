@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Surskit",
-		"jp": "アメタマ"
+		"jp": "アメタマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

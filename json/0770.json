@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Palossand",
-		"jp": "シロデスナ"
+		"jp": "シロデスナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Corvisquire",
-		"jp": "アオガラス"
+		"jp": "アオガラス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

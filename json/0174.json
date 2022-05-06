@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Igglybuff",
-		"jp": "ププリン"
+		"jp": "ププリン",
+		"chs": "宝宝丁",
+		"cht": "寶寶丁"
 	},
 	"baby": false,
 	"default": {

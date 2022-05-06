@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Luvdisc",
-		"jp": "ラブカス"
+		"jp": "ラブカス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

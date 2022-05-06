@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Magnemite",
-		"jp": "コイル"
+		"jp": "コイル",
+		"chs": "小磁怪",
+		"cht": "小磁怪"
 	},
 	"baby": false,
 	"default": {

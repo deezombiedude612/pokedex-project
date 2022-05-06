@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mudbray",
-		"jp": "ドロバンコ"
+		"jp": "ドロバンコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

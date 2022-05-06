@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Arceus",
-		"jp": "アルセウス"
+		"jp": "アルセウス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

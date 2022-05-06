@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Wooloo",
-		"jp": "ウールー"
+		"jp": "ウールー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

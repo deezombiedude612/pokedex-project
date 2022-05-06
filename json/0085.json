@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dodrio",
-		"jp": "ドードリオ"
+		"jp": "ドードリオ",
+		"chs": "嘟嘟利",
+		"cht": "嘟嘟利"
 	},
 	"baby": false,
 	"default": {

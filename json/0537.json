@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Seismitoad",
-		"jp": "ガマゲロゲ"
+		"jp": "ガマゲロゲ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

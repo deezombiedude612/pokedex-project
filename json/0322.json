@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Numel",
-		"jp": "ドンメル"
+		"jp": "ドンメル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

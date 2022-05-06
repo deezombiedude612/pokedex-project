@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Crobat",
-		"jp": "クロバット"
+		"jp": "クロバット",
+		"chs": "叉字蝠",
+		"cht": "叉字蝠"
 	},
 	"baby": false,
 	"default": {

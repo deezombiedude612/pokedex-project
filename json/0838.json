@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Carkol",
-		"jp": "トロッゴン"
+		"jp": "トロッゴン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

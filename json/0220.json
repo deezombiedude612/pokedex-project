@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Swinub",
-		"jp": "ウリムー"
+		"jp": "ウリムー",
+		"chs": "小山猪",
+		"cht": "小山豬"
 	},
 	"baby": false,
 	"default": {

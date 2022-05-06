@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Riolu",
-		"jp": "リオル"
+		"jp": "リオル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

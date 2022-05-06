@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Drapion",
-		"jp": "ドラピオン"
+		"jp": "ドラピオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

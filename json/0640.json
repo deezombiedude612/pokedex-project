@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Virizion",
-		"jp": "ビリジオン"
+		"jp": "ビリジオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

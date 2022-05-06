@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Fraxure",
-		"jp": "オノンド"
+		"jp": "オノンド",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Falinks",
-		"jp": "タイレーつ"
+		"jp": "タイレーつ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

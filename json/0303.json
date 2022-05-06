@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Mawile",
-		"jp": "クチート"
+		"jp": "クチート",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

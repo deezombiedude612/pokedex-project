@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Boldore",
-		"jp": "ガントル"
+		"jp": "ガントル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

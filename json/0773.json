@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Silvally",
-		"jp": "シルヴァディ"
+		"jp": "シルヴァディ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

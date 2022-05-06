@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Ekans",
-		"jp": "アーボ"
+		"jp": "アーボ",
+		"chs": "阿柏蛇",
+		"cht": "阿柏蛇"
 	},
 	"baby": false,
 	"default": {

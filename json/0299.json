@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Nosepass",
-		"jp": "ノズパス"
+		"jp": "ノズパス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

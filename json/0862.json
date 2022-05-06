@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Obstagoon",
-		"jp": "タチフサグマ"
+		"jp": "タチフサグマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

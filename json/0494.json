@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Victini",
-		"jp": "ビクティニ"
+		"jp": "ビクティニ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

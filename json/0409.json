@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Rampardos",
-		"jp": "ラムパルド"
+		"jp": "ラムパルド",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

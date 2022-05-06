@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Drampa",
-		"jp": "ジジーロン"
+		"jp": "ジジーロン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

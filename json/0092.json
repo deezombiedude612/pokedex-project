@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Gastly",
-		"jp": "ゴース"
+		"jp": "ゴース",
+		"chs": "鬼斯",
+		"cht": "鬼斯"
 	},
 	"baby": false,
 	"default": {

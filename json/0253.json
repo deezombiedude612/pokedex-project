@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Grovyle",
-		"jp": "ジュプトル"
+		"jp": "ジュプトル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

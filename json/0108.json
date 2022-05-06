@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Lickitung",
-		"jp": "ベロリンガ"
+		"jp": "ベロリンガ",
+		"chs": "大舌头",
+		"cht": "大舌頭"
 	},
 	"baby": false,
 	"default": {

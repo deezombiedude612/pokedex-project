@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Thwackey",
-		"jp": "バチンキー"
+		"jp": "バチンキー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

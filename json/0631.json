@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Heatmor",
-		"jp": "クイタラン"
+		"jp": "クイタラン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

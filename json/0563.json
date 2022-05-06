@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cofagrigus",
-		"jp": "デスカーン"
+		"jp": "デスカーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

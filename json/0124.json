@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Jynx",
-		"jp": "ルージュラ"
+		"jp": "ルージュラ",
+		"chs": "迷唇姐",
+		"cht": "迷唇姐"
 	},
 	"baby": false,
 	"default": {

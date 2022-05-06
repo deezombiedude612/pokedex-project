@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Drizzile",
-		"jp": "ジメレオン"
+		"jp": "ジメレオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

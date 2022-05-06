@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Morgrem",
-		"jp": "ギモー"
+		"jp": "ギモー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

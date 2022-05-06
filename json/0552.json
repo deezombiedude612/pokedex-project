@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Krokorok",
-		"jp": "ワルビル"
+		"jp": "ワルビル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

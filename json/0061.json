@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Poliwhirl",
-		"jp": "ニョロゾ"
+		"jp": "ニョロゾ",
+		"chs": "蚊香君",
+		"cht": "蚊香君"
 	},
 	"baby": false,
 	"default": {

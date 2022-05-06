@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Elekid",
-		"jp": "エレキッド"
+		"jp": "エレキッド",
+		"chs": "电击怪",
+		"cht": "電擊怪"
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Metapod",
-		"jp": "トランセル"
+		"jp": "トランセル",
+		"chs": "铁甲蛹",
+		"cht": "鐵甲蛹"
 	},
 	"baby": false,
 	"default": {

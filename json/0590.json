@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Foongus",
-		"jp": "タマゲタケ"
+		"jp": "タマゲタケ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

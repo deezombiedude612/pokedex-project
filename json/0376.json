@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Metagross",
-		"jp": "メタグロス"
+		"jp": "メタグロス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Salazzle",
-		"jp": "エンニュート"
+		"jp": "エンニュート",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Grapploct",
-		"jp": "オトスパス"
+		"jp": "オトスパス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

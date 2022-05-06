@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Gastrodon",
-		"jp": "トリトドン"
+		"jp": "トリトドン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"east_sea": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Omanyte",
-		"jp": "オマナイト"
+		"jp": "オマナイト",
+		"chs": "菊石兽",
+		"cht": "菊石獸"
 	},
 	"baby": false,
 	"default": {

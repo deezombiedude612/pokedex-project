@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dubwool",
-		"jp": "バイウールー"
+		"jp": "バイウールー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

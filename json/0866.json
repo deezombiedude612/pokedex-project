@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Mr. Rime",
-		"jp": "バリコオル"
+		"jp": "バリコオル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

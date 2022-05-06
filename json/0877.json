@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Morpeko",
-		"jp": "モルペコ"
+		"jp": "モルペコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

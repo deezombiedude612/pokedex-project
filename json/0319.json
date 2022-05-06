@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Sharpedo",
-		"jp": "サメハダー"
+		"jp": "サメハダー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

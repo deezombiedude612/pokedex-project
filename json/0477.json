@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Dusknoir",
-		"jp": "ヨノワール"
+		"jp": "ヨノワール",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

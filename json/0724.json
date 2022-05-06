@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Decidueye",
-		"jp": "ジュナイパー"
+		"jp": "ジュナイパー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

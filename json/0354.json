@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Banette",
-		"jp": "ジュペッタ"
+		"jp": "ジュペッタ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

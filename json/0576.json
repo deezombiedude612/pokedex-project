@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Gothitelle",
-		"jp": "ゴチルゼル"
+		"jp": "ゴチルゼル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

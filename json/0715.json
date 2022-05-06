@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Noivern",
-		"jp": "オンバーン"
+		"jp": "オンバーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

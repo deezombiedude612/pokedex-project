@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Duosion",
-		"jp": "ダブラン"
+		"jp": "ダブラン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

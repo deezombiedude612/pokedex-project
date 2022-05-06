@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Electrode",
-		"jp": "マルマイン"
+		"jp": "マルマイン",
+		"chs": "顽皮雷弹",
+		"cht": "頑皮雷彈"
 	},
 	"baby": false,
 	"default": {

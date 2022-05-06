@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Snivy",
-		"jp": "ツタージャ"
+		"jp": "ツタージャ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

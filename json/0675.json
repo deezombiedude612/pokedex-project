@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Pangoro",
-		"jp": "ゴロンダ"
+		"jp": "ゴロンダ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

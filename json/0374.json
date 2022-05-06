@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Beldum",
-		"jp": "ダンバル"
+		"jp": "ダンバル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

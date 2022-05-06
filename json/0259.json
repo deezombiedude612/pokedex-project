@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Marshtomp",
-		"jp": "ヌマクロー"
+		"jp": "ヌマクロー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

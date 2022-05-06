@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Vikavolt",
-		"jp": "クワガノン"
+		"jp": "クワガノン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

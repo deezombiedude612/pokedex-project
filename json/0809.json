@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Melmetal",
-		"jp": "メルメタル"
+		"jp": "メルメタル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

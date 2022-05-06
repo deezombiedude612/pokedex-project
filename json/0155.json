@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cyndaquil",
-		"jp": "ヒノアラシ"
+		"jp": "ヒノアラシ",
+		"chs": "火球鼠",
+		"cht": "火球鼠"
 	},
 	"baby": false,
 	"default": {

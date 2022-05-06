@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tirtouga",
-		"jp": "プロトーガ"
+		"jp": "プロトーガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

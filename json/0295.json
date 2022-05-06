@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Exploud",
-		"jp": "バクオング"
+		"jp": "バクオング",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

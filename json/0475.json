@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Gallade",
-		"jp": "エルレイド"
+		"jp": "エルレイド",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mudsdale",
-		"jp": "バンバドロ"
+		"jp": "バンバドロ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

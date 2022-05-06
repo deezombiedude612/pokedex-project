@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Calyrex",
-		"jp": "バドレックス"
+		"jp": "バドレックス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

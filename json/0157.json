@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Typhlosion",
-		"jp": "バクフーン"
+		"jp": "バクフーン",
+		"chs": "火暴兽",
+		"cht": "火爆獸"
 	},
 	"baby": false,
 	"default": {

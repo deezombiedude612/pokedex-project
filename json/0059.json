@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Arcanine",
-		"jp": "ウインティ"
+		"jp": "ウインティ",
+		"chs": "风速狗",
+		"cht": "風速狗"
 	},
 	"baby": false,
 	"default": {

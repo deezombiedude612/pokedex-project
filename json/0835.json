@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Yamper",
-		"jp": "ワンパチ"
+		"jp": "ワンパチ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

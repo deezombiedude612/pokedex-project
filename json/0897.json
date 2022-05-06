@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Spectrier",
-		"jp": "レイスポス"
+		"jp": "レイスポス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

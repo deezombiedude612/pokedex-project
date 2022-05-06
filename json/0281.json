@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Kirlia",
-		"jp": "キルリア"
+		"jp": "キルリア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

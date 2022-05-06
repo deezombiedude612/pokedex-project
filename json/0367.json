@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Huntail",
-		"jp": "ハンテール"
+		"jp": "ハンテール",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Gossifleur",
-		"jp": "ヒメンカ"
+		"jp": "ヒメンカ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

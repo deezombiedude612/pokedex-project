@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Golduck",
-		"jp": "ゴルダック"
+		"jp": "ゴルダック",
+		"chs": "哥达鸭",
+		"cht": "哥達鴨"
 	},
 	"baby": false,
 	"default": {

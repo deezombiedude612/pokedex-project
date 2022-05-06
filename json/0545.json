@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Scolipede",
-		"jp": "ペンドラー"
+		"jp": "ペンドラー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Klink",
-		"jp": "ギアル"
+		"jp": "ギアル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

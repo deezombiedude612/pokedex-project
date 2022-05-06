@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Primarina",
-		"jp": "アシレーヌ"
+		"jp": "アシレーヌ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

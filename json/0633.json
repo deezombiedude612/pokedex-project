@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Deino",
-		"jp": "モノズ"
+		"jp": "モノズ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

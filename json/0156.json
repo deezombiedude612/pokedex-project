@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Quilava",
-		"jp": "マグマラシ"
+		"jp": "マグマラシ",
+		"chs": "火岩鼠",
+		"cht": "火岩鼠"
 	},
 	"baby": false,
 	"default": {

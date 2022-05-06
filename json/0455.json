@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Carnivine",
-		"jp": "マスキッパ"
+		"jp": "マスキッパ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

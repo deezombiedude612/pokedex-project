@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Miltank",
-		"jp": "ミルタンク"
+		"jp": "ミルタンク",
+		"chs": "大奶罐",
+		"cht": "大奶罐"
 	},
 	"baby": false,
 	"default": {

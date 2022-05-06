@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Appletun",
-		"jp": "タルップル"
+		"jp": "タルップル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

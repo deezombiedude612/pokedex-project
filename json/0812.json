@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Rillaboom",
-		"jp": "ゴリアンダー"
+		"jp": "ゴリアンダー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

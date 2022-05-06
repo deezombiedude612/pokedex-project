@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Xurkitree",
-		"jp": "デンジュモク"
+		"jp": "デンジュモク",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

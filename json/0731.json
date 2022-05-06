@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Pikipek",
-		"jp": "ツツケラ"
+		"jp": "ツツケラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

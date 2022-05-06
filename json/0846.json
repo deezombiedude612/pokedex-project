@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Arrokuda",
-		"jp": "サシカマス"
+		"jp": "サシカマス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

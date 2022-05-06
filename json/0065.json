@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Alakazam",
-		"jp": "フーディン"
+		"jp": "フーディン",
+		"chs": "胡地",
+		"cht": "胡地"
 	},
 	"baby": false,
 	"default": {

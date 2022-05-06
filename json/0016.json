@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Pidgey",
-		"jp": "ポッポ"
+		"jp": "ポッポ",
+		"chs": "波波",
+		"cht": "波波"
 	},
 	"baby": false,
 	"default": {

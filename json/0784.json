@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Kommo-o",
-		"jp": "ジャラランガ"
+		"jp": "ジャラランガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

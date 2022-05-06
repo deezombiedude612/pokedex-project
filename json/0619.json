@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mienfoo",
-		"jp": "コジョフー"
+		"jp": "コジョフー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

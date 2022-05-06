@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Carvanha",
-		"jp": "キバニア"
+		"jp": "キバニア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tsareena",
-		"jp": "アマジョ"
+		"jp": "アマジョ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

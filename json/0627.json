@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Rufflet",
-		"jp": "ワシボン"
+		"jp": "ワシボン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Electivire",
-		"jp": "エレキブル"
+		"jp": "エレキブル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

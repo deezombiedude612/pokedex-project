@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Palipitoad",
-		"jp": "ガマガル"
+		"jp": "ガマガル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

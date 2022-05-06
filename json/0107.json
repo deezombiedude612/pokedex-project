@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Hitmonchan",
-		"jp": "エビワラー"
+		"jp": "エビワラー",
+		"chs": "快拳郎",
+		"cht": "快拳郎"
 	},
 	"baby": false,
 	"default": {

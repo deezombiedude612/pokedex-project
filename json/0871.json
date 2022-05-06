@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Pincurchin",
-		"jp": "バチンウニ"
+		"jp": "バチンウニ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

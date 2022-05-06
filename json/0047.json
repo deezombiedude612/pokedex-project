@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Parasect",
-		"jp": "パラセクト"
+		"jp": "パラセクト",
+		"chs": "派拉斯特",
+		"cht": "派拉斯特"
 	},
 	"baby": false,
 	"default": {

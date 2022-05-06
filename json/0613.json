@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Cubchoo",
-		"jp": "クマシュン"
+		"jp": "クマシュン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Slaking",
-		"jp": "ケッキング"
+		"jp": "ケッキング",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

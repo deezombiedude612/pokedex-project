@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Krookodile",
-		"jp": "ワルビアル"
+		"jp": "ワルビアル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

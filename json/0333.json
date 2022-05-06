@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Swablu",
-		"jp": "チルット"
+		"jp": "チルット",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

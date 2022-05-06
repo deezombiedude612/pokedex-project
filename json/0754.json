@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Lurantis",
-		"jp": "ラランテス"
+		"jp": "ラランテス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Shieldon",
-		"jp": "タテトプス"
+		"jp": "タテトプス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

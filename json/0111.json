@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Rhyhorn",
-		"jp": "サイホーン"
+		"jp": "サイホーン",
+		"chs": "独角犀牛",
+		"cht": "獨角犀牛"
 	},
 	"baby": false,
 	"default": {

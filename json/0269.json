@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Dustox",
-		"jp": "ドクケイル"
+		"jp": "ドクケイル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

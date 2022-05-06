@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Magcargo",
-		"jp": "マグカルゴ"
+		"jp": "マグカルゴ",
+		"chs": "熔岩蜗牛",
+		"cht": "熔岩蝸牛"
 	},
 	"baby": false,
 	"default": {

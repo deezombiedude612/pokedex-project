@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Lunala",
-		"jp": "ルナアーラ"
+		"jp": "ルナアーラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

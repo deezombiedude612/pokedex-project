@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Regidrago",
-		"jp": "レジドラゴ"
+		"jp": "レジドラゴ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

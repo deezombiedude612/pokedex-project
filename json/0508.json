@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Stoutland",
-		"jp": "ムーランド"
+		"jp": "ムーランド",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

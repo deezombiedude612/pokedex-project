@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Graveler",
-		"jp": "ゴローン"
+		"jp": "ゴローン",
+		"chs": "隆隆石",
+		"cht": "隆隆石"
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dreepy",
-		"jp": "ドラメシヤ"
+		"jp": "ドラメシヤ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

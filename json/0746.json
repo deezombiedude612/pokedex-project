@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Wishiwashi",
-		"jp": "ヨワシ"
+		"jp": "ヨワシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

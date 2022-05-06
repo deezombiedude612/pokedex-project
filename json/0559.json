@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Scraggy",
-		"jp": "ズルッグ"
+		"jp": "ズルッグ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

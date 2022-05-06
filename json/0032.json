@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Nidoran ♂",
-		"jp": "ニドラン♂"
+		"jp": "ニドラン♂",
+		"chs": "尼多朗",
+		"cht": "尼多朗"
 	},
 	"baby": false,
 	"default": {

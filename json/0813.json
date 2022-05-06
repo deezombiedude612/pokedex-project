@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Scorbunny",
-		"jp": "ヒバニー"
+		"jp": "ヒバニー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

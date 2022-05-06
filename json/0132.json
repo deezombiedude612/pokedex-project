@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Ditto",
-		"jp": "メタモン"
+		"jp": "メタモン",
+		"chs": "百变怪",
+		"cht": "百變怪"
 	},
 	"baby": false,
 	"default": {

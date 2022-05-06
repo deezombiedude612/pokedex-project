@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Weepinbell",
-		"jp": "ウツドン"
+		"jp": "ウツドン",
+		"chs": "口呆花",
+		"cht": "口呆花"
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Kubfu",
-		"jp": "ダクマ"
+		"jp": "ダクマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

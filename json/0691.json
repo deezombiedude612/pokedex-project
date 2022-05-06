@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Dragalge",
-		"jp": "ドラミドロ"
+		"jp": "ドラミドロ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

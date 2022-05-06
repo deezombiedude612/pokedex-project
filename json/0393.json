@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Piplup",
-		"jp": "ポッチャマ"
+		"jp": "ポッチャマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Vaporeon",
-		"jp": "シャワーズ"
+		"jp": "シャワーズ",
+		"chs": "水伊布",
+		"cht": "水伊布"
 	},
 	"baby": false,
 	"default": {

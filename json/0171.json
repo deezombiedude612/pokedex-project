@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Lanturn",
-		"jp": "ランターン"
+		"jp": "ランターン",
+		"chs": "电灯怪",
+		"cht": "電燈怪"
 	},
 	"baby": false,
 	"default": {

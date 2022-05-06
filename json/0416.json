@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Vespiquen",
-		"jp": "ビークイン"
+		"jp": "ビークイン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

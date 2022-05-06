@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Politoed",
-		"jp": "ニョロトノ"
+		"jp": "ニョロトノ",
+		"chs": "蚊香蛙皇",
+		"cht": "蚊香蛙皇"
 	},
 	"baby": false,
 	"default": {

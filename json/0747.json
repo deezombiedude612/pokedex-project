@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Mareanie",
-		"jp": "ヒドイデ"
+		"jp": "ヒドイデ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

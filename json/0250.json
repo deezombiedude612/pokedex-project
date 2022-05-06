@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Ho-oh",
-		"jp": "ホウオウ"
+		"jp": "ホウオウ",
+		"chs": "凤王",
+		"cht": "鳳王"
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Meditite",
-		"jp": "アサナン"
+		"jp": "アサナン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

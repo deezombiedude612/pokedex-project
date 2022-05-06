@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Hydriegon",
-		"jp": "サザンドラ"
+		"jp": "サザンドラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

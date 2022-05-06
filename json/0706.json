@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Goodra",
-		"jp": "ヌメルゴン"
+		"jp": "ヌメルゴン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

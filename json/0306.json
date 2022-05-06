@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Aggron",
-		"jp": "ボスゴドラ"
+		"jp": "ボスゴドラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

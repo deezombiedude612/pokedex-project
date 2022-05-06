@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Hoopa",
-		"jp": "フーパ"
+		"jp": "フーパ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"hoopa_confined": {

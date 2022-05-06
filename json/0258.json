@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mudkip",
-		"jp": "ミズゴロウ"
+		"jp": "ミズゴロウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

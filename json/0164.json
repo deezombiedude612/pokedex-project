@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Noctowl",
-		"jp": "ヨルノズク"
+		"jp": "ヨルノズク",
+		"chs": "猫头夜鹰",
+		"cht": "貓頭夜鷹"
 	},
 	"baby": false,
 	"default": {

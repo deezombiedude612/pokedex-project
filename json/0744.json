@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Rockruff",
-		"jp": "イワンコ"
+		"jp": "イワンコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

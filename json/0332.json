@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cacturne",
-		"jp": "ノクタス"
+		"jp": "ノクタス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

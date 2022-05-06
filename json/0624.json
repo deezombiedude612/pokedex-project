@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Pawniard",
-		"jp": "コマタナ"
+		"jp": "コマタナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Baltoy",
-		"jp": "ヤジロン"
+		"jp": "ヤジロン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

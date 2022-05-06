@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Togekiss",
-		"jp": "トゲキッス"
+		"jp": "トゲキッス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

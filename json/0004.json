@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Charmander",
-		"jp": "ヒトカゲ"
+		"jp": "ヒトカゲ",
+		"chs": "小火龙",
+		"cht": "小火龍"
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Diglett",
-		"jp": "ディグダ"
+		"jp": "ディグダ",
+		"chs": "地鼠",
+		"cht": "地鼠"
 	},
 	"baby": false,
 	"default": {

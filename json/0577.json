@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Solosis",
-		"jp": "ユニラン"
+		"jp": "ユニラン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

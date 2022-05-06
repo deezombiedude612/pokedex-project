@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Hawlucha",
-		"jp": "ルチャブル"
+		"jp": "ルチャブル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

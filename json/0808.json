@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Meltan",
-		"jp": "メルタン"
+		"jp": "メルタン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

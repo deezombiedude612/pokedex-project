@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Blipbug",
-		"jp": "サッチムシ"
+		"jp": "サッチムシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

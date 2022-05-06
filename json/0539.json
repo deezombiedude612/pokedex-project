@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Sawk",
-		"jp": "ダゲキ"
+		"jp": "ダゲキ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

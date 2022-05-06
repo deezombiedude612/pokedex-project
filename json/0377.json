@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Regirock",
-		"jp": "レジロック"
+		"jp": "レジロック",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

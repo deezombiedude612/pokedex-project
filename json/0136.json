@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Flareon",
-		"jp": "ブースター"
+		"jp": "ブースター",
+		"chs": "火伊布",
+		"cht": "火伊布"
 	},
 	"baby": false,
 	"default": {

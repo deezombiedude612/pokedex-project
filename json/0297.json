@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Hariyama",
-		"jp": "ハリテヤマ"
+		"jp": "ハリテヤマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

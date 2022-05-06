@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Spearow",
-		"jp": "オニスズメ"
+		"jp": "オニスズメ",
+		"chs": "烈雀",
+		"cht": "烈雀"
 	},
 	"baby": false,
 	"default": {

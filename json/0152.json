@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Chikorita",
-		"jp": "チコリータ"
+		"jp": "チコリータ",
+		"chs": "菊草叶",
+		"cht": "菊草葉"
 	},
 	"baby": false,
 	"default": {

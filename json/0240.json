@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Magby",
-		"jp": "ブビィ"
+		"jp": "ブビィ",
+		"chs": "鸭嘴宝宝",
+		"cht": "鴨嘴寶寶"
 	},
 	"baby": false,
 	"default": {

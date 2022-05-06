@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Eevee",
-		"jp": "イーブイ"
+		"jp": "イーブイ",
+		"chs": "伊布",
+		"cht": "伊布"
 	},
 	"baby": false,
 	"default": {

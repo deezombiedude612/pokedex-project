@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Golisopod",
-		"jp": "グソクムシャ"
+		"jp": "グソクムシャ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

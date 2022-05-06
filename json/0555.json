@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Darmanitan",
-		"jp": "ヒヒダルマ"
+		"jp": "ヒヒダルマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"galar_standard_mode": {

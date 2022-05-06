@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Golem",
-		"jp": "ゴローニャ"
+		"jp": "ゴローニャ",
+		"chs": "隆隆岩",
+		"cht": "隆隆岩"
 	},
 	"baby": false,
 	"default": {

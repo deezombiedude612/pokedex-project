@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Chimecho",
-		"jp": "チリーン"
+		"jp": "チリーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

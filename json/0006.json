@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Charizard",
-		"jp": "リザードン"
+		"jp": "リザードン",
+		"chs": "喷火龙",
+		"cht": "噴火龍"
 	},
 	"baby": false,
 	"default": {

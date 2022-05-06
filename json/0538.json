@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Throh",
-		"jp": "ナゲキ"
+		"jp": "ナゲキ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

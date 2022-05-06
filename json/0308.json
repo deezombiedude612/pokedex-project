@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Medicham",
-		"jp": "チャーレム"
+		"jp": "チャーレム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

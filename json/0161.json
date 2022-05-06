@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Sentret",
-		"jp": "オタチ"
+		"jp": "オタチ",
+		"chs": "尾立",
+		"cht": "尾立"
 	},
 	"baby": false,
 	"default": {

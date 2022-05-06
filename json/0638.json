@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cobalion",
-		"jp": "コバルオン"
+		"jp": "コバルオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

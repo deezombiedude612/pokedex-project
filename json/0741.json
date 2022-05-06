@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Oricorio",
-		"jp": "オドリドリ"
+		"jp": "オドリドリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"baile_style": {

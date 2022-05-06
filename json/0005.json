@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Charmeleon",
-		"jp": "リザード"
+		"jp": "リザード",
+		"chs": "火恐龙",
+		"cht": "火恐龙"
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Zekrom",
-		"jp": "ゼクロム"
+		"jp": "ゼクロム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

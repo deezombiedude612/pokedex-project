@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Marowak",
-		"jp": "ガラガラ"
+		"jp": "ガラガラ",
+		"chs": "嘎啦嘎啦",
+		"cht": "嘎啦嘎啦"
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Emboar",
-		"jp": "エンブオー"
+		"jp": "エンブオー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Minior",
-		"jp": "メテノ"
+		"jp": "メテノ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

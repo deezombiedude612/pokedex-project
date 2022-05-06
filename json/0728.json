@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Popplio",
-		"jp": "アシマリ"
+		"jp": "アシマリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

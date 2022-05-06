@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Phantump",
-		"jp": "ボクレー"
+		"jp": "ボクレー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

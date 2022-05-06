@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Armaldo",
-		"jp": "アーマルド"
+		"jp": "アーマルド",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

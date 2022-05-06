@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Swoobat",
-		"jp": "ココロモリ"
+		"jp": "ココロモリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Shaymin",
-		"jp": "シェイミ"
+		"jp": "シェイミ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"land_forme": {

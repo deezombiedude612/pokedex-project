@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Celebi",
-		"jp": "セレビィ"
+		"jp": "セレビィ",
+		"chs": "时拉比",
+		"cht": "時拉比"
 	},
 	"baby": false,
 	"default": {

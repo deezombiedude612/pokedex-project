@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Skitty",
-		"jp": "エネコ"
+		"jp": "エネコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

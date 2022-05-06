@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Simisear",
-		"jp": "バオッキー"
+		"jp": "バオッキー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

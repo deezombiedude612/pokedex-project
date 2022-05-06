@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Tyranitar",
-		"jp": "バンギラス"
+		"jp": "バンギラス",
+		"chs": "班基拉斯",
+		"cht": "班基拉斯"
 	},
 	"baby": false,
 	"default": {

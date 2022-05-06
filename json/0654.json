@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Braixen",
-		"jp": "テールナー"
+		"jp": "テールナー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

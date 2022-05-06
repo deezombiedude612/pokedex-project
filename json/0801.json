@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Magearna",
-		"jp": "マギアナ"
+		"jp": "マギアナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

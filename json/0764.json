@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Comfey",
-		"jp": "キュワワー"
+		"jp": "キュワワー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

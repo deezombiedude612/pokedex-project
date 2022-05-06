@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Grumpig",
-		"jp": "ブーピッグ"
+		"jp": "ブーピッグ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

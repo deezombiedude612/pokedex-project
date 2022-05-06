@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Landorus",
-		"jp": "ランドロス"
+		"jp": "ランドロス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"incarnate_forme": {

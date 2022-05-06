@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dragonair",
-		"jp": "ハクリュウ"
+		"jp": "ハクリュウ",
+		"chs": "哈克龙",
+		"cht": "哈克龍"
 	},
 	"baby": false,
 	"default": {

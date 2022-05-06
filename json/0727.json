@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Incineroar",
-		"jp": "ガオガエン"
+		"jp": "ガオガエン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

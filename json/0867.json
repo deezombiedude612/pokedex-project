@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Runerigus",
-		"jp": "デスバーン"
+		"jp": "デスバーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

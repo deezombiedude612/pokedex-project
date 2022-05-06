@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Aurorus",
-		"jp": "アマルルガ"
+		"jp": "アマルルガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

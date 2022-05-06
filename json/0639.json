@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Terrakion",
-		"jp": "テラキオン"
+		"jp": "テラキオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

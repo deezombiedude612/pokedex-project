@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Mothim",
-		"jp": "ガーメイル"
+		"jp": "ガーメイル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

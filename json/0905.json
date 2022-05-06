@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Enamorus",
-		"jp": "ラブトロス"
+		"jp": "ラブトロス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"incarnate_forme": {

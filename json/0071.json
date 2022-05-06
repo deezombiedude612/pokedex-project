@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Victreebell",
-		"jp": "ウツボット"
+		"jp": "ウツボット",
+		"chs": "大食花",
+		"cht": "大食花"
 	},
 	"baby": false,
 	"default": {

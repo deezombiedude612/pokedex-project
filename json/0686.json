@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Inkay",
-		"jp": "マーイーカ"
+		"jp": "マーイーカ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

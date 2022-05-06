@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Dewott",
-		"jp": "フタチマル"
+		"jp": "フタチマル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

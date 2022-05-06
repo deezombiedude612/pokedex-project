@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Shuppet",
-		"jp": "カゲボウズ"
+		"jp": "カゲボウズ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

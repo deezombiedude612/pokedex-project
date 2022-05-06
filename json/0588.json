@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Karrablast",
-		"jp": "カブルモ"
+		"jp": "カブルモ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

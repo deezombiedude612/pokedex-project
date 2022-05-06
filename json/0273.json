@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Seedot",
-		"jp": "タネボー"
+		"jp": "タネボー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

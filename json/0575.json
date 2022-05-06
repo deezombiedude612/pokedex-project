@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Gothorita",
-		"jp": "ゴチミル"
+		"jp": "ゴチミル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

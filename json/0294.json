@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Loudred",
-		"jp": "ドゴーム"
+		"jp": "ドゴーム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

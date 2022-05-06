@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Sandygast",
-		"jp": "スナバァ"
+		"jp": "スナバァ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

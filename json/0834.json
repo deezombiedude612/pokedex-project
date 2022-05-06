@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Drednaw",
-		"jp": "カジリガメ"
+		"jp": "カジリガメ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

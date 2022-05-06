@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Fletchling",
-		"jp": "ヤヤコマ"
+		"jp": "ヤヤコマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

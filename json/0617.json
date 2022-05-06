@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Accelgor",
-		"jp": "アギルダー"
+		"jp": "アギルダー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

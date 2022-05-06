@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Azumarill",
-		"jp": "マリルリ"
+		"jp": "マリルリ",
+		"chs": "玛力露丽",
+		"cht": "瑪力露麗"
 	},
 	"baby": false,
 	"default": {

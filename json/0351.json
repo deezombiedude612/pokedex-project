@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Castform",
-		"jp": "ポワルン"
+		"jp": "ポワルン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"normal_form": {

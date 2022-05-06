@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Panpour",
-		"jp": "ヒヤップ"
+		"jp": "ヒヤップ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Ursaring",
-		"jp": "リングマ"
+		"jp": "リングマ",
+		"chs": "圈圈熊",
+		"cht": "圈圈熊"
 	},
 	"baby": false,
 	"default": {

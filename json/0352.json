@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Kecleon",
-		"jp": "カクレオン"
+		"jp": "カクレオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

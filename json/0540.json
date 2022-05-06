@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Sewaddle",
-		"jp": "クルミル"
+		"jp": "クルミル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

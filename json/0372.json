@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Shelgon",
-		"jp": "コモルー"
+		"jp": "コモルー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

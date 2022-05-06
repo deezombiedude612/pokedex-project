@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Makuhita",
-		"jp": "マクノシタ"
+		"jp": "マクノシタ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

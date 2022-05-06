@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Grotle",
-		"jp": "ハヤシガメ"
+		"jp": "ハヤシガメ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Floatzel",
-		"jp": "フローゼル"
+		"jp": "フローゼル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

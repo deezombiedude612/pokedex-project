@@ -10,7 +10,9 @@
 	},
 	"name": {
 		"en": "Barboach",
-		"jp": "ドジョッチ"
+		"jp": "ドジョッチ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

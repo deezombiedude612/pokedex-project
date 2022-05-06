@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Raboot",
-		"jp": "ラビフット"
+		"jp": "ラビフット",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Tentacruel",
-		"jp": "ドククラゲ"
+		"jp": "ドククラゲ",
+		"chs": "毒刺水母",
+		"cht": "毒刺水母"
 	},
 	"baby": false,
 	"default": {

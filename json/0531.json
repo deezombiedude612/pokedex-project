@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Audino",
-		"jp": "タブンネ"
+		"jp": "タブンネ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

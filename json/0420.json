@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Cherubi",
-		"jp": "チェリンボ"
+		"jp": "チェリンボ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

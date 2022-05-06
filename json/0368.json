@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Gorebyss",
-		"jp": "サクラビス"
+		"jp": "サクラビス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

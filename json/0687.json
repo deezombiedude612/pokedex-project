@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Malamar",
-		"jp": "カラマネロ"
+		"jp": "カラマネロ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Granbull",
-		"jp": "グランブル"
+		"jp": "グランブル",
+		"chs": "布鲁皇",
+		"cht": "布魯皇"
 	},
 	"baby": false,
 	"default": {

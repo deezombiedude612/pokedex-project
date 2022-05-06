@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Entei",
-		"jp": "エンテイ"
+		"jp": "エンテイ",
+		"chs": "炎帝",
+		"cht": "炎帝"
 	},
 	"baby": false,
 	"default": {

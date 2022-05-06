@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Seviper",
-		"jp": "ハブネーク"
+		"jp": "ハブネーク",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Glaceon",
-		"jp": "グレイシア"
+		"jp": "グレイシア",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Seel",
-		"jp": "パウワウ"
+		"jp": "パウワウ",
+		"chs": "小海狮",
+		"cht": "小海獅"
 	},
 	"baby": false,
 	"default": {

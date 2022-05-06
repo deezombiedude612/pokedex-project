@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Grimmsnarl",
-		"jp": "オーロンゲ"
+		"jp": "オーロンゲ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

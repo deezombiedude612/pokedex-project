@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Whismur",
-		"jp": "ゴニョニョ"
+		"jp": "ゴニョニョ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

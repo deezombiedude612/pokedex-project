@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Caterpie",
-		"jp": "キャタピラー"
+		"jp": "キャタピラー",
+		"chs": "绿毛虫",
+		"cht": "綠毛蟲"
 	},
 	"baby": false,
 	"default": {

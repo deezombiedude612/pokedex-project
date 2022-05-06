@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Wormadam",
-		"jp": "ミノマダム"
+		"jp": "ミノマダム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"plant_cloak": {

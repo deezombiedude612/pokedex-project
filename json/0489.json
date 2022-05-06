@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Phione",
-		"jp": "フィオネ"
+		"jp": "フィオネ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Gulpin",
-		"jp": "ゴクリン"
+		"jp": "ゴクリン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

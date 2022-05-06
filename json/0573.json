@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cinccino",
-		"jp": "チラチーノ"
+		"jp": "チラチーノ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

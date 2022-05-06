@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Pancham",
-		"jp": "ヤンチャム"
+		"jp": "ヤンチャム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

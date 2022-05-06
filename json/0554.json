@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Darumaka",
-		"jp": "ダルマッカ"
+		"jp": "ダルマッカ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

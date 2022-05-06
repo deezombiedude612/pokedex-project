@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Hatterene",
-		"jp": "ブリムオン"
+		"jp": "ブリムオン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Diancie",
-		"jp": "ディアンシー"
+		"jp": "ディアンシー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

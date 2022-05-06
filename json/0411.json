@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Bastiodon",
-		"jp": "トリデプス"
+		"jp": "トリデプス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

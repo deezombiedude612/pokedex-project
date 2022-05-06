@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Cufant",
-		"jp": "ゾウドウ"
+		"jp": "ゾウドウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

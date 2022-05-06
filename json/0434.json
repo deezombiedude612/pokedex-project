@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Stunky",
-		"jp": "スカンプー"
+		"jp": "スカンプー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

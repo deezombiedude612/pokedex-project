@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Diggersby",
-		"jp": "ホルード"
+		"jp": "ホルード",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

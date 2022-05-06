@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Patrat",
-		"jp": "ミネズミ"
+		"jp": "ミネズミ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

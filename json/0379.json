@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Registeel",
-		"jp": "レジスチル"
+		"jp": "レジスチル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

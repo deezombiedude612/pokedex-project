@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Eternatus",
-		"jp": "ムゲンダイナ"
+		"jp": "ムゲンダイナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Amaura",
-		"jp": "アマルス"
+		"jp": "アマルス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Fletchinder",
-		"jp": "ヒノヤコマ"
+		"jp": "ヒノヤコマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

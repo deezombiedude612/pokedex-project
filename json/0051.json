@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dugtrio",
-		"jp": "ダグトリオ"
+		"jp": "ダグトリオ",
+		"chs": "三地鼠",
+		"cht": "三地鼠"
 	},
 	"baby": false,
 	"default": {

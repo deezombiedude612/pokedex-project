@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tyrunt",
-		"jp": "チゴラス"
+		"jp": "チゴラス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

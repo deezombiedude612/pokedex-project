@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Zoroark",
-		"jp": "ゾロアーク"
+		"jp": "ゾロアーク",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

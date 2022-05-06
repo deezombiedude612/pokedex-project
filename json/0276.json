@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Taillow",
-		"jp": "スバメ"
+		"jp": "スバメ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

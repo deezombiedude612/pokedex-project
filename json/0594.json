@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Alomomola",
-		"jp": "ママンボウ"
+		"jp": "ママンボウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

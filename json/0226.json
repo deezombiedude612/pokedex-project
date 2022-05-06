@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Mantine",
-		"jp": "マンタイン"
+		"jp": "マンタイン",
+		"chs": "巨翅飞鱼",
+		"cht": "巨翅飛魚"
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Bewear",
-		"jp": "キテルグマ"
+		"jp": "キテルグマ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Froslass",
-		"jp": "ユキメノコ"
+		"jp": "ユキメノコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Sableye",
-		"jp": "ヤミラミ"
+		"jp": "ヤミラミ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

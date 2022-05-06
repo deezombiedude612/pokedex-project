@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Monferno",
-		"jp": "モウカザル"
+		"jp": "モウカザル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

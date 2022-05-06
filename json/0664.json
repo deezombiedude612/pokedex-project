@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Scatterbug",
-		"jp": "コフキムシ"
+		"jp": "コフキムシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

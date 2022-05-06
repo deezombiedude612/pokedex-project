@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Frosmoth",
-		"jp": "モスノウ"
+		"jp": "モスノウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

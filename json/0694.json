@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Helioptile",
-		"jp": "エリキテル"
+		"jp": "エリキテル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

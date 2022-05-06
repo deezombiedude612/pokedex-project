@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Golett",
-		"jp": "ゴビット"
+		"jp": "ゴビット",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Pumpkaboo",
-		"jp": "バケッチャ"
+		"jp": "バケッチャ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

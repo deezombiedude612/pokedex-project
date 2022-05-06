@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Pansage",
-		"jp": "ヤナップ"
+		"jp": "ヤナップ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Combee",
-		"jp": "ミツハニー"
+		"jp": "ミツハニー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

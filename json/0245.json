@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Suicune",
-		"jp": "スイクン"
+		"jp": "スイクン",
+		"chs": "水君",
+		"cht": "水君"
 	},
 	"baby": false,
 	"default": {

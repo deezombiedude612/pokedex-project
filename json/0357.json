@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tropius",
-		"jp": "トロピウス"
+		"jp": "トロピウス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

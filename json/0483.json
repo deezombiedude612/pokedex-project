@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dialga",
-		"jp": "ディアルガ"
+		"jp": "ディアルガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

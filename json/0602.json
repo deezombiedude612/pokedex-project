@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Tynamo",
-		"jp": "シビシラス"
+		"jp": "シビシラス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

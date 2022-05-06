@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Haxorus",
-		"jp": "オノノクス"
+		"jp": "オノノクス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

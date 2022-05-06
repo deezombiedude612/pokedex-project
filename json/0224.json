@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Octillery",
-		"jp": "オクタン"
+		"jp": "オクタン",
+		"chs": "章鱼桶",
+		"cht": "章魚桶"
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Mimikyu",
-		"jp": "ミミッキュ"
+		"jp": "ミミッキュ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

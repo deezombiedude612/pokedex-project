@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Rotom",
-		"jp": "ロトム"
+		"jp": "ロトム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

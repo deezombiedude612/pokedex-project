@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Trapinch",
-		"jp": "ナックラー"
+		"jp": "ナックラー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

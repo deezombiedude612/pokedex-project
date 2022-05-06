@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Skiddo",
-		"jp": "メェークル"
+		"jp": "メェークル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

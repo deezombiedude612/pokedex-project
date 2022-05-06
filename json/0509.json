@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Purrloin",
-		"jp": "チョロネコ"
+		"jp": "チョロネコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

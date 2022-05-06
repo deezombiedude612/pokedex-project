@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Houndoom",
-		"jp": "ヘルガー"
+		"jp": "ヘルガー",
+		"chs": "黑鲁加",
+		"cht": "黑魯加"
 	},
 	"baby": false,
 	"default": {

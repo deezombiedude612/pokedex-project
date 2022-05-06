@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Magnezone",
-		"jp": "ジバコイル"
+		"jp": "ジバコイル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

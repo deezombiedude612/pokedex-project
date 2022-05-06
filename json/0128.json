@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Tauros",
-		"jp": "ケンタロス"
+		"jp": "ケンタロス",
+		"chs": "肯泰罗",
+		"cht": "肯泰羅"
 	},
 	"baby": false,
 	"default": {

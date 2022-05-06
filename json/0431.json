@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Glameow",
-		"jp": "ニャルマー"
+		"jp": "ニャルマー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

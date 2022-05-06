@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Plusle",
-		"jp": "プラスル"
+		"jp": "プラスル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

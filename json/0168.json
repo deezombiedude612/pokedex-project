@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Ariados",
-		"jp": "アリアドス"
+		"jp": "アリアドス",
+		"chs": "阿利多斯",
+		"cht": "阿利多斯"
 	},
 	"baby": false,
 	"default": {

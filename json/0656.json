@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Froakie",
-		"jp": "ケロマツ"
+		"jp": "ケロマツ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

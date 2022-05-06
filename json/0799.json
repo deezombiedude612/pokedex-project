@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Guzzlord",
-		"jp": "アクジキング"
+		"jp": "アクジキング",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

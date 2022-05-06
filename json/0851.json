@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Centiskorch",
-		"jp": "マルヤクデ"
+		"jp": "マルヤクデ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

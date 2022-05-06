@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Aerodactyl",
-		"jp": "プテラ"
+		"jp": "プテラ",
+		"chs": "化石翼龙",
+		"cht": "化石翼龍"
 	},
 	"baby": false,
 	"default": {

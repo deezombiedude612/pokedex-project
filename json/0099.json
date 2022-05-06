@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Kingler",
-		"jp": "キングラー"
+		"jp": "キングラー",
+		"chs": "巨钳蟹",
+		"cht": "巨鉗蟹"
 	},
 	"baby": false,
 	"default": {

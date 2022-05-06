@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Relicanth",
-		"jp": "ジーランス"
+		"jp": "ジーランス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

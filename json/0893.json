@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Zarude",
-		"jp": "ザルード"
+		"jp": "ザルード",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

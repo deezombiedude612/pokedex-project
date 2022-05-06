@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Salandit",
-		"jp": "ヤトウモリ"
+		"jp": "ヤトウモリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

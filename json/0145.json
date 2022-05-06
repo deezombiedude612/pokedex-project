@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Zapdos",
-		"jp": "サンダー"
+		"jp": "サンダー",
+		"chs": "闪电鸟",
+		"cht": "閃電鳥"
 	},
 	"baby": false,
 	"default": {

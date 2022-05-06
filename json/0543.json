@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Venipede",
-		"jp": "フシデ"
+		"jp": "フシデ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

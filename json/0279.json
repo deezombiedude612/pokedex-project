@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Pelipper",
-		"jp": "ぺリッパー"
+		"jp": "ぺリッパー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

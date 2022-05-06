@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Sandaconda",
-		"jp": "サダイジャ"
+		"jp": "サダイジャ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

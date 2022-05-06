@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Exeggcute",
-		"jp": "タマタマ"
+		"jp": "タマタマ",
+		"chs": "蛋蛋",
+		"cht": "蛋蛋"
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Umbreon",
-		"jp": "ブラッキー"
+		"jp": "ブラッキー",
+		"chs": "月亮伊布",
+		"cht": "月亮伊布"
 	},
 	"baby": false,
 	"default": {

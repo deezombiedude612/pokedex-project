@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Kleavor",
-		"jp": "バサギリ"
+		"jp": "バサギリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

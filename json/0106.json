@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Hitmonlee",
-		"jp": "サワムラー"
+		"jp": "サワムラー",
+		"chs": "飞腿郎",
+		"cht": "飛腿郎"
 	},
 	"baby": false,
 	"default": {

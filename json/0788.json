@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Tapu Fini",
-		"jp": "カプ・レヒレ"
+		"jp": "カプ・レヒレ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Quagsire",
-		"jp": "ヌオー"
+		"jp": "ヌオー",
+		"chs": "沼王",
+		"cht": "沼王"
 	},
 	"baby": false,
 	"default": {

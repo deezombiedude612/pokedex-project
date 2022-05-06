@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Swellow",
-		"jp": "オオスバメ"
+		"jp": "オオスバメ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

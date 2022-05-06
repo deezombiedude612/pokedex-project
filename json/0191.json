@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Sunkern",
-		"jp": "ヒマナッツ"
+		"jp": "ヒマナッツ",
+		"chs": "向日种子",
+		"cht": "向日種子"
 	},
 	"baby": false,
 	"default": {

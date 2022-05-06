@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Nidorino",
-		"jp": "ニドリーノ"
+		"jp": "ニドリーノ",
+		"chs": "尼多力诺",
+		"cht": "尼多力諾"
 	},
 	"baby": false,
 	"default": {

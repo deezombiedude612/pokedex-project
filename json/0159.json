@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Croconaw",
-		"jp": "アリゲイツ"
+		"jp": "アリゲイツ",
+		"chs": "蓝鳄",
+		"cht": "藍鱷"
 	},
 	"baby": false,
 	"default": {

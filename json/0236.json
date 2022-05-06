@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Tyrogue",
-		"jp": "バルキー"
+		"jp": "バルキー",
+		"chs": "无畏小子",
+		"cht": "無畏小子"
 	},
 	"baby": false,
 	"default": {

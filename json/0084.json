@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Doduo",
-		"jp": "ドードー"
+		"jp": "ドードー",
+		"chs": "嘟嘟",
+		"cht": "嘟嘟"
 	},
 	"baby": false,
 	"default": {

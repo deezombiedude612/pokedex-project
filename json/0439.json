@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Mime Jr.",
-		"jp": "マネネ"
+		"jp": "マネネ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

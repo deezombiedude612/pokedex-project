@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Heatran",
-		"jp": "ヒードラン"
+		"jp": "ヒードラン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

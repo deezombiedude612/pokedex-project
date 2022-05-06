@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Wailmer",
-		"jp": "ホエルコ"
+		"jp": "ホエルコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Steelix",
-		"jp": "ハガネール"
+		"jp": "ハガネール",
+		"chs": "大钢蛇",
+		"cht": "大鋼蛇"
 	},
 	"baby": false,
 	"default": {

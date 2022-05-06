@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Basculeigon",
-		"jp": "イダイトウ"
+		"jp": "イダイトウ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

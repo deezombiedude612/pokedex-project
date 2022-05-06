@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Torterra",
-		"jp": "ドダイトス"
+		"jp": "ドダイトス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

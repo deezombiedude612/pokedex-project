@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Sneasler",
-		"jp": "オオニューラ"
+		"jp": "オオニューラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

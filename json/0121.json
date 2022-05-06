@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Starmie",
-		"jp": "スターミー"
+		"jp": "スターミー",
+		"chs": "宝石海星",
+		"cht": "寶石海星"
 	},
 	"baby": false,
 	"default": {

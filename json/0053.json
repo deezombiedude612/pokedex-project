@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Persian",
-		"jp": "ペルシアン"
+		"jp": "ペルシアン",
+		"chs": "猫老大",
+		"cht": "貓老大"
 	},
 	"baby": false,
 	"default": {

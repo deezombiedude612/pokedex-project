@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Rookidee",
-		"jp": "ココガラ"
+		"jp": "ココガラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

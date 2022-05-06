@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mightyena",
-		"jp": "グラエナ"
+		"jp": "グラエナ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

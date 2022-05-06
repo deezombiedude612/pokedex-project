@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Forretress",
-		"jp": "フォレトス"
+		"jp": "フォレトス",
+		"chs": "佛烈托斯",
+		"cht": "佛烈托斯"
 	},
 	"baby": false,
 	"default": {

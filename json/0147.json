@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Dratini",
-		"jp": "ミニリュウ"
+		"jp": "ミニリュウ",
+		"chs": "迷你龙",
+		"cht": "迷你龍"
 	},
 	"baby": false,
 	"default": {

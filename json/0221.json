@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Piloswine",
-		"jp": "イノムー"
+		"jp": "イノムー",
+		"chs": "长毛猪",
+		"cht": "長毛豬"
 	},
 	"baby": false,
 	"default": {

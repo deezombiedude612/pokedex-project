@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Torchic",
-		"jp": "アチャモ"
+		"jp": "アチャモ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

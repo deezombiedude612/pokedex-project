@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Xatu",
-		"jp": "ネイティオ"
+		"jp": "ネイティオ",
+		"chs": "天然鸟",
+		"cht": "天然鳥"
 	},
 	"baby": false,
 	"default": {

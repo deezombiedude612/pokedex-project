@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Blacephalon",
-		"jp": "ズガドーン"
+		"jp": "ズガドーン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

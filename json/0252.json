@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Treecko",
-		"jp": "キモリ"
+		"jp": "キモリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

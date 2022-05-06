@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Talonflame",
-		"jp": "ファイアロー"
+		"jp": "ファイアロー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

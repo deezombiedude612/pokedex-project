@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Onix",
-		"jp": "イワーク"
+		"jp": "イワーク",
+		"chs": "大岩蛇",
+		"cht": "大岩蛇"
 	},
 	"baby": false,
 	"default": {

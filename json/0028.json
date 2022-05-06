@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Sandslash",
-		"jp": "サンドパン"
+		"jp": "サンドパン",
+		"chs": "穿山王",
+		"cht": "穿山王"
 	},
 	"baby": false,
 	"default": {

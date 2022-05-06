@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Quaxly",
-		"jp": "クワッス"
+		"jp": "クワッス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

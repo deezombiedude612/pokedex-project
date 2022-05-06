@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Haunter",
-		"jp": "ゴースト"
+		"jp": "ゴースト",
+		"chs": "鬼斯通",
+		"cht": "鬼斯通"
 	},
 	"baby": false,
 	"default": {

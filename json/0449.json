@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Hippopotas",
-		"jp": "ヒポポタス"
+		"jp": "ヒポポタス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

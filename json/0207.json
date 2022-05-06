@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Gligar",
-		"jp": "グライガー"
+		"jp": "グライガー",
+		"chs": "天蝎",
+		"cht": "天蠍"
 	},
 	"baby": false,
 	"default": {

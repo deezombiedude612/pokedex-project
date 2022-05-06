@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Ninjask",
-		"jp": "テッカニン"
+		"jp": "テッカニン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

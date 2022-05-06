@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Kartana",
-		"jp": "カミツルギ"
+		"jp": "カミツルギ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

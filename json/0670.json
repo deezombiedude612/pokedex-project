@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Floette",
-		"jp": "フラエッテ"
+		"jp": "フラエッテ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

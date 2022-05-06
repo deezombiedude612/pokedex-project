@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Marill",
-		"jp": "マリル"
+		"jp": "マリル",
+		"chs": "玛力露",
+		"cht": "瑪力露"
 	},
 	"baby": false,
 	"default": {

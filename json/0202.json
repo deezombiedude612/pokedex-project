@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Wobuffet",
-		"jp": "ソーナンス"
+		"jp": "ソーナンス",
+		"chs": "果然翁",
+		"cht": "果然翁"
 	},
 	"baby": false,
 	"default": {

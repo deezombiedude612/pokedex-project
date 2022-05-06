@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Zeraora",
-		"jp": "ゼラオラ"
+		"jp": "ゼラオラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

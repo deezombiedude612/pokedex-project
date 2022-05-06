@@ -10,7 +10,9 @@
 	},
 	"name": {
 		"en": "Whiscash",
-		"jp": "ナマズン"
+		"jp": "ナマズン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

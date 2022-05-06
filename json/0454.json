@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Toxicroak",
-		"jp": "ドクロッグ"
+		"jp": "ドクロッグ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

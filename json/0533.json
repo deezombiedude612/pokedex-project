@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Gurdurr",
-		"jp": "ドテッコツ"
+		"jp": "ドテッコツ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Vanilluxe",
-		"jp": "バイバニラ"
+		"jp": "バイバニラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

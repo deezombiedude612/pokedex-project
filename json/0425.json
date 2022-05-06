@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Drifloon",
-		"jp": "フワンテ"
+		"jp": "フワンテ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Kricketot",
-		"jp": "コロボーシ"
+		"jp": "コロボーシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Sandile",
-		"jp": "メグロコ"
+		"jp": "メグロコ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

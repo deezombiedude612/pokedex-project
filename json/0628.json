@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Braviary",
-		"jp": "ウォーグル"
+		"jp": "ウォーグル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

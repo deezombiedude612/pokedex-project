@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Chinchou",
-		"jp": "チョンチー"
+		"jp": "チョンチー",
+		"chs": "灯笼鱼",
+		"cht": "燈籠魚"
 	},
 	"baby": false,
 	"default": {

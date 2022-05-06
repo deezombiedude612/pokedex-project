@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Wooper",
-		"jp": "ウパー"
+		"jp": "ウパー",
+		"chs": "乌波",
+		"cht": "烏波"
 	},
 	"baby": false,
 	"default": {

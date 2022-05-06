@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Ambipom",
-		"jp": "エテボース"
+		"jp": "エテボース",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

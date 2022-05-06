@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Cosmoem",
-		"jp": "コスモウム"
+		"jp": "コスモウム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

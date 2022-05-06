@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Passimian",
-		"jp": "ナゲツケサル"
+		"jp": "ナゲツケサル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

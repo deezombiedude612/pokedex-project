@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Toxel",
-		"jp": "エレズン"
+		"jp": "エレズン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

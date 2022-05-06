@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Camerupt",
-		"jp": "バクーダ"
+		"jp": "バクーダ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

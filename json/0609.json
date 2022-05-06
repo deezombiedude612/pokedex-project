@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Chandelure",
-		"jp": "シャンデラ"
+		"jp": "シャンデラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

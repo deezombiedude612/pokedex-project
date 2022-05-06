@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Wimpod",
-		"jp": "コソクムシ"
+		"jp": "コソクムシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

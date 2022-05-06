@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Archeops",
-		"jp": "アーケオス"
+		"jp": "アーケオス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

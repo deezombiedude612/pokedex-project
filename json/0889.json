@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Zamazenta",
-		"jp": "ザマゼンタ"
+		"jp": "ザマゼンタ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"crowned_shield": {

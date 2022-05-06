@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Houndour",
-		"jp": "デルビル"
+		"jp": "デルビル",
+		"chs": "戴鲁比",
+		"cht": "戴魯比"
 	},
 	"baby": false,
 	"default": {

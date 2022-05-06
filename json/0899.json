@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Wyrdeer",
-		"jp": "アヤシシ"
+		"jp": "アヤシシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

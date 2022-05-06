@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Eiscue",
-		"jp": "コオリッポ"
+		"jp": "コオリッポ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

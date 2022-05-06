@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Vigoroth",
-		"jp": "ヤルキモノ"
+		"jp": "ヤルキモノ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

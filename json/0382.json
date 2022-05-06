@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Kyogre",
-		"jp": "カイオーガ"
+		"jp": "カイオーガ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

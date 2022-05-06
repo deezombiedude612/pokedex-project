@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Turtwig",
-		"jp": "ナエトル"
+		"jp": "ナエトル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

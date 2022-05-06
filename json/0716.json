@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Xerneas",
-		"jp": "ゼルネアス"
+		"jp": "ゼルネアス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

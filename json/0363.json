@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Spheal",
-		"jp": "タマザラシ"
+		"jp": "タマザラシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

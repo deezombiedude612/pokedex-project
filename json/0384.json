@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Rayquaza",
-		"jp": "レックウザ"
+		"jp": "レックウザ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Type: Null",
-		"jp": "タイプ：ヌル"
+		"jp": "タイプ：ヌル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

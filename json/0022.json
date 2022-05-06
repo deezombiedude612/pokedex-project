@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Fearow",
-		"jp": "オニドリル"
+		"jp": "オニドリル",
+		"chs": "大嘴雀",
+		"cht": "大嘴雀"
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Slowking",
-		"jp": "ヤドキング"
+		"jp": "ヤドキング",
+		"chs": "呆呆王",
+		"cht": "呆呆王"
 	},
 	"baby": false,
 	"default": {

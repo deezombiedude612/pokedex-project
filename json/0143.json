@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Snorlax",
-		"jp": "カビゴン"
+		"jp": "カビゴン",
+		"chs": "卡比兽",
+		"cht": "卡比獸"
 	},
 	"baby": false,
 	"default": {

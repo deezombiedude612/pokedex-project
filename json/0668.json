@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Pyroar",
-		"jp": "カエンジシ"
+		"jp": "カエンジシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

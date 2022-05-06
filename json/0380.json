@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Latias",
-		"jp": "ラティアス"
+		"jp": "ラティアス",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Cryogonal",
-		"jp": "フリージオ"
+		"jp": "フリージオ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

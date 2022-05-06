@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Charjabug",
-		"jp": "デンジムシ"
+		"jp": "デンジムシ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

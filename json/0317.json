@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Swalot",
-		"jp": "マルノーム"
+		"jp": "マルノーム",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

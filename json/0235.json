@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Smeargle",
-		"jp": "ドーブル"
+		"jp": "ドーブル",
+		"chs": "图图犬",
+		"cht": "圖圖犬"
 	},
 	"baby": false,
 	"default": {

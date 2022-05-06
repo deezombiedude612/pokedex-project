@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Solgaleo",
-		"jp": "ソルガレオ"
+		"jp": "ソルガレオ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

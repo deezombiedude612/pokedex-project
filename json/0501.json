@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Oshawott",
-		"jp": "ミジュマル"
+		"jp": "ミジュマル",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": true,
 	"default": {

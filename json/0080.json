@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Slowbro",
-		"jp": "ヤドラン"
+		"jp": "ヤドラン",
+		"chs": "呆壳兽",
+		"cht": "呆殼獸"
 	},
 	"baby": false,
 	"default": {

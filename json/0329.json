@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Vibrava",
-		"jp": "ビブラーバ"
+		"jp": "ビブラーバ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

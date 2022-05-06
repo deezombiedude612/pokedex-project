@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Seadra",
-		"jp": "シードラ"
+		"jp": "シードラ",
+		"chs": "海刺龙",
+		"cht": "海刺龍"
 	},
 	"baby": false,
 	"default": {

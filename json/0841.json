@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Flapple",
-		"jp": "アップリュー"
+		"jp": "アップリュー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Nidorina",
-		"jp": "ニドリーナ"
+		"jp": "ニドリーナ",
+		"chs": "尼多娜",
+		"cht": "尼多娜"
 	},
 	"baby": false,
 	"default": {

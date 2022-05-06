@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Azurill",
-		"jp": "ルリリ"
+		"jp": "ルリリ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

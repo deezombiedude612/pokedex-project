@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Smoochum",
-		"jp": "ムチュール"
+		"jp": "ムチュール",
+		"chs": "迷唇娃",
+		"cht": "迷唇娃"
 	},
 	"baby": false,
 	"default": {

@@ -11,7 +11,9 @@
 	},
 	"name": {
 		"en": "Magikarp",
-		"jp": "コイキング"
+		"jp": "コイキング",
+		"chs": "鲤鱼王",
+		"cht": "鯉魚王"
 	},
 	"baby": false,
 	"default": {

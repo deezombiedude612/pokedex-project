@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Crawdunt",
-		"jp": "シザリガー"
+		"jp": "シザリガー",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

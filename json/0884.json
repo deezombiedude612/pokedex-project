@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Duraludon",
-		"jp": "ジュラルドン"
+		"jp": "ジュラルドン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

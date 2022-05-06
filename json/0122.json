@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Mr. Mime",
-		"jp": "バリヤード"
+		"jp": "バリヤード",
+		"chs": "魔墙人偶",
+		"cht": "魔牆人偶"
 	},
 	"baby": false,
 	"default": {

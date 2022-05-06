@@ -7,7 +7,9 @@
 	},
 	"name": {
 		"en": "Oddish",
-		"jp": "ナゾノクサ"
+		"jp": "ナゾノクサ",
+		"chs": "走路草",
+		"cht": "走路草"
 	},
 	"baby": false,
 	"default": {

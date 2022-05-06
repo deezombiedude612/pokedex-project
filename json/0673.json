@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Gogoat",
-		"jp": "ゴーゴート"
+		"jp": "ゴーゴート",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

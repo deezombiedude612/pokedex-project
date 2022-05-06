@@ -5,7 +5,9 @@
 	},
 	"name": {
 		"en": "Mewtwo",
-		"jp": "ミュウツー"
+		"jp": "ミュウツー",
+		"chs": "超梦",
+		"cht": "超夢"
 	},
 	"baby": false,
 	"default": {

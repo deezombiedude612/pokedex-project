@@ -8,7 +8,9 @@
 	},
 	"name": {
 		"en": "Rhyperior",
-		"jp": "ドサイドン"
+		"jp": "ドサイドン",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

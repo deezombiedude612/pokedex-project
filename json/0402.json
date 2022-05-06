@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Kricketune",
-		"jp": "コロトック"
+		"jp": "コロトック",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {

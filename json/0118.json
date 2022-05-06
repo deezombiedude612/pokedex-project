@@ -9,7 +9,9 @@
 	},
 	"name": {
 		"en": "Goldeen",
-		"jp": "トサキント"
+		"jp": "トサキント",
+		"chs": "角金鱼",
+		"cht": "角金魚"
 	},
 	"baby": false,
 	"default": {

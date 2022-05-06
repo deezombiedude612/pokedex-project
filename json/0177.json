@@ -6,7 +6,9 @@
 	},
 	"name": {
 		"en": "Natu",
-		"jp": "ネイティ"
+		"jp": "ネイティ",
+		"chs": "天然雀",
+		"cht": "天然雀"
 	},
 	"baby": false,
 	"default": {

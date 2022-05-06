@@ -4,7 +4,9 @@
 	},
 	"name": {
 		"en": "Frogadier",
-		"jp": "ゲコガシラ"
+		"jp": "ゲコガシラ",
+		"chs": "",
+		"cht": ""
 	},
 	"baby": false,
 	"default": {
