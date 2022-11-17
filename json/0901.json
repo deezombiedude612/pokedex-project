@@ -6,14 +6,14 @@
 	"name": {
 		"en": "Ursaluna",
 		"jp": "ガチグマ",
-		"chs": "",
-		"cht": ""
+		"chs": "月月熊",
+		"cht": "月月熊"
 	},
 	"baby": false,
 	"default": {
 		"desc": "Peat Pokémon",
-		"type_id": [12, 2],
-		"type": ["normal", "ground"],
+		"type_id": [2, 12],
+		"type": ["ground", "normal"],
 		"abilities": {
 			"ability_1": "Guts",
 			"ability_2": "Bulletproof",

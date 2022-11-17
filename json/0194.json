@@ -21,5 +21,15 @@
 			"ability_2": "Water Absorb",
 			"hidden_ability": "Unaware"
 		}
+	},
+	"paldea_variant": {
+		"desc": "Water Fish Pokémon",
+		"type_id": [4, 2],
+		"type": ["poison", "ground"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false
+		}
 	}
 }

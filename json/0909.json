@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 909
+		"national": 909,
+		"paldea_sv": 4
 	},
 	"name": {
 		"en": "Fuecoco",
@@ -10,7 +11,7 @@
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Fire Croc Pokémon",
 		"type_id": [13, -1],
 		"type": ["fire"],
 		"abilities": {

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 912
+		"national": 912,
+		"paldea_sv": 7
 	},
 	"name": {
 		"en": "Quaxly",
@@ -10,7 +11,7 @@
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Duckling Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 906
+		"national": 906,
+		"paldea_sv": 1
 	},
 	"name": {
 		"en": "Sprigatito",
@@ -10,7 +11,7 @@
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Grass Cat Pokémon",
 		"type_id": [9, -1],
 		"type": ["grass"],
 		"abilities": {

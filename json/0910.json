@@ -1,0 +1,23 @@
+{
+	"id": {
+		"national": 910,
+		"paldea_sv": 5
+	},
+	"name": {
+		"en": "Crocalor",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Blaze",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}

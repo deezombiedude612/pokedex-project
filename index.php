@@ -110,7 +110,9 @@ if ($num_distinct_entries > 0) {
 					// Pokémon name
 					fwrite($pokedex_file, "\t\"name\": {\n");
 					fwrite($pokedex_file, "\t\t\"en\": \"" . ucwords(strtolower($row['name'])) . "\",\n");	// ENG
-					fwrite($pokedex_file, "\t\t\"jp\": \"" . $row['jp_name'] . "\"\n");											// JPN
+					fwrite($pokedex_file, "\t\t\"jp\": \"" . $row['jp_name'] . "\",\n");										// JPN
+					fwrite($pokedex_file, "\t\t\"chs\": \"" . $row['chs_name'] . "\",\n");									// CHS
+					fwrite($pokedex_file, "\t\t\"cht\": \"" . $row['cht_name'] . "\"\n");										// CHT
 					fwrite($pokedex_file, "\t}");
 
 					// Is baby Pokémon?

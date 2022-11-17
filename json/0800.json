@@ -19,25 +19,6 @@
 			"hidden_ability": false
 		}
 	},
-	"dawn_wings_necrozma": {
-		"desc": "Prism Pokémon",
-		"type_id": [8, 1],
-		"type": ["rock", "ghost"],
-		"exclusive_z": {
-			"excl_z_move": "Menacing Moonraze Maelstrom",
-			"excl_z_move_type_id": 1,
-			"excl_z_move_type": "ghost",
-			"excl_z_move_category": "special",
-			"excl_z_crystal": "Lunalium Z",
-			"excl_z_required_move": "Moongeist Beam",
-			"excl_z_power": 200
-		},
-		"abilities": {
-			"ability_1": "Prism Armor",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
 	"dusk_mane_necrozma": {
 		"desc": "Prism Pokémon",
 		"type_id": [8, 15],
@@ -72,6 +53,25 @@
 		},
 		"abilities": {
 			"ability_1": "Neuroforce",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	},
+	"dawn_wings_necrozma": {
+		"desc": "Prism Pokémon",
+		"type_id": [8, 1],
+		"type": ["rock", "ghost"],
+		"exclusive_z": {
+			"excl_z_move": "Menacing Moonraze Maelstrom",
+			"excl_z_move_type_id": 1,
+			"excl_z_move_type": "ghost",
+			"excl_z_move_category": "special",
+			"excl_z_crystal": "Lunalium Z",
+			"excl_z_required_move": "Moongeist Beam",
+			"excl_z_power": 200
+		},
+		"abilities": {
+			"ability_1": "Prism Armor",
 			"ability_2": false,
 			"hidden_ability": false
 		}

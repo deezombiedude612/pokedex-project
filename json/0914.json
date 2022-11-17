@@ -1,0 +1,23 @@
+{
+	"id": {
+		"national": 914,
+		"paldea_sv": 9
+	},
+	"name": {
+		"en": "Quaquaval",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [6, 14],
+		"type": ["water", "fighting"],
+		"abilities": {
+			"ability_1": "Torrent",
+			"ability_2": false,
+			"hidden_ability": false
+		}
+	}
+}
