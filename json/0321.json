@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Water Veil",
 			"ability_2": "Oblivious",
-			"hidden_ability": "Pressure"
+			"hidden_ability": "Pressure",
+			"terastal_ability": false
 		}
 	}
 }

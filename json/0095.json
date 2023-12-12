@@ -21,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Weak Armor"
+			"hidden_ability": "Weak Armor",
+			"terastal_ability": false
 		}
 	}
 }

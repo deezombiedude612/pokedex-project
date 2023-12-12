@@ -9,7 +9,7 @@
 		"chs": "迷唇娃",
 		"cht": "迷唇娃"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Kiss Pokémon",
 		"type_id": [11, 16],
@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Forewarn",
-			"hidden_ability": "Hydration"
+			"hidden_ability": "Hydration",
+			"terastal_ability": false
 		}
 	}
 }

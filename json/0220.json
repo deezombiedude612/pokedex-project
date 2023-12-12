@@ -2,7 +2,8 @@
 	"id": {
 		"national": 220,
 		"galar_swsh": 75,
-		"hisui_legarc": 212
+		"hisui_legarc": 212,
+		"kitakami_sv": 50
 	},
 	"name": {
 		"en": "Swinub",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Snow Cloak",
-			"hidden_ability": "Thick Fat"
+			"hidden_ability": "Thick Fat",
+			"terastal_ability": false
 		}
 	}
 }

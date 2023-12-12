@@ -2,7 +2,9 @@
 	"id": {
 		"national": 397,
 		"sinnoh_bdsp": 11,
-		"hisui_legarc": 13
+		"hisui_legarc": 13,
+		"paldea_sv": 98,
+		"kitakami_sv": 29
 	},
 	"name": {
 		"en": "Staravia",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": false,
-			"hidden_ability": "Reckless"
+			"hidden_ability": "Reckless",
+			"terastal_ability": false
 		}
 	}
 }

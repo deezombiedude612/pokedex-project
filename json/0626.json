@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Reckless",
 			"ability_2": "Sap Sipper",
-			"hidden_ability": "Soundproof"
+			"hidden_ability": "Soundproof",
+			"terastal_ability": false
 		}
 	}
 }

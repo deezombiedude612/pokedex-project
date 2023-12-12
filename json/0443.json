@@ -3,7 +3,9 @@
 		"national": 443,
 		"galar_crown_tundra": 116,
 		"sinnoh_bdsp": 109,
-		"hisui_legarc": 187
+		"hisui_legarc": 187,
+		"paldea_sv": 126,
+		"kitakami_sv": 164
 	},
 	"name": {
 		"en": "Gible",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Sand Veil",
 			"ability_2": false,
-			"hidden_ability": "Rough Skin"
+			"hidden_ability": "Rough Skin",
+			"terastal_ability": false
 		}
 	}
 }

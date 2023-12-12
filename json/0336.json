@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 336,
-		"hoenn_oras": 129
+		"hoenn_oras": 129,
+		"paldea_sv": 218
 	},
 	"name": {
 		"en": "Seviper",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Shed Skin",
 			"ability_2": false,
-			"hidden_ability": "Infiltrator"
+			"hidden_ability": "Infiltrator",
+			"terastal_ability": false
 		}
 	}
 }

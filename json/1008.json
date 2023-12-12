@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1008,
+		"paldea_sv": 400
+	},
+	"name": {
+		"en": "Miraidon",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [7, 0],
+		"type": ["electric", "dragon"],
+		"abilities": {
+			"ability_1": "Hadron Engine",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

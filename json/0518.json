@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Forewarn",
 			"ability_2": "Synchronize",
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

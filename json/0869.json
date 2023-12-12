@@ -14,15 +14,16 @@
 		"desc": "Cream Pokémon",
 		"type_id": [17, -1],
 		"type": ["fairy"],
-		"g_max": {
-			"g_max_move": "G-Max Finale",
-			"g_max_type_id": 17,
-			"g_max_type": "fairy"
+		"gmax": {
+			"gmax_move": "G-Max Finale",
+			"gmax_type_id": 17,
+			"gmax_type": "fairy"
 		},
 		"abilities": {
 			"ability_1": "",
 			"ability_2": "Sweet Veil",
-			"hidden_ability": "Aroma Veil"
+			"hidden_ability": "Aroma Veil",
+			"terastal_ability": false
 		}
 	}
 }

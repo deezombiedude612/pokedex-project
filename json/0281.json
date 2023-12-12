@@ -4,7 +4,9 @@
 		"hoenn_oras": 30,
 		"galar_swsh": 121,
 		"galar_isle_of_armor": 35,
-		"hisui_legarc": 102
+		"hisui_legarc": 102,
+		"paldea_sv": 63,
+		"kitakami_sv": 58
 	},
 	"name": {
 		"en": "Kirlia",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Synchronize",
 			"ability_2": "Trace",
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

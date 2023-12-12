@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 493,
-		"hisui_legarc": 238
+		"hisui_legarc": 238,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Arceus",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Multitype",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 322,
-		"hoenn_oras": 106
+		"hoenn_oras": 106,
+		"paldea_sv": 151
 	},
 	"name": {
 		"en": "Numel",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Simple",
-			"hidden_ability": "Own Tempo"
+			"hidden_ability": "Own Tempo",
+			"terastal_ability": false
 		}
 	}
 }

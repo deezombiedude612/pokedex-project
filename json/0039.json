@@ -3,7 +3,8 @@
 		"national": 39,
 		"hoenn_oras": 143,
 		"kanto_lgpe": 39,
-		"galar_isle_of_armor": 12
+		"galar_isle_of_armor": 12,
+		"paldea_sv": 60
 	},
 	"name": {
 		"en": "Jigglypuff",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Competitive",
-			"hidden_ability": "Friend Guard"
+			"hidden_ability": "Friend Guard",
+			"terastal_ability": false
 		}
 	}
 }

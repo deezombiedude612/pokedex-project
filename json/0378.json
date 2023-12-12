@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Clear Body",
 			"ability_2": false,
-			"hidden_ability": "Ice Body"
+			"hidden_ability": "Ice Body",
+			"terastal_ability": false
 		}
 	}
 }

@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "",
 			"ability_2": "Sweet Veil",
-			"hidden_ability": "Aroma Veil"
+			"hidden_ability": "Aroma Veil",
+			"terastal_ability": false
 		}
 	}
 }

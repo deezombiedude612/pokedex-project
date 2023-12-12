@@ -2,7 +2,8 @@
 	"id": {
 		"national": 822,
 		"galar_swsh": 22,
-		"galar_crown_tundra": 164
+		"galar_crown_tundra": 164,
+		"paldea_sv": 41
 	},
 	"name": {
 		"en": "Corvisquire",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Unnerve",
-			"hidden_ability": "Big Pecks"
+			"hidden_ability": "Big Pecks",
+			"terastal_ability": false
 		}
 	}
 }

@@ -7,7 +7,9 @@
 		"galar_isle_of_armor": 43,
 		"galar_crown_tundra": 63,
 		"sinnoh_bdsp": 24,
-		"hisui_legarc": 81
+		"hisui_legarc": 81,
+		"paldea_sv": 135,
+		"kitakami_sv": 44
 	},
 	"name": {
 		"en": "Gyarados",
@@ -23,7 +25,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": false,
-			"hidden_ability": "Moxie"
+			"hidden_ability": "Moxie",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

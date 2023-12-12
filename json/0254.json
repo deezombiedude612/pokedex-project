@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 254,
-		"hoenn_oras": 3
+		"hoenn_oras": 3,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Sceptile",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Overgrow",
 			"ability_2": false,
-			"hidden_ability": "Unburden"
+			"hidden_ability": "Unburden",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

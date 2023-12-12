@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 745,
-		"galar_isle_of_armor": 158
+		"galar_isle_of_armor": 158,
+		"paldea_sv": 90,
+		"kitakami_sv": 71
 	},
 	"name": {
 		"en": "Lycanroc",
@@ -26,7 +28,8 @@
 		"abilities": {
 			"ability_1": "Tough Claws",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"midday_form": {
@@ -45,7 +48,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Sand Rush",
-			"hidden_ability": "Steadfast"
+			"hidden_ability": "Steadfast",
+			"terastal_ability": false
 		}
 	},
 	"midnight_form": {
@@ -64,7 +68,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Vital Spirit",
-			"hidden_ability": "No Guard"
+			"hidden_ability": "No Guard",
+			"terastal_ability": false
 		}
 	}
 }

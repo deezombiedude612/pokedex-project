@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 950,
+		"paldea_sv": 249
+	},
+	"name": {
+		"en": "Klawf",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"abilities": {
+			"ability_1": "Anger Shell",
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Regenerator",
+			"terastal_ability": false
+		}
+	}
+}

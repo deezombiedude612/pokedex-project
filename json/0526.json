@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": "Sand Stream",
-			"hidden_ability": "Sand Force"
+			"hidden_ability": "Sand Force",
+			"terastal_ability": false
 		}
 	}
 }

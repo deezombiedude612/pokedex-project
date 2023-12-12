@@ -3,7 +3,8 @@
 		"national": 101,
 		"hoenn_oras": 88,
 		"kanto_lgpe": 101,
-		"hisui_legarc": 193
+		"hisui_legarc": 193,
+		"paldea_sv": 208
 	},
 	"name": {
 		"en": "Electrode",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Static",
-			"hidden_ability": "Aftermath"
+			"hidden_ability": "Aftermath",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -29,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Static",
-			"hidden_ability": "Aftermath"
+			"hidden_ability": "Aftermath",
+			"terastal_ability": false
 		}
 	}
 }

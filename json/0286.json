@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 286,
-		"hoenn_oras": 36
+		"hoenn_oras": 36,
+		"paldea_sv": 107
 	},
 	"name": {
 		"en": "Breloom",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Effect Spore",
 			"ability_2": "Poison Heal",
-			"hidden_ability": "Technician"
+			"hidden_ability": "Technician",
+			"terastal_ability": false
 		}
 	}
 }

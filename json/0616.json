@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Hydration",
 			"ability_2": "Shell Armor",
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

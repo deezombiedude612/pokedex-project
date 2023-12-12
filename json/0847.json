@@ -2,7 +2,9 @@
 	"id": {
 		"national": 847,
 		"galar_swsh": 181,
-		"galar_isle_of_armor": 97
+		"galar_isle_of_armor": 97,
+		"paldea_sv": 137,
+		"kitakami_sv": 91
 	},
 	"name": {
 		"en": "Barraskewda",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": false,
-			"hidden_ability": "Propeller Tail"
+			"hidden_ability": "Propeller Tail",
+			"terastal_ability": false
 		}
 	}
 }

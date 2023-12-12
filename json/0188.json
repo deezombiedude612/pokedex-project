@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 188
+		"national": 188,
+		"paldea_sv": 17
 	},
 	"name": {
 		"en": "Skiploom",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Leaf Guard",
-			"hidden_ability": "Infiltrator"
+			"hidden_ability": "Infiltrator",
+			"terastal_ability": false
 		}
 	}
 }

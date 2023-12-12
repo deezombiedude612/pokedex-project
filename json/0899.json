@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 899,
-		"hisui_legarc": 50
+		"hisui_legarc": 50,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Wyrdeer",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Frisk",
-			"hidden_ability": "Sap Sipper"
+			"hidden_ability": "Sap Sipper",
+			"terastal_ability": false
 		}
 	}
 }

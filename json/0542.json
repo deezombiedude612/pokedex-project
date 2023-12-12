@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 542
+		"national": 542,
+		"kitakami_sv": 15
 	},
 	"name": {
 		"en": "Leavanny",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Chlorophyll",
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

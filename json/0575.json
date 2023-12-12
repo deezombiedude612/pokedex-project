@@ -2,7 +2,8 @@
 	"id": {
 		"national": 575,
 		"galar_swsh": 268,
-		"galar_crown_tundra": 52
+		"galar_crown_tundra": 52,
+		"paldea_sv": 235
 	},
 	"name": {
 		"en": "Gothorita",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Frisk",
 			"ability_2": "Competitive",
-			"hidden_ability": "Shadow Tag"
+			"hidden_ability": "Shadow Tag",
+			"terastal_ability": false
 		}
 	}
 }

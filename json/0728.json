@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 728
+		"national": 728,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Popplio",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Liquid Voice"
+			"hidden_ability": "Liquid Voice",
+			"terastal_ability": false
 		}
 	}
 }

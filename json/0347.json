@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Battle Armor",
 			"ability_2": false,
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

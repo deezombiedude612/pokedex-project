@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 968,
+		"paldea_sv": 296,
+		"kitakami_sv": 96
+	},
+	"name": {
+		"en": "Orthworm",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [15, -1],
+		"type": ["steel"],
+		"abilities": {
+			"ability_1": "Earth Eater",
+			"ability_2": false,
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
+		}
+	}
+}

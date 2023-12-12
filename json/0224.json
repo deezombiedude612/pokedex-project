@@ -20,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Suction Cups",
 			"ability_2": "Sniper",
-			"hidden_ability": "Moody"
+			"hidden_ability": "Moody",
+			"terastal_ability": false
 		}
 	}
 }

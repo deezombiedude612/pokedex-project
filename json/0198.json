@@ -2,7 +2,8 @@
 	"id": {
 		"national": 198,
 		"sinnoh_bdsp": 74,
-		"hisui_legarc": 140
+		"hisui_legarc": 140,
+		"paldea_sv": 232
 	},
 	"name": {
 		"en": "Murkrow",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Insomnia",
 			"ability_2": "Super Luck",
-			"hidden_ability": "Prankster"
+			"hidden_ability": "Prankster",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 656
+		"national": 656,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Froakie",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Protean"
+			"hidden_ability": "Protean",
+			"terastal_ability": false
 		}
 	}
 }

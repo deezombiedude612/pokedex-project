@@ -4,7 +4,8 @@
 		"kanto_lgpe": 136,
 		"galar_swsh": 199,
 		"galar_crown_tundra": 77,
-		"hisui_legarc": 28
+		"hisui_legarc": 28,
+		"paldea_sv": 182
 	},
 	"name": {
 		"en": "Flareon",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Flash Fire",
 			"ability_2": false,
-			"hidden_ability": "Guts"
+			"hidden_ability": "Guts",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 930,
+		"paldea_sv": 86
+	},
+	"name": {
+		"en": "Arboliva",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [9, 12],
+		"type": ["grass", "normal"],
+		"abilities": {
+			"ability_1": "Seed Sower",
+			"ability_2": false,
+			"hidden_ability": "Harvest",
+			"terastal_ability": false
+		}
+	}
+}

@@ -2,7 +2,9 @@
 	"id": {
 		"national": 402,
 		"sinnoh_bdsp": 16,
-		"hisui_legarc": 40
+		"hisui_legarc": 40,
+		"paldea_sv": 34,
+		"kitakami_sv": 62
 	},
 	"name": {
 		"en": "Kricketune",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": false,
-			"hidden_ability": "Technician"
+			"hidden_ability": "Technician",
+			"terastal_ability": false
 		}
 	}
 }

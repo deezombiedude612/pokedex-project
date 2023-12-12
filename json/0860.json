@@ -2,7 +2,9 @@
 	"id": {
 		"national": 860,
 		"galar_swsh": 239,
-		"galar_crown_tundra": 38
+		"galar_crown_tundra": 38,
+		"paldea_sv": 286,
+		"kitakami_sv": 191
 	},
 	"name": {
 		"en": "Morgrem",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Prankster",
 			"ability_2": "Frisk",
-			"hidden_ability": "Pickpocket"
+			"hidden_ability": "Pickpocket",
+			"terastal_ability": false
 		}
 	}
 }

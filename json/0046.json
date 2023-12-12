@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Effect Spore",
 			"ability_2": "Dry Skin",
-			"hidden_ability": "Damp"
+			"hidden_ability": "Damp",
+			"terastal_ability": false
 		}
 	}
 }

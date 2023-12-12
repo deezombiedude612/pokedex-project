@@ -21,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Filter",
-			"hidden_ability": "Technician"
+			"hidden_ability": "Technician",
+			"terastal_ability": false
 		}
 	},
 	"galar_variant": {
@@ -31,7 +32,8 @@
 		"abilities": {
 			"ability_1": "Vital Spirit",
 			"ability_2": "Screen Cleaner",
-			"hidden_ability": "Ice Body"
+			"hidden_ability": "Ice Body",
+			"terastal_ability": false
 		}
 	}
 }

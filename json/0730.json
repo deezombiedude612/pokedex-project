@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 730
+		"national": 730,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Primarina",
@@ -25,7 +26,8 @@
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Liquid Voice"
+			"hidden_ability": "Liquid Voice",
+			"terastal_ability": false
 		}
 	}
 }

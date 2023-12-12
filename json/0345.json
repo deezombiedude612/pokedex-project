@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Suction Cups",
 			"ability_2": false,
-			"hidden_ability": "Storm Drain"
+			"hidden_ability": "Storm Drain",
+			"terastal_ability": false
 		}
 	}
 }

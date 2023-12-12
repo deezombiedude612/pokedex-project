@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Shed Skin",
 			"ability_2": "Moxie",
-			"hidden_ability": "Intimidate"
+			"hidden_ability": "Intimidate",
+			"terastal_ability": false
 		}
 	}
 }

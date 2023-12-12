@@ -12,7 +12,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Kite Pokémon",
 		"type_id": [6, 3],
@@ -20,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Water Absorb",
-			"hidden_ability": "Water Veil"
+			"hidden_ability": "Water Veil",
+			"terastal_ability": false
 		}
 	}
 }

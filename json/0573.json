@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Technician",
-			"hidden_ability": "Skill Link"
+			"hidden_ability": "Skill Link",
+			"terastal_ability": false
 		}
 	}
 }

@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": "Weak Armor",
-			"hidden_ability": "Sand Force"
+			"hidden_ability": "Sand Force",
+			"terastal_ability": false
 		}
 	}
 }

@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Sand Rush",
 			"ability_2": "Sand Force",
-			"hidden_ability": "Mold Breaker"
+			"hidden_ability": "Mold Breaker",
+			"terastal_ability": false
 		}
 	}
 }

@@ -10,7 +10,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Attaching Pokémon",
 		"type_id": [5, 7],
@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Compound Eyes",
 			"ability_2": "Unnerve",
-			"hidden_ability": "Swarm"
+			"hidden_ability": "Swarm",
+			"terastal_ability": false
 		}
 	}
 }

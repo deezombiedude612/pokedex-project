@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Wonder Skin",
 			"ability_2": "Magic Guard",
-			"hidden_ability": "Tinted Lens"
+			"hidden_ability": "Tinted Lens",
+			"terastal_ability": false
 		}
 	}
 }

@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": false,
-			"hidden_ability": "Rivalry"
+			"hidden_ability": "Rivalry",
+			"terastal_ability": false
 		}
 	}
 }

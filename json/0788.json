@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 788
+		"national": 788,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Tapu Fini",
@@ -24,7 +25,8 @@
 		"abilities": {
 			"ability_1": "Misty Surge",
 			"ability_2": false,
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

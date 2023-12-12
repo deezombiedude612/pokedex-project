@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 296,
-		"hoenn_oras": 49
+		"hoenn_oras": 49,
+		"paldea_sv": 116
 	},
 	"name": {
 		"en": "Makuhita",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Guts",
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	}
 }

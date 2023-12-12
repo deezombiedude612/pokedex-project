@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Unburden",
-			"hidden_ability": "Stakeout"
+			"hidden_ability": "Stakeout",
+			"terastal_ability": false
 		}
 	}
 }

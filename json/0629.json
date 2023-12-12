@@ -2,7 +2,8 @@
 	"id": {
 		"national": 629,
 		"galar_swsh": 283,
-		"galar_isle_of_armor": 181
+		"galar_isle_of_armor": 181,
+		"kitakami_sv": 127
 	},
 	"name": {
 		"en": "Vullaby",
@@ -10,7 +11,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Diapered Pokémon",
 		"type_id": [10, 3],
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Big Pecks",
 			"ability_2": "Overcoat",
-			"hidden_ability": "Weak Armor"
+			"hidden_ability": "Weak Armor",
+			"terastal_ability": false
 		}
 	}
 }

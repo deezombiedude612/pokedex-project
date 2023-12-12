@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Iron Fist",
-			"hidden_ability": "Inner Focus"
+			"hidden_ability": "Inner Focus",
+			"terastal_ability": false
 		}
 	}
 }

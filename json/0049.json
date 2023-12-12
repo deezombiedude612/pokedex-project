@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 49,
-		"kanto_lgpe": 49
+		"kanto_lgpe": 49,
+		"paldea_sv": 257
 	},
 	"name": {
 		"en": "Venomoth",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Shield Dust",
 			"ability_2": "Tinted Lens",
-			"hidden_ability": "Wonder Skin"
+			"hidden_ability": "Wonder Skin",
+			"terastal_ability": false
 		}
 	}
 }

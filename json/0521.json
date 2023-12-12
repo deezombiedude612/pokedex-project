@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Big Pecks",
 			"ability_2": "Super Luck",
-			"hidden_ability": "Rivalry"
+			"hidden_ability": "Rivalry",
+			"terastal_ability": false
 		}
 	}
 }

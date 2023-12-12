@@ -5,7 +5,8 @@
 		"kanto_lgpe": 55,
 		"galar_isle_of_armor": 147,
 		"sinnoh_bdsp": 44,
-		"hisui_legarc": 69
+		"hisui_legarc": 69,
+		"paldea_sv": 56
 	},
 	"name": {
 		"en": "Golduck",
@@ -21,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Damp",
 			"ability_2": "Cloud Nine",
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

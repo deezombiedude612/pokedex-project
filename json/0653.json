@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 653
+		"national": 653,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Fennekin",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Magician",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

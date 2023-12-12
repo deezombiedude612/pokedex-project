@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 297,
-		"hoenn_oras": 50
+		"hoenn_oras": 50,
+		"paldea_sv": 117
 	},
 	"name": {
 		"en": "Hariyama",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Guts",
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	}
 }

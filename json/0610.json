@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 610,
-		"galar_swsh": 324
+		"galar_swsh": 324,
+		"paldea_sv": 155
 	},
 	"name": {
 		"en": "Axew",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Rivalry",
 			"ability_2": "Mold Breaker",
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	}
 }

@@ -4,7 +4,8 @@
 		"hoenn_oras": 161,
 		"kanto_lgpe": 38,
 		"galar_swsh": 69,
-		"hisui_legarc": 169
+		"hisui_legarc": 169,
+		"kitakami_sv": 38
 	},
 	"name": {
 		"en": "Ninetales",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Flash Fire",
 			"ability_2": false,
-			"hidden_ability": "Drought"
+			"hidden_ability": "Drought",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -30,7 +32,8 @@
 		"abilities": {
 			"ability_1": "Snow Cloak",
 			"ability_2": false,
-			"hidden_ability": "Snow Warning"
+			"hidden_ability": "Snow Warning",
+			"terastal_ability": false
 		}
 	}
 }

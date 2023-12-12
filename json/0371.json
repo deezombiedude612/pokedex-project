@@ -2,7 +2,8 @@
 	"id": {
 		"national": 371,
 		"hoenn_oras": 196,
-		"galar_crown_tundra": 113
+		"galar_crown_tundra": 113,
+		"paldea_sv": 276
 	},
 	"name": {
 		"en": "Bagon",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": false,
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	}
 }

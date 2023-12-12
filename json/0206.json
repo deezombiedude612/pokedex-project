@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 206,
-		"galar_isle_of_armor": 52
+		"galar_isle_of_armor": 52,
+		"paldea_sv": 188,
+		"kitakami_sv": 160
 	},
 	"name": {
 		"en": "Dunsparce",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Serene Grace",
 			"ability_2": "Run Away",
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

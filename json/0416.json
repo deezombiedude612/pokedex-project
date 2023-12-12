@@ -4,7 +4,8 @@
 		"galar_swsh": 117,
 		"galar_isle_of_armor": 204,
 		"sinnoh_bdsp": 54,
-		"hisui_legarc": 71
+		"hisui_legarc": 71,
+		"paldea_sv": 39
 	},
 	"name": {
 		"en": "Vespiquen",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	}
 }

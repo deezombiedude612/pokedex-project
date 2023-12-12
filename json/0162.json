@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 162
+		"national": 162,
+		"kitakami_sv": 27
 	},
 	"name": {
 		"en": "Furret",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Keen Eye",
-			"hidden_ability": "Frisk"
+			"hidden_ability": "Frisk",
+			"terastal_ability": false
 		}
 	}
 }

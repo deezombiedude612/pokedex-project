@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 620,
-		"galar_isle_of_armor": 164
+		"galar_isle_of_armor": 164,
+		"kitakami_sv": 138
 	},
 	"name": {
 		"en": "Mienshao",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": "Regenerator",
-			"hidden_ability": "Reckless"
+			"hidden_ability": "Reckless",
+			"terastal_ability": false
 		}
 	}
 }

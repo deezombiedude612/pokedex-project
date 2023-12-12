@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 261,
-		"hoenn_oras": 10
+		"hoenn_oras": 10,
+		"kitakami_sv": 7
 	},
 	"name": {
 		"en": "Poochyena",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Quick Feet",
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

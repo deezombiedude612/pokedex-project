@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 983,
+		"paldea_sv": 369,
+		"kitakami_sv": 188
+	},
+	"name": {
+		"en": "Kingambit",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [10, 15],
+		"type": ["dark", "steel"],
+		"abilities": {
+			"ability_1": "Defiant",
+			"ability_2": "Supreme Overlord",
+			"hidden_ability": "Pressure",
+			"terastal_ability": false
+		}
+	}
+}

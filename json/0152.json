@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Overgrow",
 			"ability_2": false,
-			"hidden_ability": "Leaf Guard"
+			"hidden_ability": "Leaf Guard",
+			"terastal_ability": false
 		}
 	}
 }

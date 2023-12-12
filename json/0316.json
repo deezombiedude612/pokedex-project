@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 316,
-		"hoenn_oras": 100
+		"hoenn_oras": 100,
+		"paldea_sv": 139
 	},
 	"name": {
 		"en": "Gulpin",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Liquid Ooze",
 			"ability_2": "Sticky Hold",
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

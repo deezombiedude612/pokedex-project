@@ -2,7 +2,8 @@
 	"id": {
 		"national": 62,
 		"kanto_lgpe": 62,
-		"galar_isle_of_armor": 144
+		"galar_isle_of_armor": 144,
+		"kitakami_sv": 41
 	},
 	"name": {
 		"en": "Poliwrath",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": "Damp",
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

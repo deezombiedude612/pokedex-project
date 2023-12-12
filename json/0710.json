@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Pickup",
 			"ability_2": "Frisk",
-			"hidden_ability": "Insomnia"
+			"hidden_ability": "Insomnia",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 585
+		"national": 585,
+		"paldea_sv": 190
 	},
 	"name": {
 		"en": "Deerling",
@@ -9,16 +10,6 @@
 		"cht": ""
 	},
 	"baby": false,
-	"autumn_form": {
-		"desc": "Season Pokémon",
-		"type_id": [12, 9],
-		"type": ["normal", "grass"],
-		"abilities": {
-			"ability_1": "Chlorophyll",
-			"ability_2": "Sap Sipper",
-			"hidden_ability": "Serene Grace"
-		}
-	},
 	"spring_form": {
 		"desc": "Season Pokémon",
 		"type_id": [12, 9],
@@ -26,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Sap Sipper",
-			"hidden_ability": "Serene Grace"
+			"hidden_ability": "Serene Grace",
+			"terastal_ability": false
 		}
 	},
 	"summer_form": {
@@ -36,7 +28,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Sap Sipper",
-			"hidden_ability": "Serene Grace"
+			"hidden_ability": "Serene Grace",
+			"terastal_ability": false
 		}
 	},
 	"winter_form": {
@@ -46,7 +39,19 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Sap Sipper",
-			"hidden_ability": "Serene Grace"
+			"hidden_ability": "Serene Grace",
+			"terastal_ability": false
+		}
+	},
+	"autumn_form": {
+		"desc": "Season Pokémon",
+		"type_id": [12, 9],
+		"type": ["normal", "grass"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Sap Sipper",
+			"hidden_ability": "Serene Grace",
+			"terastal_ability": false
 		}
 	}
 }

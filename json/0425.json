@@ -4,7 +4,8 @@
 		"galar_swsh": 124,
 		"galar_isle_of_armor": 135,
 		"sinnoh_bdsp": 65,
-		"hisui_legarc": 37
+		"hisui_legarc": 37,
+		"paldea_sv": 143
 	},
 	"name": {
 		"en": "Drifloon",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Aftermath",
 			"ability_2": "Unburden",
-			"hidden_ability": "Flare Boost"
+			"hidden_ability": "Flare Boost",
+			"terastal_ability": false
 		}
 	}
 }

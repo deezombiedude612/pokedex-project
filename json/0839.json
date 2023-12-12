@@ -2,7 +2,8 @@
 	"id": {
 		"national": 839,
 		"galar_swsh": 163,
-		"galar_crown_tundra": 178
+		"galar_crown_tundra": 178,
+		"paldea_sv": 93
 	},
 	"name": {
 		"en": "Coalossal",
@@ -15,15 +16,16 @@
 		"desc": "Coal Pokémon",
 		"type_id": [8, 13],
 		"type": ["rock", "fire"],
-		"g_max": {
-			"g_max_move": "G-Max Volcalith",
-			"g_max_type_id": 8,
-			"g_max_type": "rock"
+		"gmax": {
+			"gmax_move": "G-Max Volcalith",
+			"gmax_type_id": 8,
+			"gmax_type": "rock"
 		},
 		"abilities": {
 			"ability_1": "Steam Engine",
 			"ability_2": "Flame Body",
-			"hidden_ability": "Flash Fire"
+			"hidden_ability": "Flash Fire",
+			"terastal_ability": false
 		}
 	}
 }

@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Cotton Down",
 			"ability_2": "Regenerator",
-			"hidden_ability": "Effect Spore"
+			"hidden_ability": "Effect Spore",
+			"terastal_ability": false
 		}
 	}
 }

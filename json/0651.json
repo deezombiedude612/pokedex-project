@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 651
+		"national": 651,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Quilladin",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Overgrow",
 			"ability_2": false,
-			"hidden_ability": "Bulletproof"
+			"hidden_ability": "Bulletproof",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 5,
 		"kanto_lgpe": 5,
-		"galar_swsh": 379
+		"galar_swsh": 379,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Charmeleon",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Solar Power"
+			"hidden_ability": "Solar Power",
+			"terastal_ability": false
 		}
 	}
 }

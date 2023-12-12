@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Volt Absorb",
 			"ability_2": "Hustle",
-			"hidden_ability": "Sand Rush"
+			"hidden_ability": "Sand Rush",
+			"terastal_ability": false
 		}
 	}
 }

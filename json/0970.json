@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 970,
+		"paldea_sv": 309,
+		"kitakami_sv": 157
+	},
+	"name": {
+		"en": "Glimmora",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [8, 4],
+		"type": ["rock", "poison"],
+		"abilities": {
+			"ability_1": "Toxic Debris",
+			"ability_2": false,
+			"hidden_ability": "Corrosion",
+			"terastal_ability": false
+		}
+	}
+}

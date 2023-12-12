@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 71,
-		"kanto_lgpe": 71
+		"kanto_lgpe": 71,
+		"kitakami_sv": 25
 	},
 	"name": {
 		"en": "Victreebell",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": false,
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

@@ -21,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Flash Fire",
-			"hidden_ability": "Flame Body"
+			"hidden_ability": "Flame Body",
+			"terastal_ability": false
 		}
 	},
 	"galar_variant": {
@@ -31,7 +32,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Pastel Veil",
-			"hidden_ability": "Anticipation"
+			"hidden_ability": "Anticipation",
+			"terastal_ability": false
 		}
 	}
 }

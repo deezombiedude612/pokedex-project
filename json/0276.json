@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Guts",
 			"ability_2": false,
-			"hidden_ability": "Scrappy"
+			"hidden_ability": "Scrappy",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 904,
-		"hisui_legarc": 85
+		"hisui_legarc": 85,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Overqwil",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Poison Point",
 			"ability_2": "Swift Swim",
-			"hidden_ability": "Intimidate"
+			"hidden_ability": "Intimidate",
+			"terastal_ability": false
 		}
 	}
 }

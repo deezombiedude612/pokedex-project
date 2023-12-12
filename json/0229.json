@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 229
+		"national": 229,
+		"paldea_sv": 26,
+		"kitakami_sv": 124
 	},
 	"name": {
 		"en": "Houndoom",
@@ -16,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Early Bird",
 			"ability_2": "Flash Fire",
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Poison Touch",
-			"hidden_ability": "Water Absorb"
+			"hidden_ability": "Water Absorb",
+			"terastal_ability": false
 		}
 	}
 }

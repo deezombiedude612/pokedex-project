@@ -3,7 +3,9 @@
 		"national": 550,
 		"galar_swsh": 154,
 		"galar_crown_tundra": 64,
-		"hisui_legarc": 166
+		"hisui_legarc": 166,
+		"paldea_sv": 138,
+		"kitakami_sv": 194
 	},
 	"name": {
 		"en": "Basculin",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Reckless",
 			"ability_2": "Adaptability",
-			"hidden_ability": "Mold Breaker"
+			"hidden_ability": "Mold Breaker",
+			"terastal_ability": false
 		}
 	},
 	"blue-striped_form": {
@@ -29,7 +32,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": "Adaptability",
-			"hidden_ability": "Mold Breaker"
+			"hidden_ability": "Mold Breaker",
+			"terastal_ability": false
 		}
 	}
 }

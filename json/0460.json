@@ -5,7 +5,8 @@
 		"galar_crown_tundra": 28,
 		"galar_crown_tundra": 32,
 		"sinnoh_bdsp": 143,
-		"hisui_legarc": 218
+		"hisui_legarc": 218,
+		"paldea_sv": 353
 	},
 	"name": {
 		"en": "Abomasnow",
@@ -21,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Snow Warning",
 			"ability_2": false,
-			"hidden_ability": "Soundproof"
+			"hidden_ability": "Soundproof",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

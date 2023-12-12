@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 702,
-		"galar_isle_of_armor": 103
+		"galar_isle_of_armor": 103,
+		"paldea_sv": 200
 	},
 	"name": {
 		"en": "Dedenne",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Cheek Pouch",
 			"ability_2": "Pickup",
-			"hidden_ability": "Plus"
+			"hidden_ability": "Plus",
+			"terastal_ability": false
 		}
 	}
 }

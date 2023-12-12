@@ -3,7 +3,8 @@
 		"national": 435,
 		"galar_swsh": 131,
 		"sinnoh_bdsp": 85,
-		"hisui_legarc": 111
+		"hisui_legarc": 111,
+		"paldea_sv": 227
 	},
 	"name": {
 		"en": "Skunktank",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Stench",
 			"ability_2": "Aftermath",
-			"hidden_ability": "Keen Eye"
+			"hidden_ability": "Keen Eye",
+			"terastal_ability": false
 		}
 	}
 }

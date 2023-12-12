@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Sand Rush",
-			"hidden_ability": "Scrappy"
+			"hidden_ability": "Scrappy",
+			"terastal_ability": false
 		}
 	}
 }

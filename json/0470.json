@@ -3,7 +3,8 @@
 		"national": 470,
 		"galar_swsh": 202,
 		"galar_crown_tundra": 81,
-		"hisui_legarc": 31
+		"hisui_legarc": 31,
+		"paldea_sv": 185
 	},
 	"name": {
 		"en": "Leafeon",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Leaf Guard",
 			"ability_2": false,
-			"hidden_ability": "Chlorophyll"
+			"hidden_ability": "Chlorophyll",
+			"terastal_ability": false
 		}
 	}
 }

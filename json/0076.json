@@ -4,7 +4,8 @@
 		"hoenn_oras": 60,
 		"kanto_lgpe": 76,
 		"sinnoh_bdsp": 33,
-		"hisui_legarc": 48
+		"hisui_legarc": 48,
+		"kitakami_sv": 82
 	},
 	"name": {
 		"en": "Golem",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Sand Veil"
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -30,7 +32,8 @@
 		"abilities": {
 			"ability_1": "Magnet Pull",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Galvanize"
+			"hidden_ability": "Galvanize",
+			"terastal_ability": false
 		}
 	}
 }

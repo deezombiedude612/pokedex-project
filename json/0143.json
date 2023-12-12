@@ -5,7 +5,8 @@
 		"galar_swsh": 261,
 		"galar_crown_tundra": 173,
 		"sinnoh_bdsp": 113,
-		"hisui_legarc": 52
+		"hisui_legarc": 52,
+		"kitakami_sv": 103
 	},
 	"name": {
 		"en": "Snorlax",
@@ -27,15 +28,16 @@
 			"excl_z_required_move": "Giga Impact",
 			"excl_z_power": 210
 		},
-		"g_max": {
-			"g_max_move": "G-Max Replenish",
-			"g_max_type_id": 12,
-			"g_max_type": "normal"
+		"gmax": {
+			"gmax_move": "G-Max Replenish",
+			"gmax_type_id": 12,
+			"gmax_type": "normal"
 		},
 		"abilities": {
 			"ability_1": "Immunity",
 			"ability_2": "Thick Fat",
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

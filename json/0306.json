@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": "Rock Head",
-			"hidden_ability": "Heavy Metal"
+			"hidden_ability": "Heavy Metal",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

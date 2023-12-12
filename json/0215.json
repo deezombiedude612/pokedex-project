@@ -3,7 +3,9 @@
 		"national": 215,
 		"galar_swsh": 292,
 		"sinnoh_bdsp": 144,
-		"hisui_legarc": 202
+		"hisui_legarc": 202,
+		"paldea_sv": 230,
+		"kitakami_sv": 170
 	},
 	"name": {
 		"en": "Sneasel",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": "Keen Eye",
-			"hidden_ability": "Pickpocket"
+			"hidden_ability": "Pickpocket",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -29,7 +32,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": "Keen Eye",
-			"hidden_ability": "Poison Touch"
+			"hidden_ability": "Pickpocket",
+			"terastal_ability": false
 		}
 	}
 }

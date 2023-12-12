@@ -3,7 +3,8 @@
 		"national": 700,
 		"galar_swsh": 204,
 		"galar_crown_tundra": 82,
-		"hisui_legarc": 33
+		"hisui_legarc": 33,
+		"paldea_sv": 187
 	},
 	"name": {
 		"en": "Sylveon",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": false,
-			"hidden_ability": "Pixilate"
+			"hidden_ability": "Pixilate",
+			"terastal_ability": false
 		}
 	}
 }

@@ -15,15 +15,16 @@
 		"desc": "Seed Pokémon",
 		"type_id": [9, 4],
 		"type": ["grass", "poison"],
-		"g_max": {
-			"g_max_move": "G-Max Vine Lash",
-			"g_max_type_id": 9,
-			"g_max_type": "grass"
+		"gmax": {
+			"gmax_move": "G-Max Vine Lash",
+			"gmax_type_id": 9,
+			"gmax_type": "grass"
 		},
 		"abilities": {
 			"ability_1": "Overgrow",
 			"ability_2": false,
-			"hidden_ability": "Chlorophyll"
+			"hidden_ability": "Chlorophyll",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

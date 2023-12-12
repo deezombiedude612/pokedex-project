@@ -10,7 +10,7 @@
 		"chs": "电击怪",
 		"cht": "電擊怪"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Electric Pokémon",
 		"type_id": [7, -1],
@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Vital Spirit"
+			"hidden_ability": "Vital Spirit",
+			"terastal_ability": false
 		}
 	}
 }

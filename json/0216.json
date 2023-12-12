@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 216,
-		"hisui_legarc": 112
+		"hisui_legarc": 112,
+		"paldea_sv": 215
 	},
 	"name": {
 		"en": "Teddiursa",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Pickup",
 			"ability_2": "Quick Feet",
-			"hidden_ability": "Honey Gather"
+			"hidden_ability": "Honey Gather",
+			"terastal_ability": false
 		}
 	}
 }

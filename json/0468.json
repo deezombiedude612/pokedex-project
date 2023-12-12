@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Hustle",
 			"ability_2": "Serene Grace",
-			"hidden_ability": "Super Luck"
+			"hidden_ability": "Super Luck",
+			"terastal_ability": false
 		}
 	}
 }

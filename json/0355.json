@@ -3,7 +3,8 @@
 		"national": 355,
 		"hoenn_oras": 153,
 		"galar_swsh": 135,
-		"hisui_legarc": 158
+		"hisui_legarc": 158,
+		"kitakami_sv": 139
 	},
 	"name": {
 		"en": "Duskull",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
-			"hidden_ability": "Frisk"
+			"hidden_ability": "Frisk",
+			"terastal_ability": false
 		}
 	}
 }

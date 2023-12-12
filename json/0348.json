@@ -10,7 +10,7 @@
 		"chs": "太古盔甲",
 		"cht": "太古盔甲"
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Plate Pokémon",
 		"type_id": [8, 5],
@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Battle Armor",
 			"ability_2": false,
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

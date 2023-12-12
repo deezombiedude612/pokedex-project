@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 217,
-		"hisui_legarc": 113
+		"hisui_legarc": 113,
+		"paldea_sv": 216
 	},
 	"name": {
 		"en": "Ursaring",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Guts",
 			"ability_2": "Quick Feet",
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	}
 }

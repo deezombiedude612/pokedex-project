@@ -1,0 +1,35 @@
+{
+	"id": {
+		"national": 999,
+		"paldea_sv": 391
+	},
+	"name": {
+		"en": "Gimmighoul",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"roaming_form": {
+		"desc": "",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Rattled",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"chest_form": {
+		"desc": "",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

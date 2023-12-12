@@ -3,7 +3,8 @@
 		"national": 123,
 		"kanto_lgpe": 123,
 		"galar_isle_of_armor": 118,
-		"hisui_legarc": 72
+		"hisui_legarc": 72,
+		"paldea_sv": 260
 	},
 	"name": {
 		"en": "Scyther",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Technician",
-			"hidden_ability": "Steadfast"
+			"hidden_ability": "Steadfast",
+			"terastal_ability": false
 		}
 	}
 }

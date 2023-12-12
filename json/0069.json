@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 69,
-		"kanto_lgpe": 69
+		"kanto_lgpe": 69,
+		"kitakami_sv": 23
 	},
 	"name": {
 		"en": "Bellsprout",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": false,
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

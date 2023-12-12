@@ -3,7 +3,9 @@
 		"national": 444,
 		"galar_crown_tundra": 117,
 		"sinnoh_bdsp": 110,
-		"hisui_legarc": 188
+		"hisui_legarc": 188,
+		"paldea_sv": 127,
+		"kitakami_sv": 165
 	},
 	"name": {
 		"en": "Gabite",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Sand Veil",
 			"ability_2": false,
-			"hidden_ability": "Rough Skin"
+			"hidden_ability": "Rough Skin",
+			"terastal_ability": false
 		}
 	}
 }

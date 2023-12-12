@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Forewarn",
-			"hidden_ability": "Dry Skin"
+			"hidden_ability": "Dry Skin",
+			"terastal_ability": false
 		}
 	}
 }

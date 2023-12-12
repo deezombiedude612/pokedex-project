@@ -2,7 +2,9 @@
 	"id": {
 		"national": 548,
 		"galar_isle_of_armor": 201,
-		"hisui_legarc": 93
+		"hisui_legarc": 93,
+		"paldea_sv": 104,
+		"kitakami_sv": 66
 	},
 	"name": {
 		"en": "Petilil",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Own Tempo",
-			"hidden_ability": "Leaf Guard"
+			"hidden_ability": "Leaf Guard",
+			"terastal_ability": false
 		}
 	}
 }

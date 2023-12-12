@@ -2,7 +2,8 @@
 	"id": {
 		"national": 275,
 		"hoenn_oras": 24,
-		"galar_swsh": 41
+		"galar_swsh": 41,
+		"kitakami_sv": 56
 	},
 	"name": {
 		"en": "Shiftry",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Early Bird",
-			"hidden_ability": "Pickpocket"
+			"hidden_ability": "Pickpocket",
+			"terastal_ability": false
 		}
 	}
 }

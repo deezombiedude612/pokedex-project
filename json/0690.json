@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 690,
-		"galar_isle_of_armor": 194
+		"galar_isle_of_armor": 194,
+		"paldea_sv": 337
 	},
 	"name": {
 		"en": "Skrelp",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Poison Point",
 			"ability_2": "Poison Touch",
-			"hidden_ability": "Adaptability"
+			"hidden_ability": "Adaptability",
+			"terastal_ability": false
 		}
 	}
 }

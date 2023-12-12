@@ -2,7 +2,8 @@
 	"id": {
 		"national": 184,
 		"galar_isle_of_armor": 141,
-		"sinnoh_bdsp": 126
+		"sinnoh_bdsp": 126,
+		"paldea_sv": 48
 	},
 	"name": {
 		"en": "Azumarill",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Huge Power",
-			"hidden_ability": "Sap Sipper"
+			"hidden_ability": "Sap Sipper",
+			"terastal_ability": false
 		}
 	}
 }

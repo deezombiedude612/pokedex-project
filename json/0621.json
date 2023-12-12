@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Rough Skin",
 			"ability_2": "Sheer Force",
-			"hidden_ability": "Mold Breaker"
+			"hidden_ability": "Mold Breaker",
+			"terastal_ability": false
 		}
 	}
 }

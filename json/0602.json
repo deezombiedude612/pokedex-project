@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 602
+		"national": 602,
+		"paldea_sv": 341,
+		"kitakami_sv": 175
 	},
 	"name": {
 		"en": "Tynamo",
@@ -8,7 +10,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "EleFish Pokémon",
 		"type_id": [7, -1],
@@ -16,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

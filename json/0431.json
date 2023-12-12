@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Limber",
 			"ability_2": "Own Tempo",
-			"hidden_ability": "Keen Eye"
+			"hidden_ability": "Keen Eye",
+			"terastal_ability": false
 		}
 	}
 }

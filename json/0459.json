@@ -4,7 +4,8 @@
 		"galar_swsh": 96,
 		"galar_crown_tundra": 31,
 		"sinnoh_bdsp": 142,
-		"hisui_legarc": 217
+		"hisui_legarc": 217,
+		"paldea_sv": 352
 	},
 	"name": {
 		"en": "Snover",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Snow Warning",
 			"ability_2": false,
-			"hidden_ability": "Soundproof"
+			"hidden_ability": "Soundproof",
+			"terastal_ability": false
 		}
 	}
 }

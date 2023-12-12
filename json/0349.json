@@ -4,7 +4,8 @@
 		"hoenn_oras": 145,
 		"galar_swsh": 152,
 		"galar_crown_tundra": 188,
-		"sinnoh_bdsp": 138
+		"sinnoh_bdsp": 138,
+		"kitakami_sv": 158
 	},
 	"name": {
 		"en": "Feebas",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Oblivious",
-			"hidden_ability": "Adaptability"
+			"hidden_ability": "Adaptability",
+			"terastal_ability": false
 		}
 	}
 }

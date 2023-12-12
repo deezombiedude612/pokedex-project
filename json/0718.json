@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 718
+		"national": 718,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Zygarde",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Aura Break",
 			"ability_2": "Power Construct",
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"zygarde_50percent_forme": {
@@ -26,7 +28,8 @@
 		"abilities": {
 			"ability_1": "Aura Break",
 			"ability_2": "Power Construct",
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"zygarde_complete_forme": {
@@ -36,7 +39,8 @@
 		"abilities": {
 			"ability_1": "Power Construct",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

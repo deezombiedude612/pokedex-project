@@ -2,7 +2,8 @@
 	"id": {
 		"national": 532,
 		"galar_swsh": 171,
-		"galar_crown_tundra": 57
+		"galar_crown_tundra": 57,
+		"kitakami_sv": 85
 	},
 	"name": {
 		"en": "Timburr",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Guts",
 			"ability_2": "Sheer Force",
-			"hidden_ability": "Iron Fist"
+			"hidden_ability": "Iron Fist",
+			"terastal_ability": false
 		}
 	}
 }

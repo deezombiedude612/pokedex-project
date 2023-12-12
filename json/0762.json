@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 762,
-		"galar_swsh": 53
+		"galar_swsh": 53,
+		"paldea_sv": 82
 	},
 	"name": {
 		"en": "Steenee",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Leaf Guard",
 			"ability_2": "Oblivious",
-			"hidden_ability": "Sweet Veil"
+			"hidden_ability": "Sweet Veil",
+			"terastal_ability": false
 		}
 	}
 }

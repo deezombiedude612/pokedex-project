@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 975,
+		"paldea_sv": 362
+	},
+	"name": {
+		"en": "Cetitan",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Slush Rush",
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
+		}
+	}
+}

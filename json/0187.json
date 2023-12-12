@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 187
+		"national": 187,
+		"paldea_sv": 16
 	},
 	"name": {
 		"en": "Hoppip",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Leaf Guard",
-			"hidden_ability": "Infiltrator"
+			"hidden_ability": "Infiltrator",
+			"terastal_ability": false
 		}
 	}
 }

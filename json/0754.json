@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 754,
-		"galar_isle_of_armor": 18
+		"galar_isle_of_armor": 18,
+		"paldea_sv": 248,
+		"kitakami_sv": 32
 	},
 	"name": {
 		"en": "Lurantis",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Leaf Guard",
 			"ability_2": false,
-			"hidden_ability": "Contrary"
+			"hidden_ability": "Contrary",
+			"terastal_ability": false
 		}
 	}
 }

@@ -3,7 +3,9 @@
 		"national": 58,
 		"kanto_lgpe": 58,
 		"galar_swsh": 70,
-		"hisui_legarc": 150
+		"hisui_legarc": 150,
+		"paldea_sv": 213,
+		"kitakami_sv": 78
 	},
 	"name": {
 		"en": "Growlithe",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Flash Fire",
-			"hidden_ability": "Justified"
+			"hidden_ability": "Justified",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -28,8 +31,9 @@
 		"type": ["fire", "rock"],
 		"abilities": {
 			"ability_1": "Intimidate",
-			"ability_2": "Justified",
-			"hidden_ability": "Flash Fire"
+			"ability_2": "Flash Fire",
+			"hidden_ability": "Rock Head",
+			"terastal_ability": false
 		}
 	}
 }

@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Overcoat",
 			"ability_2": "Magic Guard",
-			"hidden_ability": "Regenerator"
+			"hidden_ability": "Regenerator",
+			"terastal_ability": false
 		}
 	}
 }

@@ -14,15 +14,16 @@
 		"desc": "Trash Heap Pokémon",
 		"type_id": [4, -1],
 		"type": ["poison"],
-		"g_max": {
-			"g_max_move": "G-Max Malodor",
-			"g_max_type_id": 4,
-			"g_max_type": "poison"
+		"gmax": {
+			"gmax_move": "G-Max Malodor",
+			"gmax_type_id": 4,
+			"gmax_type": "poison"
 		},
 		"abilities": {
 			"ability_1": "Stench",
 			"ability_2": "Weak Armor",
-			"hidden_ability": "Aftermath"
+			"hidden_ability": "Aftermath",
+			"terastal_ability": false
 		}
 	}
 }

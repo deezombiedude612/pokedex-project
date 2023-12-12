@@ -2,7 +2,8 @@
 	"id": {
 		"national": 60,
 		"kanto_lgpe": 60,
-		"galar_isle_of_armor": 142
+		"galar_isle_of_armor": 142,
+		"kitakami_sv": 39
 	},
 	"name": {
 		"en": "Poliwag",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": "Damp",
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

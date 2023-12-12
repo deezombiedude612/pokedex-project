@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 986,
+		"paldea_sv": 378
+	},
+	"name": {
+		"en": "Brute Bonnet",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [9, 10],
+		"type": ["grass", "dark"],
+		"abilities": {
+			"ability_1": "Protosynthesis",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

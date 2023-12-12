@@ -2,7 +2,8 @@
 	"id": {
 		"national": 164,
 		"galar_swsh": 20,
-		"sinnoh_bdsp": 107
+		"sinnoh_bdsp": 107,
+		"kitakami_sv": 46
 	},
 	"name": {
 		"en": "Noctowl",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Insomnia",
 			"ability_2": "Keen Eye",
-			"hidden_ability": "Tinted Lens"
+			"hidden_ability": "Tinted Lens",
+			"terastal_ability": false
 		}
 	}
 }

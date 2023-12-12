@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Shed Skin",
-			"hidden_ability": "No Guard"
+			"hidden_ability": "No Guard",
+			"terastal_ability": false
 		}
 	}
 }

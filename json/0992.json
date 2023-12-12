@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 992,
+		"paldea_sv": 384
+	},
+	"name": {
+		"en": "Iron Hands",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [14, 7],
+		"type": ["fighting", "electric"],
+		"abilities": {
+			"ability_1": "Quark Drive",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Water Bubble",
 			"ability_2": false,
-			"hidden_ability": "Water Absorb"
+			"hidden_ability": "Water Absorb",
+			"terastal_ability": false
 		}
 	}
 }

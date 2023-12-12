@@ -4,7 +4,8 @@
 		"kanto_lgpe": 113,
 		"galar_isle_of_armor": 7,
 		"sinnoh_bdsp": 97,
-		"hisui_legarc": 87
+		"hisui_legarc": 87,
+		"paldea_sv": 44
 	},
 	"name": {
 		"en": "Chansey",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Natural Cure",
 			"ability_2": "Serene Grace",
-			"hidden_ability": "Healer"
+			"hidden_ability": "Healer",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 335,
-		"hoenn_oras": 128
+		"hoenn_oras": 128,
+		"paldea_sv": 217
 	},
 	"name": {
 		"en": "Zangoose",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Immunity",
 			"ability_2": false,
-			"hidden_ability": "Toxic Boost"
+			"hidden_ability": "Toxic Boost",
+			"terastal_ability": false
 		}
 	}
 }

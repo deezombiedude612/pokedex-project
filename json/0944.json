@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 944,
+		"paldea_sv": 202
+	},
+	"name": {
+		"en": "Shroodle",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [4, 12],
+		"type": ["poison", "normal"],
+		"abilities": {
+			"ability_1": "Unburden",
+			"ability_2": "Pickpocket",
+			"hidden_ability": "Prankster",
+			"terastal_ability": false
+		}
+	}
+}

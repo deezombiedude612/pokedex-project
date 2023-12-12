@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 503,
-		"hisui_legarc": 9
+		"hisui_legarc": 9,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Samurott",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Shell Armor"
+			"hidden_ability": "Shell Armor",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -27,7 +29,8 @@
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Shell Armor"
+			"hidden_ability": "Sharpness",
+			"terastal_ability": false
 		}
 	}
 }

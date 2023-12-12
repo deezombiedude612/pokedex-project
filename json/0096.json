@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 96,
-		"kanto_lgpe": 96
+		"kanto_lgpe": 96,
+		"paldea_sv": 66
 	},
 	"name": {
 		"en": "Drowzee",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Insomnia",
 			"ability_2": "Forewarn",
-			"hidden_ability": "Inner Focus"
+			"hidden_ability": "Inner Focus",
+			"terastal_ability": false
 		}
 	}
 }

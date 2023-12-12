@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 259,
-		"hoenn_oras": 8
+		"hoenn_oras": 8,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Marshtomp",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Damp"
+			"hidden_ability": "Damp",
+			"terastal_ability": false
 		}
 	}
 }

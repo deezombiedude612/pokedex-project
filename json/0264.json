@@ -11,7 +11,7 @@
 		"chs": "直冲熊",
 		"cht": "直衝熊"
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Rushing Pokémon",
 		"type_id": [12, -1],
@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Pickup",
 			"ability_2": "Gluttony",
-			"hidden_ability": "Quick Feet"
+			"hidden_ability": "Quick Feet",
+			"terastal_ability": false
 		}
 	},
 	"galar_variant": {
@@ -29,7 +30,8 @@
 		"abilities": {
 			"ability_1": "Pickup",
 			"ability_2": "Gluttony",
-			"hidden_ability": "Quick Feet"
+			"hidden_ability": "Quick Feet",
+			"terastal_ability": false
 		}
 	}
 }

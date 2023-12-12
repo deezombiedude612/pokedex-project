@@ -3,7 +3,9 @@
 		"national": 59,
 		"kanto_lgpe": 59,
 		"galar_swsh": 71,
-		"hisui_legarc": 151
+		"hisui_legarc": 151,
+		"paldea_sv": 214,
+		"kitakami_sv": 79
 	},
 	"name": {
 		"en": "Arcanine",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Flash Fire",
-			"hidden_ability": "Justified"
+			"hidden_ability": "Justified",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -28,8 +31,9 @@
 		"type": ["fire", "rock"],
 		"abilities": {
 			"ability_1": "Intimidate",
-			"ability_2": "Justified",
-			"hidden_ability": "Flash Fire"
+			"ability_2": "Flash Fire",
+			"hidden_ability": "Rock Head",
+			"terastal_ability": false
 		}
 	}
 }

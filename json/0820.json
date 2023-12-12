@@ -3,7 +3,9 @@
 		"national": 820,
 		"galar_swsh": 25,
 		"galar_isle_of_armor": 10,
-		"galar_crown_tundra": 6
+		"galar_crown_tundra": 6,
+		"paldea_sv": 30,
+		"kitakami_sv": 73
 	},
 	"name": {
 		"en": "Greedent",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Cheek Pouch",
 			"ability_2": false,
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

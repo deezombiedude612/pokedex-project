@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Lightning Rod",
 			"ability_2": "Motor Drive",
-			"hidden_ability": "Sap Sipper"
+			"hidden_ability": "Sap Sipper",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 889,
-		"galar_swsh": 399
+		"galar_swsh": 399,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Zamazenta",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Dauntless Shield",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"hero_of_many_battles": {
@@ -27,7 +29,8 @@
 		"abilities": {
 			"ability_1": "Dauntless Shield",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

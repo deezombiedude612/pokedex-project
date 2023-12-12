@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	}
 }

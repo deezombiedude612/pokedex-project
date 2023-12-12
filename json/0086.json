@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Hydration",
-			"hidden_ability": "Ice Body"
+			"hidden_ability": "Ice Body",
+			"terastal_ability": false
 		}
 	}
 }

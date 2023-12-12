@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 991,
+		"paldea_sv": 383
+	},
+	"name": {
+		"en": "Iron Bundle",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [11, 6],
+		"type": ["ice", "water"],
+		"abilities": {
+			"ability_1": "Quark Drive",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

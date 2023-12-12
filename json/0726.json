@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 726
+		"national": 726,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Torracat",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Intimidate"
+			"hidden_ability": "Intimidate",
+			"terastal_ability": false
 		}
 	}
 }

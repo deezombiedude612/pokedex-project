@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 204
+		"national": 204,
+		"paldea_sv": 258
 	},
 	"name": {
 		"en": "Pineco",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": false,
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

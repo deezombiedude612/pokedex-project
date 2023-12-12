@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 612,
-		"galar_swsh": 326
+		"galar_swsh": 326,
+		"paldea_sv": 157
 	},
 	"name": {
 		"en": "Haxorus",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Rivalry",
 			"ability_2": "Mold Breaker",
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	}
 }

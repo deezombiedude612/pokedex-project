@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 896,
-		"galar_crown_tundra": 208
+		"galar_crown_tundra": 208,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Glastrier",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Chilling Neigh",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

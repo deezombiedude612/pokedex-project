@@ -1,0 +1,79 @@
+{
+	"id": {
+		"national": 966,
+		"paldea_sv": 294
+	},
+	"name": {
+		"en": "Revavroom",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [15, 4],
+		"type": ["steel", "poison"],
+		"abilities": {
+			"ability_1": "Overcoat",
+			"ability_2": false,
+			"hidden_ability": "Filter",
+			"terastal_ability": false
+		}
+	},
+	"navi_starmobile": {
+		"desc": "",
+		"type_id": [4, -1],
+		"type": ["poison"],
+		"abilities": {
+			"ability_1": "Toxic Debris",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"ruchbah_starmobile": {
+		"desc": "",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Misty Surge",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"schedar_starmobile": {
+		"desc": "",
+		"type_id": [13, -1],
+		"type": ["fire"],
+		"abilities": {
+			"ability_1": "Speed Boost",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"segin_starmobile": {
+		"desc": "",
+		"type_id": [10, -1],
+		"type": ["dark"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"caph_starmobile": {
+		"desc": "",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Stamina",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

@@ -1,8 +1,10 @@
 {
 	"id": {
 		"national": 480,
+		"galar_swsh": -1,
 		"sinnoh_bdsp": 146,
-		"hisui_legarc": 225
+		"hisui_legarc": 225,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Uxie",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

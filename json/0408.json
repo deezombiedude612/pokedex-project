@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Mold Breaker",
 			"ability_2": false,
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	}
 }

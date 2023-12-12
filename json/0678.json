@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Infiltrator",
-			"hidden_ability": "Competitive"
+			"hidden_ability": "Competitive",
+			"terastal_ability": false
 		}
 	},
 	"default_m": {
@@ -27,7 +28,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Infiltrator",
-			"hidden_ability": "Prankster"
+			"hidden_ability": "Prankster",
+			"terastal_ability": false
 		}
 	}
 }

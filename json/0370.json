@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 370,
-		"hoenn_oras": 192
+		"hoenn_oras": 192,
+		"paldea_sv": 332
 	},
 	"name": {
 		"en": "Luvdisc",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": false,
-			"hidden_ability": "Hydration"
+			"hidden_ability": "Hydration",
+			"terastal_ability": false
 		}
 	}
 }

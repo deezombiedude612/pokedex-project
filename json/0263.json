@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Pickup",
 			"ability_2": "Gluttony",
-			"hidden_ability": "Quick Feet"
+			"hidden_ability": "Quick Feet",
+			"terastal_ability": false
 		}
 	},
 	"galar_variant": {
@@ -29,7 +30,8 @@
 		"abilities": {
 			"ability_1": "Pickup",
 			"ability_2": "Gluttony",
-			"hidden_ability": "Quick Feet"
+			"hidden_ability": "Quick Feet",
+			"terastal_ability": false
 		}
 	}
 }

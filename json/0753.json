@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 753,
-		"galar_isle_of_armor": 17
+		"galar_isle_of_armor": 17,
+		"paldea_sv": 247,
+		"kitakami_sv": 31
 	},
 	"name": {
 		"en": "Fomantis",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Leaf Guard",
 			"ability_2": false,
-			"hidden_ability": "Contrary"
+			"hidden_ability": "Contrary",
+			"terastal_ability": false
 		}
 	}
 }

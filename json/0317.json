@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 317,
-		"hoenn_oras": 101
+		"hoenn_oras": 101,
+		"paldea_sv": 140
 	},
 	"name": {
 		"en": "Swalot",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Liquid Ooze",
 			"ability_2": "Sticky Hold",
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

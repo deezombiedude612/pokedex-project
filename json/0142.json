@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": "Pressure",
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

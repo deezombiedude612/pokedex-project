@@ -2,7 +2,8 @@
 	"id": {
 		"national": 418,
 		"sinnoh_bdsp": 56,
-		"hisui_legarc": 41
+		"hisui_legarc": 41,
+		"paldea_sv": 51
 	},
 	"name": {
 		"en": "Buizel",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": false,
-			"hidden_ability": "Water Veil"
+			"hidden_ability": "Water Veil",
+			"terastal_ability": false
 		}
 	}
 }

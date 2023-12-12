@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Early Bird",
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

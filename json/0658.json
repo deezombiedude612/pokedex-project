@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 658
+		"national": 658,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Greninja",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Protean"
+			"hidden_ability": "Protean",
+			"terastal_ability": false
 		}
 	},
 	"ash_greninja": {
@@ -26,7 +28,8 @@
 		"abilities": {
 			"ability_1": "Battle Bond",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

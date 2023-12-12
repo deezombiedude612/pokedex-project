@@ -4,7 +4,9 @@
 		"galar_swsh": 119,
 		"galar_crown_tundra": 88,
 		"sinnoh_bdsp": 89,
-		"hisui_legarc": 181
+		"hisui_legarc": 181,
+		"paldea_sv": 154,
+		"kitakami_sv": 155
 	},
 	"name": {
 		"en": "Bronzong",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": "Heatproof",
-			"hidden_ability": "Heavy Metal"
+			"hidden_ability": "Heavy Metal",
+			"terastal_ability": false
 		}
 	}
 }

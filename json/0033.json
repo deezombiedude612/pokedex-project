@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Poison Point",
 			"ability_2": "Rivalry",
-			"hidden_ability": "Hustle"
+			"hidden_ability": "Hustle",
+			"terastal_ability": false
 		}
 	}
 }

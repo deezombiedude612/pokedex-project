@@ -2,7 +2,8 @@
 	"id": {
 		"national": 6,
 		"kanto_lgpe": 6,
-		"galar_swsh": 380
+		"galar_swsh": 380,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Charizard",
@@ -15,15 +16,16 @@
 		"desc": "Flame Pokémon",
 		"type_id": [13, 3],
 		"type": ["fire", "flying"],
-		"g_max": {
-			"g_max_move": "G-Max Wildfire",
-			"g_max_type_id": 13,
-			"g_max_type": "fire"
+		"gmax": {
+			"gmax_move": "G-Max Wildfire",
+			"gmax_type_id": 13,
+			"gmax_type": "fire"
 		},
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Solar Power"
+			"hidden_ability": "Solar Power",
+			"terastal_ability": false
 		}
 	},
 	"mega_x": {

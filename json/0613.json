@@ -2,7 +2,8 @@
 	"id": {
 		"national": 613,
 		"galar_swsh": 279,
-		"galar_crown_tundra": 121
+		"galar_crown_tundra": 121,
+		"paldea_sv": 355
 	},
 	"name": {
 		"en": "Cubchoo",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Snow Cloak",
 			"ability_2": "Slush Rush",
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

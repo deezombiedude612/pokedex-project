@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 668
+		"national": 668,
+		"paldea_sv": 225
 	},
 	"name": {
 		"en": "Pyroar",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Rivalry",
 			"ability_2": "Unnerve",
-			"hidden_ability": "Moxie"
+			"hidden_ability": "Moxie",
+			"terastal_ability": false
 		}
 	}
 }

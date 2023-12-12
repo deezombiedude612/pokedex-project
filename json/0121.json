@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Illuminate",
 			"ability_2": "Natural Cure",
-			"hidden_ability": "Analytic"
+			"hidden_ability": "Analytic",
+			"terastal_ability": false
 		}
 	}
 }

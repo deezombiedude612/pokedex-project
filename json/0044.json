@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": false,
-			"hidden_ability": "Stench"
+			"hidden_ability": "Stench",
+			"terastal_ability": false
 		}
 	}
 }

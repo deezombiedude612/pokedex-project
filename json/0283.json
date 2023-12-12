@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 283,
-		"hoenn_oras": 33
+		"hoenn_oras": 33,
+		"paldea_sv": 49,
+		"kitakami_sv": 149
 	},
 	"name": {
 		"en": "Surskit",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": false,
-			"hidden_ability": "Rain Dish"
+			"hidden_ability": "Rain Dish",
+			"terastal_ability": false
 		}
 	}
 }

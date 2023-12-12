@@ -3,7 +3,9 @@
 		"national": 404,
 		"galar_isle_of_armor": 26,
 		"sinnoh_bdsp": 18,
-		"hisui_legarc": 16
+		"hisui_legarc": 16,
+		"paldea_sv": 95,
+		"kitakami_sv": 110
 	},
 	"name": {
 		"en": "Luxio",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Rivalry",
 			"ability_2": "Intimidate",
-			"hidden_ability": "Guts"
+			"hidden_ability": "Guts",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 4,
 		"kanto_lgpe": 4,
-		"galar_swsh": 378
+		"galar_swsh": 378,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Charmander",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Solar Power"
+			"hidden_ability": "Solar Power",
+			"terastal_ability": false
 		}
 	}
 }

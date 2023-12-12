@@ -4,7 +4,8 @@
 		"hoenn_oras": 27,
 		"galar_swsh": 62,
 		"galar_isle_of_armor": 48,
-		"sinnoh_bdsp": 119
+		"sinnoh_bdsp": 119,
+		"paldea_sv": 132
 	},
 	"name": {
 		"en": "Wingull",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Hydration",
-			"hidden_ability": "Rain Dish"
+			"hidden_ability": "Rain Dish",
+			"terastal_ability": false
 		}
 	}
 }

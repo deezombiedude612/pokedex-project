@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 257,
-		"hoenn_oras": 6
+		"hoenn_oras": 6,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Blaziken",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Speed Boost"
+			"hidden_ability": "Speed Boost",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

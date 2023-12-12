@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 672
+		"national": 672,
+		"paldea_sv": 221
 	},
 	"name": {
 		"en": "Skiddo",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Sap Sipper",
 			"ability_2": false,
-			"hidden_ability": "Grass Pelt"
+			"hidden_ability": "Grass Pelt",
+			"terastal_ability": false
 		}
 	}
 }

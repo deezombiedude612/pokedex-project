@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 701,
-		"galar_swsh": 320
+		"galar_swsh": 320,
+		"paldea_sv": 301
 	},
 	"name": {
 		"en": "Hawlucha",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Limber",
 			"ability_2": "Unburden",
-			"hidden_ability": "Mold Breaker"
+			"hidden_ability": "Mold Breaker",
+			"terastal_ability": false
 		}
 	}
 }

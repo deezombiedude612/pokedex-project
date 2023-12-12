@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 186,
-		"galar_isle_of_armor": 145
+		"galar_isle_of_armor": 145,
+		"kitakami_sv": 42
 	},
 	"name": {
 		"en": "Politoed",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": "Damp",
-			"hidden_ability": "Drizzle"
+			"hidden_ability": "Drizzle",
+			"terastal_ability": false
 		}
 	}
 }

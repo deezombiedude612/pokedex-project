@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Contrary",
 			"ability_2": "Suction Cups",
-			"hidden_ability": "Infiltrator"
+			"hidden_ability": "Infiltrator",
+			"terastal_ability": false
 		}
 	}
 }

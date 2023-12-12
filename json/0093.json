@@ -4,7 +4,9 @@
 		"kanto_lgpe": 93,
 		"galar_swsh": 142,
 		"sinnoh_bdsp": 70,
-		"hisui_legarc": 136
+		"hisui_legarc": 136,
+		"paldea_sv": 69,
+		"kitakami_sv": 119
 	},
 	"name": {
 		"en": "Haunter",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

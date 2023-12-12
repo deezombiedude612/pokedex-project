@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 540
+		"national": 540,
+		"kitakami_sv": 13
 	},
 	"name": {
 		"en": "Sewaddle",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Chlorophyll",
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

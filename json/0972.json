@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 972,
+		"paldea_sv": 312
+	},
+	"name": {
+		"en": "Houndstone",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Sand Rush",
+			"ability_2": false,
+			"hidden_ability": "Fluffy",
+			"terastal_ability": false
+		}
+	}
+}

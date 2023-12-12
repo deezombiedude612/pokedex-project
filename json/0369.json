@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Rock Head",
-			"hidden_ability": "Sturdy"
+			"hidden_ability": "Sturdy",
+			"terastal_ability": false
 		}
 	}
 }

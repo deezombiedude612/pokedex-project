@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 155,
-		"hisui_legarc": 4
+		"hisui_legarc": 4,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Cyndaquil",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Flash Fire"
+			"hidden_ability": "Flash Fire",
+			"terastal_ability": false
 		}
 	}
 }

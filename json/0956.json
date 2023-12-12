@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 956,
+		"paldea_sv": 264
+	},
+	"name": {
+		"en": "Espathra",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [16, -1],
+		"type": ["psychic"],
+		"abilities": {
+			"ability_1": "Opportunist",
+			"ability_2": "Frisk",
+			"hidden_ability": "Speed Boost",
+			"terastal_ability": false
+		}
+	}
+}

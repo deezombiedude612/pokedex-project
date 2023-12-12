@@ -10,7 +10,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Shredding Pokémon",
 		"type_id": [10, 14],
@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Shed Skin",
 			"ability_2": "Moxie",
-			"hidden_ability": "Intimidate"
+			"hidden_ability": "Intimidate",
+			"terastal_ability": false
 		}
 	}
 }

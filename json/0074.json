@@ -4,7 +4,8 @@
 		"hoenn_oras": 58,
 		"kanto_lgpe": 74,
 		"sinnoh_bdsp": 31,
-		"hisui_legarc": 46
+		"hisui_legarc": 46,
+		"kitakami_sv": 80
 	},
 	"name": {
 		"en": "Geodude",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Sand Veil"
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -30,7 +32,8 @@
 		"abilities": {
 			"ability_1": "Magnet Pull",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Galvanize"
+			"hidden_ability": "Galvanize",
+			"terastal_ability": false
 		}
 	}
 }

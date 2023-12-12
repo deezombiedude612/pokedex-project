@@ -2,7 +2,8 @@
 	"id": {
 		"national": 203,
 		"hoenn_oras": 171,
-		"sinnoh_bdsp": 121
+		"sinnoh_bdsp": 121,
+		"paldea_sv": 192
 	},
 	"name": {
 		"en": "Girafarig",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": "Early Bird",
-			"hidden_ability": "Sap Sipper"
+			"hidden_ability": "Sap Sipper",
+			"terastal_ability": false
 		}
 	}
 }

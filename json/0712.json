@@ -3,7 +3,8 @@
 		"national": 712,
 		"galar_swsh": 358,
 		"galar_crown_tundra": 142,
-		"hisui_legarc": 215
+		"hisui_legarc": 215,
+		"paldea_sv": 363
 	},
 	"name": {
 		"en": "Bergmite",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Own Tempo",
 			"ability_2": "Ice Body",
-			"hidden_ability": "Sturdy"
+			"hidden_ability": "Sturdy",
+			"terastal_ability": false
 		}
 	}
 }

@@ -20,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Natural Cure",
 			"ability_2": "Poison Point",
-			"hidden_ability": "Technician"
+			"hidden_ability": "Technician",
+			"terastal_ability": false
 		}
 	}
 }

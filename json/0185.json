@@ -3,7 +3,9 @@
 		"national": 185,
 		"galar_swsh": 253,
 		"sinnoh_bdsp": 93,
-		"hisui_legarc": 124
+		"hisui_legarc": 124,
+		"paldea_sv": 88,
+		"kitakami_sv": 84
 	},
 	"name": {
 		"en": "Sudowoodo",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": "Rock Head",
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

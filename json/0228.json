@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 228
+		"national": 228,
+		"paldea_sv": 25,
+		"kitakami_sv": 123
 	},
 	"name": {
 		"en": "Houndour",
@@ -16,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Early Bird",
 			"ability_2": "Flash Fire",
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	}
 }

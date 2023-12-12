@@ -10,7 +10,7 @@
 		"chs": "摇篮百合",
 		"cht": "搖籃百合"
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Barnacle Pokémon",
 		"type_id": [8, 9],
@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Suction Cups",
 			"ability_2": false,
-			"hidden_ability": "Storm Drain"
+			"hidden_ability": "Storm Drain",
+			"terastal_ability": false
 		}
 	}
 }

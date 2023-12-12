@@ -4,7 +4,9 @@
 		"hoenn_oras": 179,
 		"galar_swsh": 79,
 		"galar_crown_tundra": 25,
-		"hisui_legarc": 205
+		"hisui_legarc": 205,
+		"paldea_sv": 357,
+		"kitakami_sv": 172
 	},
 	"name": {
 		"en": "Snorunt",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": "Ice Body",
-			"hidden_ability": "Moody"
+			"hidden_ability": "Moody",
+			"terastal_ability": false
 		}
 	}
 }

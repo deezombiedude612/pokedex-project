@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Quick Feet",
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

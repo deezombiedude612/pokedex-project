@@ -2,7 +2,9 @@
 	"id": {
 		"national": 834,
 		"galar_swsh": 43,
-		"galar_isle_of_armor": 57
+		"galar_isle_of_armor": 57,
+		"paldea_sv": 58,
+		"kitakami_sv": 184
 	},
 	"name": {
 		"en": "Drednaw",
@@ -15,15 +17,16 @@
 		"desc": "Bite Pokémon",
 		"type_id": [6, 8],
 		"type": ["water", "rock"],
-		"g_max": {
-			"g_max_move": "G-Max Stonesurge",
-			"g_max_type_id": 6,
-			"g_max_type": "water"
+		"gmax": {
+			"gmax_move": "G-Max Stonesurge",
+			"gmax_type_id": 6,
+			"gmax_type": "water"
 		},
 		"abilities": {
 			"ability_1": "Strong Jaw",
 			"ability_2": "Shell Armor",
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

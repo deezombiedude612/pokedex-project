@@ -2,7 +2,9 @@
 	"id": {
 		"national": 876,
 		"galar_swsh": 337,
-		"galar_crown_tundra": 171
+		"galar_crown_tundra": 171,
+		"paldea_sv": 241,
+		"kitakami_sv": 193
 	},
 	"name": {
 		"en": "Indeedee",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Own Tempo",
 			"ability_2": "Synchronize",
-			"hidden_ability": "Psychic Surge"
+			"hidden_ability": "Psychic Surge",
+			"terastal_ability": false
 		}
 	},
 	"default_m": {
@@ -28,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": "Synchronize",
-			"hidden_ability": "Psychic Surge"
+			"hidden_ability": "Psychic Surge",
+			"terastal_ability": false
 		}
 	}
 }

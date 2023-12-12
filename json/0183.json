@@ -3,7 +3,8 @@
 		"national": 183,
 		"hoenn_oras": 56,
 		"galar_isle_of_armor": 140,
-		"sinnoh_bdsp": 125
+		"sinnoh_bdsp": 125,
+		"paldea_sv": 47
 	},
 	"name": {
 		"en": "Marill",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Huge Power",
-			"hidden_ability": "Sap Sipper"
+			"hidden_ability": "Sap Sipper",
+			"terastal_ability": false
 		}
 	}
 }

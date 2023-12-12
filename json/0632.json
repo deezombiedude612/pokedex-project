@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Hustle",
-			"hidden_ability": "Truant"
+			"hidden_ability": "Truant",
+			"terastal_ability": false
 		}
 	}
 }

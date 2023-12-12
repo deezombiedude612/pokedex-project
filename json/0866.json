@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Tangled Feet",
 			"ability_2": "Screen Cleaner",
-			"hidden_ability": "Ice Body"
+			"hidden_ability": "Ice Body",
+			"terastal_ability": false
 		}
 	}
 }

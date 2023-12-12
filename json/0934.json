@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 934,
+		"paldea_sv": 131
+	},
+	"name": {
+		"en": "Gargancl",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [8, -1],
+		"type": ["rock"],
+		"abilities": {
+			"ability_1": "Purifying Salt",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Clear Body",
+			"terastal_ability": false
+		}
+	}
+}

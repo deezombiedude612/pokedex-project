@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 735
+		"national": 735,
+		"paldea_sv": 28
 	},
 	"name": {
 		"en": "Gumshoos",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Stakeout",
 			"ability_2": "Strong Jaw",
-			"hidden_ability": "Adaptability"
+			"hidden_ability": "Adaptability",
+			"terastal_ability": false
 		}
 	}
 }

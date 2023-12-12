@@ -2,7 +2,8 @@
 	"id": {
 		"national": 766,
 		"galar_swsh": 343,
-		"galar_isle_of_armor": 90
+		"galar_isle_of_armor": 90,
+		"paldea_sv": 314
 	},
 	"name": {
 		"en": "Passimian",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Receiver",
 			"ability_2": false,
-			"hidden_ability": "Defiant"
+			"hidden_ability": "Defiant",
+			"terastal_ability": false
 		}
 	}
 }

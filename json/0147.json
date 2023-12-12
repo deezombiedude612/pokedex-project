@@ -2,7 +2,8 @@
 	"id": {
 		"national": 147,
 		"kanto_lgpe": 147,
-		"galar_crown_tundra": 194
+		"galar_crown_tundra": 194,
+		"paldea_sv": 347
 	},
 	"name": {
 		"en": "Dratini",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Shed Skin",
 			"ability_2": false,
-			"hidden_ability": "Marvel Scale"
+			"hidden_ability": "Marvel Scale",
+			"terastal_ability": false
 		}
 	}
 }

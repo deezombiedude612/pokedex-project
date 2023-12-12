@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 965,
+		"paldea_sv": 293
+	},
+	"name": {
+		"en": "Varoom",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [15, 4],
+		"type": ["steel", "poison"],
+		"abilities": {
+			"ability_1": "Overcoat",
+			"ability_2": false,
+			"hidden_ability": "Slow Start",
+			"terastal_ability": false
+		}
+	}
+}

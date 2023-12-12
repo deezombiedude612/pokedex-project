@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Volt Absorb",
 			"ability_2": "Illuminate",
-			"hidden_ability": "Water Absorb"
+			"hidden_ability": "Water Absorb",
+			"terastal_ability": false
 		}
 	}
 }

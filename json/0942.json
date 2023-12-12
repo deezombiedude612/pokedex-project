@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 942,
+		"paldea_sv": 196
+	},
+	"name": {
+		"en": "Maschiff",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [10, -1],
+		"type": ["dark"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Run Away",
+			"hidden_ability": "Stakeout",
+			"terastal_ability": false
+		}
+	}
+}

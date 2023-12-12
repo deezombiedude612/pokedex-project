@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 24,
-		"kanto_lgpe": 24
+		"kanto_lgpe": 24,
+		"kitakami_sv": 19
 	},
 	"name": {
 		"en": "Arbok",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Shed Skin",
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	}
 }

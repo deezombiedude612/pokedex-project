@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 985,
+		"paldea_sv": 377
+	},
+	"name": {
+		"en": "Scream Tail",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [17, 16],
+		"type": ["fairy", "psychic"],
+		"abilities": {
+			"ability_1": "Protosynthesis",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

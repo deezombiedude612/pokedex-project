@@ -5,7 +5,9 @@
 		"galar_swsh": 193,
 		"galar_isle_of_armor": 84,
 		"sinnoh_bdsp": 103,
-		"hisui_legarc": 55
+		"hisui_legarc": 55,
+		"paldea_sv": 73,
+		"kitakami_sv": 20
 	},
 	"name": {
 		"en": "Pichu",
@@ -13,7 +15,7 @@
 		"chs": "皮丘",
 		"cht": "皮丘"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Tiny Mouse Pokémon",
 		"type_id": [7, -1],
@@ -21,7 +23,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Lightning Rod"
+			"hidden_ability": "Lightning Rod",
+			"terastal_ability": false
 		}
 	}
 }

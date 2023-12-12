@@ -3,7 +3,8 @@
 		"national": 197,
 		"galar_swsh": 201,
 		"galar_crown_tundra": 78,
-		"hisui_legarc": 30
+		"hisui_legarc": 30,
+		"paldea_sv": 184
 	},
 	"name": {
 		"en": "Umbreon",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Synchronize",
 			"ability_2": false,
-			"hidden_ability": "Inner Focus"
+			"hidden_ability": "Inner Focus",
+			"terastal_ability": false
 		}
 	}
 }

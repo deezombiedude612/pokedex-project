@@ -4,7 +4,8 @@
 		"kanto_lgpe": 134,
 		"galar_swsh": 197,
 		"galar_crown_tundra": 75,
-		"hisui_legarc": 26
+		"hisui_legarc": 26,
+		"paldea_sv": 180
 	},
 	"name": {
 		"en": "Vaporeon",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": false,
-			"hidden_ability": "Hydration"
+			"hidden_ability": "Hydration",
+			"terastal_ability": false
 		}
 	}
 }

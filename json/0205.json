@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 205
+		"national": 205,
+		"paldea_sv": 259
 	},
 	"name": {
 		"en": "Forretress",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": false,
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

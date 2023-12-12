@@ -21,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Guts",
 			"ability_2": "No Guard",
-			"hidden_ability": "Steadfast"
+			"hidden_ability": "Steadfast",
+			"terastal_ability": false
 		}
 	}
 }

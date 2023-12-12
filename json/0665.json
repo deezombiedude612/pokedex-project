@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 665
+		"national": 665,
+		"paldea_sv": 36
 	},
 	"name": {
 		"en": "Spewpa",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Shed Skin",
 			"ability_2": false,
-			"hidden_ability": "Friend Guard"
+			"hidden_ability": "Friend Guard",
+			"terastal_ability": false
 		}
 	}
 }

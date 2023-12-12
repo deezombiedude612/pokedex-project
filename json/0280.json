@@ -4,7 +4,9 @@
 		"hoenn_oras": 29,
 		"galar_swsh": 120,
 		"galar_isle_of_armor": 34,
-		"hisui_legarc": 101
+		"hisui_legarc": 101,
+		"paldea_sv": 62,
+		"kitakami_sv": 57
 	},
 	"name": {
 		"en": "Raltz",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Synchronize",
 			"ability_2": "Trace",
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

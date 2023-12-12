@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Fluffy",
 			"ability_2": "Klutz",
-			"hidden_ability": "Cute Charm"
+			"hidden_ability": "Cute Charm",
+			"terastal_ability": false
 		}
 	}
 }

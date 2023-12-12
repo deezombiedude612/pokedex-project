@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 314,
-		"hoenn_oras": 90
+		"hoenn_oras": 90,
+		"kitakami_sv": 10
 	},
 	"name": {
 		"en": "Illumise",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Tinted Lens",
-			"hidden_ability": "Prankster"
+			"hidden_ability": "Prankster",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1014,
+		"kitakami_sv": 197
+	},
+	"name": {
+		"en": "Okidogi",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [4, 14],
+		"type": ["poison", "fighting"],
+		"abilities": {
+			"ability_1": "Toxic Chain",
+			"ability_2": false,
+			"hidden_ability": "Guard Dog",
+			"terastal_ability": false
+		}
+	}
+}

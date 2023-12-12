@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 812,
-		"galar_swsh": 3
+		"galar_swsh": 3,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Rillaboom",
@@ -14,15 +15,16 @@
 		"desc": "Drummer Pokémon",
 		"type_id": [9, -1],
 		"type": ["grass"],
-		"g_max": {
-			"g_max_move": "G-Max Drum Solo",
-			"g_max_type_id": 9,
-			"g_max_type": "grass"
+		"gmax": {
+			"gmax_move": "G-Max Drum Solo",
+			"gmax_type_id": 9,
+			"gmax_type": "grass"
 		},
 		"abilities": {
 			"ability_1": "Overgrow",
 			"ability_2": false,
-			"hidden_ability": "Grassy Surge"
+			"hidden_ability": "Grassy Surge",
+			"terastal_ability": false
 		}
 	}
 }

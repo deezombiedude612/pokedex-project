@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Weak Armor",
 			"ability_2": false,
-			"hidden_ability": "Perish Body"
+			"hidden_ability": "Perish Body",
+			"terastal_ability": false
 		}
 	}
 }

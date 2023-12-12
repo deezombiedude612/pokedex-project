@@ -3,7 +3,8 @@
 		"national": 100,
 		"hoenn_oras": 87,
 		"kanto_lgpe": 100,
-		"hisui_legarc": 192
+		"hisui_legarc": 192,
+		"paldea_sv": 207
 	},
 	"name": {
 		"en": "Voltorb",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Static",
-			"hidden_ability": "Aftermath"
+			"hidden_ability": "Aftermath",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -29,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Static",
-			"hidden_ability": "Aftermath"
+			"hidden_ability": "Aftermath",
+			"terastal_ability": false
 		}
 	}
 }

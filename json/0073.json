@@ -21,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Clear Body",
 			"ability_2": "Liquid Ooze",
-			"hidden_ability": "Rain Dish"
+			"hidden_ability": "Rain Dish",
+			"terastal_ability": false
 		}
 	}
 }

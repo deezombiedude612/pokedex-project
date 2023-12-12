@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 380,
-		"hoenn_oras": 205
+		"hoenn_oras": 205,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Latias",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"mega": {

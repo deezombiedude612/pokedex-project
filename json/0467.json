@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Flame Body",
 			"ability_2": false,
-			"hidden_ability": "Vital Spirit"
+			"hidden_ability": "Vital Spirit",
+			"terastal_ability": false
 		}
 	}
 }

@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Sniper",
-			"hidden_ability": "Damp"
+			"hidden_ability": "Damp",
+			"terastal_ability": false
 		}
 	}
 }

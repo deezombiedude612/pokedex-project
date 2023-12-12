@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 590,
-		"galar_isle_of_armor": 77
+		"galar_isle_of_armor": 77,
+		"paldea_sv": 205
 	},
 	"name": {
 		"en": "Foongus",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Effect Spore",
 			"ability_2": false,
-			"hidden_ability": "Regenerator"
+			"hidden_ability": "Regenerator",
+			"terastal_ability": false
 		}
 	}
 }

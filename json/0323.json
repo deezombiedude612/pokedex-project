@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 323,
-		"hoenn_oras": 107
+		"hoenn_oras": 107,
+		"paldea_sv": 152
 	},
 	"name": {
 		"en": "Camerupt",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Magma Armor",
 			"ability_2": "Solid Rock",
-			"hidden_ability": "Anger Point"
+			"hidden_ability": "Anger Point",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

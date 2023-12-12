@@ -3,7 +3,8 @@
 		"national": 422,
 		"galar_swsh": 230,
 		"sinnoh_bdsp": 60,
-		"hisui_legarc": 82
+		"hisui_legarc": 82,
+		"paldea_sv": 327
 	},
 	"name": {
 		"en": "Shellos",
@@ -11,7 +12,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": true,
+	"baby": false,
 	"east_sea": {
 		"desc": "Sea Slug Pokémon",
 		"type_id": [6, 2],
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Sticky Hold",
 			"ability_2": "Storm Drain",
-			"hidden_ability": "Sand Force"
+			"hidden_ability": "Sand Force",
+			"terastal_ability": false
 		}
 	},
 	"west_sea": {
@@ -29,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Sticky Hold",
 			"ability_2": "Storm Drain",
-			"hidden_ability": "Sand Force"
+			"hidden_ability": "Sand Force",
+			"terastal_ability": false
 		}
 	}
 }

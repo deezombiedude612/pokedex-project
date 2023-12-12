@@ -2,7 +2,8 @@
 	"id": {
 		"national": 128,
 		"kanto_lgpe": 128,
-		"galar_isle_of_armor": 116
+		"galar_isle_of_armor": 116,
+		"paldea_sv": 223
 	},
 	"name": {
 		"en": "Tauros",
@@ -18,7 +19,41 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Anger Point",
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
+		}
+	},
+	"paldea_aqua": {
+		"desc": "Wild Bull Pokémon",
+		"type_id": [14, 6],
+		"type": ["fighting", "water"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Anger Point",
+			"hidden_ability": "Cud Chew",
+			"terastal_ability": false
+		}
+	},
+	"paldea_blaze": {
+		"desc": "Wild Bull Pokémon",
+		"type_id": [14, 13],
+		"type": ["fighting", "fire"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Anger Point",
+			"hidden_ability": "Cud Chew",
+			"terastal_ability": false
+		}
+	},
+	"paldea_combat": {
+		"desc": "Wild Bull Pokémon",
+		"type_id": [14, -1],
+		"type": ["fighting"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Anger Point",
+			"hidden_ability": "Cud Chew",
+			"terastal_ability": false
 		}
 	}
 }

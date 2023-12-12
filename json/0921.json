@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 921,
+		"paldea_sv": 22
+	},
+	"name": {
+		"en": "Pawmi",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Static",
+			"ability_2": "Natural Cure",
+			"hidden_ability": "Iron Fist",
+			"terastal_ability": false
+		}
+	}
+}

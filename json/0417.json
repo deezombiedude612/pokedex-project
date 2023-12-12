@@ -2,7 +2,9 @@
 	"id": {
 		"national": 417,
 		"sinnoh_bdsp": 55,
-		"hisui_legarc": 109
+		"hisui_legarc": 109,
+		"paldea_sv": 201,
+		"kitakami_sv": 63
 	},
 	"name": {
 		"en": "Pachirisu",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Pickup",
-			"hidden_ability": "Volt Absorb"
+			"hidden_ability": "Volt Absorb",
+			"terastal_ability": false
 		}
 	}
 }

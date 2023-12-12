@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 325,
-		"hoenn_oras": 115
+		"hoenn_oras": 115,
+		"paldea_sv": 111,
+		"kitakami_sv": 125
 	},
 	"name": {
 		"en": "Spoink",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Own Tempo",
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

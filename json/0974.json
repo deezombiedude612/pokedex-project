@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 974,
+		"paldea_sv": 361
+	},
+	"name": {
+		"en": "Cetoddle",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [11, -1],
+		"type": ["ice"],
+		"abilities": {
+			"ability_1": "Thick Fat",
+			"ability_2": "Snow Cloak",
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
+		}
+	}
+}

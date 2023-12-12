@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 469,
-		"hisui_legarc": 106
+		"hisui_legarc": 106,
+		"kitakami_sv": 4
 	},
 	"name": {
 		"en": "Yanmega",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Speed Boost",
 			"ability_2": "Tinted Lens",
-			"hidden_ability": "Frisk"
+			"hidden_ability": "Frisk",
+			"terastal_ability": false
 		}
 	}
 }

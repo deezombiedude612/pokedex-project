@@ -3,7 +3,9 @@
 		"national": 705,
 		"galar_swsh": 390,
 		"galar_isle_of_armor": 61,
-		"hisui_legarc": 116
+		"hisui_legarc": 116,
+		"paldea_sv": 173,
+		"kitakami_sv": 179
 	},
 	"name": {
 		"en": "Sliggoo",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Sap Sipper",
 			"ability_2": "Hydration",
-			"hidden_ability": "Gooey"
+			"hidden_ability": "Gooey",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -28,8 +31,9 @@
 		"type": ["steel", "dragon"],
 		"abilities": {
 			"ability_1": "Sap Sipper",
-			"ability_2": "Overcoat",
-			"hidden_ability": "Gooey"
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Gooey",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 145,
 		"kanto_lgpe": 145,
-		"galar_crown_tundra": 203
+		"galar_crown_tundra": 203,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Zapdos",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,
-			"hidden_ability": "Static"
+			"hidden_ability": "Static",
+			"terastal_ability": false
 		}
 	},
 	"galar_variant": {
@@ -28,7 +30,8 @@
 		"abilities": {
 			"ability_1": "Defiant",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 855,
 		"galar_swsh": 336,
-		"galar_crown_tundra": 133
+		"galar_crown_tundra": 133,
+		"paldea_sv": 238
 	},
 	"name": {
 		"en": "Polteageist",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Weak Armor",
 			"ability_2": false,
-			"hidden_ability": "Cursed Body"
+			"hidden_ability": "Cursed Body",
+			"terastal_ability": false
 		}
 	}
 }

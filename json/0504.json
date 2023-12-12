@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Keen Eye",
-			"hidden_ability": "Analytic"
+			"hidden_ability": "Analytic",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 313,
-		"hoenn_oras": 89
+		"hoenn_oras": 89,
+		"kitakami_sv": 9
 	},
 	"name": {
 		"en": "Volbeat",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Illuminate",
 			"ability_2": "Swarm",
-			"hidden_ability": "Prankster"
+			"hidden_ability": "Prankster",
+			"terastal_ability": false
 		}
 	}
 }

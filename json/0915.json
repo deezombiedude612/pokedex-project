@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 915,
+		"paldea_sv": 10
+	},
+	"name": {
+		"en": "Lechonk",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "Hog Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Aroma Veil",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Thick Fat",
+			"terastal_ability": false
+		}
+	}
+}

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 552,
-		"galar_isle_of_armor": 177
+		"galar_isle_of_armor": 177,
+		"paldea_sv": 268
 	},
 	"name": {
 		"en": "Krokorok",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Moxie",
-			"hidden_ability": "Anger Point"
+			"hidden_ability": "Anger Point",
+			"terastal_ability": false
 		}
 	}
 }

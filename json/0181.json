@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 181
+		"national": 181,
+		"paldea_sv": 103
 	},
 	"name": {
 		"en": "Ampharos",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Plus"
+			"hidden_ability": "Plus",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

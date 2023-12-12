@@ -6,7 +6,9 @@
 		"galar_isle_of_armor": 137,
 		"galar_crown_tundra": 60,
 		"sinnoh_bdsp": 80,
-		"hisui_legarc": 97
+		"hisui_legarc": 97,
+		"paldea_sv": 168,
+		"kitakami_sv": 162
 	},
 	"name": {
 		"en": "Barboach",
@@ -22,7 +24,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Anticipation",
-			"hidden_ability": "Hydration"
+			"hidden_ability": "Hydration",
+			"terastal_ability": false
 		}
 	}
 }

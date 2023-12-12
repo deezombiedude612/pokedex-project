@@ -2,7 +2,9 @@
 	"id": {
 		"national": 396,
 		"sinnoh_bdsp": 10,
-		"hisui_legarc": 12
+		"hisui_legarc": 12,
+		"paldea_sv": 97,
+		"kitakami_sv": 28
 	},
 	"name": {
 		"en": "Starly",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": false,
-			"hidden_ability": "Reckless"
+			"hidden_ability": "Reckless",
+			"terastal_ability": false
 		}
 	}
 }

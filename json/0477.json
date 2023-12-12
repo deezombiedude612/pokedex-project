@@ -3,7 +3,8 @@
 		"national": 477,
 		"hoenn_oras": 155,
 		"galar_swsh": 137,
-		"hisui_legarc": 160
+		"hisui_legarc": 160,
+		"kitakami_sv": 141
 	},
 	"name": {
 		"en": "Dusknoir",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,
-			"hidden_ability": "Frisk"
+			"hidden_ability": "Frisk",
+			"terastal_ability": false
 		}
 	}
 }

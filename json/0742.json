@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 742,
-		"galar_swsh": 187
+		"galar_swsh": 187,
+		"kitakami_sv": 16
 	},
 	"name": {
 		"en": "Cutiefly",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Honey Gather",
 			"ability_2": "Shield Dust",
-			"hidden_ability": "Sweet Veil"
+			"hidden_ability": "Sweet Veil",
+			"terastal_ability": false
 		}
 	}
 }

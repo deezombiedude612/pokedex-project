@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 284,
-		"hoenn_oras": 34
+		"hoenn_oras": 34,
+		"paldea_sv": 50,
+		"kitakami_sv": 150
 	},
 	"name": {
 		"en": "Masquerain",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": false,
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	}
 }

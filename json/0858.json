@@ -2,7 +2,9 @@
 	"id": {
 		"national": 858,
 		"galar_swsh": 243,
-		"galar_crown_tundra": 42
+		"galar_crown_tundra": 42,
+		"paldea_sv": 284,
+		"kitakami_sv": 94
 	},
 	"name": {
 		"en": "Hatterene",
@@ -15,15 +17,16 @@
 		"desc": "Silent Pokémon",
 		"type_id": [16, 17],
 		"type": ["psychic", "fairy"],
-		"g_max": {
-			"g_max_move": "G-Max Smite",
-			"g_max_type_id": 17,
-			"g_max_type": "fairy"
+		"gmax": {
+			"gmax_move": "G-Max Smite",
+			"gmax_type_id": 17,
+			"gmax_type": "fairy"
 		},
 		"abilities": {
 			"ability_1": "Healer",
 			"ability_2": "Anticipation",
-			"hidden_ability": "Magic Bounce"
+			"hidden_ability": "Magic Bounce",
+			"terastal_ability": false
 		}
 	}
 }

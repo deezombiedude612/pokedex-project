@@ -12,24 +12,24 @@ CREATE TABLE `types` (
 );
 
 INSERT INTO `types`(`id`, `name`, `jp_name`) VALUES
-(0, "DRAGON", "ドラゴン"),		-- 0
-(1, "GHOST", "ゴースト"),			-- 1
-(2, "GROUND", "じめん"),			-- 2
-(3, "FLYING", "ひこう"),			-- 3
-(4, "POISON", "どく"),			-- 4
-(5, "BUG", "むし"),				-- 5
-(6, "WATER", "みず"),			-- 6
-(7, "ELECTRIC", "でんき"),		-- 7
-(8, "ROCK", "いわ"),				-- 8
-(9, "GRASS", "くさ"),			-- 9
-(10, "DARK", "あく"),			-- 10
-(11, "ICE", "こおり"),			-- 11
-(12, "NORMAL", "ノーマル"),		-- 12
-(13, "FIRE", "ほのお"),			-- 13
-(14, "FIGHTING", "かくとう"),		-- 14
-(15, "STEEL", "はがね"),			-- 15
-(16, "PSYCHIC", "エスパー"),		-- 16
-(17, "FAIRY", "フェアリ")			-- 17
+(0, "DRAGON", "ドラゴン"),
+(1, "GHOST", "ゴースト"),
+(2, "GROUND", "じめん"),
+(3, "FLYING", "ひこう"),
+(4, "POISON", "どく"),
+(5, "BUG", "むし"),
+(6, "WATER", "みず"),
+(7, "ELECTRIC", "でんき"),
+(8, "ROCK", "いわ"),
+(9, "GRASS", "くさ"),
+(10, "DARK", "あく"),
+(11, "ICE", "こおり"),
+(12, "NORMAL", "ノーマル"),
+(13, "FIRE", "ほのお"),
+(14, "FIGHTING", "かくとう"),
+(15, "STEEL", "はがね"),
+(16, "PSYCHIC", "エスパー"),
+(17, "FAIRY", "フェアリ")
 ;
 
 DROP TABLE IF EXISTS `pokemon_list`;
@@ -39,6 +39,7 @@ CREATE TABLE `pokemon_list` (
     `jp_name`	VARCHAR(15) NOT NULL,
     `chs_name`	VARCHAR(5) NULL,
     `cht_name`	VARCHAR(5) NULL,
+    `baby`		BOOLEAN NOT NULL DEFAULT false,
 
     PRIMARY KEY(`id`)
 );
@@ -442,442 +443,442 @@ INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
 ;
 
 -- SINNOH (0387 - 0493)
-INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
-("TURTWIG", "ナエトル"),
-("GROTLE", "ハヤシガメ"),
-("TORTERRA", "ドダイトス"),
-("CHIMCHAR", "ヒコザル"),
-("MONFERNO", "モウカザル"),
-("INFERNAPE", "ゴウカザル"),
-("PIPLUP", "ポッチャマ"),
-("PRINPLUP", "ポッタイシ"),
-("EMPOLEON", "エンペルト"),
-("STARLY", "ムックル"),
-("STARAVIA", "ムクバード"),
-("STARAPTOR", "ムクホーク"),
-("BIDOOF", "ビッパ"),
-("BIBAREL", "ビーダル"),
-("KRICKETOT", "コロボーシ"),
-("KRICKETUNE", "コロトック"),
-("SHINX", "コリンク"),
-("LUXIO", "ルクシオ"),
-("LUXRAY", "レントラー"),
-("BUDEW", "スボミー"),
-("ROSERADE", "ロズレイド"),
-("CRANIDOS", "ズガイドス"),
-("RAMPARDOS", "ラムパルド"),
-("SHIELDON", "タテトプス"),
-("BASTIODON", "トリデプス"),
-("BURMY", "ミノムッチ"),
-("WORMADAM", "ミノマダム"),
-("MOTHIM", "ガーメイル"),
-("COMBEE", "ミツハニー"),
-("VESPIQUEN", "ビークイン"),
-("PACHIRISU", "パチリス"),
-("BUIZEL", "ブイゼル"),
-("FLOATZEL", "フローゼル"),
-("CHERUBI", "チェリンボ"),
-("CHERRIM", "チェリム"),
-("SHELLOS", "カラナクシ"),
-("GASTRODON", "トリトドン"),
-("AMBIPOM", "エテボース"),
-("DRIFLOON", "フワンテ"),
-("DRIFBLIM", "フワライド"),
-("BUNEARY", "ミミロル"),
-("LOPUNY", "ミミロップ"),
-("MISMAGIUS", "ムウマージ"),
-("HONCHKROW", "ドンカラス"),
-("GLAMEOW", "ニャルマー"),
-("PURUGLY", "ブニャット"),
-("CHINGLING", "リーシャン"),
-("STUNKY", "スカンプー"),
-("SKUNKTANK", "スカタンク"),
-("BRONZOR", "ドーミラー"),
-("BRONZONG", "ドータンクン"),
-("BONSLY", "ウソハチ"),
-("MIME JR.", "マネネ"),
-("HAPPINY", "ピンプク"),
-("CHATOT", "ぺラップ"),
-("SPIRITOMB", "ミカルゲ"),
-("GIBLE", "フカマル"),
-("GABITE", "がバイト"),
-("GARCHOMP", "ガブリアス"),
-("MUNCHLAX", "ゴンベ"),
-("RIOLU", "リオル"),
-("LUCARIO", "ルカリオ"),
-("HIPPOPOTAS", "ヒポポタス"),
-("HIPPOWDON", "カバルドン"),
-("SKORUPI", "スコルピ"),
-("DRAPION", "ドラピオン"),
-("CROAGUNK", "グレッグル"),
-("TOXICROAK", "ドクロッグ"),
-("CARNIVINE", "マスキッパ"),
-("FINNEON", "ケイコウオ"),
-("LUMINEON", "ネオラント"),
-("MANTYKE", "タマンタ"),
-("SNOVER", "ユキカブリ"),
-("ABOMASNOW", "ユキノオー"),
-("WEAVILE", "マニューラ"),
-("MAGNEZONE", "ジバコイル"),
-("LICKILICKY", "べろベルト"),
-("RHYPERIOR", "ドサイドン"),
-("TANGROWTH", "モジャンボ"),
-("ELECTIVIRE", "エレキブル"),
-("MAGMOTAR", "ブーバーン"),
-("TOGEKISS", "トゲキッス"),
-("YANMEGA", "メガヤンマ"),
-("LEAFEON", "リーフィア"),
-("GLACEON", "グレイシア"),
-("GLISCOR", "グライオン"),
-("MAMOSWINE", "マンムー"),
-("PORYGON-Z", "ポリゴンZ"),
-("GALLADE", "エルレイド"),
-("PROBOPASS", "ダイノーズ"),
-("DUSKNOIR", "ヨノワール"),
-("FROSLASS", "ユキメノコ"),
-("ROTOM", "ロトム"),
-("UXIE", "ユクシー"),
-("MESPRIT", "エムリット"),
-("AZELF", "アグノム"),
-("DIALGA", "ディアルガ"),
-("PALKIA", "パルキア"),
-("HEATRAN", "ヒードラン"),
-("REGIGIGAS", "レジギガス"),
-("GIRATINA", "ギラティナ"),
-("CRESSELIA", "クレセリア"),
-("PHIONE", "フィオネ"),
-("MANAPHY", "マナフィ"),
-("DARKRAI", "ダークライ"),
-("SHAYMIN", "シェイミ"),
-("ARCEUS", "アルセウス")
+INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
+("TURTWIG", "ナエトル", "", ""),
+("GROTLE", "ハヤシガメ", "", ""),
+("TORTERRA", "ドダイトス", "", ""),
+("CHIMCHAR", "ヒコザル", "", ""),
+("MONFERNO", "モウカザル", "", ""),
+("INFERNAPE", "ゴウカザル", "", ""),
+("PIPLUP", "ポッチャマ", "", ""),
+("PRINPLUP", "ポッタイシ", "", ""),
+("EMPOLEON", "エンペルト", "", ""),
+("STARLY", "ムックル", "", ""),
+("STARAVIA", "ムクバード", "", ""),
+("STARAPTOR", "ムクホーク", "", ""),
+("BIDOOF", "ビッパ", "", ""),
+("BIBAREL", "ビーダル", "", ""),
+("KRICKETOT", "コロボーシ", "", ""),
+("KRICKETUNE", "コロトック", "", ""),
+("SHINX", "コリンク", "", ""),
+("LUXIO", "ルクシオ", "", ""),
+("LUXRAY", "レントラー", "", ""),
+("BUDEW", "スボミー", "", ""),
+("ROSERADE", "ロズレイド", "", ""),
+("CRANIDOS", "ズガイドス", "", ""),
+("RAMPARDOS", "ラムパルド", "", ""),
+("SHIELDON", "タテトプス", "", ""),
+("BASTIODON", "トリデプス", "", ""),
+("BURMY", "ミノムッチ", "", ""),
+("WORMADAM", "ミノマダム", "", ""),
+("MOTHIM", "ガーメイル", "", ""),
+("COMBEE", "ミツハニー", "", ""),
+("VESPIQUEN", "ビークイン", "", ""),
+("PACHIRISU", "パチリス", "", ""),
+("BUIZEL", "ブイゼル", "", ""),
+("FLOATZEL", "フローゼル", "", ""),
+("CHERUBI", "チェリンボ", "", ""),
+("CHERRIM", "チェリム", "", ""),
+("SHELLOS", "カラナクシ", "", ""),
+("GASTRODON", "トリトドン", "", ""),
+("AMBIPOM", "エテボース", "", ""),
+("DRIFLOON", "フワンテ", "", ""),
+("DRIFBLIM", "フワライド", "", ""),
+("BUNEARY", "ミミロル", "", ""),
+("LOPUNY", "ミミロップ", "", ""),
+("MISMAGIUS", "ムウマージ", "", ""),
+("HONCHKROW", "ドンカラス", "", ""),
+("GLAMEOW", "ニャルマー", "", ""),
+("PURUGLY", "ブニャット", "", ""),
+("CHINGLING", "リーシャン", "", ""),
+("STUNKY", "スカンプー", "", ""),
+("SKUNKTANK", "スカタンク", "", ""),
+("BRONZOR", "ドーミラー", "", ""),
+("BRONZONG", "ドータンクン", "", ""),
+("BONSLY", "ウソハチ", "", ""),
+("MIME JR.", "マネネ", "", ""),
+("HAPPINY", "ピンプク", "", ""),
+("CHATOT", "ぺラップ", "", ""),
+("SPIRITOMB", "ミカルゲ", "", ""),
+("GIBLE", "フカマル", "", ""),
+("GABITE", "がバイト", "", ""),
+("GARCHOMP", "ガブリアス", "", ""),
+("MUNCHLAX", "ゴンベ", "", ""),
+("RIOLU", "リオル", "", ""),
+("LUCARIO", "ルカリオ", "", ""),
+("HIPPOPOTAS", "ヒポポタス", "", ""),
+("HIPPOWDON", "カバルドン", "", ""),
+("SKORUPI", "スコルピ", "", ""),
+("DRAPION", "ドラピオン", "", ""),
+("CROAGUNK", "グレッグル", "", ""),
+("TOXICROAK", "ドクロッグ", "", ""),
+("CARNIVINE", "マスキッパ", "", ""),
+("FINNEON", "ケイコウオ", "", ""),
+("LUMINEON", "ネオラント", "", ""),
+("MANTYKE", "タマンタ", "", ""),
+("SNOVER", "ユキカブリ", "", ""),
+("ABOMASNOW", "ユキノオー", "", ""),
+("WEAVILE", "マニューラ", "", ""),
+("MAGNEZONE", "ジバコイル", "", ""),
+("LICKILICKY", "べろベルト", "", ""),
+("RHYPERIOR", "ドサイドン", "", ""),
+("TANGROWTH", "モジャンボ", "", ""),
+("ELECTIVIRE", "エレキブル", "", ""),
+("MAGMOTAR", "ブーバーン", "", ""),
+("TOGEKISS", "トゲキッス", "", ""),
+("YANMEGA", "メガヤンマ", "", ""),
+("LEAFEON", "リーフィア", "", ""),
+("GLACEON", "グレイシア", "", ""),
+("GLISCOR", "グライオン", "", ""),
+("MAMOSWINE", "マンムー", "", ""),
+("PORYGON-Z", "ポリゴンZ", "", ""),
+("GALLADE", "エルレイド", "", ""),
+("PROBOPASS", "ダイノーズ", "", ""),
+("DUSKNOIR", "ヨノワール", "", ""),
+("FROSLASS", "ユキメノコ", "", ""),
+("ROTOM", "ロトム", "", ""),
+("UXIE", "ユクシー", "", ""),
+("MESPRIT", "エムリット", "", ""),
+("AZELF", "アグノム", "", ""),
+("DIALGA", "ディアルガ", "", ""),
+("PALKIA", "パルキア", "", ""),
+("HEATRAN", "ヒードラン", "", ""),
+("REGIGIGAS", "レジギガス", "", ""),
+("GIRATINA", "ギラティナ", "", ""),
+("CRESSELIA", "クレセリア", "", ""),
+("PHIONE", "フィオネ", "", ""),
+("MANAPHY", "マナフィ", "", ""),
+("DARKRAI", "ダークライ", "", ""),
+("SHAYMIN", "シェイミ", "", ""),
+("ARCEUS", "アルセウス", "", "")
 ;
 
 -- UNOVA (0494 - 0649)
-INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
-("VICTINI", "ビクティニ"),
-("SNIVY", "ツタージャ"),
-("SERVINE", "ジャノビー"),
-("SERPERIOR", "ジャローダ"),
-("TEPIG", "ポカブ"),
-("PIGNITE", "チャオブー"),
-("EMBOAR", "エンブオー"),
-("OSHAWOTT", "ミジュマル"),
-("DEWOTT", "フタチマル"),
-("SAMUROTT", "ダイケンキ"),
-("PATRAT", "ミネズミ"),
-("WATCHOG", "ミルホッグ"),
-("LILLIPUP", "ヨーテリー"),
-("HERDIER", "ハーデリア"),
-("STOUTLAND", "ムーランド"),
-("PURRLOIN", "チョロネコ"),
-("LIEPARD", "レパルダス"),
-("PANSAGE", "ヤナップ"),
-("SIMISAGE", "ヤナッキー"),
-("PANSEAR", "バオップ"),
-("SIMISEAR", "バオッキー"),
-("PANPOUR", "ヒヤップ"),
-("SIMIPOUR", "ヒヤッキー"),
-("MUNNA", "ムンナ"),
-("MUSHARNA", "ムシャーナ"),
-("PIDOVE", "マメパト"),
-("TRANQUIL", "ハトーボー"),
-("UNFEZANT", "ケンホロウ"),
-("BLITZLE", "シママ"),
-("ZEBSTRIKA", "ゼブライカ"),
-("ROGGENROLA", "ダンゴロ"),
-("BOLDORE", "ガントル"),
-("GIGALITH", "ギガイアス"),
-("WOOBAT", "コロモリ"),
-("SWOOBAT", "ココロモリ"),
-("DRILBUR", "モグリュー"),
-("EXCADRILL", "ドリュウズ"),
-("AUDINO", "タブンネ"),
-("TIMBURR", "ドッコラー"),
-("GURDURR", "ドテッコツ"),
-("CONKELDURR", "ローブシン"),
-("TYMPOLE", "オタマロ"),
-("PALIPITOAD", "ガマガル"),
-("SEISMITOAD", "ガマゲロゲ"),
-("THROH", "ナゲキ"),
-("SAWK", "ダゲキ"),
-("SEWADDLE", "クルミル"),
-("SWADLOON", "クルマユ"),
-("LEAVANNY", "ハハコモリ"),
-("VENIPEDE", "フシデ"),
-("WHIRLIPEDE", "ホイーガ"),
-("SCOLIPEDE", "ペンドラー"),
-("COTTONEE", "モンメン"),
-("WHIMSICOTT", "エルフーン"),
-("PETILIL", "チュリネ"),
-("LILLIGANT", "ドレディア"),
-("BASCULIN", "バスラオ"),
-("SANDILE", "メグロコ"),
-("KROKOROK", "ワルビル"),
-("KROOKODILE", "ワルビアル"),
-("DARUMAKA", "ダルマッカ"),
-("DARMANITAN", "ヒヒダルマ"),
-("MARACTUS", "マラカッチ"),
-("DWEBBLE", "イシズマイ"),
-("CRUSTLE", "イワパレス"),
-("SCRAGGY", "ズルッグ"),
-("SCRAFTY", "ズルズキン"),
-("SIGILYPH", "シンボラー"),
-("YAMASK", "デスマス"),
-("COFAGRIGUS", "デスカーン"),
-("TIRTOUGA", "プロトーガ"),
-("CARRACOSTA", "アバゴーラ"),
-("ARCHEN", "アーケン"),
-("ARCHEOPS", "アーケオス"),
-("TRUBBISH", "ヤブクロン"),
-("GARBODOR", "ダストダス"),
-("ZORUA", "ゾロア"),
-("ZOROARK", "ゾロアーク"),
-("MINCCINO", "チラーミィ"),
-("CINCCINO", "チラチーノ"),
-("GOTHITA", "ゴチム"),
-("GOTHORITA", "ゴチミル"),
-("GOTHITELLE", "ゴチルゼル"),
-("SOLOSIS", "ユニラン"),
-("DUOSION", "ダブラン"),
-("REUNICLUS", "ランクルス"),
-("DUCKLETT", "コアルヒー"),
-("SWANNA", "スワンナ"),
-("VANILLITE", "バニプッチ"),
-("VANILLISH", "バニリッチ"),
-("VANILLUXE", "バイバニラ"),
-("DEERLING", "シキジカ"),
-("SAWSBUCK", "メブキジカ"),
-("EMOLGA", "エモンガ"),
-("KARRABLAST", "カブルモ"),
-("ESCAVALIER", "シュバルゴ"),
-("FOONGUS", "タマゲタケ"),
-("AMOONGUSS", "モロバレル"),
-("FRILLISH", "プルリル"),
-("JELLICENT", "ブルンゲル"),
-("ALOMOMOLA", "ママンボウ"),
-("JOLTIK", "バチュル"),
-("GALVANTULA", "デンチュラ"),
-("FERROSEED", "テッシード"),
-("FERROTHORN", "ナットレイ"),
-("KLINK", "ギアル"),
-("KLANG", "ギギアル"),
-("KLINKLANG", "ギギギアル"),
-("TYNAMO", "シビシラス"),
-("EELEKTRIK", "シビビール"),
-("EELEKTROSS", "シビルドン"),
-("ELGYEM", "リグレー"),
-("BEHEEYEM", "オーベム"),
-("LITWICK", "ヒトモシ"),
-("LAMPENT", "ランプラー"),
-("CHANDELURE", "シャンデラ"),
-("AXEW", "キバゴ"),
-("FRAXURE", "オノンド"),
-("HAXORUS", "オノノクス"),
-("CUBCHOO", "クマシュン"),
-("BEARTIC", "ツンベアー"),
-("CRYOGONAL", "フリージオ"),
-("SHELMET", "チョボマキ"),
-("ACCELGOR", "アギルダー"),
-("STUNFISK", "マッギョ"),
-("MIENFOO", "コジョフー"),
-("MIENSHAO", "コジョンド"),
-("DRUDDIGON", "クリムガン"),
-("GOLETT", "ゴビット"),
-("GOLURK", "ゴルーグ"),
-("PAWNIARD", "コマタナ"),
-("BISHARP", "キリキザン"),
-("BOUFFALANT", "バッフロン"),
-("RUFFLET", "ワシボン"),
-("BRAVIARY", "ウォーグル"),
-("VULLABY", "バルチャイ"),
-("MANDIBUZZ", "バルジーナ"),
-("HEATMOR", "クイタラン"),
-("DURANT", "アイアント"),
-("DEINO", "モノズ"),
-("ZWEILOUS", "ジヘッド"),
-("HYDRIEGON", "サザンドラ"),
-("LARVESTA", "メラルバ"),
-("VOLCARONA", "ウルがオス"),
-("COBALION", "コバルオン"),
-("TERRAKION", "テラキオン"),
-("VIRIZION", "ビリジオン"),
-("TORNADUS", "トルネロス"),
-("THUNDURUS", "ボルトロス"),
-("RESHIRAM", "レシラム"),
-("ZEKROM", "ゼクロム"),
-("LANDORUS", "ランドロス"),
-("KYUREM", "キュレム"),
-("KELDEO", "ケルディオ"),
-("MELOETTA", "メロエッタ"),
-("GENESECT", "ゲノセクト")
+INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
+("VICTINI", "ビクティニ", "", ""),
+("SNIVY", "ツタージャ", "", ""),
+("SERVINE", "ジャノビー", "", ""),
+("SERPERIOR", "ジャローダ", "", ""),
+("TEPIG", "ポカブ", "", ""),
+("PIGNITE", "チャオブー", "", ""),
+("EMBOAR", "エンブオー", "", ""),
+("OSHAWOTT", "ミジュマル", "", ""),
+("DEWOTT", "フタチマル", "", ""),
+("SAMUROTT", "ダイケンキ", "", ""),
+("PATRAT", "ミネズミ", "", ""),
+("WATCHOG", "ミルホッグ", "", ""),
+("LILLIPUP", "ヨーテリー", "", ""),
+("HERDIER", "ハーデリア", "", ""),
+("STOUTLAND", "ムーランド", "", ""),
+("PURRLOIN", "チョロネコ", "", ""),
+("LIEPARD", "レパルダス", "", ""),
+("PANSAGE", "ヤナップ", "", ""),
+("SIMISAGE", "ヤナッキー", "", ""),
+("PANSEAR", "バオップ", "", ""),
+("SIMISEAR", "バオッキー", "", ""),
+("PANPOUR", "ヒヤップ", "", ""),
+("SIMIPOUR", "ヒヤッキー", "", ""),
+("MUNNA", "ムンナ", "", ""),
+("MUSHARNA", "ムシャーナ", "", ""),
+("PIDOVE", "マメパト", "", ""),
+("TRANQUIL", "ハトーボー", "", ""),
+("UNFEZANT", "ケンホロウ", "", ""),
+("BLITZLE", "シママ", "", ""),
+("ZEBSTRIKA", "ゼブライカ", "", ""),
+("ROGGENROLA", "ダンゴロ", "", ""),
+("BOLDORE", "ガントル", "", ""),
+("GIGALITH", "ギガイアス", "", ""),
+("WOOBAT", "コロモリ", "", ""),
+("SWOOBAT", "ココロモリ", "", ""),
+("DRILBUR", "モグリュー", "", ""),
+("EXCADRILL", "ドリュウズ", "", ""),
+("AUDINO", "タブンネ", "", ""),
+("TIMBURR", "ドッコラー", "", ""),
+("GURDURR", "ドテッコツ", "", ""),
+("CONKELDURR", "ローブシン", "", ""),
+("TYMPOLE", "オタマロ", "", ""),
+("PALIPITOAD", "ガマガル", "", ""),
+("SEISMITOAD", "ガマゲロゲ", "", ""),
+("THROH", "ナゲキ", "", ""),
+("SAWK", "ダゲキ", "", ""),
+("SEWADDLE", "クルミル", "", ""),
+("SWADLOON", "クルマユ", "", ""),
+("LEAVANNY", "ハハコモリ", "", ""),
+("VENIPEDE", "フシデ", "", ""),
+("WHIRLIPEDE", "ホイーガ", "", ""),
+("SCOLIPEDE", "ペンドラー", "", ""),
+("COTTONEE", "モンメン", "", ""),
+("WHIMSICOTT", "エルフーン", "", ""),
+("PETILIL", "チュリネ", "", ""),
+("LILLIGANT", "ドレディア", "", ""),
+("BASCULIN", "バスラオ", "", ""),
+("SANDILE", "メグロコ", "", ""),
+("KROKOROK", "ワルビル", "", ""),
+("KROOKODILE", "ワルビアル", "", ""),
+("DARUMAKA", "ダルマッカ", "", ""),
+("DARMANITAN", "ヒヒダルマ", "", ""),
+("MARACTUS", "マラカッチ", "", ""),
+("DWEBBLE", "イシズマイ", "", ""),
+("CRUSTLE", "イワパレス", "", ""),
+("SCRAGGY", "ズルッグ", "", ""),
+("SCRAFTY", "ズルズキン", "", ""),
+("SIGILYPH", "シンボラー", "", ""),
+("YAMASK", "デスマス", "", ""),
+("COFAGRIGUS", "デスカーン", "", ""),
+("TIRTOUGA", "プロトーガ", "", ""),
+("CARRACOSTA", "アバゴーラ", "", ""),
+("ARCHEN", "アーケン", "", ""),
+("ARCHEOPS", "アーケオス", "", ""),
+("TRUBBISH", "ヤブクロン", "", ""),
+("GARBODOR", "ダストダス", "", ""),
+("ZORUA", "ゾロア", "", ""),
+("ZOROARK", "ゾロアーク", "", ""),
+("MINCCINO", "チラーミィ", "", ""),
+("CINCCINO", "チラチーノ", "", ""),
+("GOTHITA", "ゴチム", "", ""),
+("GOTHORITA", "ゴチミル", "", ""),
+("GOTHITELLE", "ゴチルゼル", "", ""),
+("SOLOSIS", "ユニラン", "", ""),
+("DUOSION", "ダブラン", "", ""),
+("REUNICLUS", "ランクルス", "", ""),
+("DUCKLETT", "コアルヒー", "", ""),
+("SWANNA", "スワンナ", "", ""),
+("VANILLITE", "バニプッチ", "", ""),
+("VANILLISH", "バニリッチ", "", ""),
+("VANILLUXE", "バイバニラ", "", ""),
+("DEERLING", "シキジカ", "", ""),
+("SAWSBUCK", "メブキジカ", "", ""),
+("EMOLGA", "エモンガ", "", ""),
+("KARRABLAST", "カブルモ", "", ""),
+("ESCAVALIER", "シュバルゴ", "", ""),
+("FOONGUS", "タマゲタケ", "", ""),
+("AMOONGUSS", "モロバレル", "", ""),
+("FRILLISH", "プルリル", "", ""),
+("JELLICENT", "ブルンゲル", "", ""),
+("ALOMOMOLA", "ママンボウ", "", ""),
+("JOLTIK", "バチュル", "", ""),
+("GALVANTULA", "デンチュラ", "", ""),
+("FERROSEED", "テッシード", "", ""),
+("FERROTHORN", "ナットレイ", "", ""),
+("KLINK", "ギアル", "", ""),
+("KLANG", "ギギアル", "", ""),
+("KLINKLANG", "ギギギアル", "", ""),
+("TYNAMO", "シビシラス", "", ""),
+("EELEKTRIK", "シビビール", "", ""),
+("EELEKTROSS", "シビルドン", "", ""),
+("ELGYEM", "リグレー", "", ""),
+("BEHEEYEM", "オーベム", "", ""),
+("LITWICK", "ヒトモシ", "", ""),
+("LAMPENT", "ランプラー", "", ""),
+("CHANDELURE", "シャンデラ", "", ""),
+("AXEW", "キバゴ", "", ""),
+("FRAXURE", "オノンド", "", ""),
+("HAXORUS", "オノノクス", "", ""),
+("CUBCHOO", "クマシュン", "", ""),
+("BEARTIC", "ツンベアー", "", ""),
+("CRYOGONAL", "フリージオ", "", ""),
+("SHELMET", "チョボマキ", "", ""),
+("ACCELGOR", "アギルダー", "", ""),
+("STUNFISK", "マッギョ", "", ""),
+("MIENFOO", "コジョフー", "", ""),
+("MIENSHAO", "コジョンド", "", ""),
+("DRUDDIGON", "クリムガン", "", ""),
+("GOLETT", "ゴビット", "", ""),
+("GOLURK", "ゴルーグ", "", ""),
+("PAWNIARD", "コマタナ", "", ""),
+("BISHARP", "キリキザン", "", ""),
+("BOUFFALANT", "バッフロン", "", ""),
+("RUFFLET", "ワシボン", "", ""),
+("BRAVIARY", "ウォーグル", "", ""),
+("VULLABY", "バルチャイ", "", ""),
+("MANDIBUZZ", "バルジーナ", "", ""),
+("HEATMOR", "クイタラン", "", ""),
+("DURANT", "アイアント", "", ""),
+("DEINO", "モノズ", "", ""),
+("ZWEILOUS", "ジヘッド", "", ""),
+("HYDRIEGON", "サザンドラ", "", ""),
+("LARVESTA", "メラルバ", "", ""),
+("VOLCARONA", "ウルがオス", "", ""),
+("COBALION", "コバルオン", "", ""),
+("TERRAKION", "テラキオン", "", ""),
+("VIRIZION", "ビリジオン", "", ""),
+("TORNADUS", "トルネロス", "", ""),
+("THUNDURUS", "ボルトロス", "", ""),
+("RESHIRAM", "レシラム", "", ""),
+("ZEKROM", "ゼクロム", "", ""),
+("LANDORUS", "ランドロス", "", ""),
+("KYUREM", "キュレム", "", ""),
+("KELDEO", "ケルディオ", "", ""),
+("MELOETTA", "メロエッタ", "", ""),
+("GENESECT", "ゲノセクト", "", "")
 ;
 
 -- KALOS (0650 - 0721)
-INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
-("CHESPIN", "ハリマロン"),
-("QUILLADIN", "ハリボーグ"),
-("CHESNAUGHT", "ブリガロン"),
-("FENNEKIN", "フォッコ"),
-("BRAIXEN", "テールナー"),
-("DELPHOX", "マフォクシー"),
-("FROAKIE", "ケロマツ"),
-("FROGADIER", "ゲコガシラ"),
-("GRENINJA", "ゲッコウガ"),
-("BUNNELBY", "ホルビー"),
-("DIGGERSBY", "ホルード"),
-("FLETCHLING", "ヤヤコマ"),
-("FLETCHINDER", "ヒノヤコマ"),
-("TALONFLAME", "ファイアロー"),
-("SCATTERBUG", "コフキムシ"),
-("SPEWPA", "コフーライ"),
-("VIVILLON", "ビビヨン"),
-("LITLEO", "シシコ"),
-("PYROAR", "カエンジシ"),
-("FLABÉBÉ", "フラべべ"),
-("FLOETTE", "フラエッテ"),
-("FLORGES", "フラージェス"),
-("SKIDDO", "メェークル"),
-("GOGOAT", "ゴーゴート"),
-("PANCHAM", "ヤンチャム"),
-("PANGORO", "ゴロンダ"),
-("FURFROU", "トリミアン"),
-("ESPURR", "ニャスパー"),
-("MEOWSTIC", "ニャオニクス"),
-("HONEDGE", "ヒトツキ"),
-("DOUBLADE", "ニダンギル"),
-("AEGISLASH", "ギルガルド"),
-("SPRITZEE", "シュシュプ"),
-("AROMATISSE", "フレフワン"),
-("SWIRLIX", "ペロッパフ"),
-("SLURPUFF", "ペロリーム"),
-("INKAY", "マーイーカ"),
-("MALAMAR", "カラマネロ"),
-("BINACLE", "カメテテ"),
-("BARBARACLE", "ガメノデス"),
-("SKRELP", "クズもー"),
-("DRAGALGE", "ドラミドロ"),
-("CLAUNCHER", "ウデッポウ"),
-("CLAWITZER", "ブロスター"),
-("HELIOPTILE", "エリキテル"),
-("HELIOLISK", "エレザード"),
-("TYRUNT", "チゴラス"),
-("TYRANTRUM", "ガチゴラス"),
-("AMAURA", "アマルス"),
-("AURORUS", "アマルルガ"),
-("SYLVEON", "ニンフィア"),
-("HAWLUCHA", "ルチャブル"),
-("DEDENNE", "デデンネ"),
-("CARBINK", "メレシー"),
-("GOOMY", "ヌメラ"),
-("SLIGGOO", "ヌメイル"),
-("GOODRA", "ヌメルゴン"),
-("KLEFKI", "クレッフィ"),
-("PHANTUMP", "ボクレー"),
-("TREVENANT", "オーロット"),
-("PUMPKABOO", "バケッチャ"),
-("GOURGEIST", "パンプジン"),
-("BERGMITE", "カチコール"),
-("AVALUGG", "クレベース"),
-("NOIBAT", "オンバット"),
-("NOIVERN", "オンバーン"),
-("XERNEAS", "ゼルネアス"),
-("YVELTAL", "イベルタル"),
-("ZYGARDE", "ジガルデ"),
-("DIANCIE", "ディアンシー"),
-("HOOPA", "フーパ"),
-("VOLCANION", "ボルケニオン")
+INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
+("CHESPIN", "ハリマロン", "", ""),
+("QUILLADIN", "ハリボーグ", "", ""),
+("CHESNAUGHT", "ブリガロン", "", ""),
+("FENNEKIN", "フォッコ", "", ""),
+("BRAIXEN", "テールナー", "", ""),
+("DELPHOX", "マフォクシー", "", ""),
+("FROAKIE", "ケロマツ", "", ""),
+("FROGADIER", "ゲコガシラ", "", ""),
+("GRENINJA", "ゲッコウガ", "", ""),
+("BUNNELBY", "ホルビー", "", ""),
+("DIGGERSBY", "ホルード", "", ""),
+("FLETCHLING", "ヤヤコマ", "", ""),
+("FLETCHINDER", "ヒノヤコマ", "", ""),
+("TALONFLAME", "ファイアロー", "", ""),
+("SCATTERBUG", "コフキムシ", "", ""),
+("SPEWPA", "コフーライ", "", ""),
+("VIVILLON", "ビビヨン", "", ""),
+("LITLEO", "シシコ", "", ""),
+("PYROAR", "カエンジシ", "", ""),
+("FLABÉBÉ", "フラべべ", "", ""),
+("FLOETTE", "フラエッテ", "", ""),
+("FLORGES", "フラージェス", "", ""),
+("SKIDDO", "メェークル", "", ""),
+("GOGOAT", "ゴーゴート", "", ""),
+("PANCHAM", "ヤンチャム", "", ""),
+("PANGORO", "ゴロンダ", "", ""),
+("FURFROU", "トリミアン", "", ""),
+("ESPURR", "ニャスパー", "", ""),
+("MEOWSTIC", "ニャオニクス", "", ""),
+("HONEDGE", "ヒトツキ", "", ""),
+("DOUBLADE", "ニダンギル", "", ""),
+("AEGISLASH", "ギルガルド", "", ""),
+("SPRITZEE", "シュシュプ", "", ""),
+("AROMATISSE", "フレフワン", "", ""),
+("SWIRLIX", "ペロッパフ", "", ""),
+("SLURPUFF", "ペロリーム", "", ""),
+("INKAY", "マーイーカ", "", ""),
+("MALAMAR", "カラマネロ", "", ""),
+("BINACLE", "カメテテ", "", ""),
+("BARBARACLE", "ガメノデス", "", ""),
+("SKRELP", "クズもー", "", ""),
+("DRAGALGE", "ドラミドロ", "", ""),
+("CLAUNCHER", "ウデッポウ", "", ""),
+("CLAWITZER", "ブロスター", "", ""),
+("HELIOPTILE", "エリキテル", "", ""),
+("HELIOLISK", "エレザード", "", ""),
+("TYRUNT", "チゴラス", "", ""),
+("TYRANTRUM", "ガチゴラス", "", ""),
+("AMAURA", "アマルス", "", ""),
+("AURORUS", "アマルルガ", "", ""),
+("SYLVEON", "ニンフィア", "", ""),
+("HAWLUCHA", "ルチャブル", "", ""),
+("DEDENNE", "デデンネ", "", ""),
+("CARBINK", "メレシー", "", ""),
+("GOOMY", "ヌメラ", "", ""),
+("SLIGGOO", "ヌメイル", "", ""),
+("GOODRA", "ヌメルゴン", "", ""),
+("KLEFKI", "クレッフィ", "", ""),
+("PHANTUMP", "ボクレー", "", ""),
+("TREVENANT", "オーロット", "", ""),
+("PUMPKABOO", "バケッチャ", "", ""),
+("GOURGEIST", "パンプジン", "", ""),
+("BERGMITE", "カチコール", "", ""),
+("AVALUGG", "クレベース", "", ""),
+("NOIBAT", "オンバット", "", ""),
+("NOIVERN", "オンバーン", "", ""),
+("XERNEAS", "ゼルネアス", "", ""),
+("YVELTAL", "イベルタル", "", ""),
+("ZYGARDE", "ジガルデ", "", ""),
+("DIANCIE", "ディアンシー", "", ""),
+("HOOPA", "フーパ", "", ""),
+("VOLCANION", "ボルケニオン", "", "")
 ;
 
 -- ALOLA (0722 - 0809)
-INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
-("ROWLET", "モクロー"),
-("DARTRIX", "フクスロー"),
-("DECIDUEYE", "ジュナイパー"),
-("LITTEN", "ニャビー"),
-("TORRACAT", "ニャヒート"),
-("INCINEROAR", "ガオガエン"),
-("POPPLIO", "アシマリ"),
-("BRIONNE", "オシャマリ"),
-("PRIMARINA", "アシレーヌ"),
-("PIKIPEK", "ツツケラ"),
-("TRUMBEAK", "ケララッパ"),
-("TOUCANNON", "ドデカバシ"),
-("YUNGOOS", "ヤングース"),
-("GUMSHOOS", "デカグース"),
-("GRUBBIN", "アゴジムシ"),
-("CHARJABUG", "デンジムシ"),
-("VIKAVOLT", "クワガノン"),
-("CRABRAWLER", "マケンカニ"),
-("CRABOMINABLE", "ケケンカニ"),
-("ORICORIO", "オドリドリ"),
-("CUTIEFLY", "アブリー"),
-("RIBOMBEE", "アブリボン"),
-("ROCKRUFF", "イワンコ"),
-("LYCANROC", "ルガルガン"),
-("WISHIWASHI", "ヨワシ"),
-("MAREANIE", "ヒドイデ"),
-("TOXAPEX", "ドヒドイデ"),
-("MUDBRAY", "ドロバンコ"),
-("MUDSDALE", "バンバドロ"),
-("DEWPIDER", "シズクモ"),
-("ARAQUANID", "オニシズクモ"),
-("FOMANTIS", "カリキリ"),
-("LURANTIS", "ラランテス"),
-("MORELULL", "ネマシュ"),
-("SHIINOTIC", "マシェード"),
-("SALANDIT", "ヤトウモリ"),
-("SALAZZLE", "エンニュート"),
-("STUFFUL", "ヌイコグマ"),
-("BEWEAR", "キテルグマ"),
-("BOUNSWEET", "アマカジ"),
-("STEENEE", "アママイコ"),
-("TSAREENA", "アマジョ"),
-("COMFEY", "キュワワー"),
-("ORANGURU", "ヤレユータン"),
-("PASSIMIAN", "ナゲツケサル"),
-("WIMPOD", "コソクムシ"),
-("GOLISOPOD", "グソクムシャ"),
-("SANDYGAST", "スナバァ"),
-("PALOSSAND", "シロデスナ"),
-("PYUKUMUKU", "ナマコブシ"),
-("TYPE: NULL", "タイプ：ヌル"),
-("SILVALLY", "シルヴァディ"),
-("MINIOR", "メテノ"),
-("KOMALA", "ネッコアラ"),
-("TURTONATOR", "バクがメス"),
-("TOGEDEMARU", "トゲデマル"),
-("MIMIKYU", "ミミッキュ"),
-("BRUXISH", "ハギギシリ"),
-("DRAMPA", "ジジーロン"),
-("DHELMISE", "ダダリン"),
-("JANGMO-O", "ジャラコ"),
-("HAKAMO-O", "ジャランゴ"),
-("KOMMO-O", "ジャラランガ"),
-("TAPU KOKO", "カプ・コケコ"),
-("TAPU LELE", "カプ・テテフ"),
-("TAPU BULU", "カプ・ブルル"),
-("TAPU FINI", "カプ・レヒレ"),
-("COSMOG", "コスモッグ"),
-("COSMOEM", "コスモウム"),
-("SOLGALEO", "ソルガレオ"),
-("LUNALA", "ルナアーラ"),
-("NIHILEGO", "ウツロイド"),
-("BUZZWOLE", "マッシブーン"),
-("PHEROMOSA", "フェローチェ"),
-("XURKITREE", "デンジュモク"),
-("CELESTEELA", "テッカグヤ"),
-("KARTANA", "カミツルギ"),
-("GUZZLORD", "アクジキング"),
-("NECROZMA", "ネクロズマ"),
-("MAGEARNA", "マギアナ"),
-("MARSHADOW", "マーシャドー"),
-("POIPOLE", "べべノム"),
-("NAGANADEL", "アーゴヨン"),
-("STAKATAKA", "ツンデツンデ"),
-("BLACEPHALON", "ズガドーン"),
-("ZERAORA", "ゼラオラ"),
-("MELTAN", "メルタン"),
-("MELMETAL", "メルメタル")
+INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
+("ROWLET", "モクロー", "", ""),
+("DARTRIX", "フクスロー", "", ""),
+("DECIDUEYE", "ジュナイパー", "", ""),
+("LITTEN", "ニャビー", "", ""),
+("TORRACAT", "ニャヒート", "", ""),
+("INCINEROAR", "ガオガエン", "", ""),
+("POPPLIO", "アシマリ", "", ""),
+("BRIONNE", "オシャマリ", "", ""),
+("PRIMARINA", "アシレーヌ", "", ""),
+("PIKIPEK", "ツツケラ", "", ""),
+("TRUMBEAK", "ケララッパ", "", ""),
+("TOUCANNON", "ドデカバシ", "", ""),
+("YUNGOOS", "ヤングース", "", ""),
+("GUMSHOOS", "デカグース", "", ""),
+("GRUBBIN", "アゴジムシ", "", ""),
+("CHARJABUG", "デンジムシ", "", ""),
+("VIKAVOLT", "クワガノン", "", ""),
+("CRABRAWLER", "マケンカニ", "", ""),
+("CRABOMINABLE", "ケケンカニ", "", ""),
+("ORICORIO", "オドリドリ", "", ""),
+("CUTIEFLY", "アブリー", "", ""),
+("RIBOMBEE", "アブリボン", "", ""),
+("ROCKRUFF", "イワンコ", "", ""),
+("LYCANROC", "ルガルガン", "", ""),
+("WISHIWASHI", "ヨワシ", "", ""),
+("MAREANIE", "ヒドイデ", "", ""),
+("TOXAPEX", "ドヒドイデ", "", ""),
+("MUDBRAY", "ドロバンコ", "", ""),
+("MUDSDALE", "バンバドロ", "", ""),
+("DEWPIDER", "シズクモ", "", ""),
+("ARAQUANID", "オニシズクモ", "", ""),
+("FOMANTIS", "カリキリ", "", ""),
+("LURANTIS", "ラランテス", "", ""),
+("MORELULL", "ネマシュ", "", ""),
+("SHIINOTIC", "マシェード", "", ""),
+("SALANDIT", "ヤトウモリ", "", ""),
+("SALAZZLE", "エンニュート", "", ""),
+("STUFFUL", "ヌイコグマ", "", ""),
+("BEWEAR", "キテルグマ", "", ""),
+("BOUNSWEET", "アマカジ", "", ""),
+("STEENEE", "アママイコ", "", ""),
+("TSAREENA", "アマジョ", "", ""),
+("COMFEY", "キュワワー", "", ""),
+("ORANGURU", "ヤレユータン", "", ""),
+("PASSIMIAN", "ナゲツケサル", "", ""),
+("WIMPOD", "コソクムシ", "", ""),
+("GOLISOPOD", "グソクムシャ", "", ""),
+("SANDYGAST", "スナバァ", "", ""),
+("PALOSSAND", "シロデスナ", "", ""),
+("PYUKUMUKU", "ナマコブシ", "", ""),
+("TYPE: NULL", "タイプ：ヌル", "", ""),
+("SILVALLY", "シルヴァディ", "", ""),
+("MINIOR", "メテノ", "", ""),
+("KOMALA", "ネッコアラ", "", ""),
+("TURTONATOR", "バクがメス", "", ""),
+("TOGEDEMARU", "トゲデマル", "", ""),
+("MIMIKYU", "ミミッキュ", "", ""),
+("BRUXISH", "ハギギシリ", "", ""),
+("DRAMPA", "ジジーロン", "", ""),
+("DHELMISE", "ダダリン", "", ""),
+("JANGMO-O", "ジャラコ", "", ""),
+("HAKAMO-O", "ジャランゴ", "", ""),
+("KOMMO-O", "ジャラランガ", "", ""),
+("TAPU KOKO", "カプ・コケコ", "", ""),
+("TAPU LELE", "カプ・テテフ", "", ""),
+("TAPU BULU", "カプ・ブルル", "", ""),
+("TAPU FINI", "カプ・レヒレ", "", ""),
+("COSMOG", "コスモッグ", "", ""),
+("COSMOEM", "コスモウム", "", ""),
+("SOLGALEO", "ソルガレオ", "", ""),
+("LUNALA", "ルナアーラ", "", ""),
+("NIHILEGO", "ウツロイド", "", ""),
+("BUZZWOLE", "マッシブーン", "", ""),
+("PHEROMOSA", "フェローチェ", "", ""),
+("XURKITREE", "デンジュモク", "", ""),
+("CELESTEELA", "テッカグヤ", "", ""),
+("KARTANA", "カミツルギ", "", ""),
+("GUZZLORD", "アクジキング", "", ""),
+("NECROZMA", "ネクロズマ", "", ""),
+("MAGEARNA", "マギアナ", "", ""),
+("MARSHADOW", "マーシャドー", "", ""),
+("POIPOLE", "べべノム", "", ""),
+("NAGANADEL", "アーゴヨン", "", ""),
+("STAKATAKA", "ツンデツンデ", "", ""),
+("BLACEPHALON", "ズガドーン", "", ""),
+("ZERAORA", "ゼラオラ", "", ""),
+("MELTAN", "メルタン", "", ""),
+("MELMETAL", "メルメタル", "", "")
 ;
 
 -- GALAR (0810 - 0898)
@@ -984,25 +985,155 @@ INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
 ("ENAMORUS", "ラブトロス", "眷恋云", "眷戀雲")
 ;
 
--- PALDEA (0906 - ????)
-INSERT INTO `pokemon_list`(`name`, `jp_name`) VALUES
+-- PALDEA (0906 - 1008)
+INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
 -- Upcoming
-("SPRIGATITO", "ニャオハ"),
-("FLORAGATO", ""),
-("MEOWSCARADA", ""),
-("FUECOCO", "ホゲータ"),
-("CROCALOR", ""),
-("SKELEDIRGE", ""),
-("QUAXLY", "クワッス"),
-("QUAXWELL", ""),
-("QUAQUAVAL", "")
+("SPRIGATITO", "ニャオハ", "", ""),
+("FLORAGATO", "", "", ""),
+("MEOWSCARADA", "", "", ""),
+("FUECOCO", "ホゲータ", "", ""),
+("CROCALOR", "", "", ""),
+("SKELEDIRGE", "", "", ""),
+("QUAXLY", "クワッス", "", ""),
+("QUAXWELL", "", "", ""),
+("QUAQUAVAL", "", "", ""),
+("LECHONK", "", "", ""),
+("OINKOLOGNE", "", "", ""),
+("TAROUNTULA", "", "", ""),
+("SPIDOPS", "", "", ""),
+("NYMBLE", "", "", ""),
+("LOKIX", "", "", ""),
+("PAWMI", "", "", ""),
+("PAWMO", "", "", ""),
+("PAWMOT", "", "", ""),
+("TANDEMAUS", "", "", ""),
+("MAUSHOLD", "", "", ""),
+("FIDOUGH", "", "", ""),
+("DACHSBUN", "", "", ""),
+("SMOLIV", "", "", ""),
+("DOLLIV", "", "", ""),
+("ARBOLIVA", "", "", ""),
+("SQUAWKABILLY", "", "", ""),
+("NACLI", "", "", ""),
+("NACLSTACK", "", "", ""),
+("GARGANCL", "", "", ""),
+("CHARCADET", "", "", ""),
+("ARMAROUGE", "", "", ""),
+("CERULEDGE", "", "", ""),
+("TADBULB", "", "", ""),
+("BELLIBOLT", "", "", ""),
+("WATTREL", "", "", ""),
+("KILOWATTREL", "", "", ""),
+("MASCHIFF", "", "", ""),
+("MABOSSTIFF", "", "", ""),
+("SHROODLE", "", "", ""),
+("GRAFAIAI", "", "", ""),
+("BRAMBLIN", "", "", ""),
+("BRAMBLEGHAST", "", "", ""),
+("TOEDSCOOL", "", "", ""),
+("TOEDSCRUEL", "", "", ""),
+("KLAWF", "", "", ""),
+("CAPSAKID", "", "", ""),
+("SCOVILLAIN", "", "", ""),
+("RELLOR", "", "", ""),
+("RABSCA", "", "", ""),
+("FLITTLE", "", "", ""),
+("ESPATHRA", "", "", ""),
+("TINKATINK", "", "", ""),
+("TINKATUFF", "", "", ""),
+("TINKATON", "", "", ""),
+("WIGLETT", "", "", ""),
+("WUGTRIO", "", "", ""),
+("BOMBIRDIER", "", "", ""),
+("FINIZEN", "", "", ""),
+("PALAFIN", "", "", ""),
+("VAROOM", "", "", ""),
+("REVAVROOM", "", "", ""),
+("CYCLIZAR", "", "", ""),
+("ORTHWORM", "", "", ""),
+("GLIMMET", "", "", ""),
+("GLIMMORA", "", "", ""),
+("GREAVARD", "", "", ""),
+("HOUNDSTONE", "", "", ""),
+("FLAMIGO", "", "", ""),
+("CETODDLE", "", "", ""),
+("CETITAN", "", "", ""),
+("VELUZA", "", "", ""),
+("DONDOZO", "", "", ""),
+("TATSUGIRI", "", "", ""),
+("ANNIHILAPE", "", "", ""),
+("CLODSIRE", "", "", ""),
+("FARIGIRAF", "", "", ""),
+("DUDUNSPARCE", "", "", ""),
+("KINGAMBIT", "", "", ""),
+("GREAT TUSK", "", "", ""),
+("SCREAM TAIL", "", "", ""),
+("BRUTE BONNET", "", "", ""),
+("FLUTTER MANE", "", "", ""),
+("SLITHER WING", "", "", ""),
+("SANDY SHOCKS", "", "", ""),
+("IRON TREADS", "", "", ""),
+("IRON BUNDLE", "", "", ""),
+("IRON HANDS", "", "", ""),
+("IRON JUGULIS", "", "", ""),
+("IRON MOTH", "", "", ""),
+("IRON THORNS", "", "", ""),
+("FRIGIBAX", "", "", ""),
+("ARCTIBAX", "", "", ""),
+("BAXCALIBUR", "", "", ""),
+("GIMMIGHOUL", "", "", ""),
+("GHOLDENGO", "", "", ""),
+("WO-CHIEN", "", "", ""),
+("CHIEN-PAO", "", "", ""),
+("TING-LU", "", "", ""),
+("CHI-YU", "", "", ""),
+("ROARING MOON", "", "", ""),
+("IRON VALIANT", "", "", ""),
+("KORAIDON", "", "", ""),
+("MIRAIDON", "", "", ""),
+("WALKING WAKE", "", "", ""),
+("IRON LEAVES", "", "", ""),
+("DIPPLIN", "", "", ""),
+("POLTCHAGEIST", "", "", ""),
+("SINISTCHA", "", "", ""),
+("OKIDOGI", "", "", ""),
+("MUNKIDORI", "", "", ""),
+("FEZANDIPITI", "", "", ""),
+("OGERPON", "", "", "")
+-- ("ARCHALUDON", "", "", ""),
+-- ("RAGING BOLT", "", "", ""),
+-- ("IRON CROWN", "", "", ""),
+-- ("TERAPAGOS", "", "", "")
 ;
+
+-- BABY POKEMON
+UPDATE `pokemon_list` SET `baby` = true WHERE `id` IN (
+	172, 	-- PICHU
+    173,	-- CLEFFA
+    174, 	-- IGGLYBUFF
+    175,	-- TOGEPI
+    236,	-- TYROGUE
+    238,	-- SMOOCHUM
+    239,	-- ELEKID
+    240,	-- MAGBY
+    298,	-- AZURILL
+    360,	-- WYNAUT
+    406,	-- BUDEW
+    433,	-- CHINGLING
+    438,	-- BONSLY
+    439,	-- MIME JR.
+    440,	-- HAPPINY
+    446,	-- MUNCHLAX
+    447,	-- RIOLU
+    458,	-- MANTYKE
+    848		-- TOXEL
+);
 
 -- Regional Dex Numbers
 DROP TABLE IF EXISTS `regional_dex`;
 CREATE TABLE `regional_dex` (
 	`dex_name`		VARCHAR(40) NOT NULL,
-    `dex_id`		INT NOT NULL,
+    `dex_id`		INT NOT NULL DEFAULT -1,
     `national_id`	INT NOT NULL,
 
     FOREIGN KEY(`national_id`) REFERENCES `pokemon_list`(`id`)
@@ -1794,7 +1925,7 @@ INSERT INTO `regional_dex` VALUES
 ("galar_swsh", 400, 890)
 ;
 
--- Galar Isle of Armor Dex Number (Sword and Shield)
+-- Galar Isle of Armor Dex Number (Sword and Shield DLC 1: The Isle of Armor)
 INSERT INTO `regional_dex` VALUES
 ("galar_isle_of_armor", 1, 79),
 ("galar_isle_of_armor", 2, 80),
@@ -2009,7 +2140,7 @@ INSERT INTO `regional_dex` VALUES
 ("galar_isle_of_armor", 211, 893)
 ;
 
--- Galar Crown Tundra Dex Number (Sword and Shield)
+-- Galar Crown Tundra Dex Number (Sword and Shield DLC 2: The Crown Tundra)
 INSERT INTO `regional_dex` VALUES
 ("galar_crown_tundra", 1, 872),
 ("galar_crown_tundra", 2, 873),
@@ -2221,6 +2352,88 @@ INSERT INTO `regional_dex` VALUES
 ("galar_crown_tundra", 208, 896),
 ("galar_crown_tundra", 209, 897),
 ("galar_crown_tundra", 210, 898)
+;
+
+-- Galar Not in Dex (Sword and Shield)
+INSERT INTO `regional_dex` (`dex_name`, `national_id`) VALUES 
+("galar_swsh", 150),    -- MEWTWO
+("galar_swsh", 151),    -- MEW
+("galar_swsh", 251),    -- CELEBI
+("galar_swsh", 243),    -- RAIKOU
+("galar_swsh", 244),    -- ENTEI
+("galar_swsh", 245),    -- SUICUNE
+("galar_swsh", 249),    -- LUGIA
+("galar_swsh", 250),    -- HO-OH
+("galar_swsh", 252),    -- TREECKO
+("galar_swsh", 253),    -- GROVYLE
+("galar_swsh", 254),    -- SCEPTILE
+("galar_swsh", 255),    -- TORCHIC
+("galar_swsh", 256),    -- COMBUSKEN
+("galar_swsh", 257),    -- BLAZIKEN
+("galar_swsh", 258),    -- MUDKIP
+("galar_swsh", 259),    -- MARSHTOMP
+("galar_swsh", 260),    -- SWAMPERT
+("galar_swsh", 380),    -- LATIAS
+("galar_swsh", 381),    -- LATIOS
+("galar_swsh", 382),    -- KYOGRE
+("galar_swsh", 383),    -- GROUDON
+("galar_swsh", 384),    -- RAYQUAZA
+("galar_swsh", 385),    -- JIRACHI
+("galar_swsh", 480),    -- UXIE
+("galar_swsh", 481),    -- MESPRIT
+("galar_swsh", 482),    -- AZELF
+("galar_swsh", 483),    -- DIALGA
+("galar_swsh", 484),    -- PALKIA
+("galar_swsh", 485),    -- HEATRAN
+("galar_swsh", 486),    -- REGIGIGAS
+("galar_swsh", 487),    -- GIRATINA
+("galar_swsh", 488),    -- CRESSELIA
+("galar_swsh", 494),    -- VICTINI
+("galar_swsh", 641),    -- TORNADUS
+("galar_swsh", 642),    -- THUNDRUS
+("galar_swsh", 643),    -- RESHIRAM
+("galar_swsh", 644),    -- ZEKROM
+("galar_swsh", 645),    -- LANDORUS
+("galar_swsh", 646),    -- KYUREM
+("galar_swsh", 647),    -- KELDEO
+("galar_swsh", 649),    -- GENESECT
+("galar_swsh", 716),    -- XERNEAS
+("galar_swsh", 717),    -- YVELTAL
+("galar_swsh", 718),    -- ZYGARDE
+("galar_swsh", 721),    -- VOLCANION
+("galar_swsh", 722),    -- ROWLET
+("galar_swsh", 723),    -- DARTRIX
+("galar_swsh", 724),    -- DECIDUEYE
+("galar_swsh", 725),    -- LITTEN
+("galar_swsh", 726),    -- TORRACAT
+("galar_swsh", 727),    -- INCINEROAR
+("galar_swsh", 728),    -- POPPLIO
+("galar_swsh", 729),    -- BRIONNE
+("galar_swsh", 730),    -- PRIMARINA
+("galar_swsh", 785),    -- TAPU KOKO
+("galar_swsh", 786),    -- TAPU LELE
+("galar_swsh", 787),    -- TAPU BULU
+("galar_swsh", 788),    -- TAPU FINI
+("galar_swsh", 789),    -- COSMOG
+("galar_swsh", 790),    -- COSMOEM
+("galar_swsh", 791),    -- SOLGALEO
+("galar_swsh", 792),    -- LUNALA
+("galar_swsh", 793),    -- NIHILEGO
+("galar_swsh", 794),    -- BUZZWOLE
+("galar_swsh", 795),    -- PHEROMOSA
+("galar_swsh", 796),    -- XURKITREE
+("galar_swsh", 797),    -- CELESTEELA
+("galar_swsh", 798),    -- KARTANA
+("galar_swsh", 799),    -- GUZZLORD
+("galar_swsh", 800),    -- NECROZMA
+("galar_swsh", 802),    -- MARSHADOW
+("galar_swsh", 803),    -- POIPOLE
+("galar_swsh", 804),    -- NAGANADEL
+("galar_swsh", 805),    -- STAKATAKA
+("galar_swsh", 806),    -- BLACEPHALON
+("galar_swsh", 807),    -- ZERAORA
+("galar_swsh", 808),    -- MELTAN
+("galar_swsh", 809)     -- MELMETAL
 ;
 
 -- Sinnoh Dex Number (Brilliant Diamond and Shining Pearl)
@@ -2624,6 +2837,81 @@ INSERT INTO `regional_dex` VALUES
 ("hisui_legarc", 242, 491)
 ;
 
+-- Galar Not in Dex (Sword and Shield)
+INSERT INTO `regional_dex` (`dex_name`, `national_id`) VALUES 
+("paldea_sv", 4),       -- CHAMANDER
+("paldea_sv", 5),       -- CHARMELEON
+("paldea_sv", 6),       -- CHARIZARD
+("paldea_sv", 144),     -- ARTICUNO
+("paldea_sv", 145),     -- ZAPDOS
+("paldea_sv", 146),     -- MOLTRES
+("paldea_sv", 150),     -- MEWTWO
+("paldea_sv", 151),     -- MEW
+("paldea_sv", 155),     -- CYNDAQUIL
+("paldea_sv", 156),     -- QUILAVA
+("paldea_sv", 157),     -- TYPHLOSION
+("paldea_sv", 382),     -- KYOGRE
+("paldea_sv", 383),     -- GROUDON
+("paldea_sv", 384),     -- RAYQUAZA
+("paldea_sv", 480),     -- UXIE
+("paldea_sv", 481),     -- MESPRIT
+("paldea_sv", 482),     -- AZELF
+("paldea_sv", 483),     -- DIALGA
+("paldea_sv", 484),     -- PALKIA
+("paldea_sv", 485),     -- HEATRAN
+("paldea_sv", 487),     -- GIRATINA
+("paldea_sv", 493),     -- ARCEUS
+("paldea_sv", 501),     -- OSHAWOTT
+("paldea_sv", 502),     -- DEWOTT
+("paldea_sv", 503),     -- SAMUROTT
+("paldea_sv", 641),     -- TORNADUS
+("paldea_sv", 642),     -- THUNDRUS
+("paldea_sv", 643),     -- LANDORUS
+("paldea_sv", 648),     -- MELOETTA
+("paldea_sv", 650),     -- CHESPIN
+("paldea_sv", 651),     -- QUILLADIN
+("paldea_sv", 652),     -- CHESNAUGHT
+("paldea_sv", 653),     -- FENNEKIN
+("paldea_sv", 654),     -- BRAIXEN
+("paldea_sv", 655),     -- DELPHOX
+("paldea_sv", 656),     -- FROAKIE
+("paldea_sv", 657),     -- FROGADIER
+("paldea_sv", 658),     -- GRENINJA
+("paldea_sv", 719),     -- DIANCIE
+("paldea_sv", 720),     -- HOOPA
+("paldea_sv", 721),     -- VOLCANION
+("paldea_sv", 722),     -- ROWLET
+("paldea_sv", 723),     -- DARTRIX
+("paldea_sv", 724),     -- DECIDUEYE
+("paldea_sv", 801),     -- MAGEARNA
+("paldea_sv", 810),     -- GROOKEY
+("paldea_sv", 811),     -- THWACKEY
+("paldea_sv", 812),     -- RILLABOOM
+("paldea_sv", 813),     -- SCORBUNNY
+("paldea_sv", 814),     -- RABOOT
+("paldea_sv", 815),     -- CINDERACE
+("paldea_sv", 816),     -- SOBBLE
+("paldea_sv", 817),     -- DRIZZILE
+("paldea_sv", 818),     -- INTELEON
+("paldea_sv", 863),     -- PERRSERKER
+("paldea_sv", 888),     -- ZACIAN
+("paldea_sv", 889),     -- ZAMAZENTA
+("paldea_sv", 890),     -- ETERNATUS
+("paldea_sv", 891),     -- KUBFU
+("paldea_sv", 892),     -- URSHIFU
+("paldea_sv", 893),     -- ZARUDE
+("paldea_sv", 894),     -- REGIELEKI
+("paldea_sv", 895),     -- REGIDRAGO
+("paldea_sv", 896),     -- GLASTRIER
+("paldea_sv", 897),     -- SPECTRIER
+("paldea_sv", 898),     -- CALYREX
+("paldea_sv", 899),     -- WYRDEER
+("paldea_sv", 900),     -- KLEAVOR
+("paldea_sv", 903),     -- SNEASLER
+("paldea_sv", 904),     -- OVERQWIL
+("paldea_sv", 905)      -- ENAMORUS
+;
+
 -- Paldea Dex Number (Scarlet and Violet)
 INSERT INTO `regional_dex` VALUES
 ("paldea_sv", 1, 906),
@@ -2634,14 +2922,615 @@ INSERT INTO `regional_dex` VALUES
 ("paldea_sv", 6, 911),
 ("paldea_sv", 7, 912),
 ("paldea_sv", 8, 913),
-("paldea_sv", 9, 914)
+("paldea_sv", 9, 914),
+("paldea_sv", 10, 915),
+("paldea_sv", 11, 916),
+("paldea_sv", 12, 917),
+("paldea_sv", 13, 918),
+("paldea_sv", 14, 919),
+("paldea_sv", 15, 920),
+("paldea_sv", 16, 187),
+("paldea_sv", 17, 188),
+("paldea_sv", 18, 189),
+("paldea_sv", 19, 661),
+("paldea_sv", 20, 662),
+("paldea_sv", 21, 663),
+("paldea_sv", 22, 921),
+("paldea_sv", 23, 922),
+("paldea_sv", 24, 923),
+("paldea_sv", 25, 228),
+("paldea_sv", 26, 229),
+("paldea_sv", 27, 734),
+("paldea_sv", 28, 735),
+("paldea_sv", 29, 819),
+("paldea_sv", 30, 820),
+("paldea_sv", 31, 191),
+("paldea_sv", 32, 192),
+("paldea_sv", 33, 401),
+("paldea_sv", 34, 402),
+("paldea_sv", 35, 664),
+("paldea_sv", 36, 665),
+("paldea_sv", 37, 666),
+("paldea_sv", 38, 415),
+("paldea_sv", 39, 416),
+("paldea_sv", 40, 821),
+("paldea_sv", 41, 822),
+("paldea_sv", 42, 823),
+("paldea_sv", 43, 440),
+("paldea_sv", 44, 113),
+("paldea_sv", 45, 242),
+("paldea_sv", 46, 298),
+("paldea_sv", 47, 183),
+("paldea_sv", 48, 184),
+("paldea_sv", 49, 283),
+("paldea_sv", 50, 284),
+("paldea_sv", 51, 418),
+("paldea_sv", 52, 419),
+("paldea_sv", 53, 194),
+("paldea_sv", 54, 980),
+("paldea_sv", 55, 54),
+("paldea_sv", 56, 55),
+("paldea_sv", 57, 833),
+("paldea_sv", 58, 834),
+("paldea_sv", 59, 174),
+("paldea_sv", 60, 39),
+("paldea_sv", 61, 40),
+("paldea_sv", 62, 280),
+("paldea_sv", 63, 281),
+("paldea_sv", 64, 282),
+("paldea_sv", 65, 475),
+("paldea_sv", 66, 96),
+("paldea_sv", 67, 97),
+("paldea_sv", 68, 92),
+("paldea_sv", 69, 93),
+("paldea_sv", 70, 94),
+("paldea_sv", 71, 924),
+("paldea_sv", 72, 925),
+("paldea_sv", 73, 172),
+("paldea_sv", 74, 25),
+("paldea_sv", 75, 26),
+("paldea_sv", 76, 926),
+("paldea_sv", 77, 927),
+("paldea_sv", 78, 287),
+("paldea_sv", 79, 288),
+("paldea_sv", 80, 289),
+("paldea_sv", 81, 761),
+("paldea_sv", 82, 762),
+("paldea_sv", 83, 763),
+("paldea_sv", 84, 928),
+("paldea_sv", 85, 929),
+("paldea_sv", 86, 930),
+("paldea_sv", 87, 438),
+("paldea_sv", 88, 185),
+("paldea_sv", 89, 744),
+("paldea_sv", 90, 745),
+("paldea_sv", 91, 837),
+("paldea_sv", 92, 838),
+("paldea_sv", 93, 839),
+("paldea_sv", 94, 403),
+("paldea_sv", 95, 404),
+("paldea_sv", 96, 405),
+("paldea_sv", 97, 396),
+("paldea_sv", 98, 397),
+("paldea_sv", 99, 398),
+("paldea_sv", 100, 741),
+("paldea_sv", 101, 179),
+("paldea_sv", 102, 180),
+("paldea_sv", 103, 181),
+("paldea_sv", 104, 548),
+("paldea_sv", 105, 549),
+("paldea_sv", 106, 285),
+("paldea_sv", 107, 286),
+("paldea_sv", 108, 840),
+("paldea_sv", 109, 841),
+("paldea_sv", 110, 842),
+("paldea_sv", 111, 325),
+("paldea_sv", 112, 326),
+("paldea_sv", 113, 931),
+("paldea_sv", 114, 428),
+("paldea_sv", 115, 429),
+("paldea_sv", 116, 296),
+("paldea_sv", 117, 297),
+("paldea_sv", 118, 739),
+("paldea_sv", 119, 740),
+("paldea_sv", 120, 757),
+("paldea_sv", 121, 758),
+("paldea_sv", 122, 231),
+("paldea_sv", 123, 232),
+("paldea_sv", 124, 878),
+("paldea_sv", 125, 879),
+("paldea_sv", 126, 443),
+("paldea_sv", 127, 444),
+("paldea_sv", 128, 445),
+("paldea_sv", 129, 932),
+("paldea_sv", 130, 933),
+("paldea_sv", 131, 934),
+("paldea_sv", 132, 278),
+("paldea_sv", 133, 279),
+("paldea_sv", 134, 129),
+("paldea_sv", 135, 130),
+("paldea_sv", 136, 846),
+("paldea_sv", 137, 847),
+("paldea_sv", 138, 550),
+("paldea_sv", 139, 316),
+("paldea_sv", 140, 317),
+("paldea_sv", 141, 52),
+("paldea_sv", 142, 53),
+("paldea_sv", 143, 425),
+("paldea_sv", 144, 426),
+("paldea_sv", 145, 669),
+("paldea_sv", 146, 670),
+("paldea_sv", 147, 671),
+("paldea_sv", 148, 50),
+("paldea_sv", 149, 51),
+("paldea_sv", 150, 324),
+("paldea_sv", 151, 322),
+("paldea_sv", 152, 323),
+("paldea_sv", 153, 436),
+("paldea_sv", 154, 437),
+("paldea_sv", 155, 610),
+("paldea_sv", 156, 611),
+("paldea_sv", 157, 612),
+("paldea_sv", 158, 56),
+("paldea_sv", 159, 57),
+("paldea_sv", 160, 979),
+("paldea_sv", 161, 307),
+("paldea_sv", 162, 308),
+("paldea_sv", 163, 447),
+("paldea_sv", 164, 448),
+("paldea_sv", 165, 935),
+("paldea_sv", 166, 936),
+("paldea_sv", 167, 937),
+("paldea_sv", 168, 339),
+("paldea_sv", 169, 340),
+("paldea_sv", 170, 938),
+("paldea_sv", 171, 939),
+("paldea_sv", 172, 704),
+("paldea_sv", 173, 705),
+("paldea_sv", 174, 706),
+("paldea_sv", 175, 453),
+("paldea_sv", 176, 454),
+("paldea_sv", 177, 940),
+("paldea_sv", 178, 941),
+("paldea_sv", 179, 133),
+("paldea_sv", 180, 134),
+("paldea_sv", 181, 135),
+("paldea_sv", 182, 136),
+("paldea_sv", 183, 196),
+("paldea_sv", 184, 197),
+("paldea_sv", 185, 470),
+("paldea_sv", 186, 471),
+("paldea_sv", 187, 700),
+("paldea_sv", 188, 206),
+("paldea_sv", 189, 982),
+("paldea_sv", 190, 585),
+("paldea_sv", 191, 586),
+("paldea_sv", 192, 203),
+("paldea_sv", 193, 981),
+("paldea_sv", 194, 88),
+("paldea_sv", 195, 89),
+("paldea_sv", 196, 942),
+("paldea_sv", 197, 943),
+("paldea_sv", 198, 848),
+("paldea_sv", 199, 849),
+("paldea_sv", 200, 702),
+("paldea_sv", 201, 417),
+("paldea_sv", 202, 944),
+("paldea_sv", 203, 945),
+("paldea_sv", 204, 234),
+("paldea_sv", 205, 590),
+("paldea_sv", 206, 591),
+("paldea_sv", 207, 100),
+("paldea_sv", 208, 101),
+("paldea_sv", 209, 81),
+("paldea_sv", 210, 82),
+("paldea_sv", 211, 462),
+("paldea_sv", 212, 132),
+("paldea_sv", 213, 58),
+("paldea_sv", 214, 59),
+("paldea_sv", 215, 216),
+("paldea_sv", 216, 217),
+("paldea_sv", 217, 335),
+("paldea_sv", 218, 336),
+("paldea_sv", 219, 333),
+("paldea_sv", 220, 334),
+("paldea_sv", 221, 672),
+("paldea_sv", 222, 673),
+("paldea_sv", 223, 128),
+("paldea_sv", 224, 667),
+("paldea_sv", 225, 668),
+("paldea_sv", 226, 434),
+("paldea_sv", 227, 435),
+("paldea_sv", 228, 570),
+("paldea_sv", 229, 571),
+("paldea_sv", 230, 215),
+("paldea_sv", 231, 461),
+("paldea_sv", 232, 198),
+("paldea_sv", 233, 430),
+("paldea_sv", 234, 574),
+("paldea_sv", 235, 575),
+("paldea_sv", 236, 576),
+("paldea_sv", 237, 854),
+("paldea_sv", 238, 855),
+("paldea_sv", 239, 778),
+("paldea_sv", 240, 707),
+("paldea_sv", 241, 876),
+("paldea_sv", 242, 946),
+("paldea_sv", 243, 947),
+("paldea_sv", 244, 948),
+("paldea_sv", 245, 949),
+("paldea_sv", 246, 357),
+("paldea_sv", 247, 753),
+("paldea_sv", 248, 754),
+("paldea_sv", 249, 950),
+("paldea_sv", 250, 951),
+("paldea_sv", 251, 952),
+("paldea_sv", 252, 331),
+("paldea_sv", 253, 332),
+("paldea_sv", 254, 953),
+("paldea_sv", 255, 954),
+("paldea_sv", 256, 48),
+("paldea_sv", 257, 49),
+("paldea_sv", 258, 204),
+("paldea_sv", 259, 205),
+("paldea_sv", 260, 123),
+("paldea_sv", 261, 212),
+("paldea_sv", 262, 214),
+("paldea_sv", 263, 955),
+("paldea_sv", 264, 956),
+("paldea_sv", 265, 449),
+("paldea_sv", 266, 450),
+("paldea_sv", 267, 551),
+("paldea_sv", 268, 552),
+("paldea_sv", 269, 553),
+("paldea_sv", 270, 843),
+("paldea_sv", 271, 844),
+("paldea_sv", 272, 749),
+("paldea_sv", 273, 750),
+("paldea_sv", 274, 636),
+("paldea_sv", 275, 637),
+("paldea_sv", 276, 371),
+("paldea_sv", 277, 372),
+("paldea_sv", 278, 373),
+("paldea_sv", 279, 957),
+("paldea_sv", 280, 958),
+("paldea_sv", 281, 959),
+("paldea_sv", 282, 856),
+("paldea_sv", 283, 857),
+("paldea_sv", 284, 858),
+("paldea_sv", 285, 859),
+("paldea_sv", 286, 860),
+("paldea_sv", 287, 861),
+("paldea_sv", 288, 960),
+("paldea_sv", 289, 961),
+("paldea_sv", 290, 962),
+("paldea_sv", 291, 963),
+("paldea_sv", 292, 964),
+("paldea_sv", 293, 965),
+("paldea_sv", 294, 966),
+("paldea_sv", 295, 967),
+("paldea_sv", 296, 968),
+("paldea_sv", 297, 302),
+("paldea_sv", 298, 353),
+("paldea_sv", 299, 354),
+("paldea_sv", 300, 870),
+("paldea_sv", 301, 701),
+("paldea_sv", 302, 442),
+("paldea_sv", 303, 714),
+("paldea_sv", 304, 715),
+("paldea_sv", 305, 885),
+("paldea_sv", 306, 886),
+("paldea_sv", 307, 887),
+("paldea_sv", 308, 969),
+("paldea_sv", 309, 970),
+("paldea_sv", 310, 479),
+("paldea_sv", 311, 971),
+("paldea_sv", 312, 972),
+("paldea_sv", 313, 765),
+("paldea_sv", 314, 766),
+("paldea_sv", 315, 775),
+("paldea_sv", 316, 246),
+("paldea_sv", 317, 247),
+("paldea_sv", 318, 248),
+("paldea_sv", 319, 874),
+("paldea_sv", 320, 875),
+("paldea_sv", 321, 871),
+("paldea_sv", 322, 769),
+("paldea_sv", 323, 770),
+("paldea_sv", 324, 79),
+("paldea_sv", 325, 80),
+("paldea_sv", 326, 199),
+("paldea_sv", 327, 422),
+("paldea_sv", 328, 423),
+("paldea_sv", 329, 90),
+("paldea_sv", 330, 91),
+("paldea_sv", 331, 211),
+("paldea_sv", 332, 370),
+("paldea_sv", 333, 456),
+("paldea_sv", 334, 457),
+("paldea_sv", 335, 779),
+("paldea_sv", 336, 594),
+("paldea_sv", 337, 690),
+("paldea_sv", 338, 691),
+("paldea_sv", 339, 692),
+("paldea_sv", 340, 693),
+("paldea_sv", 341, 602),
+("paldea_sv", 342, 603),
+("paldea_sv", 343, 604),
+("paldea_sv", 344, 757),
+("paldea_sv", 345, 758),
+("paldea_sv", 346, 973),
+("paldea_sv", 347, 147),
+("paldea_sv", 348, 148),
+("paldea_sv", 349, 149),
+("paldea_sv", 350, 872),
+("paldea_sv", 351, 873),
+("paldea_sv", 352, 459),
+("paldea_sv", 353, 460),
+("paldea_sv", 354, 225),
+("paldea_sv", 355, 613),
+("paldea_sv", 356, 614),
+("paldea_sv", 357, 361),
+("paldea_sv", 358, 362),
+("paldea_sv", 359, 478),
+("paldea_sv", 360, 615),
+("paldea_sv", 361, 974),
+("paldea_sv", 362, 975),
+("paldea_sv", 363, 712),
+("paldea_sv", 364, 713),
+("paldea_sv", 365, 627),
+("paldea_sv", 366, 628),
+("paldea_sv", 367, 624),
+("paldea_sv", 368, 625),
+("paldea_sv", 369, 983),
+("paldea_sv", 370, 633),
+("paldea_sv", 371, 634),
+("paldea_sv", 372, 635),
+("paldea_sv", 373, 976),
+("paldea_sv", 374, 977),
+("paldea_sv", 375, 978),
+("paldea_sv", 376, 984),
+("paldea_sv", 377, 985),
+("paldea_sv", 378, 986),
+("paldea_sv", 379, 987),
+("paldea_sv", 380, 988),
+("paldea_sv", 381, 989),
+("paldea_sv", 382, 990),
+("paldea_sv", 383, 991),
+("paldea_sv", 384, 992),
+("paldea_sv", 385, 993),
+("paldea_sv", 386, 994),
+("paldea_sv", 387, 995),
+("paldea_sv", 388, 996),
+("paldea_sv", 389, 997),
+("paldea_sv", 390, 998),
+("paldea_sv", 391, 999),
+("paldea_sv", 392, 1000),
+("paldea_sv", 393, 1001),
+("paldea_sv", 394, 1002),
+("paldea_sv", 395, 1003),
+("paldea_sv", 396, 1004),
+("paldea_sv", 397, 1005),
+("paldea_sv", 398, 1006),
+("paldea_sv", 399, 1007),
+("paldea_sv", 400, 1008)
 ;
+
+-- Kitakami Dex Number (Scarlet and Violet DLC 1: The Teal Mask)
+INSERT INTO `regional_dex` VALUES
+("kitakami_sv", 1, 167),
+("kitakami_sv", 2, 168),
+("kitakami_sv", 3, 193),
+("kitakami_sv", 4, 469),
+("kitakami_sv", 5, 194),
+("kitakami_sv", 6, 195),
+("kitakami_sv", 7, 261),
+("kitakami_sv", 8, 262),
+("kitakami_sv", 9, 313),
+("kitakami_sv", 10, 314),
+("kitakami_sv", 11, 341),
+("kitakami_sv", 12, 342),
+("kitakami_sv", 13, 540),
+("kitakami_sv", 14, 541),
+("kitakami_sv", 15, 542),
+("kitakami_sv", 16, 742),
+("kitakami_sv", 17, 743),
+("kitakami_sv", 18, 23),
+("kitakami_sv", 19, 24),
+("kitakami_sv", 20, 172),
+("kitakami_sv", 21, 25),
+("kitakami_sv", 22, 26),
+("kitakami_sv", 23, 69),
+("kitakami_sv", 24, 70),
+("kitakami_sv", 25, 71),
+("kitakami_sv", 26, 161),
+("kitakami_sv", 27, 162),
+("kitakami_sv", 28, 396),
+("kitakami_sv", 29, 397),
+("kitakami_sv", 30, 398),
+("kitakami_sv", 31, 753),
+("kitakami_sv", 32, 754),
+("kitakami_sv", 33, 840),
+("kitakami_sv", 34, 841),
+("kitakami_sv", 35, 842),
+("kitakami_sv", 36, 1011),
+("kitakami_sv", 37, 37),
+("kitakami_sv", 38, 38),
+("kitakami_sv", 39, 60),
+("kitakami_sv", 40, 61),
+("kitakami_sv", 41, 62),
+("kitakami_sv", 42, 186),
+("kitakami_sv", 43, 129),
+("kitakami_sv", 44, 130),
+("kitakami_sv", 45, 163),
+("kitakami_sv", 46, 164),
+("kitakami_sv", 47, 190),
+("kitakami_sv", 48, 424),
+("kitakami_sv", 49, 214),
+("kitakami_sv", 50, 220),
+("kitakami_sv", 51, 221),
+("kitakami_sv", 52, 473),
+("kitakami_sv", 53, 234),
+("kitakami_sv", 54, 273),
+("kitakami_sv", 55, 274),
+("kitakami_sv", 56, 275),
+("kitakami_sv", 57, 280),
+("kitakami_sv", 58, 281),
+("kitakami_sv", 59, 282),
+("kitakami_sv", 60, 475),
+("kitakami_sv", 61, 401),
+("kitakami_sv", 62, 402),
+("kitakami_sv", 63, 417),
+("kitakami_sv", 64, 447),
+("kitakami_sv", 65, 448),
+("kitakami_sv", 66, 548),
+("kitakami_sv", 67, 549),
+("kitakami_sv", 68, 708),
+("kitakami_sv", 69, 709),
+("kitakami_sv", 70, 744),
+("kitakami_sv", 71, 745),
+("kitakami_sv", 72, 819),
+("kitakami_sv", 73, 820),
+("kitakami_sv", 74, 948),
+("kitakami_sv", 75, 949),
+("kitakami_sv", 76, 1012),
+("kitakami_sv", 77, 1013),
+("kitakami_sv", 78, 58),
+("kitakami_sv", 79, 59),
+("kitakami_sv", 80, 74),
+("kitakami_sv", 81, 75),
+("kitakami_sv", 82, 76),
+("kitakami_sv", 83, 438),
+("kitakami_sv", 84, 185),
+("kitakami_sv", 85, 532),
+("kitakami_sv", 86, 533),
+("kitakami_sv", 87, 534),
+("kitakami_sv", 88, 714),
+("kitakami_sv", 89, 715),
+("kitakami_sv", 90, 846),
+("kitakami_sv", 91, 847),
+("kitakami_sv", 92, 856),
+("kitakami_sv", 93, 857),
+("kitakami_sv", 94, 858),
+("kitakami_sv", 95, 877),
+("kitakami_sv", 96, 968),
+("kitakami_sv", 97, 924),
+("kitakami_sv", 98, 925),
+("kitakami_sv", 99, 56),
+("kitakami_sv", 100, 57),
+("kitakami_sv", 101, 979),
+("kitakami_sv", 102, 446),
+("kitakami_sv", 103, 143),
+("kitakami_sv", 104, 270),
+("kitakami_sv", 105, 271),
+("kitakami_sv", 106, 272),
+("kitakami_sv", 107, 299),
+("kitakami_sv", 108, 476),
+("kitakami_sv", 109, 403),
+("kitakami_sv", 110, 404),
+("kitakami_sv", 111, 405),
+("kitakami_sv", 112, 736),
+("kitakami_sv", 113, 737),
+("kitakami_sv", 114, 738),
+("kitakami_sv", 115, 741),
+("kitakami_sv", 116, 27),
+("kitakami_sv", 117, 28),
+("kitakami_sv", 118, 92),
+("kitakami_sv", 119, 93),
+("kitakami_sv", 120, 94),
+("kitakami_sv", 121, 207),
+("kitakami_sv", 122, 472),
+("kitakami_sv", 123, 228),
+("kitakami_sv", 124, 229),
+("kitakami_sv", 125, 325),
+("kitakami_sv", 126, 326),
+("kitakami_sv", 127, 629),
+("kitakami_sv", 128, 630),
+("kitakami_sv", 129, 749),
+("kitakami_sv", 130, 750),
+("kitakami_sv", 131, 782),
+("kitakami_sv", 132, 783),
+("kitakami_sv", 133, 784),
+("kitakami_sv", 134, 962),
+("kitakami_sv", 135, 109),
+("kitakami_sv", 136, 110),
+("kitakami_sv", 137, 619),
+("kitakami_sv", 138, 620),
+("kitakami_sv", 139, 355),
+("kitakami_sv", 140, 356),
+("kitakami_sv", 141, 477),
+("kitakami_sv", 142, 433),
+("kitakami_sv", 143, 358),
+("kitakami_sv", 144, 218),
+("kitakami_sv", 145, 219),
+("kitakami_sv", 146, 607),
+("kitakami_sv", 147, 608),
+("kitakami_sv", 148, 609),
+("kitakami_sv", 149, 283),
+("kitakami_sv", 150, 284),
+("kitakami_sv", 151, 173),
+("kitakami_sv", 152, 35),
+("kitakami_sv", 153, 36),
+("kitakami_sv", 154, 436),
+("kitakami_sv", 155, 437),
+("kitakami_sv", 156, 969),
+("kitakami_sv", 157, 970),
+("kitakami_sv", 158, 349),
+("kitakami_sv", 159, 350),
+("kitakami_sv", 160, 206),
+("kitakami_sv", 161, 982),
+("kitakami_sv", 162, 339),
+("kitakami_sv", 163, 340),
+("kitakami_sv", 164, 443),
+("kitakami_sv", 165, 444),
+("kitakami_sv", 166, 445),
+("kitakami_sv", 167, 703),
+("kitakami_sv", 168, 757),
+("kitakami_sv", 169, 758),
+("kitakami_sv", 170, 215),
+("kitakami_sv", 171, 461),
+("kitakami_sv", 172, 361),
+("kitakami_sv", 173, 362),
+("kitakami_sv", 174, 478),
+("kitakami_sv", 175, 602),
+("kitakami_sv", 176, 603),
+("kitakami_sv", 177, 604),
+("kitakami_sv", 178, 704),
+("kitakami_sv", 179, 705),
+("kitakami_sv", 180, 706),
+("kitakami_sv", 181, 580),
+("kitakami_sv", 182, 581),
+("kitakami_sv", 183, 833),
+("kitakami_sv", 184, 834),
+("kitakami_sv", 185, 845),
+("kitakami_sv", 186, 624),
+("kitakami_sv", 187, 625),
+("kitakami_sv", 188, 983),
+("kitakami_sv", 189, 778),
+("kitakami_sv", 190, 859),
+("kitakami_sv", 191, 860),
+("kitakami_sv", 192, 861),
+("kitakami_sv", 193, 876),
+("kitakami_sv", 194, 550),
+("kitakami_sv", 195, 902),
+("kitakami_sv", 196, 901),
+("kitakami_sv", 197, 1014),
+("kitakami_sv", 198, 1015),
+("kitakami_sv", 199, 1016),
+("kitakami_sv", 200, 1017)
+;
+
+-- Blueberry Acad. (Unova) Dex Number (Scarlet and Violet DLC 2: The Indigo Disk)
+-- INSERT INTO `regional_dex` VALUES
+-- ("blueberry_sv", 199, 1016),
+-- ("blueberry_sv", 200, 1017)
+-- ;
 
 DROP TABLE IF EXISTS `pokemon_desc`;
 CREATE TABLE `pokemon_desc` (
 	`id`		INT NOT NULL AUTO_INCREMENT,
     `desc`		VARCHAR(200) NOT NULL UNIQUE,
-    `baby`		BOOLEAN NOT NULL DEFAULT false,
+    -- `baby`		BOOLEAN NOT NULL DEFAULT false,
 
     PRIMARY KEY(`id`)
 );
@@ -3347,34 +4236,42 @@ INSERT INTO `pokemon_desc`(`desc`) VALUES
 
 -- Introduced in GEN 9
 INSERT INTO `pokemon_desc`(`desc`) VALUES
-("Grass Cat Pokémon"),			-- Sprigatito
-("Fire Croc Pokémon"),			-- Fuecoco
-("Duckling Pokémon"),			-- Quaxly
+("Grass Cat Pokémon"),			-- [666]
+("Magician Pokémon"),
+("Fire Croc Pokémon"),
+("Singer Pokémon"),
+("Duckling Pokémon"),
+("Practicing Pokémon"),
+("Dancer Pokémon"),
+("Hog Pokémon"),
+("String Ball Pokémon"),
+
+("Poison Fish Pokémon"),    -- Paldean Wooper
 ("")		-- keep this for future pending entries
 ;
 
--- BABY POKEMON
-UPDATE `pokemon_desc` SET `baby` = true WHERE `id` IN (
-	172, 	-- PICHU
-    173,	-- CLEFFA
-    174, 	-- IGGLYBUFF
-    175,	-- TOGEPI
-    236,	-- TYROGUE
-    238,	-- SMOOCHUM
-    239,	-- ELEKID
-    240,	-- MAGBY
-    298,	-- AZURILL
-    360,	-- WYNAUT
-    406,	-- BUDEW
-    433,	-- CHINGLING
-    438,	-- BONSLY
-    439,	-- MIME JR.
-    440,	-- HAPPINY
-    446,	-- MUNCHLAX
-    447,	-- RIOLU
-    458,	-- MANTYKE
-    848		-- TOXEL
-);
+-- -- BABY POKEMON
+-- UPDATE `pokemon_desc` SET `baby` = 1 WHERE `id` IN (
+-- 	172, 	-- PICHU
+--     173,	-- CLEFFA
+--     174, 	-- IGGLYBUFF
+--     175,	-- TOGEPI
+--     236,	-- TYROGUE
+--     238,	-- SMOOCHUM
+--     239,	-- ELEKID
+--     240,	-- MAGBY
+--     298,	-- AZURILL
+--     360,	-- WYNAUT
+--     406,	-- BUDEW
+--     433,	-- CHINGLING
+--     438,	-- BONSLY
+--     439,	-- MIME JR.
+--     440,	-- HAPPINY
+--     446,	-- MUNCHLAX
+--     447,	-- RIOLU
+--     458,	-- MANTYKE
+--     848		-- TOXEL
+-- );
 
 DROP TABLE IF EXISTS `ability`;
 CREATE TABLE `ability`(
@@ -3651,7 +4548,43 @@ INSERT INTO `ability`(`ability_name`, `effect`) VALUES
 ("Dragon's Maw", "Powers up Dragon-type moves."),
 ("Chilling Neigh", "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Attack stat."),
 ("Grim Neigh", "When the Pokémon knocks out a target, it utters a chilling neigh, which boosts its Sp. Atk stat."),
-("As One", "This Ability combines the effects of both Calyrex's Unnerve Ability and Glastrier's Chilling Neigh Ability/Spectrier's Grim Neigh Ability.")
+("As One", "This Ability combines the effects of both Calyrex's Unnerve Ability and Glastrier's Chilling Neigh Ability/Spectrier's Grim Neigh Ability."),
+("Lingering Aroma", "Contact with the Pokémon changes the attacker's Ability to Lingering Aroma."),
+("Seed Sower", "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack."),
+("Thermal Exchange", "Boosts the Attack stat when the Pokémon is hit by a Fire-type move. The Pokémon also cannot be burned."),
+("Anger Shell", "When an attack causes its HP to drop to half or less, the Pokémon gets angry. This lowers its Defense and Sp. Def stats but boosts its Attack, Sp. Atk, and Speed stats."),
+("Purifying Salt", "The Pokémon's pure salt protects it from status conditions and halves the damage taken from Ghost-type moves."),
+("Well-Baked Body", "The Pokémon takes no damage when hit by Fire-type moves. Instead, its Defense stat is sharply boosted."),
+("Wind Rider", "Boosts the Pokémon's Attack stat if Tailwind takes effect or if the Pokémon is hit by a wind move. The Pokémon also takes no damage from wind moves."),
+("Guard Dog", "Boosts the Pokémon's Attack stat if intimidated. Moves and items that would force the Pokémon to switch out also fail to work."),
+("Rocky Payload", "Powers up Rock-type moves."),
+("Wind Power", "The Pokémon becomes charged when it is hit by a wind move, boosting the power of the next Electric-type move the Pokémon uses."),
+("Zero to Hero", "The Pokémon transforms into its Hero Form when it switches out."),
+("Commander", "When the Pokémon enters a battle, it goes inside the mouth of an ally Dondozo if one is on the field. The Pokémon then issues commands from there."),
+("Electromorphosis", "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses."),
+("Protosynthesis", "Boosts the Pokémon's most proficient stat in harsh sunlight or if the Pokémon is holding Booster Energy."),
+("Quark Drive", "Boosts the Pokémon's most proficient stat on Electric Terrain or if the Pokémon is holding Booster Energy."),
+("Good as Gold", "A body of pure, solid gold gives the Pokémon full immunity to other Pokémon's status moves."),
+("Vessel of Ruin", "The power of the Pokémon's ruinous vessel lowers the Sp. Atk stats of all Pokémon except itself."),
+("Sword of Ruin", "The power of the Pokémon's ruinous sword lowers the Defense stats of all Pokémon except itself."),
+("Tablets of Ruin", "The power of the Pokémon's ruinous wooden tablets lowers the Attack stats of all Pokémon except itself."),
+("Beads of Ruin", "The power of the Pokémon's ruinous beads lowers the Sp. Def stats of all Pokémon except itself."),
+("Orichalcum Pulse", "Turns the sunlight harsh when the Pokémon enters a battle. The ancient pulse thrumming through the Pokémon also boosts its Attack stat in harsh sunlight."),
+("Hadron Engine", "Turns the ground into Electric Terrain when the Pokémon enters a battle. The futuristic engine within the Pokémon also boosts its Sp. Atk stat on Electric Terrain."),
+("Opportunist", "If an opponent's stat is boosted, the Pokémon seizes the opportunity to boost the same stat for itself."),
+("Cud Chew", "When the Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time."),
+("Sharpness", "Powers up slicing moves."),
+("Supreme Overlord", "When the Pokémon enters a battle, its Attack and Sp. Atk stats are slightly boosted for each of the allies in its party that have already been defeated."),
+("Costar", "When the Pokémon enters a battle, it copies an ally's stat changes."),
+("Toxic Debris", "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves."),
+("Armor Tail", "The mysterious tail covering the Pokémon's head makes opponents unable to use priority moves against the Pokémon or its allies."),
+("Earth Eater", "If hit by a Ground-type move, the Pokémon has its HP restored instead of taking damage."),
+("Mycelium Might", "The Pokémon will always act more slowly when using status moves, but these moves will be unimpeded by the Ability of the target."),
+("Hospitality", "When the Pokémon enters a battle, it showers its ally with hospitality, restoring a small amount of the ally's HP."),
+("Mind's Eye", "The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves."),
+("Embody Aspect", "The Pokémon's heart fills with memories, causing the Teal/Hearthflame/Wellspring/Cornerstone Mask to shine and the Pokémon's Speed/Attack/Sp. Def/Defense stat to be boosted."),
+("Toxic Chain", "The power of the Pokémon's toxic chain may badly poison any target the Pokémon hits with a move."),
+("Supersweet Syrup", "A sickly sweet scent spreads across the field the first time the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon.")
 ;
 
 -- Z-move (Generation 7 only)
@@ -3698,12 +4631,13 @@ CREATE TABLE `type_bundle` (
     `type2`				INT NULL,
     `mega_stone`		VARCHAR(50) NULL,
     `excl_z_ref`		INT NULL,
-	`g_max_move`		VARCHAR(100) NULL,
-	`g_max_type`		INT NULL,
+	`gmax_move`			VARCHAR(100) NULL,
+	`gmax_type`			INT NULL,
     `pokedex_ref`		INT NOT NULL,
     `ability1`			INT NULL,
     `ability2`			INT NULL,
     `hidden_ability`	INT NULL,
+    `terastal_ability`	INT NULL,
 
     UNIQUE KEY (`type_name`, `pokedex_ref`),
 
@@ -3711,11 +4645,12 @@ CREATE TABLE `type_bundle` (
     FOREIGN KEY(`type1`) REFERENCES `types`(`id`),
     FOREIGN KEY(`type2`) REFERENCES `types`(`id`),
     FOREIGN KEY(`excl_z_ref`) REFERENCES `excl_z`(`id`),
-    FOREIGN KEY(`g_max_type`) REFERENCES `types`(`id`),
+    FOREIGN KEY(`gmax_type`) REFERENCES `types`(`id`),
 	FOREIGN KEY(`pokedex_ref`) REFERENCES `pokemon_list`(`id`),
     FOREIGN KEY(`ability1`) REFERENCES `ability`(`id`),
     FOREIGN KEY(`ability2`) REFERENCES `ability`(`id`),
-    FOREIGN KEY(`hidden_ability`) REFERENCES `ability`(`id`)
+    FOREIGN KEY(`hidden_ability`) REFERENCES `ability`(`id`),
+    FOREIGN KEY(`terastal_ability`) REFERENCES `ability`(`id`)
 );
 
 -- KANTO regulars
@@ -4838,15 +5773,144 @@ INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type
 -- GEN 9 regulars
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`) VALUES
 (906, 9, NULL),		-- #906 SPRIGATITO
-(907, 9, NULL),		-- #906 FLORAGATO
-(908, 9, 10),		-- #906 MEOWSCARADA
+(907, 9, NULL),		-- #907 FLORAGATO
+(908, 9, 10),		-- #908 MEOWSCARADA
 (909, 13, NULL),	-- #909 FUECOCO
-(910, 13, NULL),	-- #909 CROCALOR
-(911, 13, 1),	    -- #909 SKELEDIRGE
+(910, 13, NULL),	-- #910 CROCALOR
+(911, 13, 1),	    -- #911 SKELEDIRGE
 (912, 6, NULL),		-- #912 QUAXLY
-(913, 6, NULL),		-- #912 QUAXWELL
-(914, 6, 14)		-- #912 QUAQUAVAL
+(913, 6, NULL),		-- #913 QUAXWELL
+(914, 6, 14),		-- #914 QUAQUAVAL
+(915, 12, NULL),	-- #915 LECHONK
+-- #916 OINKOLOGNE to be entered separately
+(917, 5, NULL), 	-- #917 TAROUNTULA
+(918, 5, NULL), 	-- #918 SPIDOPS
+(919, 5, NULL), 	-- #919 NYMBLE
+(920, 5, 10),    	-- #920 LOKIX
+(921, 7, NULL),   	-- #921 PAWMI
+(922, 7, 14),   	-- #922 PAWMO
+(923, 7, 14),   	-- #923 PAWMOT
+(924, 12, NULL),   	-- #924 TANDEMAUS
+(925, 12, NULL),   	-- #925 MAUSHOLD
+(926, 17, NULL),    -- #926 FIDOUGH
+(927, 17, NULL),    -- #927 DACHSBUN
+(928, 9, 12),   	-- #928 SMOLIV
+(929, 9, 12),   	-- #929 DOLLIV
+(930, 9, 12),   	-- #930 ARBOLIVA
+-- #931 SQUAWKABILLY to be entered separately
+(932, 8, NULL),     -- #932 NACLI
+(933, 8, NULL),     -- #933 NACLSTACK
+(934, 8, NULL),     -- #934 GARGANACL
+(935, 13, NULL),	-- #935 CHARCADET
+(936, 13, 16),		-- #936 ARMAROUGE
+(937, 13, 1),		-- #937 CERULEDGE
+(938, 7, NULL),   	-- #938 TADBULB
+(939, 7, NULL),   	-- #939 BELLIBOLT
+(940, 7, 3),       	-- #940 WATTREL
+(941, 7, 3),       	-- #941 KILOWATTREL
+(942, 10, NULL),    -- #942 MASCHIFF
+(943, 10, NULL),    -- #943 MABOSSTIFF
+(944, 4, 12),       -- #944 SHROODLE
+(945, 4, 12),       -- #945 GRAFAIAI
+(946, 9, 1),        -- #946 BRAMBLIN
+(947, 9, 1),        -- #947 BRAMBLEGHAST
+(948, 2, 9),		-- #948 TOEDSTOOL
+(949, 2, 9),		-- #949 TOEDSCRUEL
+(950, 8, NULL),     -- #950 KLAWF
+(951, 9, NULL),   	-- #951 CAPSAKID
+(952, 9, 13),   	-- #952 SCOVILLAIN
+(953, 5, NULL), 	-- #953 RELLOR
+(954, 5, 16),   	-- #954 RABSCA
+(955, 16, NULL), 	-- #955 FLITTLE
+(956, 16, NULL), 	-- #956 ESPATHRA
+(957, 17, 15),		-- #957 TINKATINK
+(958, 17, 15),		-- #958 TINKATUFF
+(959, 17, 15),		-- #959 TINKATON
+(960, 6, NULL),   	-- #960 WIGLETT
+(961, 6, NULL),   	-- #961 WUGTRIO
+(962, 3, 10),      	-- #962 BOMBIRDIER
+(963, 6, NULL),   	-- #963 FINIZEN
+(964, 6, NULL),   	-- #964 PALAFIN
+(965, 15, 4),   	-- #965 VAROOM
+(966, 15, 4),   	-- #966 REVAVROOM's other forms to be entered separately
+(967, 0, 12),   	-- #967 CYCLIZAR
+(968, 15, NULL),   	-- #968 ORTHWORM
+(969, 8, 4),        -- #969 GLIMMET
+(970, 8, 4),        -- #970 GLIMMORA
+(971, 1, NULL), 	-- #971 GREAVARD
+(972, 1, NULL), 	-- #972 HOUNDSTONE
+(973, 3, 14),      	-- #973 FLAMIGO
+(974, 11, NULL),   	-- #974 CETODDLE
+(975, 11, NULL),   	-- #975 CETITAN
+(976, 6, 16),   	-- #976 VELUZA
+(977, 6, NULL),   	-- #977 DONDOZO
+(978, 0, 6),       	-- #978 TATSUGIRI
+(979, 14, 1),		-- #979 ANNIHILAPE
+(980, 4, 2),		-- #980 CLODSIRE
+(981, 12, 16),   	-- #981 FARIGIRAF
+(982, 12, NULL),	-- #982 DUNDUNSPARCE
+(983, 10, 15),		-- #983 KINGAMBIT
+(984, 15, 1),       -- #984 GREAT TUSK
+(985, 17, 16),      -- #985 SCREAM TAIL
+(986, 9, 10),       -- #986 BRUTE BONNET
+(987, 1, 17),       -- #987 FLUTTER MANE
+(988, 5, 14),       -- #988 SLITHER WING
+(989, 9, 10),       -- #989 SANDY SHOCKS
+(990, 2, 15),		-- #990 IRON TREADS
+(991, 11, 6),		-- #991 IRON BUNDLE
+(992, 14, 7),		-- #992 IRON HANDS
+(993, 10, 3),		-- #993 IRON JUGULIS
+(994, 13, 4),		-- #994 IRON MOTH
+(995, 8, 7),		-- #995 IRON THORNS
+(996, 0, 11),   	-- #996 FRIGIBAX
+(997, 0, 11),   	-- #997 ARCTIBAX
+(998, 0, 11),   	-- #998 BAXCALIBUR
+-- #999 GIMMIGHOUL to be entered separately
+(1000, 15, 1),      -- #1000 GHOLDENGO
+(1001, 10, 9),		-- #1001 WO-CHIEN
+(1002, 10, 11),		-- #1002 CHIEN-PAO
+(1003, 10, 2),		-- #1003 TING-LU
+(1004, 10, 13),		-- #1004 CHI-YU
+(1005, 0, 10),      -- #1005 ROARING MOON
+(1006, 17, 14),		-- #1006 IRON VALIANT
+(1007, 14, 0),		-- #1007 KORAIDON
+(1008, 7, 0),		-- #1008 MIRAIDON
+(1009, 6, 0),		-- #1009 WALKING WAKE
+(1010, 9, 16),		-- #1010 IRON LEAVES
+(1011, 9, 0),		-- #1011 DIPPLIN
+(1012, 9, 1),		-- #1012 POLTCHAGEIST
+(1013, 9, 1),		-- #1013 SINISTCHA
+(1014, 4, 14),		-- #1014 OKIDOGI
+(1015, 4, 16),		-- #1015 MUNKIDORI
+(1016, 4, 17)		-- #1016 FEZANDIPITI
+-- #1017 OGERPON to be entered separately
 ;
+
+-- #916 OINKOLOGNE
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (916, 12, NULL, "default_m", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (916, 12, NULL, "default_f", "");
+
+-- #931 SQUAWKABILLY
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (931, 12, 3, "green_plumage", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (931, 12, 3, "blue_plumage", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (931, 12, 3, "yellow_plumage", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (931, 12, 3, "white_plumage", "");
+
+-- #966 REVAVROOM
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 10, NULL, "segin_starmobile", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 13, NULL, "schedar_starmobile", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 4, NULL, "navi_starmobile", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 17, NULL, "ruchbah_starmobile", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 14, NULL, "caph_starmobile", "");
+-- #966 REVAVROOM
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (999, 1, NULL, "chest_form", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (999, 1, NULL, "roaming_form", "");
+
+-- #1017 OGERPON
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1017, 9, NULL, "teal_mask", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1017, 9, 6, "wellspring_mask", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1017, 9, 13, "heathflame_mask", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1017, 9, 8, "cornerstone_mask", "");
 
 -- megas
 INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`, `mega_stone`) VALUES
@@ -4929,7 +5993,7 @@ INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`) VALUES
 ("galar_variant", 16, 17, 78),					-- Rapidash
 ("galar_variant", 16, NULL, 79),				-- Slowpoke
 ("galar_variant", 4, 16, 80),					-- Slowbro
-("galar_variant", 14, NULL, 83),				-- Farfetch"d
+("galar_variant", 14, NULL, 83),				-- Farfetch'd
 ("galar_variant", 4, 17, 110),					-- Weezing
 ("galar_variant", 11, 16, 122),					-- Mr Mime
 ("galar_variant", 16, 3, 144),					-- Articuno
@@ -4971,7 +6035,15 @@ INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`) VALUES
 
 -- paldea_variant
 INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`) VALUES
+("paldea_combat", 14, NULL, 128),
+("paldea_blaze", 14, 13, 128),
+("paldea_aqua", 14, 6, 128),
 ("paldea_variant", 4, 2, 194)
+;
+
+-- BloodMoon Ursaluna
+INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`) VALUES
+("bloodmoon", 2, 12, 901)
 ;
 
 -- KANTO PKMN descriptions
@@ -5022,7 +6094,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 41) WHERE `pokedex_ref` IN (74, 75);						-- Rock
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 42) WHERE `pokedex_ref` IN (76);							-- Megaton
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 43) WHERE `pokedex_ref` IN (77, 78);						-- Fire Horse
-#UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 44) WHERE `pokedex_ref` IN ();				-- Unique Horn
+-- UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 44) WHERE `pokedex_ref` IN ();				-- Unique Horn
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 44) WHERE `pokedex_ref` IN (79);							-- Dopey
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 45) WHERE `pokedex_ref` IN (80);							-- Hermit Crab
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 46) WHERE `pokedex_ref` IN (81, 82);						-- Magnet
@@ -5056,7 +6128,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 73) WHERE `pokedex_ref` IN (120, 173);					-- Star Shape
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 74) WHERE `pokedex_ref` IN (121);						-- Mysterious
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 75) WHERE `pokedex_ref` IN (122);						-- Barrier
-#UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 77) WHERE `pokedex_ref` IN ();				-- Dancing
+-- UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 77) WHERE `pokedex_ref` IN ();				-- Dancing
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 76) WHERE `pokedex_ref` IN (123);						-- Mantis
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 77) WHERE `pokedex_ref` IN (124);						-- Jynx
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 78) WHERE `pokedex_ref` IN (125, 145, 239);				-- Electric
@@ -5439,7 +6511,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 447) WHERE `pokedex_ref` IN (615);						-- Crystallizing
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 448) WHERE `pokedex_ref` IN (616);						-- Snail
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 449) WHERE `pokedex_ref` IN (617);						-- Shell Out
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 450) WHERE `pokedex_ref` IN (618);						-- Trap
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 450) WHERE `pokedex_ref` IN (618, 918);					-- Trap
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 451) WHERE `pokedex_ref` IN (619, 620);					-- Martial Arts
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 452) WHERE `pokedex_ref` IN (622, 623);					-- Automaton
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 453) WHERE `pokedex_ref` IN (624);						-- Sharp Blade
@@ -5701,10 +6773,18 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 665) WHERE `pokedex_ref` IN (905);						-- Love-Hate
 
 -- GEN 9 PKMN descriptions
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 666) WHERE `pokedex_ref` IN (906);						-- Grass Cat
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 667) WHERE `pokedex_ref` IN (909);						-- Fire Croc
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 668) WHERE `pokedex_ref` IN (912);						-- Duckling
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 666) WHERE `pokedex_ref` IN (906, 907);					-- Grass Cat
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 667) WHERE `pokedex_ref` IN (908);						-- Magician
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 668) WHERE `pokedex_ref` IN (909, 910);					-- Fire Croc
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 669) WHERE `pokedex_ref` IN (911);						-- Singer
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 670) WHERE `pokedex_ref` IN (912);						-- Duckling
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 671) WHERE `pokedex_ref` IN (913);						-- Practicing
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 672) WHERE `pokedex_ref` IN (914);						-- Dancer
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 673) WHERE `pokedex_ref` IN (915, 916);					-- Hog
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 674) WHERE `pokedex_ref` IN (917);						-- String Ball
 
+-- PALDEA PKMN descriptions
+-- UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 655) WHERE `pokedex_ref` IN (194) AND INSTR(`type_name`, "paldea") > 0;			-- Poison Fish
 
 -- insert exclusive Z-moves
 -- UPDATE `type_bundle` SET `excl_z_ref` = 1 WHERE `pokedex_ref` = 25 AND INSTR(`type_name`, "cap");						-- 10,000,000 Volt Thunderbolt (Cap Pikachu)
@@ -5728,39 +6808,41 @@ UPDATE `type_bundle` SET `excl_z_ref` = 15 WHERE `pokedex_ref` = 802 AND `type_n
 UPDATE `type_bundle` SET `excl_z_ref` = 16 WHERE `pokedex_ref` = 745 AND `type_name` IN ("midday_form", "midnight_form", "dusk_form");	-- Splintered Stormshards (Lycanroc - midday, midnight, dusk)
 UPDATE `type_bundle` SET `excl_z_ref` = 17 WHERE `pokedex_ref` = 26 AND `type_name` = "alola_variant";					-- Stoked Sparksurfer (Raichu - Alola Variant)
 
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Vine Lash", `g_max_type` = 9 WHERE `pokedex_ref` = 3 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Wildfire", `g_max_type` = 13 WHERE `pokedex_ref` = 6 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Cannonade", `g_max_type` = 6 WHERE `pokedex_ref` = 9 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Befuddle", `g_max_type` = 5 WHERE `pokedex_ref` = 12 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Volt Crash", `g_max_type` = 7 WHERE `pokedex_ref` = 25 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Gold Rush", `g_max_type` = 12 WHERE `pokedex_ref` = 52 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Chi Strike", `g_max_type` = 14 WHERE `pokedex_ref` = 68 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Terror", `g_max_type` = 1 WHERE `pokedex_ref` = 94 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Foam Burst", `g_max_type` = 6 WHERE `pokedex_ref` = 99 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Resonance", `g_max_type` = 11 WHERE `pokedex_ref` = 131 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Cuddle", `g_max_type` = 12 WHERE `pokedex_ref` = 133 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Replenish", `g_max_type` = 12 WHERE `pokedex_ref` = 143 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Malodor", `g_max_type` = 4 WHERE `pokedex_ref` = 569 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Meltdown", `g_max_type` = 15 WHERE `pokedex_ref` = 809 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Drum Solo", `g_max_type` = 9 WHERE `pokedex_ref` = 812 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Fireball", `g_max_type` = 13 WHERE `pokedex_ref` = 815 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Hydrosnipe", `g_max_type` = 6 WHERE `pokedex_ref` = 818 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Wind Rage", `g_max_type` = 3 WHERE `pokedex_ref` = 823 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Gravitas", `g_max_type` = 16 WHERE `pokedex_ref` = 826 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Stonesurge", `g_max_type` = 6 WHERE `pokedex_ref` = 834 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Volcalith", `g_max_type` = 8 WHERE `pokedex_ref` = 839 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Tartness", `g_max_type` = 9 WHERE `pokedex_ref` = 841 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Sweetness", `g_max_type` = 9 WHERE `pokedex_ref` = 842 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Sandblast", `g_max_type` = 2 WHERE `pokedex_ref` = 844 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Stun Shock", `g_max_type` = 7 WHERE `pokedex_ref` = 849 AND `type_name` IN ("amped_form", "low_key_form");
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Centiferno", `g_max_type` = 13 WHERE `pokedex_ref` = 851 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Smite", `g_max_type` = 17 WHERE `pokedex_ref` = 858 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Snooze", `g_max_type` = 10 WHERE `pokedex_ref` = 861 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Finale", `g_max_type` = 17 WHERE `pokedex_ref` = 869 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Steelsurge", `g_max_type` = 15 WHERE `pokedex_ref` = 879 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Depletion", `g_max_type` = 0 WHERE `pokedex_ref` = 884 AND `type_name` = "default";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max One Blow", `g_max_type` = 10 WHERE `pokedex_ref` = 892 AND `type_name` = "single_strike_style";
-UPDATE `type_bundle` SET `g_max_move` = "G-Max Rapid Flow", `g_max_type` = 6 WHERE `pokedex_ref` = 892 AND `type_name` = "rapid_strike_style";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Vine Lash", `gmax_type` = 9 WHERE `pokedex_ref` = 3 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Wildfire", `gmax_type` = 13 WHERE `pokedex_ref` = 6 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Cannonade", `gmax_type` = 6 WHERE `pokedex_ref` = 9 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Befuddle", `gmax_type` = 5 WHERE `pokedex_ref` = 12 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Volt Crash", `gmax_type` = 7 WHERE `pokedex_ref` = 25 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Gold Rush", `gmax_type` = 12 WHERE `pokedex_ref` = 52 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Chi Strike", `gmax_type` = 14 WHERE `pokedex_ref` = 68 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Terror", `gmax_type` = 1 WHERE `pokedex_ref` = 94 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Foam Burst", `gmax_type` = 6 WHERE `pokedex_ref` = 99 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Resonance", `gmax_type` = 11 WHERE `pokedex_ref` = 131 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Cuddle", `gmax_type` = 12 WHERE `pokedex_ref` = 133 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Replenish", `gmax_type` = 12 WHERE `pokedex_ref` = 143 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Malodor", `gmax_type` = 4 WHERE `pokedex_ref` = 569 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Meltdown", `gmax_type` = 15 WHERE `pokedex_ref` = 809 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Drum Solo", `gmax_type` = 9 WHERE `pokedex_ref` = 812 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Fireball", `gmax_type` = 13 WHERE `pokedex_ref` = 815 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Hydrosnipe", `gmax_type` = 6 WHERE `pokedex_ref` = 818 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Wind Rage", `gmax_type` = 3 WHERE `pokedex_ref` = 823 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Gravitas", `gmax_type` = 16 WHERE `pokedex_ref` = 826 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Stonesurge", `gmax_type` = 6 WHERE `pokedex_ref` = 834 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Volcalith", `gmax_type` = 8 WHERE `pokedex_ref` = 839 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Tartness", `gmax_type` = 9 WHERE `pokedex_ref` = 841 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Sweetness", `gmax_type` = 9 WHERE `pokedex_ref` = 842 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Sandblast", `gmax_type` = 2 WHERE `pokedex_ref` = 844 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Stun Shock", `gmax_type` = 7 WHERE `pokedex_ref` = 849 AND `type_name` IN ("amped_form", "low_key_form");
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Centiferno", `gmax_type` = 13 WHERE `pokedex_ref` = 851 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Smite", `gmax_type` = 17 WHERE `pokedex_ref` = 858 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Snooze", `gmax_type` = 10 WHERE `pokedex_ref` = 861 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Finale", `gmax_type` = 17 WHERE `pokedex_ref` = 869 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Steelsurge", `gmax_type` = 15 WHERE `pokedex_ref` = 879 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Depletion", `gmax_type` = 0 WHERE `pokedex_ref` = 884 AND `type_name` = "default";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max One Blow", `gmax_type` = 10 WHERE `pokedex_ref` = 892 AND `type_name` = "single_strike_style";
+UPDATE `type_bundle` SET `gmax_move` = "G-Max Rapid Flow", `gmax_type` = 6 WHERE `pokedex_ref` = 892 AND `type_name` = "rapid_strike_style";
+
+-- ABILITIES
 
 -- Stench
 UPDATE `type_bundle` SET `ability1` = 1 WHERE
@@ -5782,10 +6864,11 @@ UPDATE `type_bundle` SET `hidden_ability` = 2 WHERE (`pokedex_ref` = 186 AND `ty
 
 -- Speed Boost
 UPDATE `type_bundle` SET `ability1` = 3 WHERE
-(`pokedex_ref` = 193 AND `type_name` = "default") OR	-- Yanma
-(`pokedex_ref` = 257 AND `type_name` = "mega") OR		-- MEGA Blaziken
-(`pokedex_ref` = 291 AND `type_name` = "default") OR	-- Ninjask
-(`pokedex_ref` = 469 AND `type_name` = "default");		-- Yanmega
+(`pokedex_ref` = 193 AND `type_name` = "default") OR			-- Yanma
+(`pokedex_ref` = 257 AND `type_name` = "mega") OR				-- MEGA Blaziken
+(`pokedex_ref` = 291 AND `type_name` = "default") OR			-- Ninjask
+(`pokedex_ref` = 469 AND `type_name` = "default") OR			-- Yanmega
+(`pokedex_ref` = 966 AND `type_name` = "schedar_starmobile");	-- Revavroom (Schedar Starmobile)
 UPDATE `type_bundle` SET `hidden_ability` = 3 WHERE
 (`pokedex_ref` = 255 AND `type_name` = "default") OR	-- Torchic
 (`pokedex_ref` = 256 AND `type_name` = "default") OR	-- Combusken
@@ -5794,7 +6877,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 3 WHERE
 (`pokedex_ref` = 319 AND `type_name` = "default") OR	-- Sharpedo
 (`pokedex_ref` = 543 AND `type_name` = "default") OR	-- Venipede
 (`pokedex_ref` = 544 AND `type_name` = "default") OR	-- Whirlipede
-(`pokedex_ref` = 545 AND `type_name` = "default");		-- Scolipede
+(`pokedex_ref` = 545 AND `type_name` = "default") OR	-- Scolipede
+(`pokedex_ref` = 955 AND `type_name` = "default") OR	-- Flittle
+(`pokedex_ref` = 956 AND `type_name` = "default");		-- Espathra
 
 -- Battle Armor
 UPDATE `type_bundle` SET `ability1` = 4 WHERE
@@ -5848,7 +6933,10 @@ UPDATE `type_bundle` SET `ability2` = 5 WHERE
 (`pokedex_ref` = 227 AND `type_name` = "default") OR		-- Skarmory
 (`pokedex_ref` = 462 AND `type_name` = "default") OR		-- Magnezone
 (`pokedex_ref` = 564 AND `type_name` = "default") OR		-- Tirtouga
-(`pokedex_ref` = 565 AND `type_name` = "default");			-- Carracosta
+(`pokedex_ref` = 565 AND `type_name` = "default") OR		-- Carracosta
+(`pokedex_ref` = 932 AND `type_name` = "default") OR		-- Nacli
+(`pokedex_ref` = 933 AND `type_name` = "default") OR		-- Naclstack
+(`pokedex_ref` = 934 AND `type_name` = "default");			-- Garganacl
 UPDATE `type_bundle` SET `hidden_ability` = 5 WHERE
 (`pokedex_ref` = 369 AND `type_name` = "default") OR		-- Relicanth
 (`pokedex_ref` = 377 AND `type_name` = "default") OR		-- Regirock
@@ -5880,7 +6968,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 6 WHERE
 (`pokedex_ref` = 259 AND `type_name` = "default") OR	-- Marshtomp
 (`pokedex_ref` = 260 AND `type_name` = "default") OR	-- Swampert
 (`pokedex_ref` = 592 AND `type_name` = "default") OR	-- Frillish
-(`pokedex_ref` = 593 AND `type_name` = "default");		-- Jellicent
+(`pokedex_ref` = 593 AND `type_name` = "default") OR	-- Jellicent
+(`pokedex_ref` = 938 AND `type_name` = "default") OR	-- Tadbulb
+(`pokedex_ref` = 939 AND `type_name` = "default");		-- Bellibolt
 
 -- Limber
 UPDATE `type_bundle` SET `ability1` = 7 WHERE
@@ -5930,7 +7020,10 @@ UPDATE `type_bundle` SET `hidden_ability` = 8 WHERE
 (`pokedex_ref` = 769 AND `type_name` = "default") OR	-- Sandygast
 (`pokedex_ref` = 770 AND `type_name` = "default") OR	-- Palossand
 (`pokedex_ref` = 843 AND `type_name` = "default") OR	-- Silicobra
-(`pokedex_ref` = 844 AND `type_name` = "default");		-- Sandaconda
+(`pokedex_ref` = 844 AND `type_name` = "default") OR	-- Sandaconda
+(`pokedex_ref` = 960 AND `type_name` = "default") OR	-- Wiglett
+(`pokedex_ref` = 961 AND `type_name` = "default") OR	-- Wugtrio
+(`pokedex_ref` = 968 AND `type_name` = "default");		-- Orthworm
 
 -- Static
 UPDATE `type_bundle` SET `ability1` = 9 WHERE
@@ -5953,14 +7046,17 @@ UPDATE `type_bundle` SET `ability1` = 9 WHERE
 (`pokedex_ref` = 309 AND `type_name` = "default") OR			-- Electrike
 (`pokedex_ref` = 310 AND `type_name` = "default") OR			-- Manectric
 (`pokedex_ref` = 587 AND `type_name` = "default") OR			-- Emolga
-(`pokedex_ref` = 618 AND `type_name` = "default");				-- Stunfisk
+(`pokedex_ref` = 618 AND `type_name` = "default") OR			-- Stunfisk
+(`pokedex_ref` = 921 AND `type_name` = "default");				-- Pawmi
 UPDATE `type_bundle` SET `ability2` = 9 WHERE
 (`pokedex_ref` = 100 AND `type_name` = "default") OR			-- Voltorb
 (`pokedex_ref` = 100 AND `type_name` = "hisui_variant") OR		-- Voltorb (Hisui)
 (`pokedex_ref` = 101 AND `type_name` = "default") OR			-- Electrode
 (`pokedex_ref` = 101 AND `type_name` = "hisui_variant") OR		-- Electrode (Hisui)
 (`pokedex_ref` = 848 AND `type_name` = "default") OR			-- Toxel
-(`pokedex_ref` = 881 AND `type_name` = "default");				-- Arctozolt
+(`pokedex_ref` = 881 AND `type_name` = "default") OR			-- Arctozolt
+(`pokedex_ref` = 938 AND `type_name` = "default") OR			-- Tadbulb
+(`pokedex_ref` = 939 AND `type_name` = "default");				-- Bellibolt
 UPDATE `type_bundle` SET `hidden_ability` = 9 WHERE
 (`pokedex_ref` = 145 AND `type_name` = "default");		-- Zapdos
 
@@ -5972,7 +7068,12 @@ UPDATE `type_bundle` SET `ability1` = 10 WHERE
 (`pokedex_ref` = 642 AND `type_name` = "therian_forme") OR	-- Thundrus (Therian Forme)
 (`pokedex_ref` = 807 AND `type_name` = "default") OR		-- Zeraora
 (`pokedex_ref` = 880 AND `type_name` = "default") OR		-- Dracozolt
-(`pokedex_ref` = 881 AND `type_name` = "default");			-- Arctozolt
+(`pokedex_ref` = 881 AND `type_name` = "default") OR		-- Arctozolt
+(`pokedex_ref` = 922 AND `type_name` = "default") OR		-- Pawmo
+(`pokedex_ref` = 923 AND `type_name` = "default");			-- Pawmot
+UPDATE `type_bundle` SET `ability2` = 10 WHERE
+(`pokedex_ref` = 940 AND `type_name` = "default") OR		-- Wattrel
+(`pokedex_ref` = 941 AND `type_name` = "default");			-- Kilowattrel
 UPDATE `type_bundle` SET `hidden_ability` = 10 WHERE
 (`pokedex_ref` = 312 AND `type_name` = "default") OR	-- Minun
 (`pokedex_ref` = 417 AND `type_name` = "default");		-- Pachirisu
@@ -5992,10 +7093,12 @@ UPDATE `type_bundle` SET `ability1` = 11 WHERE
 (`pokedex_ref` = 882 AND `type_name` = "default") OR	-- Dracovish
 (`pokedex_ref` = 883 AND `type_name` = "default");		-- Arctovish
 UPDATE `type_bundle` SET `ability2` = 11 WHERE
-(`pokedex_ref` = 194 AND `type_name` = "default") OR	-- Wooper
-(`pokedex_ref` = 195 AND `type_name` = "default") OR	-- Quagsire
-(`pokedex_ref` = 226 AND `type_name` = "default") OR	-- Mantine
-(`pokedex_ref` = 458 AND `type_name` = "default");		-- Mantyke
+(`pokedex_ref` = 194 AND `type_name` = "default") OR		-- Wooper
+(`pokedex_ref` = 194 AND `type_name` = "paldea_variant") OR	-- Wooper (Paldea)
+(`pokedex_ref` = 195 AND `type_name` = "default") OR		-- Quagsire
+(`pokedex_ref` = 226 AND `type_name` = "default") OR		-- Mantine
+(`pokedex_ref` = 458 AND `type_name` = "default") OR		-- Mantyke
+(`pokedex_ref` = 980 AND `type_name` = "default");			-- Clodsire
 UPDATE `type_bundle` SET `hidden_ability` = 11 WHERE
 (`pokedex_ref` = 170 AND `type_name` = "default") OR	-- Chinchou
 (`pokedex_ref` = 171 AND `type_name` = "default") OR	-- Lanturn
@@ -6028,7 +7131,8 @@ UPDATE `type_bundle` SET `ability2` = 12 WHERE
 (`pokedex_ref` = 349 AND `type_name` = "default") OR	-- Feebas
 (`pokedex_ref` = 463 AND `type_name` = "default") OR	-- Lickilicky
 (`pokedex_ref` = 761 AND `type_name` = "default") OR	-- Bounsweet
-(`pokedex_ref` = 762 AND `type_name` = "default");		-- Steenee
+(`pokedex_ref` = 762 AND `type_name` = "default") OR	-- Steenee
+(`pokedex_ref` = 977 AND `type_name` = "default");		-- Dondozo
 UPDATE `type_bundle` SET `hidden_ability` = 12 WHERE
 (`pokedex_ref` = 363 AND `type_name` = "default") OR	-- Spheal
 (`pokedex_ref` = 364 AND `type_name` = "default") OR	-- Sealeo
@@ -6053,7 +7157,8 @@ UPDATE `type_bundle` SET `ability1` = 14 WHERE
 (`pokedex_ref` = 48 AND `type_name` = "default") OR		-- Venonat
 (`pokedex_ref` = 290 AND `type_name` = "default") OR	-- Nincada
 (`pokedex_ref` = 595 AND `type_name` = "default") OR	-- Joltik
-(`pokedex_ref` = 596 AND `type_name` = "default");		-- Galvantula
+(`pokedex_ref` = 596 AND `type_name` = "default") OR	-- Galvantula
+(`pokedex_ref` = 953 AND `type_name` = "default");		-- Rellor
 UPDATE `type_bundle` SET `ability2` = 14 WHERE
 (`pokedex_ref` = 193 AND `type_name` = "default") OR	-- Yanma
 (`pokedex_ref` = 664 AND `type_name` = "default") OR	-- Scatterbug
@@ -6073,10 +7178,14 @@ UPDATE `type_bundle` SET `ability1` = 15 WHERE
 (`pokedex_ref` = 198 AND `type_name` = "default") OR	-- Murkrow
 (`pokedex_ref` = 353 AND `type_name` = "default") OR	-- Shuppet
 (`pokedex_ref` = 354 AND `type_name` = "default") OR	-- Banette
-(`pokedex_ref` = 430 AND `type_name` = "default");		-- Honchkrow
+(`pokedex_ref` = 430 AND `type_name` = "default") OR	-- Honchkrow
+(`pokedex_ref` = 917 AND `type_name` = "default") OR	-- Tarountula
+(`pokedex_ref` = 918 AND `type_name` = "default");		-- Spidops
 UPDATE `type_bundle` SET `ability2` = 15 WHERE
 (`pokedex_ref` = 167 AND `type_name` = "default") OR	-- Spinarak
-(`pokedex_ref` = 168 AND `type_name` = "default");		-- Ariados
+(`pokedex_ref` = 168 AND `type_name` = "default") OR	-- Ariados
+(`pokedex_ref` = 951 AND `type_name` = "default") OR	-- Capsakid
+(`pokedex_ref` = 952 AND `type_name` = "default");		-- Scovillain
 UPDATE `type_bundle` SET `hidden_ability` = 15 WHERE
 (`pokedex_ref` = 225 AND `type_name` = "default") OR	-- Delibird
 (`pokedex_ref` = 710 AND `type_name` = "default") OR	-- Pumpkaboo
@@ -6103,10 +7212,15 @@ UPDATE `type_bundle` SET `ability1` = 18 WHERE
 (`pokedex_ref` = 608 AND `type_name` = "default") OR			-- Lampent
 (`pokedex_ref` = 609 AND `type_name` = "default") OR			-- Chandelure
 (`pokedex_ref` = 850 AND `type_name` = "default") OR			-- Sizzlipede
-(`pokedex_ref` = 851 AND `type_name` = "default");	    		-- Centiskorch
+(`pokedex_ref` = 851 AND `type_name` = "default") OR	    	-- Centiskorch
+(`pokedex_ref` = 935 AND `type_name` = "default") OR	    	-- Charcadet
+(`pokedex_ref` = 936 AND `type_name` = "default") OR	    	-- Armarouge
+(`pokedex_ref` = 937 AND `type_name` = "default");	    		-- Ceruledge
 UPDATE `type_bundle` SET `ability2` = 18 WHERE
 (`pokedex_ref` = 58 AND `type_name` = "default") OR				-- Growlithe
+(`pokedex_ref` = 58 AND `type_name` = "hisui_variant") OR		-- Growlithe (Hisui)
 (`pokedex_ref` = 59 AND `type_name` = "default") OR				-- Arcanine
+(`pokedex_ref` = 59 AND `type_name` = "hisui_variant") OR		-- Arcanine (Hisui)
 (`pokedex_ref` = 77 AND `type_name` = "default") OR				-- Ponyta
 (`pokedex_ref` = 78 AND `type_name` = "default") OR				-- Rapidash
 (`pokedex_ref` = 228 AND `type_name` = "default") OR			-- Houndour
@@ -6149,7 +7263,9 @@ UPDATE `type_bundle` SET `ability1` = 20 WHERE
 (`pokedex_ref` = 744 AND `type_name` = "special") OR	    -- Rockruff (Special)
 (`pokedex_ref` = 749 AND `type_name` = "default") OR		-- Mudbray
 (`pokedex_ref` = 750 AND `type_name` = "default") OR		-- Mudsdale
-(`pokedex_ref` = 876 AND `type_name` = "default_f");	    -- Indeedee (F)
+(`pokedex_ref` = 876 AND `type_name` = "default_f") OR		-- Indeedee (F)
+(`pokedex_ref` = 926 AND `type_name` = "default") OR		-- Fidough
+(`pokedex_ref` = 938 AND `type_name` = "default");			-- Tadbulb
 UPDATE `type_bundle` SET `ability2` = 20 WHERE
 (`pokedex_ref` = 79 AND `type_name` = "default") OR			-- Slowpoke
 (`pokedex_ref` = 79 AND `type_name` = "galar_variant") OR	-- Slowpoke (Galar)
@@ -6161,13 +7277,17 @@ UPDATE `type_bundle` SET `ability2` = 20 WHERE
 (`pokedex_ref` = 431 AND `type_name` = "default") OR		-- Glameow
 (`pokedex_ref` = 432 AND `type_name` = "default") OR		-- Purugly
 (`pokedex_ref` = 548 AND `type_name` = "default") OR		-- Petilil
-(`pokedex_ref` = 549 AND `type_name` = "default");			-- Lilligant
+(`pokedex_ref` = 549 AND `type_name` = "default") OR		-- Lilligant
+(`pokedex_ref` = 957 AND `type_name` = "default") OR		-- Tinkatink
+(`pokedex_ref` = 958 AND `type_name` = "default") OR		-- Tinkatuff
+(`pokedex_ref` = 959 AND `type_name` = "default");			-- Tinkaton
 UPDATE `type_bundle` SET `hidden_ability` = 20 WHERE
 (`pokedex_ref` = 270 AND `type_name` = "default") OR	-- Lotad
 (`pokedex_ref` = 271 AND `type_name` = "default") OR	-- Lombre
 (`pokedex_ref` = 272 AND `type_name` = "default") OR	-- Ludicolo
 (`pokedex_ref` = 322 AND `type_name` = "default") OR	-- Numel
-(`pokedex_ref` = 677 AND `type_name` = "default");		-- Espurr
+(`pokedex_ref` = 677 AND `type_name` = "default") OR	-- Espurr
+(`pokedex_ref` = 924 AND `type_name` = "default");		-- Tandemaus
 
 -- Suction Cups
 UPDATE `type_bundle` SET `ability1` = 21 WHERE
@@ -6180,48 +7300,58 @@ UPDATE `type_bundle` SET `ability2` = 21 WHERE
 
 -- Intimidate
 UPDATE `type_bundle` SET `ability1` = 22 WHERE
-(`pokedex_ref` = 23 AND `type_name` = "default") OR			-- Ekans
-(`pokedex_ref` = 24 AND `type_name` = "default") OR			-- Arbok
-(`pokedex_ref` = 58 AND `type_name` = "default") OR			-- Growlithe
-(`pokedex_ref` = 58 AND `type_name` = "hisui_variant") OR	-- Growlithe (Hisui)
-(`pokedex_ref` = 59 AND `type_name` = "default") OR			-- Arcanine
-(`pokedex_ref` = 59 AND `type_name` = "hisui_variant") OR	-- Arcanine (Hisui)
-(`pokedex_ref` = 128 AND `type_name` = "default") OR		-- Tauros
-(`pokedex_ref` = 130 AND `type_name` = "default") OR		-- Gyarados
-(`pokedex_ref` = 209 AND `type_name` = "default") OR		-- Snubbull
-(`pokedex_ref` = 210 AND `type_name` = "default") OR		-- Granbull
-(`pokedex_ref` = 234 AND `type_name` = "default") OR		-- Stantler
-(`pokedex_ref` = 237 AND `type_name` = "default") OR		-- Hitmontop
-(`pokedex_ref` = 262 AND `type_name` = "default") OR		-- Mightyena
-(`pokedex_ref` = 284 AND `type_name` = "default") OR		-- Masquerain
-(`pokedex_ref` = 310 AND `type_name` = "mega") OR			-- MEGA Manectric
-(`pokedex_ref` = 373 AND `type_name` = "default") OR		-- Salamence
-(`pokedex_ref` = 397 AND `type_name` = "default") OR		-- Staravia
-(`pokedex_ref` = 398 AND `type_name` = "default") OR		-- Staraptor
-(`pokedex_ref` = 507 AND `type_name` = "default") OR		-- Herdier
-(`pokedex_ref` = 508 AND `type_name` = "default") OR		-- Stoutland
-(`pokedex_ref` = 551 AND `type_name` = "default") OR		-- Sandile
-(`pokedex_ref` = 552 AND `type_name` = "default") OR		-- Krokorok
-(`pokedex_ref` = 553 AND `type_name` = "default") OR		-- Krookodile
-(`pokedex_ref` = 645 AND `type_name` = "therian_forme") OR	-- Landorus (Therian Forme)
-(`pokedex_ref` = 725 AND `type_name` = "default") OR		-- Litten
-(`pokedex_ref` = 726 AND `type_name` = "default") OR		-- Torracat
-(`pokedex_ref` = 727 AND `type_name` = "default") OR    	-- Incineroar
-(`pokedex_ref` = 899 AND `type_name` = "default");	    	-- Wyrdeer
+(`pokedex_ref` = 23 AND `type_name` = "default") OR				-- Ekans
+(`pokedex_ref` = 24 AND `type_name` = "default") OR				-- Arbok
+(`pokedex_ref` = 58 AND `type_name` = "default") OR				-- Growlithe
+(`pokedex_ref` = 58 AND `type_name` = "hisui_variant") OR		-- Growlithe (Hisui)
+(`pokedex_ref` = 59 AND `type_name` = "default") OR				-- Arcanine
+(`pokedex_ref` = 59 AND `type_name` = "hisui_variant") OR		-- Arcanine (Hisui)
+(`pokedex_ref` = 128 AND `type_name` = "default") OR			-- Tauros
+(`pokedex_ref` = 128 AND `type_name` = "paldea_combat") OR		-- Tauros (Paldea: Combat Breed)
+(`pokedex_ref` = 128 AND `type_name` = "paldea_blaze") OR		-- Tauros (Paldea: Blaze Breed)
+(`pokedex_ref` = 128 AND `type_name` = "paldea_aqua") OR		-- Tauros (Paldea: Aqua Breed)
+(`pokedex_ref` = 130 AND `type_name` = "default") OR			-- Gyarados
+(`pokedex_ref` = 209 AND `type_name` = "default") OR			-- Snubbull
+(`pokedex_ref` = 210 AND `type_name` = "default") OR			-- Granbull
+(`pokedex_ref` = 234 AND `type_name` = "default") OR			-- Stantler
+(`pokedex_ref` = 237 AND `type_name` = "default") OR			-- Hitmontop
+(`pokedex_ref` = 262 AND `type_name` = "default") OR			-- Mightyena
+(`pokedex_ref` = 284 AND `type_name` = "default") OR			-- Masquerain
+(`pokedex_ref` = 310 AND `type_name` = "mega") OR				-- MEGA Manectric
+(`pokedex_ref` = 373 AND `type_name` = "default") OR			-- Salamence
+(`pokedex_ref` = 397 AND `type_name` = "default") OR			-- Staravia
+(`pokedex_ref` = 398 AND `type_name` = "default") OR			-- Staraptor
+(`pokedex_ref` = 507 AND `type_name` = "default") OR			-- Herdier
+(`pokedex_ref` = 508 AND `type_name` = "default") OR			-- Stoutland
+(`pokedex_ref` = 551 AND `type_name` = "default") OR			-- Sandile
+(`pokedex_ref` = 552 AND `type_name` = "default") OR			-- Krokorok
+(`pokedex_ref` = 553 AND `type_name` = "default") OR			-- Krookodile
+(`pokedex_ref` = 645 AND `type_name` = "therian_forme") OR		-- Landorus (Therian Forme)
+(`pokedex_ref` = 725 AND `type_name` = "default") OR			-- Litten
+(`pokedex_ref` = 726 AND `type_name` = "default") OR			-- Torracat
+(`pokedex_ref` = 727 AND `type_name` = "default") OR    		-- Incineroar
+(`pokedex_ref` = 899 AND `type_name` = "default") OR    		-- Wyrdeer
+(`pokedex_ref` = 931 AND `type_name` = "green_plumage") OR		-- Squawkabilly (Green Plumage)
+(`pokedex_ref` = 931 AND `type_name` = "blue_plumage") OR		-- Squawkabilly (Blue Plumage)
+(`pokedex_ref` = 931 AND `type_name` = "yellow_plumage") OR		-- Squawkabilly (Yellow Plumage)
+(`pokedex_ref` = 931 AND `type_name` = "white_plumage") OR 		-- Squawkabilly (White Plumage)
+(`pokedex_ref` = 942 AND `type_name` = "default") OR    		-- Maschiff
+(`pokedex_ref` = 943 AND `type_name` = "default") OR   			-- Mabosstiff
+(`pokedex_ref` = 966 AND `type_name` = "segin_starmobile");		-- Revavroom (Segin Starmobile)
 UPDATE `type_bundle` SET `ability2` = 22 WHERE
-(`pokedex_ref` = 303 AND `type_name` = "default") OR		-- Mawile
-(`pokedex_ref` = 403 AND `type_name` = "default") OR		-- Shinx
-(`pokedex_ref` = 404 AND `type_name` = "default") OR		-- Luxio
-(`pokedex_ref` = 405 AND `type_name` = "default");			-- Luxray
+(`pokedex_ref` = 303 AND `type_name` = "default") OR			-- Mawile
+(`pokedex_ref` = 403 AND `type_name` = "default") OR			-- Shinx
+(`pokedex_ref` = 404 AND `type_name` = "default") OR			-- Luxio
+(`pokedex_ref` = 405 AND `type_name` = "default");				-- Luxray
 UPDATE `type_bundle` SET `hidden_ability` = 22 WHERE
-(`pokedex_ref` = 211 AND `type_name` = "default") OR		-- Qwilfish
-(`pokedex_ref` = 211 AND `type_name` = "hisui_variant") OR	-- Qwilfish (Hisui)
-(`pokedex_ref` = 559 AND `type_name` = "default") OR		-- Scraggy
-(`pokedex_ref` = 560 AND `type_name` = "default") OR		-- Scrafty
-(`pokedex_ref` = 725 AND `type_name` = "default") OR		-- Litten
-(`pokedex_ref` = 726 AND `type_name` = "default") OR		-- Torracat
-(`pokedex_ref` = 727 AND `type_name` = "default") OR		-- Incineroar
-(`pokedex_ref` = 904 AND `type_name` = "default");			-- Overqwil
+(`pokedex_ref` = 211 AND `type_name` = "default") OR			-- Qwilfish
+(`pokedex_ref` = 211 AND `type_name` = "hisui_variant") OR		-- Qwilfish (Hisui)
+(`pokedex_ref` = 559 AND `type_name` = "default") OR			-- Scraggy
+(`pokedex_ref` = 560 AND `type_name` = "default") OR			-- Scrafty
+(`pokedex_ref` = 725 AND `type_name` = "default") OR			-- Litten
+(`pokedex_ref` = 726 AND `type_name` = "default") OR			-- Torracat
+(`pokedex_ref` = 727 AND `type_name` = "default") OR			-- Incineroar
+(`pokedex_ref` = 904 AND `type_name` = "default");				-- Overqwil
 
 -- Shadow Tag
 UPDATE `type_bundle` SET `ability1` = 23 WHERE
@@ -6319,7 +7449,8 @@ UPDATE `type_bundle` SET `ability1` = 28 WHERE
 (`pokedex_ref` = 197 AND `type_name` = "default") OR	-- Umbreon
 (`pokedex_ref` = 280 AND `type_name` = "default") OR	-- Raltz
 (`pokedex_ref` = 281 AND `type_name` = "default") OR	-- Kirlia
-(`pokedex_ref` = 282 AND `type_name` = "default");		-- Gardevoir
+(`pokedex_ref` = 282 AND `type_name` = "default") OR	-- Gardevoir
+(`pokedex_ref` = 954 AND `type_name` = "default");		-- Rebsca
 UPDATE `type_bundle` SET `ability2` = 28 WHERE
 (`pokedex_ref` = 517 AND `type_name` = "default") OR	-- Munna
 (`pokedex_ref` = 518 AND `type_name` = "default") OR	-- Musharna
@@ -6346,7 +7477,10 @@ UPDATE `type_bundle` SET `ability1` = 29 WHERE
 UPDATE `type_bundle` SET `hidden_ability` = 29 WHERE
 (`pokedex_ref` = 599 AND `type_name` = "default") OR	-- Klink
 (`pokedex_ref` = 600 AND `type_name` = "default") OR	-- Klang
-(`pokedex_ref` = 601 AND `type_name` = "default");		-- Klinklang
+(`pokedex_ref` = 601 AND `type_name` = "default") OR	-- Klinklang
+(`pokedex_ref` = 932 AND `type_name` = "default") OR	-- Nacli
+(`pokedex_ref` = 933 AND `type_name` = "default") OR	-- Naclstack
+(`pokedex_ref` = 934 AND `type_name` = "default");		-- Garganacl
 
 -- Natural Cure
 UPDATE `type_bundle` SET `ability1` = 30 WHERE
@@ -6365,7 +7499,10 @@ UPDATE `type_bundle` SET `ability1` = 30 WHERE
 UPDATE `type_bundle` SET `ability2` = 30 WHERE
 (`pokedex_ref` = 120 AND `type_name` = "default") OR	-- Staryu
 (`pokedex_ref` = 121 AND `type_name` = "default") OR	-- Starmie
-(`pokedex_ref` = 222 AND `type_name` = "default");		-- Corsola
+(`pokedex_ref` = 222 AND `type_name` = "default") OR	-- Corsola
+(`pokedex_ref` = 921 AND `type_name` = "default") OR	-- Pawmi
+(`pokedex_ref` = 922 AND `type_name` = "default") OR	-- Pawmo
+(`pokedex_ref` = 923 AND `type_name` = "default");		-- Pawmot
 UPDATE `type_bundle` SET `hidden_ability` = 30 WHERE
 (`pokedex_ref` = 764 AND `type_name` = "default");		-- Comfey
 
@@ -6401,7 +7538,8 @@ UPDATE `type_bundle` SET `ability1` = 32 WHERE
 (`pokedex_ref` = 385 AND `type_name` = "default") OR		-- Jirachi
 (`pokedex_ref` = 492 AND `type_name` = "sky_forme") OR		-- Shaymin (Sky Forme)
 (`pokedex_ref` = 648 AND `type_name` = "aria_forme") OR		-- Meloetta (Aria Forme)
-(`pokedex_ref` = 648 AND `type_name` = "step_forme");		-- Meloetta (Step Forme)
+(`pokedex_ref` = 648 AND `type_name` = "step_forme") OR		-- Meloetta (Step Forme)
+(`pokedex_ref` = 982 AND `type_name` = "default");			-- Dudunsparce
 UPDATE `type_bundle` SET `ability2` = 32 WHERE
 (`pokedex_ref` = 113 AND `type_name` = "default") OR	-- Chansey
 (`pokedex_ref` = 175 AND `type_name` = "default") OR	-- Togepi
@@ -6450,7 +7588,8 @@ UPDATE `type_bundle` SET `ability1` = 33 WHERE
 (`pokedex_ref` = 536 AND `type_name` = "default") OR			-- Palpitoad
 (`pokedex_ref` = 537 AND `type_name` = "default") OR			-- Seismitoad
 (`pokedex_ref` = 846 AND `type_name` = "default") OR			-- Arrokuda
-(`pokedex_ref` = 847 AND `type_name` = "default");				-- Barraskewda
+(`pokedex_ref` = 847 AND `type_name` = "default") OR			-- Barraskewda
+(`pokedex_ref` = 902 AND `type_name` = "default");				-- Basculeigon
 UPDATE `type_bundle` SET `ability2` = 33 WHERE
 (`pokedex_ref` = 211 AND `type_name` = "default") OR			-- Qwilfish
 (`pokedex_ref` = 211 AND `type_name` = "hisui_variant") OR		-- Qwilfish (Hisui)
@@ -6502,7 +7641,9 @@ UPDATE `type_bundle` SET `ability1` = 34 WHERE
 (`pokedex_ref` = 586 AND `type_name` = "spring_form") OR	-- Sawsbuck (Spring Form)
 (`pokedex_ref` = 586 AND `type_name` = "summer_form") OR	-- Sawsbuck (Summer Form)
 (`pokedex_ref` = 586 AND `type_name` = "autumn_form") OR	-- Sawsbuck (Autumn Form)
-(`pokedex_ref` = 586 AND `type_name` = "winter_form");		-- Sawsbuck (Winter Form)
+(`pokedex_ref` = 586 AND `type_name` = "winter_form") OR	-- Sawsbuck (Winter Form)
+(`pokedex_ref` = 951 AND `type_name` = "default") OR		-- Capsakid
+(`pokedex_ref` = 952 AND `type_name` = "default");			-- Scovillain
 UPDATE `type_bundle` SET `ability2` = 34 WHERE
 (`pokedex_ref` = 540 AND `type_name` = "default") OR	-- Sewaddle
 (`pokedex_ref` = 541 AND `type_name` = "default") OR	-- Swadloon
@@ -6558,6 +7699,7 @@ UPDATE `type_bundle` SET `ability1` = 38 WHERE
 (`pokedex_ref` = 33 AND `type_name` = "default") OR			-- Nidorino
 (`pokedex_ref` = 34 AND `type_name` = "default") OR			-- Nidoking
 (`pokedex_ref` = 117 AND `type_name` = "default") OR		-- Seadra
+(`pokedex_ref` = 194 AND `type_name` = "paldea_variant") OR	-- Wooper (Paldea)
 (`pokedex_ref` = 211 AND `type_name` = "default") OR		-- Qwilfish
 (`pokedex_ref` = 211 AND `type_name` = "hisui_variant") OR	-- Qwilfish (Hisui)
 (`pokedex_ref` = 543 AND `type_name` = "default") OR		-- Venipede
@@ -6565,7 +7707,8 @@ UPDATE `type_bundle` SET `ability1` = 38 WHERE
 (`pokedex_ref` = 545 AND `type_name` = "default") OR		-- Scolipede
 (`pokedex_ref` = 690 AND `type_name` = "default") OR		-- Skrelp
 (`pokedex_ref` = 691 AND `type_name` = "default") OR		-- Dragalge
-(`pokedex_ref` = 904 AND `type_name` = "default");			-- Overqwil
+(`pokedex_ref` = 904 AND `type_name` = "default") OR		-- Overqwil
+(`pokedex_ref` = 980 AND `type_name` = "default");			-- Clodsire
 UPDATE `type_bundle` SET `ability2` = 38 WHERE
 (`pokedex_ref` = 315 AND `type_name` = "default") OR		-- Roselia
 (`pokedex_ref` = 406 AND `type_name` = "default") OR		-- Budew
@@ -6589,16 +7732,17 @@ UPDATE `type_bundle` SET `ability1` = 39 WHERE
 (`pokedex_ref` = 876 AND `type_name` = "default_m") OR		-- Indeedee (M)
 (`pokedex_ref` = 891 AND `type_name` = "default");			-- Kubfu
 UPDATE `type_bundle` SET `ability2` = 39 WHERE
-(`pokedex_ref` = 63 AND `type_name` = "default") OR		-- Abra
-(`pokedex_ref` = 64 AND `type_name` = "default") OR		-- Kadabra
-(`pokedex_ref` = 65 AND `type_name` = "default") OR		-- Alakazam
-(`pokedex_ref` = 83 AND `type_name` = "default") OR		-- Farfetch"d
-(`pokedex_ref` = 447 AND `type_name` = "default") OR	-- Riolu
-(`pokedex_ref` = 448 AND `type_name` = "default") OR	-- Lucario
-(`pokedex_ref` = 538 AND `type_name` = "default") OR	-- Throh
-(`pokedex_ref` = 539 AND `type_name` = "default") OR	-- Sawk
-(`pokedex_ref` = 624 AND `type_name` = "default") OR	-- Pawniard
-(`pokedex_ref` = 625 AND `type_name` = "default");		-- Bisharp
+(`pokedex_ref` = 63 AND `type_name` = "default") OR			-- Abra
+(`pokedex_ref` = 64 AND `type_name` = "default") OR			-- Kadabra
+(`pokedex_ref` = 65 AND `type_name` = "default") OR			-- Alakazam
+(`pokedex_ref` = 83 AND `type_name` = "default") OR			-- Farfetch'd
+(`pokedex_ref` = 447 AND `type_name` = "default") OR		-- Riolu
+(`pokedex_ref` = 448 AND `type_name` = "default") OR		-- Lucario
+(`pokedex_ref` = 538 AND `type_name` = "default") OR		-- Throh
+(`pokedex_ref` = 539 AND `type_name` = "default") OR		-- Sawk
+(`pokedex_ref` = 624 AND `type_name` = "default") OR		-- Pawniard
+(`pokedex_ref` = 625 AND `type_name` = "default") OR		-- Bisharp
+(`pokedex_ref` = 979 AND `type_name` = "default");			-- Annihilape
 UPDATE `type_bundle` SET `hidden_ability` = 39 WHERE
 (`pokedex_ref` = 96 AND `type_name` = "default") OR			-- Drowzee
 (`pokedex_ref` = 97 AND `type_name` = "default") OR			-- Hypno
@@ -6622,7 +7766,8 @@ UPDATE `type_bundle` SET `ability1` = 40 WHERE
 -- Water Veil
 UPDATE `type_bundle` SET `ability1` = 41 WHERE
 (`pokedex_ref` = 320 AND `type_name` = "default") OR	-- Wailmer
-(`pokedex_ref` = 321 AND `type_name` = "default");		-- Wailord
+(`pokedex_ref` = 321 AND `type_name` = "default") OR	-- Wailord
+(`pokedex_ref` = 963 AND `type_name` = "default");		-- Finizen
 UPDATE `type_bundle` SET `ability2` = 41 WHERE
 (`pokedex_ref` = 118 AND `type_name` = "default") OR	-- Goldeen
 (`pokedex_ref` = 119 AND `type_name` = "default");		-- Seaking
@@ -6633,7 +7778,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 41 WHERE
 (`pokedex_ref` = 419 AND `type_name` = "default") OR	-- Floatzel
 (`pokedex_ref` = 456 AND `type_name` = "default") OR	-- Finneon
 (`pokedex_ref` = 457 AND `type_name` = "default") OR	-- Lumineon
-(`pokedex_ref` = 458 AND `type_name` = "default");		-- Mantyke
+(`pokedex_ref` = 458 AND `type_name` = "default") OR	-- Mantyke
+(`pokedex_ref` = 977 AND `type_name` = "default");		-- Dondozo
 
 -- Magnet Pull
 UPDATE `type_bundle` SET `ability1` = 42 WHERE
@@ -6732,7 +7878,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 46 WHERE
 (`pokedex_ref` = 320 AND `type_name` = "default") OR	-- Wailmer
 (`pokedex_ref` = 321 AND `type_name` = "default") OR	-- Wailord
 (`pokedex_ref` = 624 AND `type_name` = "default") OR	-- Pawniard
-(`pokedex_ref` = 625 AND `type_name` = "default");		-- Bisharp
+(`pokedex_ref` = 625 AND `type_name` = "default") OR	-- Bisharp
+(`pokedex_ref` = 983 AND `type_name` = "default");		-- Kingambit
 
 -- Thick Fat
 UPDATE `type_bundle` SET `ability1` = 47 WHERE
@@ -6750,7 +7897,9 @@ UPDATE `type_bundle` SET `ability1` = 47 WHERE
 (`pokedex_ref` = 363 AND `type_name` = "default") OR	-- Spheal
 (`pokedex_ref` = 364 AND `type_name` = "default") OR	-- Sealeo
 (`pokedex_ref` = 365 AND `type_name` = "default") OR	-- Walrein
-(`pokedex_ref` = 432 AND `type_name` = "default");		-- Purugly
+(`pokedex_ref` = 432 AND `type_name` = "default") OR	-- Purugly
+(`pokedex_ref` = 974 AND `type_name` = "default") OR	-- Cetoddle
+(`pokedex_ref` = 975 AND `type_name` = "default");		-- Cetitan
 UPDATE `type_bundle` SET `ability2` = 47 WHERE
 (`pokedex_ref` = 143 AND `type_name` = "default") OR	-- Snorlax
 (`pokedex_ref` = 446 AND `type_name` = "default");		-- Munchlax
@@ -6762,13 +7911,18 @@ UPDATE `type_bundle` SET `hidden_ability` = 47 WHERE
 (`pokedex_ref` = 473 AND `type_name` = "default") OR		-- Mamoswine
 (`pokedex_ref` = 498 AND `type_name` = "default") OR		-- Tepig
 (`pokedex_ref` = 499 AND `type_name` = "default") OR		-- Pignite
-(`pokedex_ref` = 842 AND `type_name` = "default");			-- Appletun
+(`pokedex_ref` = 842 AND `type_name` = "default") OR		-- Appletun
+(`pokedex_ref` = 915 AND `type_name` = "default") OR		-- Lechonk
+(`pokedex_ref` = 916 AND `type_name` = "default_m") OR		-- Oinkologne (M)
+(`pokedex_ref` = 916 AND `type_name` = "default_f");		-- Oinkologne (F)
 
 -- Early Bird
 UPDATE `type_bundle` SET `ability1` = 48 WHERE
 (`pokedex_ref` = 115 AND `type_name` = "default") OR	-- Kangaskhan
 (`pokedex_ref` = 228 AND `type_name` = "default") OR	-- Houndour
-(`pokedex_ref` = 229 AND `type_name` = "default");		-- Houndoom
+(`pokedex_ref` = 229 AND `type_name` = "default") OR	-- Houndoom
+(`pokedex_ref` = 928 AND `type_name` = "default") OR	-- Smoliv
+(`pokedex_ref` = 929 AND `type_name` = "default");		-- Dolliv
 UPDATE `type_bundle` SET `ability2` = 48 WHERE
 (`pokedex_ref` = 84 AND `type_name` = "default") OR		-- Doduo
 (`pokedex_ref` = 85 AND `type_name` = "default") OR		-- Dodrio
@@ -6807,7 +7961,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 49 WHERE
 (`pokedex_ref` = 146 AND `type_name` = "default") OR	-- Moltres
 (`pokedex_ref` = 485 AND `type_name` = "default") OR	-- Heatran
 (`pokedex_ref` = 850 AND `type_name` = "default") OR	-- Sizzlipede
-(`pokedex_ref` = 851 AND `type_name` = "default");		-- Centiskorch
+(`pokedex_ref` = 851 AND `type_name` = "default") OR	-- Centiskorch
+(`pokedex_ref` = 935 AND `type_name` = "default");	    -- Charcadet
 
 -- Run Away
 UPDATE `type_bundle` SET `ability1` = 50 WHERE
@@ -6828,11 +7983,15 @@ UPDATE `type_bundle` SET `ability1` = 50 WHERE
 (`pokedex_ref` = 427 AND `type_name` = "default") OR		-- Buneary
 (`pokedex_ref` = 504 AND `type_name` = "default") OR		-- Patrat
 (`pokedex_ref` = 827 AND `type_name` = "default") OR		-- Nickit
-(`pokedex_ref` = 828 AND `type_name` = "default");			-- Thievul
+(`pokedex_ref` = 828 AND `type_name` = "default") OR		-- Thievul
+(`pokedex_ref` = 924 AND `type_name` = "default") OR		-- Tandemaus
+(`pokedex_ref` = 999 AND `type_name` = "roaming_form");		-- Gimmighoul
 UPDATE `type_bundle` SET `ability2` = 50 WHERE
 (`pokedex_ref` = 206 AND `type_name` = "default") OR	-- Dunsparce
 (`pokedex_ref` = 209 AND `type_name` = "default") OR	-- Snubbull
-(`pokedex_ref` = 831 AND `type_name` = "default");		-- Wooloo
+(`pokedex_ref` = 831 AND `type_name` = "default") OR	-- Wooloo
+(`pokedex_ref` = 942 AND `type_name` = "default") OR   	-- Maschiff
+(`pokedex_ref` = 982 AND `type_name` = "default");		-- Dudunsparce
 UPDATE `type_bundle` SET `hidden_ability` = 50 WHERE
 (`pokedex_ref` = 10 AND `type_name` = "default") OR		-- Caterpie
 (`pokedex_ref` = 13 AND `type_name` = "default") OR		-- Weedle
@@ -6850,7 +8009,7 @@ UPDATE `type_bundle` SET `ability1` = 51 WHERE
 (`pokedex_ref` = 18 AND `type_name` = "default") OR			-- Pidgeot
 (`pokedex_ref` = 21 AND `type_name` = "default") OR			-- Spearow
 (`pokedex_ref` = 22 AND `type_name` = "default") OR			-- Fearow
-(`pokedex_ref` = 83 AND `type_name` = "default") OR			-- Farfetch"d
+(`pokedex_ref` = 83 AND `type_name` = "default") OR			-- Farfetch'd
 (`pokedex_ref` = 107 AND `type_name` = "default") OR		-- Hitmonchan
 (`pokedex_ref` = 227 AND `type_name` = "default") OR		-- Skarmory
 (`pokedex_ref` = 278 AND `type_name` = "default") OR		-- Wingull
@@ -6882,7 +8041,8 @@ UPDATE `type_bundle` SET `ability2` = 51 WHERE
 (`pokedex_ref` = 215 AND `type_name` = "default") OR		-- Sneasel
 (`pokedex_ref` = 215 AND `type_name` = "hisui_variant") OR	-- Sneasel (Hisui)
 (`pokedex_ref` = 504 AND `type_name` = "default") OR		-- Patrat
-(`pokedex_ref` = 505 AND `type_name` = "default");			-- Watchog
+(`pokedex_ref` = 505 AND `type_name` = "default") OR		-- Watchog
+(`pokedex_ref` = 962 AND `type_name` = "default");			-- Bombirdier
 UPDATE `type_bundle` SET `hidden_ability` = 51 WHERE
 (`pokedex_ref` = 431 AND `type_name` = "default") OR	-- Glameow
 (`pokedex_ref` = 434 AND `type_name` = "default") OR	-- Stunky
@@ -6919,16 +8079,18 @@ UPDATE `type_bundle` SET `ability1` = 53 WHERE
 (`pokedex_ref` = 659 AND `type_name` = "default") OR		-- Bunnelby
 (`pokedex_ref` = 660 AND `type_name` = "default") OR		-- Diggersby
 (`pokedex_ref` = 710 AND `type_name` = "default") OR		-- Pumpkaboo
-(`pokedex_ref` = 711 AND `type_name` = "default");			-- Gourgeist
+(`pokedex_ref` = 711 AND `type_name` = "default") OR		-- Gourgeist
+(`pokedex_ref` = 971 AND `type_name` = "default"); 			-- Greavard
 UPDATE `type_bundle` SET `ability2` = 53 WHERE
-(`pokedex_ref` = 190 AND `type_name` = "default") OR	-- Aipom
-(`pokedex_ref` = 417 AND `type_name` = "default") OR	-- Pachirisu
-(`pokedex_ref` = 424 AND `type_name` = "default") OR	-- Ambipom
-(`pokedex_ref` = 506 AND `type_name` = "default") OR	-- Lillipup
-(`pokedex_ref` = 702 AND `type_name` = "default");		-- Dedenne
+(`pokedex_ref` = 190 AND `type_name` = "default") OR		-- Aipom
+(`pokedex_ref` = 417 AND `type_name` = "default") OR		-- Pachirisu
+(`pokedex_ref` = 424 AND `type_name` = "default") OR		-- Ambipom
+(`pokedex_ref` = 506 AND `type_name` = "default") OR		-- Lillipup
+(`pokedex_ref` = 702 AND `type_name` = "default") OR		-- Dedenne
+(`pokedex_ref` = 924 AND `type_name` = "default");			-- Tandemaus
 UPDATE `type_bundle` SET `hidden_ability` = 53 WHERE
-(`pokedex_ref` = 731 AND `type_name` = "default") OR	-- Pikipek
-(`pokedex_ref` = 732 AND `type_name` = "default");		-- Trumbeak
+(`pokedex_ref` = 731 AND `type_name` = "default") OR		-- Pikipek
+(`pokedex_ref` = 732 AND `type_name` = "default");			-- Trumbeak
 
 -- Truant
 UPDATE `type_bundle` SET `ability1` = 54 WHERE
@@ -6954,7 +8116,11 @@ UPDATE `type_bundle` SET `ability2` = 55 WHERE
 (`pokedex_ref` = 225 AND `type_name` = "default") OR		-- Delibird
 (`pokedex_ref` = 549 AND `type_name` = "hisui_variant") OR	-- Lilligant (Hisui)
 (`pokedex_ref` = 632 AND `type_name` = "default") OR		-- Durant
-(`pokedex_ref` = 880 AND `type_name` = "default");			-- Dracozolt
+(`pokedex_ref` = 880 AND `type_name` = "default") OR		-- Dracozolt
+(`pokedex_ref` = 931 AND `type_name` = "green_plumage") OR	-- Squawkabilly (Green Plumage)
+(`pokedex_ref` = 931 AND `type_name` = "blue_plumage") OR	-- Squawkabilly (Blue Plumage)
+(`pokedex_ref` = 931 AND `type_name` = "yellow_plumage") OR	-- Squawkabilly (Yellow Plumage)
+(`pokedex_ref` = 931 AND `type_name` = "white_plumage");   	-- Squawkabilly (White Plumage)
 UPDATE `type_bundle` SET `hidden_ability` = 55 WHERE
 (`pokedex_ref` = 19 AND `type_name` = "default") OR		-- Rattata
 (`pokedex_ref` = 20 AND `type_name` = "default") OR		-- Raticate
@@ -6968,21 +8134,22 @@ UPDATE `type_bundle` SET `hidden_ability` = 55 WHERE
 
 -- Cute Charm
 UPDATE `type_bundle` SET `ability1` = 56 WHERE
-(`pokedex_ref` = 35 AND `type_name` = "default") OR		-- Clefairy
-(`pokedex_ref` = 36 AND `type_name` = "default") OR		-- Clefable
-(`pokedex_ref` = 39 AND `type_name` = "default") OR		-- Jigglypuff
-(`pokedex_ref` = 40 AND `type_name` = "default") OR		-- Wigglytuff
-(`pokedex_ref` = 173 AND `type_name` = "default") OR	-- Cleffa
-(`pokedex_ref` = 174 AND `type_name` = "default") OR	-- Igglybuff
-(`pokedex_ref` = 300 AND `type_name` = "default") OR	-- Skitty
-(`pokedex_ref` = 301 AND `type_name` = "default") OR	-- Delcatty
-(`pokedex_ref` = 428 AND `type_name` = "default") OR	-- Lopunny
-(`pokedex_ref` = 572 AND `type_name` = "default") OR	-- Minccino
-(`pokedex_ref` = 573 AND `type_name` = "default") OR	-- Cinccino
-(`pokedex_ref` = 700 AND `type_name` = "default");		-- Sylveon
+(`pokedex_ref` = 35 AND `type_name` = "default") OR				-- Clefairy
+(`pokedex_ref` = 36 AND `type_name` = "default") OR				-- Clefable
+(`pokedex_ref` = 39 AND `type_name` = "default") OR				-- Jigglypuff
+(`pokedex_ref` = 40 AND `type_name` = "default") OR				-- Wigglytuff
+(`pokedex_ref` = 173 AND `type_name` = "default") OR			-- Cleffa
+(`pokedex_ref` = 174 AND `type_name` = "default") OR			-- Igglybuff
+(`pokedex_ref` = 300 AND `type_name` = "default") OR			-- Skitty
+(`pokedex_ref` = 301 AND `type_name` = "default") OR			-- Delcatty
+(`pokedex_ref` = 428 AND `type_name` = "default") OR			-- Lopunny
+(`pokedex_ref` = 572 AND `type_name` = "default") OR			-- Minccino
+(`pokedex_ref` = 573 AND `type_name` = "default") OR			-- Cinccino
+(`pokedex_ref` = 700 AND `type_name` = "default") OR			-- Sylveon
+(`pokedex_ref` = 905 AND `type_name` = "incarnate_forme");		-- Enamorus (Incarnate Forme)
 UPDATE `type_bundle` SET `hidden_ability` = 56 WHERE
-(`pokedex_ref` = 350 AND `type_name` = "default") OR	-- Milotic
-(`pokedex_ref` = 759 AND `type_name` = "default");		-- Stufful
+(`pokedex_ref` = 350 AND `type_name` = "default") OR			-- Milotic
+(`pokedex_ref` = 759 AND `type_name` = "default");				-- Stufful
 
 -- Plus
 UPDATE `type_bundle` SET `ability1` = 57 WHERE
@@ -7047,13 +8214,16 @@ UPDATE `type_bundle` SET `ability1` = 61 WHERE
 (`pokedex_ref` = 412 AND `type_name` = "trash_cloak") OR	-- Burmy (Trash Cloak)
 (`pokedex_ref` = 559 AND `type_name` = "default") OR		-- Scraggy
 (`pokedex_ref` = 560 AND `type_name` = "default") OR		-- Scrafty
-(`pokedex_ref` = 665 AND `type_name` = "default");			-- Spewpa
+(`pokedex_ref` = 665 AND `type_name` = "default") OR		-- Spewpa
+(`pokedex_ref` = 967 AND `type_name` = "default");			-- Cyclizar
 UPDATE `type_bundle` SET `ability2` = 61 WHERE
-(`pokedex_ref` = 23 AND `type_name` = "default") OR		-- Ekans
-(`pokedex_ref` = 24 AND `type_name` = "default") OR		-- Arbok
-(`pokedex_ref` = 588 AND `type_name` = "default") OR	-- Karrablast
-(`pokedex_ref` = 843 AND `type_name` = "default") OR	-- Silicobra
-(`pokedex_ref` = 844 AND `type_name` = "default");		-- Sandaconda
+(`pokedex_ref` = 23 AND `type_name` = "default") OR			-- Ekans
+(`pokedex_ref` = 24 AND `type_name` = "default") OR			-- Arbok
+(`pokedex_ref` = 588 AND `type_name` = "default") OR		-- Karrablast
+(`pokedex_ref` = 843 AND `type_name` = "default") OR		-- Silicobra
+(`pokedex_ref` = 844 AND `type_name` = "default");			-- Sandaconda
+UPDATE `type_bundle` SET `hidden_ability` = 61 WHERE
+(`pokedex_ref` = 953 AND `type_name` = "default");			-- Rellor
 
 -- Guts
 UPDATE `type_bundle` SET `ability1` = 62 WHERE
@@ -7078,10 +8248,12 @@ UPDATE `type_bundle` SET `ability2` = 62 WHERE
 (`pokedex_ref` = 297 AND `type_name` = "default") OR	-- Hariyama
 (`pokedex_ref` = 862 AND `type_name` = "default");		-- Obstagoon
 UPDATE `type_bundle` SET `hidden_ability` = 62 WHERE
-(`pokedex_ref` = 136 AND `type_name` = "default") OR	-- Flareon
-(`pokedex_ref` = 403 AND `type_name` = "default") OR	-- Shinx
-(`pokedex_ref` = 404 AND `type_name` = "default") OR	-- Luxio
-(`pokedex_ref` = 405 AND `type_name` = "default");		-- Luxray
+(`pokedex_ref` = 136 AND `type_name` = "default") OR		-- Flareon
+(`pokedex_ref` = 403 AND `type_name` = "default") OR		-- Shinx
+(`pokedex_ref` = 404 AND `type_name` = "default") OR		-- Luxio
+(`pokedex_ref` = 405 AND `type_name` = "default") OR		-- Luxray
+(`pokedex_ref` = 931 AND `type_name` = "green_plumage") OR	-- Squawkabilly (Green Plumage)
+(`pokedex_ref` = 931 AND `type_name` = "blue_plumage");   	-- Squawkabilly (Blue Plumage)
 
 -- Marvel Scale
 UPDATE `type_bundle` SET `ability1` = 63 WHERE
@@ -7126,8 +8298,8 @@ UPDATE `type_bundle` SET `ability1` = 65 WHERE
 (`pokedex_ref` = 811 AND `type_name` = "default") OR		-- Thwackey
 (`pokedex_ref` = 812 AND `type_name` = "default") OR		-- Rillaboom
 (`pokedex_ref` = 906 AND `type_name` = "default") OR		-- Sprigatito
-(`pokedex_ref` = 907 AND `type_name` = "default") OR		-- Sprigatito Evo 1
-(`pokedex_ref` = 908 AND `type_name` = "default");			-- Sprigatito Evo 2
+(`pokedex_ref` = 907 AND `type_name` = "default") OR		-- Floragato
+(`pokedex_ref` = 908 AND `type_name` = "default");			-- Meowscarada
 UPDATE `type_bundle` SET `hidden_ability` = 65 WHERE
 (`pokedex_ref` = 511 AND `type_name` = "default") OR		-- Pansage
 (`pokedex_ref` = 512 AND `type_name` = "default");			-- Simisage
@@ -7160,8 +8332,8 @@ UPDATE `type_bundle` SET `ability1` = 66 WHERE
 (`pokedex_ref` = 814 AND `type_name` = "default") OR		-- Raboot
 (`pokedex_ref` = 815 AND `type_name` = "default") OR		-- Cinderace
 (`pokedex_ref` = 909 AND `type_name` = "default") OR		-- Fuecoco
-(`pokedex_ref` = 910 AND `type_name` = "default") OR		-- Fuecoco Evo 1
-(`pokedex_ref` = 911 AND `type_name` = "default");			-- Fuecoco Evo 2
+(`pokedex_ref` = 910 AND `type_name` = "default") OR		-- Crocalor
+(`pokedex_ref` = 911 AND `type_name` = "default");			-- Skeledirge
 UPDATE `type_bundle` SET `hidden_ability` = 66 WHERE
 (`pokedex_ref` = 513 AND `type_name` = "default") OR		-- Pansear
 (`pokedex_ref` = 514 AND `type_name` = "default");			-- Simisear
@@ -7194,8 +8366,8 @@ UPDATE `type_bundle` SET `ability1` = 67 WHERE
 (`pokedex_ref` = 817 AND `type_name` = "default") OR		-- Drizzile
 (`pokedex_ref` = 818 AND `type_name` = "default") OR		-- Inteleon
 (`pokedex_ref` = 912 AND `type_name` = "default") OR		-- Quaxly
-(`pokedex_ref` = 913 AND `type_name` = "default") OR		-- Quaxly Evo 1
-(`pokedex_ref` = 914 AND `type_name` = "default");			-- Quaxly Evo 2
+(`pokedex_ref` = 913 AND `type_name` = "default") OR		-- Quaxwell
+(`pokedex_ref` = 914 AND `type_name` = "default");			-- Quaquaval
 UPDATE `type_bundle` SET `hidden_ability` = 67 WHERE
 (`pokedex_ref` = 515 AND `type_name` = "default") OR		-- Panpour
 (`pokedex_ref` = 516 AND `type_name` = "default");			-- Simipour
@@ -7222,7 +8394,9 @@ UPDATE `type_bundle` SET `ability1` = 68 WHERE
 (`pokedex_ref` = 824 AND `type_name` = "default") OR	-- Blipbug
 (`pokedex_ref` = 825 AND `type_name` = "default") OR	-- Dottler
 (`pokedex_ref` = 826 AND `type_name` = "default") OR	-- Orbeetle
-(`pokedex_ref` = 900 AND `type_name` = "default");		-- Kleavor
+(`pokedex_ref` = 900 AND `type_name` = "default") OR	-- Kleavor
+(`pokedex_ref` = 919 AND `type_name` = "default") OR	-- Nymble
+(`pokedex_ref` = 920 AND `type_name` = "default");		-- Lokix
 UPDATE `type_bundle` SET `ability2` = 68 WHERE
 (`pokedex_ref` = 313 AND `type_name` = "default") OR	-- Volbeat
 (`pokedex_ref` = 543 AND `type_name` = "default") OR	-- Venipede
@@ -7257,8 +8431,10 @@ UPDATE `type_bundle` SET `ability2` = 69 WHERE
 (`pokedex_ref` = 369 AND `type_name` = "default") OR	-- Relicanth
 (`pokedex_ref` = 438 AND `type_name` = "default");		-- Bonsly
 UPDATE `type_bundle` SET `hidden_ability` = 69 WHERE
-(`pokedex_ref` = 105 AND `type_name` = "alola_variant") OR	-- Marowak (Alola)
-(`pokedex_ref` = 697 AND `type_name` = "default");			-- Tyrantrum
+(`pokedex_ref` = 58 AND `type_name` = "hisui_variant") OR		-- Growlithe (Hisui)
+(`pokedex_ref` = 59 AND `type_name` = "hisui_variant") OR		-- Arcanine (Hisui)
+(`pokedex_ref` = 105 AND `type_name` = "alola_variant") OR		-- Marowak (Alola)
+(`pokedex_ref` = 697 AND `type_name` = "default");				-- Tyrantrum
 
 -- Drought
 UPDATE `type_bundle` SET `ability1` = 70 WHERE
@@ -7283,7 +8459,8 @@ UPDATE `type_bundle` SET `ability1` = 72 WHERE
 (`pokedex_ref` = 122 AND `type_name` = "galar_variant") OR	-- Mr Mime (Galar)
 (`pokedex_ref` = 225 AND `type_name` = "default") OR		-- Delibird
 (`pokedex_ref` = 288 AND `type_name` = "default") OR		-- Vigoroth
-(`pokedex_ref` = 506 AND `type_name` = "default");			-- Lillipup
+(`pokedex_ref` = 506 AND `type_name` = "default") OR		-- Lillipup
+(`pokedex_ref` = 979 AND `type_name` = "default");			-- Annihilape
 UPDATE `type_bundle` SET `ability2` = 72 WHERE
 (`pokedex_ref` = 744 AND `type_name` = "default") OR		-- Rockruff
 (`pokedex_ref` = 745 AND `type_name` = "midnight_form");	-- Lycanroc (Midnight Form)
@@ -7330,8 +8507,11 @@ UPDATE `type_bundle` SET `ability2` = 75 WHERE
 (`pokedex_ref` = 558 AND `type_name` = "default") OR		-- Crustle
 (`pokedex_ref` = 589 AND `type_name` = "default") OR		-- Escavalier
 (`pokedex_ref` = 616 AND `type_name` = "default") OR		-- Shelmet
+(`pokedex_ref` = 705 AND `type_name` = "hisui_variant") OR	-- Sliggoo (Hisui)
+(`pokedex_ref` = 706 AND `type_name` = "hisui_variant") OR	-- Goodra (Hisui)
 (`pokedex_ref` = 833 AND `type_name` = "default") OR		-- Chewtle
-(`pokedex_ref` = 834 AND `type_name` = "default");			-- Drednaw
+(`pokedex_ref` = 834 AND `type_name` = "default") OR		-- Drednaw
+(`pokedex_ref` = 950 AND `type_name` = "default");			-- Klawf
 UPDATE `type_bundle` SET `hidden_ability` = 75 WHERE
 (`pokedex_ref` = 324 AND `type_name` = "default") OR		-- Torkoal
 (`pokedex_ref` = 387 AND `type_name` = "default") OR		-- Turtwig
@@ -7354,7 +8534,8 @@ UPDATE `type_bundle` SET `ability2` = 77 WHERE
 (`pokedex_ref` = 17 AND `type_name` = "default") OR		-- Pidgeotto
 (`pokedex_ref` = 18 AND `type_name` = "default") OR		-- Pidgeot
 (`pokedex_ref` = 327 AND `type_name` = "default") OR	-- Spinda
-(`pokedex_ref` = 441 AND `type_name` = "default");		-- Chatot
+(`pokedex_ref` = 441 AND `type_name` = "default") OR	-- Chatot
+(`pokedex_ref` = 973 AND `type_name` = "default");		-- Flamigo
 UPDATE `type_bundle` SET `hidden_ability` = 77 WHERE
 (`pokedex_ref` = 84 AND `type_name` = "default") OR		-- Doduo
 (`pokedex_ref` = 85 AND `type_name` = "default");		-- Dodrio
@@ -7393,12 +8574,12 @@ UPDATE `type_bundle` SET `hidden_ability` = 79 WHERE
 
 -- Steadfast
 UPDATE `type_bundle` SET `ability1` = 80 WHERE
-(`pokedex_ref` = 83 AND `type_name` = "galar_variant") OR		-- Farfetch"d (Galar)
+(`pokedex_ref` = 83 AND `type_name` = "galar_variant") OR		-- Farfetch'd (Galar)
 (`pokedex_ref` = 150 AND `type_name` = "mega_x") OR				-- MEGA Mewtwo X
 (`pokedex_ref` = 447 AND `type_name` = "default") OR			-- Riolu
 (`pokedex_ref` = 448 AND `type_name` = "default") OR			-- Lucario
 (`pokedex_ref` = 475 AND `type_name` = "default") OR			-- Gallade
-(`pokedex_ref` = 865 AND `type_name` = "default");				-- Sirfetch"d
+(`pokedex_ref` = 865 AND `type_name` = "default");				-- Sirfetch'd
 UPDATE `type_bundle` SET `ability2` = 80 WHERE
 (`pokedex_ref` = 236 AND `type_name` = "default") OR	-- Tyrogue
 (`pokedex_ref` = 832 AND `type_name` = "default");		-- Dubwool
@@ -7427,7 +8608,8 @@ UPDATE `type_bundle` SET `ability2` = 81 WHERE
 (`pokedex_ref` = 221 AND `type_name` = "default") OR	-- Piloswine
 (`pokedex_ref` = 473 AND `type_name` = "default") OR	-- Mamoswine
 (`pokedex_ref` = 582 AND `type_name` = "default") OR	-- Vanillite
-(`pokedex_ref` = 583 AND `type_name` = "default");		-- Vanillish
+(`pokedex_ref` = 583 AND `type_name` = "default") OR	-- Vanillish
+(`pokedex_ref` = 974 AND `type_name` = "default");		-- Cetoddle
 UPDATE `type_bundle` SET `hidden_ability` = 81 WHERE
 (`pokedex_ref` = 0 AND `type_name` = "default") OR	--
 (`pokedex_ref` = 144 AND `type_name` = "default");		-- Articuno
@@ -7454,7 +8636,10 @@ UPDATE `type_bundle` SET `ability2` = 82 WHERE
 (`pokedex_ref` = 264 AND `type_name` = "galar_variant") OR		-- Linoone (Galar)
 (`pokedex_ref` = 840 AND `type_name` = "default") OR			-- Applin
 (`pokedex_ref` = 841 AND `type_name` = "default") OR			-- Flapple
-(`pokedex_ref` = 842 AND `type_name` = "default");				-- Appletun
+(`pokedex_ref` = 842 AND `type_name` = "default") OR			-- Appletun
+(`pokedex_ref` = 915 AND `type_name` = "default") OR			-- Lechonk
+(`pokedex_ref` = 916 AND `type_name` = "default_m") OR			-- Oinkologne (M)
+(`pokedex_ref` = 916 AND `type_name` = "default_f");			-- Oinkologne (F)
 UPDATE `type_bundle` SET `hidden_ability` = 82 WHERE
 (`pokedex_ref` = 69 AND `type_name` = "default") OR		-- Bellsprout
 (`pokedex_ref` = 70 AND `type_name` = "default") OR		-- Weepinbell
@@ -7470,9 +8655,12 @@ UPDATE `type_bundle` SET `hidden_ability` = 82 WHERE
 
 -- Anger Point
 UPDATE `type_bundle` SET `ability2` = 83 WHERE
-(`pokedex_ref` = 56 AND `type_name` = "default") OR		-- Mankey
-(`pokedex_ref` = 57 AND `type_name` = "default") OR		-- Primeape
-(`pokedex_ref` = 128 AND `type_name` = "default");		-- Tauros
+(`pokedex_ref` = 56 AND `type_name` = "default") OR			-- Mankey
+(`pokedex_ref` = 57 AND `type_name` = "default") OR			-- Primeape
+(`pokedex_ref` = 128 AND `type_name` = "default") OR		-- Tauros
+(`pokedex_ref` = 128 AND `type_name` = "paldea_combat") OR	-- Tauros (Paldea: Combat Breed)
+(`pokedex_ref` = 128 AND `type_name` = "paldea_blaze") OR	-- Tauros (Paldea: Blaze Breed)
+(`pokedex_ref` = 128 AND `type_name` = "paldea_aqua");		-- Tauros (Paldea: Aqua Breed)
 UPDATE `type_bundle` SET `hidden_ability` = 83 WHERE
 (`pokedex_ref` = 323 AND `type_name` = "default") OR	-- Anger Point
 (`pokedex_ref` = 551 AND `type_name` = "default") OR	-- Sandile
@@ -7482,6 +8670,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 83 WHERE
 (`pokedex_ref` = 740 AND `type_name` = "default");		-- Crabominable
 
 -- Unburden
+UPDATE `type_bundle` SET `ability1` = 84 WHERE
+(`pokedex_ref` = 944 AND `type_name` = "default") OR	-- Shroodle
+(`pokedex_ref` = 945 AND `type_name` = "default");		-- Grafaiai
 UPDATE `type_bundle` SET `ability2` = 84 WHERE
 (`pokedex_ref` = 425 AND `type_name` = "default") OR	-- Drifloon
 (`pokedex_ref` = 426 AND `type_name` = "default") OR	-- Drifblim
@@ -7489,7 +8680,8 @@ UPDATE `type_bundle` SET `ability2` = 84 WHERE
 (`pokedex_ref` = 510 AND `type_name` = "default") OR	-- Liepard
 (`pokedex_ref` = 701 AND `type_name` = "default") OR	-- Hawlucha
 (`pokedex_ref` = 827 AND `type_name` = "default") OR	-- Nickit
-(`pokedex_ref` = 828 AND `type_name` = "default");		-- Thievul
+(`pokedex_ref` = 828 AND `type_name` = "default") OR	-- Thievul
+(`pokedex_ref` = 903 AND `type_name` = "default");		-- Sneasler
 UPDATE `type_bundle` SET `hidden_ability` = 84 WHERE
 (`pokedex_ref` = 106 AND `type_name` = "default") OR	-- Hitmonlee
 (`pokedex_ref` = 252 AND `type_name` = "default") OR	-- Treecko
@@ -7504,6 +8696,9 @@ UPDATE `type_bundle` SET `ability2` = 85 WHERE
 (`pokedex_ref` = 436 AND `type_name` = "default") OR	-- Bronzor
 (`pokedex_ref` = 437 AND `type_name` = "default") OR	-- Bronzong
 (`pokedex_ref` = 837 AND `type_name` = "default");		-- Rolycoly
+UPDATE `type_bundle` SET `hidden_ability` = 85 WHERE
+(`pokedex_ref` = 1012 AND `type_name` = "default") OR	-- Poltchageist
+(`pokedex_ref` = 1013 AND `type_name` = "default");		-- Sinistcha
 
 -- Simple
 UPDATE `type_bundle` SET `ability1` = 86 WHERE
@@ -7553,7 +8748,10 @@ UPDATE `type_bundle` SET `hidden_ability` = 89 WHERE
 (`pokedex_ref` = 392 AND `type_name` = "default") OR	-- Infernape
 (`pokedex_ref` = 532 AND `type_name` = "default") OR	-- Timburr
 (`pokedex_ref` = 533 AND `type_name` = "default") OR	-- Gurdurr
-(`pokedex_ref` = 534 AND `type_name` = "default");		-- Conkeldurr
+(`pokedex_ref` = 534 AND `type_name` = "default") OR	-- Conkeldurr
+(`pokedex_ref` = 921 AND `type_name` = "default") OR	-- Pawmi
+(`pokedex_ref` = 922 AND `type_name` = "default") OR	-- Pawmo
+(`pokedex_ref` = 923 AND `type_name` = "default");		-- Pawmot
 
 -- Poison Heal
 UPDATE `type_bundle` SET `ability2` = 90 WHERE
@@ -7738,7 +8936,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 101 WHERE
 (`pokedex_ref` = 849 AND `type_name` = "amped_form") OR		-- Toxtricity (Amped Form)
 (`pokedex_ref` = 849 AND `type_name` = "low_key_form") OR	-- Toxtricity (Low Key Form)
 (`pokedex_ref` = 852 AND `type_name` = "default") OR		-- Clobbopus
-(`pokedex_ref` = 853 AND `type_name` = "default");			-- Grapploct
+(`pokedex_ref` = 853 AND `type_name` = "default") OR		-- Grapploct
+(`pokedex_ref` = 925 AND `type_name` = "default") OR		-- Maushold
+(`pokedex_ref` = 1016 AND `type_name` = "default");			-- Fezandipiti
 
 -- Leaf Guard
 UPDATE `type_bundle` SET `ability1` = 102 WHERE
@@ -7779,14 +8979,20 @@ UPDATE `type_bundle` SET `ability2` = 103 WHERE
 (`pokedex_ref` = 760 AND `type_name` = "default");		-- Bewear
 UPDATE `type_bundle` SET `hidden_ability` = 103 WHERE
 (`pokedex_ref` = 531 AND `type_name` = "default") OR	-- Audino
-(`pokedex_ref` = 848 AND `type_name` = "default");		-- Toxel
+(`pokedex_ref` = 848 AND `type_name` = "default") OR	-- Toxel
+(`pokedex_ref` = 926 AND `type_name` = "default") OR	-- Fidough
+(`pokedex_ref` = 951 AND `type_name` = "default");		-- Capsakid
 
 -- Mold Breaker
 UPDATE `type_bundle` SET `ability1` = 104 WHERE
 (`pokedex_ref` = 130 AND `type_name` = "mega") OR		-- MEGA Gyarados
 (`pokedex_ref` = 181 AND `type_name` = "mega") OR		-- MEGA Ampharos
 (`pokedex_ref` = 408 AND `type_name` = "default") OR	-- Cranidos
-(`pokedex_ref` = 409 AND `type_name` = "default");		-- Rampardos
+(`pokedex_ref` = 409 AND `type_name` = "default") OR	-- Rampardos
+(`pokedex_ref` = 957 AND `type_name` = "default") OR	-- Tinkatink
+(`pokedex_ref` = 958 AND `type_name` = "default") OR	-- Tinkatuff
+(`pokedex_ref` = 959 AND `type_name` = "default") OR	-- Tinkaton
+(`pokedex_ref` = 976 AND `type_name` = "default");		-- Veluza
 UPDATE `type_bundle` SET `ability2` = 104 WHERE
 (`pokedex_ref` = 127 AND `type_name` = "default") OR	-- Pinsir
 (`pokedex_ref` = 610 AND `type_name` = "default") OR	-- Axew
@@ -7840,7 +9046,8 @@ UPDATE `type_bundle` SET `ability1` = 107 WHERE
 (`pokedex_ref` = 413 AND `type_name` = "sandy_cloak") OR	-- Wormadam (Sandy Cloak)
 (`pokedex_ref` = 413 AND `type_name` = "trash_cloak") OR	-- Wormadam (Trash Cloak)
 (`pokedex_ref` = 453 AND `type_name` = "default") OR		-- Croagunk
-(`pokedex_ref` = 454 AND `type_name` = "default");			-- Toxicroak
+(`pokedex_ref` = 454 AND `type_name` = "default") OR		-- Toxicroak
+(`pokedex_ref` = 955 AND `type_name` = "default");			-- Flittle
 UPDATE `type_bundle` SET `ability2` = 107 WHERE
 (`pokedex_ref` = 339 AND `type_name` = "default") OR	-- Barboach
 (`pokedex_ref` = 340 AND `type_name` = "default") OR	-- Whiscash
@@ -7867,28 +9074,37 @@ UPDATE `type_bundle` SET `ability2` = 108 WHERE
 UPDATE `type_bundle` SET `ability1` = 109 WHERE
 (`pokedex_ref` = 527 AND `type_name` = "default") OR	-- Woobat
 (`pokedex_ref` = 528 AND `type_name` = "default") OR	-- Swoobat
-(`pokedex_ref` = 789 AND `type_name` = "default");		-- Cosmog
+(`pokedex_ref` = 789 AND `type_name` = "default") OR	-- Cosmog
+(`pokedex_ref` = 977 AND `type_name` = "default");		-- Dondozo
 UPDATE `type_bundle` SET `ability2` = 109 WHERE
 (`pokedex_ref` = 399 AND `type_name` = "default") OR	-- Bidoof
 (`pokedex_ref` = 400 AND `type_name` = "default");		-- Bibarel
 UPDATE `type_bundle` SET `hidden_ability` = 109 WHERE
-(`pokedex_ref` = 36 AND `type_name` = "default") OR		-- Clefable
-(`pokedex_ref` = 194 AND `type_name` = "default") OR	-- Wooper
-(`pokedex_ref` = 195 AND `type_name` = "default") OR	-- Quagsire
-(`pokedex_ref` = 771 AND `type_name` = "default");		-- Pyukumuku
+(`pokedex_ref` = 36 AND `type_name` = "default") OR			-- Clefable
+(`pokedex_ref` = 194 AND `type_name` = "default") OR		-- Wooper
+(`pokedex_ref` = 194 AND `type_name` = "paldea_variant") OR	-- Wooper (Paldea)
+(`pokedex_ref` = 195 AND `type_name` = "default") OR		-- Quagsire
+(`pokedex_ref` = 771 AND `type_name` = "default") OR		-- Pyukumuku
+(`pokedex_ref` = 909 AND `type_name` = "default") OR		-- Fuecoco
+(`pokedex_ref` = 910 AND `type_name` = "default") OR		-- Crocalor
+(`pokedex_ref` = 911 AND `type_name` = "default") OR		-- Skeledirge
+(`pokedex_ref` = 980 AND `type_name` = "default");			-- Clodsire
 
 -- Tinted Lens
 UPDATE `type_bundle` SET `ability2` = 110 WHERE
-(`pokedex_ref` = 48 AND `type_name` = "default") OR		-- Venonat
-(`pokedex_ref` = 49 AND `type_name` = "default") OR		-- Venomoth
-(`pokedex_ref` = 314 AND `type_name` = "default") OR	-- Illumise
-(`pokedex_ref` = 469 AND `type_name` = "default");		-- Yanmega
+(`pokedex_ref` = 48 AND `type_name` = "default") OR				-- Venonat
+(`pokedex_ref` = 49 AND `type_name` = "default") OR				-- Venomoth
+(`pokedex_ref` = 314 AND `type_name` = "default") OR			-- Illumise
+(`pokedex_ref` = 469 AND `type_name` = "default");				-- Yanmega
 UPDATE `type_bundle` SET `hidden_ability` = 110 WHERE
-(`pokedex_ref` = 12 AND `type_name` = "default") OR		-- Butterfree
-(`pokedex_ref` = 163 AND `type_name` = "default") OR	-- Hoothoot
-(`pokedex_ref` = 164 AND `type_name` = "default") OR	-- Noctowl
-(`pokedex_ref` = 414 AND `type_name` = "default") OR	-- Mothim
-(`pokedex_ref` = 561 AND `type_name` = "default");		-- Sigilyph
+(`pokedex_ref` = 12 AND `type_name` = "default") OR				-- Butterfree
+(`pokedex_ref` = 163 AND `type_name` = "default") OR			-- Hoothoot
+(`pokedex_ref` = 164 AND `type_name` = "default") OR			-- Noctowl
+(`pokedex_ref` = 414 AND `type_name` = "default") OR			-- Mothim
+(`pokedex_ref` = 561 AND `type_name` = "default") OR			-- Sigilyph
+(`pokedex_ref` = 628 AND `type_name` = "hisui_variant") OR		-- Braviary (Hisui)
+(`pokedex_ref` = 919 AND `type_name` = "default") OR			-- Nymble
+(`pokedex_ref` = 920 AND `type_name` = "default");				-- Lokix
 
 -- Filter
 UPDATE `type_bundle` SET `ability1` = 111 WHERE
@@ -7896,19 +9112,24 @@ UPDATE `type_bundle` SET `ability1` = 111 WHERE
 UPDATE `type_bundle` SET `ability2` = 111 WHERE
 (`pokedex_ref` = 122 AND `type_name` = "default") OR	-- Mr Mime
 (`pokedex_ref` = 439 AND `type_name` = "default");		-- Mime Jr
+UPDATE `type_bundle` SET `hidden_ability` = 111 WHERE
+(`pokedex_ref` = 966 AND `type_name` = "default");		-- Revavroom
 
 -- Slow Start
 UPDATE `type_bundle` SET `ability1` = 112 WHERE
 (`pokedex_ref` = 486 AND `type_name` = "default");		-- Regigigas
+UPDATE `type_bundle` SET `hidden_ability` = 112 WHERE
+(`pokedex_ref` = 965 AND `type_name` = "default");		-- Varoom
 
 -- Scrappy
 UPDATE `type_bundle` SET `ability1` = 113 WHERE
-(`pokedex_ref` = 428 AND `type_name` = "mega");			-- MEGA Lopunny
+(`pokedex_ref` = 428 AND `type_name` = "mega") OR			-- MEGA Lopunny
+(`pokedex_ref` = 973 AND `type_name` = "default");			-- Flamigo
 UPDATE `type_bundle` SET `ability2` = 113 WHERE
-(`pokedex_ref` = 115 AND `type_name` = "default") OR	-- Kangaskhan
-(`pokedex_ref` = 241 AND `type_name` = "default");		-- Miltank
+(`pokedex_ref` = 115 AND `type_name` = "default") OR		-- Kangaskhan
+(`pokedex_ref` = 241 AND `type_name` = "default");			-- Miltank
 UPDATE `type_bundle` SET `hidden_ability` = 113 WHERE
-(`pokedex_ref` = 83 AND `type_name` = "galar_variant") OR	-- Farfetch"d (Galar)
+(`pokedex_ref` = 83 AND `type_name` = "galar_variant") OR	-- Farfetch'd (Galar)
 (`pokedex_ref` = 276 AND `type_name` = "default") OR		-- Taillow
 (`pokedex_ref` = 277 AND `type_name` = "default") OR		-- Swellow
 (`pokedex_ref` = 294 AND `type_name` = "default") OR		-- Loudred
@@ -7917,7 +9138,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 113 WHERE
 (`pokedex_ref` = 508 AND `type_name` = "default") OR		-- Stoutland
 (`pokedex_ref` = 674 AND `type_name` = "default") OR		-- Pancham
 (`pokedex_ref` = 675 AND `type_name` = "default") OR		-- Pangoro
-(`pokedex_ref` = 865 AND `type_name` = "default");			-- Sirfetch"d
+(`pokedex_ref` = 724 AND `type_name` = "hisui_variant") OR	-- Decidueye (Hisui)
+(`pokedex_ref` = 865 AND `type_name` = "default");			-- Sirfetch'd
 
 -- Storm Drain
 UPDATE `type_bundle` SET `ability2` = 114 WHERE
@@ -7930,7 +9152,8 @@ UPDATE `type_bundle` SET `ability2` = 114 WHERE
 UPDATE `type_bundle` SET `hidden_ability` = 114 WHERE
 (`pokedex_ref` = 345 AND `type_name` = "default") OR	-- Storm Drain
 (`pokedex_ref` = 346 AND `type_name` = "default") OR	-- Cradily
-(`pokedex_ref` = 556 AND `type_name` = "default");		-- Maractus
+(`pokedex_ref` = 556 AND `type_name` = "default") OR	-- Maractus
+(`pokedex_ref` = 978 AND `type_name` = "default");		-- Tatsugiri
 
 -- Ice Body
 UPDATE `type_bundle` SET `ability1` = 115 WHERE
@@ -7953,7 +9176,10 @@ UPDATE `type_bundle` SET `hidden_ability` = 115 WHERE
 (`pokedex_ref` = 122 AND `type_name` = "galar_variant") OR	-- Mr Mime (Galar)
 (`pokedex_ref` = 471 AND `type_name` = "default") OR		-- Glaceon
 (`pokedex_ref` = 378 AND `type_name` = "default") OR		-- Regice
-(`pokedex_ref` = 866 AND `type_name` = "default");			-- Mr Rime
+(`pokedex_ref` = 866 AND `type_name` = "default") OR		-- Mr Rime
+(`pokedex_ref` = 996 AND `type_name` = "default") OR		-- Frigibax
+(`pokedex_ref` = 997 AND `type_name` = "default") OR		-- Arctibax
+(`pokedex_ref` = 998 AND `type_name` = "default");			-- Baxcalibur
 
 -- Solid Rock
 UPDATE `type_bundle` SET `ability1` = 116 WHERE
@@ -8004,16 +9230,20 @@ UPDATE `type_bundle` SET `ability2` = 119 WHERE
 (`pokedex_ref` = 859 AND `type_name` = "default") OR	-- Impidimp
 (`pokedex_ref` = 860 AND `type_name` = "default") OR	-- Morgrem
 (`pokedex_ref` = 861 AND `type_name` = "default") OR	-- Grimmsnarl
-(`pokedex_ref` = 899 AND `type_name` = "default");		-- Wyrdeer
+(`pokedex_ref` = 899 AND `type_name` = "default") OR	-- Wyrdeer
+(`pokedex_ref` = 955 AND `type_name` = "default") OR	-- Flittle
+(`pokedex_ref` = 956 AND `type_name` = "default");		-- Espathra
 UPDATE `type_bundle` SET `hidden_ability` = 119 WHERE
-(`pokedex_ref` = 40 AND `type_name` = "default") OR		-- Wigglytuff
-(`pokedex_ref` = 161 AND `type_name` = "default") OR	-- Sentret
-(`pokedex_ref` = 162 AND `type_name` = "default") OR	-- Furret
-(`pokedex_ref` = 193 AND `type_name` = "default") OR	-- Yanma
-(`pokedex_ref` = 355 AND `type_name` = "default") OR	-- Duskull
-(`pokedex_ref` = 356 AND `type_name` = "default") OR	-- Dusclops
-(`pokedex_ref` = 469 AND `type_name` = "default") OR	-- Yanmega
-(`pokedex_ref` = 477 AND `type_name` = "default");		-- Dusknoir
+(`pokedex_ref` = 40 AND `type_name` = "default") OR	        -- Wigglytuff
+(`pokedex_ref` = 157 AND `type_name` = "hisui_variant") OR	-- Typhlosion (Hisui)
+(`pokedex_ref` = 161 AND `type_name` = "default") OR	    -- Sentret
+(`pokedex_ref` = 162 AND `type_name` = "default") OR	    -- Furret
+(`pokedex_ref` = 193 AND `type_name` = "default") OR	    -- Yanma
+(`pokedex_ref` = 355 AND `type_name` = "default") OR	    -- Duskull
+(`pokedex_ref` = 356 AND `type_name` = "default") OR	    -- Dusclops
+(`pokedex_ref` = 469 AND `type_name` = "default") OR	    -- Yanmega
+(`pokedex_ref` = 477 AND `type_name` = "default") OR	    -- Dusknoir
+(`pokedex_ref` = 1015 AND `type_name` = "default");		    -- Munkidori
 
 -- Reckless
 UPDATE `type_bundle` SET `ability1` = 120 WHERE
@@ -8046,17 +9276,23 @@ UPDATE `type_bundle` SET `ability1` = 123 WHERE
 (`pokedex_ref` = 491 AND `type_name` = "default");		-- Darkrai
 
 -- Pickpocket
+UPDATE `type_bundle` SET `ability2` = 124 WHERE
+(`pokedex_ref` = 944 AND `type_name` = "default");		-- Shroodle
 UPDATE `type_bundle` SET `hidden_ability` = 124 WHERE
-(`pokedex_ref` = 215 AND `type_name` = "default") OR	-- Sneasel
-(`pokedex_ref` = 273 AND `type_name` = "default") OR	-- Seedot
-(`pokedex_ref` = 274 AND `type_name` = "default") OR	-- Nuzleaf
-(`pokedex_ref` = 275 AND `type_name` = "default") OR	-- Shiftry
-(`pokedex_ref` = 461 AND `type_name` = "default") OR	-- Weavile
-(`pokedex_ref` = 688 AND `type_name` = "default") OR	-- Binacle
-(`pokedex_ref` = 689 AND `type_name` = "default") OR	-- Barbaracle
-(`pokedex_ref` = 859 AND `type_name` = "default") OR	-- Impidimp
-(`pokedex_ref` = 860 AND `type_name` = "default") OR	-- Morgrem
-(`pokedex_ref` = 861 AND `type_name` = "default");		-- Grimmsnarl
+(`pokedex_ref` = 215 AND `type_name` = "default") OR		-- Sneasel
+(`pokedex_ref` = 215 AND `type_name` = "hisui_variant") OR	-- Sneasel (Hisui)
+(`pokedex_ref` = 273 AND `type_name` = "default") OR		-- Seedot
+(`pokedex_ref` = 274 AND `type_name` = "default") OR		-- Nuzleaf
+(`pokedex_ref` = 275 AND `type_name` = "default") OR		-- Shiftry
+(`pokedex_ref` = 461 AND `type_name` = "default") OR		-- Weavile
+(`pokedex_ref` = 688 AND `type_name` = "default") OR		-- Binacle
+(`pokedex_ref` = 689 AND `type_name` = "default") OR		-- Barbaracle
+(`pokedex_ref` = 859 AND `type_name` = "default") OR		-- Impidimp
+(`pokedex_ref` = 860 AND `type_name` = "default") OR		-- Morgrem
+(`pokedex_ref` = 861 AND `type_name` = "default") OR		-- Grimmsnarl
+(`pokedex_ref` = 957 AND `type_name` = "default") OR		-- Tinkatink
+(`pokedex_ref` = 958 AND `type_name` = "default") OR		-- Tinkatuff
+(`pokedex_ref` = 959 AND `type_name` = "default");			-- Tinkaton
 
 -- Sheer Force
 UPDATE `type_bundle` SET `ability1` = 125 WHERE
@@ -8091,7 +9327,11 @@ UPDATE `type_bundle` SET `hidden_ability` = 125 WHERE
 (`pokedex_ref` = 408 AND `type_name` = "default") OR			-- Cranidos
 (`pokedex_ref` = 409 AND `type_name` = "default") OR			-- Rampardos
 (`pokedex_ref` = 645 AND `type_name` = "incarnate_forme") OR	-- Landorus (Incarnate Forme)
-(`pokedex_ref` = 733 AND `type_name` = "default");				-- Toucannon
+(`pokedex_ref` = 733 AND `type_name` = "default") OR			-- Toucannon
+(`pokedex_ref` = 931 AND `type_name` = "yellow_plumage") OR		-- Squawkabilly (Yellow Plumage)
+(`pokedex_ref` = 931 AND `type_name` = "white_plumage") OR 		-- Squawkabilly (White Plumage)
+(`pokedex_ref` = 974 AND `type_name` = "default") OR			-- Cetoddle
+(`pokedex_ref` = 975 AND `type_name` = "default");				-- Cetitan
 
 -- Contrary
 UPDATE `type_bundle` SET `ability1` = 126 WHERE
@@ -8142,22 +9382,23 @@ UPDATE `type_bundle` SET `hidden_ability` = 127 WHERE
 UPDATE `type_bundle` SET `ability1` = 128 WHERE
 (`pokedex_ref` = 145 AND `type_name` = "galar_variant") OR		-- Zapdos (Galar)
 (`pokedex_ref` = 624 AND `type_name` = "default") OR			-- Pawniard
-(`pokedex_ref` = 625 AND `type_name` = "default");				-- Bisharp
+(`pokedex_ref` = 625 AND `type_name` = "default") OR			-- Bisharp
+(`pokedex_ref` = 983 AND `type_name` = "default");				-- Kingambit
 UPDATE `type_bundle` SET `hidden_ability` = 128 WHERE
 (`pokedex_ref` = 56 AND `type_name` = "default") OR				-- Mankey
 (`pokedex_ref` = 57 AND `type_name` = "default") OR				-- Primeape
-(`pokedex_ref` = 83 AND `type_name` = "default") OR				-- Farfetch"d
+(`pokedex_ref` = 83 AND `type_name` = "default") OR				-- Farfetch'd
 (`pokedex_ref` = 393 AND `type_name` = "default") OR			-- Piplup
 (`pokedex_ref` = 394 AND `type_name` = "default") OR			-- Prinplup
 (`pokedex_ref` = 395 AND `type_name` = "default") OR			-- Empoleon
 (`pokedex_ref` = 432 AND `type_name` = "default") OR			-- Purugly
 (`pokedex_ref` = 628 AND `type_name` = "default") OR			-- Braviary
-(`pokedex_ref` = 628 AND `type_name` = "hisui_variant") OR		-- Braviary (Hisui)
 (`pokedex_ref` = 641 AND `type_name` = "incarnate_forme") OR	-- Tornadus (Incarnate Forme)
 (`pokedex_ref` = 642 AND `type_name` = "incarnate_forme") OR	-- Thundrus (Incarnate Forme)
 (`pokedex_ref` = 766 AND `type_name` = "default") OR			-- Passimian
 (`pokedex_ref` = 862 AND `type_name` = "default") OR			-- Obstagoon
-(`pokedex_ref` = 870 AND `type_name` = "default");				-- Falinks
+(`pokedex_ref` = 870 AND `type_name` = "default") OR			-- Falinks
+(`pokedex_ref` = 979 AND `type_name` = "default");				-- Annihilape
 
 -- Defeatist
 UPDATE `type_bundle` SET `ability1` = 129 WHERE
@@ -8191,14 +9432,15 @@ UPDATE `type_bundle` SET `ability1` = 131 WHERE
 (`pokedex_ref` = 683 AND `type_name` = "default") OR			-- Aromatisse
 (`pokedex_ref` = 856 AND `type_name` = "default") OR			-- Hatenna
 (`pokedex_ref` = 857 AND `type_name` = "default") OR			-- Hattrem
-(`pokedex_ref` = 858 AND `type_name` = "default") OR			-- Hatterene
-(`pokedex_ref` = 905 AND `type_name` = "incarnate_forme");		-- Enamorus
+(`pokedex_ref` = 858 AND `type_name` = "default");				-- Hatterene
 UPDATE `type_bundle` SET `hidden_ability` = 131 WHERE
 (`pokedex_ref` = 113 AND `type_name` = "default") OR	-- Chansey
 (`pokedex_ref` = 182 AND `type_name` = "default") OR	-- Bellossom
 (`pokedex_ref` = 242 AND `type_name` = "default");		-- Blissey
 
 -- Friend Guard
+UPDATE `type_bundle` SET `ability1` = 132 WHERE
+(`pokedex_ref` = 925 AND `type_name` = "default");		-- Maushold
 UPDATE `type_bundle` SET `hidden_ability` = 132 WHERE
 (`pokedex_ref` = 35 AND `type_name` = "default") OR		-- Clefairy
 (`pokedex_ref` = 173 AND `type_name` = "default") OR	-- Cleffa
@@ -8234,7 +9476,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 133 WHERE
 (`pokedex_ref` = 583 AND `type_name` = "default") OR	-- Vanillish
 (`pokedex_ref` = 584 AND `type_name` = "default") OR	-- Vanilluxe
 (`pokedex_ref` = 629 AND `type_name` = "default") OR	-- Vullaby
-(`pokedex_ref` = 630 AND `type_name` = "default");		-- Mandibuzz
+(`pokedex_ref` = 630 AND `type_name` = "default") OR	-- Mandibuzz
+(`pokedex_ref` = 936 AND `type_name` = "default") OR	-- Armarouge
+(`pokedex_ref` = 937 AND `type_name` = "default");	    -- Ceruledge
 
 -- Heavy Metal
 UPDATE `type_bundle` SET `ability2` = 134 WHERE
@@ -8279,7 +9523,10 @@ UPDATE `type_bundle` SET `hidden_ability` = 139 WHERE
 (`pokedex_ref` = 103 AND `type_name` = "alola_variant") OR	-- Exeggutor (Alola)
 (`pokedex_ref` = 357 AND `type_name` = "default") OR		-- Tropius
 (`pokedex_ref` = 708 AND `type_name` = "default") OR		-- Phantump
-(`pokedex_ref` = 709 AND `type_name` = "default");			-- Trevenant
+(`pokedex_ref` = 709 AND `type_name` = "default") OR		-- Trevenant
+(`pokedex_ref` = 928 AND `type_name` = "default") OR		-- Smoliv
+(`pokedex_ref` = 929 AND `type_name` = "default") OR		-- Dolliv
+(`pokedex_ref` = 930 AND `type_name` = "default");			-- Arboliva
 
 -- Telepathy
 UPDATE `type_bundle` SET `ability1` = 140 WHERE
@@ -8310,7 +9557,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 140 WHERE
 (`pokedex_ref` = 788 AND `type_name` = "default") OR		-- Tapu Fini
 (`pokedex_ref` = 824 AND `type_name` = "default") OR		-- Blipbug
 (`pokedex_ref` = 825 AND `type_name` = "default") OR		-- Dottler
-(`pokedex_ref` = 826 AND `type_name` = "default");			-- Orbeetle
+(`pokedex_ref` = 826 AND `type_name` = "default") OR		-- Orbeetle
+(`pokedex_ref` = 954 AND `type_name` = "default");			-- Rabsca
 
 -- Moody
 UPDATE `type_bundle` SET `hidden_ability` = 141 WHERE
@@ -8320,19 +9568,20 @@ UPDATE `type_bundle` SET `hidden_ability` = 141 WHERE
 (`pokedex_ref` = 361 AND `type_name` = "default") OR	-- Snorunt
 (`pokedex_ref` = 362 AND `type_name` = "default") OR	-- Glalie
 (`pokedex_ref` = 399 AND `type_name` = "default") OR	-- Bidoof
-(`pokedex_ref` = 400 AND `type_name` = "default");		-- Bibarel
+(`pokedex_ref` = 400 AND `type_name` = "default") OR	-- Bibarel
+(`pokedex_ref` = 952 AND `type_name` = "default");		-- Scovillain
 
 -- Overcoat
 UPDATE `type_bundle` SET `ability1` = 142 WHERE
 (`pokedex_ref` = 577 AND `type_name` = "default") OR		-- Solosis
 (`pokedex_ref` = 578 AND `type_name` = "default") OR		-- Duosion
 (`pokedex_ref` = 579 AND `type_name` = "default") OR		-- Reuniclus
-(`pokedex_ref` = 905 AND `type_name` = "therian_forme");	-- Enamorus
+(`pokedex_ref` = 905 AND `type_name` = "therian_forme") OR	-- Enamorus (Therian Forme)
+(`pokedex_ref` = 965 AND `type_name` = "default") OR		-- Varoom
+(`pokedex_ref` = 966 AND `type_name` = "default");			-- Revavroom
 UPDATE `type_bundle` SET `ability2` = 142 WHERE
 (`pokedex_ref` = 629 AND `type_name` = "default") OR		-- Vullaby
-(`pokedex_ref` = 630 AND `type_name` = "default") OR		-- Mandibuzz
-(`pokedex_ref` = 705 AND `type_name` = "hisui_variant") OR	-- Sliggoo (Hisui)
-(`pokedex_ref` = 706 AND `type_name` = "hisui_variant");	-- Goodra (Hisui)
+(`pokedex_ref` = 630 AND `type_name` = "default");			-- Mandibuzz
 UPDATE `type_bundle` SET `hidden_ability` = 142 WHERE
 (`pokedex_ref` = 90 AND `type_name` = "default") OR			-- Shellder
 (`pokedex_ref` = 91 AND `type_name` = "default") OR			-- Cloyster
@@ -8361,11 +9610,11 @@ UPDATE `type_bundle` SET `ability1` = 143 WHERE
 UPDATE `type_bundle` SET `ability2` = 143 WHERE
 (`pokedex_ref` = 537 AND `type_name` = "default") OR	-- Seismitoad
 (`pokedex_ref` = 690 AND `type_name` = "default") OR	-- Skrelp
-(`pokedex_ref` = 691 AND `type_name` = "default");		-- Dragalge
+(`pokedex_ref` = 691 AND `type_name` = "default") Or	-- Dragalge
+(`pokedex_ref` = 945 AND `type_name` = "default");		-- Grafaiai
 UPDATE `type_bundle` SET `hidden_ability` = 143 WHERE
 (`pokedex_ref` = 88 AND `type_name` = "default") OR			-- Grimer
 (`pokedex_ref` = 89 AND `type_name` = "default") OR			-- Muk
-(`pokedex_ref` = 215 AND `type_name` = "hisui_variant") OR	-- Sneasel (Hisui)
 (`pokedex_ref` = 453 AND `type_name` = "default") OR		-- Croagunk
 (`pokedex_ref` = 454 AND `type_name` = "default") OR		-- Toxicroak
 (`pokedex_ref` = 903 AND `type_name` = "default");			-- Sneasler
@@ -8396,7 +9645,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 144 WHERE
 (`pokedex_ref` = 591 AND `type_name` = "default") OR		-- Amoonguss
 (`pokedex_ref` = 594 AND `type_name` = "default") OR		-- Alomomola
 (`pokedex_ref` = 747 AND `type_name` = "default") OR		-- Mareanie
-(`pokedex_ref` = 748 AND `type_name` = "default");			-- Toxapex
+(`pokedex_ref` = 748 AND `type_name` = "default") OR		-- Toxapex
+(`pokedex_ref` = 950 AND `type_name` = "default") OR		-- Klawf
+(`pokedex_ref` = 967 AND `type_name` = "default");			-- Cyclizar
 
 -- Big Pecks
 UPDATE `type_bundle` SET `ability1` = 145 WHERE
@@ -8405,7 +9656,8 @@ UPDATE `type_bundle` SET `ability1` = 145 WHERE
 (`pokedex_ref` = 521 AND `type_name` = "default") OR	-- Unfezant
 (`pokedex_ref` = 629 AND `type_name` = "default") OR	-- Vullaby
 (`pokedex_ref` = 630 AND `type_name` = "default") OR	-- Mandibuzz
-(`pokedex_ref` = 661 AND `type_name` = "default");		-- Fletchling
+(`pokedex_ref` = 661 AND `type_name` = "default") OR	-- Fletchling
+(`pokedex_ref` = 962 AND `type_name` = "default");		-- Bombirdier
 UPDATE `type_bundle` SET `ability2` = 145 WHERE
 (`pokedex_ref` = 580 AND `type_name` = "default") OR	-- Ducklett
 (`pokedex_ref` = 581 AND `type_name` = "default");		-- Swanna
@@ -8420,7 +9672,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 145 WHERE
 -- Sand Rush
 UPDATE `type_bundle` SET `ability1` = 146 WHERE
 (`pokedex_ref` = 529 AND `type_name` = "default") OR	-- Drilbur
-(`pokedex_ref` = 530 AND `type_name` = "default");		-- Excadrill
+(`pokedex_ref` = 530 AND `type_name` = "default") OR	-- Excadrill
+(`pokedex_ref` = 972 AND `type_name` = "default");		-- Houndstone
 UPDATE `type_bundle` SET `ability2` = 146 WHERE
 (`pokedex_ref` = 507 AND `type_name` = "default") OR	-- Herdier
 (`pokedex_ref` = 508 AND `type_name` = "default") OR	-- Stoutland
@@ -8492,7 +9745,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 151 WHERE
 (`pokedex_ref` = 608 AND `type_name` = "default") OR	-- Lampent
 (`pokedex_ref` = 609 AND `type_name` = "default") OR	-- Chandelure
 (`pokedex_ref` = 686 AND `type_name` = "default") OR	-- Inkay
-(`pokedex_ref` = 687 AND `type_name` = "default");		-- Malamar
+(`pokedex_ref` = 687 AND `type_name` = "default") OR	-- Malamar
+(`pokedex_ref` = 946 AND `type_name` = "default") OR	-- Bramblin
+(`pokedex_ref` = 947 AND `type_name` = "default");		-- Brambleghast
 
 -- Mummy
 UPDATE `type_bundle` SET `ability1` = 152 WHERE
@@ -8514,7 +9769,10 @@ UPDATE `type_bundle` SET `hidden_ability` = 153 WHERE
 (`pokedex_ref` = 373 AND `type_name` = "default") OR	-- Salamence
 (`pokedex_ref` = 430 AND `type_name` = "default") OR	-- Honchkrow
 (`pokedex_ref` = 667 AND `type_name` = "default") OR	-- Litleo
-(`pokedex_ref` = 668 AND `type_name` = "default");		-- Pyroar
+(`pokedex_ref` = 668 AND `type_name` = "default") OR	-- Pyroar
+(`pokedex_ref` = 912 AND `type_name` = "default") OR	-- Quaxly
+(`pokedex_ref` = 913 AND `type_name` = "default") OR	-- Quaxwell
+(`pokedex_ref` = 914 AND `type_name` = "default");		-- Quaquaval
 
 -- Justified
 UPDATE `type_bundle` SET `ability1` = 154 WHERE
@@ -8523,9 +9781,6 @@ UPDATE `type_bundle` SET `ability1` = 154 WHERE
 (`pokedex_ref` = 640 AND `type_name` = "default") OR			-- Virizion
 (`pokedex_ref` = 647 AND `type_name` = "ordinary_form") OR		-- Keldeo (Ordinary Form)
 (`pokedex_ref` = 647 AND `type_name` = "resolute_form");		-- Keldeo (Resolute Form)
-UPDATE `type_bundle` SET `ability2` = 154 WHERE
-(`pokedex_ref` = 58 AND `type_name` = "hisui_variant") OR		-- Growlithe (Hisui)
-(`pokedex_ref` = 59 AND `type_name` = "hisui_variant");			-- Arcanine (Hisui)
 UPDATE `type_bundle` SET `hidden_ability` = 154 WHERE
 (`pokedex_ref` = 58 AND `type_name` = "default") OR				-- Growlithe
 (`pokedex_ref` = 59 AND `type_name` = "default") OR				-- Arcanine
@@ -8537,22 +9792,26 @@ UPDATE `type_bundle` SET `hidden_ability` = 154 WHERE
 UPDATE `type_bundle` SET `ability1` = 155 WHERE
 (`pokedex_ref` = 550 AND `type_name` = "white-striped_form") OR	-- Basculin (White-Striped Form)
 (`pokedex_ref` = 848 AND `type_name` = "default") OR			-- Toxel
-(`pokedex_ref` = 902 AND `type_name` = "default");				-- Basculeigon
+(`pokedex_ref` = 999 AND `type_name` = "roaming_form");			-- Gimmighoul
+UPDATE `type_bundle` SET `ability2` = 155 WHERE
+(`pokedex_ref` = 960 AND `type_name` = "default") OR			-- Wiglett
+(`pokedex_ref` = 961 AND `type_name` = "default");				-- Wugtrio
 UPDATE `type_bundle` SET `hidden_ability` = 155 WHERE
-(`pokedex_ref` = 52 AND `type_name` = "alola_variant") OR	-- Meowth (Alola)
-(`pokedex_ref` = 53 AND `type_name` = "alola_variant") OR	-- Persian (Alola)
-(`pokedex_ref` = 129 AND `type_name` = "default") OR		-- Magikarp
-(`pokedex_ref` = 165 AND `type_name` = "default") OR		-- Ledyba
-(`pokedex_ref` = 185 AND `type_name` = "default") OR		-- Sudowoodo
-(`pokedex_ref` = 206 AND `type_name` = "default") OR		-- Dunsparce
-(`pokedex_ref` = 209 AND `type_name` = "default") OR		-- Snubbull
-(`pokedex_ref` = 210 AND `type_name` = "default") OR		-- Granbull
-(`pokedex_ref` = 261 AND `type_name` = "default") OR		-- Poochyena
-(`pokedex_ref` = 293 AND `type_name` = "default") OR		-- Whismur
-(`pokedex_ref` = 366 AND `type_name` = "default") OR		-- Clamperl
-(`pokedex_ref` = 438 AND `type_name` = "default") OR		-- Bonsly
-(`pokedex_ref` = 613 AND `type_name` = "default") OR		-- Cubchoo
-(`pokedex_ref` = 835 AND `type_name` = "default");			-- Yamper
+(`pokedex_ref` = 52 AND `type_name` = "alola_variant") OR		-- Meowth (Alola)
+(`pokedex_ref` = 53 AND `type_name` = "alola_variant") OR		-- Persian (Alola)
+(`pokedex_ref` = 129 AND `type_name` = "default") OR			-- Magikarp
+(`pokedex_ref` = 165 AND `type_name` = "default") OR			-- Ledyba
+(`pokedex_ref` = 185 AND `type_name` = "default") OR			-- Sudowoodo
+(`pokedex_ref` = 206 AND `type_name` = "default") OR			-- Dunsparce
+(`pokedex_ref` = 209 AND `type_name` = "default") OR			-- Snubbull
+(`pokedex_ref` = 210 AND `type_name` = "default") OR			-- Granbull
+(`pokedex_ref` = 261 AND `type_name` = "default") OR			-- Poochyena
+(`pokedex_ref` = 293 AND `type_name` = "default") OR			-- Whismur
+(`pokedex_ref` = 366 AND `type_name` = "default") OR			-- Clamperl
+(`pokedex_ref` = 438 AND `type_name` = "default") OR			-- Bonsly
+(`pokedex_ref` = 613 AND `type_name` = "default") OR			-- Cubchoo
+(`pokedex_ref` = 835 AND `type_name` = "default") OR			-- Yamper
+(`pokedex_ref` = 982 AND `type_name` = "default");				-- Dudunsparce
 
 -- Magic Bounce
 UPDATE `type_bundle` SET `ability1` = 156 WHERE
@@ -8596,7 +9855,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 157 WHERE
 (`pokedex_ref` = 298 AND `type_name` = "default") OR	-- Azurill
 (`pokedex_ref` = 522 AND `type_name` = "default") OR	-- Blitzle
 (`pokedex_ref` = 523 AND `type_name` = "default") OR	-- Zebstrika
-(`pokedex_ref` = 899 AND `type_name` = "default");		-- Wyrdeer
+(`pokedex_ref` = 899 AND `type_name` = "default") OR	-- Wyrdeer
+(`pokedex_ref` = 981 AND `type_name` = "default");		-- Farigiraf
 
 -- Prankster
 UPDATE `type_bundle` SET `ability1` = 158 WHERE
@@ -8617,7 +9877,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 158 WHERE
 (`pokedex_ref` = 447 AND `type_name` = "default") OR	-- Riolu
 (`pokedex_ref` = 509 AND `type_name` = "default") OR	-- Purrloin
 (`pokedex_ref` = 510 AND `type_name` = "default") OR	-- Liepard
-(`pokedex_ref` = 678 AND `type_name` = "default_m");	-- Meowstic (M)
+(`pokedex_ref` = 678 AND `type_name` = "default_m") OR	-- Meowstic (M)
+(`pokedex_ref` = 944 AND `type_name` = "default") OR	-- Shroodle
+(`pokedex_ref` = 945 AND `type_name` = "default");		-- Grafaiai
 
 -- Sand Force
 UPDATE `type_bundle` SET `ability1` = 159 WHERE
@@ -8673,11 +9935,15 @@ UPDATE `type_bundle` SET `ability1` = 164 WHERE
 (`pokedex_ref` = 646 AND `type_name` = "black_kyurem");		-- Black Kyurem
 
 -- Aroma Veil
+UPDATE `type_bundle` SET `ability1` = 165 WHERE
+(`pokedex_ref` = 915 AND `type_name` = "default") OR	-- Lechonk
+(`pokedex_ref` = 916 AND `type_name` = "default_f");	-- Oinkologne (F)
 UPDATE `type_bundle` SET `hidden_ability` = 165 WHERE
 (`pokedex_ref` = 682 AND `type_name` = "default") OR	-- Spritzee
 (`pokedex_ref` = 683 AND `type_name` = "default") OR	-- Aromatisse
 (`pokedex_ref` = 868 AND `type_name` = "default") OR	-- Milcery
-(`pokedex_ref` = 869 AND `type_name` = "default");		-- Alcremie
+(`pokedex_ref` = 869 AND `type_name` = "default") OR	-- Alcremie
+(`pokedex_ref` = 927 AND `type_name` = "default");		-- Dachsbun
 
 -- Flower Veil
 UPDATE `type_bundle` SET `ability1` = 166 WHERE
@@ -8693,14 +9959,18 @@ UPDATE `type_bundle` SET `ability1` = 167 WHERE
 (`pokedex_ref` = 820 AND `type_name` = "default");		-- Greedent
 UPDATE `type_bundle` SET `ability2` = 167 WHERE
 (`pokedex_ref` = 659 AND `type_name` = "default") OR	-- Bunnelby
-(`pokedex_ref` = 660 AND `type_name` = "default");		-- Diggersby
+(`pokedex_ref` = 660 AND `type_name` = "default") OR	-- Diggersby
+(`pokedex_ref` = 925 AND `type_name` = "default");		-- Maushold
 
 -- Protean
 UPDATE `type_bundle` SET `hidden_ability` = 168 WHERE
 (`pokedex_ref` = 352 AND `type_name` = "default") OR	-- Kecleon
 (`pokedex_ref` = 656 AND `type_name` = "default") OR	-- Froakie
 (`pokedex_ref` = 657 AND `type_name` = "default") OR	-- Frogadier
-(`pokedex_ref` = 658 AND `type_name` = "default");		-- Greninja
+(`pokedex_ref` = 658 AND `type_name` = "default") OR	-- Greninja
+(`pokedex_ref` = 906 AND `type_name` = "default") OR	-- Sprigatito
+(`pokedex_ref` = 907 AND `type_name` = "default") OR	-- Floragato
+(`pokedex_ref` = 908 AND `type_name` = "default");		-- Meowscarada
 
 -- Fur Coat
 UPDATE `type_bundle` SET `ability1` = 169 WHERE
@@ -8745,7 +10015,9 @@ UPDATE `type_bundle` SET `ability2` = 172 WHERE
 (`pokedex_ref` = 576 AND `type_name` = "default");		-- Gothitelle
 UPDATE `type_bundle` SET `hidden_ability` = 172 WHERE
 (`pokedex_ref` = 678 AND `type_name` = "default_f") OR	-- Meowstic (F)
-(`pokedex_ref` = 836 AND `type_name` = "default");		-- Boltund
+(`pokedex_ref` = 836 AND `type_name` = "default") OR	-- Boltund
+(`pokedex_ref` = 940 AND `type_name` = "default") OR	-- Wattrel
+(`pokedex_ref` = 941 AND `type_name` = "default");		-- Kilowattrel
 
 -- Strong Jaw
 UPDATE `type_bundle` SET `ability1` = 173 WHERE
@@ -8830,6 +10102,9 @@ UPDATE `type_bundle` SET `hidden_ability` = 182 WHERE
 (`pokedex_ref` = 700 AND `type_name` = "default");		-- Sylveon
 
 -- Gooey
+UPDATE `type_bundle` SET `ability1` = 183 WHERE
+(`pokedex_ref` = 960 AND `type_name` = "default") OR		-- Wiglett
+(`pokedex_ref` = 961 AND `type_name` = "default");			-- Wugtrio
 UPDATE `type_bundle` SET `hidden_ability` = 183 WHERE
 (`pokedex_ref` = 704 AND `type_name` = "default") OR		-- Goomy
 (`pokedex_ref` = 705 AND `type_name` = "default") OR		-- Sliggoo
@@ -8872,9 +10147,11 @@ UPDATE `type_bundle` SET `ability1` = 191 WHERE
 (`pokedex_ref` = 384 AND `type_name` = "mega");		-- MEGA Rayquaza
 
 -- Stamina
+UPDATE `type_bundle` SET `ability1` = 192 WHERE
+(`pokedex_ref` = 966 AND `type_name` = "caph_starmobile");		-- Revavroom (Caph Starmobile)
 UPDATE `type_bundle` SET `ability2` = 192 WHERE
-(`pokedex_ref` = 749 AND `type_name` = "default") OR	-- Mudbray
-(`pokedex_ref` = 750 AND `type_name` = "default");		-- Mudsdale
+(`pokedex_ref` = 749 AND `type_name` = "default") OR			-- Mudbray
+(`pokedex_ref` = 750 AND `type_name` = "default");				-- Mudsdale
 
 -- Wimp Out
 UPDATE `type_bundle` SET `ability1` = 193 WHERE
@@ -8900,11 +10177,15 @@ UPDATE `type_bundle` SET `ability1` = 197 WHERE
 
 -- Stakeout
 UPDATE `type_bundle` SET `ability1` = 198 WHERE
-(`pokedex_ref` = 734 AND `type_name` = "default") OR	-- Yungoos
-(`pokedex_ref` = 735 AND `type_name` = "default");		-- Gumshoos
+(`pokedex_ref` = 734 AND `type_name` = "default") OR		-- Yungoos
+(`pokedex_ref` = 735 AND `type_name` = "default");			-- Gumshoos
 UPDATE `type_bundle` SET `hidden_ability` = 198 WHERE
-(`pokedex_ref` = 827 AND `type_name` = "default") OR	-- Nickit
-(`pokedex_ref` = 828 AND `type_name` = "default");		-- Thievul
+(`pokedex_ref` = 827 AND `type_name` = "default") OR		-- Nickit
+(`pokedex_ref` = 828 AND `type_name` = "default") OR		-- Thievul
+(`pokedex_ref` = 917 AND `type_name` = "default") OR		-- Tarountula
+(`pokedex_ref` = 918 AND `type_name` = "default") OR		-- Spidops
+(`pokedex_ref` = 942 AND `type_name` = "default") OR    	-- Maschiff
+(`pokedex_ref` = 943 AND `type_name` = "default");    		-- Mabosstiff
 
 -- Water Bubble
 UPDATE `type_bundle` SET `ability1` = 199 WHERE
@@ -8923,7 +10204,8 @@ UPDATE `type_bundle` SET `ability1` = 201 WHERE
 -- Slush Rush
 UPDATE `type_bundle` SET `ability2` = 202 WHERE
 (`pokedex_ref` = 613 AND `type_name` = "default") OR	-- Cubchoo
-(`pokedex_ref` = 614 AND `type_name` = "default");		-- Beartic
+(`pokedex_ref` = 614 AND `type_name` = "default") OR	-- Beartic
+(`pokedex_ref` = 975 AND `type_name` = "default");		-- Cetitan
 UPDATE `type_bundle` SET `hidden_ability` = 202 WHERE
 (`pokedex_ref` = 27 AND `type_name` = "alola_variant") OR	-- Sandshrew (Alola)
 (`pokedex_ref` = 28 AND `type_name` = "alola_variant") OR	-- Sandslash (Alola)
@@ -8934,8 +10216,7 @@ UPDATE `type_bundle` SET `hidden_ability` = 202 WHERE
 UPDATE `type_bundle` SET `hidden_ability` = 203 WHERE
 (`pokedex_ref` = 722 AND `type_name` = "default") OR		-- Rowlet
 (`pokedex_ref` = 723 AND `type_name` = "default") OR		-- Dartrix
-(`pokedex_ref` = 724 AND `type_name` = "default") OR		-- Decidueye
-(`pokedex_ref` = 724 AND `type_name` = "hisui_variant");	-- Decidueye (Hisui)
+(`pokedex_ref` = 724 AND `type_name` = "default");			-- Decidueye
 
 -- Liquid Voice
 UPDATE `type_bundle` SET `hidden_ability` = 204 WHERE
@@ -8980,6 +10261,9 @@ UPDATE `type_bundle` SET `ability2` = 211 WHERE
 UPDATE `type_bundle` SET `ability1` = 212 WHERE
 (`pokedex_ref` = 757 AND `type_name` = "default") OR	-- Salandit
 (`pokedex_ref` = 758 AND `type_name` = "default");		-- Salazzle
+UPDATE `type_bundle` SET `hidden_ability` = 212 WHERE
+(`pokedex_ref` = 969 AND `type_name` = "default") OR	-- Glimmet
+(`pokedex_ref` = 970 AND `type_name` = "default");		-- Glimmora
 
 -- Comatose
 UPDATE `type_bundle` SET `ability1` = 213 WHERE
@@ -9010,6 +10294,9 @@ UPDATE `type_bundle` SET `ability1` = 218 WHERE
 (`pokedex_ref` = 760 AND `type_name` = "default") OR	-- Bewear
 (`pokedex_ref` = 831 AND `type_name` = "default") OR	-- Wooloo
 (`pokedex_ref` = 832 AND `type_name` = "default");		-- Dubwool
+UPDATE `type_bundle` SET `hidden_ability` = 218 WHERE
+(`pokedex_ref` = 971 AND `type_name` = "default") OR	-- Greavard
+(`pokedex_ref` = 972 AND `type_name` = "default");		-- Houndstone
 
 -- Dazzling
 UPDATE `type_bundle` SET `ability1` = 219 WHERE
@@ -9066,7 +10353,8 @@ UPDATE `type_bundle` SET `hidden_ability` = 227 WHERE
 
 -- Misty Surge
 UPDATE `type_bundle` SET `ability1` = 228 WHERE
-(`pokedex_ref` = 788 AND `type_name` = "default");		-- Tapu Fini
+(`pokedex_ref` = 788 AND `type_name` = "default") OR			-- Tapu Fini
+(`pokedex_ref` = 966 AND `type_name` = "ruchbah_starmobile");	-- Revavroom (Ruchbah Starmobile)
 UPDATE `type_bundle` SET `hidden_ability` = 228 WHERE
 (`pokedex_ref` = 110 AND `type_name` = "galar_variant");	-- Weezing (Galar)
 
@@ -9248,6 +10536,184 @@ UPDATE `type_bundle` SET `ability1` = 265 WHERE
 UPDATE `type_bundle` SET `ability1` = 266 WHERE
 (`pokedex_ref` = 898 AND INSTR(`type_name`, "rider") > 0);		-- Calyrex (Ice Rider and Snow Rider)
 
+-- Lingering Aroma (267)
+UPDATE `type_bundle` SET `ability1` = 267 WHERE
+(`pokedex_ref` = 916 AND `type_name` = "default_m");		-- Oinkologne (M)
+
+-- Seed Sower (268)
+UPDATE `type_bundle` SET `ability1` = 268 WHERE
+(`pokedex_ref` = 930 AND `type_name` = "default");			-- Arboliva
+
+-- Thermal Exchange (269)
+UPDATE `type_bundle` SET `ability1` = 269 WHERE
+(`pokedex_ref` = 996 AND `type_name` = "default") OR		-- Frigibax
+(`pokedex_ref` = 997 AND `type_name` = "default") OR		-- Arctibax
+(`pokedex_ref` = 998 AND `type_name` = "default");			-- Baxcalibur
+
+-- Anger Shell (270)
+UPDATE `type_bundle` SET `ability1` = 270 WHERE
+(`pokedex_ref` = 950 AND `type_name` = "default");			-- Klawf
+
+-- Purifying Salt (271)
+UPDATE `type_bundle` SET `ability1` = 271 WHERE
+(`pokedex_ref` = 932 AND `type_name` = "default") OR		-- Nacli
+(`pokedex_ref` = 933 AND `type_name` = "default") OR		-- Naclstack
+(`pokedex_ref` = 934 AND `type_name` = "default");			-- Garganacl
+
+-- Well-Baked Body (272)
+UPDATE `type_bundle` SET `ability1` = 272 WHERE
+(`pokedex_ref` = 927 AND `type_name` = "default");		-- Dachsbun
+
+-- Wind Rider (273)
+UPDATE `type_bundle` SET `ability1` = 273 WHERE
+(`pokedex_ref` = 946 AND `type_name` = "default") OR		-- Bramblin
+(`pokedex_ref` = 947 AND `type_name` = "default");			-- Brambleghast
+
+-- Guard Dog (274)
+UPDATE `type_bundle` SET `ability1` = 274 WHERE
+(`pokedex_ref` = 943 AND `type_name` = "default");    		-- Mabosstiff
+UPDATE `type_bundle` SET `hidden_ability` = 274 WHERE
+(`pokedex_ref` = 1014 AND `type_name` = "default");    		-- Okidogi
+
+-- Rocky Payload (275)
+UPDATE `type_bundle` SET `hidden_ability` = 275 WHERE
+(`pokedex_ref` = 962 AND `type_name` = "default");    		-- Bombirdier
+
+-- Wind Power (276)
+UPDATE `type_bundle` SET `ability1` = 276 WHERE
+(`pokedex_ref` = 940 AND `type_name` = "default") OR		-- Wattrel
+(`pokedex_ref` = 941 AND `type_name` = "default");			-- Kilowattrel
+
+-- Zero to Hero (277)
+UPDATE `type_bundle` SET `ability1` = 277 WHERE
+(`pokedex_ref` = 964 AND `type_name` = "default");			-- Palafin
+
+-- Commander (278)
+UPDATE `type_bundle` SET `ability1` = 278 WHERE
+(`pokedex_ref` = 978 AND `type_name` = "default");		-- Tatsugiri
+
+-- Electromorphosis (279)
+UPDATE `type_bundle` SET `ability1` = 279 WHERE
+(`pokedex_ref` = 939 AND `type_name` = "default");		-- Bellibolt
+
+-- Protosynthesis (280)
+UPDATE `type_bundle` SET `ability1` = 280 WHERE
+(`pokedex_ref` = 984 AND `type_name` = "default") OR	-- Great Tusk
+(`pokedex_ref` = 985 AND `type_name` = "default") OR	-- Scream Tail
+(`pokedex_ref` = 986 AND `type_name` = "default") OR	-- Brute Bonnet
+(`pokedex_ref` = 987 AND `type_name` = "default") OR	-- Flutter Mane
+(`pokedex_ref` = 988 AND `type_name` = "default") OR	-- Slither Wing
+(`pokedex_ref` = 989 AND `type_name` = "default") OR	-- Sandy Shocks
+(`pokedex_ref` = 1005 AND `type_name` = "default") OR	-- Roaring Moon
+(`pokedex_ref` = 1009 AND `type_name` = "default");		-- Walking Wake
+
+-- Quark Drive (281)
+UPDATE `type_bundle` SET `ability1` = 281 WHERE
+(`pokedex_ref` = 990 AND `type_name` = "default") OR	-- Iron Treads
+(`pokedex_ref` = 991 AND `type_name` = "default") OR	-- Iron Bundle
+(`pokedex_ref` = 992 AND `type_name` = "default") OR	-- Iron Hands
+(`pokedex_ref` = 993 AND `type_name` = "default") OR	-- Iron Jugulis
+(`pokedex_ref` = 994 AND `type_name` = "default") OR	-- Iron Moth
+(`pokedex_ref` = 995 AND `type_name` = "default") OR	-- Iron Thorns
+(`pokedex_ref` = 1006 AND `type_name` = "default") OR	-- Iron Valiant
+(`pokedex_ref` = 1010 AND `type_name` = "default");		-- Iron Leaves
+
+-- Good as Gold (282)
+UPDATE `type_bundle` SET `ability1` = 282 WHERE
+(`pokedex_ref` = 1000 AND `type_name` = "default");		-- Gholdengo
+
+-- Vessel of Ruin (283)
+UPDATE `type_bundle` SET `ability1` = 283 WHERE
+(`pokedex_ref` = 1003 AND `type_name` = "default");		-- Ting-Lu
+
+-- Sword of Ruin (284)
+UPDATE `type_bundle` SET `ability1` = 284 WHERE
+(`pokedex_ref` = 1002 AND `type_name` = "default");		-- Chien-Pao
+
+-- Tablets of Ruin (285)
+UPDATE `type_bundle` SET `ability1` = 285 WHERE
+(`pokedex_ref` = 1001 AND `type_name` = "default");		-- Wo-Chien
+
+-- Beads of Ruin (286)
+UPDATE `type_bundle` SET `ability1` = 286 WHERE
+(`pokedex_ref` = 1004 AND `type_name` = "default");		-- Chi-Yu
+
+-- Orichalcum Pulse (287)
+UPDATE `type_bundle` SET `ability1` = 287 WHERE
+(`pokedex_ref` = 1007 AND `type_name` = "default");		-- Koraidon
+
+-- Hadron Engine (288)
+UPDATE `type_bundle` SET `ability1` = 288 WHERE
+(`pokedex_ref` = 1008 AND `type_name` = "default");		-- Miraidon
+
+-- Opportunist (289)
+UPDATE `type_bundle` SET `ability1` = 289 WHERE
+(`pokedex_ref` = 956 AND `type_name` = "default");		-- Espathra
+
+-- Cud Chew (290)
+UPDATE `type_bundle` SET `ability1` = 290 WHERE
+(`pokedex_ref` = 981 AND `type_name` = "default");			-- Farigiraf
+UPDATE `type_bundle` SET `hidden_ability` = 290 WHERE
+(`pokedex_ref` = 128 AND `type_name` = "paldea_combat") OR	-- Tauros (Paldea: Combat Breed)
+(`pokedex_ref` = 128 AND `type_name` = "paldea_blaze") OR	-- Tauros (Paldea: Blaze Breed)
+(`pokedex_ref` = 128 AND `type_name` = "paldea_aqua");		-- Tauros (Paldea: Aqua Breed)
+
+-- Sharpness (291)
+UPDATE `type_bundle` SET `ability2` = 291 WHERE
+(`pokedex_ref` = 475 AND `type_name` = "default");			-- Gallade
+UPDATE `type_bundle` SET `hidden_ability` = 291 WHERE
+(`pokedex_ref` = 503 AND `type_name` = "hisui_variant") OR	-- Samurott (Hisui)
+(`pokedex_ref` = 900 AND `type_name` = "default") OR		-- Kleavor
+(`pokedex_ref` = 976 AND `type_name` = "default");			-- Veluza
+
+-- Supreme Overlord (292)
+UPDATE `type_bundle` SET `ability2` = 292 WHERE
+(`pokedex_ref` = 983 AND `type_name` = "default");			-- Kingambit
+
+-- Costar (293)
+UPDATE `type_bundle` SET `hidden_ability` = 293 WHERE
+(`pokedex_ref` = 973 AND `type_name` = "default");				-- FLamigo
+
+-- Toxic Debris (294)
+UPDATE `type_bundle` SET `ability1` = 294 WHERE
+(`pokedex_ref` = 966 AND `type_name` = "navi_starmobile") OR	-- Revavroom (Navi Starmobile)
+(`pokedex_ref` = 969 AND `type_name` = "default") OR			-- Glimmet
+(`pokedex_ref` = 970 AND `type_name` = "default");				-- Glimmora
+
+-- Armor Tail (295)
+UPDATE `type_bundle` SET `ability2` = 295 WHERE
+(`pokedex_ref` = 981 AND `type_name` = "default");			-- Farigiraf
+
+-- Earth Eater (296)
+UPDATE `type_bundle` SET `ability1` = 296 WHERE
+(`pokedex_ref` = 968 AND `type_name` = "default");			-- Orthworm
+
+-- Mycelium Might (297)
+UPDATE `type_bundle` SET `ability1` = 297 WHERE
+(`pokedex_ref` = 948 AND `type_name` = "default") OR		-- Toedscool
+(`pokedex_ref` = 949 AND `type_name` = "default");			-- Toedscruel
+
+-- Hospitality (298)
+UPDATE `type_bundle` SET `ability1` = 298 WHERE
+(`pokedex_ref` = 1012 AND `type_name` = "default") OR		-- Poltchageist
+(`pokedex_ref` = 1013 AND `type_name` = "default");			-- Sinistcha
+
+-- Mind's Eye (299)
+UPDATE `type_bundle` SET `ability1` = 299 WHERE
+(`pokedex_ref` = 901 AND `type_name` = "bloodmoon");			-- Ursaluna (Bloodmoon)
+
+-- Embody Aspect (300)
+UPDATE `type_bundle` SET `terastal_ability` = 300 WHERE
+(`pokedex_ref` = 1017);			-- Ogerpon (Terastalized State)
+
+-- Toxic Chain (301)
+UPDATE `type_bundle` SET `ability1` = 301 WHERE
+(`pokedex_ref` = 1014 AND `type_name` = "default") OR		-- Okidogi
+(`pokedex_ref` = 1015 AND `type_name` = "default") OR		-- Munkidori
+(`pokedex_ref` = 1016 AND `type_name` = "default");			-- Fezandipiti
+
+-- Supersweet Syrup (302)
+
 DROP TABLE IF EXISTS `base_stats`;
 CREATE TABLE `base_stats` (
 	`pokedex_ref`	INT NOT NULL,
@@ -9301,6 +10767,12 @@ INSERT INTO `dex_entries` (`pokedex_ref`, `pokemon_variant`, `dex_name`, `entry`
 (1, "default", "brilliant-diamond", "For some time after its birth, it grows by taking nourishment from the seed on its back."),
 (1, "default", "shining-pearl", "For some time after its birth, it grows by taking nourishment from the seed on its back.")
 ;
+INSERT INTO `dex_entries` (`pokedex_ref`, `pokemon_variant`, `dex_name`, `entry`) VALUES
+(3, "default", "sword", "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight."),
+(3, "default", "shield", "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle."),
+(3, "default", "brilliant-diamond", "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon."),
+(3, "default", "shining-pearl", "After a rainy day, the flower on its back smells stronger. The scent attracts other Pokémon.")
+;
 
 DELIMITER //
 
@@ -9327,8 +10799,9 @@ DROP PROCEDURE IF EXISTS `show_pkmn` //
 CREATE PROCEDURE `show_pkmn`(`keyword` VARCHAR(50))
 BEGIN
 	IF `keyword` = "" THEN
-		SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`,
-        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.*
+        SELECT pl.*, tb.*, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, ta.`ability_name` AS `ta_name`,
+        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.*, 
+        de.`dex_name`, de.`entry`
         FROM `pokemon_list` pl
 		JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
         JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
@@ -9336,11 +10809,14 @@ BEGIN
         LEFT JOIN `ability` a1 ON a1.`id` = tb.`ability1`
         LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
         LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
+	    LEFT JOIN `ability` ta ON ta.`id` = tb.`terastal_ability`
         LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
+        LEFT JOIN `dex_entries` de ON de.`pokedex_ref` = tb.`pokedex_ref`
 		ORDER BY pl.`id` ASC, FIELD(`type_name`, "default") DESC;
     ELSE
-		SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`,
-        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.*
+        SELECT pl.*, tb.*, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, ta.`ability_name` AS `ta_name`,
+        z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.*, 
+        de.`dex_name`, de.`entry`
         FROM `pokemon_list` pl
         JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
         JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
@@ -9348,7 +10824,9 @@ BEGIN
         LEFT JOIN `ability` a1 ON a1.`id` = tb.`ability1`
         LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
         LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
+	    LEFT JOIN `ability` ta ON ta.`id` = tb.`terastal_ability`
 		LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
+		LEFT JOIN `dex_entries` de ON de.`pokedex_ref` = tb.`pokedex_ref`
 		WHERE INSTR(`type_name`, `keyword`) > 0
 		ORDER BY pl.`id` ASC, FIELD(`type_name`, "default") DESC;
     END IF;
@@ -9363,7 +10841,7 @@ BEGIN
 	-- WHERE (INSTR(`type_name`, "default") > 0 OR INSTR(`type_name`, "form"))
     -- AND pl.`id` = `dex_id`
 	-- ORDER BY `id` ASC;
-    SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`,
+    SELECT pl.*, tb.*, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, ta.`ability_name` AS `ta_name`,
 	z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* FROM `pokemon_list` pl
 	JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
 	JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
@@ -9371,6 +10849,7 @@ BEGIN
 	LEFT JOIN `ability` a1 ON a1.`id` = tb.`ability1`
 	LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
 	LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
+	LEFT JOIN `ability` ta ON ta.`id` = tb.`terastal_ability`
 	LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
     WHERE pl.`id` = `dex_id`
 	ORDER BY pl.`id` ASC;
@@ -9380,7 +10859,7 @@ DROP PROCEDURE IF EXISTS `show_one_limit` //
 
 CREATE PROCEDURE `show_one_limit`(`dex_id` INT)
 BEGIN
-    SELECT pl.*, tb.*, pd.`baby`, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`,
+    SELECT pl.*, tb.*, a1.`ability_name` AS `a1_name`, a2.`ability_name` AS `a2_name`, ha.`ability_name` AS `ha_name`, ta.`ability_name` AS `ta_name`,
 	z.`excl_z_move`, z.`excl_z_move_type`, z.`excl_z_move_cat`, z.`excl_z_crystal`, z.`excl_z_req_move`, z.`excl_z_power`, rd.* FROM `pokemon_list` pl
 	JOIN `type_bundle` tb ON tb.`pokedex_ref` = pl.`id`
 	JOIN `pokemon_desc` pd ON pd.`desc` = tb.`type_desc`
@@ -9388,6 +10867,7 @@ BEGIN
 	LEFT JOIN `ability` a1 ON a1.`id` = tb.`ability1`
 	LEFT JOIN `ability` a2 ON a2.`id` = tb.`ability2`
 	LEFT JOIN `ability` ha ON ha.`id` = tb.`hidden_ability`
+	LEFT JOIN `ability` ta ON ta.`id` = tb.`terastal_ability`
 	LEFT JOIN `regional_dex` rd ON rd.`national_id` = pl.`id`
     WHERE pl.`id` = `dex_id`
 	ORDER BY pl.`id` ASC

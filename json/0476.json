@@ -2,7 +2,8 @@
 	"id": {
 		"national": 476,
 		"hoenn_oras": 62,
-		"hisui_legarc": 191
+		"hisui_legarc": 191,
+		"kitakami_sv": 108
 	},
 	"name": {
 		"en": "Probopass",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": "Magnet Pull",
-			"hidden_ability": "Sand Force"
+			"hidden_ability": "Sand Force",
+			"terastal_ability": false
 		}
 	}
 }

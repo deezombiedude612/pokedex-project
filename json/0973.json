@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 973,
+		"paldea_sv": 346
+	},
+	"name": {
+		"en": "Flamigo",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [3, 14],
+		"type": ["flying", "fighting"],
+		"abilities": {
+			"ability_1": "Scrappy",
+			"ability_2": "Tangled Feet",
+			"hidden_ability": "Costar",
+			"terastal_ability": false
+		}
+	}
+}

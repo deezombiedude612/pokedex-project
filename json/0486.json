@@ -1,6 +1,7 @@
 {
 	"id": {
 		"national": 486,
+		"galar_swsh": -1,
 		"hisui_legarc": 229
 	},
 	"name": {
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Slow Start",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 951,
+		"paldea_sv": 250
+	},
+	"name": {
+		"en": "Capsakid",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Insomnia",
+			"hidden_ability": "Klutz",
+			"terastal_ability": false
+		}
+	}
+}

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 174,
 		"hoenn_oras": 142,
-		"galar_isle_of_armor": 11
+		"galar_isle_of_armor": 11,
+		"paldea_sv": 59
 	},
 	"name": {
 		"en": "Igglybuff",
@@ -10,7 +11,7 @@
 		"chs": "宝宝丁",
 		"cht": "寶寶丁"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Balloon Pokémon",
 		"type_id": [12, 17],
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Competitive",
-			"hidden_ability": "Friend Guard"
+			"hidden_ability": "Friend Guard",
+			"terastal_ability": false
 		}
 	}
 }

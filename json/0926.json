@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 926,
+		"paldea_sv": 76
+	},
+	"name": {
+		"en": "Fidough",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [17, -1],
+		"type": ["fairy"],
+		"abilities": {
+			"ability_1": "Own Tempo",
+			"ability_2": false,
+			"hidden_ability": "Klutz",
+			"terastal_ability": false
+		}
+	}
+}

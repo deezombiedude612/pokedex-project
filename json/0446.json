@@ -4,7 +4,8 @@
 		"galar_swsh": 260,
 		"galar_crown_tundra": 172,
 		"sinnoh_bdsp": 112,
-		"hisui_legarc": 51
+		"hisui_legarc": 51,
+		"kitakami_sv": 102
 	},
 	"name": {
 		"en": "Munchlax",
@@ -12,7 +13,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Big Eater Pokémon",
 		"type_id": [12, -1],
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Pickup",
 			"ability_2": "Thick Fat",
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 900,
-		"hisui_legarc": 73
+		"hisui_legarc": 73,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Kleavor",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Sheer Force",
-			"hidden_ability": "Steadfast"
+			"hidden_ability": "Sharpness",
+			"terastal_ability": false
 		}
 	}
 }

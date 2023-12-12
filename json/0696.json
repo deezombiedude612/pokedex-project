@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Strong Jaw",
 			"ability_2": false,
-			"hidden_ability": "Sturdy"
+			"hidden_ability": "Sturdy",
+			"terastal_ability": false
 		}
 	}
 }

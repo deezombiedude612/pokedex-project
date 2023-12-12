@@ -2,7 +2,8 @@
 	"id": {
 		"national": 61,
 		"kanto_lgpe": 61,
-		"galar_isle_of_armor": 143
+		"galar_isle_of_armor": 143,
+		"kitakami_sv": 40
 	},
 	"name": {
 		"en": "Poliwhirl",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": "Damp",
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

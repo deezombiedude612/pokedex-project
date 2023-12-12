@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 960,
+		"paldea_sv": 288
+	},
+	"name": {
+		"en": "Wiglett",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Gooey",
+			"ability_2": "Rattled",
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
+		}
+	}
+}

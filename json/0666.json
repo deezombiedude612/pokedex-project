@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 666
+		"national": 666,
+		"paldea_sv": 37
 	},
 	"name": {
 		"en": "Vivillon",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Shield Dust",
 			"ability_2": "Compound Eyes",
-			"hidden_ability": "Friend Guard"
+			"hidden_ability": "Friend Guard",
+			"terastal_ability": false
 		}
 	}
 }

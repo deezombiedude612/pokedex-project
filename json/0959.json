@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 959,
+		"paldea_sv": 281
+	},
+	"name": {
+		"en": "Tinkaton",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [17, 15],
+		"type": ["fairy", "steel"],
+		"abilities": {
+			"ability_1": "Mold Breaker",
+			"ability_2": "Own Tempo",
+			"hidden_ability": "Pickpocket",
+			"terastal_ability": false
+		}
+	}
+}

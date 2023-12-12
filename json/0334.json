@@ -2,7 +2,8 @@
 	"id": {
 		"national": 334,
 		"hoenn_oras": 127,
-		"galar_crown_tundra": 36
+		"galar_crown_tundra": 36,
+		"paldea_sv": 220
 	},
 	"name": {
 		"en": "Altaria",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Natural Cure",
 			"ability_2": false,
-			"hidden_ability": "Cloud Nine"
+			"hidden_ability": "Cloud Nine",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

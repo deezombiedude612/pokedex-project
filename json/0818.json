@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 818,
-		"galar_swsh": 9
+		"galar_swsh": 9,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Inteleon",
@@ -14,15 +15,16 @@
 		"desc": "Secret Agent Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
-		"g_max": {
-			"g_max_move": "G-Max Hydrosnipe",
-			"g_max_type_id": 6,
-			"g_max_type": "water"
+		"gmax": {
+			"gmax_move": "G-Max Hydrosnipe",
+			"gmax_type_id": 6,
+			"gmax_type": "water"
 		},
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": "Sniper"
+			"hidden_ability": "Sniper",
+			"terastal_ability": false
 		}
 	}
 }

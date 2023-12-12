@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 770,
-		"galar_isle_of_armor": 134
+		"galar_isle_of_armor": 134,
+		"paldea_sv": 323
 	},
 	"name": {
 		"en": "Palossand",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Water Compaction",
 			"ability_2": false,
-			"hidden_ability": "Sand Veil"
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
 		}
 	}
 }

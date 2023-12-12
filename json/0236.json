@@ -9,7 +9,7 @@
 		"chs": "无畏小子",
 		"cht": "無畏小子"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Scuffle Pokémon",
 		"type_id": [14, -1],
@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Guts",
 			"ability_2": "Steadfast",
-			"hidden_ability": "Vital Spirit"
+			"hidden_ability": "Vital Spirit",
+			"terastal_ability": false
 		}
 	}
 }

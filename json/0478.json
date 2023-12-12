@@ -4,7 +4,9 @@
 		"hoenn_oras": 181,
 		"galar_swsh": 81,
 		"galar_crown_tundra": 27,
-		"hisui_legarc": 207
+		"hisui_legarc": 207,
+		"paldea_sv": 359,
+		"kitakami_sv": 174
 	},
 	"name": {
 		"en": "Froslass",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Snow Cloak",
 			"ability_2": false,
-			"hidden_ability": "Cursed Body"
+			"hidden_ability": "Cursed Body",
+			"terastal_ability": false
 		}
 	}
 }

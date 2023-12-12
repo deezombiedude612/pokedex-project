@@ -2,7 +2,8 @@
 	"id": {
 		"national": 609,
 		"galar_swsh": 289,
-		"galar_crown_tundra": 50
+		"galar_crown_tundra": 50,
+		"kitakami_sv": 148
 	},
 	"name": {
 		"en": "Chandelure",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Flash Fire",
 			"ability_2": "Flame Body",
-			"hidden_ability": "Infiltrator"
+			"hidden_ability": "Infiltrator",
+			"terastal_ability": false
 		}
 	}
 }

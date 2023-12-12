@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Own Tempo",
-			"hidden_ability": "Defiant"
+			"hidden_ability": "Defiant",
+			"terastal_ability": false
 		}
 	}
 }

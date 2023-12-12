@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 193,
-		"hisui_legarc": 105
+		"hisui_legarc": 105,
+		"kitakami_sv": 3
 	},
 	"name": {
 		"en": "Yanma",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Speed Boost",
 			"ability_2": "Compound Eyes",
-			"hidden_ability": "Frisk"
+			"hidden_ability": "Frisk",
+			"terastal_ability": false
 		}
 	}
 }

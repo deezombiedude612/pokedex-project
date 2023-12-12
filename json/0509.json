@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Limber",
 			"ability_2": "Unburden",
-			"hidden_ability": "Prankster"
+			"hidden_ability": "Prankster",
+			"terastal_ability": false
 		}
 	}
 }

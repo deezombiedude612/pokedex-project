@@ -7,7 +7,9 @@
 		"galar_isle_of_armor": 42,
 		"galar_crown_tundra": 62,
 		"sinnoh_bdsp": 23,
-		"hisui_legarc": 80
+		"hisui_legarc": 80,
+		"paldea_sv": 134,
+		"kitakami_sv": 43
 	},
 	"name": {
 		"en": "Magikarp",
@@ -23,7 +25,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": false,
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

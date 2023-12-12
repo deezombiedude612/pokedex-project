@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Poison Point",
 			"ability_2": "Rivalry",
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	}
 }

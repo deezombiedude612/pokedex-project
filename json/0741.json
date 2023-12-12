@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 741
+		"national": 741,
+		"paldea_sv": 100,
+		"kitakami_sv": 115
 	},
 	"name": {
 		"en": "Oricorio",
@@ -9,16 +11,6 @@
 		"cht": ""
 	},
 	"baby": false,
-	"baile_style": {
-		"desc": "Dancing Pokémon",
-		"type_id": [13, 3],
-		"type": ["fire", "flying"],
-		"abilities": {
-			"ability_1": "Dancer",
-			"ability_2": false,
-			"hidden_ability": false
-		}
-	},
 	"pa'u_style": {
 		"desc": "Dancing Pokémon",
 		"type_id": [16, 3],
@@ -26,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Dancer",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"pompom_style": {
@@ -36,7 +29,8 @@
 		"abilities": {
 			"ability_1": "Dancer",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"sensu_style": {
@@ -46,7 +40,19 @@
 		"abilities": {
 			"ability_1": "Dancer",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"baile_style": {
+		"desc": "Dancing Pokémon",
+		"type_id": [13, 3],
+		"type": ["fire", "flying"],
+		"abilities": {
+			"ability_1": "Dancer",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

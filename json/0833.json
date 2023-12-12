@@ -2,7 +2,9 @@
 	"id": {
 		"national": 833,
 		"galar_swsh": 42,
-		"galar_isle_of_armor": 56
+		"galar_isle_of_armor": 56,
+		"paldea_sv": 57,
+		"kitakami_sv": 183
 	},
 	"name": {
 		"en": "Chewtle",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Strong Jaw",
 			"ability_2": "Shell Armor",
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

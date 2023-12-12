@@ -21,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Synchronize",
 			"ability_2": "Inner Focus",
-			"hidden_ability": "Magic Guard"
+			"hidden_ability": "Magic Guard",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

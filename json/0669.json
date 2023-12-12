@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 669
+		"national": 669,
+		"paldea_sv": 145
 	},
 	"name": {
 		"en": "FlabÉbÉ",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Flower Veil",
 			"ability_2": false,
-			"hidden_ability": "Symbiosis"
+			"hidden_ability": "Symbiosis",
+			"terastal_ability": false
 		}
 	}
 }

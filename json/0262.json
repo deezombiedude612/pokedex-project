@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 262,
-		"hoenn_oras": 11
+		"hoenn_oras": 11,
+		"kitakami_sv": 8
 	},
 	"name": {
 		"en": "Mightyena",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Quick Feet",
-			"hidden_ability": "Moxie"
+			"hidden_ability": "Moxie",
+			"terastal_ability": false
 		}
 	}
 }

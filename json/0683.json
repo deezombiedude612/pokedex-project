@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Healer",
 			"ability_2": false,
-			"hidden_ability": "Aroma Veil"
+			"hidden_ability": "Aroma Veil",
+			"terastal_ability": false
 		}
 	}
 }

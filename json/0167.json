@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 167
+		"national": 167,
+		"kitakami_sv": 1
 	},
 	"name": {
 		"en": "Spinarak",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Insomnia",
-			"hidden_ability": "Sniper"
+			"hidden_ability": "Sniper",
+			"terastal_ability": false
 		}
 	}
 }

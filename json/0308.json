@@ -2,7 +2,8 @@
 	"id": {
 		"national": 308,
 		"hoenn_oras": 79,
-		"sinnoh_bdsp": 87
+		"sinnoh_bdsp": 87,
+		"paldea_sv": 162
 	},
 	"name": {
 		"en": "Medicham",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Pure Power",
 			"ability_2": false,
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

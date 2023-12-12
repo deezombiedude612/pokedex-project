@@ -4,7 +4,8 @@
 		"hoenn_oras": 84,
 		"kanto_lgpe": 81,
 		"galar_isle_of_armor": 105,
-		"hisui_legarc": 177
+		"hisui_legarc": 177,
+		"paldea_sv": 209
 	},
 	"name": {
 		"en": "Magnemite",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Magnet Pull",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Analytic"
+			"hidden_ability": "Analytic",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 270,
 		"hoenn_oras": 19,
-		"galar_swsh": 36
+		"galar_swsh": 36,
+		"kitakami_sv": 104
 	},
 	"name": {
 		"en": "Lotad",
@@ -10,7 +11,7 @@
 		"chs": "莲叶童子",
 		"cht": "蓮葉童子"
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Water Weed Pokémon",
 		"type_id": [6, 9],
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Rain Dish",
-			"hidden_ability": "Own Tempo"
+			"hidden_ability": "Own Tempo",
+			"terastal_ability": false
 		}
 	}
 }

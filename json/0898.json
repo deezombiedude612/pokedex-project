@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 898,
-		"galar_crown_tundra": 210
+		"galar_crown_tundra": 210,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Calyrex",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Unnerve",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"ice_rider": {
@@ -27,7 +29,8 @@
 		"abilities": {
 			"ability_1": "As One",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"shadow_rider": {
@@ -37,7 +40,8 @@
 		"abilities": {
 			"ability_1": "As One",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1012,
+		"kitakami_sv": 76
+	},
+	"name": {
+		"en": "Poltchageist",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [9, 1],
+		"type": ["grass", "ghost"],
+		"abilities": {
+			"ability_1": "Hospitality",
+			"ability_2": false,
+			"hidden_ability": "Heatproof",
+			"terastal_ability": false
+		}
+	}
+}

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 769,
-		"galar_isle_of_armor": 133
+		"galar_isle_of_armor": 133,
+		"paldea_sv": 322
 	},
 	"name": {
 		"en": "Sandygast",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Water Compaction",
 			"ability_2": false,
-			"hidden_ability": "Sand Veil"
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
 		}
 	}
 }

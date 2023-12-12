@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Berserk",
 			"ability_2": "Sap Sipper",
-			"hidden_ability": "Cloud Nine"
+			"hidden_ability": "Cloud Nine",
+			"terastal_ability": false
 		}
 	}
 }

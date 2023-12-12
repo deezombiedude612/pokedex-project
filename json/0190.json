@@ -2,7 +2,8 @@
 	"id": {
 		"national": 190,
 		"sinnoh_bdsp": 63,
-		"hisui_legarc": 78
+		"hisui_legarc": 78,
+		"kitakami_sv": 47
 	},
 	"name": {
 		"en": "Aipom",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Pickup",
-			"hidden_ability": "Skill Link"
+			"hidden_ability": "Skill Link",
+			"terastal_ability": false
 		}
 	}
 }

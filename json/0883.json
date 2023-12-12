@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": "Ice Body",
-			"hidden_ability": "Slush Rush"
+			"hidden_ability": "Slush Rush",
+			"terastal_ability": false
 		}
 	}
 }

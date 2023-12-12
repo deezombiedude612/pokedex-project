@@ -3,7 +3,8 @@
 		"national": 40,
 		"hoenn_oras": 144,
 		"kanto_lgpe": 40,
-		"galar_isle_of_armor": 13
+		"galar_isle_of_armor": 13,
+		"paldea_sv": 61
 	},
 	"name": {
 		"en": "Wigglypuff",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Competitive",
-			"hidden_ability": "Frisk"
+			"hidden_ability": "Frisk",
+			"terastal_ability": false
 		}
 	}
 }

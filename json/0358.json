@@ -3,7 +3,8 @@
 		"national": 358,
 		"hoenn_oras": 158,
 		"sinnoh_bdsp": 83,
-		"hisui_legarc": 196
+		"hisui_legarc": 196,
+		"kitakami_sv": 143
 	},
 	"name": {
 		"en": "Chimecho",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

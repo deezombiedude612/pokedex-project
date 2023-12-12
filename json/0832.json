@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Fluffy",
 			"ability_2": "Steadfast",
-			"hidden_ability": "Bulletproof"
+			"hidden_ability": "Bulletproof",
+			"terastal_ability": false
 		}
 	}
 }

@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": "Chlorophyll",
-			"hidden_ability": "Storm Drain"
+			"hidden_ability": "Storm Drain",
+			"terastal_ability": false
 		}
 	}
 }

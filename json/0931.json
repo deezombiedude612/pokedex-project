@@ -1,0 +1,57 @@
+{
+	"id": {
+		"national": 931,
+		"paldea_sv": 113
+	},
+	"name": {
+		"en": "Squawkabilly",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"green_plumage": {
+		"desc": "",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Hustle",
+			"hidden_ability": "Guts",
+			"terastal_ability": false
+		}
+	},
+	"white_plumage": {
+		"desc": "",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Hustle",
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
+		}
+	},
+	"yellow_plumage": {
+		"desc": "",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Hustle",
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
+		}
+	},
+	"blue_plumage": {
+		"desc": "",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Hustle",
+			"hidden_ability": "Guts",
+			"terastal_ability": false
+		}
+	}
+}

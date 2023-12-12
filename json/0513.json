@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Gluttony",
 			"ability_2": false,
-			"hidden_ability": "Blaze"
+			"hidden_ability": "Blaze",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 211,
 		"galar_swsh": 304,
-		"hisui_legarc": 84
+		"hisui_legarc": 84,
+		"paldea_sv": 331
 	},
 	"name": {
 		"en": "Qwilfish",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Poison Point",
 			"ability_2": "Swift Swim",
-			"hidden_ability": "Intimidate"
+			"hidden_ability": "Intimidate",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -28,7 +30,8 @@
 		"abilities": {
 			"ability_1": "Poison Point",
 			"ability_2": "Swift Swim",
-			"hidden_ability": "Intimidate"
+			"hidden_ability": "Intimidate",
+			"terastal_ability": false
 		}
 	}
 }

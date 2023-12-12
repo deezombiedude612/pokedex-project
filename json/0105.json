@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": "Lightning Rod",
-			"hidden_ability": "Battle Armor"
+			"hidden_ability": "Battle Armor",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -28,7 +29,8 @@
 		"abilities": {
 			"ability_1": "Cursed Body",
 			"ability_2": "Lightning Rod",
-			"hidden_ability": "Rock Head"
+			"hidden_ability": "Rock Head",
+			"terastal_ability": false
 		}
 	}
 }

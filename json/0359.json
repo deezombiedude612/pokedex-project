@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": "Super Luck",
-			"hidden_ability": "Justified"
+			"hidden_ability": "Justified",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

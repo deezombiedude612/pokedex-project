@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Iron Barbs",
 			"ability_2": false,
-			"hidden_ability": "Anticipation"
+			"hidden_ability": "Anticipation",
+			"terastal_ability": false
 		}
 	}
 }

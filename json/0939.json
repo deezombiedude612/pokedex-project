@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 939,
+		"paldea_sv": 171
+	},
+	"name": {
+		"en": "Bellibolt",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [7, -1],
+		"type": ["electric"],
+		"abilities": {
+			"ability_1": "Electromorphosis",
+			"ability_2": "Static",
+			"hidden_ability": "Damp",
+			"terastal_ability": false
+		}
+	}
+}

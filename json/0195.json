@@ -3,7 +3,8 @@
 		"national": 195,
 		"galar_swsh": 101,
 		"galar_isle_of_armor": 59,
-		"sinnoh_bdsp": 118
+		"sinnoh_bdsp": 118,
+		"kitakami_sv": 6
 	},
 	"name": {
 		"en": "Quagsire",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Damp",
 			"ability_2": "Water Absorb",
-			"hidden_ability": "Unaware"
+			"hidden_ability": "Unaware",
+			"terastal_ability": false
 		}
 	}
 }

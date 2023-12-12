@@ -3,7 +3,9 @@
 		"national": 706,
 		"galar_swsh": 391,
 		"galar_isle_of_armor": 62,
-		"hisui_legarc": 117
+		"hisui_legarc": 117,
+		"paldea_sv": 174,
+		"kitakami_sv": 180
 	},
 	"name": {
 		"en": "Goodra",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Sap Sipper",
 			"ability_2": "Hydration",
-			"hidden_ability": "Gooey"
+			"hidden_ability": "Gooey",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -28,8 +31,9 @@
 		"type": ["steel", "dragon"],
 		"abilities": {
 			"ability_1": "Sap Sipper",
-			"ability_2": "Overcoat",
-			"hidden_ability": "Gooey"
+			"ability_2": "Shell Armor",
+			"hidden_ability": "Gooey",
+			"terastal_ability": false
 		}
 	}
 }

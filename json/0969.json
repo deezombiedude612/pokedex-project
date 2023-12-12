@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 969,
+		"paldea_sv": 308,
+		"kitakami_sv": 156
+	},
+	"name": {
+		"en": "Glimmet",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [8, 4],
+		"type": ["rock", "poison"],
+		"abilities": {
+			"ability_1": "Toxic Debris",
+			"ability_2": false,
+			"hidden_ability": "Corrosion",
+			"terastal_ability": false
+		}
+	}
+}

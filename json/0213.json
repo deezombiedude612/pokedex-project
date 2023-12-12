@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": "Gluttony",
-			"hidden_ability": "Contrary"
+			"hidden_ability": "Contrary",
+			"terastal_ability": false
 		}
 	}
 }

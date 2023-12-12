@@ -3,7 +3,8 @@
 		"national": 449,
 		"galar_swsh": 314,
 		"sinnoh_bdsp": 122,
-		"hisui_legarc": 107
+		"hisui_legarc": 107,
+		"paldea_sv": 265
 	},
 	"name": {
 		"en": "Hippopotas",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Sand Stream",
 			"ability_2": false,
-			"hidden_ability": "Sand Force"
+			"hidden_ability": "Sand Force",
+			"terastal_ability": false
 		}
 	}
 }

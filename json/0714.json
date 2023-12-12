@@ -2,7 +2,9 @@
 	"id": {
 		"national": 714,
 		"galar_swsh": 176,
-		"galar_crown_tundra": 182
+		"galar_crown_tundra": 182,
+		"paldea_sv": 303,
+		"kitakami_sv": 88
 	},
 	"name": {
 		"en": "Noibat",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Frisk",
 			"ability_2": "Infiltrator",
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

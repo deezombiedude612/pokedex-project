@@ -2,7 +2,9 @@
 	"id": {
 		"national": 840,
 		"galar_swsh": 205,
-		"galar_isle_of_armor": 19
+		"galar_isle_of_armor": 19,
+		"paldea_sv": 108,
+		"kitakami_sv": 33
 	},
 	"name": {
 		"en": "Applin",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Ripen",
 			"ability_2": "Gluttony",
-			"hidden_ability": "Bulletproof"
+			"hidden_ability": "Bulletproof",
+			"terastal_ability": false
 		}
 	}
 }

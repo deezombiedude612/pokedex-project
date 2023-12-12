@@ -4,7 +4,8 @@
 		"hoenn_oras": 28,
 		"galar_swsh": 63,
 		"galar_isle_of_armor": 49,
-		"sinnoh_bdsp": 120
+		"sinnoh_bdsp": 120,
+		"paldea_sv": 133
 	},
 	"name": {
 		"en": "Pelipper",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Drizzle",
-			"hidden_ability": "Rain Dish"
+			"hidden_ability": "Rain Dish",
+			"terastal_ability": false
 		}
 	}
 }

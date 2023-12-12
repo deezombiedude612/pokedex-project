@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 581
+		"national": 581,
+		"kitakami_sv": 182
 	},
 	"name": {
 		"en": "Swanna",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Big Pecks",
-			"hidden_ability": "Hydration"
+			"hidden_ability": "Hydration",
+			"terastal_ability": false
 		}
 	}
 }

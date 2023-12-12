@@ -6,7 +6,9 @@
 		"galar_isle_of_armor": 138,
 		"galar_crown_tundra": 61,
 		"sinnoh_bdsp": 81,
-		"hisui_legarc": 98
+		"hisui_legarc": 98,
+		"paldea_sv": 169,
+		"kitakami_sv": 163
 	},
 	"name": {
 		"en": "Whiscash",
@@ -22,7 +24,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Anticipation",
-			"hidden_ability": "Hydration"
+			"hidden_ability": "Hydration",
+			"terastal_ability": false
 		}
 	}
 }

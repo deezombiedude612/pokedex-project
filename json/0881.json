@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Volt Absorb",
 			"ability_2": "Static",
-			"hidden_ability": "Slush Rush"
+			"hidden_ability": "Slush Rush",
+			"terastal_ability": false
 		}
 	}
 }

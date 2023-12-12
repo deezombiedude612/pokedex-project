@@ -2,7 +2,8 @@
 	"id": {
 		"national": 873,
 		"galar_swsh": 350,
-		"galar_crown_tundra": 2
+		"galar_crown_tundra": 2,
+		"paldea_sv": 351
 	},
 	"name": {
 		"en": "Frosmoth",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Shield Dust",
 			"ability_2": false,
-			"hidden_ability": "Ice Scales"
+			"hidden_ability": "Ice Scales",
+			"terastal_ability": false
 		}
 	}
 }

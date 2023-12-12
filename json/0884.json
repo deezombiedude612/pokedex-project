@@ -14,15 +14,16 @@
 		"desc": "Alloy Pokémon",
 		"type_id": [15, 0],
 		"type": ["steel", "dragon"],
-		"g_max": {
-			"g_max_move": "G-Max Depletion",
-			"g_max_type_id": 0,
-			"g_max_type": "dragon"
+		"gmax": {
+			"gmax_move": "G-Max Depletion",
+			"gmax_type_id": 0,
+			"gmax_type": "dragon"
 		},
 		"abilities": {
 			"ability_1": "Light Metal",
 			"ability_2": "Heavy Metal",
-			"hidden_ability": "Stalwart"
+			"hidden_ability": "Stalwart",
+			"terastal_ability": false
 		}
 	}
 }

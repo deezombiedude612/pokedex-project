@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Normalize",
-			"hidden_ability": "Wonder Skin"
+			"hidden_ability": "Wonder Skin",
+			"terastal_ability": false
 		}
 	}
 }

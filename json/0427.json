@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Klutz",
-			"hidden_ability": "Limber"
+			"hidden_ability": "Limber",
+			"terastal_ability": false
 		}
 	}
 }

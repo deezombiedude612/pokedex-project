@@ -2,7 +2,8 @@
 	"id": {
 		"national": 248,
 		"galar_swsh": 385,
-		"galar_crown_tundra": 141
+		"galar_crown_tundra": 141,
+		"paldea_sv": 318
 	},
 	"name": {
 		"en": "Tyranitar",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Sand Stream",
 			"ability_2": false,
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

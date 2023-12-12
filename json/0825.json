@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Compound Eyes",
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

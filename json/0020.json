@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Guts",
-			"hidden_ability": "Hustle"
+			"hidden_ability": "Hustle",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -27,7 +28,8 @@
 		"abilities": {
 			"ability_1": "Gluttony",
 			"ability_2": "Hustle",
-			"hidden_ability": "Thick Fat"
+			"hidden_ability": "Thick Fat",
+			"terastal_ability": false
 		}
 	}
 }

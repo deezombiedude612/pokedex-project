@@ -20,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Battle Armor",
 			"ability_2": "Sniper",
-			"hidden_ability": "Keen Eye"
+			"hidden_ability": "Keen Eye",
+			"terastal_ability": false
 		}
 	}
 }

@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": "Strong Jaw",
-			"hidden_ability": "Sand Rush"
+			"hidden_ability": "Sand Rush",
+			"terastal_ability": false
 		}
 	}
 }

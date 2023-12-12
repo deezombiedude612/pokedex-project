@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 794
+		"national": 794,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Buzzwole",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Beast Boost",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

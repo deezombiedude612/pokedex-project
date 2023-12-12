@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Hyper Cutter",
 			"ability_2": "Mold Breaker",
-			"hidden_ability": "Moxie"
+			"hidden_ability": "Moxie",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

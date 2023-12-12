@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 673
+		"national": 673,
+		"paldea_sv": 222
 	},
 	"name": {
 		"en": "Gogoat",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Sap Sipper",
 			"ability_2": false,
-			"hidden_ability": "Grass Pelt"
+			"hidden_ability": "Grass Pelt",
+			"terastal_ability": false
 		}
 	}
 }

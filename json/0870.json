@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 870,
-		"galar_swsh": 345
+		"galar_swsh": 345,
+		"paldea_sv": 300
 	},
 	"name": {
 		"en": "Falinks",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Battle Armor",
 			"ability_2": false,
-			"hidden_ability": "Defiant"
+			"hidden_ability": "Defiant",
+			"terastal_ability": false
 		}
 	}
 }

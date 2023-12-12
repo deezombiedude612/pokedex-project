@@ -2,7 +2,8 @@
 	"id": {
 		"national": 854,
 		"galar_swsh": 335,
-		"galar_crown_tundra": 132
+		"galar_crown_tundra": 132,
+		"paldea_sv": 237
 	},
 	"name": {
 		"en": "Sinistea",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Weak Armor",
 			"ability_2": false,
-			"hidden_ability": "Cursed Body"
+			"hidden_ability": "Cursed Body",
+			"terastal_ability": false
 		}
 	}
 }

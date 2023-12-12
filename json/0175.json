@@ -10,7 +10,7 @@
 		"chs": "波克比",
 		"cht": "波克比"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Spike Ball Pokémon",
 		"type_id": [17, -1],
@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Hustle",
 			"ability_2": "Serene Grace",
-			"hidden_ability": "Super Luck"
+			"hidden_ability": "Super Luck",
+			"terastal_ability": false
 		}
 	}
 }

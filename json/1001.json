@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1001,
+		"paldea_sv": 393
+	},
+	"name": {
+		"en": "Wo-chien",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [10, 9],
+		"type": ["dark", "grass"],
+		"abilities": {
+			"ability_1": "Tablets of Ruin",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

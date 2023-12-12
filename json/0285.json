@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 285,
-		"hoenn_oras": 35
+		"hoenn_oras": 35,
+		"paldea_sv": 106
 	},
 	"name": {
 		"en": "Shroomish",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Effect Spore",
 			"ability_2": "Poison Heal",
-			"hidden_ability": "Quick Feet"
+			"hidden_ability": "Quick Feet",
+			"terastal_ability": false
 		}
 	}
 }

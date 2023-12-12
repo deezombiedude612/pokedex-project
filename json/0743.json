@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 743,
-		"galar_swsh": 188
+		"galar_swsh": 188,
+		"kitakami_sv": 17
 	},
 	"name": {
 		"en": "Ribombee",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Honey Gather",
 			"ability_2": "Shield Dust",
-			"hidden_ability": "Sweet Veil"
+			"hidden_ability": "Sweet Veil",
+			"terastal_ability": false
 		}
 	}
 }

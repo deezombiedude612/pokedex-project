@@ -3,7 +3,8 @@
 		"national": 428,
 		"galar_isle_of_armor": 5,
 		"sinnoh_bdsp": 68,
-		"hisui_legarc": 65
+		"hisui_legarc": 65,
+		"paldea_sv": 114
 	},
 	"name": {
 		"en": "Lopuny",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Klutz",
-			"hidden_ability": "Limber"
+			"hidden_ability": "Limber",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

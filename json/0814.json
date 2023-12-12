@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 814,
-		"galar_swsh": 5
+		"galar_swsh": 5,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Raboot",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Libero"
+			"hidden_ability": "Libero",
+			"terastal_ability": false
 		}
 	}
 }

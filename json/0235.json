@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Own Tempo",
 			"ability_2": "Technician",
-			"hidden_ability": "Moody"
+			"hidden_ability": "Moody",
+			"terastal_ability": false
 		}
 	}
 }

@@ -12,7 +12,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Bud Pokémon",
 		"type_id": [9, 4],
@@ -20,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Natural Cure",
 			"ability_2": "Poison Point",
-			"hidden_ability": "Leaf Guard"
+			"hidden_ability": "Leaf Guard",
+			"terastal_ability": false
 		}
 	}
 }

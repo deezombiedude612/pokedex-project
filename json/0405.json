@@ -3,7 +3,9 @@
 		"national": 405,
 		"galar_isle_of_armor": 27,
 		"sinnoh_bdsp": 19,
-		"hisui_legarc": 17
+		"hisui_legarc": 17,
+		"paldea_sv": 96,
+		"kitakami_sv": 111
 	},
 	"name": {
 		"en": "Luxray",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Rivalry",
 			"ability_2": "Intimidate",
-			"hidden_ability": "Guts"
+			"hidden_ability": "Guts",
+			"terastal_ability": false
 		}
 	}
 }

@@ -3,7 +3,9 @@
 		"national": 445,
 		"galar_crown_tundra": 118,
 		"sinnoh_bdsp": 111,
-		"hisui_legarc": 189
+		"hisui_legarc": 189,
+		"paldea_sv": 128,
+		"kitakami_sv": 166
 	},
 	"name": {
 		"en": "Garchomp",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Sand Veil",
 			"ability_2": false,
-			"hidden_ability": "Rough Skin"
+			"hidden_ability": "Rough Skin",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

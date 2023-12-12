@@ -3,7 +3,9 @@
 		"national": 438,
 		"galar_swsh": 252,
 		"sinnoh_bdsp": 92,
-		"hisui_legarc": 123
+		"hisui_legarc": 123,
+		"paldea_sv": 87,
+		"kitakami_sv": 83
 	},
 	"name": {
 		"en": "Bonsly",
@@ -11,7 +13,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Bonsai Pokémon",
 		"type_id": [8, -1],
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": "Rock Head",
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

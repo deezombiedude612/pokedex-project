@@ -4,7 +4,9 @@
 		"hoenn_oras": 32,
 		"galar_swsh": 123,
 		"galar_isle_of_armor": 37,
-		"hisui_legarc": 104
+		"hisui_legarc": 104,
+		"paldea_sv": 65,
+		"kitakami_sv": 60
 	},
 	"name": {
 		"en": "Gallade",
@@ -19,8 +21,9 @@
 		"type": ["psychic", "fighting"],
 		"abilities": {
 			"ability_1": "Steadfast",
-			"ability_2": false,
-			"hidden_ability": "Justified"
+			"ability_2": "Sharpness",
+			"hidden_ability": "Justified",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 663,
-		"galar_isle_of_armor": 24
+		"galar_isle_of_armor": 24,
+		"paldea_sv": 21
 	},
 	"name": {
 		"en": "Talonflame",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Flame Body",
 			"ability_2": false,
-			"hidden_ability": "Gale Wings"
+			"hidden_ability": "Gale Wings",
+			"terastal_ability": false
 		}
 	}
 }

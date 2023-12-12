@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 811,
-		"galar_swsh": 2
+		"galar_swsh": 2,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Thwackey",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Overgrow",
 			"ability_2": false,
-			"hidden_ability": "Grassy Surge"
+			"hidden_ability": "Grassy Surge",
+			"terastal_ability": false
 		}
 	}
 }

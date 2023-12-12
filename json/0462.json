@@ -2,7 +2,8 @@
 	"id": {
 		"national": 462,
 		"hoenn_oras": 86,
-		"galar_isle_of_armor": 107
+		"galar_isle_of_armor": 107,
+		"paldea_sv": 211
 	},
 	"name": {
 		"en": "Magnezone",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Magnet Pull",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Analytic"
+			"hidden_ability": "Analytic",
+			"terastal_ability": false
 		}
 	}
 }

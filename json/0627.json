@@ -3,7 +3,8 @@
 		"national": 627,
 		"galar_swsh": 281,
 		"galar_isle_of_armor": 179,
-		"hisui_legarc": 221
+		"hisui_legarc": 221,
+		"paldea_sv": 365
 	},
 	"name": {
 		"en": "Rufflet",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Sheer Force",
-			"hidden_ability": "Hustle"
+			"hidden_ability": "Hustle",
+			"terastal_ability": false
 		}
 	}
 }

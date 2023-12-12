@@ -3,7 +3,8 @@
 		"national": 442,
 		"galar_crown_tundra": 47,
 		"sinnoh_bdsp": 108,
-		"hisui_legarc": 139
+		"hisui_legarc": 139,
+		"paldea_sv": 302
 	},
 	"name": {
 		"en": "Spiritomb",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,
-			"hidden_ability": "Infiltrator"
+			"hidden_ability": "Infiltrator",
+			"terastal_ability": false
 		}
 	}
 }

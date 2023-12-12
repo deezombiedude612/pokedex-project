@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 326,
-		"hoenn_oras": 116
+		"hoenn_oras": 116,
+		"paldea_sv": 112,
+		"kitakami_sv": 126
 	},
 	"name": {
 		"en": "Grumpig",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Own Tempo",
-			"hidden_ability": "Gluttony"
+			"hidden_ability": "Gluttony",
+			"terastal_ability": false
 		}
 	}
 }

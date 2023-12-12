@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Refrigerate",
 			"ability_2": false,
-			"hidden_ability": "Snow Warning"
+			"hidden_ability": "Snow Warning",
+			"terastal_ability": false
 		}
 	}
 }

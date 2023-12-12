@@ -2,7 +2,8 @@
 	"id": {
 		"national": 457,
 		"sinnoh_bdsp": 135,
-		"hisui_legarc": 173
+		"hisui_legarc": 173,
+		"paldea_sv": 334
 	},
 	"name": {
 		"en": "Lumineon",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Storm Drain",
-			"hidden_ability": "Water Veil"
+			"hidden_ability": "Water Veil",
+			"terastal_ability": false
 		}
 	}
 }

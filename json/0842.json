@@ -2,7 +2,9 @@
 	"id": {
 		"national": 842,
 		"galar_swsh": 207,
-		"galar_isle_of_armor": 21
+		"galar_isle_of_armor": 21,
+		"paldea_sv": 110,
+		"kitakami_sv": 35
 	},
 	"name": {
 		"en": "Appletun",
@@ -15,15 +17,16 @@
 		"desc": "Apple Nectar Pokémon",
 		"type_id": [9, 0],
 		"type": ["grass", "dragon"],
-		"g_max": {
-			"g_max_move": "G-Max Sweetness",
-			"g_max_type_id": 9,
-			"g_max_type": "grass"
+		"gmax": {
+			"gmax_move": "G-Max Sweetness",
+			"gmax_type_id": 9,
+			"gmax_type": "grass"
 		},
 		"abilities": {
 			"ability_1": "Ripen",
 			"ability_2": "Gluttony",
-			"hidden_ability": "Thick Fat"
+			"hidden_ability": "Thick Fat",
+			"terastal_ability": false
 		}
 	}
 }

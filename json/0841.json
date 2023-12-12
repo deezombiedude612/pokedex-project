@@ -2,7 +2,9 @@
 	"id": {
 		"national": 841,
 		"galar_swsh": 206,
-		"galar_isle_of_armor": 20
+		"galar_isle_of_armor": 20,
+		"paldea_sv": 109,
+		"kitakami_sv": 34
 	},
 	"name": {
 		"en": "Flapple",
@@ -15,15 +17,16 @@
 		"desc": "Apple Wing Pokémon",
 		"type_id": [9, 0],
 		"type": ["grass", "dragon"],
-		"g_max": {
-			"g_max_move": "G-Max Tartness",
-			"g_max_type_id": 9,
-			"g_max_type": "grass"
+		"gmax": {
+			"gmax_move": "G-Max Tartness",
+			"gmax_type_id": 9,
+			"gmax_type": "grass"
 		},
 		"abilities": {
 			"ability_1": "Ripen",
 			"ability_2": "Gluttony",
-			"hidden_ability": "Hustle"
+			"hidden_ability": "Hustle",
+			"terastal_ability": false
 		}
 	}
 }

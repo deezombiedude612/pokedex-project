@@ -2,7 +2,8 @@
 	"id": {
 		"national": 614,
 		"galar_swsh": 280,
-		"galar_crown_tundra": 122
+		"galar_crown_tundra": 122,
+		"paldea_sv": 356
 	},
 	"name": {
 		"en": "Beartic",
@@ -10,7 +11,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Freezing Pokémon",
 		"type_id": [11, -1],
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Snow Cloak",
 			"ability_2": "Slush Rush",
-			"hidden_ability": "Swift Swim"
+			"hidden_ability": "Swift Swim",
+			"terastal_ability": false
 		}
 	}
 }

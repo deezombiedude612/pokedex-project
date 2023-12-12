@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Iron Fist",
 			"ability_2": "Mold Breaker",
-			"hidden_ability": "Scrappy"
+			"hidden_ability": "Scrappy",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 940,
+		"paldea_sv": 177
+	},
+	"name": {
+		"en": "Wattrel",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [7, 3],
+		"type": ["electric", "flying"],
+		"abilities": {
+			"ability_1": "Wind Power",
+			"ability_2": "Volt Absorb",
+			"hidden_ability": "Competitive",
+			"terastal_ability": false
+		}
+	}
+}

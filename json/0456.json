@@ -2,7 +2,8 @@
 	"id": {
 		"national": 456,
 		"sinnoh_bdsp": 134,
-		"hisui_legarc": 172
+		"hisui_legarc": 172,
+		"paldea_sv": 333
 	},
 	"name": {
 		"en": "Finneon",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Storm Drain",
-			"hidden_ability": "Water Veil"
+			"hidden_ability": "Water Veil",
+			"terastal_ability": false
 		}
 	}
 }

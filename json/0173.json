@@ -4,7 +4,8 @@
 		"galar_swsh": 254,
 		"galar_crown_tundra": 43,
 		"sinnoh_bdsp": 99,
-		"hisui_legarc": 199
+		"hisui_legarc": 199,
+		"kitakami_sv": 151
 	},
 	"name": {
 		"en": "Cleffa",
@@ -12,7 +13,7 @@
 		"chs": "皮宝宝",
 		"cht": "皮寶寶"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Star Shape Pokémon",
 		"type_id": [17, -1],
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Magic Guard",
-			"hidden_ability": "Friend Guard"
+			"hidden_ability": "Friend Guard",
+			"terastal_ability": false
 		}
 	}
 }

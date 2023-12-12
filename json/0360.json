@@ -10,7 +10,7 @@
 		"chs": "小果然",
 		"cht": "小果然"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Bright Pokémon",
 		"type_id": [16, -1],
@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Shadow Tag",
 			"ability_2": false,
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

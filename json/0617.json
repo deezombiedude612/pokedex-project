@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Hydration",
 			"ability_2": "Sticky Hold",
-			"hidden_ability": "Unburden"
+			"hidden_ability": "Unburden",
+			"terastal_ability": false
 		}
 	}
 }

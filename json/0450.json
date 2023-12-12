@@ -3,7 +3,8 @@
 		"national": 450,
 		"galar_swsh": 315,
 		"sinnoh_bdsp": 123,
-		"hisui_legarc": 108
+		"hisui_legarc": 108,
+		"paldea_sv": 266
 	},
 	"name": {
 		"en": "Hippowdon",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Sand Stream",
 			"ability_2": false,
-			"hidden_ability": "Sand Force"
+			"hidden_ability": "Sand Force",
+			"terastal_ability": false
 		}
 	}
 }

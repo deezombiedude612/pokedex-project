@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 357,
-		"hoenn_oras": 156
+		"hoenn_oras": 156,
+		"paldea_sv": 246
 	},
 	"name": {
 		"en": "Tropius",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Solar Power",
-			"hidden_ability": "Harvest"
+			"hidden_ability": "Harvest",
+			"terastal_ability": false
 		}
 	}
 }

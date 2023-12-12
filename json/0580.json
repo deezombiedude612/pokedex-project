@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 580
+		"national": 580,
+		"kitakami_sv": 181
 	},
 	"name": {
 		"en": "Ducklett",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Big Pecks",
-			"hidden_ability": "Hydration"
+			"hidden_ability": "Hydration",
+			"terastal_ability": false
 		}
 	}
 }

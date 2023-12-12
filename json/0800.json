@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 800
+		"national": 800,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Necrozma",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Prism Armor",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"dusk_mane_necrozma": {
@@ -35,7 +37,8 @@
 		"abilities": {
 			"ability_1": "Prism Armor",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"ultra_necrozma": {
@@ -54,7 +57,8 @@
 		"abilities": {
 			"ability_1": "Neuroforce",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"dawn_wings_necrozma": {
@@ -73,7 +77,8 @@
 		"abilities": {
 			"ability_1": "Prism Armor",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

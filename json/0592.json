@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Water Absorb",
 			"ability_2": "Cursed Body",
-			"hidden_ability": "Damp"
+			"hidden_ability": "Damp",
+			"terastal_ability": false
 		}
 	}
 }

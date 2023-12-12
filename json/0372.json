@@ -2,7 +2,8 @@
 	"id": {
 		"national": 372,
 		"hoenn_oras": 197,
-		"galar_crown_tundra": 114
+		"galar_crown_tundra": 114,
+		"paldea_sv": 277
 	},
 	"name": {
 		"en": "Shelgon",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": false,
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

@@ -4,7 +4,9 @@
 		"galar_swsh": 299,
 		"galar_crown_tundra": 135,
 		"sinnoh_bdsp": 116,
-		"hisui_legarc": 224
+		"hisui_legarc": 224,
+		"paldea_sv": 164,
+		"kitakami_sv": 65
 	},
 	"name": {
 		"en": "Lucario",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Steadfast",
 			"ability_2": "Inner Focus",
-			"hidden_ability": "Justified"
+			"hidden_ability": "Justified",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

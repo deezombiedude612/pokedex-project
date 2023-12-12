@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Hyper Cutter",
 			"ability_2": "Intimidate",
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

@@ -3,7 +3,8 @@
 		"national": 440,
 		"galar_isle_of_armor": 6,
 		"sinnoh_bdsp": 96,
-		"hisui_legarc": 86
+		"hisui_legarc": 86,
+		"paldea_sv": 43
 	},
 	"name": {
 		"en": "Happiny",
@@ -11,7 +12,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Playhouse Pokémon",
 		"type_id": [12, -1],
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Natural Cure",
 			"ability_2": "Serene Grace",
-			"hidden_ability": "Friend Guard"
+			"hidden_ability": "Friend Guard",
+			"terastal_ability": false
 		}
 	}
 }

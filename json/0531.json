@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Healer",
 			"ability_2": "Regenerator",
-			"hidden_ability": "Klutz"
+			"hidden_ability": "Klutz",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

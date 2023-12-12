@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Shell Armor",
 			"ability_2": false,
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

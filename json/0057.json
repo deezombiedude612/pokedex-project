@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 57,
-		"kanto_lgpe": 57
+		"kanto_lgpe": 57,
+		"paldea_sv": 159,
+		"kitakami_sv": 100
 	},
 	"name": {
 		"en": "Primeape",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Vital Spirit",
 			"ability_2": "Anger Point",
-			"hidden_ability": "Defiant"
+			"hidden_ability": "Defiant",
+			"terastal_ability": false
 		}
 	}
 }

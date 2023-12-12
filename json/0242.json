@@ -3,7 +3,8 @@
 		"national": 242,
 		"galar_isle_of_armor": 8,
 		"sinnoh_bdsp": 98,
-		"hisui_legarc": 88
+		"hisui_legarc": 88,
+		"paldea_sv": 45
 	},
 	"name": {
 		"en": "Blissey",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Natural Cure",
 			"ability_2": "Serene Grace",
-			"hidden_ability": "Healer"
+			"hidden_ability": "Healer",
+			"terastal_ability": false
 		}
 	}
 }

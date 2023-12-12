@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 905,
-		"hisui_legarc": 234
+		"hisui_legarc": 234,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Enamorus",
@@ -15,9 +16,10 @@
 		"type_id": [17, 3],
 		"type": ["fairy", "flying"],
 		"abilities": {
-			"ability_1": "Healer",
+			"ability_1": "Cute Charm",
 			"ability_2": false,
-			"hidden_ability": "Contrary"
+			"hidden_ability": "Contrary",
+			"terastal_ability": false
 		}
 	},
 	"therian_forme": {
@@ -27,7 +29,8 @@
 		"abilities": {
 			"ability_1": "Overcoat",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

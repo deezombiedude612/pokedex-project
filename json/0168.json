@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 168
+		"national": 168,
+		"kitakami_sv": 2
 	},
 	"name": {
 		"en": "Ariados",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Insomnia",
-			"hidden_ability": "Sniper"
+			"hidden_ability": "Sniper",
+			"terastal_ability": false
 		}
 	}
 }

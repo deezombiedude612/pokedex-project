@@ -4,7 +4,8 @@
 		"galar_swsh": 203,
 		"galar_crown_tundra": 7,
 		"galar_crown_tundra": 80,
-		"hisui_legarc": 32
+		"hisui_legarc": 32,
+		"paldea_sv": 186
 	},
 	"name": {
 		"en": "Glaceon",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Snow Cloak",
 			"ability_2": false,
-			"hidden_ability": "Ice Body"
+			"hidden_ability": "Ice Body",
+			"terastal_ability": false
 		}
 	}
 }

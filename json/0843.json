@@ -2,7 +2,8 @@
 	"id": {
 		"national": 843,
 		"galar_swsh": 312,
-		"galar_isle_of_armor": 174
+		"galar_isle_of_armor": 174,
+		"paldea_sv": 270
 	},
 	"name": {
 		"en": "Silicobra",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Sand Spit",
 			"ability_2": "Shed Skin",
-			"hidden_ability": "Sand Veil"
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
 		}
 	}
 }

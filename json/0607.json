@@ -2,7 +2,8 @@
 	"id": {
 		"national": 607,
 		"galar_swsh": 287,
-		"galar_crown_tundra": 48
+		"galar_crown_tundra": 48,
+		"kitakami_sv": 146
 	},
 	"name": {
 		"en": "Litwick",
@@ -10,7 +11,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Candle Pokémon",
 		"type_id": [1, 13],
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Flash Fire",
 			"ability_2": "Flame Body",
-			"hidden_ability": "Infiltrator"
+			"hidden_ability": "Infiltrator",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 48,
-		"kanto_lgpe": 48
+		"kanto_lgpe": 48,
+		"paldea_sv": 256
 	},
 	"name": {
 		"en": "Venonat",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Compound Eyes",
 			"ability_2": "Tinted Lens",
-			"hidden_ability": "Run Away"
+			"hidden_ability": "Run Away",
+			"terastal_ability": false
 		}
 	}
 }

@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Pickup",
 			"ability_2": "Cheek Pouch",
-			"hidden_ability": "Huge Power"
+			"hidden_ability": "Huge Power",
+			"terastal_ability": false
 		}
 	}
 }

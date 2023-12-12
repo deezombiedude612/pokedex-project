@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 541
+		"national": 541,
+		"kitakami_sv": 14
 	},
 	"name": {
 		"en": "Swadloon",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Leaf Guard",
 			"ability_2": "Chlorophyll",
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

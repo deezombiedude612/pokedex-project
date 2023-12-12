@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 551,
-		"galar_isle_of_armor": 176
+		"galar_isle_of_armor": 176,
+		"paldea_sv": 267
 	},
 	"name": {
 		"en": "Sandile",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Moxie",
-			"hidden_ability": "Anger Point"
+			"hidden_ability": "Anger Point",
+			"terastal_ability": false
 		}
 	}
 }

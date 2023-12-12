@@ -2,7 +2,9 @@
 	"id": {
 		"national": 859,
 		"galar_swsh": 238,
-		"galar_crown_tundra": 37
+		"galar_crown_tundra": 37,
+		"paldea_sv": 285,
+		"kitakami_sv": 190
 	},
 	"name": {
 		"en": "Impidimp",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Prankster",
 			"ability_2": "Frisk",
-			"hidden_ability": "Pickpocket"
+			"hidden_ability": "Pickpocket",
+			"terastal_ability": false
 		}
 	}
 }

@@ -4,7 +4,8 @@
 		"kanto_lgpe": 133,
 		"galar_swsh": 196,
 		"galar_crown_tundra": 74,
-		"hisui_legarc": 25
+		"hisui_legarc": 25,
+		"paldea_sv": 179
 	},
 	"name": {
 		"en": "Eevee",
@@ -25,15 +26,16 @@
 			"excl_z_crystal": "Eevium Z",
 			"excl_z_required_move": "Last Resort"
 		},
-		"g_max": {
-			"g_max_move": "G-Max Cuddle",
-			"g_max_type_id": 12,
-			"g_max_type": "normal"
+		"gmax": {
+			"gmax_move": "G-Max Cuddle",
+			"gmax_type_id": 12,
+			"gmax_type": "normal"
 		},
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Adaptability",
-			"hidden_ability": "Anticipation"
+			"hidden_ability": "Anticipation",
+			"terastal_ability": false
 		}
 	}
 }

@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Ice Body",
 			"ability_2": "Snow Warning",
-			"hidden_ability": "Weak Armor"
+			"hidden_ability": "Weak Armor",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 791
+		"national": 791,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Solgaleo",
@@ -25,7 +26,8 @@
 		"abilities": {
 			"ability_1": "Full Metal Body",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

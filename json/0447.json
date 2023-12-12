@@ -4,7 +4,9 @@
 		"galar_swsh": 298,
 		"galar_crown_tundra": 134,
 		"sinnoh_bdsp": 115,
-		"hisui_legarc": 223
+		"hisui_legarc": 223,
+		"paldea_sv": 163,
+		"kitakami_sv": 64
 	},
 	"name": {
 		"en": "Riolu",
@@ -12,7 +14,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Emanation Pokémon",
 		"type_id": [14, -1],
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Steadfast",
 			"ability_2": "Inner Focus",
-			"hidden_ability": "Prankster"
+			"hidden_ability": "Prankster",
+			"terastal_ability": false
 		}
 	}
 }

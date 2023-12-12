@@ -2,7 +2,8 @@
 	"id": {
 		"national": 80,
 		"kanto_lgpe": 80,
-		"galar_isle_of_armor": 2
+		"galar_isle_of_armor": 2,
+		"paldea_sv": 325
 	},
 	"name": {
 		"en": "Slowbro",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Own Tempo",
-			"hidden_ability": "Regenerator"
+			"hidden_ability": "Regenerator",
+			"terastal_ability": false
 		}
 	},
 	"galar_variant": {
@@ -28,7 +30,8 @@
 		"abilities": {
 			"ability_1": "Quick Draw",
 			"ability_2": "Own Tempo",
-			"hidden_ability": "Regenerator"
+			"hidden_ability": "Regenerator",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

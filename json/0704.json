@@ -3,7 +3,9 @@
 		"national": 704,
 		"galar_swsh": 389,
 		"galar_isle_of_armor": 60,
-		"hisui_legarc": 115
+		"hisui_legarc": 115,
+		"paldea_sv": 172,
+		"kitakami_sv": 178
 	},
 	"name": {
 		"en": "Goomy",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Sap Sipper",
 			"ability_2": "Hydration",
-			"hidden_ability": "Gooey"
+			"hidden_ability": "Gooey",
+			"terastal_ability": false
 		}
 	}
 }

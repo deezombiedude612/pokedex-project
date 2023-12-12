@@ -2,7 +2,8 @@
 	"id": {
 		"national": 424,
 		"sinnoh_bdsp": 64,
-		"hisui_legarc": 79
+		"hisui_legarc": 79,
+		"kitakami_sv": 48
 	},
 	"name": {
 		"en": "Ambipom",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Technician",
 			"ability_2": "Pickup",
-			"hidden_ability": "Skill Link"
+			"hidden_ability": "Skill Link",
+			"terastal_ability": false
 		}
 	}
 }

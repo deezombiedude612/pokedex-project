@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Strong Jaw",
 			"ability_2": false,
-			"hidden_ability": "Rock Head"
+			"hidden_ability": "Rock Head",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 886,
 		"galar_swsh": 396,
-		"galar_crown_tundra": 111
+		"galar_crown_tundra": 111,
+		"paldea_sv": 306
 	},
 	"name": {
 		"en": "Drakloak",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Clear Body",
 			"ability_2": "Infiltrator",
-			"hidden_ability": "Cursed Body"
+			"hidden_ability": "Cursed Body",
+			"terastal_ability": false
 		}
 	}
 }

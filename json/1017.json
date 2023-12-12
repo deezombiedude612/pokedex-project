@@ -1,0 +1,57 @@
+{
+	"id": {
+		"national": 1017,
+		"kitakami_sv": 200
+	},
+	"name": {
+		"en": "Ogerpon",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"heathflame_mask": {
+		"desc": "",
+		"type_id": [9, 13],
+		"type": ["grass", "fire"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": "Embody Aspect"
+		}
+	},
+	"teal_mask": {
+		"desc": "",
+		"type_id": [9, -1],
+		"type": ["grass"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": "Embody Aspect"
+		}
+	},
+	"wellspring_mask": {
+		"desc": "",
+		"type_id": [9, 6],
+		"type": ["grass", "water"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": "Embody Aspect"
+		}
+	},
+	"cornerstone_mask": {
+		"desc": "",
+		"type_id": [9, 8],
+		"type": ["grass", "rock"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": "Embody Aspect"
+		}
+	}
+}

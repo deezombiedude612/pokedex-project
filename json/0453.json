@@ -4,7 +4,8 @@
 		"galar_swsh": 222,
 		"galar_isle_of_armor": 82,
 		"sinnoh_bdsp": 129,
-		"hisui_legarc": 99
+		"hisui_legarc": 99,
+		"paldea_sv": 175
 	},
 	"name": {
 		"en": "Croagunk",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Anticipation",
 			"ability_2": "Dry Skin",
-			"hidden_ability": "Poison Touch"
+			"hidden_ability": "Poison Touch",
+			"terastal_ability": false
 		}
 	}
 }

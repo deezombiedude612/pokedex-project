@@ -2,7 +2,10 @@
 	"id": {
 		"national": 757,
 		"galar_swsh": 244,
-		"galar_isle_of_armor": 159
+		"galar_isle_of_armor": 159,
+		"paldea_sv": 120,
+		"paldea_sv": 344,
+		"kitakami_sv": 168
 	},
 	"name": {
 		"en": "Salandit",
@@ -18,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Corrosion",
 			"ability_2": false,
-			"hidden_ability": "Oblivious"
+			"hidden_ability": "Oblivious",
+			"terastal_ability": false
 		}
 	}
 }

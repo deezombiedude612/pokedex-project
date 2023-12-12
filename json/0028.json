@@ -3,7 +3,8 @@
 		"national": 28,
 		"hoenn_oras": 118,
 		"kanto_lgpe": 28,
-		"galar_isle_of_armor": 169
+		"galar_isle_of_armor": 169,
+		"kitakami_sv": 117
 	},
 	"name": {
 		"en": "Sandslash",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Sand Veil",
 			"ability_2": false,
-			"hidden_ability": "Sand Rush"
+			"hidden_ability": "Sand Rush",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -29,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Snow Cloak",
 			"ability_2": false,
-			"hidden_ability": "Slush Rush"
+			"hidden_ability": "Slush Rush",
+			"terastal_ability": false
 		}
 	}
 }

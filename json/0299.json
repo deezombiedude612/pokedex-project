@@ -2,7 +2,8 @@
 	"id": {
 		"national": 299,
 		"hoenn_oras": 61,
-		"hisui_legarc": 190
+		"hisui_legarc": 190,
+		"kitakami_sv": 107
 	},
 	"name": {
 		"en": "Nosepass",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": "Magnet Pull",
-			"hidden_ability": "Sand Force"
+			"hidden_ability": "Sand Force",
+			"terastal_ability": false
 		}
 	}
 }

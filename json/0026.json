@@ -6,7 +6,9 @@
 		"galar_swsh": 195,
 		"galar_isle_of_armor": 86,
 		"sinnoh_bdsp": 105,
-		"hisui_legarc": 57
+		"hisui_legarc": 57,
+		"paldea_sv": 75,
+		"kitakami_sv": 22
 	},
 	"name": {
 		"en": "Raichu",
@@ -22,7 +24,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Lightning Rod"
+			"hidden_ability": "Lightning Rod",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -41,7 +44,8 @@
 		"abilities": {
 			"ability_1": "Surge Surfer",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

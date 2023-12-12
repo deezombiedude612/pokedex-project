@@ -2,7 +2,8 @@
 	"id": {
 		"national": 149,
 		"kanto_lgpe": 149,
-		"galar_crown_tundra": 196
+		"galar_crown_tundra": 196,
+		"paldea_sv": 349
 	},
 	"name": {
 		"en": "Dragonite",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": false,
-			"hidden_ability": "Multiscale"
+			"hidden_ability": "Multiscale",
+			"terastal_ability": false
 		}
 	}
 }

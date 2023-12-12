@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Iron Fist",
 			"ability_2": "Klutz",
-			"hidden_ability": "No Guard"
+			"hidden_ability": "No Guard",
+			"terastal_ability": false
 		}
 	}
 }

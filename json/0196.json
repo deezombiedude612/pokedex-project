@@ -3,7 +3,8 @@
 		"national": 196,
 		"galar_swsh": 200,
 		"galar_crown_tundra": 79,
-		"hisui_legarc": 29
+		"hisui_legarc": 29,
+		"paldea_sv": 183
 	},
 	"name": {
 		"en": "Espeon",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Synchronize",
 			"ability_2": false,
-			"hidden_ability": "Magic Bounce"
+			"hidden_ability": "Magic Bounce",
+			"terastal_ability": false
 		}
 	}
 }

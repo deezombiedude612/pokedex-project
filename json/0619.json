@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 619,
-		"galar_isle_of_armor": 163
+		"galar_isle_of_armor": 163,
+		"kitakami_sv": 137
 	},
 	"name": {
 		"en": "Mienfoo",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": "Regenerator",
-			"hidden_ability": "Reckless"
+			"hidden_ability": "Reckless",
+			"terastal_ability": false
 		}
 	}
 }

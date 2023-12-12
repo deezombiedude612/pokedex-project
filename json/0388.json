@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Overgrow",
 			"ability_2": false,
-			"hidden_ability": "Shell Armor"
+			"hidden_ability": "Shell Armor",
+			"terastal_ability": false
 		}
 	}
 }

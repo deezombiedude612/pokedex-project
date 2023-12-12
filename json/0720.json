@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 720
+		"national": 720,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Hoopa",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Magician",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"hoopa_unbound": {
@@ -26,7 +28,8 @@
 		"abilities": {
 			"ability_1": "Magician",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

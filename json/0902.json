@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 902,
-		"hisui_legarc": 167
+		"hisui_legarc": 167,
+		"kitakami_sv": 195
 	},
 	"name": {
 		"en": "Basculeigon",
@@ -15,9 +16,10 @@
 		"type_id": [6, 1],
 		"type": ["water", "ghost"],
 		"abilities": {
-			"ability_1": "Rattled",
+			"ability_1": "Swift Swim",
 			"ability_2": "Adaptability",
-			"hidden_ability": "Mold Breaker"
+			"hidden_ability": "Mold Breaker",
+			"terastal_ability": false
 		}
 	}
 }

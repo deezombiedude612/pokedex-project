@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 792
+		"national": 792,
+		"galar_swsh": -1
 	},
 	"name": {
 		"en": "Lunala",
@@ -25,7 +26,8 @@
 		"abilities": {
 			"ability_1": "Shadow Shield",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

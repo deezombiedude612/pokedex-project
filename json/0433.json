@@ -3,7 +3,8 @@
 		"national": 433,
 		"hoenn_oras": 157,
 		"sinnoh_bdsp": 82,
-		"hisui_legarc": 195
+		"hisui_legarc": 195,
+		"kitakami_sv": 142
 	},
 	"name": {
 		"en": "Chingling",
@@ -11,7 +12,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Bell Pokémon",
 		"type_id": [16, -1],
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

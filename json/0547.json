@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Prankster",
 			"ability_2": "Infiltrator",
-			"hidden_ability": "Chlorophyll"
+			"hidden_ability": "Chlorophyll",
+			"terastal_ability": false
 		}
 	}
 }

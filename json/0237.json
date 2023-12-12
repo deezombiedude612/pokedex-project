@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Technician",
-			"hidden_ability": "Steadfast"
+			"hidden_ability": "Steadfast",
+			"terastal_ability": false
 		}
 	}
 }

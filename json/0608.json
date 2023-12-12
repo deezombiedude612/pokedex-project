@@ -2,7 +2,8 @@
 	"id": {
 		"national": 608,
 		"galar_swsh": 288,
-		"galar_crown_tundra": 49
+		"galar_crown_tundra": 49,
+		"kitakami_sv": 147
 	},
 	"name": {
 		"en": "Lampent",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Flash Fire",
 			"ability_2": "Flame Body",
-			"hidden_ability": "Infiltrator"
+			"hidden_ability": "Infiltrator",
+			"terastal_ability": false
 		}
 	}
 }

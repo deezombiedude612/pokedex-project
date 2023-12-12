@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Hustle",
 			"ability_2": false,
-			"hidden_ability": "Inner Focus"
+			"hidden_ability": "Inner Focus",
+			"terastal_ability": false
 		}
 	},
 	"galar_variant": {
@@ -28,7 +29,8 @@
 		"abilities": {
 			"ability_1": "Hustle",
 			"ability_2": false,
-			"hidden_ability": "Inner Focus"
+			"hidden_ability": "Inner Focus",
+			"terastal_ability": false
 		}
 	}
 }

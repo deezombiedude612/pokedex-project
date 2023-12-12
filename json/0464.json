@@ -20,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Lightning Rod",
 			"ability_2": "Solid Rock",
-			"hidden_ability": "Reckless"
+			"hidden_ability": "Reckless",
+			"terastal_ability": false
 		}
 	}
 }

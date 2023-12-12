@@ -15,15 +15,16 @@
 		"desc": "Seven Spot Pokémon",
 		"type_id": [5, 16],
 		"type": ["bug", "psychic"],
-		"g_max": {
-			"g_max_move": "G-Max Gravitas",
-			"g_max_type_id": 16,
-			"g_max_type": "psychic"
+		"gmax": {
+			"gmax_move": "G-Max Gravitas",
+			"gmax_type_id": 16,
+			"gmax_type": "psychic"
 		},
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": "Frisk",
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

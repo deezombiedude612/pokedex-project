@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Skill Link",
-			"hidden_ability": "Pickup"
+			"hidden_ability": "Pickup",
+			"terastal_ability": false
 		}
 	}
 }

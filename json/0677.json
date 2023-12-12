@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Infiltrator",
-			"hidden_ability": "Own Tempo"
+			"hidden_ability": "Own Tempo",
+			"terastal_ability": false
 		}
 	}
 }

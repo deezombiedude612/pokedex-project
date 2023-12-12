@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 232,
-		"hoenn_oras": 173
+		"hoenn_oras": 173,
+		"paldea_sv": 123
 	},
 	"name": {
 		"en": "Donphan",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Sturdy",
 			"ability_2": false,
-			"hidden_ability": "Sand Veil"
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
 		}
 	}
 }

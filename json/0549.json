@@ -2,7 +2,9 @@
 	"id": {
 		"national": 549,
 		"galar_isle_of_armor": 202,
-		"hisui_legarc": 94
+		"hisui_legarc": 94,
+		"paldea_sv": 105,
+		"kitakami_sv": 67
 	},
 	"name": {
 		"en": "Lilligant",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Own Tempo",
-			"hidden_ability": "Leaf Guard"
+			"hidden_ability": "Leaf Guard",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -28,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Hustle",
-			"hidden_ability": "Leaf Guard"
+			"hidden_ability": "Leaf Guard",
+			"terastal_ability": false
 		}
 	}
 }

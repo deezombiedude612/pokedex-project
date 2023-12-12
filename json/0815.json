@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 815,
-		"galar_swsh": 6
+		"galar_swsh": 6,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Cinderace",
@@ -14,15 +15,16 @@
 		"desc": "Striker Pokémon",
 		"type_id": [13, -1],
 		"type": ["fire"],
-		"g_max": {
-			"g_max_move": "G-Max Fireball",
-			"g_max_type_id": 13,
-			"g_max_type": "fire"
+		"gmax": {
+			"gmax_move": "G-Max Fireball",
+			"gmax_type_id": 13,
+			"gmax_type": "fire"
 		},
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Libero"
+			"hidden_ability": "Libero",
+			"terastal_ability": false
 		}
 	}
 }

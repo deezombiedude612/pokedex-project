@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1004,
+		"paldea_sv": 396
+	},
+	"name": {
+		"en": "Chi-yu",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [10, 13],
+		"type": ["dark", "fire"],
+		"abilities": {
+			"ability_1": "Beads of Ruin",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

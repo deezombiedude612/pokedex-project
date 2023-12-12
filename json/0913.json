@@ -11,13 +11,14 @@
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Practicing Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": "Moxie",
+			"terastal_ability": false
 		}
 	}
 }

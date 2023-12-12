@@ -4,7 +4,8 @@
 		"galar_swsh": 125,
 		"galar_isle_of_armor": 136,
 		"sinnoh_bdsp": 66,
-		"hisui_legarc": 38
+		"hisui_legarc": 38,
+		"paldea_sv": 144
 	},
 	"name": {
 		"en": "Drifblim",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Aftermath",
 			"ability_2": "Unburden",
-			"hidden_ability": "Flare Boost"
+			"hidden_ability": "Flare Boost",
+			"terastal_ability": false
 		}
 	}
 }

@@ -3,7 +3,9 @@
 		"national": 194,
 		"galar_swsh": 100,
 		"galar_isle_of_armor": 58,
-		"sinnoh_bdsp": 117
+		"sinnoh_bdsp": 117,
+		"paldea_sv": 53,
+		"kitakami_sv": 5
 	},
 	"name": {
 		"en": "Wooper",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Damp",
 			"ability_2": "Water Absorb",
-			"hidden_ability": "Unaware"
+			"hidden_ability": "Unaware",
+			"terastal_ability": false
 		}
 	},
 	"paldea_variant": {
@@ -27,9 +30,10 @@
 		"type_id": [4, 2],
 		"type": ["poison", "ground"],
 		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false
+			"ability_1": "Poison Point",
+			"ability_2": "Water Absorb",
+			"hidden_ability": "Unaware",
+			"terastal_ability": false
 		}
 	}
 }

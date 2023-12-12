@@ -2,7 +2,8 @@
 	"id": {
 		"national": 419,
 		"sinnoh_bdsp": 57,
-		"hisui_legarc": 42
+		"hisui_legarc": 42,
+		"paldea_sv": 52
 	},
 	"name": {
 		"en": "Floatzel",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": false,
-			"hidden_ability": "Water Veil"
+			"hidden_ability": "Water Veil",
+			"terastal_ability": false
 		}
 	}
 }

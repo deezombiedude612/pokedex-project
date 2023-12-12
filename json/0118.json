@@ -21,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Water Veil",
-			"hidden_ability": "Lightning Rod"
+			"hidden_ability": "Lightning Rod",
+			"terastal_ability": false
 		}
 	}
 }

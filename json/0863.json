@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 863,
-		"galar_swsh": 183
+		"galar_swsh": 183,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Perrserker",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Battle Armor",
 			"ability_2": "Tough Claws",
-			"hidden_ability": "Steely Spirit"
+			"hidden_ability": "Steely Spirit",
+			"terastal_ability": false
 		}
 	}
 }

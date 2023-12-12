@@ -1,0 +1,35 @@
+{
+	"id": {
+		"national": 916,
+		"paldea_sv": 11
+	},
+	"name": {
+		"en": "Oinkologne",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default_f": {
+		"desc": "Hog Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Aroma Veil",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Thick Fat",
+			"terastal_ability": false
+		}
+	},
+	"default_m": {
+		"desc": "Hog Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Lingering Aroma",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Thick Fat",
+			"terastal_ability": false
+		}
+	}
+}

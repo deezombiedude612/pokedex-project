@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": false,
-			"hidden_ability": "Tinted Lens"
+			"hidden_ability": "Tinted Lens",
+			"terastal_ability": false
 		}
 	}
 }

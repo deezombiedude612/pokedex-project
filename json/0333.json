@@ -2,7 +2,8 @@
 	"id": {
 		"national": 333,
 		"hoenn_oras": 126,
-		"galar_crown_tundra": 35
+		"galar_crown_tundra": 35,
+		"paldea_sv": 219
 	},
 	"name": {
 		"en": "Swablu",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Natural Cure",
 			"ability_2": false,
-			"hidden_ability": "Cloud Nine"
+			"hidden_ability": "Cloud Nine",
+			"terastal_ability": false
 		}
 	}
 }

@@ -4,7 +4,8 @@
 		"hoenn_oras": 59,
 		"kanto_lgpe": 75,
 		"sinnoh_bdsp": 32,
-		"hisui_legarc": 47
+		"hisui_legarc": 47,
+		"kitakami_sv": 81
 	},
 	"name": {
 		"en": "Graveler",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Sand Veil"
+			"hidden_ability": "Sand Veil",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -30,7 +32,8 @@
 		"abilities": {
 			"ability_1": "Magnet Pull",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Galvanize"
+			"hidden_ability": "Galvanize",
+			"terastal_ability": false
 		}
 	}
 }

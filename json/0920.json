@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 920,
+		"paldea_sv": 15
+	},
+	"name": {
+		"en": "Lokix",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [5, 10],
+		"type": ["bug", "dark"],
+		"abilities": {
+			"ability_1": "Swarm",
+			"ability_2": false,
+			"hidden_ability": "Tinted Lens",
+			"terastal_ability": false
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 924,
+		"paldea_sv": 71,
+		"kitakami_sv": 97
+	},
+	"name": {
+		"en": "Tandemaus",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Run Away",
+			"ability_2": "Pickup",
+			"hidden_ability": "Own Tempo",
+			"terastal_ability": false
+		}
+	}
+}

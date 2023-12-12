@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Poison Point",
 			"ability_2": "Swarm",
-			"hidden_ability": "Speed Boost"
+			"hidden_ability": "Speed Boost",
+			"terastal_ability": false
 		}
 	}
 }

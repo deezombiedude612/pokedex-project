@@ -2,7 +2,8 @@
 	"id": {
 		"national": 576,
 		"galar_swsh": 269,
-		"galar_crown_tundra": 53
+		"galar_crown_tundra": 53,
+		"paldea_sv": 236
 	},
 	"name": {
 		"en": "Gothitelle",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Frisk",
 			"ability_2": "Competitive",
-			"hidden_ability": "Shadow Tag"
+			"hidden_ability": "Shadow Tag",
+			"terastal_ability": false
 		}
 	}
 }

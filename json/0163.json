@@ -2,7 +2,8 @@
 	"id": {
 		"national": 163,
 		"galar_swsh": 19,
-		"sinnoh_bdsp": 106
+		"sinnoh_bdsp": 106,
+		"kitakami_sv": 45
 	},
 	"name": {
 		"en": "Hoothoot",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Insomnia",
 			"ability_2": "Keen Eye",
-			"hidden_ability": "Tinted Lens"
+			"hidden_ability": "Tinted Lens",
+			"terastal_ability": false
 		}
 	}
 }

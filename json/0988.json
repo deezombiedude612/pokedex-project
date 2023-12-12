@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 988,
+		"paldea_sv": 380
+	},
+	"name": {
+		"en": "Slither Wing",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [5, 14],
+		"type": ["bug", "fighting"],
+		"abilities": {
+			"ability_1": "Protosynthesis",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

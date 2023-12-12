@@ -2,7 +2,8 @@
 	"id": {
 		"national": 821,
 		"galar_swsh": 21,
-		"galar_crown_tundra": 163
+		"galar_crown_tundra": 163,
+		"paldea_sv": 40
 	},
 	"name": {
 		"en": "Rookidee",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Unnerve",
-			"hidden_ability": "Big Pecks"
+			"hidden_ability": "Big Pecks",
+			"terastal_ability": false
 		}
 	}
 }

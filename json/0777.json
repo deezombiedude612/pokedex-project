@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Iron Barbs",
 			"ability_2": "Lightning Rod",
-			"hidden_ability": "Sturdy"
+			"hidden_ability": "Sturdy",
+			"terastal_ability": false
 		}
 	}
 }

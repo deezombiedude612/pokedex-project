@@ -2,7 +2,8 @@
 	"id": {
 		"national": 823,
 		"galar_swsh": 23,
-		"galar_crown_tundra": 165
+		"galar_crown_tundra": 165,
+		"paldea_sv": 42
 	},
 	"name": {
 		"en": "Corviknight",
@@ -15,15 +16,16 @@
 		"desc": "Raven Pokémon",
 		"type_id": [3, 15],
 		"type": ["flying", "steel"],
-		"g_max": {
-			"g_max_move": "G-Max Wind Rage",
-			"g_max_type_id": 3,
-			"g_max_type": "flying"
+		"gmax": {
+			"gmax_move": "G-Max Wind Rage",
+			"gmax_type_id": 3,
+			"gmax_type": "flying"
 		},
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": "Unnerve",
-			"hidden_ability": "Mirror Armor"
+			"hidden_ability": "Mirror Armor",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1002,
+		"paldea_sv": 394
+	},
+	"name": {
+		"en": "Chien-pao",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [10, 11],
+		"type": ["dark", "ice"],
+		"abilities": {
+			"ability_1": "Sword of Ruin",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

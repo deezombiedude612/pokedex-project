@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 354,
-		"hoenn_oras": 152
+		"hoenn_oras": 152,
+		"paldea_sv": 299
 	},
 	"name": {
 		"en": "Banette",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Insomnia",
 			"ability_2": "Frisk",
-			"hidden_ability": "Cursed Body"
+			"hidden_ability": "Cursed Body",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

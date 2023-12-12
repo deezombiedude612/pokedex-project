@@ -2,7 +2,8 @@
 	"id": {
 		"national": 879,
 		"galar_swsh": 303,
-		"galar_crown_tundra": 109
+		"galar_crown_tundra": 109,
+		"paldea_sv": 125
 	},
 	"name": {
 		"en": "Copperajah",
@@ -15,15 +16,16 @@
 		"desc": "Copperderm Pokémon",
 		"type_id": [15, -1],
 		"type": ["steel"],
-		"g_max": {
-			"g_max_move": "G-Max Steelsurge",
-			"g_max_type_id": 15,
-			"g_max_type": "steel"
+		"gmax": {
+			"gmax_move": "G-Max Steelsurge",
+			"gmax_type_id": 15,
+			"gmax_type": "steel"
 		},
 		"abilities": {
 			"ability_1": "Sheer Force",
 			"ability_2": false,
-			"hidden_ability": "Heavy Metal"
+			"hidden_ability": "Heavy Metal",
+			"terastal_ability": false
 		}
 	}
 }

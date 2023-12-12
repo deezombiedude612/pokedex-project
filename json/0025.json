@@ -6,7 +6,9 @@
 		"galar_swsh": 194,
 		"galar_isle_of_armor": 85,
 		"sinnoh_bdsp": 104,
-		"hisui_legarc": 56
+		"hisui_legarc": 56,
+		"paldea_sv": 74,
+		"kitakami_sv": 21
 	},
 	"name": {
 		"en": "Pikachu",
@@ -28,15 +30,16 @@
 			"excl_z_required_move": "Volt Tackle",
 			"excl_z_power": 210
 		},
-		"g_max": {
-			"g_max_move": "G-Max Volt Crash",
-			"g_max_type_id": 7,
-			"g_max_type": "electric"
+		"gmax": {
+			"gmax_move": "G-Max Volt Crash",
+			"gmax_type_id": 7,
+			"gmax_type": "electric"
 		},
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Lightning Rod"
+			"hidden_ability": "Lightning Rod",
+			"terastal_ability": false
 		}
 	},
 	"alola_cap": {
@@ -55,7 +58,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"cosplay_pikachu": {
@@ -65,7 +69,8 @@
 		"abilities": {
 			"ability_1": "Lightning Rod",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"hoenn_cap": {
@@ -84,7 +89,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"kalos_cap": {
@@ -103,7 +109,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"original_cap": {
@@ -122,7 +129,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"partner_cap": {
@@ -141,7 +149,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"sinnoh_cap": {
@@ -160,7 +169,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"unova_cap": {
@@ -179,7 +189,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"world_cap": {
@@ -189,7 +200,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

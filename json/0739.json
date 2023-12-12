@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 739
+		"national": 739,
+		"paldea_sv": 118
 	},
 	"name": {
 		"en": "Crabrawler",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Hyper Cutter",
 			"ability_2": "Iron Fist",
-			"hidden_ability": "Anger Point"
+			"hidden_ability": "Anger Point",
+			"terastal_ability": false
 		}
 	}
 }

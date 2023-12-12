@@ -3,7 +3,8 @@
 		"national": 298,
 		"hoenn_oras": 55,
 		"galar_isle_of_armor": 139,
-		"sinnoh_bdsp": 124
+		"sinnoh_bdsp": 124,
+		"paldea_sv": 46
 	},
 	"name": {
 		"en": "Azurill",
@@ -11,7 +12,7 @@
 		"chs": "露力丽",
 		"cht": "露力麗"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Polka Dot Pokémon",
 		"type_id": [12, 17],
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Thick Fat",
 			"ability_2": "Huge Power",
-			"hidden_ability": "Sap Sipper"
+			"hidden_ability": "Sap Sipper",
+			"terastal_ability": false
 		}
 	}
 }

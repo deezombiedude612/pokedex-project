@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 984,
+		"paldea_sv": 376
+	},
+	"name": {
+		"en": "Great Tusk",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [15, 1],
+		"type": ["steel", "ghost"],
+		"abilities": {
+			"ability_1": "Protosynthesis",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

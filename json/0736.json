@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 736,
-		"galar_swsh": 16
+		"galar_swsh": 16,
+		"kitakami_sv": 112
 	},
 	"name": {
 		"en": "Grubbin",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Swarm",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

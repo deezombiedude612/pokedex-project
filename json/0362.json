@@ -4,7 +4,9 @@
 		"hoenn_oras": 180,
 		"galar_swsh": 80,
 		"galar_crown_tundra": 26,
-		"hisui_legarc": 206
+		"hisui_legarc": 206,
+		"paldea_sv": 358,
+		"kitakami_sv": 173
 	},
 	"name": {
 		"en": "Glalie",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": "Ice Body",
-			"hidden_ability": "Moody"
+			"hidden_ability": "Moody",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

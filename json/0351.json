@@ -9,7 +9,7 @@
 		"chs": "飘浮泡泡",
 		"cht": "飄浮泡泡"
 	},
-	"baby": true,
+	"baby": false,
 	"normal_form": {
 		"desc": "Weather Pokémon",
 		"type_id": [12, -1],
@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Forecast",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"rainy_form": {
@@ -27,7 +28,8 @@
 		"abilities": {
 			"ability_1": "Forecast",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"snowy_form": {
@@ -37,7 +39,8 @@
 		"abilities": {
 			"ability_1": "Forecast",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"sunny_form": {
@@ -47,7 +50,8 @@
 		"abilities": {
 			"ability_1": "Forecast",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

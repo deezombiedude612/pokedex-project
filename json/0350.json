@@ -4,7 +4,8 @@
 		"hoenn_oras": 146,
 		"galar_swsh": 153,
 		"galar_crown_tundra": 189,
-		"sinnoh_bdsp": 139
+		"sinnoh_bdsp": 139,
+		"kitakami_sv": 159
 	},
 	"name": {
 		"en": "Milotic",
@@ -12,7 +13,7 @@
 		"chs": "美纳斯",
 		"cht": "美納斯"
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Tender Pokémon",
 		"type_id": [6, -1],
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Marvel Scale",
 			"ability_2": "Competitive",
-			"hidden_ability": "Cute Charm"
+			"hidden_ability": "Cute Charm",
+			"terastal_ability": false
 		}
 	}
 }

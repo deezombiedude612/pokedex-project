@@ -1,8 +1,10 @@
 {
 	"id": {
 		"national": 483,
+		"galar_swsh": -1,
 		"sinnoh_bdsp": 149,
-		"hisui_legarc": 235
+		"hisui_legarc": 235,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Dialga",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	},
 	"lord_forme": {
@@ -28,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

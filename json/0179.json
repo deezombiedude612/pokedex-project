@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 179
+		"national": 179,
+		"paldea_sv": 101
 	},
 	"name": {
 		"en": "Mareep",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Plus"
+			"hidden_ability": "Plus",
+			"terastal_ability": false
 		}
 	}
 }

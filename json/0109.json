@@ -3,7 +3,8 @@
 		"national": 109,
 		"hoenn_oras": 113,
 		"kanto_lgpe": 109,
-		"galar_swsh": 250
+		"galar_swsh": 250,
+		"kitakami_sv": 135
 	},
 	"name": {
 		"en": "Koffing",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": "Neutralizing Gas",
-			"hidden_ability": "Stench"
+			"hidden_ability": "Stench",
+			"terastal_ability": false
 		}
 	}
 }

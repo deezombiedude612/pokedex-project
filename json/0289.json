@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 289,
-		"hoenn_oras": 39
+		"hoenn_oras": 39,
+		"paldea_sv": 80
 	},
 	"name": {
 		"en": "Slaking",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Truant",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": false,
-			"hidden_ability": "Harvest"
+			"hidden_ability": "Harvest",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -28,7 +29,8 @@
 		"abilities": {
 			"ability_1": "Frisk",
 			"ability_2": false,
-			"hidden_ability": "Harvest"
+			"hidden_ability": "Harvest",
+			"terastal_ability": false
 		}
 	}
 }

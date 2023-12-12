@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 979,
+		"paldea_sv": 160,
+		"kitakami_sv": 101
+	},
+	"name": {
+		"en": "Annihilape",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [14, 1],
+		"type": ["fighting", "ghost"],
+		"abilities": {
+			"ability_1": "Vital Spirit",
+			"ability_2": "Inner Focus",
+			"hidden_ability": "Defiant",
+			"terastal_ability": false
+		}
+	}
+}

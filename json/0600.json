@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Plus",
 			"ability_2": "Minus",
-			"hidden_ability": "Clear Body"
+			"hidden_ability": "Clear Body",
+			"terastal_ability": false
 		}
 	}
 }

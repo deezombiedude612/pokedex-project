@@ -2,7 +2,8 @@
 	"id": {
 		"national": 574,
 		"galar_swsh": 267,
-		"galar_crown_tundra": 51
+		"galar_crown_tundra": 51,
+		"paldea_sv": 234
 	},
 	"name": {
 		"en": "Gothita",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Frisk",
 			"ability_2": "Competitive",
-			"hidden_ability": "Shadow Tag"
+			"hidden_ability": "Shadow Tag",
+			"terastal_ability": false
 		}
 	}
 }

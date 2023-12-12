@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 982,
+		"paldea_sv": 189,
+		"kitakami_sv": 161
+	},
+	"name": {
+		"en": "Dudunsparce",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Serene Grace",
+			"ability_2": "Run Away",
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
+		}
+	}
+}

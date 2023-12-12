@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 670
+		"national": 670,
+		"paldea_sv": 146
 	},
 	"name": {
 		"en": "Floette",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Flower Veil",
 			"ability_2": false,
-			"hidden_ability": "Symbiosis"
+			"hidden_ability": "Symbiosis",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 234,
-		"hisui_legarc": 49
+		"hisui_legarc": 49,
+		"paldea_sv": 204,
+		"kitakami_sv": 53
 	},
 	"name": {
 		"en": "Stantler",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Frisk",
-			"hidden_ability": "Sap Sipper"
+			"hidden_ability": "Sap Sipper",
+			"terastal_ability": false
 		}
 	}
 }

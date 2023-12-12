@@ -2,7 +2,10 @@
 	"id": {
 		"national": 758,
 		"galar_swsh": 245,
-		"galar_isle_of_armor": 160
+		"galar_isle_of_armor": 160,
+		"paldea_sv": 121,
+		"paldea_sv": 345,
+		"kitakami_sv": 169
 	},
 	"name": {
 		"en": "Salazzle",
@@ -18,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Corrosion",
 			"ability_2": false,
-			"hidden_ability": "Oblivious"
+			"hidden_ability": "Oblivious",
+			"terastal_ability": false
 		}
 	}
 }

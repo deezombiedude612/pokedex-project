@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 353,
-		"hoenn_oras": 151
+		"hoenn_oras": 151,
+		"paldea_sv": 298
 	},
 	"name": {
 		"en": "Shuppet",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Insomnia",
 			"ability_2": "Frisk",
-			"hidden_ability": "Cursed Body"
+			"hidden_ability": "Cursed Body",
+			"terastal_ability": false
 		}
 	}
 }

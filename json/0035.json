@@ -5,7 +5,8 @@
 		"galar_swsh": 255,
 		"galar_crown_tundra": 44,
 		"sinnoh_bdsp": 100,
-		"hisui_legarc": 200
+		"hisui_legarc": 200,
+		"kitakami_sv": 152
 	},
 	"name": {
 		"en": "Clefairy",
@@ -21,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Magic Guard",
-			"hidden_ability": "Friend Guard"
+			"hidden_ability": "Friend Guard",
+			"terastal_ability": false
 		}
 	}
 }

@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": "Lightning Rod",
-			"hidden_ability": "Minus"
+			"hidden_ability": "Minus",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

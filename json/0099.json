@@ -16,15 +16,16 @@
 		"desc": "Pincer Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
-		"g_max": {
-			"g_max_move": "G-Max Foam Burst",
-			"g_max_type_id": 6,
-			"g_max_type": "water"
+		"gmax": {
+			"gmax_move": "G-Max Foam Burst",
+			"gmax_type_id": 6,
+			"gmax_type": "water"
 		},
 		"abilities": {
 			"ability_1": "Hyper Cutter",
 			"ability_2": "Shell Armor",
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	}
 }

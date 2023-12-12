@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 779
+		"national": 779,
+		"paldea_sv": 335
 	},
 	"name": {
 		"en": "Bruxish",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Dazzling",
 			"ability_2": "Strong Jaw",
-			"hidden_ability": "Wonder Skin"
+			"hidden_ability": "Wonder Skin",
+			"terastal_ability": false
 		}
 	}
 }

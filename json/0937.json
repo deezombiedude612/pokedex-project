@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 937,
+		"paldea_sv": 167
+	},
+	"name": {
+		"en": "Ceruledge",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [13, 1],
+		"type": ["fire", "ghost"],
+		"abilities": {
+			"ability_1": "Flash Fire",
+			"ability_2": false,
+			"hidden_ability": "Weak Armor",
+			"terastal_ability": false
+		}
+	}
+}

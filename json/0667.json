@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 667
+		"national": 667,
+		"paldea_sv": 224
 	},
 	"name": {
 		"en": "Litleo",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Rivalry",
 			"ability_2": "Unnerve",
-			"hidden_ability": "Moxie"
+			"hidden_ability": "Moxie",
+			"terastal_ability": false
 		}
 	}
 }

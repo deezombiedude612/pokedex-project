@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Rock Head",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Sheer Force"
+			"hidden_ability": "Sheer Force",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

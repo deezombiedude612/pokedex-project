@@ -9,7 +9,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Cerebral Pokémon",
 		"type_id": [16, -1],
@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Telepathy",
 			"ability_2": "Synchronize",
-			"hidden_ability": "Analytic"
+			"hidden_ability": "Analytic",
+			"terastal_ability": false
 		}
 	}
 }

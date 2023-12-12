@@ -15,15 +15,16 @@
 		"desc": "Shellfish Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
-		"g_max": {
-			"g_max_move": "G-Max Cannonade",
-			"g_max_type_id": 6,
-			"g_max_type": "water"
+		"gmax": {
+			"gmax_move": "G-Max Cannonade",
+			"gmax_type_id": 6,
+			"gmax_type": "water"
 		},
 		"abilities": {
 			"ability_1": "Torrent",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	},
 	"mega": {

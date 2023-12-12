@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Anticipation",
 			"ability_2": false,
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	},
 	"sandy_cloak": {
@@ -28,7 +29,8 @@
 		"abilities": {
 			"ability_1": "Anticipation",
 			"ability_2": false,
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	},
 	"trash_cloak": {
@@ -38,7 +40,8 @@
 		"abilities": {
 			"ability_1": "Anticipation",
 			"ability_2": false,
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

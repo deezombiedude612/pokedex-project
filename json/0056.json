@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 56,
-		"kanto_lgpe": 56
+		"kanto_lgpe": 56,
+		"paldea_sv": 158,
+		"kitakami_sv": 99
 	},
 	"name": {
 		"en": "Mankey",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Vital Spirit",
 			"ability_2": "Anger Point",
-			"hidden_ability": "Defiant"
+			"hidden_ability": "Defiant",
+			"terastal_ability": false
 		}
 	}
 }

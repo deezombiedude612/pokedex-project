@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 962,
+		"paldea_sv": 290,
+		"kitakami_sv": 134
+	},
+	"name": {
+		"en": "Bombirdier",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [3, 10],
+		"type": ["flying", "dark"],
+		"abilities": {
+			"ability_1": "Big Pecks",
+			"ability_2": "Keen Eye",
+			"hidden_ability": "Rocky Payload",
+			"terastal_ability": false
+		}
+	}
+}

@@ -5,7 +5,8 @@
 		"galar_swsh": 256,
 		"galar_crown_tundra": 45,
 		"sinnoh_bdsp": 101,
-		"hisui_legarc": 201
+		"hisui_legarc": 201,
+		"kitakami_sv": 153
 	},
 	"name": {
 		"en": "Clefable",
@@ -21,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Cute Charm",
 			"ability_2": "Magic Guard",
-			"hidden_ability": "Unaware"
+			"hidden_ability": "Unaware",
+			"terastal_ability": false
 		}
 	}
 }

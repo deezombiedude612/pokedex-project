@@ -16,7 +16,8 @@
 		"abilities": {
 			"ability_1": "Blaze",
 			"ability_2": false,
-			"hidden_ability": "Thick Fat"
+			"hidden_ability": "Thick Fat",
+			"terastal_ability": false
 		}
 	}
 }

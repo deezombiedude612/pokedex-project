@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1006,
+		"paldea_sv": 398
+	},
+	"name": {
+		"en": "Iron Valiant",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [17, 14],
+		"type": ["fairy", "fighting"],
+		"abilities": {
+			"ability_1": "Quark Drive",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

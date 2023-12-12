@@ -2,7 +2,9 @@
 	"id": {
 		"national": 625,
 		"galar_swsh": 247,
-		"galar_isle_of_armor": 30
+		"galar_isle_of_armor": 30,
+		"paldea_sv": 368,
+		"kitakami_sv": 187
 	},
 	"name": {
 		"en": "Bisharp",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Defiant",
 			"ability_2": "Inner Focus",
-			"hidden_ability": "Pressure"
+			"hidden_ability": "Pressure",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 750,
-		"galar_swsh": 85
+		"galar_swsh": 85,
+		"paldea_sv": 273,
+		"kitakami_sv": 130
 	},
 	"name": {
 		"en": "Mudsdale",
@@ -17,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Own Tempo",
 			"ability_2": "Stamina",
-			"hidden_ability": "Inner Focus"
+			"hidden_ability": "Inner Focus",
+			"terastal_ability": false
 		}
 	}
 }

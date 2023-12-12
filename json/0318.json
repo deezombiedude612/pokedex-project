@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Rough Skin",
 			"ability_2": false,
-			"hidden_ability": "Speed Boost"
+			"hidden_ability": "Speed Boost",
+			"terastal_ability": false
 		}
 	}
 }

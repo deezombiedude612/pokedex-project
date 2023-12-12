@@ -2,7 +2,8 @@
 	"id": {
 		"national": 148,
 		"kanto_lgpe": 148,
-		"galar_crown_tundra": 195
+		"galar_crown_tundra": 195,
+		"paldea_sv": 348
 	},
 	"name": {
 		"en": "Dragonair",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Shed Skin",
 			"ability_2": false,
-			"hidden_ability": "Marvel Scale"
+			"hidden_ability": "Marvel Scale",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 221,
 		"galar_swsh": 76,
-		"hisui_legarc": 213
+		"hisui_legarc": 213,
+		"kitakami_sv": 51
 	},
 	"name": {
 		"en": "Piloswine",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Oblivious",
 			"ability_2": "Snow Cloak",
-			"hidden_ability": "Thick Fat"
+			"hidden_ability": "Thick Fat",
+			"terastal_ability": false
 		}
 	}
 }

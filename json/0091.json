@@ -3,7 +3,8 @@
 		"national": 91,
 		"kanto_lgpe": 91,
 		"galar_swsh": 151,
-		"galar_isle_of_armor": 132
+		"galar_isle_of_armor": 132,
+		"paldea_sv": 330
 	},
 	"name": {
 		"en": "Cloyster",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Shell Armor",
 			"ability_2": "Skill Link",
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

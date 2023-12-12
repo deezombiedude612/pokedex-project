@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Vital Spirit"
+			"hidden_ability": "Vital Spirit",
+			"terastal_ability": false
 		}
 	}
 }

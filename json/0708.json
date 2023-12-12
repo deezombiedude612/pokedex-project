@@ -2,7 +2,8 @@
 	"id": {
 		"national": 708,
 		"galar_swsh": 338,
-		"galar_crown_tundra": 33
+		"galar_crown_tundra": 33,
+		"kitakami_sv": 68
 	},
 	"name": {
 		"en": "Phantump",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Natural Cure",
 			"ability_2": "Frisk",
-			"hidden_ability": "Harvest"
+			"hidden_ability": "Harvest",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 637,
-		"galar_isle_of_armor": 187
+		"galar_isle_of_armor": 187,
+		"paldea_sv": 275
 	},
 	"name": {
 		"en": "Volcarona",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Flame Body",
 			"ability_2": false,
-			"hidden_ability": "Swarm"
+			"hidden_ability": "Swarm",
+			"terastal_ability": false
 		}
 	}
 }

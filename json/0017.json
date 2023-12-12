@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Tangled Feet",
-			"hidden_ability": "Big Pecks"
+			"hidden_ability": "Big Pecks",
+			"terastal_ability": false
 		}
 	}
 }

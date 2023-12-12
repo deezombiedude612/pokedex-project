@@ -3,7 +3,8 @@
 		"national": 628,
 		"galar_swsh": 282,
 		"galar_isle_of_armor": 180,
-		"hisui_legarc": 222
+		"hisui_legarc": 222,
+		"paldea_sv": 366
 	},
 	"name": {
 		"en": "Braviary",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Sheer Force",
-			"hidden_ability": "Defiant"
+			"hidden_ability": "Defiant",
+			"terastal_ability": false
 		}
 	},
 	"hisui_variant": {
@@ -29,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Sheer Force",
-			"hidden_ability": "Defiant"
+			"hidden_ability": "Tinted Lens",
+			"terastal_ability": false
 		}
 	}
 }

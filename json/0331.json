@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 331,
-		"hoenn_oras": 124
+		"hoenn_oras": 124,
+		"paldea_sv": 252
 	},
 	"name": {
 		"en": "Cacnea",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Sand Veil",
 			"ability_2": false,
-			"hidden_ability": "Water Absorb"
+			"hidden_ability": "Water Absorb",
+			"terastal_ability": false
 		}
 	}
 }

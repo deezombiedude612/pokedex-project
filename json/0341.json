@@ -3,7 +3,8 @@
 		"national": 341,
 		"hoenn_oras": 134,
 		"galar_swsh": 102,
-		"galar_isle_of_armor": 91
+		"galar_isle_of_armor": 91,
+		"kitakami_sv": 11
 	},
 	"name": {
 		"en": "Corphish",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Hyper Cutter",
 			"ability_2": "Shell Armor",
-			"hidden_ability": "Adaptability"
+			"hidden_ability": "Adaptability",
+			"terastal_ability": false
 		}
 	}
 }

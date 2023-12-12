@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Innards Out",
 			"ability_2": false,
-			"hidden_ability": "Unaware"
+			"hidden_ability": "Unaware",
+			"terastal_ability": false
 		}
 	}
 }

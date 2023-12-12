@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 996,
+		"paldea_sv": 388
+	},
+	"name": {
+		"en": "Frigibax",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [0, 11],
+		"type": ["dragon", "ice"],
+		"abilities": {
+			"ability_1": "Thermal Exchange",
+			"ability_2": false,
+			"hidden_ability": "Ice Body",
+			"terastal_ability": false
+		}
+	}
+}

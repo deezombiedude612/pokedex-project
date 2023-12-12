@@ -2,7 +2,8 @@
 	"id": {
 		"national": 885,
 		"galar_swsh": 395,
-		"galar_crown_tundra": 110
+		"galar_crown_tundra": 110,
+		"paldea_sv": 305
 	},
 	"name": {
 		"en": "Dreepy",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Clear Body",
 			"ability_2": "Infiltrator",
-			"hidden_ability": "Cursed Body"
+			"hidden_ability": "Cursed Body",
+			"terastal_ability": false
 		}
 	}
 }

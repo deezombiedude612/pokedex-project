@@ -2,7 +2,9 @@
 	"id": {
 		"national": 624,
 		"galar_swsh": 246,
-		"galar_isle_of_armor": 29
+		"galar_isle_of_armor": 29,
+		"paldea_sv": 367,
+		"kitakami_sv": 186
 	},
 	"name": {
 		"en": "Pawniard",
@@ -18,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Defiant",
 			"ability_2": "Inner Focus",
-			"hidden_ability": "Pressure"
+			"hidden_ability": "Pressure",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 691,
-		"galar_isle_of_armor": 195
+		"galar_isle_of_armor": 195,
+		"paldea_sv": 338
 	},
 	"name": {
 		"en": "Dragalge",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Poison Point",
 			"ability_2": "Poison Touch",
-			"hidden_ability": "Adaptability"
+			"hidden_ability": "Adaptability",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 247,
 		"galar_swsh": 384,
-		"galar_crown_tundra": 140
+		"galar_crown_tundra": 140,
+		"paldea_sv": 317
 	},
 	"name": {
 		"en": "Pupitar",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Shed Skin",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

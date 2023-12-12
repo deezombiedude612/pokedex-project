@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Illuminate",
 			"ability_2": "Effect Spore",
-			"hidden_ability": "Rain Dish"
+			"hidden_ability": "Rain Dish",
+			"terastal_ability": false
 		}
 	}
 }

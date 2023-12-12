@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Tough Claws",
 			"ability_2": "Sniper",
-			"hidden_ability": "Pickpocket"
+			"hidden_ability": "Pickpocket",
+			"terastal_ability": false
 		}
 	}
 }

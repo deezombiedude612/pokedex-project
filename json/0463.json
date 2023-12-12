@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Own Tempo",
 			"ability_2": "Oblivious",
-			"hidden_ability": "Cloud Nine"
+			"hidden_ability": "Cloud Nine",
+			"terastal_ability": false
 		}
 	}
 }

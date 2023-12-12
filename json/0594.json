@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 594
+		"national": 594,
+		"paldea_sv": 336
 	},
 	"name": {
 		"en": "Alomomola",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Healer",
 			"ability_2": "Hydration",
-			"hidden_ability": "Regenerator"
+			"hidden_ability": "Regenerator",
+			"terastal_ability": false
 		}
 	}
 }

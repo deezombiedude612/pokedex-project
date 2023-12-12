@@ -3,7 +3,8 @@
 		"national": 356,
 		"hoenn_oras": 154,
 		"galar_swsh": 136,
-		"hisui_legarc": 159
+		"hisui_legarc": 159,
+		"kitakami_sv": 140
 	},
 	"name": {
 		"en": "Dusclops",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,
-			"hidden_ability": "Frisk"
+			"hidden_ability": "Frisk",
+			"terastal_ability": false
 		}
 	}
 }

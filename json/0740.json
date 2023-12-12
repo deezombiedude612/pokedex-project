@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 740
+		"national": 740,
+		"paldea_sv": 119
 	},
 	"name": {
 		"en": "Crabominable",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Hyper Cutter",
 			"ability_2": "Iron Fist",
-			"hidden_ability": "Anger Point"
+			"hidden_ability": "Anger Point",
+			"terastal_ability": false
 		}
 	}
 }

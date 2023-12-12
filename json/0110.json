@@ -3,7 +3,8 @@
 		"national": 110,
 		"hoenn_oras": 114,
 		"kanto_lgpe": 110,
-		"galar_swsh": 251
+		"galar_swsh": 251,
+		"kitakami_sv": 136
 	},
 	"name": {
 		"en": "Weezing",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": "Neutralizing Gas",
-			"hidden_ability": "Stench"
+			"hidden_ability": "Stench",
+			"terastal_ability": false
 		}
 	},
 	"galar_variant": {
@@ -29,7 +31,8 @@
 		"abilities": {
 			"ability_1": "Levitate",
 			"ability_2": "Neutralizing Gas",
-			"hidden_ability": "Misty Surge"
+			"hidden_ability": "Misty Surge",
+			"terastal_ability": false
 		}
 	}
 }

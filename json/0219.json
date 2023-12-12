@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 219,
-		"hoenn_oras": 109
+		"hoenn_oras": 109,
+		"kitakami_sv": 145
 	},
 	"name": {
 		"en": "Magcargo",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Magma Armor",
 			"ability_2": "Flame Body",
-			"hidden_ability": "Weak Armor"
+			"hidden_ability": "Weak Armor",
+			"terastal_ability": false
 		}
 	}
 }

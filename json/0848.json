@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 848,
-		"galar_swsh": 310
+		"galar_swsh": 310,
+		"paldea_sv": 198
 	},
 	"name": {
 		"en": "Toxel",
@@ -9,7 +10,7 @@
 		"chs": "电音婴",
 		"cht": "毒電嬰"
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Baby Pokémon",
 		"type_id": [7, 4],
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Rattled",
 			"ability_2": "Static",
-			"hidden_ability": "Klutz"
+			"hidden_ability": "Klutz",
+			"terastal_ability": false
 		}
 	}
 }

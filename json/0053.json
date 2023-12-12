@@ -2,7 +2,8 @@
 	"id": {
 		"national": 53,
 		"kanto_lgpe": 53,
-		"galar_swsh": 184
+		"galar_swsh": 184,
+		"paldea_sv": 142
 	},
 	"name": {
 		"en": "Persian",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Limber",
 			"ability_2": "Technician",
-			"hidden_ability": "Unnerve"
+			"hidden_ability": "Unnerve",
+			"terastal_ability": false
 		}
 	},
 	"alola_variant": {
@@ -28,7 +30,8 @@
 		"abilities": {
 			"ability_1": "Fur Coat",
 			"ability_2": "Technician",
-			"hidden_ability": "Rattled"
+			"hidden_ability": "Rattled",
+			"terastal_ability": false
 		}
 	}
 }

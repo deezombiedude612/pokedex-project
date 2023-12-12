@@ -2,7 +2,8 @@
 	"id": {
 		"national": 878,
 		"galar_swsh": 302,
-		"galar_crown_tundra": 108
+		"galar_crown_tundra": 108,
+		"paldea_sv": 124
 	},
 	"name": {
 		"en": "Cufant",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Sheer Force",
 			"ability_2": false,
-			"hidden_ability": "Heavy Metal"
+			"hidden_ability": "Heavy Metal",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 917,
+		"paldea_sv": 12
+	},
+	"name": {
+		"en": "Tarountula",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "String Ball Pokémon",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Insomnia",
+			"ability_2": false,
+			"hidden_ability": "Stakeout",
+			"terastal_ability": false
+		}
+	}
+}

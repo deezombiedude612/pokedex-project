@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Guts",
 			"ability_2": "Inner Focus",
-			"hidden_ability": "Mold Breaker"
+			"hidden_ability": "Mold Breaker",
+			"terastal_ability": false
 		}
 	}
 }

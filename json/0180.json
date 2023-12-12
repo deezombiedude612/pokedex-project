@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 180
+		"national": 180,
+		"paldea_sv": 102
 	},
 	"name": {
 		"en": "Flaaffy",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Plus"
+			"hidden_ability": "Plus",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 225,
 		"galar_swsh": 78,
-		"galar_crown_tundra": 120
+		"galar_crown_tundra": 120,
+		"paldea_sv": 354
 	},
 	"name": {
 		"en": "Delibird",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Vital Spirit",
 			"ability_2": "Hustle",
-			"hidden_ability": "Insomnia"
+			"hidden_ability": "Insomnia",
+			"terastal_ability": false
 		}
 	}
 }

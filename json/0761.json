@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 761,
-		"galar_swsh": 52
+		"galar_swsh": 52,
+		"paldea_sv": 81
 	},
 	"name": {
 		"en": "Bounsweet",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Leaf Guard",
 			"ability_2": "Oblivious",
-			"hidden_ability": "Sweet Veil"
+			"hidden_ability": "Sweet Veil",
+			"terastal_ability": false
 		}
 	}
 }

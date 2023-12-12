@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 923,
+		"paldea_sv": 24
+	},
+	"name": {
+		"en": "Pawmot",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [7, 14],
+		"type": ["electric", "fighting"],
+		"abilities": {
+			"ability_1": "Volt Absorb",
+			"ability_2": "Natural Cure",
+			"hidden_ability": "Iron Fist",
+			"terastal_ability": false
+		}
+	}
+}

@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Static",
 			"ability_2": false,
-			"hidden_ability": "Motor Drive"
+			"hidden_ability": "Motor Drive",
+			"terastal_ability": false
 		}
 	}
 }

@@ -12,7 +12,7 @@
 		"chs": "",
 		"cht": ""
 	},
-	"baby": false,
+	"baby": true,
 	"default": {
 		"desc": "Mime Pokémon",
 		"type_id": [16, 17],
@@ -20,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Soundproof",
 			"ability_2": "Filter",
-			"hidden_ability": "Technician"
+			"hidden_ability": "Technician",
+			"terastal_ability": false
 		}
 	}
 }

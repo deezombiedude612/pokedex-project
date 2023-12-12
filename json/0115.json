@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Early Bird",
 			"ability_2": "Scrappy",
-			"hidden_ability": "Inner Focus"
+			"hidden_ability": "Inner Focus",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Dry Skin",
 			"ability_2": "Sand Veil",
-			"hidden_ability": "Solar Power"
+			"hidden_ability": "Solar Power",
+			"terastal_ability": false
 		}
 	}
 }

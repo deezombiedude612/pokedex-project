@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 763,
-		"galar_swsh": 54
+		"galar_swsh": 54,
+		"paldea_sv": 83
 	},
 	"name": {
 		"en": "Tsareena",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Leaf Guard",
 			"ability_2": "Queenly Majesty",
-			"hidden_ability": "Sweet Veil"
+			"hidden_ability": "Sweet Veil",
+			"terastal_ability": false
 		}
 	}
 }

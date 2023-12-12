@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Run Away",
 			"ability_2": "Early Bird",
-			"hidden_ability": "Tangled Feet"
+			"hidden_ability": "Tangled Feet",
+			"terastal_ability": false
 		}
 	}
 }

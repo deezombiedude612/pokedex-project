@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 191
+		"national": 191,
+		"paldea_sv": 31
 	},
 	"name": {
 		"en": "Sunkern",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Solar Power",
-			"hidden_ability": "Early Bird"
+			"hidden_ability": "Early Bird",
+			"terastal_ability": false
 		}
 	}
 }

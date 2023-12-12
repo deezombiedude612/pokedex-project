@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 664
+		"national": 664,
+		"paldea_sv": 35
 	},
 	"name": {
 		"en": "Scatterbug",
@@ -16,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Shield Dust",
 			"ability_2": "Compound Eyes",
-			"hidden_ability": "Friend Guard"
+			"hidden_ability": "Friend Guard",
+			"terastal_ability": false
 		}
 	}
 }

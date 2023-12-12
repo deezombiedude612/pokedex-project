@@ -4,7 +4,8 @@
 		"galar_swsh": 116,
 		"galar_isle_of_armor": 203,
 		"sinnoh_bdsp": 53,
-		"hisui_legarc": 70
+		"hisui_legarc": 70,
+		"paldea_sv": 38
 	},
 	"name": {
 		"en": "Combee",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Honey Gather",
 			"ability_2": false,
-			"hidden_ability": "Hustle"
+			"hidden_ability": "Hustle",
+			"terastal_ability": false
 		}
 	}
 }

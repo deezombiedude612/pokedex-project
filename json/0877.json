@@ -3,7 +3,8 @@
 		"national": 877,
 		"galar_swsh": 344,
 		"galar_isle_of_armor": 104,
-		"galar_crown_tundra": 157
+		"galar_crown_tundra": 157,
+		"kitakami_sv": 95
 	},
 	"name": {
 		"en": "Morpeko",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Hunger Switch",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

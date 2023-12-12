@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 953,
+		"paldea_sv": 254
+	},
+	"name": {
+		"en": "Rellor",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [5, -1],
+		"type": ["bug"],
+		"abilities": {
+			"ability_1": "Compound Eyes",
+			"ability_2": false,
+			"hidden_ability": "Shed Skin",
+			"terastal_ability": false
+		}
+	}
+}

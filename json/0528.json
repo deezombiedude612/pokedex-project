@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Unaware",
 			"ability_2": "Klutz",
-			"hidden_ability": "Simple"
+			"hidden_ability": "Simple",
+			"terastal_ability": false
 		}
 	}
 }

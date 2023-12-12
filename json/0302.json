@@ -3,7 +3,8 @@
 		"national": 302,
 		"hoenn_oras": 70,
 		"galar_swsh": 294,
-		"galar_crown_tundra": 174
+		"galar_crown_tundra": 174,
+		"paldea_sv": 297
 	},
 	"name": {
 		"en": "Sableye",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Keen Eye",
 			"ability_2": "Stall",
-			"hidden_ability": "Prankster"
+			"hidden_ability": "Prankster",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Compound Eyes",
 			"ability_2": false,
-			"hidden_ability": "Run Away"
+			"hidden_ability": "Run Away",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 838,
 		"galar_swsh": 162,
-		"galar_crown_tundra": 177
+		"galar_crown_tundra": 177,
+		"paldea_sv": 92
 	},
 	"name": {
 		"en": "Carkol",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Steam Engine",
 			"ability_2": "Flame Body",
-			"hidden_ability": "Flash Fire"
+			"hidden_ability": "Flash Fire",
+			"terastal_ability": false
 		}
 	}
 }

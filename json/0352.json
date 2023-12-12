@@ -17,7 +17,8 @@
 		"abilities": {
 			"ability_1": "Color Change",
 			"ability_2": false,
-			"hidden_ability": "Protean"
+			"hidden_ability": "Protean",
+			"terastal_ability": false
 		}
 	}
 }

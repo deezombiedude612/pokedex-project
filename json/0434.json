@@ -3,7 +3,8 @@
 		"national": 434,
 		"galar_swsh": 130,
 		"sinnoh_bdsp": 84,
-		"hisui_legarc": 110
+		"hisui_legarc": 110,
+		"paldea_sv": 226
 	},
 	"name": {
 		"en": "Stunky",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Stench",
 			"ability_2": "Aftermath",
-			"hidden_ability": "Keen Eye"
+			"hidden_ability": "Keen Eye",
+			"terastal_ability": false
 		}
 	}
 }

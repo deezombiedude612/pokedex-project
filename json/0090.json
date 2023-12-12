@@ -3,7 +3,8 @@
 		"national": 90,
 		"kanto_lgpe": 90,
 		"galar_swsh": 150,
-		"galar_isle_of_armor": 131
+		"galar_isle_of_armor": 131,
+		"paldea_sv": 329
 	},
 	"name": {
 		"en": "Shellder",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Shell Armor",
 			"ability_2": "Skill Link",
-			"hidden_ability": "Overcoat"
+			"hidden_ability": "Overcoat",
+			"terastal_ability": false
 		}
 	}
 }

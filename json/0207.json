@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 207,
-		"hisui_legarc": 185
+		"hisui_legarc": 185,
+		"kitakami_sv": 121
 	},
 	"name": {
 		"en": "Gligar",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Hyper Cutter",
 			"ability_2": "Sand Veil",
-			"hidden_ability": "Immunity"
+			"hidden_ability": "Immunity",
+			"terastal_ability": false
 		}
 	}
 }

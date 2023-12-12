@@ -4,7 +4,9 @@
 		"galar_swsh": 293,
 		"galar_crown_tundra": 29,
 		"sinnoh_bdsp": 145,
-		"hisui_legarc": 204
+		"hisui_legarc": 204,
+		"paldea_sv": 231,
+		"kitakami_sv": 171
 	},
 	"name": {
 		"en": "Weavile",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Pressure",
 			"ability_2": false,
-			"hidden_ability": "Pickpocket"
+			"hidden_ability": "Pickpocket",
+			"terastal_ability": false
 		}
 	}
 }

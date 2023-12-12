@@ -3,7 +3,8 @@
 		"national": 871,
 		"galar_swsh": 353,
 		"galar_isle_of_armor": 126,
-		"galar_crown_tundra": 158
+		"galar_crown_tundra": 158,
+		"paldea_sv": 321
 	},
 	"name": {
 		"en": "Pincurchin",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Lightning Rod",
 			"ability_2": false,
-			"hidden_ability": "Electric Surge"
+			"hidden_ability": "Electric Surge",
+			"terastal_ability": false
 		}
 	}
 }

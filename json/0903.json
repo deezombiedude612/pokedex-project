@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 903,
-		"hisui_legarc": 203
+		"hisui_legarc": 203,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Sneasler",
@@ -16,8 +17,9 @@
 		"type": ["fighting", "poison"],
 		"abilities": {
 			"ability_1": "Pressure",
-			"ability_2": false,
-			"hidden_ability": "Poison Touch"
+			"ability_2": "Unburden",
+			"hidden_ability": "Poison Touch",
+			"terastal_ability": false
 		}
 	}
 }

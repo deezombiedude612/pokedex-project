@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Merciless",
 			"ability_2": "Limber",
-			"hidden_ability": "Regenerator"
+			"hidden_ability": "Regenerator",
+			"terastal_ability": false
 		}
 	}
 }

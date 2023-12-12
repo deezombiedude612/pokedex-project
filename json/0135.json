@@ -4,7 +4,8 @@
 		"kanto_lgpe": 135,
 		"galar_swsh": 198,
 		"galar_crown_tundra": 76,
-		"hisui_legarc": 27
+		"hisui_legarc": 27,
+		"paldea_sv": 181
 	},
 	"name": {
 		"en": "Jolteon",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Volt Absorb",
 			"ability_2": false,
-			"hidden_ability": "Quick Feet"
+			"hidden_ability": "Quick Feet",
+			"terastal_ability": false
 		}
 	}
 }

@@ -3,7 +3,8 @@
 		"national": 324,
 		"hoenn_oras": 110,
 		"galar_swsh": 300,
-		"galar_isle_of_armor": 173
+		"galar_isle_of_armor": 173,
+		"paldea_sv": 150
 	},
 	"name": {
 		"en": "Torkoal",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "White Smoke",
 			"ability_2": "Drought",
-			"hidden_ability": "Shell Armor"
+			"hidden_ability": "Shell Armor",
+			"terastal_ability": false
 		}
 	}
 }

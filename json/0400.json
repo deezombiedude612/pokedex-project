@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Simple",
 			"ability_2": "Unaware",
-			"hidden_ability": "Moody"
+			"hidden_ability": "Moody",
+			"terastal_ability": false
 		}
 	}
 }

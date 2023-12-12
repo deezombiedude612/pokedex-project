@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 891,
-		"galar_isle_of_armor": 100
+		"galar_isle_of_armor": 100,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Kubfu",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Inner Focus",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

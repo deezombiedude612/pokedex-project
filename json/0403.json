@@ -3,7 +3,9 @@
 		"national": 403,
 		"galar_isle_of_armor": 25,
 		"sinnoh_bdsp": 17,
-		"hisui_legarc": 15
+		"hisui_legarc": 15,
+		"paldea_sv": 94,
+		"kitakami_sv": 109
 	},
 	"name": {
 		"en": "Shinx",
@@ -19,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Rivalry",
 			"ability_2": "Intimidate",
-			"hidden_ability": "Guts"
+			"hidden_ability": "Guts",
+			"terastal_ability": false
 		}
 	}
 }

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 430,
 		"sinnoh_bdsp": 75,
-		"hisui_legarc": 141
+		"hisui_legarc": 141,
+		"paldea_sv": 233
 	},
 	"name": {
 		"en": "Honchkrow",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Insomnia",
 			"ability_2": "Super Luck",
-			"hidden_ability": "Moxie"
+			"hidden_ability": "Moxie",
+			"terastal_ability": false
 		}
 	}
 }

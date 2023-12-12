@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Trace",
 			"ability_2": "Download",
-			"hidden_ability": "Analytic"
+			"hidden_ability": "Analytic",
+			"terastal_ability": false
 		}
 	}
 }

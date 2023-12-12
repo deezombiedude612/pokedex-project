@@ -18,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Flash Fire",
 			"ability_2": "White Smoke",
-			"hidden_ability": "Flame Body"
+			"hidden_ability": "Flame Body",
+			"terastal_ability": false
 		}
 	}
 }

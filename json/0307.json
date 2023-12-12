@@ -2,7 +2,8 @@
 	"id": {
 		"national": 307,
 		"hoenn_oras": 78,
-		"sinnoh_bdsp": 86
+		"sinnoh_bdsp": 86,
+		"paldea_sv": 161
 	},
 	"name": {
 		"en": "Meditite",
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Pure Power",
 			"ability_2": false,
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	}
 }

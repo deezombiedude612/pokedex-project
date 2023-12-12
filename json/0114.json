@@ -19,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Chlorophyll",
 			"ability_2": "Leaf Guard",
-			"hidden_ability": "Regenerator"
+			"hidden_ability": "Regenerator",
+			"terastal_ability": false
 		}
 	}
 }

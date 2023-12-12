@@ -2,7 +2,8 @@
 	"id": {
 		"national": 272,
 		"hoenn_oras": 21,
-		"galar_swsh": 38
+		"galar_swsh": 38,
+		"kitakami_sv": 106
 	},
 	"name": {
 		"en": "Ludicolo",
@@ -10,7 +11,7 @@
 		"chs": "乐天河童",
 		"cht": "樂天河童"
 	},
-	"baby": true,
+	"baby": false,
 	"default": {
 		"desc": "Carefree Pokémon",
 		"type_id": [6, 9],
@@ -18,7 +19,8 @@
 		"abilities": {
 			"ability_1": "Swift Swim",
 			"ability_2": "Rain Dish",
-			"hidden_ability": "Own Tempo"
+			"hidden_ability": "Own Tempo",
+			"terastal_ability": false
 		}
 	}
 }

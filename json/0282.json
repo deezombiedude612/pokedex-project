@@ -4,7 +4,9 @@
 		"hoenn_oras": 31,
 		"galar_swsh": 122,
 		"galar_isle_of_armor": 36,
-		"hisui_legarc": 103
+		"hisui_legarc": 103,
+		"paldea_sv": 64,
+		"kitakami_sv": 59
 	},
 	"name": {
 		"en": "Gardevoir",
@@ -20,7 +22,8 @@
 		"abilities": {
 			"ability_1": "Synchronize",
 			"ability_2": "Trace",
-			"hidden_ability": "Telepathy"
+			"hidden_ability": "Telepathy",
+			"terastal_ability": false
 		}
 	},
 	"mega": {

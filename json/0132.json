@@ -3,7 +3,8 @@
 		"national": 132,
 		"kanto_lgpe": 132,
 		"galar_swsh": 373,
-		"galar_isle_of_armor": 207
+		"galar_isle_of_armor": 207,
+		"paldea_sv": 212
 	},
 	"name": {
 		"en": "Ditto",
@@ -19,7 +20,8 @@
 		"abilities": {
 			"ability_1": "Limber",
 			"ability_2": false,
-			"hidden_ability": "Imposter"
+			"hidden_ability": "Imposter",
+			"terastal_ability": false
 		}
 	}
 }

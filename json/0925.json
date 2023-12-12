@@ -1,0 +1,25 @@
+{
+	"id": {
+		"national": 925,
+		"paldea_sv": 72,
+		"kitakami_sv": 98
+	},
+	"name": {
+		"en": "Maushold",
+		"jp": "",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Friend Guard",
+			"ability_2": "Cheek Pouch",
+			"hidden_ability": "Technician",
+			"terastal_ability": false
+		}
+	}
+}

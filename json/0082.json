@@ -4,7 +4,8 @@
 		"hoenn_oras": 85,
 		"kanto_lgpe": 82,
 		"galar_isle_of_armor": 106,
-		"hisui_legarc": 178
+		"hisui_legarc": 178,
+		"paldea_sv": 210
 	},
 	"name": {
 		"en": "Magneton",
@@ -20,7 +21,8 @@
 		"abilities": {
 			"ability_1": "Magnet Pull",
 			"ability_2": "Sturdy",
-			"hidden_ability": "Analytic"
+			"hidden_ability": "Analytic",
+			"terastal_ability": false
 		}
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 288,
-		"hoenn_oras": 38
+		"hoenn_oras": 38,
+		"paldea_sv": 79
 	},
 	"name": {
 		"en": "Vigoroth",
@@ -17,7 +18,8 @@
 		"abilities": {
 			"ability_1": "Vital Spirit",
 			"ability_2": false,
-			"hidden_ability": false
+			"hidden_ability": false,
+			"terastal_ability": false
 		}
 	}
 }

@@ -15,15 +15,16 @@
 		"desc": "Butterfly Pokémon",
 		"type_id": [5, 3],
 		"type": ["bug", "flying"],
-		"g_max": {
-			"g_max_move": "G-Max Befuddle",
-			"g_max_type_id": 5,
-			"g_max_type": "bug"
+		"gmax": {
+			"gmax_move": "G-Max Befuddle",
+			"gmax_type_id": 5,
+			"gmax_type": "bug"
 		},
 		"abilities": {
 			"ability_1": "Compound Eyes",
 			"ability_2": false,
-			"hidden_ability": "Tinted Lens"
+			"hidden_ability": "Tinted Lens",
+			"terastal_ability": false
 		}
 	}
 }
