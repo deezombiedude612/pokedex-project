@@ -1,6 +1,8 @@
 {
 	"id": {
 		"national": 225,
+		"mountain_kalos_xy": 90,
+		"alola_usum": 95,
 		"galar_swsh": 78,
 		"galar_crown_tundra": 120,
 		"paldea_sv": 354

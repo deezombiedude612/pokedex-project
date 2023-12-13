@@ -5,13 +5,24 @@
 	},
 	"name": {
 		"en": "Palafin",
-		"jp": "",
+		"jp": "イルカマン",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
-	"default": {
-		"desc": "",
+	"zero_form": {
+		"desc": "Dolphin Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Zero to Hero",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"hero_form": {
+		"desc": "Hero Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {

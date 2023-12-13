@@ -5,13 +5,24 @@
 	},
 	"name": {
 		"en": "Squawkabilly",
-		"jp": "",
+		"jp": "イキリンコ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
+	"blue_plumage": {
+		"desc": "Parrot Pokémon",
+		"type_id": [12, 3],
+		"type": ["normal", "flying"],
+		"abilities": {
+			"ability_1": "Intimidate",
+			"ability_2": "Hustle",
+			"hidden_ability": "Guts",
+			"terastal_ability": false
+		}
+	},
 	"green_plumage": {
-		"desc": "",
+		"desc": "Parrot Pokémon",
 		"type_id": [12, 3],
 		"type": ["normal", "flying"],
 		"abilities": {
@@ -22,7 +33,7 @@
 		}
 	},
 	"white_plumage": {
-		"desc": "",
+		"desc": "Parrot Pokémon",
 		"type_id": [12, 3],
 		"type": ["normal", "flying"],
 		"abilities": {
@@ -33,24 +44,13 @@
 		}
 	},
 	"yellow_plumage": {
-		"desc": "",
+		"desc": "Parrot Pokémon",
 		"type_id": [12, 3],
 		"type": ["normal", "flying"],
 		"abilities": {
 			"ability_1": "Intimidate",
 			"ability_2": "Hustle",
 			"hidden_ability": "Sheer Force",
-			"terastal_ability": false
-		}
-	},
-	"blue_plumage": {
-		"desc": "",
-		"type_id": [12, 3],
-		"type": ["normal", "flying"],
-		"abilities": {
-			"ability_1": "Intimidate",
-			"ability_2": "Hustle",
-			"hidden_ability": "Guts",
 			"terastal_ability": false
 		}
 	}

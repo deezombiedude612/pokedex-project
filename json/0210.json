@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 210
+		"national": 210,
+		"coastal_kalos_xy": 72,
+		"alola_usum": 340
 	},
 	"name": {
 		"en": "Granbull",

@@ -6,13 +6,13 @@
 	},
 	"name": {
 		"en": "Dudunsparce",
-		"jp": "",
+		"jp": "ノココッチ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Land Snake Pokémon",
 		"type_id": [12, -1],
 		"type": ["normal"],
 		"abilities": {

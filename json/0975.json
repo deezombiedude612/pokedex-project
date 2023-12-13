@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Cetitan",
-		"jp": "",
+		"jp": "ハルクジラ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Terra Whale Pokémon",
 		"type_id": [11, -1],
 		"type": ["ice"],
 		"abilities": {

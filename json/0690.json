@@ -1,6 +1,8 @@
 {
 	"id": {
 		"national": 690,
+		"coastal_kalos_xy": 30,
+		"alola_usum": 347,
 		"galar_isle_of_armor": 194,
 		"paldea_sv": 337
 	},

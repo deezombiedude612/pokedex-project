@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 476,
+		"coastal_kalos_xy": 94,
 		"hoenn_oras": 62,
+		"alola_usum": 255,
 		"hisui_legarc": 191,
 		"kitakami_sv": 108
 	},

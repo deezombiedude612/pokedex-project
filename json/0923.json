@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Pawmot",
-		"jp": "",
+		"jp": "パーモット",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Hands-On Pokémon",
 		"type_id": [7, 14],
 		"type": ["electric", "fighting"],
 		"abilities": {

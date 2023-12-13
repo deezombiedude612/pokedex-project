@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Slither Wing",
-		"jp": "",
+		"jp": "チヲハウハネ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [5, 14],
 		"type": ["bug", "fighting"],
 		"abilities": {

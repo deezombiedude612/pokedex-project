@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Charcadet",
-		"jp": "",
+		"jp": "カルボウ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Fire Child Pokémon",
 		"type_id": [13, -1],
 		"type": ["fire"],
 		"abilities": {

@@ -2,6 +2,10 @@
 
 require_once "dbConnect.php";
 
+function getQueryResult($conn, $queryStmt, $params = []) {
+	return $conn->execute_query($queryStmt, $params);
+}
+
 function printTimestamp($dateFormat) {
 	$date = new DateTime("now", new DateTimeZone("Asia/Kuala_Lumpur"));
 	return $date->format($dateFormat);
@@ -45,7 +49,15 @@ for ($count = 1; $count <= $num_distinct_entries; ++$count) {
 	$id_entry = "\t\"id\": {\n";
 	$id_entry .= "\t\t\"national\": " . $count;
 
-	$query = connectDb()->query("CALL `get_dex_numbers`(" . $count . ")");
+	// prior to PHP 8.2 only
+	// $query_stmt = connectDb()->prepare("CALL `get_dex_numbers`(?)");
+	// $query_stmt->bind_param("i", $count);
+	// $query_stmt->execute();
+	// $query = $query_stmt->get_result();
+
+	// from PHP 8.2 onwards..
+	$query = connectDb()->execute_query("CALL `get_dex_numbers`(?)", [$count]);
+	// $query = getQueryResult(connectDb(), "CALL `get_dex_numbers`(?)", [$count]);
 
 	if ($query) {
 		if ($query->num_rows > 0) {
@@ -71,7 +83,16 @@ $en_type_name = [
 if ($num_distinct_entries > 0) {
 	$json_index = "0000";
 	$json_filename = $json_index . ".json";
-	$query = connectDb()->query("CALL `show_pkmn`('');");
+
+	// prior to PHP 8.2 only
+	// $empty_string_param = "";
+	// $query_stmt = connectDb()->prepare("CALL `show_pkmn`(?)");
+	// $query_stmt->bind_param("s", $empty_string_param);
+	// $query_stmt->execute();
+	// $query = $query_stmt->get_result();
+
+	// from PHP 8.2 onwards..
+	$query = connectDb()->execute_query("CALL `show_pkmn`(?)", [""]);
 
 	if ($query) {
 		if ($query->num_rows > 0) {

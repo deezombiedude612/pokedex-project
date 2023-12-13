@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 676
+		"national": 676,
+		"central_kalos_xy": 93,
+		"alola_usum": 30
 	},
 	"name": {
 		"en": "Furfrou",

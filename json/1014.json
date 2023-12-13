@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Okidogi",
-		"jp": "",
+		"jp": "イイネイヌ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Retainer Pokémon",
 		"type_id": [4, 14],
 		"type": ["poison", "fighting"],
 		"abilities": {

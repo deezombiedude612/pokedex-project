@@ -2,7 +2,8 @@
 	"id": {
 		"national": 259,
 		"hoenn_oras": 8,
-		"galar_swsh": -1
+		"galar_swsh": -1,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Marshtomp",

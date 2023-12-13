@@ -1,12 +1,14 @@
 {
 	"id": {
 		"national": 726,
-		"galar_swsh": -1
+		"alola_usum": 5,
+		"galar_swsh": -1,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Torracat",
 		"jp": "ニャヒート",
-		"chs": "",
+		"chs": "炎热喵",
 		"cht": ""
 	},
 	"baby": false,

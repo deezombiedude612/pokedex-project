@@ -2,7 +2,8 @@
 	"id": {
 		"national": 254,
 		"hoenn_oras": 3,
-		"galar_swsh": -1
+		"galar_swsh": -1,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Sceptile",

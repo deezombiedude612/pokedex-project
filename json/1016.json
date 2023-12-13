@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Fezandipiti",
-		"jp": "",
+		"jp": "キチキギス",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Retainer Pokémon",
 		"type_id": [4, 17],
 		"type": ["poison", "fairy"],
 		"abilities": {

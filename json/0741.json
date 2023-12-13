@@ -1,6 +1,7 @@
 {
 	"id": {
 		"national": 741,
+		"alola_usum": 97,
 		"paldea_sv": 100,
 		"kitakami_sv": 115
 	},
@@ -11,6 +12,17 @@
 		"cht": ""
 	},
 	"baby": false,
+	"baile_style": {
+		"desc": "Dancing Pokémon",
+		"type_id": [13, 3],
+		"type": ["fire", "flying"],
+		"abilities": {
+			"ability_1": "Dancer",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
 	"pa'u_style": {
 		"desc": "Dancing Pokémon",
 		"type_id": [16, 3],
@@ -37,17 +49,6 @@
 		"desc": "Dancing Pokémon",
 		"type_id": [1, 3],
 		"type": ["ghost", "flying"],
-		"abilities": {
-			"ability_1": "Dancer",
-			"ability_2": false,
-			"hidden_ability": false,
-			"terastal_ability": false
-		}
-	},
-	"baile_style": {
-		"desc": "Dancing Pokémon",
-		"type_id": [13, 3],
-		"type": ["fire", "flying"],
 		"abilities": {
 			"ability_1": "Dancer",
 			"ability_2": false,

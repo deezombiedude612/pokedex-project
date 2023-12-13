@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Pawmo",
-		"jp": "",
+		"jp": "パモット",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Mouse Pokémon",
 		"type_id": [7, 14],
 		"type": ["electric", "fighting"],
 		"abilities": {

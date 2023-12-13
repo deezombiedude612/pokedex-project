@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Flamigo",
-		"jp": "",
+		"jp": "カラミンゴ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Synchronize Pokémon",
 		"type_id": [3, 14],
 		"type": ["flying", "fighting"],
 		"abilities": {

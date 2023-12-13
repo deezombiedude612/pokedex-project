@@ -2,7 +2,8 @@
 	"id": {
 		"national": 390,
 		"sinnoh_bdsp": 4,
-		"hisui_legarc": 61
+		"hisui_legarc": 61,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Chimchar",

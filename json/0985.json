@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Scream Tail",
-		"jp": "",
+		"jp": "サケブシッポ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [17, 16],
 		"type": ["fairy", "psychic"],
 		"abilities": {

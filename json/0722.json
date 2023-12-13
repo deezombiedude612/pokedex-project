@@ -1,6 +1,7 @@
 {
 	"id": {
 		"national": 722,
+		"alola_usum": 1,
 		"galar_swsh": -1,
 		"hisui_legarc": 1,
 		"paldea_sv": -1
@@ -8,7 +9,7 @@
 	"name": {
 		"en": "Rowlet",
 		"jp": "モクロー",
-		"chs": "",
+		"chs": "木木枭",
 		"cht": ""
 	},
 	"baby": false,

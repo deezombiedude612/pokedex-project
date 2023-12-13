@@ -1,12 +1,14 @@
 {
 	"id": {
 		"national": 729,
-		"galar_swsh": -1
+		"alola_usum": 8,
+		"galar_swsh": -1,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Brionne",
 		"jp": "オシャマリ",
-		"chs": "",
+		"chs": "花漾海狮",
 		"cht": ""
 	},
 	"baby": false,

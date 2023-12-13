@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Bellibolt",
-		"jp": "",
+		"jp": "ハラバリー",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "EleFrog Pokémon",
 		"type_id": [7, -1],
 		"type": ["electric"],
 		"abilities": {

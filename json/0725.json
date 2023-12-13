@@ -1,12 +1,14 @@
 {
 	"id": {
 		"national": 725,
-		"galar_swsh": -1
+		"alola_usum": 4,
+		"galar_swsh": -1,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Litten",
 		"jp": "ニャビー",
-		"chs": "",
+		"chs": "火斑喵",
 		"cht": ""
 	},
 	"baby": false,

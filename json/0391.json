@@ -2,7 +2,8 @@
 	"id": {
 		"national": 391,
 		"sinnoh_bdsp": 5,
-		"hisui_legarc": 62
+		"hisui_legarc": 62,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Monferno",

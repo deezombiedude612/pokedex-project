@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Dachsbun",
-		"jp": "",
+		"jp": "バウっツェル",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Dog Pokémon",
 		"type_id": [17, -1],
 		"type": ["fairy"],
 		"abilities": {

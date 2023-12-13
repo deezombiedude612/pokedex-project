@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Arctibax",
-		"jp": "",
+		"jp": "セゴール",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Ice Fin Pokémon",
 		"type_id": [0, 11],
 		"type": ["dragon", "ice"],
 		"abilities": {

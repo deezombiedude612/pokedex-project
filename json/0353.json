@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 353,
+		"mountain_kalos_xy": 122,
 		"hoenn_oras": 151,
+		"alola_usum": 316,
 		"paldea_sv": 298
 	},
 	"name": {

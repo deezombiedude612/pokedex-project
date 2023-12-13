@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Iron Moth",
-		"jp": "",
+		"jp": "テツノドクガ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [13, 4],
 		"type": ["fire", "poison"],
 		"abilities": {

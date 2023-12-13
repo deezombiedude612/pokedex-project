@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 327,
-		"hoenn_oras": 119
+		"mountain_kalos_xy": 131,
+		"hoenn_oras": 119,
+		"alola_usum": 128
 	},
 	"name": {
 		"en": "Spinda",

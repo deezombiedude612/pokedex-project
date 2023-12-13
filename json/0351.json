@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 351,
-		"hoenn_oras": 147
+		"hoenn_oras": 147,
+		"alola_usum": 220
 	},
 	"name": {
 		"en": "Castform",

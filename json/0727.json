@@ -1,12 +1,14 @@
 {
 	"id": {
 		"national": 727,
-		"galar_swsh": -1
+		"alola_usum": 6,
+		"galar_swsh": -1,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Incineroar",
 		"jp": "ガオガエン",
-		"chs": "",
+		"chs": "炽焰咆哮虎",
 		"cht": ""
 	},
 	"baby": false,

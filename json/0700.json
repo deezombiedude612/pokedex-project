@@ -1,6 +1,8 @@
 {
 	"id": {
 		"national": 700,
+		"coastal_kalos_xy": 85,
+		"alola_usum": 161,
 		"galar_swsh": 204,
 		"galar_crown_tundra": 82,
 		"hisui_legarc": 33,

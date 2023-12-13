@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 512
+		"national": 512,
+		"central_kalos_xy": 30
 	},
 	"name": {
 		"en": "Simisage",

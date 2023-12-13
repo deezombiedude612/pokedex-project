@@ -1,6 +1,8 @@
 {
 	"id": {
 		"national": 550,
+		"mountain_kalos_xy": 60,
+		"alola_usum": 188,
 		"galar_swsh": 154,
 		"galar_crown_tundra": 64,
 		"hisui_legarc": 166,
@@ -14,23 +16,23 @@
 		"cht": ""
 	},
 	"baby": false,
-	"red-striped_form": {
-		"desc": "Hostile Pokémon",
-		"type_id": [6, -1],
-		"type": ["water"],
-		"abilities": {
-			"ability_1": "Reckless",
-			"ability_2": "Adaptability",
-			"hidden_ability": "Mold Breaker",
-			"terastal_ability": false
-		}
-	},
 	"blue-striped_form": {
 		"desc": "Hostile Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {
 			"ability_1": "Rock Head",
+			"ability_2": "Adaptability",
+			"hidden_ability": "Mold Breaker",
+			"terastal_ability": false
+		}
+	},
+	"red-striped_form": {
+		"desc": "Hostile Pokémon",
+		"type_id": [6, -1],
+		"type": ["water"],
+		"abilities": {
+			"ability_1": "Reckless",
 			"ability_2": "Adaptability",
 			"hidden_ability": "Mold Breaker",
 			"terastal_ability": false

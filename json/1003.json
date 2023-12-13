@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Ting-lu",
-		"jp": "",
+		"jp": "ディンルー",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Ruinous Pokémon",
 		"type_id": [10, 2],
 		"type": ["dark", "ground"],
 		"abilities": {

@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 367,
-		"hoenn_oras": 186
+		"coastal_kalos_xy": 143,
+		"hoenn_oras": 186,
+		"alola_usum": 141
 	},
 	"name": {
 		"en": "Huntail",

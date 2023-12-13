@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Great Tusk",
-		"jp": "",
+		"jp": "イダイナキバ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [15, 1],
 		"type": ["steel", "ghost"],
 		"abilities": {

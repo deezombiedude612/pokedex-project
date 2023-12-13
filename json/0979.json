@@ -6,13 +6,13 @@
 	},
 	"name": {
 		"en": "Annihilape",
-		"jp": "",
+		"jp": "コノヨザル",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Rage Monkey Pokémon",
 		"type_id": [14, 1],
 		"type": ["fighting", "ghost"],
 		"abilities": {

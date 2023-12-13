@@ -1,16 +1,17 @@
 {
 	"id": {
-		"national": 1009
+		"national": 1009,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Walking Wake",
-		"jp": "",
+		"jp": "ウネルミナモ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [6, 0],
 		"type": ["water", "dragon"],
 		"abilities": {

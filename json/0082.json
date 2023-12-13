@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 82,
+		"mountain_kalos_xy": 70,
 		"hoenn_oras": 85,
+		"alola_usum": 55,
 		"kanto_lgpe": 82,
 		"galar_isle_of_armor": 106,
 		"hisui_legarc": 178,

@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Varoom",
-		"jp": "",
+		"jp": "ブロロン",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Single-Cyl Pokémon",
 		"type_id": [15, 4],
 		"type": ["steel", "poison"],
 		"abilities": {

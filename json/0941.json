@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Kilowattrel",
-		"jp": "",
+		"jp": "タイカイデン",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Frigatebird Pokémon",
 		"type_id": [7, 3],
 		"type": ["electric", "flying"],
 		"abilities": {

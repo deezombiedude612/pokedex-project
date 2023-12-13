@@ -2,7 +2,8 @@
 	"id": {
 		"national": 393,
 		"sinnoh_bdsp": 7,
-		"hisui_legarc": 161
+		"hisui_legarc": 161,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Piplup",

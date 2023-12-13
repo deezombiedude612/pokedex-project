@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 166
+		"national": 166,
+		"central_kalos_xy": 75,
+		"alola_usum": 21
 	},
 	"name": {
 		"en": "Ledian",

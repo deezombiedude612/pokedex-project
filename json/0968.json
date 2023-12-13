@@ -6,13 +6,13 @@
 	},
 	"name": {
 		"en": "Orthworm",
-		"jp": "",
+		"jp": "ミミズズ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Earthworm Pokémon",
 		"type_id": [15, -1],
 		"type": ["steel"],
 		"abilities": {

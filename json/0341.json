@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 341,
+		"central_kalos_xy": 51,
 		"hoenn_oras": 134,
+		"alola_usum": 357,
 		"galar_swsh": 102,
 		"galar_isle_of_armor": 91,
 		"kitakami_sv": 11

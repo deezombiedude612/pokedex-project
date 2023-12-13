@@ -1,8 +1,10 @@
 {
 	"id": {
 		"national": 9,
+		"central_kalos_xy": 88,
 		"kanto_lgpe": 9,
-		"galar_isle_of_armor": 73
+		"galar_isle_of_armor": 73,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Blastoise",

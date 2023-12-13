@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Wo-chien",
-		"jp": "",
+		"jp": "チオンジェン",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Ruinous Pokémon",
 		"type_id": [10, 9],
 		"type": ["dark", "grass"],
 		"abilities": {

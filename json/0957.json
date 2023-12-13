@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Tinkatink",
-		"jp": "",
+		"jp": "かぬチャン",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Metalsmith Pokémon",
 		"type_id": [17, 15],
 		"type": ["fairy", "steel"],
 		"abilities": {

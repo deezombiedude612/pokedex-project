@@ -1,16 +1,17 @@
 {
 	"id": {
-		"national": 1010
+		"national": 1010,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Iron Leaves",
-		"jp": "",
+		"jp": "テツノイサハ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [9, 16],
 		"type": ["grass", "psychic"],
 		"abilities": {

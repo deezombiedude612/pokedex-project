@@ -1,12 +1,14 @@
 {
 	"id": {
 		"national": 730,
-		"galar_swsh": -1
+		"alola_usum": 9,
+		"galar_swsh": -1,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Primarina",
 		"jp": "アシレーヌ",
-		"chs": "",
+		"chs": "西狮海壬",
 		"cht": ""
 	},
 	"baby": false,

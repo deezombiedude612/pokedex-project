@@ -1,6 +1,8 @@
 {
 	"id": {
 		"national": 701,
+		"coastal_kalos_xy": 89,
+		"alola_usum": 96,
 		"galar_swsh": 320,
 		"paldea_sv": 301
 	},

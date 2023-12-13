@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Iron Bundle",
-		"jp": "",
+		"jp": "テツノツツミ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [11, 6],
 		"type": ["ice", "water"],
 		"abilities": {

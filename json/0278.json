@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 278,
+		"coastal_kalos_xy": 17,
 		"hoenn_oras": 27,
+		"alola_usum": 47,
 		"galar_swsh": 62,
 		"galar_isle_of_armor": 48,
 		"sinnoh_bdsp": 119,

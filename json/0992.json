@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Iron Hands",
-		"jp": "",
+		"jp": "テツノカイナ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [14, 7],
 		"type": ["fighting", "electric"],
 		"abilities": {

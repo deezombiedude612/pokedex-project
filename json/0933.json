@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Naclstack",
-		"jp": "",
+		"jp": "ジオズムスタ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Rock Salt Pokémon",
 		"type_id": [8, -1],
 		"type": ["rock"],
 		"abilities": {

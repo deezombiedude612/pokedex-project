@@ -10,10 +10,10 @@
 		"cht": ""
 	},
 	"baby": false,
-	"step_forme": {
+	"aria_forme": {
 		"desc": "Melody Pokémon",
-		"type_id": [12, 14],
-		"type": ["normal", "fighting"],
+		"type_id": [12, 16],
+		"type": ["normal", "psychic"],
 		"abilities": {
 			"ability_1": "Serene Grace",
 			"ability_2": false,
@@ -21,10 +21,10 @@
 			"terastal_ability": false
 		}
 	},
-	"aria_forme": {
+	"step_forme": {
 		"desc": "Melody Pokémon",
-		"type_id": [12, 16],
-		"type": ["normal", "psychic"],
+		"type_id": [12, 14],
+		"type": ["normal", "fighting"],
 		"abilities": {
 			"ability_1": "Serene Grace",
 			"ability_2": false,

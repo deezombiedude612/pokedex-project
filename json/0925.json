@@ -6,13 +6,13 @@
 	},
 	"name": {
 		"en": "Maushold",
-		"jp": "",
+		"jp": "イッカネズミ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Family Pokémon",
 		"type_id": [12, -1],
 		"type": ["normal"],
 		"abilities": {

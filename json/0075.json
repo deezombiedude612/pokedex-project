@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 75,
+		"mountain_kalos_xy": 10,
 		"hoenn_oras": 59,
+		"alola_usum": 299,
 		"kanto_lgpe": 75,
 		"sinnoh_bdsp": 32,
 		"hisui_legarc": 47,

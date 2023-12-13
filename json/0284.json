@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 284,
+		"central_kalos_xy": 48,
 		"hoenn_oras": 34,
+		"alola_usum": 173,
 		"paldea_sv": 50,
 		"kitakami_sv": 150
 	},

@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Koraidon",
-		"jp": "",
+		"jp": "コライドン",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [14, 0],
 		"type": ["fighting", "dragon"],
 		"abilities": {

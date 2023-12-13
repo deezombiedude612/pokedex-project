@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 297,
+		"coastal_kalos_xy": 96,
 		"hoenn_oras": 50,
+		"alola_usum": 69,
 		"paldea_sv": 117
 	},
 	"name": {

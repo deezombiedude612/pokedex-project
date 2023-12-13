@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Gimmighoul",
-		"jp": "",
+		"jp": "コレクレー",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
-	"roaming_form": {
-		"desc": "",
+	"chest_form": {
+		"desc": "Coin Chest Pokémon",
 		"type_id": [1, -1],
 		"type": ["ghost"],
 		"abilities": {
@@ -21,12 +21,12 @@
 			"terastal_ability": false
 		}
 	},
-	"chest_form": {
-		"desc": "",
+	"roaming_form": {
+		"desc": "Coin Hunter Pokémon",
 		"type_id": [1, -1],
 		"type": ["ghost"],
 		"abilities": {
-			"ability_1": "",
+			"ability_1": "Run Away",
 			"ability_2": false,
 			"hidden_ability": false,
 			"terastal_ability": false

@@ -1,8 +1,10 @@
 {
 	"id": {
 		"national": 1,
+		"central_kalos_xy": 80,
 		"kanto_lgpe": 1,
-		"galar_isle_of_armor": 68
+		"galar_isle_of_armor": 68,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Bulbasaur",

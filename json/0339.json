@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 339,
+		"mountain_kalos_xy": 40,
 		"hoenn_oras": 132,
+		"alola_usum": 113,
 		"galar_swsh": 228,
 		"galar_isle_of_armor": 137,
 		"galar_crown_tundra": 60,

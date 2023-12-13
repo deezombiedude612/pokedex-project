@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 209
+		"national": 209,
+		"coastal_kalos_xy": 71,
+		"alola_usum": 339
 	},
 	"name": {
 		"en": "Snubbull",

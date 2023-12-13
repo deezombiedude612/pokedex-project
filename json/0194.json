@@ -1,6 +1,7 @@
 {
 	"id": {
 		"national": 194,
+		"mountain_kalos_xy": 17,
 		"galar_swsh": 100,
 		"galar_isle_of_armor": 58,
 		"sinnoh_bdsp": 117,
@@ -26,7 +27,7 @@
 		}
 	},
 	"paldea_variant": {
-		"desc": "Water Fish Pokémon",
+		"desc": "Poison Fish Pokémon",
 		"type_id": [4, 2],
 		"type": ["poison", "ground"],
 		"abilities": {

@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Iron Jugulis",
-		"jp": "",
+		"jp": "テツノコウベ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [10, 3],
 		"type": ["dark", "flying"],
 		"abilities": {

@@ -1,6 +1,8 @@
 {
 	"id": {
 		"national": 206,
+		"central_kalos_xy": 40,
+		"alola_usum": 63,
 		"galar_isle_of_armor": 52,
 		"paldea_sv": 188,
 		"kitakami_sv": 160

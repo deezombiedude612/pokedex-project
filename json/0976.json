@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Veluza",
-		"jp": "",
+		"jp": "ミガルーサ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Jettison Pokémon",
 		"type_id": [6, 16],
 		"type": ["water", "psychic"],
 		"abilities": {

@@ -791,15 +791,15 @@ INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
 
 -- ALOLA (0722 - 0809)
 INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
-("ROWLET", "モクロー", "", ""),
-("DARTRIX", "フクスロー", "", ""),
-("DECIDUEYE", "ジュナイパー", "", ""),
-("LITTEN", "ニャビー", "", ""),
-("TORRACAT", "ニャヒート", "", ""),
-("INCINEROAR", "ガオガエン", "", ""),
-("POPPLIO", "アシマリ", "", ""),
-("BRIONNE", "オシャマリ", "", ""),
-("PRIMARINA", "アシレーヌ", "", ""),
+("ROWLET", "モクロー", "木木枭", ""),
+("DARTRIX", "フクスロー", "投羽枭", ""),
+("DECIDUEYE", "ジュナイパー", "狙射树枭", ""),
+("LITTEN", "ニャビー", "火斑喵", ""),
+("TORRACAT", "ニャヒート", "炎热喵", ""),
+("INCINEROAR", "ガオガエン", "炽焰咆哮虎", ""),
+("POPPLIO", "アシマリ", "球球海狮", ""),
+("BRIONNE", "オシャマリ", "花漾海狮", ""),
+("PRIMARINA", "アシレーヌ", "西狮海壬", ""),
 ("PIKIPEK", "ツツケラ", "", ""),
 ("TRUMBEAK", "ケララッパ", "", ""),
 ("TOUCANNON", "ドデカバシ", "", ""),
@@ -989,121 +989,124 @@ INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
 INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
 -- Upcoming
 ("SPRIGATITO", "ニャオハ", "", ""),
-("FLORAGATO", "", "", ""),
-("MEOWSCARADA", "", "", ""),
+("FLORAGATO", "ニャローテ", "", ""),
+("MEOWSCARADA", "マスカーニャ", "", ""),
 ("FUECOCO", "ホゲータ", "", ""),
-("CROCALOR", "", "", ""),
-("SKELEDIRGE", "", "", ""),
+("CROCALOR", "アチゲータ", "", ""),
+("SKELEDIRGE", "ラウドボーン", "", ""),
 ("QUAXLY", "クワッス", "", ""),
-("QUAXWELL", "", "", ""),
-("QUAQUAVAL", "", "", ""),
-("LECHONK", "", "", ""),
-("OINKOLOGNE", "", "", ""),
-("TAROUNTULA", "", "", ""),
-("SPIDOPS", "", "", ""),
-("NYMBLE", "", "", ""),
-("LOKIX", "", "", ""),
-("PAWMI", "", "", ""),
-("PAWMO", "", "", ""),
-("PAWMOT", "", "", ""),
-("TANDEMAUS", "", "", ""),
-("MAUSHOLD", "", "", ""),
-("FIDOUGH", "", "", ""),
-("DACHSBUN", "", "", ""),
-("SMOLIV", "", "", ""),
-("DOLLIV", "", "", ""),
-("ARBOLIVA", "", "", ""),
-("SQUAWKABILLY", "", "", ""),
-("NACLI", "", "", ""),
-("NACLSTACK", "", "", ""),
-("GARGANCL", "", "", ""),
-("CHARCADET", "", "", ""),
-("ARMAROUGE", "", "", ""),
-("CERULEDGE", "", "", ""),
-("TADBULB", "", "", ""),
-("BELLIBOLT", "", "", ""),
-("WATTREL", "", "", ""),
-("KILOWATTREL", "", "", ""),
-("MASCHIFF", "", "", ""),
-("MABOSSTIFF", "", "", ""),
-("SHROODLE", "", "", ""),
-("GRAFAIAI", "", "", ""),
-("BRAMBLIN", "", "", ""),
-("BRAMBLEGHAST", "", "", ""),
-("TOEDSCOOL", "", "", ""),
-("TOEDSCRUEL", "", "", ""),
-("KLAWF", "", "", ""),
-("CAPSAKID", "", "", ""),
-("SCOVILLAIN", "", "", ""),
-("RELLOR", "", "", ""),
-("RABSCA", "", "", ""),
-("FLITTLE", "", "", ""),
-("ESPATHRA", "", "", ""),
-("TINKATINK", "", "", ""),
-("TINKATUFF", "", "", ""),
-("TINKATON", "", "", ""),
-("WIGLETT", "", "", ""),
-("WUGTRIO", "", "", ""),
-("BOMBIRDIER", "", "", ""),
-("FINIZEN", "", "", ""),
-("PALAFIN", "", "", ""),
-("VAROOM", "", "", ""),
-("REVAVROOM", "", "", ""),
-("CYCLIZAR", "", "", ""),
-("ORTHWORM", "", "", ""),
-("GLIMMET", "", "", ""),
-("GLIMMORA", "", "", ""),
-("GREAVARD", "", "", ""),
-("HOUNDSTONE", "", "", ""),
-("FLAMIGO", "", "", ""),
-("CETODDLE", "", "", ""),
-("CETITAN", "", "", ""),
-("VELUZA", "", "", ""),
-("DONDOZO", "", "", ""),
-("TATSUGIRI", "", "", ""),
-("ANNIHILAPE", "", "", ""),
-("CLODSIRE", "", "", ""),
-("FARIGIRAF", "", "", ""),
-("DUDUNSPARCE", "", "", ""),
-("KINGAMBIT", "", "", ""),
-("GREAT TUSK", "", "", ""),
-("SCREAM TAIL", "", "", ""),
-("BRUTE BONNET", "", "", ""),
-("FLUTTER MANE", "", "", ""),
-("SLITHER WING", "", "", ""),
-("SANDY SHOCKS", "", "", ""),
-("IRON TREADS", "", "", ""),
-("IRON BUNDLE", "", "", ""),
-("IRON HANDS", "", "", ""),
-("IRON JUGULIS", "", "", ""),
-("IRON MOTH", "", "", ""),
-("IRON THORNS", "", "", ""),
-("FRIGIBAX", "", "", ""),
-("ARCTIBAX", "", "", ""),
-("BAXCALIBUR", "", "", ""),
-("GIMMIGHOUL", "", "", ""),
-("GHOLDENGO", "", "", ""),
-("WO-CHIEN", "", "", ""),
-("CHIEN-PAO", "", "", ""),
-("TING-LU", "", "", ""),
-("CHI-YU", "", "", ""),
-("ROARING MOON", "", "", ""),
-("IRON VALIANT", "", "", ""),
-("KORAIDON", "", "", ""),
-("MIRAIDON", "", "", ""),
-("WALKING WAKE", "", "", ""),
-("IRON LEAVES", "", "", ""),
-("DIPPLIN", "", "", ""),
-("POLTCHAGEIST", "", "", ""),
-("SINISTCHA", "", "", ""),
-("OKIDOGI", "", "", ""),
-("MUNKIDORI", "", "", ""),
-("FEZANDIPITI", "", "", ""),
-("OGERPON", "", "", "")
--- ("ARCHALUDON", "", "", ""),
--- ("RAGING BOLT", "", "", ""),
--- ("IRON CROWN", "", "", ""),
--- ("TERAPAGOS", "", "", "")
+("QUAXWELL", "ウェルカモ", "", ""),
+("QUAQUAVAL", "ウェーニバル", "", ""),
+("LECHONK", "グルトン", "", ""),
+("OINKOLOGNE", "パフュトン", "", ""),
+("TAROUNTULA", "タマンチュラ", "", ""),
+("SPIDOPS", "ワナイダー", "", ""),
+("NYMBLE", "マメバッタ", "", ""),
+("LOKIX", "エクスレッグ", "", ""),
+("PAWMI", "パモ", "", ""),
+("PAWMO", "パモット", "", ""),
+("PAWMOT", "パーモット", "", ""),
+("TANDEMAUS", "ワッカネズミ", "", ""),
+("MAUSHOLD", "イッカネズミ", "", ""),
+("FIDOUGH", "パピモッチ", "", ""),
+("DACHSBUN", "バウっツェル", "", ""),
+("SMOLIV", "ミニーブ", "", ""),
+("DOLLIV", "オリーニョ", "", ""),
+("ARBOLIVA", "オリーヴァ", "", ""),
+("SQUAWKABILLY", "イキリンコ", "", ""),
+("NACLI", "コジオ", "", ""),
+("NACLSTACK", "ジオズムスタ", "", ""),
+("GARGANCL", "キョジオーン", "", ""),
+("CHARCADET", "カルボウ", "", ""),
+("ARMAROUGE", "グレンアルマ", "", ""),
+("CERULEDGE", "ソウブレイズ", "", ""),
+("TADBULB", "ズピカ", "", ""),
+("BELLIBOLT", "ハラバリー", "", ""),
+("WATTREL", "カイデン", "", ""),
+("KILOWATTREL", "タイカイデン", "", ""),
+("MASCHIFF", "オラチフ", "", ""),
+("MABOSSTIFF", "マフィティフ", "", ""),
+("SHROODLE", "シルシュル", "", ""),
+("GRAFAIAI", "タギングル", "", ""),
+("BRAMBLIN", "アノクサ", "", ""),
+("BRAMBLEGHAST", "アノホラグサ", "", ""),
+("TOEDSCOOL", "ノノクラゲ", "", ""),
+("TOEDSCRUEL", "リククラゲ", "", ""),
+("KLAWF", "ガケガニ", "", ""),
+("CAPSAKID", "カプサイジ", "", ""),
+("SCOVILLAIN", "スコヴィラン", "", ""),
+("RELLOR", "シガロコ", "", ""),
+("RABSCA", "ベラカス", "", ""),
+("FLITTLE", "ヒラヒナ", "", ""),
+("ESPATHRA", "クエスパトラ", "", ""),
+("TINKATINK", "かぬチャン", "", ""),
+("TINKATUFF", "ナカヌチャン", "", ""),
+("TINKATON", "デカヌチャン", "", ""),
+("WIGLETT", "ウミディグダ", "", ""),
+("WUGTRIO", "ウミトリオ", "", ""),
+("BOMBIRDIER", "オトシドリ", "", ""),
+("FINIZEN", "ナミイルカ", "", ""),
+("PALAFIN", "イルカマン", "", ""),
+("VAROOM", "ブロロン", "", ""),
+("REVAVROOM", "ブロロローム", "", ""),
+("CYCLIZAR", "モトトカゲ", "", ""),
+("ORTHWORM", "ミミズズ", "", ""),
+("GLIMMET", "キラーメ", "", ""),
+("GLIMMORA", "キラフロル", "", ""),
+("GREAVARD", "ボチ", "", ""),
+("HOUNDSTONE", "ハカドッグ", "", ""),
+("FLAMIGO", "カラミンゴ", "", ""),
+("CETODDLE", "アルクジラ", "", ""),
+("CETITAN", "ハルクジラ", "", ""),
+("VELUZA", "ミガルーサ", "", ""),
+("DONDOZO", "へイラッシャ", "", ""),
+("TATSUGIRI", "シャリタツ", "", ""),
+("ANNIHILAPE", "コノヨザル", "", ""),
+("CLODSIRE", "ドオー", "", ""),
+("FARIGIRAF", "リキキリン", "", ""),
+("DUDUNSPARCE", "ノココッチ", "", ""),
+("KINGAMBIT", "ドドゲザン", "", ""),
+("GREAT TUSK", "イダイナキバ", "", ""),
+("SCREAM TAIL", "サケブシッポ", "", ""),
+("BRUTE BONNET", "アラブルタケ", "", ""),
+("FLUTTER MANE", "ハバタクカミ", "", ""),
+("SLITHER WING", "チヲハウハネ", "", ""),
+("SANDY SHOCKS", "スナノケガワ", "", ""),
+("IRON TREADS", "テツノワダチ", "", ""),
+("IRON BUNDLE", "テツノツツミ", "", ""),
+("IRON HANDS", "テツノカイナ", "", ""),
+("IRON JUGULIS", "テツノコウベ", "", ""),
+("IRON MOTH", "テツノドクガ", "", ""),
+("IRON THORNS", "テツノイバラ", "", ""),
+("FRIGIBAX", "セビエ", "", ""),
+("ARCTIBAX", "セゴール", "", ""),
+("BAXCALIBUR", "セグレイブ", "", ""),
+("GIMMIGHOUL", "コレクレー", "", ""),
+("GHOLDENGO", "サーフゴー", "", ""),
+("WO-CHIEN", "チオンジェン", "", ""),
+("CHIEN-PAO", "パオジアン", "", ""),
+("TING-LU", "ディンルー", "", ""),
+("CHI-YU", "イーユイ", "", ""),
+("ROARING MOON", "トドロクツキ", "", ""),
+("IRON VALIANT", "テツノブジン", "", ""),
+("KORAIDON", "コライドン", "", ""),
+("MIRAIDON", "ミライドン", "", ""),
+("WALKING WAKE", "ウネルミナモ", "", ""),
+("IRON LEAVES", "テツノイサハ", "", ""),
+("DIPPLIN", "カミッチュ", "", ""),
+("POLTCHAGEIST", "チャデス", "", ""),
+("SINISTCHA", "ヤバソチャ", "", ""),
+("OKIDOGI", "イイネイヌ", "", ""),
+("MUNKIDORI", "マシマシラ", "", ""),
+("FEZANDIPITI", "キチキギス", "", ""),
+("OGERPON", "オーガポン", "", ""),
+("Paradox Entei", "", "", ""),
+("RAGING BOLT", "タケルライコ", "", ""),
+("IRON CROWN", "テツノカシラ", "", ""),
+("Paradox Terrakion", "", "", ""),
+("TERAPAGOS", "テラパゴス", "", ""),
+("Dokutaro", "", "", ""),
+("ARCHALUDON", "ブリジュラス", "", "")
 ;
 
 -- BABY POKEMON
@@ -1139,10 +1142,471 @@ CREATE TABLE `regional_dex` (
     FOREIGN KEY(`national_id`) REFERENCES `pokemon_list`(`id`)
 );
 
--- INSERT INTO `regional_dex` VALUES
--- ("kalos_xy", 1, 650),
--- ("kalos_xy", 1, 252)
--- ;
+INSERT INTO `regional_dex` VALUES
+("central_kalos_xy", 1, 650),
+("central_kalos_xy", 2, 651),
+("central_kalos_xy", 3, 652),
+("central_kalos_xy", 4, 653),
+("central_kalos_xy", 5, 654),
+("central_kalos_xy", 6, 655),
+("central_kalos_xy", 7, 656),
+("central_kalos_xy", 8, 657),
+("central_kalos_xy", 9, 658),
+("central_kalos_xy", 10, 659),
+("central_kalos_xy", 11, 660),
+("central_kalos_xy", 12, 263),
+("central_kalos_xy", 13, 264),
+("central_kalos_xy", 14, 661),
+("central_kalos_xy", 15, 662),
+("central_kalos_xy", 16, 663),
+("central_kalos_xy", 17, 16),
+("central_kalos_xy", 18, 17),
+("central_kalos_xy", 19, 18),
+("central_kalos_xy", 20, 664),
+("central_kalos_xy", 21, 665),
+("central_kalos_xy", 22, 666),
+("central_kalos_xy", 23, 10),
+("central_kalos_xy", 24, 11),
+("central_kalos_xy", 25, 12),
+("central_kalos_xy", 26, 13),
+("central_kalos_xy", 27, 14),
+("central_kalos_xy", 28, 15),
+("central_kalos_xy", 29, 511),
+("central_kalos_xy", 30, 512),
+("central_kalos_xy", 31, 513),
+("central_kalos_xy", 32, 514),
+("central_kalos_xy", 33, 515),
+("central_kalos_xy", 34, 516),
+("central_kalos_xy", 35, 172),
+("central_kalos_xy", 36, 25),
+("central_kalos_xy", 37, 26),
+("central_kalos_xy", 38, 399),
+("central_kalos_xy", 39, 400),
+("central_kalos_xy", 40, 206),
+("central_kalos_xy", 41, 298),
+("central_kalos_xy", 42, 183),
+("central_kalos_xy", 43, 184),
+("central_kalos_xy", 44, 412),
+("central_kalos_xy", 45, 413),
+("central_kalos_xy", 46, 414),
+("central_kalos_xy", 47, 283),
+("central_kalos_xy", 48, 284),
+("central_kalos_xy", 49, 129),
+("central_kalos_xy", 50, 130),
+("central_kalos_xy", 51, 341),
+("central_kalos_xy", 52, 342),
+("central_kalos_xy", 53, 118),
+("central_kalos_xy", 54, 119),
+("central_kalos_xy", 55, 318),
+("central_kalos_xy", 56, 319),
+("central_kalos_xy", 57, 667),
+("central_kalos_xy", 58, 668),
+("central_kalos_xy", 59, 54),
+("central_kalos_xy", 60, 55),
+("central_kalos_xy", 61, 83),
+("central_kalos_xy", 62, 447),
+("central_kalos_xy", 63, 448),
+("central_kalos_xy", 64, 280),
+("central_kalos_xy", 65, 281),
+("central_kalos_xy", 66, 282),
+("central_kalos_xy", 67, 475),
+("central_kalos_xy", 68, 669),
+("central_kalos_xy", 69, 670),
+("central_kalos_xy", 70, 671),
+("central_kalos_xy", 71, 406),
+("central_kalos_xy", 72, 315),
+("central_kalos_xy", 73, 407),
+("central_kalos_xy", 74, 165),
+("central_kalos_xy", 75, 166),
+("central_kalos_xy", 76, 415),
+("central_kalos_xy", 77, 416),
+("central_kalos_xy", 78, 300),
+("central_kalos_xy", 79, 301),
+("central_kalos_xy", 80, 1),
+("central_kalos_xy", 81, 2),
+("central_kalos_xy", 82, 3),
+("central_kalos_xy", 83, 4),
+("central_kalos_xy", 84, 5),
+("central_kalos_xy", 85, 6),
+("central_kalos_xy", 86, 7),
+("central_kalos_xy", 87, 8),
+("central_kalos_xy", 88, 9),
+("central_kalos_xy", 89, 672),
+("central_kalos_xy", 90, 673),
+("central_kalos_xy", 91, 674),
+("central_kalos_xy", 92, 675),
+("central_kalos_xy", 93, 676),
+("central_kalos_xy", 94, 84),
+("central_kalos_xy", 95, 85),
+("central_kalos_xy", 96, 311),
+("central_kalos_xy", 97, 312),
+("central_kalos_xy", 98, 316),
+("central_kalos_xy", 99, 317),
+("central_kalos_xy", 100, 559),
+("central_kalos_xy", 101, 560),
+("central_kalos_xy", 102, 63),
+("central_kalos_xy", 103, 64),
+("central_kalos_xy", 104, 65),
+("central_kalos_xy", 105, 43),
+("central_kalos_xy", 106, 44),
+("central_kalos_xy", 107, 45),
+("central_kalos_xy", 108, 182),
+("central_kalos_xy", 109, 161),
+("central_kalos_xy", 110, 162),
+("central_kalos_xy", 111, 290),
+("central_kalos_xy", 112, 291),
+("central_kalos_xy", 113, 292),
+("central_kalos_xy", 114, 677),
+("central_kalos_xy", 115, 678),
+("central_kalos_xy", 116, 352),
+("central_kalos_xy", 117, 679),
+("central_kalos_xy", 118, 680),
+("central_kalos_xy", 119, 681),
+("central_kalos_xy", 120, 543),
+("central_kalos_xy", 121, 544),
+("central_kalos_xy", 122, 545),
+("central_kalos_xy", 123, 531),
+("central_kalos_xy", 124, 235),
+("central_kalos_xy", 125, 453),
+("central_kalos_xy", 126, 454),
+("central_kalos_xy", 127, 580),
+("central_kalos_xy", 128, 581),
+("central_kalos_xy", 129, 682),
+("central_kalos_xy", 130, 683),
+("central_kalos_xy", 131, 684),
+("central_kalos_xy", 132, 685),
+("central_kalos_xy", 133, 313),
+("central_kalos_xy", 134, 314),
+("central_kalos_xy", 135, 187),
+("central_kalos_xy", 136, 188),
+("central_kalos_xy", 137, 189),
+("central_kalos_xy", 138, 446),
+("central_kalos_xy", 139, 143),
+("central_kalos_xy", 140, 293),
+("central_kalos_xy", 141, 294),
+("central_kalos_xy", 142, 295),
+("central_kalos_xy", 143, 307),
+("central_kalos_xy", 144, 308),
+("central_kalos_xy", 145, 41),
+("central_kalos_xy", 146, 42),
+("central_kalos_xy", 147, 169),
+("central_kalos_xy", 148, 610),
+("central_kalos_xy", 149, 611),
+("central_kalos_xy", 150, 612),
+("central_kalos_xy", 151, 719),
+("central_kalos_xy", 152, 720),
+("central_kalos_xy", 153, 721)
+;
+
+INSERT INTO `regional_dex` VALUES
+("coastal_kalos_xy", 1, 425),
+("coastal_kalos_xy", 2, 426),
+("coastal_kalos_xy", 3, 619),
+("coastal_kalos_xy", 4, 620),
+("coastal_kalos_xy", 5, 335),
+("coastal_kalos_xy", 6, 336),
+("coastal_kalos_xy", 7, 325),
+("coastal_kalos_xy", 8, 326),
+("coastal_kalos_xy", 9, 359),
+("coastal_kalos_xy", 10, 686),
+("coastal_kalos_xy", 11, 687),
+("coastal_kalos_xy", 12, 337),
+("coastal_kalos_xy", 13, 338),
+("coastal_kalos_xy", 14, 371),
+("coastal_kalos_xy", 15, 372),
+("coastal_kalos_xy", 16, 373),
+("coastal_kalos_xy", 17, 278),
+("coastal_kalos_xy", 18, 279),
+("coastal_kalos_xy", 19, 276),
+("coastal_kalos_xy", 20, 277),
+("coastal_kalos_xy", 21, 688),
+("coastal_kalos_xy", 22, 689),
+("coastal_kalos_xy", 23, 557),
+("coastal_kalos_xy", 24, 558),
+("coastal_kalos_xy", 25, 72),
+("coastal_kalos_xy", 26, 73),
+("coastal_kalos_xy", 27, 320),
+("coastal_kalos_xy", 28, 321),
+("coastal_kalos_xy", 29, 370),
+("coastal_kalos_xy", 30, 690),
+("coastal_kalos_xy", 31, 691),
+("coastal_kalos_xy", 32, 692),
+("coastal_kalos_xy", 33, 693),
+("coastal_kalos_xy", 34, 120),
+("coastal_kalos_xy", 35, 121),
+("coastal_kalos_xy", 36, 90),
+("coastal_kalos_xy", 37, 91),
+("coastal_kalos_xy", 38, 211),
+("coastal_kalos_xy", 39, 116),
+("coastal_kalos_xy", 40, 117),
+("coastal_kalos_xy", 41, 230),
+("coastal_kalos_xy", 42, 369),
+("coastal_kalos_xy", 43, 551),
+("coastal_kalos_xy", 44, 552),
+("coastal_kalos_xy", 45, 553),
+("coastal_kalos_xy", 46, 694),
+("coastal_kalos_xy", 47, 695),
+("coastal_kalos_xy", 48, 449),
+("coastal_kalos_xy", 49, 450),
+("coastal_kalos_xy", 50, 111),
+("coastal_kalos_xy", 51, 112),
+("coastal_kalos_xy", 52, 464),
+("coastal_kalos_xy", 53, 95),
+("coastal_kalos_xy", 54, 208),
+("coastal_kalos_xy", 55, 527),
+("coastal_kalos_xy", 56, 528),
+("coastal_kalos_xy", 57, 66),
+("coastal_kalos_xy", 58, 67),
+("coastal_kalos_xy", 59, 68),
+("coastal_kalos_xy", 60, 104),
+("coastal_kalos_xy", 61, 105),
+("coastal_kalos_xy", 62, 115),
+("coastal_kalos_xy", 63, 303),
+("coastal_kalos_xy", 64, 696),
+("coastal_kalos_xy", 65, 697),
+("coastal_kalos_xy", 66, 698),
+("coastal_kalos_xy", 67, 699),
+("coastal_kalos_xy", 68, 142),
+("coastal_kalos_xy", 69, 597),
+("coastal_kalos_xy", 70, 598),
+("coastal_kalos_xy", 71, 209),
+("coastal_kalos_xy", 72, 210),
+("coastal_kalos_xy", 73, 309),
+("coastal_kalos_xy", 74, 310),
+("coastal_kalos_xy", 75, 228),
+("coastal_kalos_xy", 76, 229),
+("coastal_kalos_xy", 77, 133),
+("coastal_kalos_xy", 78, 134),
+("coastal_kalos_xy", 79, 135),
+("coastal_kalos_xy", 80, 136),
+("coastal_kalos_xy", 81, 196),
+("coastal_kalos_xy", 82, 197),
+("coastal_kalos_xy", 83, 470),
+("coastal_kalos_xy", 84, 471),
+("coastal_kalos_xy", 85, 700),
+("coastal_kalos_xy", 86, 587),
+("coastal_kalos_xy", 87, 193),
+("coastal_kalos_xy", 88, 469),
+("coastal_kalos_xy", 89, 701),
+("coastal_kalos_xy", 90, 561),
+("coastal_kalos_xy", 91, 622),
+("coastal_kalos_xy", 92, 623),
+("coastal_kalos_xy", 93, 299),
+("coastal_kalos_xy", 94, 476),
+("coastal_kalos_xy", 95, 296),
+("coastal_kalos_xy", 96, 297),
+("coastal_kalos_xy", 97, 538),
+("coastal_kalos_xy", 98, 539),
+("coastal_kalos_xy", 99, 396),
+("coastal_kalos_xy", 100, 397),
+("coastal_kalos_xy", 101, 398),
+("coastal_kalos_xy", 102, 434),
+("coastal_kalos_xy", 103, 435),
+("coastal_kalos_xy", 104, 29),
+("coastal_kalos_xy", 105, 30),
+("coastal_kalos_xy", 106, 31),
+("coastal_kalos_xy", 107, 32),
+("coastal_kalos_xy", 108, 33),
+("coastal_kalos_xy", 109, 34),
+("coastal_kalos_xy", 110, 702),
+("coastal_kalos_xy", 111, 433),
+("coastal_kalos_xy", 112, 358),
+("coastal_kalos_xy", 113, 439),
+("coastal_kalos_xy", 114, 122),
+("coastal_kalos_xy", 115, 577),
+("coastal_kalos_xy", 116, 578),
+("coastal_kalos_xy", 117, 579),
+("coastal_kalos_xy", 118, 360),
+("coastal_kalos_xy", 119, 202),
+("coastal_kalos_xy", 120, 524),
+("coastal_kalos_xy", 121, 525),
+("coastal_kalos_xy", 122, 526),
+("coastal_kalos_xy", 123, 302),
+("coastal_kalos_xy", 124, 703),
+("coastal_kalos_xy", 125, 128),
+("coastal_kalos_xy", 126, 241),
+("coastal_kalos_xy", 127, 179),
+("coastal_kalos_xy", 128, 180),
+("coastal_kalos_xy", 129, 181),
+("coastal_kalos_xy", 130, 127),
+("coastal_kalos_xy", 131, 214),
+("coastal_kalos_xy", 132, 417),
+("coastal_kalos_xy", 133, 79),
+("coastal_kalos_xy", 134, 80),
+("coastal_kalos_xy", 135, 199),
+("coastal_kalos_xy", 136, 102),
+("coastal_kalos_xy", 137, 103),
+("coastal_kalos_xy", 138, 441),
+("coastal_kalos_xy", 139, 458),
+("coastal_kalos_xy", 140, 226),
+("coastal_kalos_xy", 141, 365),
+("coastal_kalos_xy", 142, 366),
+("coastal_kalos_xy", 143, 367),
+("coastal_kalos_xy", 144, 223),
+("coastal_kalos_xy", 145, 224),
+("coastal_kalos_xy", 146, 222),
+("coastal_kalos_xy", 147, 170),
+("coastal_kalos_xy", 148, 171),
+("coastal_kalos_xy", 149, 594),
+("coastal_kalos_xy", 150, 131),
+("coastal_kalos_xy", 151, 144),
+("coastal_kalos_xy", 152, 145),
+("coastal_kalos_xy", 153, 146)
+;
+
+INSERT INTO `regional_dex` VALUES
+("mountain_kalos_xy", 1, 50),
+("mountain_kalos_xy", 2, 51),
+("mountain_kalos_xy", 3, 328),
+("mountain_kalos_xy", 4, 329),
+("mountain_kalos_xy", 5, 330),
+("mountain_kalos_xy", 6, 443),
+("mountain_kalos_xy", 7, 444),
+("mountain_kalos_xy", 8, 445),
+("mountain_kalos_xy", 9, 74),
+("mountain_kalos_xy", 10, 75),
+("mountain_kalos_xy", 11, 76),
+("mountain_kalos_xy", 12, 218),
+("mountain_kalos_xy", 13, 219),
+("mountain_kalos_xy", 14, 213),
+("mountain_kalos_xy", 15, 451),
+("mountain_kalos_xy", 16, 452),
+("mountain_kalos_xy", 17, 194),
+("mountain_kalos_xy", 18, 195),
+("mountain_kalos_xy", 19, 704),
+("mountain_kalos_xy", 20, 705),
+("mountain_kalos_xy", 21, 706),
+("mountain_kalos_xy", 22, 588),
+("mountain_kalos_xy", 23, 589),
+("mountain_kalos_xy", 24, 616),
+("mountain_kalos_xy", 25, 617),
+("mountain_kalos_xy", 26, 69),
+("mountain_kalos_xy", 27, 70),
+("mountain_kalos_xy", 28, 71),
+("mountain_kalos_xy", 29, 455),
+("mountain_kalos_xy", 30, 92),
+("mountain_kalos_xy", 31, 93),
+("mountain_kalos_xy", 32, 94),
+("mountain_kalos_xy", 33, 60),
+("mountain_kalos_xy", 34, 61),
+("mountain_kalos_xy", 35, 62),
+("mountain_kalos_xy", 36, 186),
+("mountain_kalos_xy", 37, 23),
+("mountain_kalos_xy", 38, 24),
+("mountain_kalos_xy", 39, 618),
+("mountain_kalos_xy", 40, 339),
+("mountain_kalos_xy", 41, 340),
+("mountain_kalos_xy", 42, 509),
+("mountain_kalos_xy", 43, 510),
+("mountain_kalos_xy", 44, 261),
+("mountain_kalos_xy", 45, 262),
+("mountain_kalos_xy", 46, 504),
+("mountain_kalos_xy", 47, 505),
+("mountain_kalos_xy", 48, 624),
+("mountain_kalos_xy", 49, 625),
+("mountain_kalos_xy", 50, 707),
+("mountain_kalos_xy", 51, 198),
+("mountain_kalos_xy", 52, 430),
+("mountain_kalos_xy", 53, 590),
+("mountain_kalos_xy", 54, 591),
+("mountain_kalos_xy", 55, 270),
+("mountain_kalos_xy", 56, 271),
+("mountain_kalos_xy", 57, 272),
+("mountain_kalos_xy", 58, 418),
+("mountain_kalos_xy", 59, 419),
+("mountain_kalos_xy", 60, 550),
+("mountain_kalos_xy", 61, 708),
+("mountain_kalos_xy", 62, 709),
+("mountain_kalos_xy", 63, 710),
+("mountain_kalos_xy", 64, 711),
+("mountain_kalos_xy", 65, 607),
+("mountain_kalos_xy", 66, 608),
+("mountain_kalos_xy", 67, 609),
+("mountain_kalos_xy", 68, 479),
+("mountain_kalos_xy", 69, 81),
+("mountain_kalos_xy", 70, 82),
+("mountain_kalos_xy", 71, 462),
+("mountain_kalos_xy", 72, 100),
+("mountain_kalos_xy", 73, 101),
+("mountain_kalos_xy", 74, 568),
+("mountain_kalos_xy", 75, 569),
+("mountain_kalos_xy", 76, 220),
+("mountain_kalos_xy", 77, 221),
+("mountain_kalos_xy", 78, 473),
+("mountain_kalos_xy", 79, 712),
+("mountain_kalos_xy", 80, 713),
+("mountain_kalos_xy", 81, 613),
+("mountain_kalos_xy", 82, 614),
+("mountain_kalos_xy", 83, 238),
+("mountain_kalos_xy", 84, 124),
+("mountain_kalos_xy", 85, 582),
+("mountain_kalos_xy", 86, 583),
+("mountain_kalos_xy", 87, 584),
+("mountain_kalos_xy", 88, 459),
+("mountain_kalos_xy", 89, 460),
+("mountain_kalos_xy", 90, 225),
+("mountain_kalos_xy", 91, 215),
+("mountain_kalos_xy", 92, 461),
+("mountain_kalos_xy", 93, 532),
+("mountain_kalos_xy", 94, 533),
+("mountain_kalos_xy", 95, 534),
+("mountain_kalos_xy", 96, 324),
+("mountain_kalos_xy", 97, 27),
+("mountain_kalos_xy", 98, 28),
+("mountain_kalos_xy", 99, 304),
+("mountain_kalos_xy", 100, 305),
+("mountain_kalos_xy", 101, 306),
+("mountain_kalos_xy", 102, 246),
+("mountain_kalos_xy", 103, 248),
+("mountain_kalos_xy", 104, 248),
+("mountain_kalos_xy", 105, 631),
+("mountain_kalos_xy", 106, 632),
+("mountain_kalos_xy", 107, 167),
+("mountain_kalos_xy", 108, 168),
+("mountain_kalos_xy", 109, 21),
+("mountain_kalos_xy", 110, 22),
+("mountain_kalos_xy", 111, 615),
+("mountain_kalos_xy", 112, 227),
+("mountain_kalos_xy", 113, 714),
+("mountain_kalos_xy", 114, 715),
+("mountain_kalos_xy", 115, 207),
+("mountain_kalos_xy", 116, 472),
+("mountain_kalos_xy", 117, 163),
+("mountain_kalos_xy", 118, 164),
+("mountain_kalos_xy", 119, 174),
+("mountain_kalos_xy", 120, 39),
+("mountain_kalos_xy", 121, 40),
+("mountain_kalos_xy", 122, 353),
+("mountain_kalos_xy", 123, 354),
+("mountain_kalos_xy", 124, 570),
+("mountain_kalos_xy", 125, 571),
+("mountain_kalos_xy", 126, 574),
+("mountain_kalos_xy", 127, 575),
+("mountain_kalos_xy", 128, 576),
+("mountain_kalos_xy", 129, 438),
+("mountain_kalos_xy", 130, 185),
+("mountain_kalos_xy", 131, 327),
+("mountain_kalos_xy", 132, 216),
+("mountain_kalos_xy", 133, 217),
+("mountain_kalos_xy", 134, 108),
+("mountain_kalos_xy", 135, 463),
+("mountain_kalos_xy", 136, 123),
+("mountain_kalos_xy", 137, 212),
+("mountain_kalos_xy", 138, 132),
+("mountain_kalos_xy", 139, 333),
+("mountain_kalos_xy", 140, 334),
+("mountain_kalos_xy", 141, 621),
+("mountain_kalos_xy", 142, 633),
+("mountain_kalos_xy", 143, 634),
+("mountain_kalos_xy", 144, 635),
+("mountain_kalos_xy", 145, 147),
+("mountain_kalos_xy", 146, 148),
+("mountain_kalos_xy", 147, 149),
+("mountain_kalos_xy", 148, 716),
+("mountain_kalos_xy", 149, 717),
+("mountain_kalos_xy", 150, 718),
+("mountain_kalos_xy", 151, 150)
+;
 
 -- Hoenn Dex Number (Omega Ruby & Alpha Sapphire)
 INSERT INTO `regional_dex` VALUES
@@ -1360,9 +1824,412 @@ INSERT INTO `regional_dex` VALUES
 ;
 
 -- Alola Dex Number (Ultra Sun & Ultra Moon)
--- INSERT INTO `regional_dex` VALUES
--- ("kanto_lgpe", 1, 1)
--- ;
+INSERT INTO `regional_dex` VALUES
+("alola_usum", 1, 722),
+("alola_usum", 2, 723),
+("alola_usum", 3, 724),
+("alola_usum", 4, 725),
+("alola_usum", 5, 726),
+("alola_usum", 6, 727),
+("alola_usum", 7, 728),
+("alola_usum", 8, 729),
+("alola_usum", 9, 730),
+("alola_usum", 10, 731),
+("alola_usum", 11, 732),
+("alola_usum", 12, 733),
+("alola_usum", 13, 734),
+("alola_usum", 14, 735),
+("alola_usum", 15, 19),
+("alola_usum", 16, 20),
+("alola_usum", 17, 10),
+("alola_usum", 18, 11),
+("alola_usum", 19, 12),
+("alola_usum", 20, 165),
+("alola_usum", 21, 166),
+("alola_usum", 22, 167),
+("alola_usum", 23, 168),
+("alola_usum", 24, 427),
+("alola_usum", 25, 428),
+("alola_usum", 26, 686),
+("alola_usum", 27, 687),
+("alola_usum", 28, 570),
+("alola_usum", 29, 571),
+("alola_usum", 30, 676),
+("alola_usum", 31, 172),
+("alola_usum", 32, 25),
+("alola_usum", 33, 26),
+("alola_usum", 34, 736),
+("alola_usum", 35, 737),
+("alola_usum", 36, 738),
+("alola_usum", 37, 438),
+("alola_usum", 38, 185),
+("alola_usum", 39, 440),
+("alola_usum", 40, 113),
+("alola_usum", 41, 242),
+("alola_usum", 42, 446),
+("alola_usum", 43, 143),
+("alola_usum", 44, 79),
+("alola_usum", 45, 80),
+("alola_usum", 46, 199),
+("alola_usum", 47, 278),
+("alola_usum", 48, 279),
+("alola_usum", 49, 63),
+("alola_usum", 50, 64),
+("alola_usum", 51, 65),
+("alola_usum", 52, 52),
+("alola_usum", 53, 53),
+("alola_usum", 54, 81),
+("alola_usum", 55, 82),
+("alola_usum", 56, 462),
+("alola_usum", 57, 88),
+("alola_usum", 58, 89),
+("alola_usum", 59, 439),
+("alola_usum", 60, 122),
+("alola_usum", 61, 23),
+("alola_usum", 62, 24),
+("alola_usum", 63, 206),
+("alola_usum", 64, 58),
+("alola_usum", 65, 59),
+("alola_usum", 66, 95),
+("alola_usum", 67, 96),
+("alola_usum", 68, 296),
+("alola_usum", 69, 297),
+("alola_usum", 70, 235),
+("alola_usum", 71, 739),
+("alola_usum", 72, 740),
+("alola_usum", 73, 92),
+("alola_usum", 74, 93),
+("alola_usum", 75, 94),
+("alola_usum", 76, 425),
+("alola_usum", 77, 426),
+("alola_usum", 78, 198),
+("alola_usum", 79, 430),
+("alola_usum", 80, 41),
+("alola_usum", 81, 42),
+("alola_usum", 82, 169),
+("alola_usum", 83, 714),
+("alola_usum", 84, 715),
+("alola_usum", 85, 50),
+("alola_usum", 86, 51),
+("alola_usum", 87, 21),
+("alola_usum", 88, 22),
+("alola_usum", 89, 627),
+("alola_usum", 90, 628),
+("alola_usum", 91, 629),
+("alola_usum", 92, 630),
+("alola_usum", 93, 56),
+("alola_usum", 94, 57),
+("alola_usum", 95, 225),
+("alola_usum", 96, 701),
+("alola_usum", 97, 741),
+("alola_usum", 98, 742),
+("alola_usum", 99, 743),
+("alola_usum", 100, 669),
+("alola_usum", 101, 670),
+("alola_usum", 102, 671),
+("alola_usum", 103, 548),
+("alola_usum", 104, 549),
+("alola_usum", 105, 546),
+("alola_usum", 106, 547),
+("alola_usum", 107, 54),
+("alola_usum", 108, 55),
+("alola_usum", 109, 238),
+("alola_usum", 110, 124),
+("alola_usum", 111, 129),
+("alola_usum", 112, 130),
+("alola_usum", 113, 339),
+("alola_usum", 114, 340),
+("alola_usum", 115, 86),
+("alola_usum", 116, 87),
+("alola_usum", 117, 66),
+("alola_usum", 118, 67),
+("alola_usum", 119, 68),
+("alola_usum", 120, 524),
+("alola_usum", 121, 525),
+("alola_usum", 122, 526),
+("alola_usum", 123, 703),
+("alola_usum", 124, 302),
+("alola_usum", 125, 303),
+("alola_usum", 126, 744),
+("alola_usum", 127, 745),
+("alola_usum", 128, 327),
+("alola_usum", 129, 72),
+("alola_usum", 130, 73),
+("alola_usum", 131, 456),
+("alola_usum", 132, 757),
+("alola_usum", 133, 746),
+("alola_usum", 134, 370),
+("alola_usum", 135, 222),
+("alola_usum", 136, 747),
+("alola_usum", 137, 748),
+("alola_usum", 138, 90),
+("alola_usum", 139, 91),
+("alola_usum", 140, 366),
+("alola_usum", 141, 367),
+("alola_usum", 142, 368),
+("alola_usum", 143, 223),
+("alola_usum", 144, 224),
+("alola_usum", 145, 458),
+("alola_usum", 146, 226),
+("alola_usum", 147, 371),
+("alola_usum", 148, 372),
+("alola_usum", 149, 373),
+("alola_usum", 150, 506),
+("alola_usum", 151, 507),
+("alola_usum", 152, 508),
+("alola_usum", 153, 133),
+("alola_usum", 154, 134),
+("alola_usum", 155, 135),
+("alola_usum", 156, 136),
+("alola_usum", 157, 196),
+("alola_usum", 158, 197),
+("alola_usum", 159, 470),
+("alola_usum", 160, 471),
+("alola_usum", 161, 700),
+("alola_usum", 162, 179),
+("alola_usum", 163, 180),
+("alola_usum", 164, 181),
+("alola_usum", 165, 749),
+("alola_usum", 166, 750),
+("alola_usum", 167, 174),
+("alola_usum", 168, 39),
+("alola_usum", 169, 40),
+("alola_usum", 170, 128),
+("alola_usum", 171, 241),
+("alola_usum", 172, 283),
+("alola_usum", 173, 284),
+("alola_usum", 174, 751),
+("alola_usum", 175, 752),
+("alola_usum", 176, 753),
+("alola_usum", 177, 754),
+("alola_usum", 178, 755),
+("alola_usum", 179, 756),
+("alola_usum", 180, 46),
+("alola_usum", 181, 47),
+("alola_usum", 182, 60),
+("alola_usum", 183, 61),
+("alola_usum", 184, 62),
+("alola_usum", 185, 186),
+("alola_usum", 186, 118),
+("alola_usum", 187, 119),
+("alola_usum", 188, 550),
+("alola_usum", 189, 349),
+("alola_usum", 190, 350),
+("alola_usum", 191, 594),
+("alola_usum", 192, 661),
+("alola_usum", 193, 662),
+("alola_usum", 194, 663),
+("alola_usum", 195, 757),
+("alola_usum", 196, 758),
+("alola_usum", 197, 104),
+("alola_usum", 198, 105),
+("alola_usum", 199, 115),
+("alola_usum", 200, 240),
+("alola_usum", 201, 126),
+("alola_usum", 202, 467),
+("alola_usum", 203, 636),
+("alola_usum", 204, 637),
+("alola_usum", 205, 759),
+("alola_usum", 206, 760),
+("alola_usum", 207, 761),
+("alola_usum", 208, 762),
+("alola_usum", 209, 763),
+("alola_usum", 210, 764),
+("alola_usum", 211, 127),
+("alola_usum", 212, 163),
+("alola_usum", 213, 164),
+("alola_usum", 214, 352),
+("alola_usum", 215, 765),
+("alola_usum", 216, 766),
+("alola_usum", 217, 704),
+("alola_usum", 218, 705),
+("alola_usum", 219, 706),
+("alola_usum", 220, 351),
+("alola_usum", 221, 767),
+("alola_usum", 222, 768),
+("alola_usum", 223, 120),
+("alola_usum", 224, 121),
+("alola_usum", 225, 769),
+("alola_usum", 226, 770),
+("alola_usum", 227, 138),
+("alola_usum", 228, 139),
+("alola_usum", 229, 140),
+("alola_usum", 230, 141),
+("alola_usum", 231, 345),
+("alola_usum", 232, 346),
+("alola_usum", 233, 347),
+("alola_usum", 234, 348),
+("alola_usum", 235, 408),
+("alola_usum", 236, 409),
+("alola_usum", 237, 410),
+("alola_usum", 238, 411),
+("alola_usum", 239, 566),
+("alola_usum", 240, 567),
+("alola_usum", 241, 564),
+("alola_usum", 242, 565),
+("alola_usum", 243, 696),
+("alola_usum", 244, 697),
+("alola_usum", 245, 698),
+("alola_usum", 246, 699),
+("alola_usum", 247, 246),
+("alola_usum", 248, 247),
+("alola_usum", 249, 248),
+("alola_usum", 250, 708),
+("alola_usum", 251, 709),
+("alola_usum", 252, 177),
+("alola_usum", 253, 178),
+("alola_usum", 254, 299),
+("alola_usum", 255, 476),
+("alola_usum", 256, 771),
+("alola_usum", 257, 170),
+("alola_usum", 258, 171),
+("alola_usum", 259, 772),
+("alola_usum", 260, 773),
+("alola_usum", 261, 803),
+("alola_usum", 262, 804),
+("alola_usum", 263, 718),
+("alola_usum", 264, 568),
+("alola_usum", 265, 569),
+("alola_usum", 266, 572),
+("alola_usum", 267, 573),
+("alola_usum", 268, 204),
+("alola_usum", 269, 205),
+("alola_usum", 270, 227),
+("alola_usum", 271, 132),
+("alola_usum", 272, 173),
+("alola_usum", 273, 35),
+("alola_usum", 274, 36),
+("alola_usum", 275, 605),
+("alola_usum", 276, 606),
+("alola_usum", 277, 774),
+("alola_usum", 278, 374),
+("alola_usum", 279, 375),
+("alola_usum", 280, 376),
+("alola_usum", 281, 137),
+("alola_usum", 282, 233),
+("alola_usum", 283, 474),
+("alola_usum", 284, 674),
+("alola_usum", 285, 675),
+("alola_usum", 286, 775),
+("alola_usum", 287, 324),
+("alola_usum", 288, 776),
+("alola_usum", 289, 228),
+("alola_usum", 290, 229),
+("alola_usum", 291, 702),
+("alola_usum", 292, 777),
+("alola_usum", 293, 309),
+("alola_usum", 294, 310),
+("alola_usum", 295, 239),
+("alola_usum", 296, 125),
+("alola_usum", 297, 466),
+("alola_usum", 298, 74),
+("alola_usum", 299, 75),
+("alola_usum", 300, 76),
+("alola_usum", 301, 551),
+("alola_usum", 302, 552),
+("alola_usum", 303, 553),
+("alola_usum", 304, 328),
+("alola_usum", 305, 329),
+("alola_usum", 306, 330),
+("alola_usum", 307, 443),
+("alola_usum", 308, 444),
+("alola_usum", 309, 445),
+("alola_usum", 310, 343),
+("alola_usum", 311, 344),
+("alola_usum", 312, 622),
+("alola_usum", 313, 623),
+("alola_usum", 314, 707),
+("alola_usum", 315, 778),
+("alola_usum", 316, 353),
+("alola_usum", 317, 354),
+("alola_usum", 318, 592),
+("alola_usum", 319, 593),
+("alola_usum", 320, 779),
+("alola_usum", 321, 780),
+("alola_usum", 322, 359),
+("alola_usum", 323, 361),
+("alola_usum", 324, 362),
+("alola_usum", 325, 478),
+("alola_usum", 326, 215),
+("alola_usum", 327, 461),
+("alola_usum", 328, 27),
+("alola_usum", 329, 28),
+("alola_usum", 330, 37),
+("alola_usum", 331, 38),
+("alola_usum", 332, 582),
+("alola_usum", 333, 583),
+("alola_usum", 334, 584),
+("alola_usum", 335, 559),
+("alola_usum", 336, 560),
+("alola_usum", 337, 624),
+("alola_usum", 338, 625),
+("alola_usum", 339, 209),
+("alola_usum", 340, 210),
+("alola_usum", 341, 422),
+("alola_usum", 342, 423),
+("alola_usum", 343, 369),
+("alola_usum", 344, 781),
+("alola_usum", 345, 318),
+("alola_usum", 346, 319),
+("alola_usum", 347, 690),
+("alola_usum", 348, 691),
+("alola_usum", 349, 692),
+("alola_usum", 350, 693),
+("alola_usum", 351, 320),
+("alola_usum", 352, 321),
+("alola_usum", 353, 131),
+("alola_usum", 354, 357),
+("alola_usum", 355, 102),
+("alola_usum", 356, 103),
+("alola_usum", 357, 341),
+("alola_usum", 358, 342),
+("alola_usum", 359, 619),
+("alola_usum", 360, 620),
+("alola_usum", 361, 782),
+("alola_usum", 362, 783),
+("alola_usum", 363, 784),
+("alola_usum", 364, 586),
+("alola_usum", 365, 123),
+("alola_usum", 366, 212),
+("alola_usum", 367, 214),
+("alola_usum", 368, 190),
+("alola_usum", 369, 424),
+("alola_usum", 370, 667),
+("alola_usum", 371, 668),
+("alola_usum", 372, 200),
+("alola_usum", 373, 668),
+("alola_usum", 373, 429),
+("alola_usum", 374, 621),
+("alola_usum", 375, 108),
+("alola_usum", 376, 463),
+("alola_usum", 377, 447),
+("alola_usum", 378, 448),
+("alola_usum", 379, 147),
+("alola_usum", 380, 148),
+("alola_usum", 381, 149),
+("alola_usum", 382, 142),
+("alola_usum", 383, 785),
+("alola_usum", 384, 786),
+("alola_usum", 385, 787),
+("alola_usum", 386, 788),
+("alola_usum", 387, 789),
+("alola_usum", 388, 790),
+("alola_usum", 389, 791),
+("alola_usum", 390, 792),
+("alola_usum", 391, 793),
+("alola_usum", 392, 805),
+("alola_usum", 393, 806),
+("alola_usum", 394, 794),
+("alola_usum", 395, 795),
+("alola_usum", 396, 796),
+("alola_usum", 397, 797),
+("alola_usum", 398, 798),
+("alola_usum", 399, 799),
+("alola_usum", 400, 800),
+("alola_usum", 401, 801),
+("alola_usum", 402, 802),
+("alola_usum", 403, 807)
+;
 
 -- Kanto Dex Number (Let's Go! Pikachu & Eevee)
 INSERT INTO `regional_dex` VALUES
@@ -2837,79 +3704,123 @@ INSERT INTO `regional_dex` VALUES
 ("hisui_legarc", 242, 491)
 ;
 
--- Galar Not in Dex (Sword and Shield)
+-- Paldea Not in Dex (Scarlet and Violet)
 INSERT INTO `regional_dex` (`dex_name`, `national_id`) VALUES 
-("paldea_sv", 4),       -- CHAMANDER
-("paldea_sv", 5),       -- CHARMELEON
-("paldea_sv", 6),       -- CHARIZARD
-("paldea_sv", 144),     -- ARTICUNO
-("paldea_sv", 145),     -- ZAPDOS
-("paldea_sv", 146),     -- MOLTRES
-("paldea_sv", 150),     -- MEWTWO
-("paldea_sv", 151),     -- MEW
-("paldea_sv", 155),     -- CYNDAQUIL
-("paldea_sv", 156),     -- QUILAVA
-("paldea_sv", 157),     -- TYPHLOSION
-("paldea_sv", 382),     -- KYOGRE
-("paldea_sv", 383),     -- GROUDON
-("paldea_sv", 384),     -- RAYQUAZA
-("paldea_sv", 480),     -- UXIE
-("paldea_sv", 481),     -- MESPRIT
-("paldea_sv", 482),     -- AZELF
-("paldea_sv", 483),     -- DIALGA
-("paldea_sv", 484),     -- PALKIA
-("paldea_sv", 485),     -- HEATRAN
-("paldea_sv", 487),     -- GIRATINA
-("paldea_sv", 493),     -- ARCEUS
-("paldea_sv", 501),     -- OSHAWOTT
-("paldea_sv", 502),     -- DEWOTT
-("paldea_sv", 503),     -- SAMUROTT
-("paldea_sv", 641),     -- TORNADUS
-("paldea_sv", 642),     -- THUNDRUS
-("paldea_sv", 643),     -- LANDORUS
-("paldea_sv", 648),     -- MELOETTA
-("paldea_sv", 650),     -- CHESPIN
-("paldea_sv", 651),     -- QUILLADIN
-("paldea_sv", 652),     -- CHESNAUGHT
-("paldea_sv", 653),     -- FENNEKIN
-("paldea_sv", 654),     -- BRAIXEN
-("paldea_sv", 655),     -- DELPHOX
-("paldea_sv", 656),     -- FROAKIE
-("paldea_sv", 657),     -- FROGADIER
-("paldea_sv", 658),     -- GRENINJA
-("paldea_sv", 719),     -- DIANCIE
-("paldea_sv", 720),     -- HOOPA
-("paldea_sv", 721),     -- VOLCANION
-("paldea_sv", 722),     -- ROWLET
-("paldea_sv", 723),     -- DARTRIX
-("paldea_sv", 724),     -- DECIDUEYE
-("paldea_sv", 801),     -- MAGEARNA
-("paldea_sv", 810),     -- GROOKEY
-("paldea_sv", 811),     -- THWACKEY
-("paldea_sv", 812),     -- RILLABOOM
-("paldea_sv", 813),     -- SCORBUNNY
-("paldea_sv", 814),     -- RABOOT
-("paldea_sv", 815),     -- CINDERACE
-("paldea_sv", 816),     -- SOBBLE
-("paldea_sv", 817),     -- DRIZZILE
-("paldea_sv", 818),     -- INTELEON
-("paldea_sv", 863),     -- PERRSERKER
-("paldea_sv", 888),     -- ZACIAN
-("paldea_sv", 889),     -- ZAMAZENTA
-("paldea_sv", 890),     -- ETERNATUS
-("paldea_sv", 891),     -- KUBFU
-("paldea_sv", 892),     -- URSHIFU
-("paldea_sv", 893),     -- ZARUDE
-("paldea_sv", 894),     -- REGIELEKI
-("paldea_sv", 895),     -- REGIDRAGO
-("paldea_sv", 896),     -- GLASTRIER
-("paldea_sv", 897),     -- SPECTRIER
-("paldea_sv", 898),     -- CALYREX
-("paldea_sv", 899),     -- WYRDEER
-("paldea_sv", 900),     -- KLEAVOR
-("paldea_sv", 903),     -- SNEASLER
-("paldea_sv", 904),     -- OVERQWIL
-("paldea_sv", 905)      -- ENAMORUS
+("paldea_sv", 1),		-- BULBASAUR
+("paldea_sv", 2),		-- IVYSAUR
+("paldea_sv", 3),		-- VENUSAUR
+("paldea_sv", 4),		-- CHAMANDER
+("paldea_sv", 5),		-- CHARMELEON
+("paldea_sv", 6),		-- CHARIZARD
+("paldea_sv", 7),		-- SQUIRTLE
+("paldea_sv", 8),		-- WARTOTLE
+("paldea_sv", 9),		-- BLASTOISE
+("paldea_sv", 144),		-- ARTICUNO
+("paldea_sv", 145),		-- ZAPDOS
+("paldea_sv", 146),		-- MOLTRES
+("paldea_sv", 150),		-- MEWTWO
+("paldea_sv", 151),		-- MEW
+("paldea_sv", 152),		-- CHIKORITA
+("paldea_sv", 153),		-- BAYLEEF
+("paldea_sv", 154),		-- MEGANIUM
+("paldea_sv", 155),		-- CYNDAQUIL
+("paldea_sv", 156),		-- QUILAVA
+("paldea_sv", 157),		-- TYPHLOSION
+("paldea_sv", 158),		-- TOTODILE
+("paldea_sv", 159),		-- CROCONAW
+("paldea_sv", 160),		-- FERALIGATR
+("paldea_sv", 252),		-- TREECKO
+("paldea_sv", 253),		-- GROVYLE
+("paldea_sv", 254),		-- SCEPTILE
+("paldea_sv", 255),		-- TORCHIC
+("paldea_sv", 256),		-- COMBUSKEN
+("paldea_sv", 257),		-- BLAZIKEN
+("paldea_sv", 258),		-- MUDKIP
+("paldea_sv", 259),		-- MARSHTOMP
+("paldea_sv", 260),		-- SWAMPERT
+("paldea_sv", 382),		-- KYOGRE
+("paldea_sv", 383),		-- GROUDON
+("paldea_sv", 384),		-- RAYQUAZA
+("paldea_sv", 387),		-- TURTWIG
+("paldea_sv", 388),		-- GROTLE
+("paldea_sv", 389),		-- TORTERRA
+("paldea_sv", 390),		-- CHIMCHAR
+("paldea_sv", 391),		-- MONFERNO
+("paldea_sv", 392),		-- INFERNAPE
+("paldea_sv", 393),		-- PIPLUP
+("paldea_sv", 394),		-- PRINPLUP
+("paldea_sv", 395),		-- EMPOLEON
+("paldea_sv", 480),		-- UXIE
+("paldea_sv", 481),		-- MESPRIT
+("paldea_sv", 482),		-- AZELF
+("paldea_sv", 483),		-- DIALGA
+("paldea_sv", 484),		-- PALKIA
+("paldea_sv", 485),		-- HEATRAN
+("paldea_sv", 487),		-- GIRATINA
+("paldea_sv", 493),		-- ARCEUS
+("paldea_sv", 495),		-- SNIVY
+("paldea_sv", 496),		-- SERVINE
+("paldea_sv", 497),		-- SERPERIOR
+("paldea_sv", 498),		-- TEPIG
+("paldea_sv", 499),		-- PIGNITE
+("paldea_sv", 500),		-- EMBOAR
+("paldea_sv", 501),		-- OSHAWOTT
+("paldea_sv", 502),		-- DEWOTT
+("paldea_sv", 503),		-- SAMUROTT
+("paldea_sv", 641),		-- TORNADUS
+("paldea_sv", 642),		-- THUNDRUS
+("paldea_sv", 643),		-- LANDORUS
+("paldea_sv", 648),		-- MELOETTA
+("paldea_sv", 650),		-- CHESPIN
+("paldea_sv", 651),		-- QUILLADIN
+("paldea_sv", 652),		-- CHESNAUGHT
+("paldea_sv", 653),		-- FENNEKIN
+("paldea_sv", 654),		-- BRAIXEN
+("paldea_sv", 655),		-- DELPHOX
+("paldea_sv", 656),		-- FROAKIE
+("paldea_sv", 657),		-- FROGADIER
+("paldea_sv", 658),		-- GRENINJA
+("paldea_sv", 719),		-- DIANCIE
+("paldea_sv", 720),		-- HOOPA
+("paldea_sv", 721),		-- VOLCANION
+("paldea_sv", 722),		-- ROWLET
+("paldea_sv", 723),		-- DARTRIX
+("paldea_sv", 724),		-- DECIDUEYE
+("paldea_sv", 725),		-- LITTEN
+("paldea_sv", 726),		-- TORRACAT
+("paldea_sv", 727),		-- INCINEROAR
+("paldea_sv", 728),		-- POPPLIO
+("paldea_sv", 729),		-- BRIONNE
+("paldea_sv", 730),		-- PRIMARINA
+("paldea_sv", 801),		-- MAGEARNA
+("paldea_sv", 810),		-- GROOKEY
+("paldea_sv", 811),		-- THWACKEY
+("paldea_sv", 812),		-- RILLABOOM
+("paldea_sv", 813),		-- SCORBUNNY
+("paldea_sv", 814),		-- RABOOT
+("paldea_sv", 815),		-- CINDERACE
+("paldea_sv", 816),		-- SOBBLE
+("paldea_sv", 817),		-- DRIZZILE
+("paldea_sv", 818),		-- INTELEON
+("paldea_sv", 863),		-- PERRSERKER
+("paldea_sv", 888),		-- ZACIAN
+("paldea_sv", 889),		-- ZAMAZENTA
+("paldea_sv", 890),		-- ETERNATUS
+("paldea_sv", 891),		-- KUBFU
+("paldea_sv", 892),		-- URSHIFU
+("paldea_sv", 893),		-- ZARUDE
+("paldea_sv", 894),		-- REGIELEKI
+("paldea_sv", 895),		-- REGIDRAGO
+("paldea_sv", 896),		-- GLASTRIER
+("paldea_sv", 897),		-- SPECTRIER
+("paldea_sv", 898),		-- CALYREX
+("paldea_sv", 899),		-- WYRDEER
+("paldea_sv", 900),		-- KLEAVOR
+("paldea_sv", 903),		-- SNEASLER
+("paldea_sv", 904),		-- OVERQWIL
+("paldea_sv", 905),		-- ENAMORUS
+("paldea_sv", 1009),	-- WALKING WAKE
+("paldea_sv", 1010)		-- IRON LEAVES
 ;
 
 -- Paldea Dex Number (Scarlet and Violet)
@@ -4236,7 +5147,8 @@ INSERT INTO `pokemon_desc`(`desc`) VALUES
 
 -- Introduced in GEN 9
 INSERT INTO `pokemon_desc`(`desc`) VALUES
-("Grass Cat Pokémon"),			-- [666]
+("Poison Fish Pokémon"),		-- [666]
+("Grass Cat Pokémon"),			-- [667]
 ("Magician Pokémon"),
 ("Fire Croc Pokémon"),
 ("Singer Pokémon"),
@@ -4245,8 +5157,61 @@ INSERT INTO `pokemon_desc`(`desc`) VALUES
 ("Dancer Pokémon"),
 ("Hog Pokémon"),
 ("String Ball Pokémon"),
+("Grasshopper Pokémon"),
+("Hands-On Pokémon"),
+("Couple Pokémon"),
+("Family Pokémon"),
+("Olive Pokémon"),
+("Parrot Pokémon"),
+("Rock Salt Pokémon"),
+("Fire Child Pokémon"),
+("Fire Warrior Pokémon"),
+("Fire Blades Pokémon"),
+("EleTadpole Pokémon"),
+("EleFrog Pokémon"),
+("Storm Petrel Pokémon"),
+("Frigatebird Pokémon"),
+("Rascal Pokémon"),
+("Boss Pokémon"),
+("Toxic Mouse Pokémon"),
+("Toxic Monkey Pokémon"),
+("Tumbleweed Pokémon"),
+("Woodear Pokémon"),
+("Ambush Pokémon"),
+("Spicy Pepper Pokémon"),
+("Rolling Pokémon"),
+("Frill Pokémon"),
+("Ostrich Pokémon"),
+("Metalsmith Pokémon"),
+("Hammer Pokémon"),
+("Garden Eel Pokémon"),
+("Item Drop Pokémon"),
+("Dolphin Pokémon"),
+("Hero Pokémon"),
+("Single-Cyl Pokémon"),
+("Multi-Cyl Pokémon"),
+("Earthworm Pokémon"),
+("Ghost Dog Pokémon"),
+("Synchronize Pokémon"),
+("Terra Whale Pokémon"),
+("Jettison Pokémon"),
+("Big Catfish Pokémon"),
+("Mimicry Pokémon"),
+("Rage Monkey Pokémon"),
+("Spiny Fish Pokémon"),
+("Big Blade Pokémon"),
+("Paradox Pokémon"),
+("Ice Fin Pokémon"),
+("Ice Dragon Pokémon"),
+("Coin Chest Pokémon"),
+("Coin Hunter Pokémon"),
+("Coin Entity Pokémon"),
+("Ruinous Pokémon"),
+("Candy Apple Pokémon"),
+("Matcha Pokémon"),
+("Retainer Pokémon"),
+("Mask Pokémon"),
 
-("Poison Fish Pokémon"),    -- Paldean Wooper
 ("")		-- keep this for future pending entries
 ;
 
@@ -5830,7 +6795,7 @@ INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`) VALUES
 (961, 6, NULL),   	-- #961 WUGTRIO
 (962, 3, 10),      	-- #962 BOMBIRDIER
 (963, 6, NULL),   	-- #963 FINIZEN
-(964, 6, NULL),   	-- #964 PALAFIN
+-- #964 PALAFIN to be entered separately
 (965, 15, 4),   	-- #965 VAROOM
 (966, 15, 4),   	-- #966 REVAVROOM's other forms to be entered separately
 (967, 0, 12),   	-- #967 CYCLIZAR
@@ -5882,8 +6847,15 @@ INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`) VALUES
 (1013, 9, 1),		-- #1013 SINISTCHA
 (1014, 4, 14),		-- #1014 OKIDOGI
 (1015, 4, 16),		-- #1015 MUNKIDORI
-(1016, 4, 17)		-- #1016 FEZANDIPITI
+(1016, 4, 17),		-- #1016 FEZANDIPITI
 -- #1017 OGERPON to be entered separately
+-- (1018, , ),		-- #1018
+(1019, 7, 0),		-- #1019 RAGING BOLT
+(1020, 15, 16),		-- #1020 IRON CROWN
+-- (1021, , ),		-- #1021
+-- (1022, , ),		-- #1022 TERAPAGOS
+-- (1023, , ),		-- #1023
+(1024, 15, 0)		-- #1024 ARCHALUDON
 ;
 
 -- #916 OINKOLOGNE
@@ -5897,12 +6869,17 @@ INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (931, 12, 3, "white_plumage", "");
 
 -- #966 REVAVROOM
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (964, 6, NULL, "zero_form", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (964, 6, NULL, "hero_form", "");
+
+-- #966 REVAVROOM
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 10, NULL, "segin_starmobile", "");
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 13, NULL, "schedar_starmobile", "");
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 4, NULL, "navi_starmobile", "");
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 17, NULL, "ruchbah_starmobile", "");
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (966, 14, NULL, "caph_starmobile", "");
--- #966 REVAVROOM
+
+-- #999 GIMMIGHOUL
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (999, 1, NULL, "chest_form", "");
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (999, 1, NULL, "roaming_form", "");
 
@@ -6061,7 +7038,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 12) WHERE `pokedex_ref` IN (16, 21, 177, 821);			-- Tiny Bird
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 13) WHERE `pokedex_ref` IN (17, 18);						-- Bird
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 14) WHERE `pokedex_ref` IN (
-19, 20, 25, 26, 27, 28);		-- Mouse
+19, 20, 25, 26, 27, 28, 921, 922);		-- Mouse
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 15) WHERE `pokedex_ref` IN (22);							-- Beak
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 16) WHERE `pokedex_ref` IN (23);							-- Snake
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 17) WHERE `pokedex_ref` IN (24);							-- Cobra
@@ -6084,7 +7061,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 31) WHERE `pokedex_ref` IN (53);							-- Classy Cat
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 32) WHERE `pokedex_ref` IN (54, 55);						-- Duck
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 33) WHERE `pokedex_ref` IN (56, 57);						-- Pig Monkey
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 34) WHERE `pokedex_ref` IN (58, 506, 744, 835);			-- Puppy
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 34) WHERE `pokedex_ref` IN (58, 506, 744, 835, 926);		-- Puppy
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 35) WHERE `pokedex_ref` IN (59);							-- Legendary
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 36) WHERE `pokedex_ref` IN (60, 61, 62, 535);			-- Tadpole
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 37) WHERE `pokedex_ref` IN (63, 64, 65);					-- Psi
@@ -6184,9 +7161,9 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 126) WHERE `pokedex_ref` IN (200);						-- Screech
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 127) WHERE `pokedex_ref` IN (201);						-- Symbol
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 128) WHERE `pokedex_ref` IN (202);						-- Patient
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 129) WHERE `pokedex_ref` IN (203);						-- Long Neck
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 129) WHERE `pokedex_ref` IN (203, 981);					-- Long Neck
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 130) WHERE `pokedex_ref` IN (204, 205, 412, 413);		-- Bagworm
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 131) WHERE `pokedex_ref` IN (206);						-- Land Snake
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 131) WHERE `pokedex_ref` IN (206, 982);					-- Land Snake
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 132) WHERE `pokedex_ref` IN (207);						-- Fly Scorpion
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 133) WHERE `pokedex_ref` IN (208);						-- Iron Snake
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 134) WHERE `pokedex_ref` IN (213);						-- Mold
@@ -6442,7 +7419,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 378) WHERE `pokedex_ref` IN (521);						-- Proud
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 379) WHERE `pokedex_ref` IN (522);						-- Electrified
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 380) WHERE `pokedex_ref` IN (524);						-- Mantle
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 381) WHERE `pokedex_ref` IN (525);						-- Ore
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 381) WHERE `pokedex_ref` IN (525, 969, 970);				-- Ore
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 382) WHERE `pokedex_ref` IN (526);						-- Compressed
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 383) WHERE `pokedex_ref` IN (528);						-- Courting
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 384) WHERE `pokedex_ref` IN (530);						-- Subterrene
@@ -6551,7 +7528,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 484) WHERE `pokedex_ref` IN (667);						-- Lion Cub
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 485) WHERE `pokedex_ref` IN (669, 670);					-- Single Bloom
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 486) WHERE `pokedex_ref` IN (671);						-- Garden
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 487) WHERE `pokedex_ref` IN (672, 673);					-- Mount
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 487) WHERE `pokedex_ref` IN (672, 673, 967);				-- Mount
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 488) WHERE `pokedex_ref` IN (675);						-- Daunting
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 489) WHERE `pokedex_ref` IN (676);						-- Poodle
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 490) WHERE `pokedex_ref` IN (677);						-- Restraint
@@ -6706,7 +7683,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 603) WHERE `pokedex_ref` IN (830);						-- Cotton Bloom
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 604) WHERE `pokedex_ref` IN (831, 832);					-- Sheep
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 605) WHERE `pokedex_ref` IN (833);						-- Snapping
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 606) WHERE `pokedex_ref` IN (836);						-- Dog
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 606) WHERE `pokedex_ref` IN (836, 927);					-- Dog
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 607) WHERE `pokedex_ref` IN (840);						-- Apple Core
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 608) WHERE `pokedex_ref` IN (841);						-- Apple Wing
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 609) WHERE `pokedex_ref` IN (842);						-- Apple Nectar
@@ -6772,19 +7749,74 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 664) WHERE `pokedex_ref` IN (904);						-- Pin Cluster
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 665) WHERE `pokedex_ref` IN (905);						-- Love-Hate
 
--- GEN 9 PKMN descriptions
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 666) WHERE `pokedex_ref` IN (906, 907);					-- Grass Cat
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 667) WHERE `pokedex_ref` IN (908);						-- Magician
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 668) WHERE `pokedex_ref` IN (909, 910);					-- Fire Croc
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 669) WHERE `pokedex_ref` IN (911);						-- Singer
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 670) WHERE `pokedex_ref` IN (912);						-- Duckling
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 671) WHERE `pokedex_ref` IN (913);						-- Practicing
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 672) WHERE `pokedex_ref` IN (914);						-- Dancer
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 673) WHERE `pokedex_ref` IN (915, 916);					-- Hog
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 674) WHERE `pokedex_ref` IN (917);						-- String Ball
-
 -- PALDEA PKMN descriptions
--- UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 655) WHERE `pokedex_ref` IN (194) AND INSTR(`type_name`, "paldea") > 0;			-- Poison Fish
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 666) WHERE `pokedex_ref` IN (194) AND INSTR(`type_name`, "paldea") > 0;			-- Poison Fish
+
+-- GEN 9 PKMN descriptions
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 667) WHERE `pokedex_ref` IN (906, 907);					-- Grass Cat
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 668) WHERE `pokedex_ref` IN (908);						-- Magician
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 669) WHERE `pokedex_ref` IN (909, 910);					-- Fire Croc
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 670) WHERE `pokedex_ref` IN (911);						-- Singer
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 671) WHERE `pokedex_ref` IN (912);						-- Duckling
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 672) WHERE `pokedex_ref` IN (913);						-- Practicing
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 673) WHERE `pokedex_ref` IN (914);						-- Dancer
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 674) WHERE `pokedex_ref` IN (915, 916);					-- Hog
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 675) WHERE `pokedex_ref` IN (917);						-- String Ball
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 676) WHERE `pokedex_ref` IN (919, 920);					-- Grasshopper
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 677) WHERE `pokedex_ref` IN (923);						-- Hands-On
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 678) WHERE `pokedex_ref` IN (924);						-- Couple
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 679) WHERE `pokedex_ref` IN (925);						-- Family
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 680) WHERE `pokedex_ref` IN (928, 929, 930);				-- Olive
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 681) WHERE `pokedex_ref` IN (931);						-- Parrot
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 682) WHERE `pokedex_ref` IN (932, 933, 934);				-- Rock Salt
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 683) WHERE `pokedex_ref` IN (935);						-- Fire Child
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 684) WHERE `pokedex_ref` IN (936);						-- Fire Warrior
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 685) WHERE `pokedex_ref` IN (937);						-- Fire Blades
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 686) WHERE `pokedex_ref` IN (938);						-- EleTadpole
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 687) WHERE `pokedex_ref` IN (939);						-- EleFrog
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 688) WHERE `pokedex_ref` IN (940);						-- Storm Petrel
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 689) WHERE `pokedex_ref` IN (941);						-- Frigatebird
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 690) WHERE `pokedex_ref` IN (942);						-- Rascal
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 691) WHERE `pokedex_ref` IN (943);						-- Boss
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 692) WHERE `pokedex_ref` IN (944);						-- Toxic Mouse
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 693) WHERE `pokedex_ref` IN (945);						-- Toxic Monkey
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 694) WHERE `pokedex_ref` IN (946, 947);					-- Tumbleweed
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 695) WHERE `pokedex_ref` IN (948, 949);					-- Woodear
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 696) WHERE `pokedex_ref` IN (950);						-- Ambush
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 697) WHERE `pokedex_ref` IN (951, 952);					-- Spicy Pepper
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 698) WHERE `pokedex_ref` IN (953, 954);					-- Rolling
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 699) WHERE `pokedex_ref` IN (955);						-- Frill
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 700) WHERE `pokedex_ref` IN (956);						-- Ostrich
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 701) WHERE `pokedex_ref` IN (957);						-- Metalsmith
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 702) WHERE `pokedex_ref` IN (958, 959);					-- Hammer
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 703) WHERE `pokedex_ref` IN (960, 961);					-- Garden Eel
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 704) WHERE `pokedex_ref` IN (962);						-- Item Drop
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 705) WHERE `pokedex_ref` IN (963, 964);					-- Dolphin
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 706) WHERE `pokedex_ref` IN (964) AND INSTR(`type_name`, "hero") > 0;				-- Hero
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 707) WHERE `pokedex_ref` IN (965);						-- Single-Cyl
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 708) WHERE `pokedex_ref` IN (966);						-- Multi-Cyl
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 709) WHERE `pokedex_ref` IN (968);						-- Earthworm
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 710) WHERE `pokedex_ref` IN (971, 972);					-- Ghost Dog
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 711) WHERE `pokedex_ref` IN (973);						-- Synchronize
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 712) WHERE `pokedex_ref` IN (974, 975);					-- Terra Whale
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 713) WHERE `pokedex_ref` IN (976);						-- Jettison
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 714) WHERE `pokedex_ref` IN (977);						-- Big Catfish
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 715) WHERE `pokedex_ref` IN (978);						-- Mimicry
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 716) WHERE `pokedex_ref` IN (979);						-- Rage Monkey
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 717) WHERE `pokedex_ref` IN (980);						-- Spiny Fish
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 718) WHERE `pokedex_ref` IN (983);						-- Big Blade
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 719) WHERE `pokedex_ref` IN (
+984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 1005, 1006, 1007, 1008, 1009, 1010);		-- Paradox
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 720) WHERE `pokedex_ref` IN (996, 997);					-- Ice Fin
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 721) WHERE `pokedex_ref` IN (998);						-- Ice Dragon
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 722) WHERE `pokedex_ref` IN (999) AND INSTR(`type_name`, "chest_form") > 0;			-- Coin Chest
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 723) WHERE `pokedex_ref` IN (999) AND INSTR(`type_name`, "roaming_form") > 0;		-- Coin Hunter
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 724) WHERE `pokedex_ref` IN (1000);						-- Coin Entity
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 725) WHERE `pokedex_ref` IN (1001, 1002, 1003, 1004);	-- Ruinous
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 726) WHERE `pokedex_ref` IN (1011);						-- Candy Apple
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 727) WHERE `pokedex_ref` IN (1012, 1013);				-- Matcha
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 728) WHERE `pokedex_ref` IN (1014, 1015, 1016);			-- Retainer
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 729) WHERE `pokedex_ref` IN (1017);						-- Mask
 
 -- insert exclusive Z-moves
 -- UPDATE `type_bundle` SET `excl_z_ref` = 1 WHERE `pokedex_ref` = 25 AND INSTR(`type_name`, "cap");						-- 10,000,000 Volt Thunderbolt (Cap Pikachu)
@@ -8197,6 +9229,8 @@ UPDATE `type_bundle` SET `ability2` = 60 WHERE
 (`pokedex_ref` = 317 AND `type_name` = "default") OR	-- Swalot
 (`pokedex_ref` = 568 AND `type_name` = "default") OR	-- Trubbish
 (`pokedex_ref` = 617 AND `type_name` = "default");		-- Accelgor
+UPDATE `type_bundle` SET `hidden_ability` = 60 WHERE
+(`pokedex_ref` = 1011 AND `type_name` = "default");		-- Dipplin
 
 -- Shed Skin
 UPDATE `type_bundle` SET `ability1` = 61 WHERE
@@ -8639,7 +9673,8 @@ UPDATE `type_bundle` SET `ability2` = 82 WHERE
 (`pokedex_ref` = 842 AND `type_name` = "default") OR			-- Appletun
 (`pokedex_ref` = 915 AND `type_name` = "default") OR			-- Lechonk
 (`pokedex_ref` = 916 AND `type_name` = "default_m") OR			-- Oinkologne (M)
-(`pokedex_ref` = 916 AND `type_name` = "default_f");			-- Oinkologne (F)
+(`pokedex_ref` = 916 AND `type_name` = "default_f") OR			-- Oinkologne (F)
+(`pokedex_ref` = 1011 AND `type_name` = "default");				-- Dipplin
 UPDATE `type_bundle` SET `hidden_ability` = 82 WHERE
 (`pokedex_ref` = 69 AND `type_name` = "default") OR		-- Bellsprout
 (`pokedex_ref` = 70 AND `type_name` = "default") OR		-- Weepinbell
@@ -9792,7 +10827,7 @@ UPDATE `type_bundle` SET `hidden_ability` = 154 WHERE
 UPDATE `type_bundle` SET `ability1` = 155 WHERE
 (`pokedex_ref` = 550 AND `type_name` = "white-striped_form") OR	-- Basculin (White-Striped Form)
 (`pokedex_ref` = 848 AND `type_name` = "default") OR			-- Toxel
-(`pokedex_ref` = 999 AND `type_name` = "roaming_form");			-- Gimmighoul
+(`pokedex_ref` = 999 AND `type_name` = "chest_form");			-- Gimmighoul
 UPDATE `type_bundle` SET `ability2` = 155 WHERE
 (`pokedex_ref` = 960 AND `type_name` = "default") OR			-- Wiglett
 (`pokedex_ref` = 961 AND `type_name` = "default");				-- Wugtrio
@@ -10586,7 +11621,8 @@ UPDATE `type_bundle` SET `ability1` = 276 WHERE
 
 -- Zero to Hero (277)
 UPDATE `type_bundle` SET `ability1` = 277 WHERE
-(`pokedex_ref` = 964 AND `type_name` = "default");			-- Palafin
+(`pokedex_ref` = 964 AND `type_name` = "zero_form") OR		-- Palafin (Zero Form)
+(`pokedex_ref` = 964 AND `type_name` = "hero_form");		-- Palafin (Hero Form)
 
 -- Commander (278)
 UPDATE `type_bundle` SET `ability1` = 278 WHERE
@@ -10713,6 +11749,8 @@ UPDATE `type_bundle` SET `ability1` = 301 WHERE
 (`pokedex_ref` = 1016 AND `type_name` = "default");			-- Fezandipiti
 
 -- Supersweet Syrup (302)
+UPDATE `type_bundle` SET `ability1` = 302 WHERE
+(`pokedex_ref` = 1011 AND `type_name` = "default");			-- Dipplin
 
 DROP TABLE IF EXISTS `base_stats`;
 CREATE TABLE `base_stats` (

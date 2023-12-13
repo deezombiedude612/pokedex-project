@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 235
+		"national": 235,
+		"central_kalos_xy": 124,
+		"alola_usum": 70
 	},
 	"name": {
 		"en": "Smeargle",

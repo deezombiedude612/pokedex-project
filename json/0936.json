@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Armarouge",
-		"jp": "",
+		"jp": "グレンアルマ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Fire Warrior Pokémon",
 		"type_id": [13, 16],
 		"type": ["fire", "psychic"],
 		"abilities": {

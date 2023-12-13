@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Smoliv",
-		"jp": "",
+		"jp": "ミニーブ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Olive Pokémon",
 		"type_id": [9, 12],
 		"type": ["grass", "normal"],
 		"abilities": {

@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 366,
-		"hoenn_oras": 185
+		"coastal_kalos_xy": 142,
+		"hoenn_oras": 185,
+		"alola_usum": 140
 	},
 	"name": {
 		"en": "Clamperl",

@@ -2,7 +2,8 @@
 	"id": {
 		"national": 388,
 		"sinnoh_bdsp": 2,
-		"hisui_legarc": 131
+		"hisui_legarc": 131,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Grotle",

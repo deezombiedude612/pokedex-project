@@ -6,13 +6,13 @@
 	},
 	"name": {
 		"en": "Bombirdier",
-		"jp": "",
+		"jp": "オトシドリ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Item Drop Pokémon",
 		"type_id": [3, 10],
 		"type": ["flying", "dark"],
 		"abilities": {

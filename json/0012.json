@@ -1,6 +1,8 @@
 {
 	"id": {
 		"national": 12,
+		"central_kalos_xy": 25,
+		"alola_usum": 19,
 		"kanto_lgpe": 12,
 		"galar_swsh": 15
 	},

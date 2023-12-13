@@ -1,6 +1,7 @@
 {
 	"id": {
-		"national": 500
+		"national": 500,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Emboar",

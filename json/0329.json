@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 329,
+		"mountain_kalos_xy": 4,
 		"hoenn_oras": 122,
+		"alola_usum": 305,
 		"galar_swsh": 322
 	},
 	"name": {

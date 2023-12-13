@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 309,
+		"coastal_kalos_xy": 73,
 		"hoenn_oras": 80,
+		"alola_usum": 293,
 		"galar_swsh": 66
 	},
 	"name": {

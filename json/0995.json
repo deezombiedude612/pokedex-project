@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Iron Thorns",
-		"jp": "",
+		"jp": "テツノイバラ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [8, 7],
 		"type": ["rock", "electric"],
 		"abilities": {

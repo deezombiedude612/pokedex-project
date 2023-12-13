@@ -1,8 +1,10 @@
 {
 	"id": {
 		"national": 3,
+		"central_kalos_xy": 82,
 		"kanto_lgpe": 3,
-		"galar_isle_of_armor": 70
+		"galar_isle_of_armor": 70,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Venusaur",

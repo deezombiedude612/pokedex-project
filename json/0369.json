@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 369,
-		"hoenn_oras": 188
+		"coastal_kalos_xy": 42,
+		"hoenn_oras": 188,
+		"alola_usum": 343
 	},
 	"name": {
 		"en": "Relicanth",

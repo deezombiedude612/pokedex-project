@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 64,
+		"central_kalos_xy": 103,
 		"hoenn_oras": 41,
+		"alola_usum": 50,
 		"kanto_lgpe": 64,
 		"galar_isle_of_armor": 32,
 		"sinnoh_bdsp": 21,

@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Wiglett",
-		"jp": "",
+		"jp": "ウミディグダ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Garden Eel Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {

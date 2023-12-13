@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Greavard",
-		"jp": "",
+		"jp": "ボチ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Ghost Dog Pokémon",
 		"type_id": [1, -1],
 		"type": ["ghost"],
 		"abilities": {

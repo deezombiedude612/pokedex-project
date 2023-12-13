@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Chien-pao",
-		"jp": "",
+		"jp": "パオジアン",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Ruinous Pokémon",
 		"type_id": [10, 11],
 		"type": ["dark", "ice"],
 		"abilities": {

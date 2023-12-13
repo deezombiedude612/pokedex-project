@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Nymble",
-		"jp": "",
+		"jp": "マメバッタ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Grasshopper Pokémon",
 		"type_id": [5, -1],
 		"type": ["bug"],
 		"abilities": {

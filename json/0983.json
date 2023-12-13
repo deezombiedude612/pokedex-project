@@ -6,13 +6,13 @@
 	},
 	"name": {
 		"en": "Kingambit",
-		"jp": "",
+		"jp": "ドドゲザン",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Big Blade Pokémon",
 		"type_id": [10, 15],
 		"type": ["dark", "steel"],
 		"abilities": {

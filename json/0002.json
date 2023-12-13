@@ -1,8 +1,10 @@
 {
 	"id": {
 		"national": 2,
+		"central_kalos_xy": 81,
 		"kanto_lgpe": 2,
-		"galar_isle_of_armor": 69
+		"galar_isle_of_armor": 69,
+		"paldea_sv": -1
 	},
 	"name": {
 		"en": "Ivysaur",

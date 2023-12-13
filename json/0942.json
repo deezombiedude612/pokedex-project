@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Maschiff",
-		"jp": "",
+		"jp": "オラチフ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Rascal Pokémon",
 		"type_id": [10, -1],
 		"type": ["dark"],
 		"abilities": {

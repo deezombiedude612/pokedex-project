@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Flutter Mane",
-		"jp": "",
+		"jp": "ハバタクカミ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [1, 17],
 		"type": ["ghost", "fairy"],
 		"abilities": {

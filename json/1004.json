@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Chi-yu",
-		"jp": "",
+		"jp": "イーユイ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Ruinous Pokémon",
 		"type_id": [10, 13],
 		"type": ["dark", "fire"],
 		"abilities": {

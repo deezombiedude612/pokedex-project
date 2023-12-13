@@ -1,6 +1,8 @@
 {
 	"id": {
-		"national": 165
+		"national": 165,
+		"central_kalos_xy": 74,
+		"alola_usum": 20
 	},
 	"name": {
 		"en": "Ledyba",

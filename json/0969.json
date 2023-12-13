@@ -6,13 +6,13 @@
 	},
 	"name": {
 		"en": "Glimmet",
-		"jp": "",
+		"jp": "キラーメ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Ore Pokémon",
 		"type_id": [8, 4],
 		"type": ["rock", "poison"],
 		"abilities": {

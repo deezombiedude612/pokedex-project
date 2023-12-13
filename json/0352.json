@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 352,
-		"hoenn_oras": 150
+		"central_kalos_xy": 116,
+		"hoenn_oras": 150,
+		"alola_usum": 214
 	},
 	"name": {
 		"en": "Kecleon",

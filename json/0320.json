@@ -1,7 +1,9 @@
 {
 	"id": {
 		"national": 320,
+		"coastal_kalos_xy": 27,
 		"hoenn_oras": 104,
+		"alola_usum": 351,
 		"galar_swsh": 356,
 		"galar_isle_of_armor": 190
 	},

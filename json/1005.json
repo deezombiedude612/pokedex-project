@@ -5,13 +5,13 @@
 	},
 	"name": {
 		"en": "Roaring Moon",
-		"jp": "",
+		"jp": "トドロクツキ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Paradox Pokémon",
 		"type_id": [0, 10],
 		"type": ["dragon", "dark"],
 		"abilities": {

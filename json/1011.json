@@ -5,19 +5,19 @@
 	},
 	"name": {
 		"en": "Dipplin",
-		"jp": "",
+		"jp": "カミッチュ",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
+		"desc": "Candy Apple Pokémon",
 		"type_id": [9, 0],
 		"type": ["grass", "dragon"],
 		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false,
+			"ability_1": "Supersweet Syrup",
+			"ability_2": "Gluttony",
+			"hidden_ability": "Sticky Hold",
 			"terastal_ability": false
 		}
 	}
