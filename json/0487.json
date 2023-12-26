@@ -12,17 +12,6 @@
 		"cht": ""
 	},
 	"baby": false,
-	"altered_forme": {
-		"desc": "Renegade Pokémon",
-		"type_id": [1, 0],
-		"type": ["ghost", "dragon"],
-		"abilities": {
-			"ability_1": "Pressure",
-			"ability_2": false,
-			"hidden_ability": "Telepathy",
-			"terastal_ability": false
-		}
-	},
 	"origin_forme": {
 		"desc": "Renegade Pokémon",
 		"type_id": [1, 0],
@@ -31,6 +20,17 @@
 			"ability_1": "Levitate",
 			"ability_2": false,
 			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"altered_forme": {
+		"desc": "Renegade Pokémon",
+		"type_id": [1, 0],
+		"type": ["ghost", "dragon"],
+		"abilities": {
+			"ability_1": "Pressure",
+			"ability_2": false,
+			"hidden_ability": "Telepathy",
 			"terastal_ability": false
 		}
 	}

@@ -10,23 +10,23 @@
 		"cht": ""
 	},
 	"baby": false,
-	"chest_form": {
-		"desc": "Coin Chest Pokémon",
-		"type_id": [1, -1],
-		"type": ["ghost"],
-		"abilities": {
-			"ability_1": "Rattled",
-			"ability_2": false,
-			"hidden_ability": false,
-			"terastal_ability": false
-		}
-	},
 	"roaming_form": {
 		"desc": "Coin Hunter Pokémon",
 		"type_id": [1, -1],
 		"type": ["ghost"],
 		"abilities": {
 			"ability_1": "Run Away",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"chest_form": {
+		"desc": "Coin Chest Pokémon",
+		"type_id": [1, -1],
+		"type": ["ghost"],
+		"abilities": {
+			"ability_1": "Rattled",
 			"ability_2": false,
 			"hidden_ability": false,
 			"terastal_ability": false

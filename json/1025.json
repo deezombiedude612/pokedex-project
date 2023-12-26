@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1025,
+		"blueberry_sv": 243
+	},
+	"name": {
+		"en": "Pecharunt",
+		"jp": "モモワロウ",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "Subjugation Pokémon",
+		"type_id": [4, 1],
+		"type": ["poison", "ghost"],
+		"abilities": {
+			"ability_1": "Poison Puppeteer",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

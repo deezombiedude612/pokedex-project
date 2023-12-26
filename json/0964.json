@@ -10,8 +10,8 @@
 		"cht": ""
 	},
 	"baby": false,
-	"zero_form": {
-		"desc": "Dolphin Pokémon",
+	"hero_form": {
+		"desc": "Hero Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {
@@ -21,8 +21,8 @@
 			"terastal_ability": false
 		}
 	},
-	"hero_form": {
-		"desc": "Hero Pokémon",
+	"zero_form": {
+		"desc": "Dolphin Pokémon",
 		"type_id": [6, -1],
 		"type": ["water"],
 		"abilities": {

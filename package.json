@@ -1,0 +1,12 @@
+{
+	"name": "pokedex",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"server": "php -S localhost:8888 -t ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

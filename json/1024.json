@@ -1,20 +1,43 @@
 {
 	"id": {
-		"national": 1024
+		"national": 1024,
+		"blueberry_sv": 240
 	},
 	"name": {
-		"en": "Archaludon",
-		"jp": "ブリジュラス",
+		"en": "Terapagos",
+		"jp": "テラパゴス",
 		"chs": "",
 		"cht": ""
 	},
 	"baby": false,
 	"default": {
-		"desc": "",
-		"type_id": [15, 0],
-		"type": ["steel", "dragon"],
+		"desc": "Tera Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
 		"abilities": {
-			"ability_1": "",
+			"ability_1": "Tera Shift",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"stellar_form": {
+		"desc": "Tera Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Teraform Zero",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	},
+	"terastal_form": {
+		"desc": "Tera Pokémon",
+		"type_id": [12, -1],
+		"type": ["normal"],
+		"abilities": {
+			"ability_1": "Tera Shell",
 			"ability_2": false,
 			"hidden_ability": false,
 			"terastal_ability": false

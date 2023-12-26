@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1018,
+		"blueberry_sv": 162
+	},
+	"name": {
+		"en": "Archaludon",
+		"jp": "ブリジュラス",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "Alloy Pokémon",
+		"type_id": [15, 0],
+		"type": ["steel", "dragon"],
+		"abilities": {
+			"ability_1": "Stamina",
+			"ability_2": "Sturdy",
+			"hidden_ability": "Stalwart",
+			"terastal_ability": false
+		}
+	}
+}

@@ -11,22 +11,6 @@
 		"cht": "顫弦蠑螈"
 	},
 	"baby": false,
-	"amped_form": {
-		"desc": "Punk Pokémon",
-		"type_id": [7, 4],
-		"type": ["electric", "poison"],
-		"gmax": {
-			"gmax_move": "G-Max Stun Shock",
-			"gmax_type_id": 7,
-			"gmax_type": "electric"
-		},
-		"abilities": {
-			"ability_1": "Punk Rock",
-			"ability_2": "Plus",
-			"hidden_ability": "Technician",
-			"terastal_ability": false
-		}
-	},
 	"low_key_form": {
 		"desc": "Punk Pokémon",
 		"type_id": [7, 4],
@@ -39,6 +23,22 @@
 		"abilities": {
 			"ability_1": "Punk Rock",
 			"ability_2": "Minus",
+			"hidden_ability": "Technician",
+			"terastal_ability": false
+		}
+	},
+	"amped_form": {
+		"desc": "Punk Pokémon",
+		"type_id": [7, 4],
+		"type": ["electric", "poison"],
+		"gmax": {
+			"gmax_move": "G-Max Stun Shock",
+			"gmax_type_id": 7,
+			"gmax_type": "electric"
+		},
+		"abilities": {
+			"ability_1": "Punk Rock",
+			"ability_2": "Plus",
 			"hidden_ability": "Technician",
 			"terastal_ability": false
 		}

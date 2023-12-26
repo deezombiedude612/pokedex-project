@@ -2,7 +2,8 @@
 	"id": {
 		"national": 49,
 		"kanto_lgpe": 49,
-		"paldea_sv": 257
+		"paldea_sv": 257,
+		"blueberry_sv": 9
 	},
 	"name": {
 		"en": "Venomoth",

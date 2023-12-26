@@ -10,17 +10,6 @@
 		"cht": ""
 	},
 	"baby": false,
-	"cornerstone_mask": {
-		"desc": "Mask Pokémon",
-		"type_id": [9, 8],
-		"type": ["grass", "rock"],
-		"abilities": {
-			"ability_1": "",
-			"ability_2": false,
-			"hidden_ability": false,
-			"terastal_ability": "Embody Aspect"
-		}
-	},
 	"heathflame_mask": {
 		"desc": "Mask Pokémon",
 		"type_id": [9, 13],
@@ -47,6 +36,17 @@
 		"desc": "Mask Pokémon",
 		"type_id": [9, 6],
 		"type": ["grass", "water"],
+		"abilities": {
+			"ability_1": "",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": "Embody Aspect"
+		}
+	},
+	"cornerstone_mask": {
+		"desc": "Mask Pokémon",
+		"type_id": [9, 8],
+		"type": ["grass", "rock"],
 		"abilities": {
 			"ability_1": "",
 			"ability_2": false,

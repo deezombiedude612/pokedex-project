@@ -1,7 +1,8 @@
 {
 	"id": {
 		"national": 585,
-		"paldea_sv": 190
+		"paldea_sv": 190,
+		"blueberry_sv": 38
 	},
 	"name": {
 		"en": "Deerling",
@@ -10,17 +11,6 @@
 		"cht": ""
 	},
 	"baby": false,
-	"autumn_form": {
-		"desc": "Season Pokémon",
-		"type_id": [12, 9],
-		"type": ["normal", "grass"],
-		"abilities": {
-			"ability_1": "Chlorophyll",
-			"ability_2": "Sap Sipper",
-			"hidden_ability": "Serene Grace",
-			"terastal_ability": false
-		}
-	},
 	"spring_form": {
 		"desc": "Season Pokémon",
 		"type_id": [12, 9],
@@ -44,6 +34,17 @@
 		}
 	},
 	"winter_form": {
+		"desc": "Season Pokémon",
+		"type_id": [12, 9],
+		"type": ["normal", "grass"],
+		"abilities": {
+			"ability_1": "Chlorophyll",
+			"ability_2": "Sap Sipper",
+			"hidden_ability": "Serene Grace",
+			"terastal_ability": false
+		}
+	},
+	"autumn_form": {
 		"desc": "Season Pokémon",
 		"type_id": [12, 9],
 		"type": ["normal", "grass"],

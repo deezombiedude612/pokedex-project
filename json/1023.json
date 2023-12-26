@@ -1,0 +1,24 @@
+{
+	"id": {
+		"national": 1023,
+		"blueberry_sv": 238
+	},
+	"name": {
+		"en": "Iron Crown",
+		"jp": "テツノカシラ",
+		"chs": "",
+		"cht": ""
+	},
+	"baby": false,
+	"default": {
+		"desc": "Paradox Pokémon",
+		"type_id": [15, 16],
+		"type": ["steel", "psychic"],
+		"abilities": {
+			"ability_1": "Quark Drive",
+			"ability_2": false,
+			"hidden_ability": false,
+			"terastal_ability": false
+		}
+	}
+}

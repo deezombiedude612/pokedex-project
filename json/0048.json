@@ -2,7 +2,8 @@
 	"id": {
 		"national": 48,
 		"kanto_lgpe": 48,
-		"paldea_sv": 256
+		"paldea_sv": 256,
+		"blueberry_sv": 8
 	},
 	"name": {
 		"en": "Venonat",

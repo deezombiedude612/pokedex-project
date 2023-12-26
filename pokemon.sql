@@ -1100,13 +1100,14 @@ INSERT INTO `pokemon_list`(`name`, `jp_name`, `chs_name`, `cht_name`) VALUES
 ("MUNKIDORI", "マシマシラ", "", ""),
 ("FEZANDIPITI", "キチキギス", "", ""),
 ("OGERPON", "オーガポン", "", ""),
-("Paradox Entei", "", "", ""),
+("ARCHALUDON", "ブリジュラス", "", ""),
+("HYDRAPPLE", "カミツオロチ", "", ""),
+("GOUGING FIRE", "ウガツホムラ", "", ""),
 ("RAGING BOLT", "タケルライコ", "", ""),
+("IRON BOULDER", "テツノイワオ", "", ""),
 ("IRON CROWN", "テツノカシラ", "", ""),
-("Paradox Terrakion", "", "", ""),
 ("TERAPAGOS", "テラパゴス", "", ""),
-("Dokutaro", "", "", ""),
-("ARCHALUDON", "ブリジュラス", "", "")
+("PECHARUNT", "モモワロウ", "", "")
 ;
 
 -- BABY POKEMON
@@ -3706,50 +3707,14 @@ INSERT INTO `regional_dex` VALUES
 
 -- Paldea Not in Dex (Scarlet and Violet)
 INSERT INTO `regional_dex` (`dex_name`, `national_id`) VALUES 
-("paldea_sv", 1),		-- BULBASAUR
-("paldea_sv", 2),		-- IVYSAUR
-("paldea_sv", 3),		-- VENUSAUR
-("paldea_sv", 4),		-- CHAMANDER
-("paldea_sv", 5),		-- CHARMELEON
-("paldea_sv", 6),		-- CHARIZARD
-("paldea_sv", 7),		-- SQUIRTLE
-("paldea_sv", 8),		-- WARTOTLE
-("paldea_sv", 9),		-- BLASTOISE
 ("paldea_sv", 144),		-- ARTICUNO
 ("paldea_sv", 145),		-- ZAPDOS
 ("paldea_sv", 146),		-- MOLTRES
 ("paldea_sv", 150),		-- MEWTWO
 ("paldea_sv", 151),		-- MEW
-("paldea_sv", 152),		-- CHIKORITA
-("paldea_sv", 153),		-- BAYLEEF
-("paldea_sv", 154),		-- MEGANIUM
-("paldea_sv", 155),		-- CYNDAQUIL
-("paldea_sv", 156),		-- QUILAVA
-("paldea_sv", 157),		-- TYPHLOSION
-("paldea_sv", 158),		-- TOTODILE
-("paldea_sv", 159),		-- CROCONAW
-("paldea_sv", 160),		-- FERALIGATR
-("paldea_sv", 252),		-- TREECKO
-("paldea_sv", 253),		-- GROVYLE
-("paldea_sv", 254),		-- SCEPTILE
-("paldea_sv", 255),		-- TORCHIC
-("paldea_sv", 256),		-- COMBUSKEN
-("paldea_sv", 257),		-- BLAZIKEN
-("paldea_sv", 258),		-- MUDKIP
-("paldea_sv", 259),		-- MARSHTOMP
-("paldea_sv", 260),		-- SWAMPERT
 ("paldea_sv", 382),		-- KYOGRE
 ("paldea_sv", 383),		-- GROUDON
 ("paldea_sv", 384),		-- RAYQUAZA
-("paldea_sv", 387),		-- TURTWIG
-("paldea_sv", 388),		-- GROTLE
-("paldea_sv", 389),		-- TORTERRA
-("paldea_sv", 390),		-- CHIMCHAR
-("paldea_sv", 391),		-- MONFERNO
-("paldea_sv", 392),		-- INFERNAPE
-("paldea_sv", 393),		-- PIPLUP
-("paldea_sv", 394),		-- PRINPLUP
-("paldea_sv", 395),		-- EMPOLEON
 ("paldea_sv", 480),		-- UXIE
 ("paldea_sv", 481),		-- MESPRIT
 ("paldea_sv", 482),		-- AZELF
@@ -3758,50 +3723,14 @@ INSERT INTO `regional_dex` (`dex_name`, `national_id`) VALUES
 ("paldea_sv", 485),		-- HEATRAN
 ("paldea_sv", 487),		-- GIRATINA
 ("paldea_sv", 493),		-- ARCEUS
-("paldea_sv", 495),		-- SNIVY
-("paldea_sv", 496),		-- SERVINE
-("paldea_sv", 497),		-- SERPERIOR
-("paldea_sv", 498),		-- TEPIG
-("paldea_sv", 499),		-- PIGNITE
-("paldea_sv", 500),		-- EMBOAR
-("paldea_sv", 501),		-- OSHAWOTT
-("paldea_sv", 502),		-- DEWOTT
-("paldea_sv", 503),		-- SAMUROTT
 ("paldea_sv", 641),		-- TORNADUS
 ("paldea_sv", 642),		-- THUNDRUS
 ("paldea_sv", 643),		-- LANDORUS
 ("paldea_sv", 648),		-- MELOETTA
-("paldea_sv", 650),		-- CHESPIN
-("paldea_sv", 651),		-- QUILLADIN
-("paldea_sv", 652),		-- CHESNAUGHT
-("paldea_sv", 653),		-- FENNEKIN
-("paldea_sv", 654),		-- BRAIXEN
-("paldea_sv", 655),		-- DELPHOX
-("paldea_sv", 656),		-- FROAKIE
-("paldea_sv", 657),		-- FROGADIER
-("paldea_sv", 658),		-- GRENINJA
 ("paldea_sv", 719),		-- DIANCIE
 ("paldea_sv", 720),		-- HOOPA
 ("paldea_sv", 721),		-- VOLCANION
-("paldea_sv", 722),		-- ROWLET
-("paldea_sv", 723),		-- DARTRIX
-("paldea_sv", 724),		-- DECIDUEYE
-("paldea_sv", 725),		-- LITTEN
-("paldea_sv", 726),		-- TORRACAT
-("paldea_sv", 727),		-- INCINEROAR
-("paldea_sv", 728),		-- POPPLIO
-("paldea_sv", 729),		-- BRIONNE
-("paldea_sv", 730),		-- PRIMARINA
 ("paldea_sv", 801),		-- MAGEARNA
-("paldea_sv", 810),		-- GROOKEY
-("paldea_sv", 811),		-- THWACKEY
-("paldea_sv", 812),		-- RILLABOOM
-("paldea_sv", 813),		-- SCORBUNNY
-("paldea_sv", 814),		-- RABOOT
-("paldea_sv", 815),		-- CINDERACE
-("paldea_sv", 816),		-- SOBBLE
-("paldea_sv", 817),		-- DRIZZILE
-("paldea_sv", 818),		-- INTELEON
 ("paldea_sv", 863),		-- PERRSERKER
 ("paldea_sv", 888),		-- ZACIAN
 ("paldea_sv", 889),		-- ZAMAZENTA
@@ -3815,12 +3744,8 @@ INSERT INTO `regional_dex` (`dex_name`, `national_id`) VALUES
 ("paldea_sv", 897),		-- SPECTRIER
 ("paldea_sv", 898),		-- CALYREX
 ("paldea_sv", 899),		-- WYRDEER
-("paldea_sv", 900),		-- KLEAVOR
 ("paldea_sv", 903),		-- SNEASLER
-("paldea_sv", 904),		-- OVERQWIL
-("paldea_sv", 905),		-- ENAMORUS
-("paldea_sv", 1009),	-- WALKING WAKE
-("paldea_sv", 1010)		-- IRON LEAVES
+("paldea_sv", 905)		-- ENAMORUS
 ;
 
 -- Paldea Dex Number (Scarlet and Violet)
@@ -4432,10 +4357,251 @@ INSERT INTO `regional_dex` VALUES
 ;
 
 -- Blueberry Acad. (Unova) Dex Number (Scarlet and Violet DLC 2: The Indigo Disk)
--- INSERT INTO `regional_dex` VALUES
--- ("blueberry_sv", 199, 1016),
--- ("blueberry_sv", 200, 1017)
--- ;
+INSERT INTO `regional_dex` VALUES
+("blueberry_sv", 1, 84),
+("blueberry_sv", 2, 85),
+("blueberry_sv", 3, 102),
+("blueberry_sv", 4, 103),
+("blueberry_sv", 5, 111),
+("blueberry_sv", 6, 112),
+("blueberry_sv", 7, 464),
+("blueberry_sv", 8, 48),
+("blueberry_sv", 9, 49),
+("blueberry_sv", 10, 239),
+("blueberry_sv", 11, 125),
+("blueberry_sv", 12, 466),
+("blueberry_sv", 13, 240),
+("blueberry_sv", 14, 126),
+("blueberry_sv", 15, 467),
+("blueberry_sv", 16, 440),
+("blueberry_sv", 17, 113),
+("blueberry_sv", 18, 242),
+("blueberry_sv", 19, 123),
+("blueberry_sv", 20, 212),
+("blueberry_sv", 21, 900),
+("blueberry_sv", 22, 128),
+("blueberry_sv", 23, 522),
+("blueberry_sv", 24, 523),
+("blueberry_sv", 25, 203),
+("blueberry_sv", 26, 981),
+("blueberry_sv", 27, 551),
+("blueberry_sv", 28, 552),
+("blueberry_sv", 29, 553),
+("blueberry_sv", 30, 953),
+("blueberry_sv", 31, 954),
+("blueberry_sv", 32, 627),
+("blueberry_sv", 33, 628),
+("blueberry_sv", 34, 629),
+("blueberry_sv", 35, 630),
+("blueberry_sv", 36, 667),
+("blueberry_sv", 37, 668),
+("blueberry_sv", 38, 585),
+("blueberry_sv", 39, 586),
+("blueberry_sv", 40, 235),
+("blueberry_sv", 41, 479),
+("blueberry_sv", 42, 868),
+("blueberry_sv", 43, 869),
+("blueberry_sv", 44, 328),
+("blueberry_sv", 45, 329),
+("blueberry_sv", 46, 330),
+("blueberry_sv", 47, 731),
+("blueberry_sv", 48, 732),
+("blueberry_sv", 49, 733),
+("blueberry_sv", 50, 72),
+("blueberry_sv", 51, 73),
+("blueberry_sv", 52, 116),
+("blueberry_sv", 53, 117),
+("blueberry_sv", 54, 230),
+("blueberry_sv", 55, 779),
+("blueberry_sv", 56, 546),
+("blueberry_sv", 57, 547),
+("blueberry_sv", 58, 764),
+("blueberry_sv", 59, 287),
+("blueberry_sv", 60, 288),
+("blueberry_sv", 61, 289),
+("blueberry_sv", 62, 43),
+("blueberry_sv", 63, 44),
+("blueberry_sv", 64, 45),
+("blueberry_sv", 65, 182),
+("blueberry_sv", 66, 50),
+("blueberry_sv", 67, 51),
+("blueberry_sv", 68, 88),
+("blueberry_sv", 69, 89),
+("blueberry_sv", 70, 335),
+("blueberry_sv", 71, 336),
+("blueberry_sv", 72, 739),
+("blueberry_sv", 73, 740),
+("blueberry_sv", 74, 741),
+("blueberry_sv", 75, 79),
+("blueberry_sv", 76, 80),
+("blueberry_sv", 77, 199),
+("blueberry_sv", 78, 170),
+("blueberry_sv", 79, 171),
+("blueberry_sv", 80, 686),
+("blueberry_sv", 81, 687),
+("blueberry_sv", 82, 370),
+("blueberry_sv", 83, 456),
+("blueberry_sv", 84, 457),
+("blueberry_sv", 85, 594),
+("blueberry_sv", 86, 324),
+("blueberry_sv", 87, 661),
+("blueberry_sv", 88, 662),
+("blueberry_sv", 89, 663),
+("blueberry_sv", 90, 751),
+("blueberry_sv", 91, 752),
+("blueberry_sv", 92, 236),
+("blueberry_sv", 93, 106),
+("blueberry_sv", 94, 107),
+("blueberry_sv", 95, 237),
+("blueberry_sv", 96, 74),
+("blueberry_sv", 97, 75),
+("blueberry_sv", 98, 76),
+("blueberry_sv", 99, 529),
+("blueberry_sv", 100, 530),
+("blueberry_sv", 101, 574),
+("blueberry_sv", 102, 575),
+("blueberry_sv", 103, 576),
+("blueberry_sv", 104, 677),
+("blueberry_sv", 105, 678),
+("blueberry_sv", 106, 774),
+("blueberry_sv", 107, 408),
+("blueberry_sv", 108, 409),
+("blueberry_sv", 109, 410),
+("blueberry_sv", 110, 411),
+("blueberry_sv", 111, 572),
+("blueberry_sv", 112, 573),
+("blueberry_sv", 113, 227),
+("blueberry_sv", 114, 333),
+("blueberry_sv", 115, 334),
+("blueberry_sv", 116, 81),
+("blueberry_sv", 117, 82),
+("blueberry_sv", 118, 462),
+("blueberry_sv", 119, 311),
+("blueberry_sv", 120, 312),
+("blueberry_sv", 121, 559),
+("blueberry_sv", 122, 560),
+("blueberry_sv", 123, 622),
+("blueberry_sv", 124, 623),
+("blueberry_sv", 125, 322),
+("blueberry_sv", 126, 323),
+("blueberry_sv", 127, 854),
+("blueberry_sv", 128, 855),
+("blueberry_sv", 129, 137),
+("blueberry_sv", 130, 233),
+("blueberry_sv", 131, 474),
+("blueberry_sv", 132, 595),
+("blueberry_sv", 133, 596),
+("blueberry_sv", 134, 602),
+("blueberry_sv", 135, 603),
+("blueberry_sv", 136, 604),
+("blueberry_sv", 137, 374),
+("blueberry_sv", 138, 375),
+("blueberry_sv", 139, 376),
+("blueberry_sv", 140, 610),
+("blueberry_sv", 141, 611),
+("blueberry_sv", 142, 612),
+("blueberry_sv", 143, 86),
+("blueberry_sv", 144, 87),
+("blueberry_sv", 145, 131),
+("blueberry_sv", 146, 211),
+("blueberry_sv", 147, 904),
+("blueberry_sv", 148, 577),
+("blueberry_sv", 149, 578),
+("blueberry_sv", 150, 579),
+("blueberry_sv", 151, 209),
+("blueberry_sv", 152, 210),
+("blueberry_sv", 153, 613),
+("blueberry_sv", 154, 614),
+("blueberry_sv", 155, 27),
+("blueberry_sv", 156, 28),
+("blueberry_sv", 157, 37),
+("blueberry_sv", 158, 38),
+("blueberry_sv", 159, 459),
+("blueberry_sv", 160, 460),
+("blueberry_sv", 161, 884),
+("blueberry_sv", 162, 1018),
+("blueberry_sv", 163, 1019),
+("blueberry_sv", 164, 1),
+("blueberry_sv", 165, 2),
+("blueberry_sv", 166, 3),
+("blueberry_sv", 167, 4),
+("blueberry_sv", 168, 5),
+("blueberry_sv", 169, 6),
+("blueberry_sv", 170, 7),
+("blueberry_sv", 171, 8),
+("blueberry_sv", 172, 9),
+("blueberry_sv", 173, 152),
+("blueberry_sv", 174, 153),
+("blueberry_sv", 175, 154),
+("blueberry_sv", 176, 155),
+("blueberry_sv", 177, 156),
+("blueberry_sv", 178, 157),
+("blueberry_sv", 179, 158),
+("blueberry_sv", 180, 159),
+("blueberry_sv", 181, 160),
+("blueberry_sv", 182, 252),
+("blueberry_sv", 183, 253),
+("blueberry_sv", 184, 254),
+("blueberry_sv", 185, 255),
+("blueberry_sv", 186, 256),
+("blueberry_sv", 187, 257),
+("blueberry_sv", 188, 258),
+("blueberry_sv", 189, 259),
+("blueberry_sv", 190, 260),
+("blueberry_sv", 191, 387),
+("blueberry_sv", 192, 388),
+("blueberry_sv", 193, 389),
+("blueberry_sv", 194, 390),
+("blueberry_sv", 195, 391),
+("blueberry_sv", 196, 392),
+("blueberry_sv", 197, 393),
+("blueberry_sv", 198, 394),
+("blueberry_sv", 199, 395),
+("blueberry_sv", 200, 495),
+("blueberry_sv", 201, 496),
+("blueberry_sv", 202, 497),
+("blueberry_sv", 203, 498),
+("blueberry_sv", 204, 499),
+("blueberry_sv", 205, 500),
+("blueberry_sv", 206, 501),
+("blueberry_sv", 207, 502),
+("blueberry_sv", 208, 503),
+("blueberry_sv", 209, 650),
+("blueberry_sv", 210, 651),
+("blueberry_sv", 211, 652),
+("blueberry_sv", 212, 653),
+("blueberry_sv", 213, 654),
+("blueberry_sv", 214, 655),
+("blueberry_sv", 215, 656),
+("blueberry_sv", 216, 657),
+("blueberry_sv", 217, 658),
+("blueberry_sv", 218, 722),
+("blueberry_sv", 219, 723),
+("blueberry_sv", 220, 724),
+("blueberry_sv", 221, 725),
+("blueberry_sv", 222, 726),
+("blueberry_sv", 223, 727),
+("blueberry_sv", 224, 728),
+("blueberry_sv", 225, 729),
+("blueberry_sv", 226, 730),
+("blueberry_sv", 227, 810),
+("blueberry_sv", 228, 811),
+("blueberry_sv", 229, 812),
+("blueberry_sv", 230, 813),
+("blueberry_sv", 231, 814),
+("blueberry_sv", 232, 815),
+("blueberry_sv", 233, 816),
+("blueberry_sv", 234, 817),
+("blueberry_sv", 235, 818),
+("blueberry_sv", 236, 1020),
+("blueberry_sv", 237, 1021),
+("blueberry_sv", 238, 1023),
+("blueberry_sv", 239, 1022),
+("blueberry_sv", 240, 1024),
+("blueberry_sv", 241, 1009),
+("blueberry_sv", 242, 1010),
+("blueberry_sv", 243, 1025)
+;
 
 DROP TABLE IF EXISTS `pokemon_desc`;
 CREATE TABLE `pokemon_desc` (
@@ -5211,6 +5377,9 @@ INSERT INTO `pokemon_desc`(`desc`) VALUES
 ("Matcha Pokémon"),
 ("Retainer Pokémon"),
 ("Mask Pokémon"),
+("Apple Hydra Pokémon"),
+("Tera Pokémon"),
+("Subjugation Pokémon"),
 
 ("")		-- keep this for future pending entries
 ;
@@ -5549,7 +5718,11 @@ INSERT INTO `ability`(`ability_name`, `effect`) VALUES
 ("Mind's Eye", "The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves."),
 ("Embody Aspect", "The Pokémon's heart fills with memories, causing the Teal/Hearthflame/Wellspring/Cornerstone Mask to shine and the Pokémon's Speed/Attack/Sp. Def/Defense stat to be boosted."),
 ("Toxic Chain", "The power of the Pokémon's toxic chain may badly poison any target the Pokémon hits with a move."),
-("Supersweet Syrup", "A sickly sweet scent spreads across the field the first time the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon.")
+("Supersweet Syrup", "A sickly sweet scent spreads across the field the first time the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon."),
+("Tera Shift", "When the Pokémon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form."),
+("Tera Shell", "The Pokémon's shell contains the powers of each type. All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective."),
+("Teraform Zero", "	When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero."),
+("Poison Puppeteer", "Pokémon poisoned by Pecharunt's moves will also become confused.")
 ;
 
 -- Z-move (Generation 7 only)
@@ -6849,13 +7022,14 @@ INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`) VALUES
 (1015, 4, 16),		-- #1015 MUNKIDORI
 (1016, 4, 17),		-- #1016 FEZANDIPITI
 -- #1017 OGERPON to be entered separately
--- (1018, , ),		-- #1018
-(1019, 7, 0),		-- #1019 RAGING BOLT
-(1020, 15, 16),		-- #1020 IRON CROWN
--- (1021, , ),		-- #1021
--- (1022, , ),		-- #1022 TERAPAGOS
--- (1023, , ),		-- #1023
-(1024, 15, 0)		-- #1024 ARCHALUDON
+(1018, 15, 0),		-- #1018 ARCHALUDON
+(1019, 9, 0),		-- #1019 HYDRAPPLE
+(1020, 13, 0),		-- #1020 GOUGING FIRE
+(1021, 7, 0),		-- #1021 RAGING BOLT
+(1022, 8, 16),		-- #1022 IRON BOULDER
+(1023, 15, 16),		-- #1023 IRON CROWN
+(1024, 12, NULL),	-- #1024 TERAPAGOS's other forms to be entered separately
+(1025, 4, 1)		-- #1025 PECHARUNT
 ;
 
 -- #916 OINKOLOGNE
@@ -6888,6 +7062,10 @@ INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1017, 9, 6, "wellspring_mask", "");
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1017, 9, 13, "heathflame_mask", "");
 INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1017, 9, 8, "cornerstone_mask", "");
+
+-- #1024 TERAPAGOS
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1024, 12, NULL, "terastal_form", "");
+INSERT INTO `type_bundle`(`pokedex_ref`, `type1`, `type2`, `type_name`, `jp_type_desc`) VALUES (1024, 12, NULL, "stellar_form", "");
 
 -- megas
 INSERT INTO `type_bundle`(`type_name`, `type1`, `type2`, `pokedex_ref`, `mega_stone`) VALUES
@@ -7713,7 +7891,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 633) WHERE `pokedex_ref` IN (874);						-- Big Rock
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 634) WHERE `pokedex_ref` IN (877);						-- Two-Sided
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 635) WHERE `pokedex_ref` IN (878, 879);					-- Copperderm
-UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 636) WHERE `pokedex_ref` IN (884);						-- Alloy
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 636) WHERE `pokedex_ref` IN (884, 1018);						-- Alloy
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 637) WHERE `pokedex_ref` IN (885);						-- Lingering
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 638) WHERE `pokedex_ref` IN (886);						-- Caretaker
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 639) WHERE `pokedex_ref` IN (887);						-- Stealth
@@ -7806,7 +7984,7 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 717) WHERE `pokedex_ref` IN (980);						-- Spiny Fish
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 718) WHERE `pokedex_ref` IN (983);						-- Big Blade
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 719) WHERE `pokedex_ref` IN (
-984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 1005, 1006, 1007, 1008, 1009, 1010);		-- Paradox
+984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 1005, 1006, 1007, 1008, 1009, 1010, 1020, 1021, 1022, 1023);		-- Paradox
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 720) WHERE `pokedex_ref` IN (996, 997);					-- Ice Fin
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 721) WHERE `pokedex_ref` IN (998);						-- Ice Dragon
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 722) WHERE `pokedex_ref` IN (999) AND INSTR(`type_name`, "chest_form") > 0;			-- Coin Chest
@@ -7817,6 +7995,9 @@ UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE 
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 727) WHERE `pokedex_ref` IN (1012, 1013);				-- Matcha
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 728) WHERE `pokedex_ref` IN (1014, 1015, 1016);			-- Retainer
 UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 729) WHERE `pokedex_ref` IN (1017);						-- Mask
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 730) WHERE `pokedex_ref` IN (1019);						-- Apple Hydra
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 731) WHERE `pokedex_ref` IN (1024);						-- Apple Hydra
+UPDATE `type_bundle` SET `type_desc` = (SELECT `desc` FROM `pokemon_desc` WHERE `id` = 732) WHERE `pokedex_ref` IN (1025);						-- Apple Hydra
 
 -- insert exclusive Z-moves
 -- UPDATE `type_bundle` SET `excl_z_ref` = 1 WHERE `pokedex_ref` = 25 AND INSTR(`type_name`, "cap");						-- 10,000,000 Volt Thunderbolt (Cap Pikachu)
@@ -7968,7 +8149,8 @@ UPDATE `type_bundle` SET `ability2` = 5 WHERE
 (`pokedex_ref` = 565 AND `type_name` = "default") OR		-- Carracosta
 (`pokedex_ref` = 932 AND `type_name` = "default") OR		-- Nacli
 (`pokedex_ref` = 933 AND `type_name` = "default") OR		-- Naclstack
-(`pokedex_ref` = 934 AND `type_name` = "default");			-- Garganacl
+(`pokedex_ref` = 934 AND `type_name` = "default") OR		-- Garganacl
+(`pokedex_ref` = 1018 AND `type_name` = "default");			-- Archaludon
 UPDATE `type_bundle` SET `hidden_ability` = 5 WHERE
 (`pokedex_ref` = 369 AND `type_name` = "default") OR		-- Relicanth
 (`pokedex_ref` = 377 AND `type_name` = "default") OR		-- Regirock
@@ -9230,7 +9412,8 @@ UPDATE `type_bundle` SET `ability2` = 60 WHERE
 (`pokedex_ref` = 568 AND `type_name` = "default") OR	-- Trubbish
 (`pokedex_ref` = 617 AND `type_name` = "default");		-- Accelgor
 UPDATE `type_bundle` SET `hidden_ability` = 60 WHERE
-(`pokedex_ref` = 1011 AND `type_name` = "default");		-- Dipplin
+(`pokedex_ref` = 1011 AND `type_name` = "default") OR	-- Dipplin
+(`pokedex_ref` = 1019 AND `type_name` = "default");		-- Hydrapple
 
 -- Shed Skin
 UPDATE `type_bundle` SET `ability1` = 61 WHERE
@@ -10662,7 +10845,8 @@ UPDATE `type_bundle` SET `ability2` = 144 WHERE
 (`pokedex_ref` = 619 AND `type_name` = "default") OR	-- Mienfoo
 (`pokedex_ref` = 620 AND `type_name` = "default") OR	-- Mienshao
 (`pokedex_ref` = 829 AND `type_name` = "default") OR	-- Gossifleur
-(`pokedex_ref` = 830 AND `type_name` = "default");		-- Eldegoss
+(`pokedex_ref` = 830 AND `type_name` = "default") OR	-- Eldegoss
+(`pokedex_ref` = 1019 AND `type_name` = "default");		-- Hydrapple
 UPDATE `type_bundle` SET `hidden_ability` = 144 WHERE
 (`pokedex_ref` = 79 AND `type_name` = "default") OR			-- Slowpoke
 (`pokedex_ref` = 79 AND `type_name` = "galar_variant") OR	-- Slowpoke (Galar)
@@ -11183,7 +11367,8 @@ UPDATE `type_bundle` SET `ability1` = 191 WHERE
 
 -- Stamina
 UPDATE `type_bundle` SET `ability1` = 192 WHERE
-(`pokedex_ref` = 966 AND `type_name` = "caph_starmobile");		-- Revavroom (Caph Starmobile)
+(`pokedex_ref` = 966 AND `type_name` = "caph_starmobile") OR	-- Revavroom (Caph Starmobile)
+(`pokedex_ref` = 1018 AND `type_name` = "default");				-- Archaludon
 UPDATE `type_bundle` SET `ability2` = 192 WHERE
 (`pokedex_ref` = 749 AND `type_name` = "default") OR			-- Mudbray
 (`pokedex_ref` = 750 AND `type_name` = "default");				-- Mudsdale
@@ -11459,7 +11644,8 @@ UPDATE `type_bundle` SET `ability1` = 241 WHERE
 
 -- Stalwart
 UPDATE `type_bundle` SET `hidden_ability` = 242 WHERE
-(`pokedex_ref` = 884 AND `type_name` = "default");		-- Duraludon
+(`pokedex_ref` = 884 AND `type_name` = "default") OR	-- Duraludon
+(`pokedex_ref` = 1018 AND `type_name` = "default");		-- Archaludon
 
 -- Steam Engine
 UPDATE `type_bundle` SET `ability1` = 243 WHERE
@@ -11641,7 +11827,9 @@ UPDATE `type_bundle` SET `ability1` = 280 WHERE
 (`pokedex_ref` = 988 AND `type_name` = "default") OR	-- Slither Wing
 (`pokedex_ref` = 989 AND `type_name` = "default") OR	-- Sandy Shocks
 (`pokedex_ref` = 1005 AND `type_name` = "default") OR	-- Roaring Moon
-(`pokedex_ref` = 1009 AND `type_name` = "default");		-- Walking Wake
+(`pokedex_ref` = 1009 AND `type_name` = "default") OR	-- Walking Wake
+(`pokedex_ref` = 1020 AND `type_name` = "default") OR	-- Gouging Fire
+(`pokedex_ref` = 1021 AND `type_name` = "default");		-- Raging Bolt
 
 -- Quark Drive (281)
 UPDATE `type_bundle` SET `ability1` = 281 WHERE
@@ -11652,7 +11840,9 @@ UPDATE `type_bundle` SET `ability1` = 281 WHERE
 (`pokedex_ref` = 994 AND `type_name` = "default") OR	-- Iron Moth
 (`pokedex_ref` = 995 AND `type_name` = "default") OR	-- Iron Thorns
 (`pokedex_ref` = 1006 AND `type_name` = "default") OR	-- Iron Valiant
-(`pokedex_ref` = 1010 AND `type_name` = "default");		-- Iron Leaves
+(`pokedex_ref` = 1010 AND `type_name` = "default") OR	-- Iron Leaves
+(`pokedex_ref` = 1022 AND `type_name` = "default") OR	-- Iron Boulder
+(`pokedex_ref` = 1023 AND `type_name` = "default");		-- Iron Crown
 
 -- Good as Gold (282)
 UPDATE `type_bundle` SET `ability1` = 282 WHERE
@@ -11750,7 +11940,29 @@ UPDATE `type_bundle` SET `ability1` = 301 WHERE
 
 -- Supersweet Syrup (302)
 UPDATE `type_bundle` SET `ability1` = 302 WHERE
-(`pokedex_ref` = 1011 AND `type_name` = "default");			-- Dipplin
+(`pokedex_ref` = 1011 AND `type_name` = "default") OR		-- Dipplin
+(`pokedex_ref` = 1019 AND `type_name` = "default");			-- Hydrapple
+
+-- Supersweet Syrup (302)
+UPDATE `type_bundle` SET `ability1` = 302 WHERE
+(`pokedex_ref` = 1011 AND `type_name` = "default") OR		-- Dipplin
+(`pokedex_ref` = 1019 AND `type_name` = "default");			-- Hydrapple
+
+-- Tera Shift (303)
+UPDATE `type_bundle` SET `ability1` = 303 WHERE
+(`pokedex_ref` = 1024 AND `type_name` = "default");			-- Terapagos
+
+-- Tera Shell (304)
+UPDATE `type_bundle` SET `ability1` = 304 WHERE
+(`pokedex_ref` = 1024 AND `type_name` = "terastal_form");	-- Terapagos (Terastal Form)
+
+-- Teraform Zero (305)
+UPDATE `type_bundle` SET `ability1` = 305 WHERE
+(`pokedex_ref` = 1024 AND `type_name` = "stellar_form");	-- Terapagos (Stellar Form)
+
+-- Poison Puppeteer (306)
+UPDATE `type_bundle` SET `ability1` = 306 WHERE
+(`pokedex_ref` = 1025 AND `type_name` = "default");			-- Pecharunt
 
 DROP TABLE IF EXISTS `base_stats`;
 CREATE TABLE `base_stats` (
